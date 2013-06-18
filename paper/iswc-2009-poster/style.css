@@ -1,0 +1,51 @@
+body {
+  background-color: white;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#header {
+  margin-bottom: 5ex;
+}
+
+#header img {
+  float: left;
+  margin-bottom: 4ex;
+}
+
+#header h1 {
+  float: right;
+  color: #81cdef;
+  font-size: 150%;
+  font-weight: bold;
+  margin-bottom: 4ex;
+}
+
+h2 {
+  font-size: 125%;
+  font-weight: bold;
+  clear: both;
+}
+
+h3 {
+  font-size: 100%;
+  font-weight: bold;
+  margin-left: 2ex;
+  clear: both;
+}
+
+#submissions > li {
+  margin-top: 0.5em;
+}
+
+#affil {
+  font-size: 80%;
+  font-style: oblique;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+  border: 0;
+}
