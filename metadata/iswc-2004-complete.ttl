@@ -17,7 +17,7 @@
 <http://data.semanticweb.org/conference/iswc/2004/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2005 beta (2013-06-18)" ;
-    dcterms:modified "2013-06-18T12:43:39.902265"^^xsd:datetime ;
+    dcterms:modified "2013-06-18T23:02:26.642483"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-01/author_list> a rdf:Seq ;
@@ -1647,9 +1647,9 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-02/author_list> ;
     swrc:author <http://data.semanticweb.org/person/jeen-broekstra-and-arjohn-kampman> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/03/index.html> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-03.pdf> ;
     swrc:listAuthor "Jeen Broekstra and Arjohn Kampman" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/03/index.html> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-03.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/jeen-broekstra-and-arjohn-kampman> .
 
@@ -1661,9 +1661,9 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-03/author_list> ;
     swrc:author <http://data.semanticweb.org/person/marja-riitta-koivunen> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/04/index.html> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-04.pdf> ;
     swrc:listAuthor "Marja-Riitta Koivunen" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/04/index.html> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-04.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/marja-riitta-koivunen> .
 
@@ -1675,9 +1675,9 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-06/author_list> ;
     swrc:author <http://data.semanticweb.org/person/cormac-twomey-and-todd-koym> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/07/index.html> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-07.pdf> ;
     swrc:listAuthor "Cormac Twomey and Todd Koym" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/07/index.html> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-07.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/cormac-twomey-and-todd-koym> .
 
@@ -1689,9 +1689,9 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-10/author_list> ;
     swrc:author <http://data.semanticweb.org/person/michihiro-yamamoto-and-ng-s-t-chong> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/13/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-13.pdf> ;
     swrc:listAuthor "Michihiro Yamamoto and Ng S. T. Chong" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/13/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-13.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/michihiro-yamamoto-and-ng-s-t-chong> .
 
@@ -1703,9 +1703,9 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-11/author_list> ;
     swrc:author <http://data.semanticweb.org/person/paul-buitelaar-and-michael-sintek> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/15/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-15.pdf> ;
     swrc:listAuthor "Paul Buitelaar and Michael Sintek" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/15/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-15.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/paul-buitelaar-and-michael-sintek> .
 
@@ -1717,9 +1717,9 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-13/author_list> ;
     swrc:author <http://data.semanticweb.org/person/sebastian-r-kruk> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/18/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-18.pdf> ;
     swrc:listAuthor "Sebastian R. Kruk" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/18/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-18.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/sebastian-r-kruk> .
 
@@ -1731,9 +1731,9 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-14/author_list> ;
     swrc:author <http://data.semanticweb.org/person/lars-marius-garshol> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/19/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-19.pdf> ;
     swrc:listAuthor "Lars Marius Garshol" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/19/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-19.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/lars-marius-garshol> .
 
@@ -1745,9 +1745,9 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-17/author_list> ;
     swrc:author <http://data.semanticweb.org/person/leo-sauermann> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/24/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-24.pdf> ;
     swrc:listAuthor "Leo Sauermann" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/24/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-24.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/leo-sauermann> .
 
@@ -1759,9 +1759,9 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-19/author_list> ;
     swrc:author <http://data.semanticweb.org/person/mikko-laukkanen-and-heikki-helin> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/22/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-22.pdf> ;
     swrc:listAuthor "Mikko Laukkanen and Heikki Helin" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/22/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-22.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/mikko-laukkanen-and-heikki-helin> .
 
@@ -1773,9 +1773,9 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-20/author_list> ;
     swrc:author <http://data.semanticweb.org/person/thorsten-liebig-and-olaf-noppens> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/23/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-23.pdf> ;
     swrc:listAuthor "Thorsten Liebig and Olaf Noppens" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/23/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-23.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/thorsten-liebig-and-olaf-noppens> .
 
@@ -1787,9 +1787,9 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-22/author_list> ;
     swrc:author <http://data.semanticweb.org/person/katsuhiko-kaji-and-katashi-nagao> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/28/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-28.pdf> ;
     swrc:listAuthor "Katsuhiko Kaji and Katashi Nagao" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/28/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-28.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/katsuhiko-kaji-and-katashi-nagao> .
 
@@ -1801,9 +1801,9 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-23/author_list> ;
     swrc:author <http://data.semanticweb.org/person/daisuke-yamamoto-and-katashi-nagao> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/29/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-29.pdf> ;
     swrc:listAuthor "Daisuke Yamamoto and Katashi Nagao" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/29/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-29.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/daisuke-yamamoto-and-katashi-nagao> .
 
@@ -1815,9 +1815,9 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-24/author_list> ;
     swrc:author <http://data.semanticweb.org/person/dean-allemang-and-irene-polikoff> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/33/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-33.pdf> ;
     swrc:listAuthor "Dean Allemang and Irene Polikoff" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/33/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-33.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/dean-allemang-and-irene-polikoff> .
 
@@ -1829,9 +1829,9 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-25/author_list> ;
     swrc:author <http://data.semanticweb.org/person/andreas-he-and-nicholas-kushmerick> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/34/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-34.pdf> ;
     swrc:listAuthor "Andreas Heß and Nicholas Kushmerick" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/34/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-34.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/andreas-he-and-nicholas-kushmerick> .
 
@@ -1843,9 +1843,9 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-32/author_list> ;
     swrc:author <http://data.semanticweb.org/person/torsten-priebe> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/43/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-43.pdf> ;
     swrc:listAuthor "Torsten Priebe" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/43/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-43.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/torsten-priebe> .
 
@@ -1857,9 +1857,9 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-39/author_list> ;
     swrc:author <http://data.semanticweb.org/person/seiji-koide-and-masanori-kawamura> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/32/index.html> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-32.pdf> ;
     swrc:listAuthor "Seiji Koide and Masanori Kawamura" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/32/index.html> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-32.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/seiji-koide-and-masanori-kawamura> .
 
@@ -3682,9 +3682,9 @@
     swrc:author <http://data.semanticweb.org/person/holger-knublauch>,
         <http://data.semanticweb.org/person/natalya-f-noy-and-mark-a-musen> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/12/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-12.pdf> ;
     swrc:listAuthor "Holger Knublauch, Natalya F. Noy and Mark A. Musen" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/12/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-12.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/holger-knublauch>,
         <http://data.semanticweb.org/person/natalya-f-noy-and-mark-a-musen> .
@@ -3698,9 +3698,9 @@
     swrc:author <http://data.semanticweb.org/person/asuncion-gomez-perez>,
         <http://data.semanticweb.org/person/rafael-gonzalez-cabero-and-manuel-lama> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/14/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-14.pdf> ;
     swrc:listAuthor "Asuncion Gomez Perez, Rafael Gonzalez Cabero and Manuel Lama" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/14/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-14.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/asuncion-gomez-perez>,
         <http://data.semanticweb.org/person/rafael-gonzalez-cabero-and-manuel-lama> .
@@ -5909,9 +5909,9 @@
         <http://data.semanticweb.org/person/fumihiro-kato>,
         <http://data.semanticweb.org/person/kazuhiro-kitagawa> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/01/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-01.pdf> ;
     swrc:listAuthor "Kazuhiro Kitagawa, Fumihiro Kato, and Nobuo Saito" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/01/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-01.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-nobuo-saito>,
         <http://data.semanticweb.org/person/fumihiro-kato>,
@@ -5927,9 +5927,9 @@
         <http://data.semanticweb.org/person/dae-woo-choi>,
         <http://data.semanticweb.org/person/wooju-kim> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/06/index.html> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-06.pdf> ;
     swrc:listAuthor "Wooju Kim, Dae Woo Choi, and Sang-un Park" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/06/index.html> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-06.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-sang-un-park>,
         <http://data.semanticweb.org/person/dae-woo-choi>,
@@ -5945,9 +5945,9 @@
         <http://data.semanticweb.org/person/thierry-declerck>,
         <http://data.semanticweb.org/person/thomas-eigner> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/16/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-16.pdf> ;
     swrc:listAuthor "Paul Buitelaar, Thomas Eigner, Thierry Declerck" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/16/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-16.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/paul-buitelaar>,
         <http://data.semanticweb.org/person/thierry-declerck>,
@@ -5963,9 +5963,9 @@
         <http://data.semanticweb.org/person/grigoris-antoniou>,
         <http://data.semanticweb.org/person/nick-bassiliades> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/27/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-27.pdf> ;
     swrc:listAuthor "Nick Bassiliades, Grigoris Antoniou, and Ioannis Vlahavas" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/27/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-27.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-ioannis-vlahavas>,
         <http://data.semanticweb.org/person/grigoris-antoniou>,
@@ -5981,9 +5981,9 @@
         <http://data.semanticweb.org/person/david-osullivan>,
         <http://data.semanticweb.org/person/lars-ludwig> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/36/index.html> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-36.pdf> ;
     swrc:listAuthor "Lars Ludwig, David O'Sullivan, and Xuan Zhou" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/36/index.html> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-36.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-xuan-zhou>,
         <http://data.semanticweb.org/person/david-osullivan>,
@@ -5999,9 +5999,9 @@
         <http://data.semanticweb.org/person/john-domingue>,
         <http://data.semanticweb.org/person/martin-dzbor> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/40/index.html> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-40.pdf> ;
     swrc:listAuthor "Martin Dzbor, John Domingue, and Enrico Motta" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/40/index.html> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-40.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-enrico-motta>,
         <http://data.semanticweb.org/person/john-domingue>,
@@ -6017,9 +6017,9 @@
         <http://data.semanticweb.org/person/daniel-elenius>,
         <http://data.semanticweb.org/person/grit-denker> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/02/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-02.pdf> ;
     swrc:listAuthor "Grit Denker, Daniel Elenius, and David Martin" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/02/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-02.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-david-martin>,
         <http://data.semanticweb.org/person/daniel-elenius>,
@@ -6035,9 +6035,9 @@
         <http://data.semanticweb.org/person/massimo-paolucci>,
         <http://data.semanticweb.org/person/naveen-srinivasan> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/10/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-10.pdf> ;
     swrc:listAuthor "Naveen Srinivasan, Massimo Paolucci, and Katia Sycara" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/10/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-10.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-katia-sycara>,
         <http://data.semanticweb.org/person/massimo-paolucci>,
@@ -6053,9 +6053,9 @@
         <http://data.semanticweb.org/person/boi-faltings>,
         <http://data.semanticweb.org/person/ion-constantinescu> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/31/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-31.pdf> ;
     swrc:listAuthor "Ion Constantinescu, Boi Faltings, and Walter Binder" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/31/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-31.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-walter-binder>,
         <http://data.semanticweb.org/person/boi-faltings>,
@@ -6666,9 +6666,9 @@
         <http://data.semanticweb.org/person/noritada-shimizu>,
         <http://data.semanticweb.org/person/takashi-hattori> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/09/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-09.pdf> ;
     swrc:listAuthor "Noritada Shimizu, Jun'ichi Nakamura, Takashi Hattori, and Tatsuya Hagino" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/09/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-09.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-tatsuya-hagino>,
         <http://data.semanticweb.org/person/junichi-nakamura>,
@@ -6686,9 +6686,9 @@
         <http://data.semanticweb.org/person/kenneth-baclawski>,
         <http://data.semanticweb.org/person/mitch-m-kokar> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/11/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-11.pdf> ;
     swrc:listAuthor "Christopher J. Matheus, Mitch M. Kokar, Kenneth Baclawski, Jurek Letkowski and Catherine Call" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/11/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-11.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/christopher-j-matheus>,
         <http://data.semanticweb.org/person/jurek-letkowski-and-catherine-call>,
@@ -6706,9 +6706,9 @@
         <http://data.semanticweb.org/person/marcus-herzog>,
         <http://data.semanticweb.org/person/robert-baumgartner> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/21/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-21.pdf> ;
     swrc:listAuthor "Robert Baumgartner, Georg Gottlob, Marcus Herzog, and Wolfgang Slany" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/21/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-21.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-wolfgang-slany>,
         <http://data.semanticweb.org/person/georg-gottlob>,
@@ -6726,9 +6726,9 @@
         <http://data.semanticweb.org/person/nobuji-tetsutani>,
         <http://data.semanticweb.org/person/noriaki-kuwahara> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/37/index.html> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-37.pdf> ;
     swrc:listAuthor "Noriaki Kuwahara, Kazuhiro Kuwabara, Nobuji Tetsutani, and Kiyoshi Yasuda" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/37/index.html> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-37.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-kiyoshi-yasuda>,
         <http://data.semanticweb.org/person/kazuhiro-kuwabara>,
@@ -6746,9 +6746,9 @@
         <http://data.semanticweb.org/person/srinivas-vemuri>,
         <http://data.semanticweb.org/person/yella-siril> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/41/index.html> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-41.pdf> ;
     swrc:listAuthor "Kalid Askar, Srinivas Vemuri, Yella Siril, and Mark Dougherty" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/41/index.html> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-41.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-mark-dougherty>,
         <http://data.semanticweb.org/person/kalid-askar>,
@@ -6766,9 +6766,9 @@
         <http://data.semanticweb.org/person/peter-zugmann>,
         <http://data.semanticweb.org/person/uwe-keller> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/42/index.html> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-42.pdf> ;
     swrc:listAuthor "Michael Stollberg, Uwe Keller, Peter Zugmann, and Reinhold Herzog" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/42/index.html> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-42.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-reinhold-herzog>,
         <http://data.semanticweb.org/person/michael-stollberg>,
@@ -6786,9 +6786,9 @@
         <http://data.semanticweb.org/person/maciej-zaremba>,
         <http://data.semanticweb.org/person/michal-zaremba> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/38/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-38.pdf> ;
     swrc:listAuthor "Michal Zaremba, Armin Haller, Maciej Zaremba, and Matthew Moran" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/38/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-38.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-matthew-moran>,
         <http://data.semanticweb.org/person/armin-haller>,
@@ -7315,9 +7315,9 @@
         <http://data.semanticweb.org/person/dimitar-manov>,
         <http://data.semanticweb.org/person/rosen-marinov-and-ivan-terziev> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/17/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-17.pdf> ;
     swrc:listAuthor "Atanas Kiryakov, Borislav Popov, Dimitar Manov, Damyan Ognyanoff, Rosen Marinov and Ivan Terziev" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/17/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-17.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/atanas-kiryakov>,
         <http://data.semanticweb.org/person/borislav-popov>,
@@ -7337,9 +7337,9 @@
         <http://data.semanticweb.org/person/matthew-horridge>,
         <http://data.semanticweb.org/person/nick-drummond> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/39/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-39.pdf> ;
     swrc:listAuthor "Matthew Horridge, Alan Rector, Nick Drummond, Holger Knublauch, and Hai Wang" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/39/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-39.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/alan-rector>,
         <http://data.semanticweb.org/person/and-hai-wang>,
@@ -7359,9 +7359,9 @@
         <http://data.semanticweb.org/person/jeffrey-m-bradshaw>,
         <http://data.semanticweb.org/person/renia-jeffers> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/08/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-08.pdf> ;
     swrc:listAuthor "Andrzej Uszok, Jeffrey M. Bradshaw, Gianluca Tonti, Renia Jeffers, and Lars E. Olson" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/08/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-08.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-lars-e-olson>,
         <http://data.semanticweb.org/person/andrzej-uszok>,
@@ -7381,9 +7381,9 @@
         <http://data.semanticweb.org/person/m-pistore>,
         <http://data.semanticweb.org/person/p-bertoli> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/26/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-26.pdf> ;
     swrc:listAuthor "M. Pistore, P. Bertoli, E. Cusenza, A. Marconi, and P. Traverso" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/26/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-26.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/a-marconi>,
         <http://data.semanticweb.org/person/and-p-traverso>,
@@ -7403,9 +7403,9 @@
         <http://data.semanticweb.org/person/john-domingue>,
         <http://data.semanticweb.org/person/liliana-cabral> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/45/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-45.pdf> ;
     swrc:listAuthor "John Domingue, Liliana Cabral, Farshad Hakimpour, Denilson Sell, and Enrico Motta" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/45/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-45.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-enrico-motta>,
         <http://data.semanticweb.org/person/denilson-sell>,
@@ -7915,9 +7915,9 @@
         <http://data.semanticweb.org/person/s-agarwal>,
         <http://data.semanticweb.org/person/s-price> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/05/paper.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-05.pdf> ;
     swrc:listAuthor "S Price, A A Piccini, S Agarwal , B Kershaw, B Joyner, and L Miller" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/05/paper.pdf> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-05.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/a-a-piccini>,
         <http://data.semanticweb.org/person/and-l-miller>,
@@ -7939,9 +7939,9 @@
         <http://data.semanticweb.org/person/sebastian-schaffert>,
         <http://data.semanticweb.org/person/tim-furche> ;
     swrc:category "Demo Paper" ;
-    swrc:link_open_access <http://iswc2004.semanticweb.org/demos/20/index.html> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-20.pdf> ;
     swrc:listAuthor "Sacha Berger, Francois Bry, Oliver Bolzer, Tim Furche, Sebastian Schaffert, and Christoph Wieser" ;
-    swrc:url <http://iswc2004.semanticweb.org/demos/20/index.html> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2004-demo/demo-20.pdf> ;
     swrc:year "2004" ;
     foaf:maker <http://data.semanticweb.org/person/and-christoph-wieser>,
         <http://data.semanticweb.org/person/francois-bry>,

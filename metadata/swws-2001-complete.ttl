@@ -17,7 +17,7 @@
 <http://data.semanticweb.org/conference/swws/2001/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2005 beta (2013-06-18)" ;
-    dcterms:modified "2013-06-18T12:43:29.627516"^^xsd:datetime ;
+    dcterms:modified "2013-06-18T23:02:16.116492"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/swws/2001/event-01> a swc:SpecialEvent ;
@@ -3240,9 +3240,9 @@
     swrc:author <http://data.semanticweb.org/person/a-sheth>,
         <http://data.semanticweb.org/person/k-anyanwu> ;
     swrc:category "Position Paper" ;
-    swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-anyanwu.html> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/swws-2001-position/soi-anyanwu.pdf> ;
     swrc:listAuthor "K. Anyanwu, A. Sheth" ;
-    swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-anyanwu.html> ;
+    swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/swws-2001-position/soi-anyanwu.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/a-sheth>,
         <http://data.semanticweb.org/person/k-anyanwu> .
@@ -4402,9 +4402,9 @@
         <http://data.semanticweb.org/person/john-domingue>,
         <http://data.semanticweb.org/person/simon-buckingham-shum> ;
     swrc:category "Position Paper" ;
-    swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-buckingham.pdf> ;
+    swrc:link_open_access <http://eprints.aktors.org/151/02/SemWebNowWhat.pdf> ;
     swrc:listAuthor "Simon Buckingham Shum, John Domingue, Enrico Motta" ;
-    swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-buckingham.pdf> ;
+    swrc:url <http://eprints.aktors.org/151/02/SemWebNowWhat.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/enrico-motta>,
         <http://data.semanticweb.org/person/john-domingue>,
