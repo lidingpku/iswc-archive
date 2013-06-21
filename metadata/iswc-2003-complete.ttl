@@ -20,8 +20,8 @@
 
 <http://data.semanticweb.org/conference/iswc/2003/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
-    dcterms:hasVersion "iswc metadata 2001-2005 beta (2013-06-18)" ;
-    dcterms:modified "2013-06-18T23:02:22.628405"^^xsd:datetime ;
+    dcterms:hasVersion "iswc metadata 2001-2005 beta (2013-06-20) clean up categories" ;
+    dcterms:modified "2013-06-21T09:49:38.815241"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2003/event-01> a swc:SpecialEvent ;
@@ -3080,7 +3080,7 @@
     dcterms:title "Ontology-Oriented Programming: Static Typing for the Inconsistent Programmer" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-32/author_list> ;
     swrc:author <http://data.semanticweb.org/person/neil-m-goldman> ;
-    swrc:category "Industrial Track" ;
+    swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-39718-2_54> ;
     swrc:listAuthor "Neil M. Goldman" ;
     swrc:pages "850-865" ;
@@ -5469,7 +5469,7 @@
     swrc:author <http://data.semanticweb.org/person/alberto-reggiori>,
         <http://data.semanticweb.org/person/dirk-willem-van-gulik>,
         <http://data.semanticweb.org/person/zavisa-bjelogrlic> ;
-    swrc:category "Industrial Track" ;
+    swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-39718-2_52> ;
     swrc:listAuthor "Zavisa Bjelogrlic, Dirk-Willem van Gulik, Alberto Reggiori" ;
     swrc:pages "818-833" ;
@@ -5489,7 +5489,7 @@
     swrc:author <http://data.semanticweb.org/person/andreas-maier>,
         <http://data.semanticweb.org/person/hans-peter-schnurr>,
         <http://data.semanticweb.org/person/york-sure> ;
-    swrc:category "Industrial Track" ;
+    swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-39718-2_57> ;
     swrc:listAuthor "Andreas Maier, Hans-Peter Schnurr, York Sure" ;
     swrc:pages "897-912" ;
@@ -5589,7 +5589,7 @@
     swrc:author <http://data.semanticweb.org/person/bijan-parsia>,
         <http://data.semanticweb.org/person/ryusuke-masuoka>,
         <http://data.semanticweb.org/person/yannis-labrou> ;
-    swrc:category "Industrial Track" ;
+    swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-39718-2_55> ;
     swrc:listAuthor "Ryusuke Masuoka, Bijan Parsia, Yannis Labrou" ;
     swrc:pages "866-881" ;
@@ -6195,7 +6195,7 @@
         <http://data.semanticweb.org/person/david-leal>,
         <http://data.semanticweb.org/person/michael-schwan>,
         <http://data.semanticweb.org/person/thomas-dreyer> ;
-    swrc:category "Industrial Track" ;
+    swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-39718-2_50> ;
     swrc:listAuthor "Thomas Dreyer, David Leal, Andrea Schröder, Michael Schwan" ;
     swrc:pages "788-801" ;
@@ -6656,7 +6656,7 @@
         <http://data.semanticweb.org/person/mara-del-carmen-surez-figueroa>,
         <http://data.semanticweb.org/person/scar-corcho>,
         <http://data.semanticweb.org/person/v-lpez-garca> ;
-    swrc:category "Industrial Track" ;
+    swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-39718-2_51> ;
     swrc:listAuthor "Óscar Corcho, Asunción Gómez-Pérez, Angel López-Cima, V. López-García, María del Carmen Suárez-Figueroa" ;
     swrc:pages "802-817" ;
@@ -6680,7 +6680,7 @@
         <http://data.semanticweb.org/person/henrik-oppermann>,
         <http://data.semanticweb.org/person/jrgen-angele>,
         <http://data.semanticweb.org/person/steffen-staab> ;
-    swrc:category "Industrial Track" ;
+    swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-39718-2_58> ;
     swrc:listAuthor "Jürgen Angele, Eddie Mönch, Henrik Oppermann, Steffen Staab, Dirk Wenke" ;
     swrc:pages "913-928" ;
@@ -6760,7 +6760,7 @@
         <http://data.semanticweb.org/person/damyan-ognyanoff>,
         <http://data.semanticweb.org/person/dimitar-manov>,
         <http://data.semanticweb.org/person/miroslav-goranov> ;
-    swrc:category "Industrial Track" ;
+    swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-39718-2_53> ;
     swrc:listAuthor "Borislav Popov, Atanas Kiryakov, Angel Kirilov, Dimitar Manov, Damyan Ognyanoff, Miroslav Goranov" ;
     swrc:pages "834-849" ;
@@ -7092,7 +7092,7 @@
         <http://data.semanticweb.org/person/sean-bechhofer>,
         <http://data.semanticweb.org/person/sonia-smith>,
         <http://data.semanticweb.org/person/stephen-a-uczekaj> ;
-    swrc:category "Industrial Track" ;
+    swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-39718-2_56> ;
     swrc:listAuthor "Michael Uschold, Peter Clark, Fred Dickey, Casey K. Fung, Sonia Smith, Stephen A. Uczekaj, Michael Wilke, Sean Bechhofer, Ian Horrocks" ;
     swrc:pages "882-896" ;

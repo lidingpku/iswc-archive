@@ -16,8 +16,8 @@
 
 <http://data.semanticweb.org/conference/iswc/2004/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
-    dcterms:hasVersion "iswc metadata 2001-2005 beta (2013-06-18)" ;
-    dcterms:modified "2013-06-18T23:02:26.642483"^^xsd:datetime ;
+    dcterms:hasVersion "iswc metadata 2001-2005 beta (2013-06-20) clean up categories" ;
+    dcterms:modified "2013-06-21T09:49:42.739203"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-01/author_list> a rdf:Seq ;
@@ -2277,7 +2277,7 @@
     dcterms:title "How to Build Google2Google - An (Incomplete) Recipe" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/proceedings/paper-24/author_list> ;
     swrc:author <http://data.semanticweb.org/person/wolfgang-nejdl> ;
-    swrc:category "Invited Papers" ;
+    swrc:category "Invited Talk Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-30475-3_1> ;
     swrc:listAuthor "Wolfgang Nejdl" ;
     swrc:pages "1-5" ;
@@ -2292,7 +2292,7 @@
     dcterms:title "Small Can Be Beautiful in the Semantic Web" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/proceedings/paper-44/author_list> ;
     swrc:author <http://data.semanticweb.org/person/marie-christine-rousset> ;
-    swrc:category "Invited Papers" ;
+    swrc:category "Invited Talk Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-30475-3_2> ;
     swrc:listAuthor "Marie-Christine Rousset" ;
     swrc:pages "6-16" ;
@@ -6221,7 +6221,7 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2004/proceedings/paper-10/author_list> ;
     swrc:author <http://data.semanticweb.org/person/david-price>,
         <http://data.semanticweb.org/person/rob-bodington> ;
-    swrc:category "Industrial Track" ;
+    swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-30475-3_56> ;
     swrc:listAuthor "David Price, Rob Bodington" ;
     swrc:pages "812-822" ;
@@ -7149,7 +7149,7 @@
     swrc:author <http://data.semanticweb.org/person/jun-ichi-akahani>,
         <http://data.semanticweb.org/person/kaoru-hiramatsu>,
         <http://data.semanticweb.org/person/tetsuji-satoh> ;
-    swrc:category "Industrial Track" ;
+    swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-30475-3_51> ;
     swrc:listAuthor "Kaoru Hiramatsu, Jun-ichi Akahani, Tetsuji Satoh" ;
     swrc:pages "741-751" ;
@@ -7587,7 +7587,7 @@
         <http://data.semanticweb.org/person/eetu-mkel>,
         <http://data.semanticweb.org/person/kim-viljanen>,
         <http://data.semanticweb.org/person/samppa-saarela> ;
-    swrc:category "Industrial Track" ;
+    swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-30475-3_55> ;
     swrc:listAuthor "Eetu Mäkelä, Eero Hyvönen, Samppa Saarela, Kim Viljanen" ;
     swrc:pages "797-811" ;
@@ -8130,7 +8130,7 @@
         <http://data.semanticweb.org/person/massimo-paolucci>,
         <http://data.semanticweb.org/person/takahiro-kawamura>,
         <http://data.semanticweb.org/person/tetsuo-hasegawa> ;
-    swrc:category "Industrial Track" ;
+    swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-30475-3_52> ;
     swrc:listAuthor "Takahiro Kawamura, Jacques-Albert De Blasio, Tetsuo Hasegawa, Massimo Paolucci, Katia P. Sycara" ;
     swrc:pages "752-766" ;
@@ -8227,7 +8227,7 @@
         <http://data.semanticweb.org/person/scar-corcho>,
         <http://data.semanticweb.org/person/silvestre-losada>,
         <http://data.semanticweb.org/person/v-richard-benjamins> ;
-    swrc:category "Industrial Track" ;
+    swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-30475-3_54> ;
     swrc:listAuthor "José Manuel López Cobo, Silvestre Losada, Óscar Corcho, V. Richard Benjamins, Marcos Niño, Jesús Contreras" ;
     swrc:pages "782-796" ;
@@ -8408,7 +8408,7 @@
         <http://data.semanticweb.org/person/robert-e-carvalho>,
         <http://data.semanticweb.org/person/shawn-r-wolfe>,
         <http://data.semanticweb.org/person/stephen-j-rich> ;
-    swrc:category "Industrial Track" ;
+    swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-30475-3_53> ;
     swrc:listAuthor "Richard M. Keller, Daniel C. Berrios, Robert E. Carvalho, David R. Hall, Stephen J. Rich, Ian B. Sturken, Keith J. Swanson, Shawn R. Wolfe" ;
     swrc:pages "767-781" ;
@@ -8509,7 +8509,7 @@
         <http://data.semanticweb.org/person/yue-pan>,
         <http://data.semanticweb.org/person/zhong-su>,
         <http://data.semanticweb.org/person/zhuo-zhang> ;
-    swrc:category "Industrial Track" ;
+    swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-30475-3_57> ;
     swrc:listAuthor "Lei Zhang 0007, Yong Yu, Jing Lu, Chenxi Lin, Kewei Tu, MingChuan Guo, Zhuo Zhang, Guo Tong Xie, Zhong Su, Yue Pan" ;
     swrc:pages "823-838" ;

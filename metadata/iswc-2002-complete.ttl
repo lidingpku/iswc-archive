@@ -16,8 +16,8 @@
 
 <http://data.semanticweb.org/conference/iswc/2002/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
-    dcterms:hasVersion "iswc metadata 2001-2005 beta (2013-06-18)" ;
-    dcterms:modified "2013-06-18T23:02:19.481625"^^xsd:datetime ;
+    dcterms:hasVersion "iswc metadata 2001-2005 beta (2013-06-20) clean up categories" ;
+    dcterms:modified "2013-06-21T09:49:35.752377"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2002/event-01> a swc:SpecialEvent ;
@@ -1209,7 +1209,7 @@
     dcterms:title "Preemptive Reification" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-25/author_list> ;
     swrc:author <http://data.semanticweb.org/person/steven-r-newcomb> ;
-    swrc:category "Position Papers" ;
+    swrc:category "Position Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_34> ;
     swrc:listAuthor "Steven R. Newcomb" ;
     swrc:pages "414-418" ;
@@ -1224,7 +1224,7 @@
     dcterms:title "The Grid, Grid Services and the Semantic Web: Technologies and Opportunities" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-34/author_list> ;
     swrc:author <http://data.semanticweb.org/person/carl-kesselman> ;
-    swrc:category "Invited Papers" ;
+    swrc:category "Invited Talk Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_2> ;
     swrc:listAuthor "Carl Kesselman" ;
     swrc:pages "3-4" ;
@@ -2071,7 +2071,7 @@
     dcterms:title "An RDF NetAPI" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-04/author_list> ;
     swrc:author <http://data.semanticweb.org/person/andy-seaborne> ;
-    swrc:category "Position Papers" ;
+    swrc:category "Position Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_31> ;
     swrc:listAuthor "Andy Seaborne" ;
     swrc:pages "399-403" ;
@@ -2087,7 +2087,7 @@
     dcterms:title "Automatic Generation of Java/SQL Based Inference Engines from RDF Schema and RuleML" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-05/author_list> ;
     swrc:author <http://data.semanticweb.org/person/andreas-eberhart> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_10> ;
     swrc:listAuthor "Andreas Eberhart" ;
     swrc:pages "102-116" ;
@@ -2103,7 +2103,7 @@
     dcterms:title "Bringing Together Semantic Web and Web Services" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-07/author_list> ;
     swrc:author <http://data.semanticweb.org/person/joachim-peer> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_22> ;
     swrc:listAuthor "Joachim Peer" ;
     swrc:pages "279-291" ;
@@ -2119,7 +2119,7 @@
     dcterms:title "Four Steps Towards the Widespread Adoption of a Semantic Web" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-15/author_list> ;
     swrc:author <http://data.semanticweb.org/person/brian-mcbride> ;
-    swrc:category "Position Papers" ;
+    swrc:category "Position Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_35> ;
     swrc:listAuthor "Brian McBride" ;
     swrc:pages "419-422" ;
@@ -2135,7 +2135,7 @@
     dcterms:title "Integrating Vocabularies: Discovering and Representing Vocabulary Maps" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-17/author_list> ;
     swrc:author <http://data.semanticweb.org/person/borys-omelayenko> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_17> ;
     swrc:listAuthor "Borys Omelayenko" ;
     swrc:pages "206-220" ;
@@ -2151,7 +2151,7 @@
     dcterms:title "Matching RDF Graphs" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-20/author_list> ;
     swrc:author <http://data.semanticweb.org/person/jeremy-j-carroll> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_3> ;
     swrc:listAuthor "Jeremy J. Carroll" ;
     swrc:pages "5-15" ;
@@ -2167,7 +2167,7 @@
     dcterms:title "Nonmonotonic Rule Systems on Top of Ontology Layers" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-21/author_list> ;
     swrc:author <http://data.semanticweb.org/person/grigoris-antoniou> ;
-    swrc:category "Position Papers" ;
+    swrc:category "Position Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_30> ;
     swrc:listAuthor "Grigoris Antoniou" ;
     swrc:pages "394-398" ;
@@ -2183,7 +2183,7 @@
     dcterms:title "Taking the RDF Model Theory Out for a Spin" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-33/author_list> ;
     swrc:author <http://data.semanticweb.org/person/ora-lassila> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_24> ;
     swrc:listAuthor "Ora Lassila" ;
     swrc:pages "307-317" ;
@@ -3717,7 +3717,7 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-09/author_list> ;
     swrc:author <http://data.semanticweb.org/person/jrme-simon>,
         <http://data.semanticweb.org/person/peter-f-patel-schneider> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_13> ;
     swrc:listAuthor "Peter F. Patel-Schneider, Jérôme Siméon" ;
     swrc:pages "147-161" ;
@@ -3753,7 +3753,7 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-16/author_list> ;
     swrc:author <http://data.semanticweb.org/person/griff-richards>,
         <http://data.semanticweb.org/person/marek-hatala> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_23> ;
     swrc:listAuthor "Marek Hatala, Griff Richards" ;
     swrc:pages "292-306" ;
@@ -3789,7 +3789,7 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-19/author_list> ;
     swrc:author <http://data.semanticweb.org/person/dieter-fensel>,
         <http://data.semanticweb.org/person/peter-f-patel-schneider> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_4> ;
     swrc:listAuthor "Peter F. Patel-Schneider, Dieter Fensel" ;
     swrc:pages "16-29" ;
@@ -3807,7 +3807,7 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-22/author_list> ;
     swrc:author <http://data.semanticweb.org/person/jaap-kamps>,
         <http://data.semanticweb.org/person/maarten-marx> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_5> ;
     swrc:listAuthor "Jaap Kamps, Maarten Marx" ;
     swrc:pages "30-38" ;
@@ -3825,7 +3825,7 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-26/author_list> ;
     swrc:author <http://data.semanticweb.org/person/ian-horrocks>,
         <http://data.semanticweb.org/person/sergio-tessaris> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_15> ;
     swrc:listAuthor "Ian Horrocks, Sergio Tessaris" ;
     swrc:pages "177-191" ;
@@ -3843,7 +3843,7 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-27/author_list> ;
     swrc:author <http://data.semanticweb.org/person/dejing-dou>,
         <http://data.semanticweb.org/person/drew-v-mcdermott> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_20> ;
     swrc:listAuthor "Drew V. McDermott, Dejing Dou" ;
     swrc:pages "250-263" ;
@@ -3861,7 +3861,7 @@
     swrc:author <http://data.semanticweb.org/person/alexander-maedche>,
         <http://data.semanticweb.org/person/christoph-bussler>,
         <http://data.semanticweb.org/person/dieter-fensel> ;
-    swrc:category "Invited Papers" ;
+    swrc:category "Invited Talk Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_1> ;
     swrc:listAuthor "Dieter Fensel, Christoph Bussler, Alexander Maedche" ;
     swrc:pages "1-2" ;
@@ -3880,7 +3880,7 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-38/author_list> ;
     swrc:author <http://data.semanticweb.org/person/abraham-bernstein>,
         <http://data.semanticweb.org/person/mark-klein> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_9> ;
     swrc:listAuthor "Abraham Bernstein, Mark Klein" ;
     swrc:pages "84-101" ;
@@ -3898,7 +3898,7 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-40/author_list> ;
     swrc:author <http://data.semanticweb.org/person/michael-sintek>,
         <http://data.semanticweb.org/person/stefan-decker> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_28> ;
     swrc:listAuthor "Michael Sintek, Stefan Decker" ;
     swrc:pages "364-378" ;
@@ -3916,7 +3916,7 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-41/author_list> ;
     swrc:author <http://data.semanticweb.org/person/varun-ratnakar>,
         <http://data.semanticweb.org/person/yolanda-gil> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_14> ;
     swrc:listAuthor "Yolanda Gil, Varun Ratnakar" ;
     swrc:pages "162-176" ;
@@ -4292,7 +4292,7 @@
     swrc:author <http://data.semanticweb.org/person/francesco-guerra>,
         <http://data.semanticweb.org/person/maurizio-vincini>,
         <http://data.semanticweb.org/person/sonia-bergamaschi> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_29> ;
     swrc:listAuthor "Sonia Bergamaschi, Francesco Guerra, Maurizio Vincini" ;
     swrc:pages "379-393" ;
@@ -4332,7 +4332,7 @@
     swrc:author <http://data.semanticweb.org/person/anupriya-ankolekar>,
         <http://data.semanticweb.org/person/frank-huch>,
         <http://data.semanticweb.org/person/katia-p-sycara> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_25> ;
     swrc:listAuthor "Anupriya Ankolekar, Frank Huch, Katia P. Sycara" ;
     swrc:pages "318-332" ;
@@ -4352,7 +4352,7 @@
     swrc:author <http://data.semanticweb.org/person/arjohn-kampman>,
         <http://data.semanticweb.org/person/frank-van-harmelen>,
         <http://data.semanticweb.org/person/jeen-broekstra> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_7> ;
     swrc:listAuthor "Jeen Broekstra, Arjohn Kampman, Frank van Harmelen" ;
     swrc:pages "54-68" ;
@@ -4372,7 +4372,7 @@
     swrc:author <http://data.semanticweb.org/person/michele-missikoff>,
         <http://data.semanticweb.org/person/paola-velardi>,
         <http://data.semanticweb.org/person/roberto-navigli> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_6> ;
     swrc:listAuthor "Michele Missikoff, Roberto Navigli, Paola Velardi" ;
     swrc:pages "39-53" ;
@@ -4412,7 +4412,7 @@
     swrc:author <http://data.semanticweb.org/person/andreas-hotho>,
         <http://data.semanticweb.org/person/bettina-berendt>,
         <http://data.semanticweb.org/person/gerd-stumme> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_21> ;
     swrc:listAuthor "Bettina Berendt, Andreas Hotho, Gerd Stumme" ;
     swrc:pages "264-278" ;
@@ -4600,7 +4600,7 @@
         <http://data.semanticweb.org/person/pascal-auillans>,
         <http://data.semanticweb.org/person/patrice-ossona-de-mendez>,
         <http://data.semanticweb.org/person/pierre-rosenstiehl> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_8> ;
     swrc:listAuthor "Pascal Auillans, Patrice Ossona de Mendez, Pierre Rosenstiehl, Bernard Vatant" ;
     swrc:pages "69-83" ;
@@ -4622,7 +4622,7 @@
         <http://data.semanticweb.org/person/dimitris-plexousakis>,
         <http://data.semanticweb.org/person/sofia-alexaki>,
         <http://data.semanticweb.org/person/vassilis-christophides> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_12> ;
     swrc:listAuthor "Aimilia Magkanaraki, Sofia Alexaki, Vassilis Christophides, Dimitris Plexousakis" ;
     swrc:pages "132-146" ;
@@ -4666,7 +4666,7 @@
         <http://data.semanticweb.org/person/catriel-beeri>,
         <http://data.semanticweb.org/person/irini-fundulaki>,
         <http://data.semanticweb.org/person/michel-scholl> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_11> ;
     swrc:listAuthor "Bernd Amann, Catriel Beeri, Irini Fundulaki, Michel Scholl" ;
     swrc:pages "117-131" ;
@@ -4688,7 +4688,7 @@
         <http://data.semanticweb.org/person/dietmar-jannach>,
         <http://data.semanticweb.org/person/gerhard-friedrich>,
         <http://data.semanticweb.org/person/markus-zanker> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_16> ;
     swrc:listAuthor "Alexander Felfernig, Gerhard Friedrich, Dietmar Jannach, Markus Zanker" ;
     swrc:pages "192-205" ;
@@ -4710,7 +4710,7 @@
         <http://data.semanticweb.org/person/massimo-paolucci>,
         <http://data.semanticweb.org/person/takahiro-kawamura>,
         <http://data.semanticweb.org/person/terry-r-payne> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_26> ;
     swrc:listAuthor "Massimo Paolucci, Takahiro Kawamura, Terry R. Payne, Katia P. Sycara" ;
     swrc:pages "333-347" ;
@@ -4732,7 +4732,7 @@
         <http://data.semanticweb.org/person/julien-tane>,
         <http://data.semanticweb.org/person/wolf-siberski>,
         <http://data.semanticweb.org/person/wolfgang-nejdl> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_19> ;
     swrc:listAuthor "Wolfgang Nejdl, Wolf Siberski, Bernd Simon, Julien Tane" ;
     swrc:pages "236-249" ;
@@ -5068,7 +5068,7 @@
         <http://data.semanticweb.org/person/jair-hokstam>,
         <http://data.semanticweb.org/person/uri-roos>,
         <http://data.semanticweb.org/person/wouter-p-c-van-gent> ;
-    swrc:category "Position Papers" ;
+    swrc:category "Position Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_32> ;
     swrc:listAuthor "Guus Schreiber, Inger I. Blok, Daan Carlier, Wouter P. C. van Gent, Jair Hokstam, Uri Roos" ;
     swrc:pages "404-408" ;
@@ -5094,7 +5094,7 @@
         <http://data.semanticweb.org/person/rudi-studer>,
         <http://data.semanticweb.org/person/steffen-staab>,
         <http://data.semanticweb.org/person/york-sure> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_18> ;
     swrc:listAuthor "York Sure, Michael Erdmann, Jürgen Angele, Steffen Staab, Rudi Studer, Dirk Wenke" ;
     swrc:pages "221-235" ;
@@ -5120,7 +5120,7 @@
         <http://data.semanticweb.org/person/l-miller>,
         <http://data.semanticweb.org/person/michael-d-wilson>,
         <http://data.semanticweb.org/person/s-buswell> ;
-    swrc:category "Position Papers" ;
+    swrc:category "Position Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_33> ;
     swrc:listAuthor "Dan Brickley, S. Buswell, B. M. Matthews, L. Miller, D. Reynolds, Michael D. Wilson" ;
     swrc:pages "409-413" ;
@@ -5310,7 +5310,7 @@
         <http://data.semanticweb.org/person/sheila-a-mcilraith>,
         <http://data.semanticweb.org/person/srini-narayanan>,
         <http://data.semanticweb.org/person/terry-r-payne> ;
-    swrc:category "Research Papers" ;
+    swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_27> ;
     swrc:listAuthor "Mark H. Burstein, Jerry R. Hobbs, Ora Lassila, David L. Martin, Drew V. McDermott, Sheila A. McIlraith, Srini Narayanan, Massimo Paolucci, Terry R. Payne, Katia P. Sycara" ;
     swrc:pages "348-363" ;
