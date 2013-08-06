@@ -1,0 +1,705 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swrc: <http://swrc.ontoware.org/ontology#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/105> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/105.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_9> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_9>,
+        <http://iswc2010.semanticweb.org/pdf/105.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/110> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/110.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_7> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_7>,
+        <http://iswc2010.semanticweb.org/pdf/110.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/114> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/114.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_49> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_49>,
+        <http://iswc2010.semanticweb.org/pdf/114.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/119> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/119.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_12> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_12>,
+        <http://iswc2010.semanticweb.org/pdf/119.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/123> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/123.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_23> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_23>,
+        <http://iswc2010.semanticweb.org/pdf/123.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/125> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/125.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_28> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_28>,
+        <http://iswc2010.semanticweb.org/pdf/125.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/126> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/126.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_14> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_14>,
+        <http://iswc2010.semanticweb.org/pdf/126.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/127> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/127.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_37> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_37>,
+        <http://iswc2010.semanticweb.org/pdf/127.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/131> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/131.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_51> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_51>,
+        <http://iswc2010.semanticweb.org/pdf/131.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/135> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/135.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_25> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_25>,
+        <http://iswc2010.semanticweb.org/pdf/135.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/144> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/144.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_27> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_27>,
+        <http://iswc2010.semanticweb.org/pdf/144.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/146> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/146.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_31> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_31>,
+        <http://iswc2010.semanticweb.org/pdf/146.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/152> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/152.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_29> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_29>,
+        <http://iswc2010.semanticweb.org/pdf/152.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/153> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/153.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_36> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_36>,
+        <http://iswc2010.semanticweb.org/pdf/153.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/158> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/158.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_44> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_44>,
+        <http://iswc2010.semanticweb.org/pdf/158.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/167> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/167.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_2> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_2>,
+        <http://iswc2010.semanticweb.org/pdf/167.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/169> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/169.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_21> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_21>,
+        <http://iswc2010.semanticweb.org/pdf/169.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/187> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/187.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_8> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_8>,
+        <http://iswc2010.semanticweb.org/pdf/187.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/192> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/192.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_3> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_3>,
+        <http://iswc2010.semanticweb.org/pdf/192.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/199> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/199.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_34> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_34>,
+        <http://iswc2010.semanticweb.org/pdf/199.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/209> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/209.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_24> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_24>,
+        <http://iswc2010.semanticweb.org/pdf/209.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/218> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/218.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_26> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_26>,
+        <http://iswc2010.semanticweb.org/pdf/218.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/219> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/219.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_20> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_20>,
+        <http://iswc2010.semanticweb.org/pdf/219.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/225> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/225.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_17> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_17>,
+        <http://iswc2010.semanticweb.org/pdf/225.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/228> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/228.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_12> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_12>,
+        <http://iswc2010.semanticweb.org/pdf/228.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/234> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/234.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_6> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_6>,
+        <http://iswc2010.semanticweb.org/pdf/234.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/241> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/241.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_41> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_41>,
+        <http://iswc2010.semanticweb.org/pdf/241.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/243> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/243.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_46> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_46>,
+        <http://iswc2010.semanticweb.org/pdf/243.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/247> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/247.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_10> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_10>,
+        <http://iswc2010.semanticweb.org/pdf/247.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/252> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/252.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_18> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_18>,
+        <http://iswc2010.semanticweb.org/pdf/252.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/253> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/253.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_42> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_42>,
+        <http://iswc2010.semanticweb.org/pdf/253.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/259> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/259.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_43> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_43>,
+        <http://iswc2010.semanticweb.org/pdf/259.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/261> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/261.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_20> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_20>,
+        <http://iswc2010.semanticweb.org/pdf/261.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/274> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/274.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_47> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_47>,
+        <http://iswc2010.semanticweb.org/pdf/274.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/278> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/278.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_40> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_40>,
+        <http://iswc2010.semanticweb.org/pdf/278.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/280> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/280.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_16> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_16>,
+        <http://iswc2010.semanticweb.org/pdf/280.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/288> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/288.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_15> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_15>,
+        <http://iswc2010.semanticweb.org/pdf/288.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/301> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/301.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_32> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_32>,
+        <http://iswc2010.semanticweb.org/pdf/301.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/304> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/304.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_45> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_45>,
+        <http://iswc2010.semanticweb.org/pdf/304.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/305> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/305.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_22> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_22>,
+        <http://iswc2010.semanticweb.org/pdf/305.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/307> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/307.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_50> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_50>,
+        <http://iswc2010.semanticweb.org/pdf/307.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/317> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/317.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_11> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_11>,
+        <http://iswc2010.semanticweb.org/pdf/317.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/318> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/318.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_10> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_10>,
+        <http://iswc2010.semanticweb.org/pdf/318.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/319> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/319.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_48> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_48>,
+        <http://iswc2010.semanticweb.org/pdf/319.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/334> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/334.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_38> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_38>,
+        <http://iswc2010.semanticweb.org/pdf/334.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/352> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/352.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_30> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_30>,
+        <http://iswc2010.semanticweb.org/pdf/352.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/376> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/376.pdf> ;
+    swrc:url <http://iswc2010.semanticweb.org/pdf/376.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/385> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/385.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_1> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_1>,
+        <http://iswc2010.semanticweb.org/pdf/385.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/386> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/386.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_15> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_15>,
+        <http://iswc2010.semanticweb.org/pdf/386.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/387> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/387.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_21> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_21>,
+        <http://iswc2010.semanticweb.org/pdf/387.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/388> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/388.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_9> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_9>,
+        <http://iswc2010.semanticweb.org/pdf/388.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/397> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/397.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_8> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_8>,
+        <http://iswc2010.semanticweb.org/pdf/397.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/401> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/401.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_7> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_7>,
+        <http://iswc2010.semanticweb.org/pdf/401.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/402> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/402.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_5> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_5>,
+        <http://iswc2010.semanticweb.org/pdf/402.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/407> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/407.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_18> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_18>,
+        <http://iswc2010.semanticweb.org/pdf/407.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/410> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/410.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_2> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_2>,
+        <http://iswc2010.semanticweb.org/pdf/410.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/413> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/413.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_16> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_16>,
+        <http://iswc2010.semanticweb.org/pdf/413.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/414> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/414.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_13> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_13>,
+        <http://iswc2010.semanticweb.org/pdf/414.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/419> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/419.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_3> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_3>,
+        <http://iswc2010.semanticweb.org/pdf/419.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/421> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/421.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_6> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_6>,
+        <http://iswc2010.semanticweb.org/pdf/421.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/422> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/422.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_11> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_11>,
+        <http://iswc2010.semanticweb.org/pdf/422.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/428> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/428.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_17> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_17>,
+        <http://iswc2010.semanticweb.org/pdf/428.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/431> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/431.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_14> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_14>,
+        <http://iswc2010.semanticweb.org/pdf/431.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/432> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/432.pdf> ;
+    swrc:url <http://iswc2010.semanticweb.org/pdf/432.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/435> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/435.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_4> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_4>,
+        <http://iswc2010.semanticweb.org/pdf/435.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/436> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/436.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_1> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_1>,
+        <http://iswc2010.semanticweb.org/pdf/436.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/439> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/439.pdf> ;
+    swrc:url <http://iswc2010.semanticweb.org/pdf/439.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/440> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/440.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_19> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_19>,
+        <http://iswc2010.semanticweb.org/pdf/440.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/441> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/441.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_24> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_24>,
+        <http://iswc2010.semanticweb.org/pdf/441.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/442> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/442.pdf> ;
+    swrc:url <http://iswc2010.semanticweb.org/pdf/442.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/443> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/443.pdf> ;
+    swrc:url <http://iswc2010.semanticweb.org/pdf/443.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/445> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/445.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_23> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_23>,
+        <http://iswc2010.semanticweb.org/pdf/445.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/448> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/448.pdf> ;
+    swrc:url <http://iswc2010.semanticweb.org/pdf/448.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/451> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/451.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_22> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_22>,
+        <http://iswc2010.semanticweb.org/pdf/451.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/453> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/453.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper453.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper453.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/453.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/455> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/455.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper455.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper455.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/455.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/456> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/456.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper456.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper456.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/456.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/457> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/457.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper457.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper457.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/457.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/460> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/460.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper460.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper460.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/460.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/463> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/463.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper463.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper463.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/463.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/465> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/465.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper465.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper465.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/465.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/467> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/467.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper467.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper467.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/467.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/468> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/468.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper468.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper468.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/468.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/469> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/469.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper469.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper469.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/469.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/470> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/470.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper470.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper470.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/470.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/471> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/471.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper471.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper471.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/471.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/473> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/473.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper473.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper473.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/473.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/474> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/474.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper474.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper474.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/474.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/476> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/476.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper476.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper476.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/476.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/479> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/479.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper479.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper479.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/479.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/481> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/481.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper481.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper481.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/481.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/483> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/483.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper483.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper483.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/483.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/484> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/484.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper484.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper484.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/484.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/488> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/488.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper488.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper488.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/488.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/489> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/489.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper489.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper489.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/489.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/491> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/491.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper491.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper491.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/491.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/492> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/492.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper492.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper492.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/492.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/495> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/495.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper495.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper495.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/495.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/496> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/496.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper496.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper496.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/496.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/498> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/498.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper498.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper498.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/498.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/499> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/499.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper499.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper499.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/499.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/501> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/501.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper501.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper501.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/501.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/502> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/502.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper502.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper502.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/502.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/503> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/503.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper503.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper503.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/503.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/505> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/505.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper505.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper505.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/505.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/506> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/506.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper506.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper506.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/506.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/508> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/508.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper508.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper508.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/508.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/509> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/509.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper509.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper509.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/509.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/51> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/51.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_33> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_33>,
+        <http://iswc2010.semanticweb.org/pdf/51.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/510> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/510.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper510.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper510.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/510.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/512> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/512.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper512.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper512.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/512.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/514> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/514.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper514.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper514.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/514.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/515> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/515.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper515.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper515.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/515.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/518> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/518.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper518.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper518.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/518.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/519> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/519.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper519.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper519.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/519.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/520> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/520.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper520.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper520.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/520.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/521> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/521.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper521.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper521.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/521.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/522> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/522.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper522.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper522.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/522.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/524> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/524.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper524.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper524.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/524.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/525> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/525.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper525.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper525.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/525.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/527> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/527.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper527.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper527.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/527.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/529> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/529.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper529.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper529.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/529.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/532> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/532.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper532.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper532.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/532.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/533> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/533.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper533.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper533.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/533.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/534> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/534.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper534.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper534.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/534.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/535> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/535.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper535.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper535.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/535.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/536> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/536.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper536.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper536.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/536.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/539> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/539.pdf> ;
+    swrc:link_publisher <http://ceur-ws.org/Vol-658/paper539.pdf> ;
+    swrc:url <http://ceur-ws.org/Vol-658/paper539.pdf>,
+        <http://iswc2010.semanticweb.org/pdf/539.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/540> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/540.pdf> ;
+    swrc:url <http://iswc2010.semanticweb.org/pdf/540.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/547> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/547.pdf> ;
+    swrc:url <http://iswc2010.semanticweb.org/pdf/547.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/548> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/548.pdf> ;
+    swrc:url <http://iswc2010.semanticweb.org/pdf/548.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/550> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/550.pdf> ;
+    swrc:url <http://iswc2010.semanticweb.org/pdf/550.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/551> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/551.pdf> ;
+    swrc:url <http://iswc2010.semanticweb.org/pdf/551.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/552> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/552.pdf> ;
+    swrc:url <http://iswc2010.semanticweb.org/pdf/552.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/555> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/555.pdf> ;
+    swrc:url <http://iswc2010.semanticweb.org/pdf/555.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/57> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/57.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_39> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_39>,
+        <http://iswc2010.semanticweb.org/pdf/57.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/61> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/61.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_13> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_13>,
+        <http://iswc2010.semanticweb.org/pdf/61.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/66> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/66.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_5> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_5>,
+        <http://iswc2010.semanticweb.org/pdf/66.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/70> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/70.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_35> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_35>,
+        <http://iswc2010.semanticweb.org/pdf/70.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/83> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/83.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_19> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_19>,
+        <http://iswc2010.semanticweb.org/pdf/83.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/84> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/84.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_4> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_4>,
+        <http://iswc2010.semanticweb.org/pdf/84.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/900> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/900.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_25> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_25>,
+        <http://iswc2010.semanticweb.org/pdf/900.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/901> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/901.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_26> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_26>,
+        <http://iswc2010.semanticweb.org/pdf/901.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/902> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/902.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_27> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_27>,
+        <http://iswc2010.semanticweb.org/pdf/902.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2010/paper/903> swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/903.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17749-1_28> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-17749-1_28>,
+        <http://iswc2010.semanticweb.org/pdf/903.pdf> .
+

@@ -1,0 +1,80 @@
+event_uri,super_event_uri,order_in_super_event,event_type,label,start,end,tzid,room,address,chair_label,chair_person,presenter_label,presenter_person,acronym,abstract,homepage,link_document,logo,source,EOL
+[ME],[ISWC],,ConferenceEvent,"The First International Semantic Web Conference",20020609T090000,20020612T183000,Europe/Rome,,"Sardinia, Italy",,,,,ISWC2002,,http://iswc2002.semanticweb.org/,,http://iswc2002.semanticweb.org/sardinia.jpg,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/,EOL
+,,,,,,,,,,,,,,,,,,,,
+[ME]/track/main,[ME],,TrackEvent,"Main Track",,,,,,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+[ME]/track/tutorial,[ME],,TrackEvent,"Tutorial Track",,,,,,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+[ME]/track/poster,[ME],,TrackEvent,"Poster Track",,,,,,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+,,,,,,,,,,,,,,,,,,,,
+[ME]/tutorial-1,[ME]/track/tutorial,,TutorialEvent,"Ontologies: Representation, Engineering, Learning and Applications",20020609T090000,20020609T120000,Europe/Rome,,,,,Organizer,"Alexander Maedche, Steffen Staab",,,http://events.aifb.uni-karlsruhe.de/ontologytutorial/iswc2002/,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/tutorials.html,EOL
+[ME]/tutorial-2,[ME]/track/tutorial,,TutorialEvent,"Description Logics for Conceptual Design, Information Access, and Ontology Integration: Research Trends",20020609T140000,20020609T170000,Europe/Rome,,,,,Organizer,"Enrico Franconi",,,http://www.cs.man.ac.uk/~franconi/dl/course/tutorial/,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/tutorials.html,EOL
+[ME]/tutorial-3,[ME]/track/tutorial,,TutorialEvent,"Semantic web services",20020609T090000,20020609T170000,Europe/Rome,,,,,Organizer,"Christoph Bussler, Dieter Fensel, Terry Payne, Katia Sycara",,,http://www.daml.ri.cmu.edu/tutorial/iswc-t3.html,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/tutorials.html,EOL
+[ME]/tutorial-4,[ME]/track/tutorial,,TutorialEvent,"Jena Tutorial",20020609T090000,20020609T120000,Europe/Rome,,,,,Organizer,"Jeremy Carroll, Brian McBride, Andy Seaborne",,,http://www.hpl.hp.com/semweb/iswc2002/cfp.html#more-info,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/tutorials.html,EOL
+,,,,,,,,,,,,,,,,,,,,
+,,,SpecialEvent,"Opening ceremony",20020610T090000,20020610T091500,Europe/Rome,,,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+[ME]/talk/invited-1,[ME],,InvitedTalkEvent,"The Grid, Grid Services and the Semantic Web: Technologies and Opportunities",20020610T091500,20020610T101500,Europe/Rome,,,"Session Chair","Carole Goble",Speaker,"Carl Kesselman",,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+,,,BreakEvent,"Coffee break",20020610T101500,20020610T104500,Europe/Rome,,,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+[ME]/session-01,[ME]/track/main,,SessionEvent,"Infrastructure I",20020610T104500,20020610T123000,Europe/Rome,,,"Session Chair","Peter Patel-Schneider",,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+,,,BreakEvent,Lunch,20020610T123000,20020610T143000,Europe/Rome,,,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+[ME]/session-02,[ME]/track/main,,SessionEvent,"Services I",20020610T143000,20020610T161500,Europe/Rome,,,"Session Chair","Rudi Studer",,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+,,,BreakEvent,"Coffee break",20020610T161500,20020610T164500,Europe/Rome,,,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+[ME]/session-03,[ME]/track/main,,SessionEvent,"Languages I",20020610T164500,20020610T183000,Europe/Rome,,,"Session Chair","Massimo Marchiori",,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+,,,SpecialEvent,"Welcome reception",20020610T193000,20020610T210000,Europe/Rome,"CAMINO Terrace",,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+,,,,,,,,,,,,,,,,,,,,
+[ME]/panel-research-challenge-semantic-web,,,PanelEvent,"Research Challenges for the Semantic Web (panel)",20020611T090000,20020611T101500,Europe/Rome,,,Chair,"Ian Horrocks",Panellist,"Murray Burke, Hans-Georg Stork, Bhavani Thuraisingham, Noboru Shimizu",,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+,,,BreakEvent,"Coffee break",20020611T101500,20020611T104500,Europe/Rome,,,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+[ME]/session-04,[ME]/track/main,,SessionEvent,"Tools and applications",20020611T104500,20020611T123000,Europe/Rome,,,"Session Chair","Heiner Stuckenschmidt",,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+,,,BreakEvent,Lunch,20020611T123000,20020611T143000,Europe/Rome,,,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+[ME]/session-05,[ME]/track/poster,,SessionEvent,"Poster session",20020611T143000,20020611T161500,Europe/Rome,,,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+,,,BreakEvent,"Coffee break",20020611T161500,20020611T164500,Europe/Rome,,,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+[ME]/session-06,[ME]/track/main,,SessionEvent,"Infrastructure II",20020611T164500,20020611T183000,Europe/Rome,,,"Session Chair","Steffen Staab",,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+,,,SpecialEvent,"Conference diner",20020611T200000,20020611T223000,Europe/Rome,"Restaurant LE DUNE (on the Lagoon)",,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+,,,,,,,,,,,,,,,,,,,,
+,,,SpecialEvent,"Best paper and best reviewer awards ceremony",20020612T090000,20020612T091500,Europe/Rome,,,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+[ME]/talk/invited-2,[ME],,InvitedTalkEvent,"Semantic Web Enabled Web Services",20020612T091500,20020612T101500,Europe/Rome,,,"Session Chair","Jim Hendler",Speaker,"Dieter Fensel",,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+,,,BreakEvent,"Coffee break",20020612T101500,20020612T104500,Europe/Rome,,,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+[ME]/session-07,[ME]/track/main,,SessionEvent,"Services II",20020612T104500,20020612T122500,Europe/Rome,,,"Session Chair","Yun Peng",,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+,,,BreakEvent,Lunch,20020612T123000,20020612T143000,Europe/Rome,,,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+[ME]/session-08,[ME]/track/main,,SessionEvent,"Languages II",20020612T143000,20020612T161500,Europe/Rome,,,"Session Chair","Jérôme Euzenat",,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+,,,BreakEvent,"Coffee break",20020612T161500,20020612T164500,Europe/Rome,,,,,,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+[ME]/session-09,[ME]/track/main,,SessionEvent,"Infrastructure III",20020612T164500,20020612T183000,Europe/Rome,,,"Session Chair","Brian McBride",,,,,,,,https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/program.html,EOL
+,,,,,,,,,,,,,,,,,,,,
+,[ME]/session-01,1,TalkEvent,"TRIPLE - A Query, Inference, and Transformation Language for the Semantic Web",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-01,2,TalkEvent,"Global vs. Community Metadata Standards: Empowering Users for Knowledge Exchange",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-01,3,TalkEvent,"The Usable Ontology: An Environment for Building and Assessing a Domain Ontology",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-01,4,TalkEvent,"Ontology-Based Integration of XML Web Resources",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-01,5,TalkEvent,"Four Steps Towards the Widespread Adoption of a Semantic Web",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-02,1,TalkEvent,"Towards High-Precision Service Retrieval",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-02,2,TalkEvent,"Bringing Together Semantic Web and Web Services",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-02,3,TalkEvent,"Concurrent Execution Semantics of DAML-S with Subtypes",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-02,4,TalkEvent,"Semantic Matching of Web Services Capabilities",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-02,5,TalkEvent,"Browsing Schedules - An Agent-Based Approach to Navigating the Semantic Web",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-03,1,TalkEvent,"Layering the Semantic Web: Problems and Directions",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-03,2,TalkEvent,"Notions of Indistinguishability for Semantic Web Languages",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-03,3,TalkEvent,"Representing Disjunction and Quantifiers in RDF",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-03,4,TalkEvent,"Nonmonotonic Rule Systems on Top of Ontology Layers",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-03,5,TalkEvent,"Three Implementations of SquishQL, a Simple RDF Query Language",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-04,1,TalkEvent,"OntoEdit: Collaborative Ontology Development for the Semantic Web",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-04,2,TalkEvent,"A Data Integration Framework for e-Commerce Product Classification",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-04,3,TalkEvent,"SWAD-Europe: Semantic Web Advanced Development in Europe",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-04,4,TalkEvent,"ClaiMaker: Weaving a Semantic Web of Research Papers",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-04,5,TalkEvent,"WebTheme™: Understanding Web Information through Visual Analytics",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-06,1,TalkEvent,"Benchmarking RDF Schemas for the Semantic Web",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-06,2,TalkEvent,"Integrating Vocabularies: Discovering and Representing Vocabulary Maps",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-06,3,TalkEvent,"Towards a Modification Exchange Language for Distributed RDF Repositories",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-06,4,TalkEvent,"Towards Semantic Web Mining",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-06,5,TalkEvent,"Consistency Checking of Semantic Web Ontologies",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-07,1,TalkEvent,"Semantic Configuration Web Services in the CAWICOMS Project",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-07,2,TalkEvent,"DAML-S: Web Service Description for the Semantic Web",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-07,3,TalkEvent,"Sesame: A Generic Architecture for Storing and Querying RDF and RDF Schema",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-07,4,TalkEvent,"A Mini-experiment in Semantic Annotation",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-07,5,TalkEvent,"Business and Enterprise Ontology Management with SymOntoX",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-08,1,TalkEvent,"Building the Semantic Web on XML",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-08,2,TalkEvent,"Taking the RDF Model Theory Out for a Spin",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-08,3,TalkEvent,"A Formal Model for Topic Maps",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-08,4,TalkEvent,"Is Participation in the Semantic Web Too Difficult?",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-09,1,TalkEvent,"Automatic Generation of Java/SQL Based Inference Engines from RDF Schema and RuleML",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-09,2,TalkEvent,"Matching RDF Graphs",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-09,3,TalkEvent,"Trusting Information Sources One Citizen at a Time",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-09,4,TalkEvent,"Querying the Semantic Web: A Formal Approach",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+,[ME]/session-09,5,TalkEvent,"An RDF NetAPI",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL
+####,,,,"Preemptive Reification.",,,,,,,,,,,,,,,http://dblp.uni-trier.de/xml/dblp.xml,EOL

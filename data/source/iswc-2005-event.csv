@@ -1,0 +1,157 @@
+event_uri,super_event_uri,order_in_super_event,event_type,label,start,end,tzid,room,address,chair_label,chair_person,presenter_label,presenter_person,acronym,abstract,homepage,link_document,logo,source,EOL
+[ME],[ISWC],,ConferenceEvent,"The Forth International Semantic Web Conference",2005-11-05T17:00:00,2005-11-10T16:30:00,Europe/Dublin,,"Galway, Ireland",,,,,ISWC2005,,http://iswc2005.semanticweb.org/,,http://iswc2005.semanticweb.org/images/iswc05_topB.gif,http://iswc2005.semanticweb.org/,EOL
+,,,,,,,,,,,,,,,,,,,,
+[ME]/track/research,[ME],,TrackEvent,"Research Track",,,,,,,,,,,,,,,,EOL
+[ME]/track/industrial,[ME],,TrackEvent,"Industrial Track",,,,,,,,,,,,,,,,EOL
+[ME]/track/tutorial,[ME],,TrackEvent,"Tutorial Track",,,,,,,,,,,,,,,,EOL
+,,,,,,,,,,,,,,,,,,,,
+,,,SpecialEvent,Pre-Registration,2005-11-05T17:00:00,2005-11-05T21:00:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,,,,,,,,,,,,,,,,,,
+[ME]/tutorial-1,[ME]/track/tutorial,,TutorialEvent,"Morning Tutorial: MDA Standards for Ontology Development",2005-11-06T09:00:00,2005-11-06T12:30:00,Europe/Dublin,"Inis Mór Ballroom 2",,Organizer,"Dragan Gasevic, Dragan Djuric, Vladan Devedzic",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/tutorial-2,[ME]/track/tutorial,,TutorialEvent,"Morning Tutorial: Semantic Web Rules with Ontologies, and Their E-Service Applications",2005-11-06T09:00:00,2005-11-06T12:30:00,Europe/Dublin,"Inis Mór Ballroom 3",,Organizer,"Benjamin Grosof, Micheal Kifer, Mike Dean",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,WorkshopEvent,"Full-Day Workshop: Semantic Web Enabled Software Engineering (SWESE)",2005-11-06T09:00:00,2005-11-06T17:30:00,Europe/Dublin,"The Quinn Suite",,Chair,"Evan Wallace, Jeff Z. Pan, Phil Tetlow, Elisa F. Kendall",,,,,http://www.mel.nist.gov/msid/conferences/SWESE/,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,WorkshopEvent,"Full-Day Workshop: The Semantic Desktop - Next Generation Personal Information Management and Collaboration Infrastructure",2005-11-06T09:00:00,2005-11-06T17:30:00,Europe/Dublin,"Inis Mór Ballroom 1",,Chair,"Stefan Decker, Jack Park, Dennis Quan, Leo Sauermann",,,,,http://www.semanticdesktop.org/,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,BreakEvent,"Morning Coffee",2005-11-06T10:30:00,2005-11-06T11:00:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,BreakEvent,Lunch,2005-11-06T12:30:00,2005-11-06T14:00:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/tutorial-3,[ME]/track/tutorial,,TutorialEvent,"Afternoon Tutorial: Ontology Design Patterns and Problems: Practical Ontology Engineering using Protégé-OWL",2005-11-06T14:00:00,2005-11-06T17:30:00,Europe/Dublin,"Inis Mór Ballroom 3",,Organizer,"Alan Rector, Natalya F. Noy, Mark A. Musen, Matthew Horridge, Nick Drummond, Robert Stevens",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/tutorial-4,[ME]/track/tutorial,,TutorialEvent,"Afternoon Tutorial: Semantic Web Service Systems and Tools",2005-11-06T14:00:00,2005-11-06T17:30:00,Europe/Dublin,"Inis Mór Ballroom 2",,Organizer,"Christoph Bussler, Liliana Cabral, John Domingue, Matthew Moran, Michael Stollberg, Michal Zaremba",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,BreakEvent,"Afternoon Coffee",2005-11-06T15:30:00,2005-11-06T16:00:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,,,,,,,,,,,,,,,,,,
+,,,WorkshopEvent,"Morning Workshop: Uncertainty Reasoning For the Semantic Web",2005-11-07T09:00:00,2005-11-07T12:30:00,Europe/Dublin,"Inis Mór Ballroom 3",,Chair,"Paulo C. G. Costa,Kathryn B. Laskey,Kenneth J. Laskey,Michael Pool",,,,,http://www.iet.com/iswc/2005/ursw/,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/track/doctoral-symposium,[ME],,SpecialEvent,"ISWC2005 Doctoral Symposium",2005-11-07T09:00:00,2005-11-07T17:00:00,Europe/Dublin,"Joyce Suite, Radisson Hotel",,Chair,"Edward Curry, Enda Ridge",,,,,http://ecrg.it.nuigalway.ie/iswds2005/,http://ecrg.it.nuigalway.ie/iswds2005/Doctoral_Proceedings.pdf,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,WorkshopEvent,"Full-Day Workshop: End User Semantic Web Interaction",2005-11-07T09:00:00,2005-11-07T17:30:00,Europe/Dublin,"Backstage bar",,Chair,"Abraham Bernstein,Ion Androutsopoulos,Duane Degler,Brian McBride",,,,,http://www.ifi.unizh.ch/ddis/iswc2005ws.html,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,WorkshopEvent,"Full-Day Workshop: Knowledge Markup and Semantic Annotation (Semannot2005)",2005-11-07T09:00:00,2005-11-07T17:30:00,Europe/Dublin,"Inis Mór Ballroom 2",,Chair,"Siegfried Handschuh,Thierry Declerck,Marja-Riitta Koivunen",,,,,http://km.aifb.uni-karlsruhe.de/ws/semannot2005,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,WorkshopEvent,"Full-Day Workshop: Semantic Network Analysis",2005-11-07T09:00:00,2005-11-07T17:30:00,Europe/Dublin,"The Quinn Suite",,Chair,"Gerd Stumme, Bettina Hoser, Christoph Schmitz, Harith Alani",,,,,http://www.kde.cs.uni-kassel.de/ws/sna2005,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,WorkshopEvent,"Full-Day Workshop: The Semantic Web and Policy Workshop (SWPW)",2005-11-07T09:00:00,2005-11-07T17:30:00,Europe/Dublin,"Marinas Restaurant",,Chair,"Lalana Kagal, Tim Finin, Jim Hendler",,,,,http://www.cs.umbc.edu/swpw/,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,BreakEvent,"Morning Coffee",2005-11-07T10:30:00,2005-11-07T11:00:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,BreakEvent,Lunch,2005-11-07T12:30:00,2005-11-07T14:00:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,SpecialEvent,"Industry Day – Information Juggernaut",2005-11-07T13:45:00,2005-11-07T17:00:00,Europe/Dublin,"Aula Maxima, NUI Galway",,Organizer,"Brian Cummins",,,,,http://iswc2005.semanticweb.org/Pindustryday.html,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,WorkshopEvent,"Afternoon Workshop: Ontology Patterns for the Semantic Web",2005-11-07T14:00:00,2005-11-07T17:30:00,Europe/Dublin,"Inis Mór Ballroom 1",,Chair,"Chris Welty, Aldo Gangemi",,,,,http://www.research.ibm.com/people/w/welty/OPSW-05/,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,WorkshopEvent,"Afternoon Workshop: Semantic Web Case Studies and Best Practices for eBusiness (SWCASE)",2005-11-07T14:00:00,2005-11-07T17:30:00,Europe/Dublin,"Inis Mór Ballroom 3",,Chair,"Robert Tolksdorf,Alain Leger,Guus Schreiber",,,,,http://nbi.inf.fu-berlin.de/conf/SWCASE05/,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,BreakEvent,"Afternoon Coffee",2005-11-07T15:30:00,2005-11-07T16:00:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,,,,,,,,,,,,,,,,,,
+,,,SpecialEvent,"ISWC2005 Introduction and Welcome",2005-11-08T09:00:00,2005-11-08T09:15:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,SpecialEvent,"ISWC2005 Awards",2005-11-08T09:15:00,2005-11-08T09:30:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/talk/invited-1,,,InvitedTalkEvent,"Using the Semantic Web for e-Science - Inspiration, Incubation, Irritation",2005-11-08T09:30:00,2005-11-08T10:30:00,Europe/Dublin,,,,,Speaker,"Carole Goble",,,,,,http://iswc2005.semanticweb.org/Ptimetable.html,EOL
+,,,BreakEvent,"Morning Coffee",2005-11-08T10:30:00,2005-11-08T11:00:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-1a,[ME]/track/research,,SessionEvent,"Paper Session Ia - SOCIAL NETWORKS",2005-11-08T11:00:00,2005-11-08T12:30:00,Europe/Dublin,,,Chair,"Stefan Decker",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-1b,[ME]/track/research,,SessionEvent,"Paper Session Ib - EDITING AND VISUALIZING ONTOLOGIES",2005-11-08T11:00:00,2005-11-08T12:30:00,Europe/Dublin,,,Chair,"John Domingue",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-1c,[ME]/track/research,,SessionEvent,"Paper Session Ic - E-SCIENCE",2005-11-08T11:00:00,2005-11-08T12:30:00,Europe/Dublin,,,Chair,"Terry Payne",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,BreakEvent,Lunch,2005-11-08T12:30:00,2005-11-08T13:30:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-2a,[ME]/track/research,,SessionEvent,"Paper Session IIa - EVALUATION AND BENCHMARKING",2005-11-08T13:30:00,2005-11-08T15:00:00,Europe/Dublin,,,Chair,"Sean Bechhofer",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-2b,[ME]/track/research,,SessionEvent,"Paper Session IIb - ONTOLOGY EVOLUTION",2005-11-08T13:30:00,2005-11-08T15:00:00,Europe/Dublin,,,Chair,"York Sure",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-2c,[ME]/track/research,,SessionEvent,"Paper Session IIc - SEMANTIC WEB SERVICES",2005-11-08T13:30:00,2005-11-08T15:00:00,Europe/Dublin,,,Chair,"Sheila McIlraith",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,BreakEvent,"Afternoon Coffee",2005-11-08T15:00:00,2005-11-08T15:30:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-3a,[ME]/track/research,,SessionEvent,"Paper Session IIIa - DEBUGGING AND INCONSISTENCY MANAGEMENT",2005-11-08T15:30:00,2005-11-08T17:00:00,Europe/Dublin,,,Chair,"Guus Schreiber",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-3b,[ME]/track/research,,SessionEvent,"Paper Session IIIb - LOGIC AND REASONING",2005-11-08T15:30:00,2005-11-08T17:00:00,Europe/Dublin,,,Chair,"Fausto Giunchiglia",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-3c,[ME]/track/industrial,,SessionEvent,"Paper Session IIIc - WEB SERVICES",2005-11-08T15:30:00,2005-11-08T17:00:00,Europe/Dublin,,,Chair,"Alain Leger",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,,,,,,,,,,,,,,,,,,
+[ME]/talk/invited-2,,,InvitedTalkEvent,"""The Practical Web"" - Semantic Acceleration Helping Realize the Semantic Web Vision",2005-11-09T09:00:00,2005-11-09T10:00:00,Europe/Dublin,,,,,Speaker,"Alfred Spector",,,,,,http://iswc2005.semanticweb.org/Ptimetable.html,EOL
+,,,BreakEvent,"Morning Coffee",2005-11-09T10:00:00,2005-11-09T10:30:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-4a,[ME]/track/research,,SessionEvent,"Paper Session IVa - SEMANTIC MARKUP AND BROWSING",2005-11-09T10:30:00,2005-11-09T12:00:00,Europe/Dublin,,,Chair,"Frank van Harmelen",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-4b,[ME]/track/research,,SessionEvent,"Paper Session IVb - AGENTS AND DISTRIBUTED ARCHITECTURES",2005-11-09T10:30:00,2005-11-09T12:00:00,Europe/Dublin,,,Chair,"Alun Preece",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-4c,[ME]/track/industrial,,SessionEvent,"Paper Session IVc - SECTOR APPLICATIONS I",2005-11-09T10:30:00,2005-11-09T12:00:00,Europe/Dublin,,,Chair,"Nigel Shadbolt",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,BreakEvent,Lunch,2005-11-09T12:00:00,2005-11-09T13:00:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-5a,[ME]/track/research,,SessionEvent,"Paper Session Va - RDF QUERYING AND STORAGE",2005-11-09T13:00:00,2005-11-09T14:30:00,Europe/Dublin,,,Chair,"Bijan Parsia",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-5b,[ME]/track/research,,SessionEvent,"Paper Session Vb - ONTOLOGY MAPPING AND ALIGNMENT I",2005-11-09T13:00:00,2005-11-09T14:30:00,Europe/Dublin,,,Chair,"Deborah McGuinness",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-5c,[ME]/track/industrial,,SessionEvent,"Paper Session Vc - SECTOR APPLICATIONS II",2005-11-09T13:00:00,2005-11-09T14:30:00,Europe/Dublin,,,Chair,"Hans-Peter Schnurr",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,BreakEvent,"Afternoon Coffee",2005-11-09T14:30:00,2005-11-09T15:00:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-6a,[ME]/track/research,,SessionEvent,"Paper Session VIa - ONTOLOGY CREATION",2005-11-09T15:00:00,2005-11-09T16:30:00,Europe/Dublin,,,Chair,"Marta Sabou",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-6b,[ME]/track/research,,SessionEvent,"Paper Session VIb - ONTOLOGY MAPPING AND ALIGNMENT II",2005-11-09T15:00:00,2005-11-09T16:30:00,Europe/Dublin,,,Chair,"Jerome Euzenat",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-6c,[ME]/track/industrial,,SessionEvent,"Paper Session VIc - METHODOLOGY",2005-11-09T15:00:00,2005-11-09T16:30:00,Europe/Dublin,,,Chair,"Luca Gilardoni",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,SpecialEvent,"EU Future Funding Session - Back to the drawing board: Options and directions for FP7 research",2005-11-09T16:30:00,2005-11-09T18:00:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,,,,,,,,,,,,,,,,,,
+[ME]/talk/invited-3,,,InvitedTalkEvent,"Semantic Web Public Policy Challenges: Privacy, Provenance, Property and Personhood",2005-11-10T09:00:00,2005-11-10T10:00:00,Europe/Dublin,,,,,Speaker,"Daniel J Weitzner",,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,BreakEvent,"Morning Coffee",2005-11-10T10:00:00,2005-11-10T10:30:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-7a,[ME]/track/research,,SessionEvent,"Paper Session VIIa - RULES",2005-11-10T10:30:00,2005-11-10T12:00:00,Europe/Dublin,,,Chair,"Ian Horrocks",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-7b,[ME]/track/research,,SessionEvent,"Paper Session VIIb - TRUST AND POLICIES",2005-11-10T10:30:00,2005-11-10T12:00:00,Europe/Dublin,,,Chair,"Norman Sadeh",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-7c,[ME]/track/industrial,,SessionEvent,"Paper Session VIIc - Applied Technology",2005-11-10T10:30:00,2005-11-10T12:00:00,Europe/Dublin,,,Chair,"Chris Priest",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,BreakEvent,Lunch,2005-11-10T12:00:00,2005-11-10T13:00:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-8a,[ME]/track/research,,SessionEvent,"Paper Session VIIIa - SEMANTIC SEARCH AND BROWSING",2005-11-10T13:00:00,2005-11-10T14:00:00,Europe/Dublin,,,Chair,"Paul Buitelaar",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-8b,[ME]/track/research,,SessionEvent,"Paper Session VIIIb - VERSIONING AND CONTEXT",2005-11-10T13:00:00,2005-11-10T14:00:00,Europe/Dublin,,,Chair,"Jeff Heflin",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/session-8c,[ME]/track/industrial,,SessionEvent,"Paper Session VIIIc - SECTOR APPLICATIONS III",2005-11-10T13:00:00,2005-11-10T14:00:00,Europe/Dublin,,,Chair,"Dean Allemang",,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,BreakEvent,"Afternoon Coffee",2005-11-10T14:00:00,2005-11-10T14:30:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,SpecialEvent,"Plenary Session: Semantic Web Challenge",2005-11-10T14:30:00,2005-11-10T15:00:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,SpecialEvent,"Plenary Session: RuleML Opening Remarks",2005-11-10T15:00:00,2005-11-10T15:15:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+[ME]/talk/invited-4,,,InvitedTalkEvent,"Plenary Session: Putting the Web back in Semantic Web",2005-11-10T15:15:00,2005-11-10T16:15:00,Europe/Dublin,,,,,Speaker,"Sir Tim Berners Lee",,,,http://www.w3.org/2005/Talks/1110-iswc-tbl/,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,SpecialEvent,"Plenary Session: ISWC Closing Remarks",2005-11-10T16:15:00,2005-11-10T16:30:00,Europe/Dublin,,,,,,,,,,,,http://simile.mit.edu/repository/semantic-bank/branches/conference/src/data/iswc2005-schedule.n3,EOL
+,,,,,,,,,,,,,,,,,,,,
+,[ME]/session-1a,1,TalkEvent,"Ontologies Are Us: A Unified Model of Social Networks and Semantics",,,,,,,,,,,,,,,,
+,[ME]/session-1a,2,TalkEvent,"Searching Dynamic Communities with Personal Indexes",,,,,,,,,,,,,,,,
+,[ME]/session-1a,3,TalkEvent,"Semantically Rich Recommendations in Social Networks for Sharing, Exchanging and Ranking Semantic Context",,,,,,,,,,,,,,,,
+,[ME]/session-1b,1,TalkEvent,"Towards Imaging Large-Scale Ontologies for Quick Understanding and Analysis",,,,,,,,,,,,,,,,
+,[ME]/session-1b,2,TalkEvent,"Querying Ontologies: A Controlled English Interface for End-Users",,,,,,,,,,,,,,,,
+,[ME]/session-1b,3,TalkEvent,"Using Triples for Implementation: The Triple20 Ontology-Manipulation Tool",,,,,,,,,,,,,,,,
+,[ME]/session-1c,1,TalkEvent,"A Little Semantic Web Goes a Long Way in Biology",,,,,,,,,,,,,,,,
+,[ME]/session-1c,2,TalkEvent,"Provenance-Based Validation of E-Science Experiments",,,,,,,,,,,,,,,,
+,[ME]/session-1c,3,TalkEvent,"Seven Bottlenecks to Workflow Reuse and Repurposing",,,,,,,,,,,,,,,,
+,[ME]/session-2a,1,TalkEvent,"A Large Scale Taxonomy Mapping Evaluation",,,,,,,,,,,,,,,,
+,[ME]/session-2a,2,TalkEvent,"Rapid Benchmarking for Semantic Web Knowledge Base Systems",,,,,,,,,,,,,,,,
+,[ME]/session-2a,3,TalkEvent,"Automatic Evaluation of Ontologies (AEON)",,,,,,,,,,,,,,,,
+,[ME]/session-2a,4,TalkEvent,"Guidelines for Benchmarking the Performance of Ontology Management APIs",,,,,,,,,,,,,,,,
+,[ME]/session-2b,1,TalkEvent,"Ontology Change Detection Using a Version Log",,,,,,,,,,,,,,,,
+,[ME]/session-2b,2,TalkEvent,"RUL: A Declarative Update Language for RDF",,,,,,,,,,,,,,,,
+,[ME]/session-2b,3,TalkEvent,"On Applying the AGM Theory to DLs and OWL",,,,,,,,,,,,,,,,
+,[ME]/session-2c,1,TalkEvent,"Information Modeling for End to End Composition of Semantic Web Services",,,,,,,,,,,,,,,,
+,[ME]/session-2c,2,TalkEvent,"Choreography in IRS-III - Coping with Heterogeneous Interaction Patterns in Web Services",,,,,,,,,,,,,,,,
+,[ME]/session-2c,3,TalkEvent,"Web Service Composition with Volatile Information",,,,,,,,,,,,,,,,
+,[ME]/session-2c,4,TalkEvent,"Towards a Formal Verification of OWL-S Process Models",,,,,,,,,,,,,,,,
+,[ME]/session-3a,1,TalkEvent,"Debugging OWL-DL Ontologies: A Heuristic Approach",,,,,,,,,,,,,,,,
+,[ME]/session-3a,2,TalkEvent,"A General Diagnosis Method for Ontologies",,,,,,,,,,,,,,,,
+,[ME]/session-3a,3,TalkEvent,"A Framework for Handling Inconsistency in Changing Ontologies",,,,,,,,,,,,,,,,
+,[ME]/session-3b,1,TalkEvent,"On the Properties of Metamodeling in OWL",,,,,,,,,,,,,,,,
+,[ME]/session-3b,2,TalkEvent,"RDF Entailment as a Graph Homomorphism",,,,,,,,,,,,,,,,
+,[ME]/session-3b,3,TalkEvent,"On Logical Consequence for Collections of OWL Documents",,,,,,,,,,,,,,,,
+,[ME]/session-3c,1,TalkEvent,"Automated Business-to-Business Integration of a Logistics Supply Chain Using Semantic Web Services Technology",,,,,,,,,,,,,,,,
+,[ME]/session-3c,2,TalkEvent,"Ontological Approach to Generating Personalized User Interfaces for Web Services",,,,,,,,,,,,,,,,
+,[ME]/session-3c,3,TalkEvent,"An Application of Semantic Web Technologies to Situation Awareness",,,,,,,,,,,,,,,,
+,[ME]/session-4a,1,TalkEvent,"Piggy Bank: Experience the Semantic Web Inside Your Web Browser",,,,,,,,,,,,,,,,
+,[ME]/session-4a,2,TalkEvent,"A Template-Based Markup Tool for Semantic Web Content",,,,,,,,,,,,,,,,
+,[ME]/session-4a,3,TalkEvent,"Finding and Ranking Knowledge on the Semantic Web",,,,,,,,,,,,,,,,
+,[ME]/session-4b,1,TalkEvent,"A Strategy for Automated Meaning Negotiation in Distributed Information Retrieval",,,,,,,,,,,,,,,,
+,[ME]/session-4b,2,TalkEvent,"Introducing Autonomic Behaviour in Semantic Web Agents",,,,,,,,,,,,,,,,
+,[ME]/session-4b,3,TalkEvent,"An Ontological Framework for Dynamic Coordination",,,,,,,,,,,,,,,,
+,[ME]/session-4c,1,TalkEvent,"LKMS - A Legal Knowledge Management System Exploiting Semantic Web Technologies",,,,,,,,,,,,,,,,
+,[ME]/session-4c,2,TalkEvent,"Do Not Use This Gear with a Switching Lever! Automotive Industry Experience with Semantic Guides",,,,,,,,,,,,,,,,
+,[ME]/session-4c,3,TalkEvent,"Definitions Management: A Semantics-Based Approach for Clinical Documentation in Healthcare Delivery",,,,,,,,,,,,,,,,
+,[ME]/session-5a,1,TalkEvent,"Benchmarking Database Representations of RDF/S Stores",,,,,,,,,,,,,,,,
+,[ME]/session-5a,2,TalkEvent,"Containment and Minimization of RDF/S Query Patterns",,,,,,,,,,,,,,,,
+,[ME]/session-5a,3,TalkEvent,"BRAHMS: A WorkBench RDF Store and High Performance Memory System for Semantic Association Discovery",,,,,,,,,,,,,,,,
+,[ME]/session-5b,1,TalkEvent,"Bootstrapping Ontology Alignment Methods with APFEL",,,,,,,,,,,,,,,,
+,[ME]/session-5b,2,TalkEvent,"A Method to Combine Linguistic Ontology-Mapping Techniques",,,,,,,,,,,,,,,,
+,[ME]/session-5b,3,TalkEvent,"A String Metric for Ontology Alignment",,,,,,,,,,,,,,,,
+,[ME]/session-5c,1,TalkEvent,"Ubiquitous Service Finder Discovery of Services Semantically Derived from Metadata in Ubiquitous Computing",,,,,,,,,,,,,,,,
+,[ME]/session-5c,2,TalkEvent,"Task Knowledge Based Retrieval for Service Relevant to Mobile User's Activity",,,,,,,,,,,,,,,,
+,[ME]/session-5c,3,TalkEvent,"MediaCaddy - Semantic Web Based On-Demand Content Navigation System for Entertainment",,,,,,,,,,,,,,,,
+,[ME]/session-6a,1,TalkEvent,"RelExt: A Tool for Relation Extraction from Text in Ontology Extension",,,,,,,,,,,,,,,,
+,[ME]/session-6a,2,TalkEvent,"Graph-Based Inferences in a Semantic Web Server for the Cartography of Competencies in a Telecom Valley",,,,,,,,,,,,,,,,
+,[ME]/session-6a,3,TalkEvent,"Ontology Design Patterns for Semantic Web Content",,,,,,,,,,,,,,,,
+,[ME]/session-6b,1,TalkEvent,"Constructing Complex Semantic Mappings Between XML Data and Ontologies",,,,,,,,,,,,,,,,
+,[ME]/session-6b,2,TalkEvent,"OMEN: A Probabilistic Ontology Mapping Tool",,,,,,,,,,,,,,,,
+,[ME]/session-6b,3,TalkEvent,"A Bayesian Network Approach to Ontology Mapping",,,,,,,,,,,,,,,,
+,[ME]/session-6c,1,TalkEvent,"On Identifying Knowledge Processing Requirements",,,,,,,,,,,,,,,,
+,[ME]/session-6c,2,TalkEvent,"Towards a Killer App for the Semantic Web",,,,,,,,,,,,,,,,
+,[ME]/session-6c,3,TalkEvent,"Enterprise Architecture Reference Modeling in OWL/RDF",,,,,,,,,,,,,,,,
+,[ME]/session-7a,1,TalkEvent,"Combining RDF and Part of OWL with Rules: Semantics, Decidability, Complexity",,,,,,,,,,,,,,,,
+,[ME]/session-7a,2,TalkEvent,"Stable Model Theory for Extended RDF Ontologies",,,,,,,,,,,,,,,,
+,[ME]/session-7a,3,TalkEvent,"Resolution-Based Approximate Reasoning for OWL DL",,,,,,,,,,,,,,,,
+,[ME]/session-7b,1,TalkEvent,"Preferential Reasoning on a Web of Trust",,,,,,,,,,,,,,,,
+,[ME]/session-7b,2,TalkEvent,"On Partial Encryption of RDF-Graphs",,,,,,,,,,,,,,,,
+,[ME]/session-7b,3,TalkEvent,"Representing Web Service Policies in OWL-DL",,,,,,,,,,,,,,,,
+,[ME]/session-7c,1,TalkEvent,"Gnowsis Adapter Framework: Treating Structured Data Sources as Virtual RDF Graphs",,,,,,,,,,,,,,,,
+,[ME]/session-7c,2,TalkEvent,"The Concept Object Web for Knowledge Management",,,,,,,,,,,,,,,,
+,[ME]/session-7c,3,TalkEvent,"Supporting Rule System Interoperability on the Semantic Web with SWRL",,,,,,,,,,,,,,,,
+,[ME]/session-8a,1,TalkEvent,"RitroveRAI: A Web Application for Semantic Indexing and Hyperlinking of Multimedia News",,,,,,,,,,,,,,,,
+,[ME]/session-8a,2,TalkEvent,"Semantic Browsing of Digital Collections",,,,,,,,,,,,,,,,
+,[ME]/session-8b,1,TalkEvent,"Reasoning with Multi-version Ontologies: A Temporal Logic Approach",,,,,,,,,,,,,,,,
+,[ME]/session-8b,2,TalkEvent,"Decentralized Case-Based Reasoning for the Semantic Web",,,,,,,,,,,,,,,,
+,[ME]/session-8c,1,TalkEvent,"A Semantic Search Engine for the International Relation Sector",,,,,,,,,,,,,,,,
+,[ME]/session-8c,2,TalkEvent,"Semantic Service Integration for Water Resource Management",,,,,,,,,,,,,,,,
+####-invited,,,InvitedTalkEvent,"Semantic Acceleration Helping Realize the Semantic Web Vision or ""The Practical Web""",,,,,,,,,,,,,,,,
+####-invited,,,InvitedTalkEvent,"Semantic Web Public Policy Challenges: Privacy, Provenance, Property and Personhood",,,,,,,,,,,,,,,,
+####-invited,,,InvitedTalkEvent,"Using the Semantic Web for e-Science: Inspiration, Incubation, Irritation",,,,,,,,,,,,,,,,
+####-challenge,,,,"CONFOTO: A Semantic Browsing and Annotation Service for Conference Photos",,,,,,,,,,,,,,,,
+####-challenge,,,,"DynamicView: Distribution, Evolution and Visualization of Research Areas in Computer Science",,,,,,,,,,,,,,,,
+####-challenge,,,,"Oyster - Sharing and Re-using Ontologies in a Peer-to-Peer Community",,,,,,,,,,,,,,,,
+####-challenge,,,,"The FungalWeb Ontology: Semantic Web Challenges in Bioinformatics and Genomics",,,,,,,,,,,,,,,,
+####-challenge,,,,"The Personal Publication Reader",,,,,,,,,,,,,,,,

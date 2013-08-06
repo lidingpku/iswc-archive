@@ -1,0 +1,264 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swrc: <http://swrc.ontoware.org/ontology#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-1> swrc:link_publisher <http://dx.doi.org/10.1007/11926078_41> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_41> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-10> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Hu2006pd.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_22> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_22>,
+        <http://iswc2006.semanticweb.org/items/Hu2006pd.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-11> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Laera2006oz.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_27> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_27>,
+        <http://iswc2006.semanticweb.org/items/Laera2006oz.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-12> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Bao2006fv.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_6> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_6>,
+        <http://iswc2006.semanticweb.org/items/Bao2006fv.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-13> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Motik2006bh.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_36> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_36>,
+        <http://iswc2006.semanticweb.org/items/Motik2006bh.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-14> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Zimmermann2006jw.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_2> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_2>,
+        <http://iswc2006.semanticweb.org/items/Zimmermann2006jw.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-15> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Wang2006ly.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_49> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_49>,
+        <http://iswc2006.semanticweb.org/items/Wang2006ly.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-16> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Bechhofer2006pi.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_8> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_8>,
+        <http://iswc2006.semanticweb.org/items/Bechhofer2006pi.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-17> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Cabral2006ij.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_15> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_15>,
+        <http://iswc2006.semanticweb.org/items/Cabral2006ij.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-18> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Lopez2006dk.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_30> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_30>,
+        <http://iswc2006.semanticweb.org/items/Lopez2006dk.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-19> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Hurtado2006rt.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_23> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_23>,
+        <http://iswc2006.semanticweb.org/items/Hurtado2006rt.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-2> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Welty2006tw.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_51> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_51>,
+        <http://iswc2006.semanticweb.org/items/Welty2006tw.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-20> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Arenas2006bv.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_3> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_3>,
+        <http://iswc2006.semanticweb.org/items/Arenas2006bv.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-21> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Arpinar2006pb.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_4> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_4>,
+        <http://iswc2006.semanticweb.org/items/Arpinar2006pb.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-22> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Tsarkov2006qe.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_47> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_47>,
+        <http://iswc2006.semanticweb.org/items/Tsarkov2006qe.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-23> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Mei2006dz.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_32> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_32>,
+        <http://iswc2006.semanticweb.org/items/Mei2006dz.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-24> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Bizer2006kl.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_12> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_12>,
+        <http://iswc2006.semanticweb.org/items/Bizer2006kl.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-25> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Hassine2006qy.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_10> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_10>,
+        <http://iswc2006.semanticweb.org/items/Hassine2006qy.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-26> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Holzinger2006zt.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_21> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_21>,
+        <http://iswc2006.semanticweb.org/items/Holzinger2006zt.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-27> swrc:link_open_access <http://iswc2006.semanticweb.org/items/McDowell2006fu.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_31> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_31>,
+        <http://iswc2006.semanticweb.org/items/McDowell2006fu.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-28> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Simperl2006la.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_45> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_45>,
+        <http://iswc2006.semanticweb.org/items/Simperl2006la.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-29> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Brambilla2006mz.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_13> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_13>,
+        <http://iswc2006.semanticweb.org/items/Brambilla2006mz.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-3> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Belhajjame2006ul.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_9> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_9>,
+        <http://iswc2006.semanticweb.org/items/Belhajjame2006ul.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-30> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Mori2006eu.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_35> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_35>,
+        <http://iswc2006.semanticweb.org/items/Mori2006eu.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-31> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Aurnhammer2006ve.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_5> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_5>,
+        <http://iswc2006.semanticweb.org/items/Aurnhammer2006ve.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-32> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Noy2006fj.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_39> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_39>,
+        <http://iswc2006.semanticweb.org/items/Noy2006fj.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-33> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Wang2006hc.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_48> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_48>,
+        <http://iswc2006.semanticweb.org/items/Wang2006hc.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-34> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Mocan2006oq.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_33> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_33>,
+        <http://iswc2006.semanticweb.org/items/Mocan2006oq.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-35> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Lecue2006uq.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_28> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_28>,
+        <http://iswc2006.semanticweb.org/items/Lecue2006uq.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-36> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Ramakrishnan2006kx.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_42> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_42>,
+        <http://iswc2006.semanticweb.org/items/Ramakrishnan2006kx.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-37> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Siberski2006rw.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_44> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_44>,
+        <http://iswc2006.semanticweb.org/items/Siberski2006rw.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-38> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Nickles2006bs.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_38> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_38>,
+        <http://iswc2006.semanticweb.org/items/Nickles2006bs.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-39> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Hage2006yq.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_52> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_52>,
+        <http://iswc2006.semanticweb.org/items/Hage2006yq.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-4> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Nakatsuji2006dp.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_37> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_37>,
+        <http://iswc2006.semanticweb.org/items/Nakatsuji2006dp.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-40> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Harth2006dq.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_19> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_19>,
+        <http://iswc2006.semanticweb.org/items/Harth2006dq.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-41> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Ding2006lq.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_18> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_18>,
+        <http://iswc2006.semanticweb.org/items/Ding2006lq.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-42> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Alani2006qa.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_1> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_1>,
+        <http://iswc2006.semanticweb.org/items/Alani2006qa.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-43> swrc:link_open_access <http://iswc2006.semanticweb.org/items/McIlraith2006jl.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_43> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_43>,
+        <http://iswc2006.semanticweb.org/items/McIlraith2006jl.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-44> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Bernstein2006tg.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_11> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_11>,
+        <http://iswc2006.semanticweb.org/items/Bernstein2006tg.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-45> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Brockmans2006vn.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_14> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_14>,
+        <http://iswc2006.semanticweb.org/items/Brockmans2006vn.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-46> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Wang2006rr.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_50> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_50>,
+        <http://iswc2006.semanticweb.org/items/Wang2006rr.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-47> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Cheung2006kl.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_16> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_16>,
+        <http://iswc2006.semanticweb.org/items/Cheung2006kl.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-48> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Klusch2006xr.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_7> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_7>,
+        <http://iswc2006.semanticweb.org/items/Klusch2006xr.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-49> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Dellschaft2006fy.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_17> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_17>,
+        <http://iswc2006.semanticweb.org/items/Dellschaft2006fy.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-5> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Liarou2006wd.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_29> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_29>,
+        <http://iswc2006.semanticweb.org/items/Liarou2006wd.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-50> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Tang2006ee.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_46> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_46>,
+        <http://iswc2006.semanticweb.org/items/Tang2006ee.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-51> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Montanari2006fr.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_34> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_34>,
+        <http://iswc2006.semanticweb.org/items/Montanari2006fr.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-52> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Hildebrand2006lr.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_20> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_20>,
+        <http://iswc2006.semanticweb.org/items/Hildebrand2006lr.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-6> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Kim2006lh.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_26> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_26>,
+        <http://iswc2006.semanticweb.org/items/Kim2006lh.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-7> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Bontcheva2006th.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_24> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_24>,
+        <http://iswc2006.semanticweb.org/items/Bontcheva2006th.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-8> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Kershenbaum2006qo.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_25> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_25>,
+        <http://iswc2006.semanticweb.org/items/Kershenbaum2006qo.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2006/paper-9> swrc:link_open_access <http://iswc2006.semanticweb.org/items/Oren2006nx.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/11926078_40> ;
+    swrc:url <http://dx.doi.org/10.1007/11926078_40>,
+        <http://iswc2006.semanticweb.org/items/Oren2006nx.pdf> .
+

@@ -1,0 +1,853 @@
+@prefix ns1: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swrc: <http://swrc.ontoware.org/ontology#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.semanticweb.org/conference/iswc/2011/break-2011-10-23T10:30:00> ns1:dtend "2011-10-23T11:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-23T10:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/break-2011-10-23T12:30:00> ns1:dtend "2011-10-23T14:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-23T12:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/break-2011-10-23T16:00:00> ns1:dtend "2011-10-23T16:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-23T16:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/break-2011-10-24T10:30:00> ns1:dtend "2011-10-24T11:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-24T10:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/break-2011-10-24T12:30:00> ns1:dtend "2011-10-24T14:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-24T12:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/break-2011-10-24T15:30:00> ns1:dtend "2011-10-24T16:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-24T15:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/break-2011-10-25T10:30:00> ns1:dtend "2011-10-25T11:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T10:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/break-2011-10-25T12:30:00> ns1:dtend "2011-10-25T14:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T12:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/break-2011-10-25T16:00:00> ns1:dtend "2011-10-25T16:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T16:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/break-2011-10-25T18:00:00> ns1:dtend "2011-10-25T18:15:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T18:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/break-2011-10-26T10:00:00> ns1:dtend "2011-10-26T10:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-26T10:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/break-2011-10-26T12:30:00> ns1:dtend "2011-10-26T14:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-26T12:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/break-2011-10-26T16:00:00> ns1:dtend "2011-10-26T16:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-26T16:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/break-2011-10-27T10:00:00> ns1:dtend "2011-10-27T10:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-27T10:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/break-2011-10-27T12:30:00> ns1:dtend "2011-10-27T14:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-27T12:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/break-2011-10-27T16:00:00> ns1:dtend "2011-10-27T16:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-27T16:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/events/keynote/1> ns1:dtend "2011-10-25T10:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T09:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/events/keynote/2> ns1:dtend "2011-10-26T10:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-26T09:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/events/keynote/3> ns1:dtend "2011-10-27T10:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-27T09:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/panels/meet-the-editors> ns1:dtend "2011-10-25T12:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T11:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/doctoral-consortium/12> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320313.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_23> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_23>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320313.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/doctoral-consortium/14> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320321.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_24> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_24>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320321.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/doctoral-consortium/16> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320273.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_18> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_18>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320273.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/doctoral-consortium/18> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320361.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_29> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_29>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320361.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/doctoral-consortium/19> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320289.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_20> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_20>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320289.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/doctoral-consortium/2> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320353.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_28> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_28>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320353.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/doctoral-consortium/20> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320377.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_31> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_31>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320377.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/doctoral-consortium/26> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320281.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_19> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_19>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320281.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/doctoral-consortium/3> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320369.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_30> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_30>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320369.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/doctoral-consortium/30> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320345.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_27> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_27>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320345.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/doctoral-consortium/32> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320305.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_22> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_22>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320305.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/doctoral-consortium/4> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320385.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_32> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_32>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320385.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/doctoral-consortium/5> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320297.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_21> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_21>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320297.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/doctoral-consortium/6> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320337.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_26> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_26>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320337.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/doctoral-consortium/8> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320329.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_25> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_25>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/DC_Proposals/70320329.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/industry/11> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/iswc2011it_submission_11.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/iswc2011it_submission_11.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/industry/12> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/ISWC2011_IndustryTrack-final.pptx> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/ISWC2011_IndustryTrack-final.pptx> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/industry/13> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/ONTOPRISE_SMW__ISWC.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/ONTOPRISE_SMW__ISWC.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/industry/14> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/iswc2011it_submission_14.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/iswc2011it_submission_14.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/industry/15> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/iswc2011it_submission_15.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/iswc2011it_submission_15.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/industry/16> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/iswc2011it_submission_16.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/iswc2011it_submission_16.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/industry/17> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/ISWCIndustryTrack.MCGINNIS.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/ISWCIndustryTrack.MCGINNIS.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/industry/20> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/WOO_ISWC.pptx> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/WOO_ISWC.pptx> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/industry/5> swrc:link_open_access <http://jbusse.de/semauth/iswc2011.html> ;
+    swrc:url <http://jbusse.de/semauth/iswc2011.html> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/industry/6> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/iswc2011it_submission_6.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/iswc2011it_submission_6.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/industry/7> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/Extending_SOA_infrastructure_Alion.pptx> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/Extending_SOA_infrastructure_Alion.pptx> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/industry/8> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/iswc2011it_submission_8.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Industry/iswc2011it_submission_8.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/1> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_01.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_01.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/100> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_100.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_100.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/104> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_104.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_104.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/105> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_105.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_105.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/106> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_106.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_106.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/107> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_107.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_107.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/11> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_11.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_11.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/13> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_13.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_13.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/18> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_18.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_18.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/19> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_19.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_19.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/20> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_20.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_20.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/22> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_22.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_22.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/24> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_24.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_24.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/26> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_26.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_26.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/27> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_27.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_27.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/29> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_29.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_29.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/30> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_30.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_30.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/31> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_31.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_31.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/34> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_34.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_34.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/35> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_35.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_35.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/36> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_36.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_36.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/38> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_38.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_38.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/4> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_04.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_04.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/40> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_40.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_40.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/43> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_43.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_43.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/44> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_44.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_44.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/45> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_45.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_45.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/46> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_46.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_46.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/48> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_48.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_48.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/49> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_49.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_49.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/5> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_05.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_05.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/50> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_50.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_50.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/55> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_55.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_55.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/57> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_57.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_57.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/6> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_06.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_06.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/61> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_61.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_61.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/63> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_63.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_63.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/66> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_66.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_66.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/67> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_67.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_67.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/70> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_70.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_70.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/72> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_72.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_72.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/74> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_74.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_74.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/75> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_75.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_75.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/78> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_78.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_78.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/79> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_79.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_79.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/8> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_08.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_08.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/80> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_80.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_80.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/81> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_81.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_81.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/85> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_85.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_85.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/86> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_86.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_86.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/87> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_87.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_87.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/88> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_88.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_88.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/89> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_89.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_89.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/90> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_90.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_90.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/91> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_91.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_91.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/93> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_93.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_93.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/94> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_94.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_94.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/95> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_95.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_95.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/96> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_96.pdf> ;
+    swrc:url <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/PostersDemos/iswc11pd_submission_96.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/102> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/05/70310768.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_49> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_49>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/05/70310768.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/103> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/13/70310656.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_42> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_42>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/13/70310656.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/107> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/04/70310672.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_43> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_43>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/04/70310672.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/108> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/08/70310608.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_39> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_39>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/08/70310608.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/110> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/11/70310432.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_28> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_28>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/11/70310432.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/119> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/13/70310145.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_10> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_10>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/13/70310145.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/124> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/11/70310129.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_9> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_9>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/11/70310129.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/132> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/14/70310544.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_35> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_35>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/14/70310544.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/133> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/05/70310592.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_38> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_38>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/05/70310592.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/151> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/07/70310560.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_36> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_36>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/07/70310560.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/158> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/06/70310320.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_21> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_21>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/06/70310320.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/180> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/08/70310416.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_27> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_27>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/08/70310416.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/198> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/12/70310033.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_3> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_3>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/12/70310033.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/200> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/07/70310512.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_33> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_33>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/07/70310512.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/209> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/02/70310049.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_4> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_4>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/02/70310049.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/210> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/07/70310528.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_34> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_34>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/07/70310528.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/216> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/12/70310208.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_14> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_14>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/12/70310208.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/223> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/09/70310496.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_32> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_32>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/09/70310496.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/236> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/05/70310368.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_24> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_24>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/05/70310368.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/238> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/03/70310736.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_47> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_47>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/03/70310736.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/241> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/12/70310288.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_19> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_19>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/12/70310288.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/246> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/02/70310352.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_23> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_23>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/02/70310352.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/248> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/04/70310720.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_46> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_46>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/04/70310720.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/252> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/09/70310640.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_41> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_41>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/09/70310640.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/256> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/14/70310464.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_30> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_30>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/14/70310464.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/27> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/13/70310272.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_18> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_18>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/13/70310272.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/278> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/04/70310304.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_20> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_20>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/04/70310304.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/281> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/10/70310065.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_5> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_5>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/10/70310065.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/298> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/06/70310384.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_25> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_25>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/06/70310384.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/307> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/14/70310256.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_17> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_17>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/14/70310256.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/31> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/06/70310704.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_45> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_45>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/06/70310704.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/312> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/10/70310240.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_16> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_16>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/10/70310240.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/318> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/03/70310752.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_48> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_48>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/03/70310752.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/32> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/12/70310001.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_1> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_1>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/12/70310001.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/325> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/01/70310192.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_13> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_13>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/01/70310192.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/328> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/06/70310784.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_50> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_50>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/06/70310784.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/344> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/01/70310081.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_6> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_6>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/01/70310081.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/354> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/04/70310400.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_26> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_26>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/04/70310400.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/42> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/03/70310448.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_29> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_29>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/03/70310448.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/47> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/07/70310224.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_15> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_15>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/07/70310224.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/49> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/03/70310017.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_2> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_2>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/03/70310017.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/55> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/13/70310097.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_7> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_7>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/13/70310097.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/57> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/01/70310176.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_12> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_12>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/01/70310176.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/65> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/14/70310480.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_31> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_31>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/14/70310480.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/66> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/05/70310576.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_37> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_37>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/05/70310576.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/68> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/09/70310161.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_11> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_11>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/09/70310161.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/78> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/08/70310624.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_40> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_40>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/08/70310624.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/9> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/09/70310113.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_8> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_8>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/09/70310113.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/94> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/02/70310688.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_44> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_44>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/02/70310688.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/research/97> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/08/70310336.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_22> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_22>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/08/70310336.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/12> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320017.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_2> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_2>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320017.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/15> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320193.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_13> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_13>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320193.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/18> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320145.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_10> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_10>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320145.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/19> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320241.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_16> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_16>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320241.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/2> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320065.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_5> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_5>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320065.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/20> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320081.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_6> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_6>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320081.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/31> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320225.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_15> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_15>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320225.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/33> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320097.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_7> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_7>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320097.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/43> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320001.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_1> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_1>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320001.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/47> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320129.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_9> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_9>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320129.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/50> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320177.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_12> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_12>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320177.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/66> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320161.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_11> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_11>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320161.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/70> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320209.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_14> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_14>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320209.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/71> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320113.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_8> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_8>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320113.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/75> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320033.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_3> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_3>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320033.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/76> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320257.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_17> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_17>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320257.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/78> swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320049.pdf> ;
+    swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25093-4_4> ;
+    swrc:url <http://dx.doi.org/10.1007/978-3-642-25093-4_4>,
+        <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320049.pdf> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/tutorial/1> swrc:link_open_access <http://iswc2011.semanticweb.org/tutorials/debugging-ontologies-and-mappings-in-ontology-networks/> ;
+    swrc:url <http://iswc2011.semanticweb.org/tutorials/debugging-ontologies-and-mappings-in-ontology-networks/> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/tutorial/10> swrc:link_open_access <http://iswc2011.semanticweb.org/tutorials/sparql-11-theory-and-practice/> ;
+    swrc:url <http://iswc2011.semanticweb.org/tutorials/sparql-11-theory-and-practice/> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/tutorial/11> swrc:link_open_access <http://iswc2011.semanticweb.org/tutorials/semantic-web-technology-in-watson/> ;
+    swrc:url <http://iswc2011.semanticweb.org/tutorials/semantic-web-technology-in-watson/> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/tutorial/3> swrc:link_open_access <http://iswc2011.semanticweb.org/tutorials/scalable-integration-and-processing-of-linked-data/> ;
+    swrc:url <http://iswc2011.semanticweb.org/tutorials/scalable-integration-and-processing-of-linked-data/> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/tutorial/6> swrc:link_open_access <http://www.insemtives.eu/iswc2011-tutorial/> ;
+    swrc:url <http://www.insemtives.eu/iswc2011-tutorial/> .
+
+<http://data.semanticweb.org/conference/iswc/2011/paper/tutorial/9> swrc:link_open_access <http://iswc2011.semanticweb.org/tutorials/but-i-did-a-user-study-vs-what-do-you-mean-i-need-a-user-study/> ;
+    swrc:url <http://iswc2011.semanticweb.org/tutorials/but-i-did-a-user-study-vs-what-do-you-mean-i-need-a-user-study/> .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/conference-dinner> ns1:dtstart "2011-10-26T10:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/doctoral-consortium/1> ns1:dtend "2011-10-24T10:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-24T09:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/doctoral-consortium/2> ns1:dtend "2011-10-24T12:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-24T11:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/doctoral-consortium/3> ns1:dtend "2011-10-24T16:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-24T14:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/elsevier-developer-session> ns1:dtend "2011-10-26T19:15:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-26T18:15:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/industry/1> ns1:dtend "2011-10-25T16:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T14:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/industry/2> ns1:dtend "2011-10-25T18:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T16:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/inuse/1> ns1:dtend "2011-10-25T11:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T10:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/inuse/2> ns1:dtend "2011-10-25T12:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T11:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/inuse/3> ns1:dtend "2011-10-26T14:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-26T12:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/inuse/4> ns1:dtend "2011-10-27T10:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-27T10:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/inuse/5> ns1:dtend "2011-10-27T11:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-27T10:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/linked-data-a-thon> ns1:dtstart "2011-10-23T18:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/mentoring-lunch> ns1:dtend "2011-10-26T14:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-26T12:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/minute-madness> ns1:dtend "2011-10-25T18:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T16:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/oasis-symposium> ns1:dtend "2011-10-24T18:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-24T14:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/outrageous-ideas> ns1:dtend "2011-10-27T11:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-27T10:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/poster-session> ns1:dtend "2011-10-25T20:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T18:15:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/research/1> ns1:dtend "2011-10-25T12:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T11:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/research/10> ns1:dtend "2011-10-26T14:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-26T12:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/research/11> ns1:dtend "2011-10-27T12:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-27T11:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/research/12> ns1:dtend "2011-10-27T10:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-27T10:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/research/13> ns1:dtend "2011-10-27T16:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-27T14:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/research/14> ns1:dtend "2011-10-27T11:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-27T10:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/research/2> ns1:dtend "2011-10-25T11:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T10:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/research/3> ns1:dtend "2011-10-25T16:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T14:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/research/4> ns1:dtend "2011-10-25T12:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T11:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/research/5> ns1:dtend "2011-10-26T12:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-26T10:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/research/6> ns1:dtend "2011-10-26T10:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-26T10:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/research/7> ns1:dtend "2011-10-26T10:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-26T10:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/research/8> ns1:dtend "2011-10-26T12:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-26T10:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/research/9> ns1:dtend "2011-10-26T12:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-26T10:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/theseus-symposium> ns1:dtend "2011-10-24T18:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-24T09:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/sessions/town-hall> ns1:dtend "2011-10-26T19:15:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-26T18:15:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/talks/awards-and-closing> ns1:dtend "2011-10-27T18:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-27T16:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/talks/opening-ceremony> ns1:dtend "2011-10-25T09:30:00+02:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T09:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/talks/semantic-information-management:-future-funding-by-eu-and-beyond> ns1:dtend "2011-10-25T18:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-25T16:30:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/tutorials/1> ns1:dtend "2011-10-23T18:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-23T09:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/tutorials/2> ns1:dtend "2011-10-23T18:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-23T14:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/tutorials/3> ns1:dtend "2011-10-23T12:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-23T09:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/tutorials/4> ns1:dtend "2011-10-23T18:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-23T14:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/tutorials/5> ns1:dtend "2011-10-24T18:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-24T09:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/tutorials/6> ns1:dtend "2011-10-24T12:30:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-24T09:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/conference/iswc/2011/tutorials/7> ns1:dtend "2011-10-24T18:00:00"^^xsd:dateTime ;
+    ns1:dtstart "2011-10-24T14:00:00"^^xsd:dateTime .
+
+<http://data.semanticweb.org/organization/laboratoire-d-informatique-de-l-universit-paris-nord-(lipn)-umr-7030-universit-paris-13-cnrs> a ns2:Organization ;
+    rdfs:label "Laboratoire d’Informatique de l’universit Paris-Nord (LIPN) - UMR 7030 Universit Paris 13 - CNRS" ;
+    ns2:member <http://data.semanticweb.org/person/yue-ma> ;
+    ns2:name "Laboratoire d’Informatique de l’universit Paris-Nord (LIPN) - UMR 7030 Universit Paris 13 - CNRS" .
+
+<http://data.semanticweb.org/organization/ontology-engineering-group-laboratorio-de-inteligencia-artificial-facultad-de-inform-tica-universidad-politecnica-de-madrid-> a ns2:Organization ;
+    rdfs:label "Ontology Engineering Group. Laboratorio de Inteligencia Artificial. Facultad de Informática. Universidad Politécnica de Madrid." ;
+    ns2:member <http://data.semanticweb.org/person/elena-montiel-ponsoda> ;
+    ns2:name "Ontology Engineering Group. Laboratorio de Inteligencia Artificial. Facultad de Informática. Universidad Politécnica de Madrid." .
+
+<http://data.semanticweb.org/person/elena-montiel-ponsoda> swrc:affiliation <http://data.semanticweb.org/organization/ontology-engineering-group-laboratorio-de-inteligencia-artificial-facultad-de-inform-tica-universidad-politecnica-de-madrid-> .
+
+<http://data.semanticweb.org/person/yue-ma> swrc:affiliation <http://data.semanticweb.org/organization/laboratoire-d-informatique-de-l-universit-paris-nord-(lipn)-umr-7030-universit-paris-13-cnrs> .
+
