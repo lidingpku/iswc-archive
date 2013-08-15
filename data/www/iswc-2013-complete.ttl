@@ -17,7 +17,7 @@
 <http://data.semanticweb.org/conference/iswc/2013/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2013 (2013-08-06)" ;
-    dcterms:modified "2013-08-06T21:14:42.894981"^^xsd:datetime ;
+    dcterms:modified "2013-08-13T12:54:11.156567"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2013/proceedings-1/paper-01/author_list> a rdf:Seq ;
@@ -836,12 +836,6 @@
     foaf:member <http://data.semanticweb.org/person/claudia-wagner> ;
     foaf:name "Joanneum Research, IIS" .
 
-<http://data.semanticweb.org/organization/karlsruhe-institute-of-technology> a foaf:Organization ;
-    rdfs:label "Karlsruhe Institute of Technology" ;
-    owl:sameAs <http://dbpedia.org/resource/Karlsruhe_Institute_of_Technology> ;
-    foaf:member <http://data.semanticweb.org/person/rudi-studer> ;
-    foaf:name "Karlsruhe Institute of Technology" .
-
 <http://data.semanticweb.org/organization/karolinska-institutet> a foaf:Organization ;
     rdfs:label "Karolinska Institutet" ;
     owl:sameAs <http://dbpedia.org/resource/Karolinska_Institutet> ;
@@ -857,6 +851,11 @@
     rdfs:label "Knowledge & Data Engineering Group, University of Kassel" ;
     foaf:member <http://data.semanticweb.org/person/dominik-benz> ;
     foaf:name "Knowledge & Data Engineering Group, University of Kassel" .
+
+<http://data.semanticweb.org/organization/knowledge-media-institute> a foaf:Organization ;
+    rdfs:label "Knowledge Media Institute" ;
+    foaf:member <http://data.semanticweb.org/person/harith-alani> ;
+    foaf:name "Knowledge Media Institute" .
 
 <http://data.semanticweb.org/organization/korea-institute-of-science-&-technology-information-kisti> a foaf:Organization ;
     rdfs:label "Korea Institute of Science & Technology Information (KISTI)" ;
@@ -897,6 +896,11 @@
     owl:sameAs <http://dbpedia.org/resource/Max_Planck_Institute_for_Computer_Science> ;
     foaf:member <http://data.semanticweb.org/person/fabian-m-suchanek> ;
     foaf:name "Max Planck Institute for Computer Science" .
+
+<http://data.semanticweb.org/organization/memect> a foaf:Organization ;
+    rdfs:label "Memect" ;
+    foaf:member <http://data.semanticweb.org/person/li-ding> ;
+    foaf:name "Memect" .
 
 <http://data.semanticweb.org/organization/mitre-corporation> a foaf:Organization ;
     rdfs:label "Mitre Corporation" ;
@@ -1739,6 +1743,13 @@
         <http://data.semanticweb.org/person/marko-grobelnik> ;
     foaf:name "Jožef Stefan Institute" .
 
+<http://data.semanticweb.org/organization/karlsruhe-institute-of-technology> a foaf:Organization ;
+    rdfs:label "Karlsruhe Institute of Technology" ;
+    owl:sameAs <http://dbpedia.org/resource/Karlsruhe_Institute_of_Technology> ;
+    foaf:member <http://data.semanticweb.org/person/andreas-harth>,
+        <http://data.semanticweb.org/person/rudi-studer> ;
+    foaf:name "Karlsruhe Institute of Technology" .
+
 <http://data.semanticweb.org/organization/knoesis-center,-wright-state-university> a foaf:Organization ;
     rdfs:label "Kno.e.sis Center, Wright State University" ;
     foaf:member <http://data.semanticweb.org/person/cory-henson>,
@@ -1751,12 +1762,6 @@
     foaf:member <http://data.semanticweb.org/person/eva-blomqvist>,
         <http://data.semanticweb.org/person/fang-wei-kleiner> ;
     foaf:name "Linköping University" .
-
-<http://data.semanticweb.org/organization/memect> a foaf:Organization ;
-    rdfs:label "Memect" ;
-    foaf:member <http://data.semanticweb.org/person/jie-bao>,
-        <http://data.semanticweb.org/person/li-ding> ;
-    foaf:name "Memect" .
 
 <http://data.semanticweb.org/organization/nanjing-university> a foaf:Organization ;
     rdfs:label "Nanjing University" ;
@@ -1942,8 +1947,9 @@
 
 <http://data.semanticweb.org/person/anni-rowland-campbell> a foaf:Person ;
     rdfs:label "Anni Rowland-Campbell" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/sponsorship-chairs> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/sponsorship-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/intersticia> ;
+    foaf:homepage <http://www.intersticia.com/> ;
     foaf:name "Anni Rowland-Campbell" .
 
 <http://data.semanticweb.org/person/anni-yasmin-turhan> a foaf:Person ;
@@ -1980,6 +1986,7 @@
     rdfs:label "Ben Johnston" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/workshops-and-tutorials-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/university-of-technology,-sydney> ;
+    foaf:homepage <http://benjaminjohnston.com.au/index.html> ;
     foaf:name "Ben Johnston" .
 
 <http://data.semanticweb.org/person/bernhard-schandl> a foaf:Person ;
@@ -2028,12 +2035,14 @@
     rdfs:label "Chris Biemann" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/evaluation-track-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/technische-universitt-darmstadt> ;
+    foaf:homepage <http://www.ukp.tu-darmstadt.de/people/group-heads/prof-dr-chris-biemann/> ;
     foaf:name "Chris Biemann" .
 
 <http://data.semanticweb.org/person/chris-welty> a foaf:Person ;
     rdfs:label "Chris Welty" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/general-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/ibm-research> ;
+    foaf:homepage <http://researcher.watson.ibm.com/researcher/view.php?person=us-welty> ;
     foaf:name "Chris Welty" .
 
 <http://data.semanticweb.org/person/christian-chiarcos> a foaf:Person ;
@@ -2104,8 +2113,9 @@
 
 <http://data.semanticweb.org/person/david-ratcliffe> a foaf:Person ;
     rdfs:label "David Ratcliffe" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/student-coordinators> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/student-coordinator> ;
     swrc:affiliation <http://data.semanticweb.org/organization/csiro> ;
+    foaf:homepage <http://www.ict.csiro.au/staff/david.ratcliffe/> ;
     foaf:name "David Ratcliffe" .
 
 <http://data.semanticweb.org/person/davide-picca> a foaf:Person ;
@@ -2142,6 +2152,7 @@
     rdfs:label "Dimitrios Georgakopoulos" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/vice-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/csiro> ;
+    foaf:homepage <http://www.ict.csiro.au/staff/dimitrios.georgakopoulos/> ;
     foaf:name "Dimitrios Georgakopoulos" .
 
 <http://data.semanticweb.org/person/dimitris-plexousakis> a foaf:Person ;
@@ -2190,6 +2201,7 @@
     rdfs:label "Eric Franzon" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/industry-track-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/webmediabrands> ;
+    foaf:homepage <http://semanticweb.com/tag/eric-franzon> ;
     foaf:name "Eric Franzon" .
 
 <http://data.semanticweb.org/person/ernesto-jimenez-ruiz> a foaf:Person ;
@@ -2286,6 +2298,7 @@
     rdfs:label "Glenn Wightwick" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/industry-track-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/ibm-research> ;
+    foaf:homepage <http://researcher.watson.ibm.com/researcher/view.php?person=au1-glenn_wightwick> ;
     foaf:name "Glenn Wightwick" .
 
 <http://data.semanticweb.org/person/gregoire-burel> a foaf:Person ;
@@ -2326,8 +2339,9 @@
 
 <http://data.semanticweb.org/person/harith-alani> a foaf:Person ;
     rdfs:label "Harith Alani" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/program-chairs> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/kmi,-the-open-university> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/program-chair> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/knowledge-media-institute> ;
+    foaf:homepage <http://people.kmi.open.ac.uk/harith/> ;
     foaf:name "Harith Alani" .
 
 <http://data.semanticweb.org/person/harry-halpin> a foaf:Person ;
@@ -2482,8 +2496,9 @@
 
 <http://data.semanticweb.org/person/kingsley-idehen> a foaf:Person ;
     rdfs:label "Kingsley Idehen" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/publicity-chairs> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/publicity-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/openlink-software> ;
+    foaf:homepage <http://en.wikipedia.org/wiki/Kingsley_Uyi_Idehen> ;
     foaf:name "Kingsley Idehen" .
 
 <http://data.semanticweb.org/person/knarig-arabshian> a foaf:Person ;
@@ -2500,8 +2515,9 @@
 
 <http://data.semanticweb.org/person/lalana-kagal> a foaf:Person ;
     rdfs:label "Lalana Kagal" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/program-chairs> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/program-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/mit> ;
+    foaf:homepage <http://csail.mit.edu/~lkagal/> ;
     foaf:name "Lalana Kagal" .
 
 <http://data.semanticweb.org/person/laurent-lefort> a foaf:Person ;
@@ -2610,6 +2626,7 @@
     rdfs:label "Mary-Anne Williams" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/industry-track-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/university-of-technology,-sydney> ;
+    foaf:homepage <http://research.it.uts.edu.au/magic/Mary-Anne/> ;
     foaf:name "Mary-Anne Williams" .
 
 <http://data.semanticweb.org/person/matthias-nickles> a foaf:Person ;
@@ -2620,8 +2637,9 @@
 
 <http://data.semanticweb.org/person/maxine-sherrin> a foaf:Person ;
     rdfs:label "Maxine Sherrin" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/local-organisers> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/local-organiser> ;
     swrc:affiliation <http://data.semanticweb.org/organization/web-directions> ;
+    foaf:homepage <http://www.webdirections.org/about/#maxine> ;
     foaf:name "Maxine Sherrin" .
 
 <http://data.semanticweb.org/person/medha-atre> a foaf:Person ;
@@ -2688,6 +2706,7 @@
     rdfs:label "Natasha Noy" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/doctoral-consortium-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/stanford-university> ;
+    foaf:homepage <http://www.stanford.edu/~natalya/> ;
     foaf:name "Natasha Noy" .
 
 <http://data.semanticweb.org/person/nicholas-gibbins> a foaf:Person ;
@@ -2845,12 +2864,6 @@
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/track/evaluation/pc-member> ;
     swrc:affiliation <http://data.semanticweb.org/organization/national-institute-of-informatics> ;
     foaf:name "Ryutaro Ichise" .
-
-<http://data.semanticweb.org/person/sean-bechhofer> a foaf:Person ;
-    rdfs:label "Sean Bechhofer" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/track/research/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/university-of-manchester> ;
-    foaf:name "Sean Bechhofer" .
 
 <http://data.semanticweb.org/person/sebastian-rudolph> a foaf:Person ;
     rdfs:label "Sebastian Rudolph" ;
@@ -3180,14 +3193,14 @@
         <http://data.semanticweb.org/person/paul-groth> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2013> .
 
-<http://data.semanticweb.org/conference/iswc/2013/local-organisers> a swc:Chair ;
-    rdfs:label "Local Organisers" ;
+<http://data.semanticweb.org/conference/iswc/2013/local-organiser> a swc:Chair ;
+    rdfs:label "Local Organiser" ;
     swc:heldBy <http://data.semanticweb.org/person/armin-haller>,
         <http://data.semanticweb.org/person/maxine-sherrin> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2013> .
 
-<http://data.semanticweb.org/conference/iswc/2013/metadata-chairs> a swc:Chair ;
-    rdfs:label "Metadata Chairs" ;
+<http://data.semanticweb.org/conference/iswc/2013/metadata-chair> a swc:Chair ;
+    rdfs:label "Metadata Chair" ;
     swc:heldBy <http://data.semanticweb.org/person/jie-bao>,
         <http://data.semanticweb.org/person/li-ding> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2013> .
@@ -3316,10 +3329,16 @@
     foaf:maker <http://data.semanticweb.org/person/john-s-tyssedal>,
         <http://data.semanticweb.org/person/kjetil-kjernsmo> .
 
-<http://data.semanticweb.org/conference/iswc/2013/program-chairs> a swc:Chair ;
-    rdfs:label "Program Chairs" ;
+<http://data.semanticweb.org/conference/iswc/2013/program-chair> a swc:Chair ;
+    rdfs:label "Program Chair" ;
     swc:heldBy <http://data.semanticweb.org/person/harith-alani>,
         <http://data.semanticweb.org/person/lalana-kagal> ;
+    swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2013> .
+
+<http://data.semanticweb.org/conference/iswc/2013/semantic-web-challenge-chair> a swc:Chair ;
+    rdfs:label "Semantic Web Challenge Chair" ;
+    swc:heldBy <http://data.semanticweb.org/person/andreas-harth>,
+        <http://data.semanticweb.org/person/sean-bechhofer> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2013> .
 
 <http://data.semanticweb.org/conference/iswc/2013/silver-sponsor> a swc:Sponsor ;
@@ -3328,14 +3347,14 @@
         <http://data.semanticweb.org/organization/openlink-software> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2013> .
 
-<http://data.semanticweb.org/conference/iswc/2013/sponsorship-chairs> a swc:Chair ;
-    rdfs:label "Sponsorship Chairs" ;
+<http://data.semanticweb.org/conference/iswc/2013/sponsorship-chair> a swc:Chair ;
+    rdfs:label "Sponsorship Chair" ;
     swc:heldBy <http://data.semanticweb.org/person/anni-rowland-campbell>,
         <http://data.semanticweb.org/person/pascal-hitzler> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2013> .
 
-<http://data.semanticweb.org/conference/iswc/2013/student-coordinators> a swc:Chair ;
-    rdfs:label "Student Coordinators" ;
+<http://data.semanticweb.org/conference/iswc/2013/student-coordinator> a swc:Chair ;
+    rdfs:label "Student Coordinator" ;
     swc:heldBy <http://data.semanticweb.org/person/david-ratcliffe>,
         <http://data.semanticweb.org/person/raphal-troncy> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2013> .
@@ -3381,15 +3400,6 @@
     swc:heldBy <http://data.semanticweb.org/person/ben-johnston>,
         <http://data.semanticweb.org/person/marta-sabou> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2013> .
-
-<http://data.semanticweb.org/organization/fluid-operations> a foaf:Organization ;
-    rdfs:label "fluid operations" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/platinum-sponsor> ;
-    foaf:homepage <http://www.fluidops.com/> ;
-    foaf:logo <http://iswc2013.semanticweb.org/sites/default/files/fluidoperations.png?1363060897> ;
-    foaf:member <http://data.semanticweb.org/person/michael-schmidt>,
-        <http://data.semanticweb.org/person/peter-haase> ;
-    foaf:name "fluid operations" .
 
 <http://data.semanticweb.org/organization/fujitsu> a foaf:Organization ;
     rdfs:label "Fujitsu" ;
@@ -3922,6 +3932,14 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2013/proceedings-1/paper-36> ;
     foaf:name "Jennifer Vendetti" .
 
+<http://data.semanticweb.org/person/jie-bao> a foaf:Person ;
+    rdfs:label "Jie Bao" ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/metadata-chair>,
+        <http://data.semanticweb.org/conference/iswc/2013/track/research/pc-member> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/samsung-information-system-america> ;
+    foaf:homepage <http://www.baojie.org/> ;
+    foaf:name "Jie Bao" .
+
 <http://data.semanticweb.org/person/jing-sun> a foaf:Person ;
     rdfs:label "Jing Sun" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/track/poster-demo/pc-member>,
@@ -4405,6 +4423,14 @@
     swrc:affiliation <http://data.semanticweb.org/organization/mit>,
         <http://data.semanticweb.org/organization/world-wide-web-consortium> ;
     foaf:name "Sandro Hawke" .
+
+<http://data.semanticweb.org/person/sean-bechhofer> a foaf:Person ;
+    rdfs:label "Sean Bechhofer" ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/semantic-web-challenge-chair>,
+        <http://data.semanticweb.org/conference/iswc/2013/track/research/pc-member> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/university-of-manchester> ;
+    foaf:homepage <http://www.cs.man.ac.uk/~seanb/> ;
+    foaf:name "Sean Bechhofer" .
 
 <http://data.semanticweb.org/person/sebastian-krause> a foaf:Person ;
     rdfs:label "Sebastian Krause" ;
@@ -4902,8 +4928,8 @@
         <http://data.semanticweb.org/person/heiko-paulheim>,
         <http://data.semanticweb.org/person/kai-eckert> .
 
-<http://data.semanticweb.org/conference/iswc/2013/publicity-chairs> a swc:Chair ;
-    rdfs:label "Publicity Chairs" ;
+<http://data.semanticweb.org/conference/iswc/2013/publicity-chair> a swc:Chair ;
+    rdfs:label "Publicity Chair" ;
     swc:heldBy <http://data.semanticweb.org/person/armin-haller>,
         <http://data.semanticweb.org/person/kingsley-idehen>,
         <http://data.semanticweb.org/person/yuan-fang-li> ;
@@ -4915,6 +4941,16 @@
         <http://data.semanticweb.org/person/jeff-z-pan>,
         <http://data.semanticweb.org/person/oscar-corcho-and-jean-paul-calbimonte> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2013/tutorial-7> .
+
+<http://data.semanticweb.org/organization/fluid-operations> a foaf:Organization ;
+    rdfs:label "fluid operations" ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/platinum-sponsor> ;
+    foaf:homepage <http://www.fluidops.com/> ;
+    foaf:logo <http://iswc2013.semanticweb.org/sites/default/files/fluidoperations.png?1363060897> ;
+    foaf:member <http://data.semanticweb.org/person/andriy-nikolov>,
+        <http://data.semanticweb.org/person/michael-schmidt>,
+        <http://data.semanticweb.org/person/peter-haase> ;
+    foaf:name "fluid operations" .
 
 <http://data.semanticweb.org/organization/leipzig-university> a foaf:Organization ;
     rdfs:label "Leipzig University" ;
@@ -4966,6 +5002,7 @@
         <http://data.semanticweb.org/conference/iswc/2013/track/research/pc-member> ;
     swrc:affiliation <http://data.semanticweb.org/organization/cnr-institute-of-cognitive-sciences-and-technology>,
         <http://data.semanticweb.org/organization/istc-cnr> ;
+    foaf:homepage <http://www.loa.istc.cnr.it/gangemi.html> ;
     foaf:name "Aldo Gangemi" .
 
 <http://data.semanticweb.org/person/alexandre-passant> a foaf:Person ;
@@ -5046,14 +5083,6 @@
         <http://data.semanticweb.org/organization/cwi> ;
     foaf:name "Jacco van Ossenbruggen" .
 
-<http://data.semanticweb.org/person/jie-bao> a foaf:Person ;
-    rdfs:label "Jie Bao" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/metadata-chairs>,
-        <http://data.semanticweb.org/conference/iswc/2013/track/research/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/memect>,
-        <http://data.semanticweb.org/organization/samsung-information-system-america> ;
-    foaf:name "Jie Bao" .
-
 <http://data.semanticweb.org/person/kewen-wang> a foaf:Person ;
     rdfs:label "Kewen Wang" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/track/inuse/pc-member>,
@@ -5064,10 +5093,11 @@
 
 <http://data.semanticweb.org/person/li-ding> a foaf:Person ;
     rdfs:label "Li Ding" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/metadata-chairs>,
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/metadata-chair>,
         <http://data.semanticweb.org/conference/iswc/2013/track/research/pc-member> ;
     swrc:affiliation <http://data.semanticweb.org/organization/memect>,
         <http://data.semanticweb.org/organization/qualcomm> ;
+    foaf:homepage <http://liding.org/> ;
     foaf:name "Li Ding" .
 
 <http://data.semanticweb.org/person/lora-aroyo> a foaf:Person ;
@@ -5076,6 +5106,7 @@
         <http://data.semanticweb.org/conference/iswc/2013/track/research/senior-pc-member>,
         <http://data.semanticweb.org/workshop/crowdsem/2013/chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/vrije-universiteit> ;
+    foaf:homepage <http://www.cs.vu.nl/~laroyo/> ;
     foaf:name "Lora Aroyo" .
 
 <http://data.semanticweb.org/person/maria-esther-vidal> a foaf:Person ;
@@ -5132,10 +5163,11 @@
 
 <http://data.semanticweb.org/person/yuan-fang-li> a foaf:Person ;
     rdfs:label "Yuan-Fang Li" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/publicity-chairs>,
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/publicity-chair>,
         <http://data.semanticweb.org/conference/iswc/2013/track/inuse/pc-member>,
         <http://data.semanticweb.org/conference/iswc/2013/track/poster-demo/pc-member> ;
     swrc:affiliation <http://data.semanticweb.org/organization/monash-university> ;
+    foaf:homepage <http://www.csse.monash.edu.au/~yli/> ;
     foaf:name "Yuan-Fang Li" .
 
 <http://data.semanticweb.org/person/ziqi-zhang> a foaf:Person ;
@@ -5557,17 +5589,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2013/proceedings-1/paper-33> ;
     foaf:name "Alessandra Mileo" .
 
-<http://data.semanticweb.org/person/andreas-harth> a foaf:Person ;
-    rdfs:label "Andreas Harth" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/track/evaluation/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/aifb,-university-of-karlsruhe> ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2013/proceedings-2/paper-22> ;
-    foaf:name "Andreas Harth" .
-
 <http://data.semanticweb.org/person/andriy-nikolov> a foaf:Person ;
     rdfs:label "Andriy Nikolov" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/track/research/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/kmi,-the-open-university> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/fluid-operations> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2013/proceedings-1/paper-22> ;
     foaf:name "Andriy Nikolov" .
 
@@ -5640,6 +5665,7 @@
     rdfs:label "Eva Blomqvist" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/posters-and-demos-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/linkping-university> ;
+    foaf:homepage <http://www.ida.liu.se/~evabl45/> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2013/proceedings-1/paper-25> ;
     foaf:name "Eva Blomqvist" .
 
@@ -5682,6 +5708,7 @@
     rdfs:label "Josiane Xavier Parreira" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/evaluation-track-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/deri,-galway> ;
+    foaf:homepage <http://www.deri.ie/users/josiane-xavier-parreira> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2013/proceedings-1/paper-16> ;
     foaf:name "Josiane Xavier Parreira" .
 
@@ -5713,6 +5740,7 @@
         <http://data.semanticweb.org/workshop/ssn/2013/chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/csiro>,
         <http://data.semanticweb.org/organization/csiro-&-australian-national-university> ;
+    foaf:homepage <http://www.ict.csiro.au/staff/kerry.taylor/> ;
     foaf:name "Kerry Taylor" .
 
 <http://data.semanticweb.org/person/michelle-cheatham> a foaf:Person ;
@@ -6053,6 +6081,7 @@
         <http://data.semanticweb.org/workshop/ssws/2013/chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/ibm-research>,
         <http://data.semanticweb.org/organization/ibm-thomas-j-watson-research-center> ;
+    foaf:homepage <http://researcher.watson.ibm.com/researcher/view.php?person=us-achille> ;
     foaf:name "Achille Fokoue" .
 
 <http://data.semanticweb.org/person/ansgar-scherp> a foaf:Person ;
@@ -6121,6 +6150,7 @@
         <http://data.semanticweb.org/conference/iswc/2013/track/research/pc-member>,
         <http://data.semanticweb.org/conference/iswc/2013/workshops-and-tutorials-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/modul-university-vienna> ;
+    foaf:homepage <http://www.modul.ac.at/Sabou> ;
     foaf:name "Marta Sabou" .
 
 <http://data.semanticweb.org/person/matthew-horridge> a foaf:Person ;
@@ -6139,12 +6169,13 @@
 
 <http://data.semanticweb.org/person/raphal-troncy> a foaf:Person ;
     rdfs:label "Raphaël Troncy" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/student-coordinators>,
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/student-coordinator>,
         <http://data.semanticweb.org/conference/iswc/2013/track/poster-demo/pc-member>,
         <http://data.semanticweb.org/conference/iswc/2013/track/research/pc-member>,
         <http://data.semanticweb.org/workshop/derive/2013/chair>,
         <http://data.semanticweb.org/workshop/semstats/2013/chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/eurecom> ;
+    foaf:homepage <http://www.eurecom.fr/~troncy/> ;
     foaf:name "Raphaël Troncy" .
 
 <http://data.semanticweb.org/person/roi-blanco> a foaf:Person ;
@@ -6457,6 +6488,16 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2013/proceedings-2/paper-23> ;
     foaf:name "Aidan Hogan" .
 
+<http://data.semanticweb.org/person/andreas-harth> a foaf:Person ;
+    rdfs:label "Andreas Harth" ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/semantic-web-challenge-chair>,
+        <http://data.semanticweb.org/conference/iswc/2013/track/evaluation/pc-member> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/aifb,-university-of-karlsruhe>,
+        <http://data.semanticweb.org/organization/karlsruhe-institute-of-technology> ;
+    foaf:homepage <http://harth.org/andreas/> ;
+    foaf:made <http://data.semanticweb.org/conference/iswc/2013/proceedings-2/paper-22> ;
+    foaf:name "Andreas Harth" .
+
 <http://data.semanticweb.org/person/juan-f-sequeda> a foaf:Person ;
     rdfs:label "Juan F. Sequeda" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/track/inuse/pc-member>,
@@ -6472,6 +6513,7 @@
         <http://data.semanticweb.org/conference/iswc/2013/track/inuse/pc-member>,
         <http://data.semanticweb.org/conference/iswc/2013/track/research/pc-member> ;
     swrc:affiliation <http://data.semanticweb.org/organization/university-of-california,-santa-barbara> ;
+    foaf:homepage <http://geog.ucsb.edu/~jano/> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2013/proceedings-2/paper-15> ;
     foaf:name "Krzysztof Janowicz" .
 
@@ -6481,6 +6523,7 @@
         <http://data.semanticweb.org/conference/iswc/2013/track/inuse/pc-member>,
         <http://data.semanticweb.org/workshop/lisc/2013/chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/vrije-universiteit> ;
+    foaf:homepage <http://www.few.vu.nl/~pgroth> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2013/proceedings-2/paper-22> ;
     foaf:name "Paul Groth" .
 
@@ -6490,6 +6533,7 @@
         <http://data.semanticweb.org/conference/iswc/2013/track/inuse/pc-member>,
         <http://data.semanticweb.org/conference/iswc/2013/track/research/pc-member> ;
     swrc:affiliation <http://data.semanticweb.org/organization/university-of-queensland> ;
+    foaf:homepage <http://www.tudorgroza.org/> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2013/proceedings-2/paper-03> ;
     foaf:name "Tudor Groza" .
 
@@ -6605,14 +6649,15 @@
 
 <http://data.semanticweb.org/person/armin-haller> a foaf:Person ;
     rdfs:label "Armin Haller" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/local-organisers>,
-        <http://data.semanticweb.org/conference/iswc/2013/publicity-chairs>,
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/local-organiser>,
+        <http://data.semanticweb.org/conference/iswc/2013/publicity-chair>,
         <http://data.semanticweb.org/conference/iswc/2013/track/inuse/pc-member>,
         <http://data.semanticweb.org/conference/iswc/2013/track/poster-demo/pc-member>,
         <http://data.semanticweb.org/conference/iswc/2013/track/research/pc-member>,
         <http://data.semanticweb.org/workshop/semstats/2013/chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/csiro>,
         <http://data.semanticweb.org/organization/csiro-ict-centre> ;
+    foaf:homepage <http://www.armin-haller.com/> ;
     foaf:name "Armin Haller" .
 
 <http://data.semanticweb.org/person/bijan-parsia> a foaf:Person ;
@@ -6819,6 +6864,21 @@
         <http://data.semanticweb.org/person/philippe-cudr-mauroux>,
         <http://data.semanticweb.org/person/sever-fundatureanu> .
 
+<http://data.semanticweb.org/organization/kmi,-the-open-university> a foaf:Organization ;
+    rdfs:label "KMi, The Open University" ;
+    foaf:member <http://data.semanticweb.org/person/carlos-pedrinaci>,
+        <http://data.semanticweb.org/person/elizabeth-cano>,
+        <http://data.semanticweb.org/person/enrico-motta>,
+        <http://data.semanticweb.org/person/fouad-zablith>,
+        <http://data.semanticweb.org/person/gregoire-burel>,
+        <http://data.semanticweb.org/person/hassan-saif>,
+        <http://data.semanticweb.org/person/jacek-kopecky>,
+        <http://data.semanticweb.org/person/john-domingue>,
+        <http://data.semanticweb.org/person/mathieu-daquin>,
+        <http://data.semanticweb.org/person/miriam-fernandez>,
+        <http://data.semanticweb.org/person/smitashree-choudhury> ;
+    foaf:name "KMi, The Open University" .
+
 <http://data.semanticweb.org/person/axel-cyrille-ngonga-ngomo> a foaf:Person ;
     rdfs:label "Axel-Cyrille Ngonga Ngomo" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/track/evaluation/pc-member> ;
@@ -6848,11 +6908,12 @@
 
 <http://data.semanticweb.org/person/pascal-hitzler> a foaf:Person ;
     rdfs:label "Pascal Hitzler" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/sponsorship-chairs>,
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/sponsorship-chair>,
         <http://data.semanticweb.org/conference/iswc/2013/track/poster-demo/pc-member>,
         <http://data.semanticweb.org/conference/iswc/2013/track/research/senior-pc-member> ;
     swrc:affiliation <http://data.semanticweb.org/organization/knoesis-center,-wright-state-university>,
         <http://data.semanticweb.org/organization/wright-state-university> ;
+    foaf:homepage <http://www.pascal-hitzler.de/> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2013/proceedings-2/paper-15>,
         <http://data.semanticweb.org/conference/iswc/2013/proceedings-2/paper-19> ;
     foaf:name "Pascal Hitzler" .
@@ -6952,23 +7013,6 @@
         <http://data.semanticweb.org/person/thomas-lukasiewicz>,
         <http://data.semanticweb.org/person/trevor-martin> ;
     swc:isRoleAt <http://data.semanticweb.org/workshop/ursw/2013> .
-
-<http://data.semanticweb.org/organization/kmi,-the-open-university> a foaf:Organization ;
-    rdfs:label "KMi, The Open University" ;
-    foaf:member <http://data.semanticweb.org/person/andriy-nikolov>,
-        <http://data.semanticweb.org/person/carlos-pedrinaci>,
-        <http://data.semanticweb.org/person/elizabeth-cano>,
-        <http://data.semanticweb.org/person/enrico-motta>,
-        <http://data.semanticweb.org/person/fouad-zablith>,
-        <http://data.semanticweb.org/person/gregoire-burel>,
-        <http://data.semanticweb.org/person/harith-alani>,
-        <http://data.semanticweb.org/person/hassan-saif>,
-        <http://data.semanticweb.org/person/jacek-kopecky>,
-        <http://data.semanticweb.org/person/john-domingue>,
-        <http://data.semanticweb.org/person/mathieu-daquin>,
-        <http://data.semanticweb.org/person/miriam-fernandez>,
-        <http://data.semanticweb.org/person/smitashree-choudhury> ;
-    foaf:name "KMi, The Open University" .
 
 <http://data.semanticweb.org/conference/iswc/2013/track/research/senior-pc-member> a swc:ProgrammeCommitteeMember ;
     rdfs:label "senior pc member" ;
@@ -7189,18 +7233,19 @@
         <http://data.semanticweb.org/conference/iswc/2013/in-use-track-chair>,
         <http://data.semanticweb.org/conference/iswc/2013/industry-track-chair>,
         <http://data.semanticweb.org/conference/iswc/2013/local-chair>,
-        <http://data.semanticweb.org/conference/iswc/2013/local-organisers>,
-        <http://data.semanticweb.org/conference/iswc/2013/metadata-chairs>,
+        <http://data.semanticweb.org/conference/iswc/2013/local-organiser>,
+        <http://data.semanticweb.org/conference/iswc/2013/metadata-chair>,
         <http://data.semanticweb.org/conference/iswc/2013/organizing-institution>,
         <http://data.semanticweb.org/conference/iswc/2013/platinum-sponsor>,
         <http://data.semanticweb.org/conference/iswc/2013/posters-and-demos-chair>,
         <http://data.semanticweb.org/conference/iswc/2013/proceedings-chair>,
-        <http://data.semanticweb.org/conference/iswc/2013/program-chairs>,
-        <http://data.semanticweb.org/conference/iswc/2013/publicity-chairs>,
+        <http://data.semanticweb.org/conference/iswc/2013/program-chair>,
+        <http://data.semanticweb.org/conference/iswc/2013/publicity-chair>,
+        <http://data.semanticweb.org/conference/iswc/2013/semantic-web-challenge-chair>,
         <http://data.semanticweb.org/conference/iswc/2013/semantic-web-jam-session-chair>,
         <http://data.semanticweb.org/conference/iswc/2013/silver-sponsor>,
-        <http://data.semanticweb.org/conference/iswc/2013/sponsorship-chairs>,
-        <http://data.semanticweb.org/conference/iswc/2013/student-coordinators>,
+        <http://data.semanticweb.org/conference/iswc/2013/sponsorship-chair>,
+        <http://data.semanticweb.org/conference/iswc/2013/student-coordinator>,
         <http://data.semanticweb.org/conference/iswc/2013/vice-chair>,
         <http://data.semanticweb.org/conference/iswc/2013/workshops-and-tutorials-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc> ;
