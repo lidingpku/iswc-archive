@@ -9,3 +9,5 @@ subfolders
  ** data/entity  currently contains mapping data for organisations
  ** data/source/*.rdf are downloaded using a shell script
  ** data/source/*.rdf are maintained by manual editing
+
+See live version at http://lidingpku.github.io/iswc-archive/
