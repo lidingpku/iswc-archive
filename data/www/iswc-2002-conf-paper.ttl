@@ -353,7 +353,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-09/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/peter-f-patel-schneider> ;
-    rdf:_2 <http://data.semanticweb.org/person/jrme-simon> .
+    rdf:_2 <http://data.semanticweb.org/person/jerome-simeon> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-10/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/michele-missikoff> ;
@@ -401,7 +401,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-18/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/stefan-haustein> ;
-    rdf:_2 <http://data.semanticweb.org/person/jrg-pleumann> .
+    rdf:_2 <http://data.semanticweb.org/person/jorg-pleumann> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-19/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/peter-f-patel-schneider> ;
@@ -420,7 +420,7 @@
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-23/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/york-sure> ;
     rdf:_2 <http://data.semanticweb.org/person/michael-erdmann> ;
-    rdf:_3 <http://data.semanticweb.org/person/jrgen-angele> ;
+    rdf:_3 <http://data.semanticweb.org/person/jurgen-angele> ;
     rdf:_4 <http://data.semanticweb.org/person/steffen-staab> ;
     rdf:_5 <http://data.semanticweb.org/person/rudi-studer> ;
     rdf:_6 <http://data.semanticweb.org/person/dirk-wenke> .
@@ -932,7 +932,7 @@
     dc:title "Building the Semantic Web on XML" ;
     dcterms:title "Building the Semantic Web on XML" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-09/author_list> ;
-    swrc:author <http://data.semanticweb.org/person/jrme-simon>,
+    swrc:author <http://data.semanticweb.org/person/jerome-simeon>,
         <http://data.semanticweb.org/person/peter-f-patel-schneider> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_13> ;
@@ -940,7 +940,7 @@
     swrc:pages "147-161" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_13> ;
     swrc:year "2002" ;
-    foaf:maker <http://data.semanticweb.org/person/jrme-simon>,
+    foaf:maker <http://data.semanticweb.org/person/jerome-simeon>,
         <http://data.semanticweb.org/person/peter-f-patel-schneider> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-10> a swrc:InProceedings ;
@@ -983,7 +983,7 @@
     dc:title "Is Participation in the Semantic Web Too Difficult?" ;
     dcterms:title "Is Participation in the Semantic Web Too Difficult?" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-18/author_list> ;
-    swrc:author <http://data.semanticweb.org/person/jrg-pleumann>,
+    swrc:author <http://data.semanticweb.org/person/jorg-pleumann>,
         <http://data.semanticweb.org/person/stefan-haustein> ;
     swrc:category "System Descriptions" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_39> ;
@@ -991,7 +991,7 @@
     swrc:pages "448-453" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_39> ;
     swrc:year "2002" ;
-    foaf:maker <http://data.semanticweb.org/person/jrg-pleumann>,
+    foaf:maker <http://data.semanticweb.org/person/jorg-pleumann>,
         <http://data.semanticweb.org/person/stefan-haustein> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-19> a swrc:InProceedings ;
@@ -1680,6 +1680,11 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-20> ;
     foaf:name "Jeremy J. Carroll" .
 
+<http://data.semanticweb.org/person/jerome-simeon> a foaf:Person ;
+    rdfs:label "Jérôme Siméon" ;
+    foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-09> ;
+    foaf:name "Jérôme Siméon" .
+
 <http://data.semanticweb.org/person/jerry-r-hobbs> a foaf:Person ;
     rdfs:label "Jerry R. Hobbs" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-14> ;
@@ -1715,25 +1720,15 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-11> ;
     foaf:name "John Domingue" .
 
-<http://data.semanticweb.org/person/jose-a-macias> a foaf:Person ;
-    rdfs:label "Jose A. Macias" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-11> ;
-    foaf:name "Jose A. Macias" .
-
-<http://data.semanticweb.org/person/jrg-pleumann> a foaf:Person ;
+<http://data.semanticweb.org/person/jorg-pleumann> a foaf:Person ;
     rdfs:label "Jörg Pleumann" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-18> ;
     foaf:name "Jörg Pleumann" .
 
-<http://data.semanticweb.org/person/jrgen-angele> a foaf:Person ;
-    rdfs:label "Jürgen Angele" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-23> ;
-    foaf:name "Jürgen Angele" .
-
-<http://data.semanticweb.org/person/jrme-simon> a foaf:Person ;
-    rdfs:label "Jérôme Siméon" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-09> ;
-    foaf:name "Jérôme Siméon" .
+<http://data.semanticweb.org/person/jose-a-macias> a foaf:Person ;
+    rdfs:label "Jose A. Macias" ;
+    foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-11> ;
+    foaf:name "Jose A. Macias" .
 
 <http://data.semanticweb.org/person/julien-tane> a foaf:Person ;
     rdfs:label "Julien Tane" ;
@@ -1744,6 +1739,11 @@
     rdfs:label "Jun-ichi Akahani" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-03> ;
     foaf:name "Jun-ichi Akahani" .
+
+<http://data.semanticweb.org/person/jurgen-angele> a foaf:Person ;
+    rdfs:label "Jürgen Angele" ;
+    foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-23> ;
+    foaf:name "Jürgen Angele" .
 
 <http://data.semanticweb.org/person/kaoru-hiramatsu> a foaf:Person ;
     rdfs:label "Kaoru Hiramatsu" ;
@@ -3544,7 +3544,7 @@
     dcterms:title "OntoEdit: Collaborative Ontology Development for the Semantic Web" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-23/author_list> ;
     swrc:author <http://data.semanticweb.org/person/dirk-wenke>,
-        <http://data.semanticweb.org/person/jrgen-angele>,
+        <http://data.semanticweb.org/person/jurgen-angele>,
         <http://data.semanticweb.org/person/michael-erdmann>,
         <http://data.semanticweb.org/person/rudi-studer>,
         <http://data.semanticweb.org/person/steffen-staab>,
@@ -3556,7 +3556,7 @@
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_18> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/dirk-wenke>,
-        <http://data.semanticweb.org/person/jrgen-angele>,
+        <http://data.semanticweb.org/person/jurgen-angele>,
         <http://data.semanticweb.org/person/michael-erdmann>,
         <http://data.semanticweb.org/person/rudi-studer>,
         <http://data.semanticweb.org/person/steffen-staab>,
