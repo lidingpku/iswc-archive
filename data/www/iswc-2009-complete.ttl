@@ -72,7 +72,8 @@
     :name "Telecom ParisTech Paris France" .
 
 <http://data.semanticweb.org/organization/franz-inc> a :Organization ;
-    :member <http://data.semanticweb.org/person/jans-aasman> .
+    :member <http://data.semanticweb.org/person/jans-aasman> ;
+    :name "Franz Inc." .
 
 <http://data.semanticweb.org/organization/fraunhofer-institute-for-computer-graphics-research-igd> a :Organization ;
     rdfs:label "Fraunhofer IGD" ;
@@ -255,19 +256,20 @@
     :name "Vulcan Inc." .
 
 <http://data.semanticweb.org/person/claudia-damato> a :Person ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2009/chair/session_chair10> .
-
-<http://data.semanticweb.org/person/frardfs:labelnk-van-harmelen> a :Person ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2009/role/panelist> .
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2009/chair/session_chair10> ;
+    :name "Claudia d'Amato" .
 
 <http://data.semanticweb.org/person/michael-witbrock> a :Person ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2009/role/panelist> .
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2009/role/panelist> ;
+    :name "Michael Witbrock" .
 
 <http://data.semanticweb.org/person/thomas-lukasiewicz> a :Person ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2009/chair/session_chair3> .
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2009/chair/session_chair3> ;
+    :name "Thomas Lukasiewicz" .
 
 <http://data.semanticweb.org/person/umberto-straccia> a :Person ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2009/chair/session_chair2> .
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2009/chair/session_chair2> ;
+    :name "Umberto Straccia" .
 
 <http://data.semanticweb.org/workshop/ck/2009> a swc:WorkshopEvent ;
     rdfs:label "Collaborative Construction, Management and Linking of Structured Knowledge" ;
@@ -3265,7 +3267,7 @@
 <http://data.semanticweb.org/conference/iswc/2009/role/panelist> a swc:Role ;
     rdfs:label "ISWC2009 Panelist" ;
     swc:heldBy <http://data.semanticweb.org/person/enrico-motta>,
-        <http://data.semanticweb.org/person/frardfs:labelnk-van-harmelen>,
+        <http://data.semanticweb.org/person/frank-van-harmelen>,
         <http://data.semanticweb.org/person/michael-witbrock>,
         <http://data.semanticweb.org/person/tom-heath> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2009/panels/semweb_ontologies> .
@@ -4099,7 +4101,8 @@
 
 <http://data.semanticweb.org/person/jans-aasman> a :Person ;
     swrc:affiliation <http://data.semanticweb.org/organization/franz-inc> ;
-    :made <http://data.semanticweb.org/conference/iswc/2009/paper/industry/02> .
+    :made <http://data.semanticweb.org/conference/iswc/2009/paper/industry/02> ;
+    :name "Jans Aasman" .
 
 <http://data.semanticweb.org/person/jasper-tredgold> a :Person ;
     rdfs:label "Jasper Tredgold" ;
@@ -5818,13 +5821,6 @@
     :made <http://data.semanticweb.org/conference/iswc/2009/paper/poster_demo/194> ;
     :name "Evren Sirin" .
 
-<http://data.semanticweb.org/person/frank-van-harmelen> a :Person ;
-    rdfs:label "Frank van Harmelen" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2009/chair/session_chair6> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands> ;
-    :made <http://data.semanticweb.org/conference/iswc/2009/paper/research/374> ;
-    :name "Frank van Harmelen" .
-
 <http://data.semanticweb.org/person/harith-alani> a :Person ;
     rdfs:label "Harith Alani" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2009/chair/poster-and-demonstration> ;
@@ -6611,6 +6607,14 @@
     :homepage <http://www.dcs.shef.ac.uk/~fabio/> ;
     :made <http://data.semanticweb.org/conference/iswc/2009/paper/research/335> ;
     :name "Fabio Ciravegna" .
+
+<http://data.semanticweb.org/person/frank-van-harmelen> a :Person ;
+    rdfs:label "Frank van Harmelen" ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2009/chair/session_chair6>,
+        <http://data.semanticweb.org/conference/iswc/2009/role/panelist> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands> ;
+    :made <http://data.semanticweb.org/conference/iswc/2009/paper/research/374> ;
+    :name "Frank van Harmelen" .
 
 <http://data.semanticweb.org/person/nenad-stojanovic> a :Person ;
     rdfs:label "Nenad Stojanovic" ;

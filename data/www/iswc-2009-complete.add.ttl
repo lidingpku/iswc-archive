@@ -1,3 +1,5 @@
+@prefix ns1: <http://xmlns.com/foaf/0.1/> .
+@prefix ns2: <http://data.semanticweb.org/ns/swc/ontology#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
@@ -463,4 +465,20 @@
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-04930-9_3> ;
     swrc:url <http://data.semanticweb.org/pdfs/iswc/2009/paper524.pdf>,
         <http://dx.doi.org/10.1007/978-3-642-04930-9_3> .
+
+<http://data.semanticweb.org/organization/franz-inc> ns1:name "Franz Inc." .
+
+<http://data.semanticweb.org/person/claudia-damato> ns1:name "Claudia d'Amato" .
+
+<http://data.semanticweb.org/person/jans-aasman> ns1:name "Jans Aasman" .
+
+<http://data.semanticweb.org/person/michael-witbrock> ns1:name "Michael Witbrock" .
+
+<http://data.semanticweb.org/person/thomas-lukasiewicz> ns1:name "Thomas Lukasiewicz" .
+
+<http://data.semanticweb.org/person/umberto-straccia> ns1:name "Umberto Straccia" .
+
+<http://data.semanticweb.org/conference/iswc/2009/role/panelist> ns2:heldBy <http://data.semanticweb.org/person/frank-van-harmelen> .
+
+<http://data.semanticweb.org/person/frank-van-harmelen> ns2:holdsRole <http://data.semanticweb.org/conference/iswc/2009/role/panelist> .
 

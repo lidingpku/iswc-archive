@@ -17,7 +17,7 @@
 <http://data.semanticweb.org/conference/iswc/2002/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2013 (2013-08-06)" ;
-    dcterms:modified "2013-08-21T10:26:03.801280"^^xsd:datetime ;
+    dcterms:modified "2013-08-27T23:40:33.026452"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2002/event-01> a swc:SpecialEvent ;
@@ -305,7 +305,7 @@
     rdf:_3 <http://data.semanticweb.org/person/a-schroder> .
 
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-34/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/ciaran-o-leary> ;
+    rdf:_1 <http://data.semanticweb.org/person/ciaran-oleary> ;
     rdf:_2 <http://data.semanticweb.org/person/mark-humphrys> .
 
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-35/author_list> a rdf:Seq ;
@@ -504,7 +504,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-18/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/stefan-haustein> ;
-    rdf:_2 <http://data.semanticweb.org/person/jorg-pleumann> .
+    rdf:_2 <http://data.semanticweb.org/person/joerg-pleumann> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-19/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/peter-f-patel-schneider> ;
@@ -523,7 +523,7 @@
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-23/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/york-sure> ;
     rdf:_2 <http://data.semanticweb.org/person/michael-erdmann> ;
-    rdf:_3 <http://data.semanticweb.org/person/jurgen-angele> ;
+    rdf:_3 <http://data.semanticweb.org/person/juergen-angele> ;
     rdf:_4 <http://data.semanticweb.org/person/steffen-staab> ;
     rdf:_5 <http://data.semanticweb.org/person/rudi-studer> ;
     rdf:_6 <http://data.semanticweb.org/person/dirk-wenke> .
@@ -675,7 +675,7 @@
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/logos/logo-daml.jpg> ;
     foaf:name "DAML: DARPA Agent Markup Language Program" .
 
-<http://data.semanticweb.org/organization/darpa-ixo> a foaf:Organization ;
+<http://data.semanticweb.org/organization/darpa/ixo> a foaf:Organization ;
     rdfs:label "DARPA/IXO" ;
     foaf:member <http://data.semanticweb.org/person/murray-burke> ;
     foaf:name "DARPA/IXO" .
@@ -686,7 +686,7 @@
     foaf:member <http://data.semanticweb.org/person/harold-boley> ;
     foaf:name "DFKI" .
 
-<http://data.semanticweb.org/organization/eu-ist> a foaf:Organization ;
+<http://data.semanticweb.org/organization/eu/ist> a foaf:Organization ;
     rdfs:label "EU/IST" ;
     foaf:member <http://data.semanticweb.org/person/hans-georg-stork> ;
     foaf:name "EU/IST" .
@@ -735,7 +735,7 @@
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/ISWC-2002/logos/ibrow-sml.jpg> ;
     foaf:name "iBrow: An Intelligent Brokering Service for Knowledge-Component Reuse on the World-Wide Web" .
 
-<http://data.semanticweb.org/organization/intap-nec> a foaf:Organization ;
+<http://data.semanticweb.org/organization/intap/nec> a foaf:Organization ;
     rdfs:label "INTAP/NEC" ;
     foaf:member <http://data.semanticweb.org/person/noboru-shimizu> ;
     foaf:name "INTAP/NEC" .
@@ -764,7 +764,7 @@
     foaf:member <http://data.semanticweb.org/person/jeff-heflin> ;
     foaf:name "Lehigh University" .
 
-<http://data.semanticweb.org/organization/leks-cnr-roma> a foaf:Organization ;
+<http://data.semanticweb.org/organization/leks/cnr-roma> a foaf:Organization ;
     rdfs:label "LEKS/CNR Roma" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2002/supporting-organization> ;
     foaf:name "LEKS/CNR Roma" .
@@ -1710,7 +1710,7 @@
 <http://data.semanticweb.org/person/hans-georg-stork> a foaf:Person ;
     rdfs:label "Hans-Georg Stork" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2002/panel-research-challenge-semantic-web/panellist> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/eu-ist> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/eu/ist> ;
     foaf:name "Hans-Georg Stork" .
 
 <http://data.semanticweb.org/person/harold-boley> a foaf:Person ;
@@ -1795,7 +1795,7 @@
 <http://data.semanticweb.org/person/murray-burke> a foaf:Person ;
     rdfs:label "Murray Burke" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2002/panel-research-challenge-semantic-web/panellist> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/darpa-ixo> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/darpa/ixo> ;
     foaf:name "Murray Burke" .
 
 <http://data.semanticweb.org/person/natasha-f-noy> a foaf:Person ;
@@ -1819,7 +1819,7 @@
 <http://data.semanticweb.org/person/noboru-shimizu> a foaf:Person ;
     rdfs:label "Noboru Shimizu" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2002/panel-research-challenge-semantic-web/panellist> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/intap-nec> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/intap/nec> ;
     foaf:name "Noboru Shimizu" .
 
 <http://data.semanticweb.org/person/pat-hayes> a foaf:Person ;
@@ -1907,7 +1907,7 @@
         <http://data.semanticweb.org/person/dieter-fensel> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/carranza.pdf> ;
-    swrc:listAuthor "Cesar Carranza, Dieter Fensel" ;
+    swrc:listAuthor "Cesar Carranza and Dieter Fensel" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/carranza.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/cesar-carranza>,
@@ -1923,7 +1923,7 @@
         <http://data.semanticweb.org/person/pablo-castells> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/castells-macias_a4.pdf> ;
-    swrc:listAuthor "Pablo Castells, Jose A. Macias" ;
+    swrc:listAuthor "Pablo Castells and Jose A. Macias" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/castells-macias_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/jose-a-macias>,
@@ -1939,7 +1939,7 @@
         <http://data.semanticweb.org/person/paolo-dongilli> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/gamper_a4.pdf> ;
-    swrc:listAuthor "Johann Gamper, Paolo Dongilli" ;
+    swrc:listAuthor "Johann Gamper and Paolo Dongilli" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/gamper_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/johann-gamper>,
@@ -1955,7 +1955,7 @@
         <http://data.semanticweb.org/person/raphael-troncy> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/troncy-iswc02-poster.pdf> ;
-    swrc:listAuthor "Antoine Isaac, Raphael Troncy" ;
+    swrc:listAuthor "Antoine Isaac and Raphael Troncy" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/troncy-iswc02-poster.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/antoine-isaac>,
@@ -1967,14 +1967,14 @@
     dc:title "Lowering the entry level: Lessons from the Web and the Semantic Web for the World-Wide-Mind" ;
     dcterms:title "Lowering the entry level: Lessons from the Web and the Semantic Web for the World-Wide-Mind" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-34/author_list> ;
-    swrc:author <http://data.semanticweb.org/person/ciaran-o-leary>,
+    swrc:author <http://data.semanticweb.org/person/ciaran-oleary>,
         <http://data.semanticweb.org/person/mark-humphrys> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/humphrys_1_a4.pdf> ;
-    swrc:listAuthor "Ciaran O`Leary, Mark Humphrys" ;
+    swrc:listAuthor "Ciaran O'Leary and Mark Humphrys" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/humphrys_1_a4.pdf> ;
     swrc:year "2002" ;
-    foaf:maker <http://data.semanticweb.org/person/ciaran-o-leary>,
+    foaf:maker <http://data.semanticweb.org/person/ciaran-oleary>,
         <http://data.semanticweb.org/person/mark-humphrys> .
 
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-41> a swrc:InProceedings ;
@@ -1987,7 +1987,7 @@
         <http://data.semanticweb.org/person/jeff-z-pan> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/pan-horrocks_a4.pdf> ;
-    swrc:listAuthor "Jeff Z. Pan, Ian Horrocks" ;
+    swrc:listAuthor "Jeff Z. Pan and Ian Horrocks" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/pan-horrocks_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/ian-horrocks>,
@@ -2003,7 +2003,7 @@
         <http://data.semanticweb.org/person/nicolas-sabouret> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/sabouret_a4.pdf> ;
-    swrc:listAuthor "Nicolas Sabouret, Jean-Paul Sansonnet" ;
+    swrc:listAuthor "Nicolas Sabouret and Jean-Paul Sansonnet" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/sabouret_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/jean-paul-sansonnet>,
@@ -2019,7 +2019,7 @@
         <http://data.semanticweb.org/person/stanislav-jordanov> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/simov-jordanov.pdf> ;
-    swrc:listAuthor "Kiril Simov, Stanislav Jordanov" ;
+    swrc:listAuthor "Kiril Simov and Stanislav Jordanov" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/simov-jordanov.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/kiril-simov>,
@@ -2035,7 +2035,7 @@
         <http://data.semanticweb.org/person/min-song> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/minsong2_a4.pdf> ;
-    swrc:listAuthor "Min Song, Il-Yeol Song" ;
+    swrc:listAuthor "Min Song and Il-Yeol Song" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/minsong2_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/il-yeol-song>,
@@ -2051,7 +2051,7 @@
         <http://data.semanticweb.org/person/york-sure> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/sure.pdf> ;
-    swrc:listAuthor "York Sure, Eddie Moench" ;
+    swrc:listAuthor "York Sure and Eddie Moench" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/sure.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/eddie-moench>,
@@ -2407,10 +2407,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-17> ;
     foaf:name "Christian Fillies" .
 
-<http://data.semanticweb.org/person/ciaran-o-leary> a foaf:Person ;
-    rdfs:label "Ciaran O`Leary" ;
+<http://data.semanticweb.org/person/ciaran-oleary> a foaf:Person ;
+    rdfs:label "Ciaran O'Leary" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-34> ;
-    foaf:name "Ciaran O`Leary" .
+    foaf:name "Ciaran O'Leary" .
 
 <http://data.semanticweb.org/person/claude-moulin> a foaf:Person ;
     rdfs:label "Claude Moulin" ;
@@ -2737,6 +2737,11 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-55> ;
     foaf:name "Jiri Klemperer" .
 
+<http://data.semanticweb.org/person/joerg-pleumann> a foaf:Person ;
+    rdfs:label "Jörg Pleumann" ;
+    foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-18> ;
+    foaf:name "Jörg Pleumann" .
+
 <http://data.semanticweb.org/person/johann-gamper> a foaf:Person ;
     rdfs:label "Johann Gamper" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-18> ;
@@ -2752,15 +2757,15 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-11> ;
     foaf:name "John Domingue" .
 
-<http://data.semanticweb.org/person/jorg-pleumann> a foaf:Person ;
-    rdfs:label "Jörg Pleumann" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-18> ;
-    foaf:name "Jörg Pleumann" .
-
 <http://data.semanticweb.org/person/jose-a-macias> a foaf:Person ;
     rdfs:label "Jose A. Macias" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-11> ;
     foaf:name "Jose A. Macias" .
+
+<http://data.semanticweb.org/person/juergen-angele> a foaf:Person ;
+    rdfs:label "Jürgen Angele" ;
+    foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-23> ;
+    foaf:name "Jürgen Angele" .
 
 <http://data.semanticweb.org/person/julien-tane> a foaf:Person ;
     rdfs:label "Julien Tane" ;
@@ -2771,11 +2776,6 @@
     rdfs:label "Jun-ichi Akahani" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-03> ;
     foaf:name "Jun-ichi Akahani" .
-
-<http://data.semanticweb.org/person/jurgen-angele> a foaf:Person ;
-    rdfs:label "Jürgen Angele" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-23> ;
-    foaf:name "Jürgen Angele" .
 
 <http://data.semanticweb.org/person/kaoru-hiramatsu> a foaf:Person ;
     rdfs:label "Kaoru Hiramatsu" ;
@@ -3353,7 +3353,7 @@
         <http://data.semanticweb.org/person/omar-cisse> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/abel.pdf> ;
-    swrc:listAuthor "Marie-Helene Abel, Dominique Lenne, Omar Cisse" ;
+    swrc:listAuthor "Marie-Helene Abel,Dominique Lenne and Omar Cisse" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/abel.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/dominique-lenne>,
@@ -3371,7 +3371,7 @@
         <http://data.semanticweb.org/person/kiyoshi-kogure> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/akahani_a4.pdf> ;
-    swrc:listAuthor "Jun-ichi Akahani, Kaoru Hiramatsu, Kiyoshi Kogure" ;
+    swrc:listAuthor "Jun-ichi Akahani,Kaoru Hiramatsu and Kiyoshi Kogure" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/akahani_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/jun-ichi-akahani>,
@@ -3389,7 +3389,7 @@
         <http://data.semanticweb.org/person/l-ardissono> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/goy.pdf> ;
-    swrc:listAuthor "L. Ardissono, A. Goy, G. Petrone" ;
+    swrc:listAuthor "L. Ardissono,A. Goy and G. Petrone" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/goy.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/a-goy>,
@@ -3407,7 +3407,7 @@
         <http://data.semanticweb.org/person/nicoletta-dessi> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/aymerich.pdf> ;
-    swrc:listAuthor "Francesco Maria Aymerich, Nicoletta Dessi, Barbara Pes" ;
+    swrc:listAuthor "Francesco Maria Aymerich,Nicoletta Dessi and Barbara Pes" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/aymerich.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/barbara-pes>,
@@ -3425,7 +3425,7 @@
         <http://data.semanticweb.org/person/fabio-ciravegna> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/ciravegna_a4.pdf> ;
-    swrc:listAuthor "Fabio Ciravegna, Alexiei Dingli, Daniela Petrelli" ;
+    swrc:listAuthor "Fabio Ciravegna,Alexiei Dingli and Daniela Petrelli" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/ciravegna_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/alexiei-dingli>,
@@ -3443,7 +3443,7 @@
         <http://data.semanticweb.org/person/gay-wood-albrecht> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/fillies.pdf> ;
-    swrc:listAuthor "Christian Fillies, Gay Wood-Albrecht, Frauke Weichhardt" ;
+    swrc:listAuthor "Christian Fillies,Gay Wood-Albrecht and Frauke Weichhardt" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/fillies.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/christian-fillies>,
@@ -3461,7 +3461,7 @@
         <http://data.semanticweb.org/person/rolf-gruetter> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/Gruetter.pdf> ;
-    swrc:listAuthor "Rolf Gruetter, Joachim Peer, Beat F. Schmid" ;
+    swrc:listAuthor "Rolf Gruetter,Joachim Peer and Beat F. Schmid" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/Gruetter.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/beat-f-schmid>,
@@ -3479,7 +3479,7 @@
         <http://data.semanticweb.org/person/derek-sleeman> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/hameed.pdf> ;
-    swrc:listAuthor "Adil Hameed, Derek Sleeman, Alun Preece" ;
+    swrc:listAuthor "Adil Hameed,Derek Sleeman and Alun Preece" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/hameed.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/adil-hameed>,
@@ -3497,7 +3497,7 @@
         <http://data.semanticweb.org/person/stephen-pettitt> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/harper.pdf> ;
-    swrc:listAuthor "Simon Harper, Stephen Pettitt, Carole Goble" ;
+    swrc:listAuthor "Simon Harper,Stephen Pettitt and Carole Goble" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/harper.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/carole-goble>,
@@ -3515,7 +3515,7 @@
         <http://data.semanticweb.org/person/steffen-staab> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/handschuh.pdf> ;
-    swrc:listAuthor "Siegfried Handschuh, Steffen Staab, Fabio Ciravegna" ;
+    swrc:listAuthor "Siegfried Handschuh,Steffen Staab and Fabio Ciravegna" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/handschuh.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/fabio-ciravegna>,
@@ -3533,7 +3533,7 @@
         <http://data.semanticweb.org/person/mark-e-dutra> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/mcguiness_a4.pdf> ;
-    swrc:listAuthor "Elisa F. Kendall, Mark E. Dutra, Deborah L. McGuinness" ;
+    swrc:listAuthor "Elisa F. Kendall,Mark E. Dutra and Deborah L. McGuinness" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/mcguiness_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/deborah-l-mcguinness>,
@@ -3551,7 +3551,7 @@
         <http://data.semanticweb.org/person/w-nejdl> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/brase2.pdf> ;
-    swrc:listAuthor "T. Kunze, J. Brase, W. Nejdl" ;
+    swrc:listAuthor "T. Kunze,J. Brase and W. Nejdl" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/brase2.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/j-brase>,
@@ -3569,7 +3569,7 @@
         <http://data.semanticweb.org/person/r-bacher> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/leal.pdf> ;
-    swrc:listAuthor "D. Leal, R. Bacher, A. Schroder" ;
+    swrc:listAuthor "D. Leal,R. Bacher and A. Schroder" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/leal.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/a-schroder>,
@@ -3587,7 +3587,7 @@
         <http://data.semanticweb.org/person/vojtech-svatek> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/linvaclav.pdf> ;
-    swrc:listAuthor "Vaclav Lin, Jan Rauch, Vojtech Svatek" ;
+    swrc:listAuthor "Vaclav Lin,Jan Rauch and Vojtech Svatek" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/linvaclav.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/jan-rauch>,
@@ -3605,7 +3605,7 @@
         <http://data.semanticweb.org/person/peter-macej> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/mach.pdf> ;
-    swrc:listAuthor "Marian Mach, Peter Macej, Jan Hreno" ;
+    swrc:listAuthor "Marian Mach,Peter Macej and Jan Hreno" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/mach.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/jan-hreno>,
@@ -3623,7 +3623,7 @@
         <http://data.semanticweb.org/person/yun-peng> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/sprasad_a4.pdf> ;
-    swrc:listAuthor "Sushama Prasad, Yun Peng, Tim Finin" ;
+    swrc:listAuthor "Sushama Prasad,Yun Peng and Tim Finin" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/sprasad_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/sushama-prasad>,
@@ -3641,7 +3641,7 @@
         <http://data.semanticweb.org/person/perry-groot> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/stuckenschmidt.pdf> ;
-    swrc:listAuthor "Heiner Stuckenschmidt, Frank van Harmelen, Perry Groot" ;
+    swrc:listAuthor "Heiner Stuckenschmidt,Frank van Harmelen and Perry Groot" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/stuckenschmidt.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/frank-van-harmelen>,
@@ -3659,7 +3659,7 @@
         <http://data.semanticweb.org/person/vojtech-svatek> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/svatek.pdf> ;
-    swrc:listAuthor "Vojtech Svatek, Martin Kavalec, Jiri Klemperer" ;
+    swrc:listAuthor "Vojtech Svatek,Martin Kavalec and Jiri Klemperer" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/svatek.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/jiri-klemperer>,
@@ -3677,7 +3677,7 @@
         <http://data.semanticweb.org/person/raphael-volz> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/volz-KAON-SERVER.pdf> ;
-    swrc:listAuthor "Raphael Volz, Boris Motik, Alexander Maedche" ;
+    swrc:listAuthor "Raphael Volz,Boris Motik and Alexander Maedche" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/volz-KAON-SERVER.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/alexander-maedche>,
@@ -3695,7 +3695,7 @@
         <http://data.semanticweb.org/person/peter-f-patel-schneider> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_13> ;
-    swrc:listAuthor "Peter F. Patel-Schneider, Jérôme Siméon" ;
+    swrc:listAuthor "Peter F. Patel-Schneider and Jérôme Siméon" ;
     swrc:pages "147-161" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_13> ;
     swrc:year "2002" ;
@@ -3713,7 +3713,7 @@
         <http://data.semanticweb.org/person/michele-missikoff> ;
     swrc:category "System Descriptions" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_38> ;
-    swrc:listAuthor "Michele Missikoff, Francesco Taglino" ;
+    swrc:listAuthor "Michele Missikoff and Francesco Taglino" ;
     swrc:pages "442-447" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_38> ;
     swrc:year "2002" ;
@@ -3731,7 +3731,7 @@
         <http://data.semanticweb.org/person/marek-hatala> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_23> ;
-    swrc:listAuthor "Marek Hatala, Griff Richards" ;
+    swrc:listAuthor "Marek Hatala and Griff Richards" ;
     swrc:pages "292-306" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_23> ;
     swrc:year "2002" ;
@@ -3745,15 +3745,15 @@
     dc:title "Is Participation in the Semantic Web Too Difficult?" ;
     dcterms:title "Is Participation in the Semantic Web Too Difficult?" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-18/author_list> ;
-    swrc:author <http://data.semanticweb.org/person/jorg-pleumann>,
+    swrc:author <http://data.semanticweb.org/person/joerg-pleumann>,
         <http://data.semanticweb.org/person/stefan-haustein> ;
     swrc:category "System Descriptions" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_39> ;
-    swrc:listAuthor "Stefan Haustein, Jörg Pleumann" ;
+    swrc:listAuthor "Stefan Haustein and Jörg Pleumann" ;
     swrc:pages "448-453" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_39> ;
     swrc:year "2002" ;
-    foaf:maker <http://data.semanticweb.org/person/jorg-pleumann>,
+    foaf:maker <http://data.semanticweb.org/person/joerg-pleumann>,
         <http://data.semanticweb.org/person/stefan-haustein> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-19> a swrc:InProceedings ;
@@ -3767,7 +3767,7 @@
         <http://data.semanticweb.org/person/peter-f-patel-schneider> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_4> ;
-    swrc:listAuthor "Peter F. Patel-Schneider, Dieter Fensel" ;
+    swrc:listAuthor "Peter F. Patel-Schneider and Dieter Fensel" ;
     swrc:pages "16-29" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_4> ;
     swrc:year "2002" ;
@@ -3785,7 +3785,7 @@
         <http://data.semanticweb.org/person/maarten-marx> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_5> ;
-    swrc:listAuthor "Jaap Kamps, Maarten Marx" ;
+    swrc:listAuthor "Jaap Kamps and Maarten Marx" ;
     swrc:pages "30-38" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_5> ;
     swrc:year "2002" ;
@@ -3803,7 +3803,7 @@
         <http://data.semanticweb.org/person/sergio-tessaris> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_15> ;
-    swrc:listAuthor "Ian Horrocks, Sergio Tessaris" ;
+    swrc:listAuthor "Ian Horrocks and Sergio Tessaris" ;
     swrc:pages "177-191" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_15> ;
     swrc:year "2002" ;
@@ -3821,7 +3821,7 @@
         <http://data.semanticweb.org/person/drew-v-mcdermott> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_20> ;
-    swrc:listAuthor "Drew V. McDermott, Dejing Dou" ;
+    swrc:listAuthor "Drew V. McDermott and Dejing Dou" ;
     swrc:pages "250-263" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_20> ;
     swrc:year "2002" ;
@@ -3839,7 +3839,7 @@
         <http://data.semanticweb.org/person/dieter-fensel> ;
     swrc:category "Invited Talk Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_1> ;
-    swrc:listAuthor "Dieter Fensel, Christoph Bussler, Alexander Maedche" ;
+    swrc:listAuthor "Dieter Fensel,Christoph Bussler and Alexander Maedche" ;
     swrc:pages "1-2" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_1> ;
     swrc:year "2002" ;
@@ -3858,7 +3858,7 @@
         <http://data.semanticweb.org/person/mark-klein> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_9> ;
-    swrc:listAuthor "Abraham Bernstein, Mark Klein" ;
+    swrc:listAuthor "Abraham Bernstein and Mark Klein" ;
     swrc:pages "84-101" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_9> ;
     swrc:year "2002" ;
@@ -3876,7 +3876,7 @@
         <http://data.semanticweb.org/person/stefan-decker> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_28> ;
-    swrc:listAuthor "Michael Sintek, Stefan Decker" ;
+    swrc:listAuthor "Michael Sintek and Stefan Decker" ;
     swrc:pages "364-378" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_28> ;
     swrc:year "2002" ;
@@ -3894,7 +3894,7 @@
         <http://data.semanticweb.org/person/yolanda-gil> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_14> ;
-    swrc:listAuthor "Yolanda Gil, Varun Ratnakar" ;
+    swrc:listAuthor "Yolanda Gil and Varun Ratnakar" ;
     swrc:pages "162-176" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_14> ;
     swrc:year "2002" ;
@@ -3912,7 +3912,7 @@
         <http://data.semanticweb.org/person/nick-cramer> ;
     swrc:category "System Descriptions" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_41> ;
-    swrc:listAuthor "Mark A. Whiting, Nick Cramer" ;
+    swrc:listAuthor "Mark A. Whiting and Nick Cramer" ;
     swrc:pages "460-468" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_41> ;
     swrc:year "2002" ;
@@ -4050,7 +4050,7 @@
         <http://data.semanticweb.org/person/wouter-jansweijer> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/van-aart.pdf> ;
-    swrc:listAuthor "Chris van Aart, Bob Wielinga, Wouter Jansweijer, Anjo Anjewierden" ;
+    swrc:listAuthor "Chris van Aart,Bob Wielinga,Wouter Jansweijer and Anjo Anjewierden" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/van-aart.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/anjo-anjewierden>,
@@ -4070,7 +4070,7 @@
         <http://data.semanticweb.org/person/muthukkaruppan-annamalai> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/annamalai.pdf> ;
-    swrc:listAuthor "Muthukkaruppan Annamalai, Lito Cruz, Leon Sterling, Glenn Moloney" ;
+    swrc:listAuthor "Muthukkaruppan Annamalai,Lito Cruz,Leon Sterling and Glenn Moloney" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/annamalai.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/glenn-moloney>,
@@ -4090,7 +4090,7 @@
         <http://data.semanticweb.org/person/simon-kampa> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/bechhofer.pdf> ;
-    swrc:listAuthor "Sean Bechhofer, Carole Goble, Les Carr, Simon Kampa" ;
+    swrc:listAuthor "Sean Bechhofer,Carole Goble,Les Carr and Simon Kampa" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/bechhofer.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/carole-goble>,
@@ -4110,7 +4110,7 @@
         <http://data.semanticweb.org/person/v-richard-benjamins> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/VR_Benjamins.pdf> ;
-    swrc:listAuthor "V. Richard Benjamins, Jesus Contreras, Oscar Corcho, Asuncion Gomez-Perez" ;
+    swrc:listAuthor "V. Richard Benjamins,Jesus Contreras,Oscar Corcho and Asuncion Gomez-Perez" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/VR_Benjamins.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/asuncion-gomez-perez>,
@@ -4130,7 +4130,7 @@
         <http://data.semanticweb.org/person/rosa-gil> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/delgado_a4.pdf> ;
-    swrc:listAuthor "Jaime Delgado, Isabel Gallego, Roberto Garcia, Rosa Gil" ;
+    swrc:listAuthor "Jaime Delgado,Isabel Gallego,Roberto Garcia and Rosa Gil" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/delgado_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/isabel-gallego>,
@@ -4150,7 +4150,7 @@
         <http://data.semanticweb.org/person/vilho-raatikka> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/hyvonen_a4.pdf> ;
-    swrc:listAuthor "Eero Hyvonen, Suvi Kettula, Vilho Raatikka, Kim Viljanen" ;
+    swrc:listAuthor "Eero Hyvonen,Suvi Kettula,Vilho Raatikka and Kim Viljanen" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/hyvonen_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/eero-hyvonen>,
@@ -4170,7 +4170,7 @@
         <http://data.semanticweb.org/person/michel-klein> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/klein-etal.pdf> ;
-    swrc:listAuthor "Michel Klein, Dieter Fensel, Atanas Kiryakov, Damyan Ognyanoff" ;
+    swrc:listAuthor "Michel Klein,Dieter Fensel,Atanas Kiryakov and Damyan Ognyanoff" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/klein-etal.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/atanas-kiryakov>,
@@ -4190,7 +4190,7 @@
         <http://data.semanticweb.org/person/juan-quemada> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/salvachua.pdf> ;
-    swrc:listAuthor "Joaquin Salvachua, Gabriel Huecas, Blanca Rodriguez, Juan Quemada" ;
+    swrc:listAuthor "Joaquin Salvachua,Gabriel Huecas,Blanca Rodriguez and Juan Quemada" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/salvachua.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/blanca-rodriguez>,
@@ -4210,7 +4210,7 @@
         <http://data.semanticweb.org/person/takahisa-ando> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/sato_a4.pdf> ;
-    swrc:listAuthor "Akira Sato, Takahisa Ando, Hiroya Inakoshi, Seishi Okamoto" ;
+    swrc:listAuthor "Akira Sato,Takahisa Ando,Hiroya Inakoshi and Seishi Okamoto" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/sato_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/akira-sato>,
@@ -4230,7 +4230,7 @@
         <http://data.semanticweb.org/person/wolfgang-nejdl> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/schlosser.pdf> ;
-    swrc:listAuthor "Mario Schlosser, Michael Sintek, Stefan Decker, Wolfgang Nejdl" ;
+    swrc:listAuthor "Mario Schlosser,Michael Sintek,Stefan Decker and Wolfgang Nejdl" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/schlosser.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/mario-schlosser>,
@@ -4250,7 +4250,7 @@
         <http://data.semanticweb.org/person/yun-peng> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/ushah_a4.pdf> ;
-    swrc:listAuthor "Urvi Shah, Tim Finin, Yun Peng, James Mayfield" ;
+    swrc:listAuthor "Urvi Shah,Tim Finin,Yun Peng and James Mayfield" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/ushah_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/james-mayfield>,
@@ -4270,7 +4270,7 @@
         <http://data.semanticweb.org/person/sonia-bergamaschi> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_29> ;
-    swrc:listAuthor "Sonia Bergamaschi, Francesco Guerra, Maurizio Vincini" ;
+    swrc:listAuthor "Sonia Bergamaschi,Francesco Guerra and Maurizio Vincini" ;
     swrc:pages "379-393" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_29> ;
     swrc:year "2002" ;
@@ -4290,7 +4290,7 @@
         <http://data.semanticweb.org/person/terry-r-payne> ;
     swrc:category "System Descriptions" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_42> ;
-    swrc:listAuthor "Terry R. Payne, Rahul Singh, Katia P. Sycara" ;
+    swrc:listAuthor "Terry R. Payne,Rahul Singh and Katia P. Sycara" ;
     swrc:pages "469-474" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_42> ;
     swrc:year "2002" ;
@@ -4310,7 +4310,7 @@
         <http://data.semanticweb.org/person/katia-p-sycara> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_25> ;
-    swrc:listAuthor "Anupriya Ankolekar, Frank Huch, Katia P. Sycara" ;
+    swrc:listAuthor "Anupriya Ankolekar,Frank Huch and Katia P. Sycara" ;
     swrc:pages "318-332" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_25> ;
     swrc:year "2002" ;
@@ -4330,7 +4330,7 @@
         <http://data.semanticweb.org/person/jeen-broekstra> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_7> ;
-    swrc:listAuthor "Jeen Broekstra, Arjohn Kampman, Frank van Harmelen" ;
+    swrc:listAuthor "Jeen Broekstra,Arjohn Kampman and Frank van Harmelen" ;
     swrc:pages "54-68" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_7> ;
     swrc:year "2002" ;
@@ -4350,7 +4350,7 @@
         <http://data.semanticweb.org/person/roberto-navigli> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_6> ;
-    swrc:listAuthor "Michele Missikoff, Roberto Navigli, Paola Velardi" ;
+    swrc:listAuthor "Michele Missikoff,Roberto Navigli and Paola Velardi" ;
     swrc:pages "39-53" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_6> ;
     swrc:year "2002" ;
@@ -4370,7 +4370,7 @@
         <http://data.semanticweb.org/person/libby-miller> ;
     swrc:category "System Descriptions" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_36> ;
-    swrc:listAuthor "Libby Miller, Andy Seaborne, Alberto Reggiori" ;
+    swrc:listAuthor "Libby Miller,Andy Seaborne and Alberto Reggiori" ;
     swrc:pages "423-435" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_36> ;
     swrc:year "2002" ;
@@ -4390,7 +4390,7 @@
         <http://data.semanticweb.org/person/gerd-stumme> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_21> ;
-    swrc:listAuthor "Bettina Berendt, Andreas Hotho, Gerd Stumme" ;
+    swrc:listAuthor "Bettina Berendt,Andreas Hotho and Gerd Stumme" ;
     swrc:pages "264-278" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_21> ;
     swrc:year "2002" ;
@@ -4475,7 +4475,7 @@
         <http://data.semanticweb.org/person/schahram-dustdar> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/gall.pdf> ;
-    swrc:listAuthor "Schahram Dustdar, Harald Gall, Gerald Reif, Klaus Niederacher, Alexander Wahler" ;
+    swrc:listAuthor "Schahram Dustdar,Harald Gall,Gerald Reif,Klaus Niederacher and Alexander Wahler" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/gall.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/alexander-wahler>,
@@ -4497,7 +4497,7 @@
         <http://data.semanticweb.org/person/steve-gribble> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/etzioni_a4.pdf> ;
-    swrc:listAuthor "Oren Etzioni, Steve Gribble, Alon Halevy, Henry Levy, Luke McDowell" ;
+    swrc:listAuthor "Oren Etzioni,Steve Gribble,Alon Halevy,Henry Levy and Luke McDowell" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/etzioni_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/alon-halevy>,
@@ -4519,7 +4519,7 @@
         <http://data.semanticweb.org/person/stanislav-jordanov> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/popov-etal.pdf> ;
-    swrc:listAuthor "Atanas Kiryakov , Damyan Ognyanov , Kiril Simov, Borislav Popov, Stanislav Jordanov" ;
+    swrc:listAuthor "Atanas Kiryakov,Damyan Ognyanov,Kiril Simov,Borislav Popov and Stanislav Jordanov" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/popov-etal.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/atanas-kiryakov>,
@@ -4541,7 +4541,7 @@
         <http://data.semanticweb.org/person/sylvain-giroux> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/moulin.pdf> ;
-    swrc:listAuthor "Claude Moulin, Sylvain Giroux, Raffaella Sanna, Alessandro Soro, Gavino Paddeu" ;
+    swrc:listAuthor "Claude Moulin,Sylvain Giroux,Raffaella Sanna,Alessandro Soro and Gavino Paddeu" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/moulin.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/alessandro-soro>,
@@ -4563,7 +4563,7 @@
         <http://data.semanticweb.org/person/yoshinori-shimazaki> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/sadeh2_a4.pdf> ;
-    swrc:listAuthor "Norman Sadeh, Enoch Chan, Wilson Lau, Yoshinori Shimazaki, Linh Van" ;
+    swrc:listAuthor "Norman Sadeh,Enoch Chan,Wilson Lau,Yoshinori Shimazaki and Linh Van" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/sadeh2_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/enoch-chan>,
@@ -4585,7 +4585,7 @@
         <http://data.semanticweb.org/person/pierre-rosenstiehl> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_8> ;
-    swrc:listAuthor "Pascal Auillans, Patrice Ossona de Mendez, Pierre Rosenstiehl, Bernard Vatant" ;
+    swrc:listAuthor "Pascal Auillans,Patrice Ossona de Mendez,Pierre Rosenstiehl and Bernard Vatant" ;
     swrc:pages "69-83" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_8> ;
     swrc:year "2002" ;
@@ -4607,7 +4607,7 @@
         <http://data.semanticweb.org/person/vassilis-christophides> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_12> ;
-    swrc:listAuthor "Aimilia Magkanaraki, Sofia Alexaki, Vassilis Christophides, Dimitris Plexousakis" ;
+    swrc:listAuthor "Aimilia Magkanaraki,Sofia Alexaki,Vassilis Christophides and Dimitris Plexousakis" ;
     swrc:pages "132-146" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_12> ;
     swrc:year "2002" ;
@@ -4629,7 +4629,7 @@
         <http://data.semanticweb.org/person/richard-j-waldinger> ;
     swrc:category "System Descriptions" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_40> ;
-    swrc:listAuthor "Kenneth Baclawski, Mieczyslaw M. Kokar, Richard J. Waldinger, Paul A. Kogut" ;
+    swrc:listAuthor "Kenneth Baclawski,Mieczyslaw M. Kokar,Richard J. Waldinger and Paul A. Kogut" ;
     swrc:pages "454-459" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_40> ;
     swrc:year "2002" ;
@@ -4651,7 +4651,7 @@
         <http://data.semanticweb.org/person/michel-scholl> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_11> ;
-    swrc:listAuthor "Bernd Amann, Catriel Beeri, Irini Fundulaki, Michel Scholl" ;
+    swrc:listAuthor "Bernd Amann,Catriel Beeri,Irini Fundulaki and Michel Scholl" ;
     swrc:pages "117-131" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_11> ;
     swrc:year "2002" ;
@@ -4673,7 +4673,7 @@
         <http://data.semanticweb.org/person/markus-zanker> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_16> ;
-    swrc:listAuthor "Alexander Felfernig, Gerhard Friedrich, Dietmar Jannach, Markus Zanker" ;
+    swrc:listAuthor "Alexander Felfernig,Gerhard Friedrich,Dietmar Jannach and Markus Zanker" ;
     swrc:pages "192-205" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_16> ;
     swrc:year "2002" ;
@@ -4695,7 +4695,7 @@
         <http://data.semanticweb.org/person/terry-r-payne> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_26> ;
-    swrc:listAuthor "Massimo Paolucci, Takahiro Kawamura, Terry R. Payne, Katia P. Sycara" ;
+    swrc:listAuthor "Massimo Paolucci,Takahiro Kawamura,Terry R. Payne and Katia P. Sycara" ;
     swrc:pages "333-347" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_26> ;
     swrc:year "2002" ;
@@ -4717,7 +4717,7 @@
         <http://data.semanticweb.org/person/wolfgang-nejdl> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_19> ;
-    swrc:listAuthor "Wolfgang Nejdl, Wolf Siberski, Bernd Simon, Julien Tane" ;
+    swrc:listAuthor "Wolfgang Nejdl,Wolf Siberski,Bernd Simon and Julien Tane" ;
     swrc:pages "236-249" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_19> ;
     swrc:year "2002" ;
@@ -4861,7 +4861,7 @@
         <http://data.semanticweb.org/person/tomas-robles> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/verdejo.pdf> ;
-    swrc:listAuthor "Margarita Bradley, Luis Llana, Narciso Marti-Oliet, Tomas Robles, Joaquin Salvachua, Alberto Verdejo" ;
+    swrc:listAuthor "Margarita Bradley,Luis Llana,Narciso Marti-Oliet,Tomas Robles,Joaquin Salvachua and Alberto Verdejo" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/verdejo.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/alberto-verdejo>,
@@ -4885,7 +4885,7 @@
         <http://data.semanticweb.org/person/marc-taconnet> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/gangemi-etal_a4.pdf> ;
-    swrc:listAuthor "Aldo Gangemi, Domenico M. Pisanelli, Frehiwot Fisseha, Johannes Keizer, Marc Taconnet, Ian Pettman" ;
+    swrc:listAuthor "Aldo Gangemi,Domenico M. Pisanelli,Frehiwot Fisseha,Johannes Keizer,Marc Taconnet and Ian Pettman" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/gangemi-etal_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/aldo-gangemi>,
@@ -4909,7 +4909,7 @@
         <http://data.semanticweb.org/person/victoria-s-uren> ;
     swrc:category "System Descriptions" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_37> ;
-    swrc:listAuthor "Gangmin Li, Victoria S. Uren, Enrico Motta, Simon Buckingham Shum, John Domingue" ;
+    swrc:listAuthor "Gangmin Li,Victoria S. Uren,Enrico Motta,Simon Buckingham Shum and John Domingue" ;
     swrc:pages "436-441" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_37> ;
     swrc:year "2002" ;
@@ -5062,7 +5062,7 @@
         <http://data.semanticweb.org/person/wouter-p-c-van-gent> ;
     swrc:category "Position Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_32> ;
-    swrc:listAuthor "Guus Schreiber, Inger I. Blok, Daan Carlier, Wouter P. C. van Gent, Jair Hokstam, Uri Roos" ;
+    swrc:listAuthor "Guus Schreiber,Inger I. Blok,Daan Carlier,Wouter P. C. van Gent,Jair Hokstam and Uri Roos" ;
     swrc:pages "404-408" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_32> ;
     swrc:year "2002" ;
@@ -5081,19 +5081,19 @@
     dcterms:title "OntoEdit: Collaborative Ontology Development for the Semantic Web" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-23/author_list> ;
     swrc:author <http://data.semanticweb.org/person/dirk-wenke>,
-        <http://data.semanticweb.org/person/jurgen-angele>,
+        <http://data.semanticweb.org/person/juergen-angele>,
         <http://data.semanticweb.org/person/michael-erdmann>,
         <http://data.semanticweb.org/person/rudi-studer>,
         <http://data.semanticweb.org/person/steffen-staab>,
         <http://data.semanticweb.org/person/york-sure> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_18> ;
-    swrc:listAuthor "York Sure, Michael Erdmann, Jürgen Angele, Steffen Staab, Rudi Studer, Dirk Wenke" ;
+    swrc:listAuthor "York Sure,Michael Erdmann,Jürgen Angele,Steffen Staab,Rudi Studer and Dirk Wenke" ;
     swrc:pages "221-235" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_18> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/dirk-wenke>,
-        <http://data.semanticweb.org/person/jurgen-angele>,
+        <http://data.semanticweb.org/person/juergen-angele>,
         <http://data.semanticweb.org/person/michael-erdmann>,
         <http://data.semanticweb.org/person/rudi-studer>,
         <http://data.semanticweb.org/person/steffen-staab>,
@@ -5114,7 +5114,7 @@
         <http://data.semanticweb.org/person/s-buswell> ;
     swrc:category "Position Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_33> ;
-    swrc:listAuthor "Dan Brickley, S. Buswell, B. M. Matthews, L. Miller, D. Reynolds, Michael D. Wilson" ;
+    swrc:listAuthor "Dan Brickley,S. Buswell,B. M. Matthews,L. Miller,D. Reynolds and Michael D. Wilson" ;
     swrc:pages "409-413" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_33> ;
     swrc:year "2002" ;
@@ -5130,7 +5130,7 @@
     swc:heldBy <http://data.semanticweb.org/organization/confman>,
         <http://data.semanticweb.org/organization/inria-rhone-alpes>,
         <http://data.semanticweb.org/organization/knowledge-systems-laboratory>,
-        <http://data.semanticweb.org/organization/leks-cnr-roma>,
+        <http://data.semanticweb.org/organization/leks/cnr-roma>,
         <http://data.semanticweb.org/organization/university-of-cagliari>,
         <http://data.semanticweb.org/organization/university-of-manchester>,
         <http://data.semanticweb.org/organization/vrije-universiteit-amsterdam> ;
@@ -5201,7 +5201,7 @@
         <http://data.semanticweb.org/person/ross-baker> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/golbeck_a4.pdf> ;
-    swrc:listAuthor "Jennifer Golbeck, Ron Alford, Ross Baker, Mike Grove, Jim Hendler, Aditya Kalyanpur, Amy Loomis, Ron Reck" ;
+    swrc:listAuthor "Jennifer Golbeck,Ron Alford,Ross Baker,Mike Grove,Jim Hendler,Aditya Kalyanpur,Amy Loomis and Ron Reck" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/golbeck_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/aditya-kalyanpur>,
@@ -5270,7 +5270,7 @@
         <http://data.semanticweb.org/person/wolfgang-nejdl> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/bernd-simon.pdf> ;
-    swrc:listAuthor "Barbara Kieslinger, Bernd Simon, Gorazd Vrabic, Gustaf Neumann, Juan Quemada, Nicola Henze, Sigrun Gunnersdottir, Stefan Brantner, Tilman Kuechler, Wolf Siberski, Wolfgang Nejdl" ;
+    swrc:listAuthor "Barbara Kieslinger,Bernd Simon,Gorazd Vrabic,Gustaf Neumann,Juan Quemada,Nicola Henze,Sigrun Gunnersdottir,Stefan Brantner,Tilman Kuechler,Wolf Siberski and Wolfgang Nejdl" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/bernd-simon.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/barbara-kieslinger>,
@@ -5304,7 +5304,7 @@
         <http://data.semanticweb.org/person/terry-r-payne> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_27> ;
-    swrc:listAuthor "Mark H. Burstein, Jerry R. Hobbs, Ora Lassila, David L. Martin, Drew V. McDermott, Sheila A. McIlraith, Srini Narayanan, Massimo Paolucci, Terry R. Payne, Katia P. Sycara" ;
+    swrc:listAuthor "Mark H. Burstein,Jerry R. Hobbs,Ora Lassila,David L. Martin,Drew V. McDermott,Sheila A. McIlraith,Srini Narayanan,Massimo Paolucci,Terry R. Payne and Katia P. Sycara" ;
     swrc:pages "348-363" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_27> ;
     swrc:year "2002" ;
@@ -5391,9 +5391,9 @@
 
 <http://data.semanticweb.org/conference/iswc/2002> a swc:ConferenceEvent ;
     rdfs:label "The First International Semantic Web Conference" ;
-    swc:acronym "ISWC2002" ;
     swc:address "Sardinia, Italy" ;
     swc:completeGraph <http://data.semanticweb.org/conference/iswc/2002/complete> ;
+    swc:hasAcronym "ISWC2002" ;
     swc:hasLocation "Sardinia, Italy" ;
     swc:hasRole <http://data.semanticweb.org/conference/iswc/2002/finances-and-web-chair>,
         <http://data.semanticweb.org/conference/iswc/2002/general-chair>,

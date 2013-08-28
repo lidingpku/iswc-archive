@@ -17,7 +17,7 @@
 <http://data.semanticweb.org/conference/iswc/2001/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2013 (2013-08-06)" ;
-    dcterms:modified "2013-08-21T10:25:58.740637"^^xsd:datetime ;
+    dcterms:modified "2013-08-27T23:40:28.016772"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2001/event-01> a swc:SpecialEvent ;
@@ -331,7 +331,7 @@
     rdf:_1 <http://data.semanticweb.org/person/bernard-moulin> .
 
 <http://data.semanticweb.org/conference/iswc/2001/position-proceedings/paper-34/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/ambjorn-naeve> ;
+    rdf:_1 <http://data.semanticweb.org/person/ambjoern-naeve> ;
     rdf:_2 <http://data.semanticweb.org/person/mikael-nilsson> ;
     rdf:_3 <http://data.semanticweb.org/person/matthias-palmer> .
 
@@ -448,7 +448,7 @@
     rdf:_3 <http://data.semanticweb.org/person/gerd-wagner> .
 
 <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-13/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/rolf-grutter> ;
+    rdf:_1 <http://data.semanticweb.org/person/rolf-gruetter> ;
     rdf:_2 <http://data.semanticweb.org/person/claus-eikemeier> .
 
 <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-14/author_list> a rdf:Seq ;
@@ -518,7 +518,7 @@
 <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-27/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/wolfram-conen> ;
     rdf:_2 <http://data.semanticweb.org/person/reinhold-klapsing> ;
-    rdf:_3 <http://data.semanticweb.org/person/eckhart-koppen> .
+    rdf:_3 <http://data.semanticweb.org/person/eckhart-koeppen> .
 
 <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-28/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/chutiporn-anutariya> ;
@@ -621,7 +621,7 @@
 
 <http://data.semanticweb.org/organization/connotate> a foaf:Organization ;
     rdfs:label "Connotate" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/sliver-sponsor> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/silver-sponsor> ;
     foaf:homepage <http://www.connotate.com/> ;
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/logos/connotate_web.jpg> ;
     foaf:name "Connotate" .
@@ -725,14 +725,14 @@
 
 <http://data.semanticweb.org/organization/language-and-computing> a foaf:Organization ;
     rdfs:label "Language and Computing" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/sliver-sponsor> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/silver-sponsor> ;
     foaf:homepage <http://www.landc.be/> ;
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/logos/landc.jpg> ;
     foaf:name "Language and Computing" .
 
 <http://data.semanticweb.org/organization/lastmileservices> a foaf:Organization ;
     rdfs:label "LastMileServices" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/sliver-sponsor> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/silver-sponsor> ;
     foaf:name "LastMileServices" .
 
 <http://data.semanticweb.org/organization/laval-university> a foaf:Organization ;
@@ -796,7 +796,7 @@
 
 <http://data.semanticweb.org/organization/network-inference> a foaf:Organization ;
     rdfs:label "Network Inference" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/sliver-sponsor> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/silver-sponsor> ;
     foaf:homepage <http://www.networkinference.com/> ;
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/logos/netinf1a.jpg> ;
     foaf:name "Network Inference" .
@@ -819,7 +819,7 @@
 
 <http://data.semanticweb.org/organization/ontoprise-gmbh> a foaf:Organization ;
     rdfs:label "Ontoprise GmbH" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/sliver-sponsor> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/silver-sponsor> ;
     foaf:homepage <http://www.ontoprise.de/> ;
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/logos/ontoprise1a.jpg> ;
     foaf:name "Ontoprise GmbH" .
@@ -873,7 +873,7 @@
 
 <http://data.semanticweb.org/organization/sc4> a foaf:Organization ;
     rdfs:label "SC4" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/sliver-sponsor> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/silver-sponsor> ;
     foaf:homepage <http://www.sc4.org/> ;
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/logos/sc4_web.jpg> ;
     foaf:name "SC4" .
@@ -972,7 +972,7 @@
     foaf:member <http://data.semanticweb.org/person/syd-hall> ;
     foaf:name "University of Washington" .
 
-<http://data.semanticweb.org/organization/university-of-wurzburg> a foaf:Organization ;
+<http://data.semanticweb.org/organization/university-of-wuerzburg> a foaf:Organization ;
     rdfs:label "University of Würzburg" ;
     owl:sameAs <http://dbpedia.org/resource/University_of_W%C3%BCrzburg> ;
     foaf:member <http://data.semanticweb.org/person/andreas-harth> ;
@@ -2307,7 +2307,7 @@
 
 <http://data.semanticweb.org/organization/empolis> a foaf:Organization ;
     rdfs:label "Empolis" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/sliver-sponsor> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/silver-sponsor> ;
     owl:sameAs <http://dbpedia.org/resource/Empolis> ;
     foaf:homepage <http://www.empolis.com/> ;
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/logos/empolisweb.jpg> ;
@@ -2337,7 +2337,7 @@
 
 <http://data.semanticweb.org/organization/inria> a foaf:Organization ;
     rdfs:label "INRIA" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/sliver-sponsor> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/silver-sponsor> ;
     owl:sameAs <http://dbpedia.org/resource/National_Institute_for_Research_in_Computer_Science_and_Control> ;
     foaf:homepage <http://www.inria.fr/> ;
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/logos/inria1a.gif> ;
@@ -2379,7 +2379,7 @@
 
 <http://data.semanticweb.org/organization/mondeca> a foaf:Organization ;
     rdfs:label "Mondeca" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/sliver-sponsor> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/silver-sponsor> ;
     owl:sameAs <http://dbpedia.org/resource/Mondeca> ;
     foaf:homepage <http://www.mondeca.com/> ;
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/logos/mondeca_web.jpg> ;
@@ -2513,7 +2513,7 @@
 <http://data.semanticweb.org/person/andreas-harth> a foaf:Person ;
     rdfs:label "Andreas Harth" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/participant> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/university-of-wurzburg> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/university-of-wuerzburg> ;
     foaf:name "Andreas Harth" .
 
 <http://data.semanticweb.org/person/antonio-sanfilippo> a foaf:Person ;
@@ -3232,7 +3232,7 @@
         <http://data.semanticweb.org/person/k-anyanwu> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/swws-2001-position/soi-anyanwu.pdf> ;
-    swrc:listAuthor "K. Anyanwu, A. Sheth" ;
+    swrc:listAuthor "K. Anyanwu and A. Sheth" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/swws-2001-position/soi-anyanwu.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/a-sheth>,
@@ -3248,7 +3248,7 @@
         <http://data.semanticweb.org/person/monica-crubezy> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-crubezy-musen.pdf> ;
-    swrc:listAuthor "Monica Crubézy , Mark A. Musen" ;
+    swrc:listAuthor "Monica Crubézy and Mark A. Musen" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-crubezy-musen.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/mark-a-musen>,
@@ -3264,7 +3264,7 @@
         <http://data.semanticweb.org/person/rob-jasper> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-jasper.pdf> ;
-    swrc:listAuthor "Rob Jasper, Anita Tyler" ;
+    swrc:listAuthor "Rob Jasper and Anita Tyler" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-jasper.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/anita-tyler>,
@@ -3280,7 +3280,7 @@
         <http://data.semanticweb.org/person/mike-lindelsee> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-lindelsee.pdf> ;
-    swrc:listAuthor "Mike Lindelsee, Gabe Wachob" ;
+    swrc:listAuthor "Mike Lindelsee and Gabe Wachob" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-lindelsee.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/gabe-wachob>,
@@ -3296,7 +3296,7 @@
         <http://data.semanticweb.org/person/william-mccarthy> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-mccarthy.pdf> ;
-    swrc:listAuthor "Guido Geerts, William McCarthy" ;
+    swrc:listAuthor "Guido Geerts and William McCarthy" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-mccarthy.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/guido-geerts>,
@@ -3312,7 +3312,7 @@
         <http://data.semanticweb.org/person/steven-minton> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-minton.pdf> ;
-    swrc:listAuthor "Bryan Pelz, Steven Minton" ;
+    swrc:listAuthor "Bryan Pelz and Steven Minton" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-minton.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/bryan-pelz>,
@@ -3328,7 +3328,7 @@
         <http://data.semanticweb.org/person/mukkai-s-krishnamoorthy> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-punin.pdf> ;
-    swrc:listAuthor "John R. Punin, Mukkai S. Krishnamoorthy" ;
+    swrc:listAuthor "John R. Punin and Mukkai S. Krishnamoorthy" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-punin.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/john-r-punin>,
@@ -3344,7 +3344,7 @@
         <http://data.semanticweb.org/person/scott-tsao> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-scott.pdf> ;
-    swrc:listAuthor "Scott Tsao, Christina Portillo" ;
+    swrc:listAuthor "Scott Tsao and Christina Portillo" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-scott.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/christina-portillo>,
@@ -3647,7 +3647,7 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2001/position-proceedings/paper-07> ;
     foaf:name "Alexandre Delteil" .
 
-<http://data.semanticweb.org/person/ambjorn-naeve> a foaf:Person ;
+<http://data.semanticweb.org/person/ambjoern-naeve> a foaf:Person ;
     rdfs:label "Ambjörn Naeve" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2001/position-proceedings/paper-34> ;
     foaf:name "Ambjörn Naeve" .
@@ -3772,7 +3772,7 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-26> ;
     foaf:name "Drew V. McDermott" .
 
-<http://data.semanticweb.org/person/eckhart-koppen> a foaf:Person ;
+<http://data.semanticweb.org/person/eckhart-koeppen> a foaf:Person ;
     rdfs:label "Eckhart Köppen" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-27> ;
     foaf:name "Eckhart Köppen" .
@@ -4130,7 +4130,7 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-07> ;
     foaf:name "Roberto García" .
 
-<http://data.semanticweb.org/person/rolf-grutter> a foaf:Person ;
+<http://data.semanticweb.org/person/rolf-gruetter> a foaf:Person ;
     rdfs:label "Rolf Grütter" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-13> ;
     foaf:name "Rolf Grütter" .
@@ -4264,7 +4264,7 @@
         <http://data.semanticweb.org/person/shirley-tessler> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-barr.pdf> ;
-    swrc:listAuthor "Avron Barr, Shirley Tessler , Buddy Kresge" ;
+    swrc:listAuthor "Avron Barr,Shirley Tessler and Buddy Kresge" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-barr.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/avron-barr>,
@@ -4282,7 +4282,7 @@
         <http://data.semanticweb.org/person/nigel-collier> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-collier.pdf> ;
-    swrc:listAuthor "Nigel Collier, Koichi Takeuchi, Keita Tsuji" ;
+    swrc:listAuthor "Nigel Collier,Koichi Takeuchi and Keita Tsuji" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-collier.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/keita-tsuji>,
@@ -4300,7 +4300,7 @@
         <http://data.semanticweb.org/person/rose-dieng> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-delteil.pdf> ;
-    swrc:listAuthor "Alexandre Delteil, Catherine Faron-Zucker, Rose Dieng" ;
+    swrc:listAuthor "Alexandre Delteil,Catherine Faron-Zucker and Rose Dieng" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-delteil.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/alexandre-delteil>,
@@ -4318,7 +4318,7 @@
         <http://data.semanticweb.org/person/philippe-martin> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-eklund.pdf> ;
-    swrc:listAuthor "Peter Eklund, Peter Becker , Philippe Martin" ;
+    swrc:listAuthor "Peter Eklund,Peter Becker and Philippe Martin" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-eklund.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/peter-becker>,
@@ -4331,15 +4331,15 @@
     dc:title "The Conceptual Web - our research vision" ;
     dcterms:title "The Conceptual Web - our research vision" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2001/position-proceedings/paper-34/author_list> ;
-    swrc:author <http://data.semanticweb.org/person/ambjorn-naeve>,
+    swrc:author <http://data.semanticweb.org/person/ambjoern-naeve>,
         <http://data.semanticweb.org/person/matthias-palmer>,
         <http://data.semanticweb.org/person/mikael-nilsson> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-nilsson.pdf> ;
-    swrc:listAuthor "Ambjörn Naeve, Mikael Nilsson, Matthias Palmér" ;
+    swrc:listAuthor "Ambjörn Naeve,Mikael Nilsson and Matthias Palmér" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-nilsson.pdf> ;
     swrc:year "2001" ;
-    foaf:maker <http://data.semanticweb.org/person/ambjorn-naeve>,
+    foaf:maker <http://data.semanticweb.org/person/ambjoern-naeve>,
         <http://data.semanticweb.org/person/matthias-palmer>,
         <http://data.semanticweb.org/person/mikael-nilsson> .
 
@@ -4354,7 +4354,7 @@
         <http://data.semanticweb.org/person/terry-r-payne> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-payne.pdf> ;
-    swrc:listAuthor "Terry R. Payne, Massimo Paolucci, Katia Sycara" ;
+    swrc:listAuthor "Terry R. Payne,Massimo Paolucci and Katia Sycara" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-payne.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/katia-sycara>,
@@ -4372,7 +4372,7 @@
         <http://data.semanticweb.org/person/simon-buckingham-shum> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <http://eprints.aktors.org/151/02/SemWebNowWhat.pdf> ;
-    swrc:listAuthor "Simon Buckingham Shum, John Domingue, Enrico Motta" ;
+    swrc:listAuthor "Simon Buckingham Shum,John Domingue and Enrico Motta" ;
     swrc:url <http://eprints.aktors.org/151/02/SemWebNowWhat.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/enrico-motta>,
@@ -4390,7 +4390,7 @@
         <http://data.semanticweb.org/person/j-wielemaker> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-wielinga.pdf> ;
-    swrc:listAuthor "B.J. Wielinga, A. Th. Schreiber, J. Wielemaker" ;
+    swrc:listAuthor "B.J. Wielinga,A. Th. Schreiber and J. Wielemaker" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-wielinga.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/a-th-schreiber>,
@@ -4408,7 +4408,7 @@
         <http://data.semanticweb.org/person/sara-comai> ;
     swrc:category "Working Track 3: (Web-) Services and Applications" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper19a.pdf> ;
-    swrc:listAuthor "Sara Comai, Piero Fraternali" ;
+    swrc:listAuthor "Sara Comai and Piero Fraternali" ;
     swrc:pages "566-585" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper19a.pdf> ;
     swrc:year "2001" ;
@@ -4426,7 +4426,7 @@
         <http://data.semanticweb.org/person/roberto-garcia> ;
     swrc:category "Working Track 2: Interoperability, Integration, Composition" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper15a.pdf> ;
-    swrc:listAuthor "Roberto García, Jaime Delgado" ;
+    swrc:listAuthor "Roberto García and Jaime Delgado" ;
     swrc:pages "245-260" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper15a.pdf> ;
     swrc:year "2001" ;
@@ -4441,15 +4441,15 @@
     dcterms:title "Development of a Simple Ontology Definition Language (SOntoDL) and Its Application to a Medical Information Service on the World Wide Web" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-13/author_list> ;
     swrc:author <http://data.semanticweb.org/person/claus-eikemeier>,
-        <http://data.semanticweb.org/person/rolf-grutter> ;
+        <http://data.semanticweb.org/person/rolf-gruetter> ;
     swrc:category "Working Track 1: Ontology and Ontology Maintenance" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper47a.pdf> ;
-    swrc:listAuthor "Rolf Grütter, Claus Eikemeier" ;
+    swrc:listAuthor "Rolf Grütter and Claus Eikemeier" ;
     swrc:pages "587-597" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper47a.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/claus-eikemeier>,
-        <http://data.semanticweb.org/person/rolf-grutter> .
+        <http://data.semanticweb.org/person/rolf-gruetter> .
 
 <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-15> a swrc:InProceedings ;
     rdfs:label "Indexing a web site with a terminology oriented ontology" ;
@@ -4462,7 +4462,7 @@
         <http://data.semanticweb.org/person/emmanuel-desmontils> ;
     swrc:category "Working Track 3: (Web-) Services and Applications" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper5a.pdf> ;
-    swrc:listAuthor "Emmanuel Desmontils, Christine Jacquin" ;
+    swrc:listAuthor "Emmanuel Desmontils and Christine Jacquin" ;
     swrc:pages "549-565" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper5a.pdf> ;
     swrc:year "2001" ;
@@ -4480,7 +4480,7 @@
         <http://data.semanticweb.org/person/jeff-z-pan> ;
     swrc:category "Working Track 1: Ontology and Ontology Maintenance" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper11a.pdf> ;
-    swrc:listAuthor "Jeff Z. Pan, Ian Horrocks" ;
+    swrc:listAuthor "Jeff Z. Pan and Ian Horrocks" ;
     swrc:pages "131-149" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper11a.pdf> ;
     swrc:year "2001" ;
@@ -4498,7 +4498,7 @@
         <http://data.semanticweb.org/person/paul-w-calnan> ;
     swrc:category "Working Track 2: Interoperability, Integration, Composition" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper48a.pdf> ;
-    swrc:listAuthor "Isabel F. Cruz, Paul W. Calnan" ;
+    swrc:listAuthor "Isabel F. Cruz and Paul W. Calnan" ;
     swrc:pages "229-243" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper48a.pdf> ;
     swrc:year "2001" ;
@@ -4516,7 +4516,7 @@
         <http://data.semanticweb.org/person/stefan-decker> ;
     swrc:category "Working Track 2: Interoperability, Integration, Composition" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper53a.pdf> ;
-    swrc:listAuthor "Martin S. Lacher, Stefan Decker" ;
+    swrc:listAuthor "Martin S. Lacher and Stefan Decker" ;
     swrc:pages "331-344" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper53a.pdf> ;
     swrc:year "2001" ;
@@ -4534,7 +4534,7 @@
         <http://data.semanticweb.org/person/ying-ding> ;
     swrc:category "Working Track 1: Ontology and Ontology Maintenance" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper58a.pdf> ;
-    swrc:listAuthor "Ying Ding, Dieter Fensel" ;
+    swrc:listAuthor "Ying Ding and Dieter Fensel" ;
     swrc:pages "93-112" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper58a.pdf> ;
     swrc:year "2001" ;
@@ -4552,7 +4552,7 @@
         <http://data.semanticweb.org/person/michel-c-a-klein> ;
     swrc:category "Working Track 1: Ontology and Ontology Maintenance" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper56a.pdf> ;
-    swrc:listAuthor "Michel C. A. Klein, Dieter Fensel" ;
+    swrc:listAuthor "Michel C. A. Klein and Dieter Fensel" ;
     swrc:pages "75-91" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper56a.pdf> ;
     swrc:year "2001" ;
@@ -4570,7 +4570,7 @@
         <http://data.semanticweb.org/person/marin-dimitrov> ;
     swrc:category "Working Track 1: Ontology and Ontology Maintenance" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper35a.pdf> ;
-    swrc:listAuthor "Atanas K. Kirakov, Marin Dimitrov" ;
+    swrc:listAuthor "Atanas K. Kirakov and Marin Dimitrov" ;
     swrc:pages "39-53" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper35a.pdf> ;
     swrc:year "2001" ;
@@ -4588,7 +4588,7 @@
         <http://data.semanticweb.org/person/mark-klein> ;
     swrc:category "Working Track 3: (Web-) Services and Applications" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper2a.pdf> ;
-    swrc:listAuthor "Mark Klein, Abraham Bernstein" ;
+    swrc:listAuthor "Mark Klein and Abraham Bernstein" ;
     swrc:pages "431-446" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper2a.pdf> ;
     swrc:year "2001" ;
@@ -4606,7 +4606,7 @@
         <http://data.semanticweb.org/person/vipul-kashyap> ;
     swrc:category "Working Track 1: Ontology and Ontology Maintenance" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper29a.pdf> ;
-    swrc:listAuthor "Clifford Behrens, Vipul Kashyap" ;
+    swrc:listAuthor "Clifford Behrens and Vipul Kashyap" ;
     swrc:pages "55-74" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper29a.pdf> ;
     swrc:year "2001" ;
@@ -4624,7 +4624,7 @@
         <http://data.semanticweb.org/person/wolfram-conen> ;
     swrc:category "Working Track 1: Ontology and Ontology Maintenance" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper24a.pdf> ;
-    swrc:listAuthor "Wolfram Conen, Reinhold Klapsing" ;
+    swrc:listAuthor "Wolfram Conen and Reinhold Klapsing" ;
     swrc:pages "181-193" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper24a.pdf> ;
     swrc:year "2001" ;
@@ -4796,7 +4796,7 @@
         <http://data.semanticweb.org/person/stephen-katz> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-fisseha.pdf> ;
-    swrc:listAuthor "Frehiwot Fisseha, Kat Hagedorn, Johannes Keizer, Stephen Katz" ;
+    swrc:listAuthor "Frehiwot Fisseha,Kat Hagedorn,Johannes Keizer and Stephen Katz" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-fisseha.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/frehiwot-fisseha>,
@@ -4816,7 +4816,7 @@
         <http://data.semanticweb.org/person/yoshihisa-gonno> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-gonno.pdf> ;
-    swrc:listAuthor "Yoshihisa Gonno, Fumihiko Nishio, Tomohiro Tsunoda, Yasuaki Yamagishi" ;
+    swrc:listAuthor "Yoshihisa Gonno,Fumihiko Nishio,Tomohiro Tsunoda and Yasuaki Yamagishi" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-gonno.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/fumihiko-nishio>,
@@ -4836,7 +4836,7 @@
         <http://data.semanticweb.org/person/syd-hall> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-hall.pdf> ;
-    swrc:listAuthor "Syd Hall, Nick Spadaccini, Doug du Boulay, Ian Castleden" ;
+    swrc:listAuthor "Syd Hall,Nick Spadaccini,Doug du Boulay and Ian Castleden" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-hall.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/doug-du-boulay>,
@@ -4856,7 +4856,7 @@
         <http://data.semanticweb.org/person/steve-ray> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-ivezic.pdf> ;
-    swrc:listAuthor "Nenad Ivezic, Michael Gruninger, Al Jones, Steve Ray" ;
+    swrc:listAuthor "Nenad Ivezic,Michael Gruninger,Al Jones and Steve Ray" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-ivezic.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/al-jones>,
@@ -4876,7 +4876,7 @@
         <http://data.semanticweb.org/person/richard-drew> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-liu.pdf> ;
-    swrc:listAuthor "Ping Liu, Jayne Curson, Peter Dew, Richard Drew" ;
+    swrc:listAuthor "Ping Liu,Jayne Curson,Peter Dew and Richard Drew" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-liu.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/jayne-curson>,
@@ -4896,7 +4896,7 @@
         <http://data.semanticweb.org/person/maurizio-lenzerini> ;
     swrc:category "Working Track 2: Interoperability, Integration, Composition" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper21a.pdf> ;
-    swrc:listAuthor "Diego Calvanese, Giuseppe De Giacomo, Maurizio Lenzerini" ;
+    swrc:listAuthor "Diego Calvanese,Giuseppe De Giacomo and Maurizio Lenzerini" ;
     swrc:pages "303-316" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper21a.pdf> ;
     swrc:year "2001" ;
@@ -4916,7 +4916,7 @@
         <http://data.semanticweb.org/person/stefan-decker> ;
     swrc:category "Working Track 2: Interoperability, Integration, Composition" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper51a.pdf> ;
-    swrc:listAuthor "Prasenjit Mitra, Gio Wiederhold, Stefan Decker" ;
+    swrc:listAuthor "Prasenjit Mitra,Gio Wiederhold and Stefan Decker" ;
     swrc:pages "317-329" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper51a.pdf> ;
     swrc:year "2001" ;
@@ -4936,7 +4936,7 @@
         <http://data.semanticweb.org/person/javier-gonzalez-castillo> ;
     swrc:category "Working Track 3: (Web-) Services and Applications" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper52a.pdf> ;
-    swrc:listAuthor "David Trastour, Claudio Bartolini, Javier Gonzalez-Castillo" ;
+    swrc:listAuthor "David Trastour,Claudio Bartolini and Javier Gonzalez-Castillo" ;
     swrc:pages "447-461" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper52a.pdf> ;
     swrc:year "2001" ;
@@ -4956,7 +4956,7 @@
         <http://data.semanticweb.org/person/steffen-staab> ;
     swrc:category "Working Track 3: (Web-) Services and Applications" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper4a.pdf> ;
-    swrc:listAuthor "Siegfried Handschuh, Steffen Staab, Alexander Maedche" ;
+    swrc:listAuthor "Siegfried Handschuh,Steffen Staab and Alexander Maedche" ;
     swrc:pages "515-528" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper4a.pdf> ;
     swrc:year "2001" ;
@@ -4976,7 +4976,7 @@
         <http://data.semanticweb.org/person/sean-bechhofer> ;
     swrc:category "Working Track 1: Ontology and Ontology Maintenance" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper40a.pdf> ;
-    swrc:listAuthor "Sean Bechhofer, Carole A. Goble, Ian Horrocks" ;
+    swrc:listAuthor "Sean Bechhofer,Carole A. Goble and Ian Horrocks" ;
     swrc:pages "151-159" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper40a.pdf> ;
     swrc:year "2001" ;
@@ -4996,7 +4996,7 @@
         <http://data.semanticweb.org/person/said-tabet> ;
     swrc:category "Working Track 2: Interoperability, Integration, Composition" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper20a.pdf> ;
-    swrc:listAuthor "Harold Boley, Said Tabet, Gerd Wagner" ;
+    swrc:listAuthor "Harold Boley,Said Tabet and Gerd Wagner" ;
     swrc:pages "381-401" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper20a.pdf> ;
     swrc:year "2001" ;
@@ -5016,7 +5016,7 @@
         <http://data.semanticweb.org/person/wei-wu> ;
     swrc:category "Working Track 1: Ontology and Ontology Maintenance" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper50a.pdf> ;
-    swrc:listAuthor "Aseem Das, Wei Wu, Deborah L. McGuinness" ;
+    swrc:listAuthor "Aseem Das,Wei Wu and Deborah L. McGuinness" ;
     swrc:pages "17-37" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper50a.pdf> ;
     swrc:year "2001" ;
@@ -5036,7 +5036,7 @@
         <http://data.semanticweb.org/person/yuhui-jin> ;
     swrc:category "Working Track 3: (Web-) Services and Applications" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper55a.pdf> ;
-    swrc:listAuthor "Yuhui Jin, Stefan Decker, Gio Wiederhold" ;
+    swrc:listAuthor "Yuhui Jin,Stefan Decker and Gio Wiederhold" ;
     swrc:pages "529-547" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper55a.pdf> ;
     swrc:year "2001" ;
@@ -5056,7 +5056,7 @@
         <http://data.semanticweb.org/person/mark-h-burstein> ;
     swrc:category "Working Track 2: Interoperability, Integration, Composition" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper39a.pdf> ;
-    swrc:listAuthor "Drew V. McDermott, Mark H. Burstein, Douglas R. Smith" ;
+    swrc:listAuthor "Drew V. McDermott,Mark H. Burstein and Douglas R. Smith" ;
     swrc:pages "285-302" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper39a.pdf> ;
     swrc:year "2001" ;
@@ -5071,16 +5071,16 @@
     dc:title "RDF M&S revisited: From Reification to Nesting, from Containers to Lists, from Dialect to pure XML" ;
     dcterms:title "RDF M&S revisited: From Reification to Nesting, from Containers to Lists, from Dialect to pure XML" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-27/author_list> ;
-    swrc:author <http://data.semanticweb.org/person/eckhart-koppen>,
+    swrc:author <http://data.semanticweb.org/person/eckhart-koeppen>,
         <http://data.semanticweb.org/person/reinhold-klapsing>,
         <http://data.semanticweb.org/person/wolfram-conen> ;
     swrc:category "Working Track 1: Ontology and Ontology Maintenance" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper27a.pdf> ;
-    swrc:listAuthor "Wolfram Conen, Reinhold Klapsing, Eckhart Köppen" ;
+    swrc:listAuthor "Wolfram Conen,Reinhold Klapsing and Eckhart Köppen" ;
     swrc:pages "195-208" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper27a.pdf> ;
     swrc:year "2001" ;
-    foaf:maker <http://data.semanticweb.org/person/eckhart-koppen>,
+    foaf:maker <http://data.semanticweb.org/person/eckhart-koeppen>,
         <http://data.semanticweb.org/person/reinhold-klapsing>,
         <http://data.semanticweb.org/person/wolfram-conen> .
 
@@ -5096,7 +5096,7 @@
         <http://data.semanticweb.org/person/robert-balzer> ;
     swrc:category "Working Track 3: (Web-) Services and Applications" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper54a.pdf> ;
-    swrc:listAuthor "Marcelo Tallis, Neil M. Goldman, Robert Balzer" ;
+    swrc:listAuthor "Marcelo Tallis,Neil M. Goldman and Robert Balzer" ;
     swrc:pages "463-475" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper54a.pdf> ;
     swrc:year "2001" ;
@@ -5612,7 +5612,7 @@
         <http://data.semanticweb.org/person/wolfgang-nejdl> ;
     swrc:category "Working Track 3: (Web-) Services and Applications" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper38a.pdf> ;
-    swrc:listAuthor "Hadhami Dhraief, Wolfgang Nejdl, Boris Wolf, Martin Wolpers" ;
+    swrc:listAuthor "Hadhami Dhraief,Wolfgang Nejdl,Boris Wolf and Martin Wolpers" ;
     swrc:pages "495-514" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper38a.pdf> ;
     swrc:year "2001" ;
@@ -5634,7 +5634,7 @@
         <http://data.semanticweb.org/person/vilas-wuwongse> ;
     swrc:category "Working Track 1: Ontology and Ontology Maintenance" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper17a.pdf> ;
-    swrc:listAuthor "Chutiporn Anutariya, Vilas Wuwongse, Kiyoshi Akama, Vichit Wattanapailin" ;
+    swrc:listAuthor "Chutiporn Anutariya,Vilas Wuwongse,Kiyoshi Akama and Vichit Wattanapailin" ;
     swrc:pages "161-180" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper17a.pdf> ;
     swrc:year "2001" ;
@@ -5656,7 +5656,7 @@
         <http://data.semanticweb.org/person/patrick-beautement> ;
     swrc:category "Working Track 2: Interoperability, Integration, Composition" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper10a.pdf> ;
-    swrc:listAuthor "David N. Allsopp, Patrick Beautement, John Carson, Michael Kirton" ;
+    swrc:listAuthor "David N. Allsopp,Patrick Beautement,John Carson and Michael Kirton" ;
     swrc:pages "209-228" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper10a.pdf> ;
     swrc:year "2001" ;
@@ -5839,7 +5839,7 @@
         <http://data.semanticweb.org/person/teri-klein> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-oliver.pdf> ;
-    swrc:listAuthor "Diane Oliver, Micheal Hewett, Daniel Rubin, Joshua Stuart, Teri Klein, Russ Altman" ;
+    swrc:listAuthor "Diane Oliver,Micheal Hewett,Daniel Rubin,Joshua Stuart,Teri Klein and Russ Altman" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-oliver.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/daniel-rubin>,
@@ -6021,7 +6021,7 @@
         <http://data.semanticweb.org/person/stuart-j-nelson> ;
     swrc:category "Working Track 1: Ontology and Ontology Maintenance" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper49a.pdf> ;
-    swrc:listAuthor "Mark S. Tuttle, Steven H. Brown, Keith E. Campbell, John S. Carter, Kevin Keck, Michael J. Lincoln, Stuart J. Nelson, Michael Stonebraker" ;
+    swrc:listAuthor "Mark S. Tuttle,Steven H. Brown,Keith E. Campbell,John S. Carter,Kevin Keck,Michael J. Lincoln,Stuart J. Nelson and Michael Stonebraker" ;
     swrc:pages "5-16" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper49a.pdf> ;
     swrc:year "2001" ;
@@ -6034,8 +6034,8 @@
         <http://data.semanticweb.org/person/steven-h-brown>,
         <http://data.semanticweb.org/person/stuart-j-nelson> .
 
-<http://data.semanticweb.org/conference/iswc/2001/sliver-sponsor> a swc:Sponsor ;
-    rdfs:label "Sliver Sponsor" ;
+<http://data.semanticweb.org/conference/iswc/2001/silver-sponsor> a swc:Sponsor ;
+    rdfs:label "Silver Sponsor" ;
     swc:heldBy <http://data.semanticweb.org/organization/connotate>,
         <http://data.semanticweb.org/organization/empolis>,
         <http://data.semanticweb.org/organization/inria>,
@@ -6103,7 +6103,7 @@
         <http://data.semanticweb.org/person/yun-peng> ;
     swrc:category "Working Track 3: (Web-) Services and Applications" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper41a.pdf> ;
-    swrc:listAuthor "R. Scott Cost, Timothy W. Finin, Anupam Joshi, Yun Peng, Charles K. Nicholas, Harry Chen, Lalana Kagal, Filip Perich, Youyong Zou, Sovrin Tolia" ;
+    swrc:listAuthor "R. Scott Cost,Timothy W. Finin,Anupam Joshi,Yun Peng,Charles K. Nicholas,Harry Chen,Lalana Kagal,Filip Perich,Youyong Zou and Sovrin Tolia" ;
     swrc:pages "477-494" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper41a.pdf> ;
     swrc:year "2001" ;
@@ -6138,7 +6138,7 @@
         <http://data.semanticweb.org/person/terry-r-payne> ;
     swrc:category "Working Track 3: (Web-) Services and Applications" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper57a.pdf> ;
-    swrc:listAuthor "Anupriya Ankolekar, Mark H. Burstein, Jerry R. Hobbs, Ora Lassila, David L. Martin, Sheila A. McIlraith, Srini Narayanan, Massimo Paolucci, Terry R. Payne, Katia P. Sycara, Honglei Zeng" ;
+    swrc:listAuthor "Anupriya Ankolekar,Mark H. Burstein,Jerry R. Hobbs,Ora Lassila,David L. Martin,Sheila A. McIlraith,Srini Narayanan,Massimo Paolucci,Terry R. Payne,Katia P. Sycara and Honglei Zeng" ;
     swrc:pages "411-430" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper57a.pdf> ;
     swrc:year "2001" ;
@@ -6328,9 +6328,9 @@
 
 <http://data.semanticweb.org/conference/iswc/2001> a swc:ConferenceEvent ;
     rdfs:label "The First Semantic Web Working Symposium" ;
-    swc:acronym "SWWS2001" ;
     swc:address "Stanford University, California, USA" ;
     swc:completeGraph <http://data.semanticweb.org/conference/iswc/2001/complete> ;
+    swc:hasAcronym "SWWS2001" ;
     swc:hasLocation "Stanford University, California, USA" ;
     swc:hasRole <http://data.semanticweb.org/conference/iswc/2001/gold-sponsor>,
         <http://data.semanticweb.org/conference/iswc/2001/organization-staff>,
@@ -6340,7 +6340,7 @@
         <http://data.semanticweb.org/conference/iswc/2001/pc-member>,
         <http://data.semanticweb.org/conference/iswc/2001/platinum-sponsor>,
         <http://data.semanticweb.org/conference/iswc/2001/reviewer>,
-        <http://data.semanticweb.org/conference/iswc/2001/sliver-sponsor> ;
+        <http://data.semanticweb.org/conference/iswc/2001/silver-sponsor> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc> ;
     swc:isSuperEventOf <http://data.semanticweb.org/conference/iswc/2001/event-01>,
         <http://data.semanticweb.org/conference/iswc/2001/event-02>,

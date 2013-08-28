@@ -17,7 +17,7 @@
 <http://data.semanticweb.org/conference/iswc/2013/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2013 (2013-08-06)" ;
-    dcterms:modified "2013-08-22T23:40:36.243368"^^xsd:datetime ;
+    dcterms:modified "2013-08-27T23:41:26.830426"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2013/poster-demo-proceedings/paper-01/author_list> a rdf:Seq ;
@@ -3891,7 +3891,7 @@ Additionally, we provide insights on the relationship between R2RML and Direct M
     swrc:author <http://data.semanticweb.org/person/aldo-gangemi>,
         <http://data.semanticweb.org/person/silvio-peroni> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Aldo Gangemi, Silvio Peroni" ;
+    swrc:listAuthor "Aldo Gangemi and Silvio Peroni" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/aldo-gangemi>,
         <http://data.semanticweb.org/person/silvio-peroni> .
@@ -3906,7 +3906,7 @@ Additionally, we provide insights on the relationship between R2RML and Direct M
     swrc:author <http://data.semanticweb.org/person/hassan-aiet-kaci>,
         <http://data.semanticweb.org/person/samir-amir> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Samir Amir, Hassan Aït-Kaci" ;
+    swrc:listAuthor "Samir Amir and Hassan Aït-Kaci" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/hassan-aiet-kaci>,
         <http://data.semanticweb.org/person/samir-amir> .
@@ -3922,7 +3922,7 @@ concept lattices are very good tools for classification and organization of data
     swrc:author <http://data.semanticweb.org/person/amedeo-napoli>,
         <http://data.semanticweb.org/person/melisachew-wudage-chekol> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Melisachew Wudage Chekol, Amedeo Napoli" ;
+    swrc:listAuthor "Melisachew Wudage Chekol and Amedeo Napoli" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/amedeo-napoli>,
         <http://data.semanticweb.org/person/melisachew-wudage-chekol> .
@@ -3942,7 +3942,7 @@ This simplifies the query answering task and shows that some basic semantic web 
     swrc:author <http://data.semanticweb.org/person/amedeo-napoli>,
         <http://data.semanticweb.org/person/melisachew-wudage-chekol> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Melisachew Wudage Chekol, Amedeo Napoli" ;
+    swrc:listAuthor "Melisachew Wudage Chekol and Amedeo Napoli" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/amedeo-napoli>,
         <http://data.semanticweb.org/person/melisachew-wudage-chekol> .
@@ -3957,7 +3957,7 @@ This simplifies the query answering task and shows that some basic semantic web 
     swrc:author <http://data.semanticweb.org/person/emanuele-della-valle>,
         <http://data.semanticweb.org/person/marco-balduini> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Marco Balduini, Emanuele Della Valle" ;
+    swrc:listAuthor "Marco Balduini and Emanuele Della Valle" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/emanuele-della-valle>,
         <http://data.semanticweb.org/person/marco-balduini> .
@@ -3972,7 +3972,7 @@ This simplifies the query answering task and shows that some basic semantic web 
     swrc:author <http://data.semanticweb.org/person/abraham-bernstein>,
         <http://data.semanticweb.org/person/cosmin-basca> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Cosmin Basca, Abraham Bernstein" ;
+    swrc:listAuthor "Cosmin Basca and Abraham Bernstein" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/abraham-bernstein>,
         <http://data.semanticweb.org/person/cosmin-basca> .
@@ -3991,7 +3991,7 @@ models need be considered.""" ;
     swrc:author <http://data.semanticweb.org/person/pat-hayes>,
         <http://data.semanticweb.org/person/peter-patel-schneider> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Peter Patel-Schneider, Pat Hayes" ;
+    swrc:listAuthor "Peter Patel-Schneider and Pat Hayes" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/pat-hayes>,
         <http://data.semanticweb.org/person/peter-patel-schneider> .
@@ -4006,7 +4006,7 @@ models need be considered.""" ;
     swrc:author <http://data.semanticweb.org/person/heiko-paulheim>,
         <http://data.semanticweb.org/person/sven-hertling> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Heiko Paulheim, Sven Hertling" ;
+    swrc:listAuthor "Heiko Paulheim and Sven Hertling" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/heiko-paulheim>,
         <http://data.semanticweb.org/person/sven-hertling> .
@@ -4021,7 +4021,7 @@ models need be considered.""" ;
     swrc:author <http://data.semanticweb.org/person/keerthi-thomas>,
         <http://data.semanticweb.org/person/mathieu-daquin> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Mathieu D'Aquin, Keerthi Thomas" ;
+    swrc:listAuthor "Mathieu D'Aquin and Keerthi Thomas" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/keerthi-thomas>,
         <http://data.semanticweb.org/person/mathieu-daquin> .
@@ -4037,7 +4037,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
     swrc:author <http://data.semanticweb.org/person/andre-freitas>,
         <http://data.semanticweb.org/person/edward-curry> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Andre Freitas, Edward Curry" ;
+    swrc:listAuthor "Andre Freitas and Edward Curry" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/andre-freitas>,
         <http://data.semanticweb.org/person/edward-curry> .
@@ -4052,7 +4052,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
     swrc:author <http://data.semanticweb.org/person/luciano-serafini>,
         <http://data.semanticweb.org/person/zolzaya-dashdorj> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Zolzaya Dashdorj, Luciano Serafini" ;
+    swrc:listAuthor "Zolzaya Dashdorj and Luciano Serafini" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/luciano-serafini>,
         <http://data.semanticweb.org/person/zolzaya-dashdorj> .
@@ -4067,7 +4067,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
     swrc:author <http://data.semanticweb.org/person/pavel-klinov>,
         <http://data.semanticweb.org/person/yevgeny-kazakov> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Yevgeny Kazakov, Pavel Klinov" ;
+    swrc:listAuthor "Yevgeny Kazakov and Pavel Klinov" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/pavel-klinov>,
         <http://data.semanticweb.org/person/yevgeny-kazakov> .
@@ -4088,7 +4088,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/piero-bonatti> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180017.pdf> ;
-    swrc:listAuthor "Piero Bonatti, Luigi Sauro" ;
+    swrc:listAuthor "Piero Bonatti and Luigi Sauro" ;
     swrc:pages "17-32" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180017.pdf> ;
     swrc:year "2013" ;
@@ -4105,7 +4105,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/lorenz-buehmann> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180033.pdf> ;
-    swrc:listAuthor "Lorenz Bühmann, Jens Lehmann" ;
+    swrc:listAuthor "Lorenz Bühmann and Jens Lehmann" ;
     swrc:pages "33-48" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180033.pdf> ;
     swrc:year "2013" ;
@@ -4122,7 +4122,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/yevgeny-kazakov> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180225.pdf> ;
-    swrc:listAuthor "Yevgeny Kazakov, Pavel Klinov" ;
+    swrc:listAuthor "Yevgeny Kazakov and Pavel Klinov" ;
     swrc:pages "225-240" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180225.pdf> ;
     swrc:year "2013" ;
@@ -4139,7 +4139,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/sven-schewe> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180401.pdf> ;
-    swrc:listAuthor "Nadeschda Nikitina, Sven Schewe" ;
+    swrc:listAuthor "Nadeschda Nikitina and Sven Schewe" ;
     swrc:pages "401-416" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180401.pdf> ;
     swrc:year "2013" ;
@@ -4156,7 +4156,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/heiko-paulheim> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180497.pdf> ;
-    swrc:listAuthor "Heiko Paulheim, Christian Bizer" ;
+    swrc:listAuthor "Heiko Paulheim and Christian Bizer" ;
     swrc:pages "497-512" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180497.pdf> ;
     swrc:year "2013" ;
@@ -4173,7 +4173,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/pascal-hitzler> ;
     swrc:category "Evaluation Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190289.pdf> ;
-    swrc:listAuthor "Michelle Cheatham, Pascal Hitzler" ;
+    swrc:listAuthor "Michelle Cheatham and Pascal Hitzler" ;
     swrc:pages "289-304" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190289.pdf> ;
     swrc:year "2013" ;
@@ -4190,7 +4190,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/kjetil-kjernsmo> ;
     swrc:category "Evaluation Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190353.pdf> ;
-    swrc:listAuthor "Kjetil Kjernsmo, John S. Tyssedal" ;
+    swrc:listAuthor "Kjetil Kjernsmo and John S. Tyssedal" ;
     swrc:pages "353-368" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190353.pdf> ;
     swrc:year "2013" ;
@@ -4207,7 +4207,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/oscar-corcho> ;
     swrc:category "Evaluation Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190369.pdf> ;
-    swrc:listAuthor "Jose Mora, Oscar Corcho" ;
+    swrc:listAuthor "Jose Mora and Oscar Corcho" ;
     swrc:pages "369-384" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190369.pdf> ;
     swrc:year "2013" ;
@@ -4224,7 +4224,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/richard-hosking> ;
     swrc:category "Doctoral Consortium Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190425.pdf> ;
-    swrc:listAuthor "Richard Hosking, Mark Gahegan" ;
+    swrc:listAuthor "Richard Hosking and Mark Gahegan" ;
     swrc:pages "425-432" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190425.pdf> ;
     swrc:year "2013" ;
@@ -5555,7 +5555,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/yanan-zhang>,
         <http://data.semanticweb.org/person/yuzhong-qu> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Yanan Zhang, Gong Cheng, Yuzhong Qu" ;
+    swrc:listAuthor "Yanan Zhang,Gong Cheng and Yuzhong Qu" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/gong-cheng>,
         <http://data.semanticweb.org/person/yanan-zhang>,
@@ -5572,7 +5572,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/nathalie-hernandez>,
         <http://data.semanticweb.org/person/ollivier-haemmerle> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Camille Pradel, Ollivier Haemmerlé, Nathalie Hernandez" ;
+    swrc:listAuthor "Camille Pradel,Ollivier Haemmerlé and Nathalie Hernandez" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/camille-pradel>,
         <http://data.semanticweb.org/person/nathalie-hernandez>,
@@ -5589,7 +5589,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/matthias-knorr>,
         <http://data.semanticweb.org/person/vadim-ivanov> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Vadim Ivanov, Matthias Knorr, Joao Leite" ;
+    swrc:listAuthor "Vadim Ivanov,Matthias Knorr and Joao Leite" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/joao-leite>,
         <http://data.semanticweb.org/person/matthias-knorr>,
@@ -5606,7 +5606,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/alessandra-mileo>,
         <http://data.semanticweb.org/person/emir-munoz> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Emir Muñoz, Aidan Hogan, Alessandra Mileo" ;
+    swrc:listAuthor "Emir Muñoz,Aidan Hogan and Alessandra Mileo" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/aidan-hogan>,
         <http://data.semanticweb.org/person/alessandra-mileo>,
@@ -5623,7 +5623,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/dat-quoc-nguyen>,
         <http://data.semanticweb.org/person/son-bao-pham> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Dat Quoc Nguyen, Dai Quoc Nguyen, Son Bao Pham" ;
+    swrc:listAuthor "Dat Quoc Nguyen,Dai Quoc Nguyen and Son Bao Pham" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/dai-quoc-nguyen>,
         <http://data.semanticweb.org/person/dat-quoc-nguyen>,
@@ -5640,7 +5640,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/kyong-ho-lee>,
         <http://data.semanticweb.org/person/pilsik-choi> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Pilsik Choi, Jooik Jung, Kyong-Ho Lee" ;
+    swrc:listAuthor "Pilsik Choi,Jooik Jung and Kyong-Ho Lee" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/jooik-jung>,
         <http://data.semanticweb.org/person/kyong-ho-lee>,
@@ -5657,7 +5657,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/miriam-fernandez>,
         <http://data.semanticweb.org/person/stuart-brown> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Miriam Fernandez, Harith Alani, Stuart Brown" ;
+    swrc:listAuthor "Miriam Fernandez,Harith Alani and Stuart Brown" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/harith-alani>,
         <http://data.semanticweb.org/person/miriam-fernandez>,
@@ -5674,7 +5674,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/ilaria-tiddi>,
         <http://data.semanticweb.org/person/mathieu-daquin> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Ilaria Tiddi, Mathieu D'Aquin, Enrico Motta" ;
+    swrc:listAuthor "Ilaria Tiddi,Mathieu D'Aquin and Enrico Motta" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/enrico-motta>,
         <http://data.semanticweb.org/person/ilaria-tiddi>,
@@ -5691,7 +5691,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/maria-esther-vidal>,
         <http://data.semanticweb.org/person/simon-castillo> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Simon Castillo, Guillermo Palma, Maria-Esther Vidal" ;
+    swrc:listAuthor "Simon Castillo,Guillermo Palma and Maria-Esther Vidal" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/guillermo-palma>,
         <http://data.semanticweb.org/person/maria-esther-vidal>,
@@ -5708,7 +5708,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/rafael-s-goncalves>,
         <http://data.semanticweb.org/person/uli-sattler> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Rafael S. Gonçalves, Bijan Parsia, Uli Sattler" ;
+    swrc:listAuthor "Rafael S. Gonçalves,Bijan Parsia and Uli Sattler" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/bijan-parsia>,
         <http://data.semanticweb.org/person/rafael-s-goncalves>,
@@ -5725,7 +5725,7 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
         <http://data.semanticweb.org/person/kasjen-kraemer>,
         <http://data.semanticweb.org/person/renata-dividino> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Kasjen Kraemer, Renata Dividino, Gerd Gröner" ;
+    swrc:listAuthor "Kasjen Kraemer,Renata Dividino and Gerd Gröner" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/gerd-groener>,
         <http://data.semanticweb.org/person/kasjen-kraemer>,
@@ -5744,7 +5744,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/lorenz-fischer>,
         <http://data.semanticweb.org/person/thomas-scharrenbach> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Lorenz Fischer, Thomas Scharrenbach, Abraham Bernstein" ;
+    swrc:listAuthor "Lorenz Fischer,Thomas Scharrenbach and Abraham Bernstein" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/abraham-bernstein>,
         <http://data.semanticweb.org/person/lorenz-fischer>,
@@ -5761,7 +5761,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/paolo-bottoni>,
         <http://data.semanticweb.org/person/simona-valentini> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Miguel Ceriani, Paolo Bottoni, Simona Valentini" ;
+    swrc:listAuthor "Miguel Ceriani,Paolo Bottoni and Simona Valentini" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/miguel-ceriani>,
         <http://data.semanticweb.org/person/paolo-bottoni>,
@@ -5778,7 +5778,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/yongtao-ma> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180001.pdf> ;
-    swrc:listAuthor "Veli Bicer, Thanh Tran, Yongtao Ma" ;
+    swrc:listAuthor "Veli Bicer,Thanh Tran and Yongtao Ma" ;
     swrc:pages "1-16" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180001.pdf> ;
     swrc:year "2013" ;
@@ -5797,7 +5797,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/natalya-f-noy> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180113.pdf> ;
-    swrc:listAuthor "Bo Fu, Natalya F. Noy, Margaret-Anne Storey" ;
+    swrc:listAuthor "Bo Fu,Natalya F. Noy and Margaret-Anne Storey" ;
     swrc:pages "113-128" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180113.pdf> ;
     swrc:year "2013" ;
@@ -5816,7 +5816,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/wolf-tilo-balke> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180177.pdf> ;
-    swrc:listAuthor "Silviu Homoceanu, Philipp Wille, Wolf-Tilo Balke" ;
+    swrc:listAuthor "Silviu Homoceanu,Philipp Wille and Wolf-Tilo Balke" ;
     swrc:pages "177-192" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180177.pdf> ;
     swrc:year "2013" ;
@@ -5835,7 +5835,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/vadim-ivanov> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180209.pdf> ;
-    swrc:listAuthor "Vadim Ivanov, Matthias Knorr, Joao Leite" ;
+    swrc:listAuthor "Vadim Ivanov,Matthias Knorr and Joao Leite" ;
     swrc:pages "209-224" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180209.pdf> ;
     swrc:year "2013" ;
@@ -5854,7 +5854,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/olivier-cure> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180257.pdf> ;
-    swrc:listAuthor "Chan Le Duc, Myriam Lamolle, Olivier Curé" ;
+    swrc:listAuthor "Chan Le Duc,Myriam Lamolle and Olivier Curé" ;
     swrc:pages "257-272" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180257.pdf> ;
     swrc:year "2013" ;
@@ -5873,7 +5873,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/samantha-bail> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180321.pdf> ;
-    swrc:listAuthor "Nicolas Matentzoglu, Samantha Bail, Bijan Parsia" ;
+    swrc:listAuthor "Nicolas Matentzoglu,Samantha Bail and Bijan Parsia" ;
     swrc:pages "321-336" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180321.pdf> ;
     swrc:year "2013" ;
@@ -5892,7 +5892,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/varish-mulwad> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180353.pdf> ;
-    swrc:listAuthor "Varish Mulwad, Tim Finin, Anupam Joshi" ;
+    swrc:listAuthor "Varish Mulwad,Tim Finin and Anupam Joshi" ;
     swrc:pages "353-368" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180353.pdf> ;
     swrc:year "2013" ;
@@ -5911,7 +5911,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/christian-huetter> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180417.pdf> ;
-    swrc:listAuthor "Andriy Nikolov, Andreas Schwarte, Christian Hütter" ;
+    swrc:listAuthor "Andriy Nikolov,Andreas Schwarte and Christian Hütter" ;
     swrc:pages "417-432" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180417.pdf> ;
     swrc:year "2013" ;
@@ -5930,7 +5930,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/paul-mulholland> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180449.pdf> ;
-    swrc:listAuthor "Francesco Osborne, Enrico Motta, Paul Mulholland" ;
+    swrc:listAuthor "Francesco Osborne,Enrico Motta and Paul Mulholland" ;
     swrc:pages "449-464" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180449.pdf> ;
     swrc:year "2013" ;
@@ -5949,7 +5949,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/claudio-giuliano> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180481.pdf> ;
-    swrc:listAuthor "Alessio Palmero Aprosio, Claudio Giuliano, Alberto Lavelli" ;
+    swrc:listAuthor "Alessio Palmero Aprosio,Claudio Giuliano and Alberto Lavelli" ;
     swrc:pages "481-496" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180481.pdf> ;
     swrc:year "2013" ;
@@ -5968,7 +5968,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/roman-kontchakov> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180545.pdf> ;
-    swrc:listAuthor "Mariano Rodriguez-Muro, Roman Kontchakov, Michael Zakharyaschev" ;
+    swrc:listAuthor "Mariano Rodriguez-Muro,Roman Kontchakov and Michael Zakharyaschev" ;
     swrc:pages "545-560" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180545.pdf> ;
     swrc:year "2013" ;
@@ -5987,7 +5987,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/juan-f-sequeda> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180609.pdf> ;
-    swrc:listAuthor "Aibo Tian, Juan F. Sequeda, Daniel Miranker" ;
+    swrc:listAuthor "Aibo Tian,Juan F. Sequeda and Daniel Miranker" ;
     swrc:pages "609-624" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180609.pdf> ;
     swrc:year "2013" ;
@@ -6006,7 +6006,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/matteo-palmonari> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190129.pdf> ;
-    swrc:listAuthor "Fedelucio Narducci, Matteo Palmonari, Giovanni Semeraro" ;
+    swrc:listAuthor "Fedelucio Narducci,Matteo Palmonari and Giovanni Semeraro" ;
     swrc:pages "129-144" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190129.pdf> ;
     swrc:year "2013" ;
@@ -6025,7 +6025,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/martin-g-skjveland> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190161.pdf> ;
-    swrc:listAuthor "Martin G. Skjæveland, Espen H. Lian, Ian Horrocks" ;
+    swrc:listAuthor "Martin G. Skjæveland,Espen H. Lian and Ian Horrocks" ;
     swrc:pages "161-176" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190161.pdf> ;
     swrc:year "2013" ;
@@ -6044,7 +6044,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/tudor-groza> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190225.pdf> ;
-    swrc:listAuthor "Chih-Hao Yu, Tudor Groza, Jane Hunter" ;
+    swrc:listAuthor "Chih-Hao Yu,Tudor Groza and Jane Hunter" ;
     swrc:pages "225-240" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190225.pdf> ;
     swrc:year "2013" ;
@@ -6063,7 +6063,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/manolis-koubarakis> ;
     swrc:category "Evaluation Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190337.pdf> ;
-    swrc:listAuthor "George Garbis, Kostis Kyzirakos, Manolis Koubarakis" ;
+    swrc:listAuthor "George Garbis,Kostis Kyzirakos and Manolis Koubarakis" ;
     swrc:pages "337-352" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190337.pdf> ;
     swrc:year "2013" ;
@@ -6082,7 +6082,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/kai-eckert> ;
     swrc:category "Evaluation Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190385.pdf> ;
-    swrc:listAuthor "Dominique Ritze, Heiko Paulheim, Kai Eckert" ;
+    swrc:listAuthor "Dominique Ritze,Heiko Paulheim and Kai Eckert" ;
     swrc:pages "385-400" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190385.pdf> ;
     swrc:year "2013" ;
@@ -7737,7 +7737,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/jack-sun>,
         <http://data.semanticweb.org/person/kenny-zhu> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Jack Sun,  Franky, Kenny Zhu, Haixun Wang" ;
+    swrc:listAuthor "Jack Sun,Franky,Kenny Zhu and Haixun Wang" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/franky>,
         <http://data.semanticweb.org/person/haixun-wang>,
@@ -7756,7 +7756,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/karthik-rajendra-prasad>,
         <http://data.semanticweb.org/person/kavi-mahesh> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Kavi Mahesh, Aparna Nagarajan, Apoorva Rao Balevalachilu, Karthik Rajendra Prasad" ;
+    swrc:listAuthor "Kavi Mahesh,Aparna Nagarajan,Apoorva Rao Balevalachilu and Karthik Rajendra Prasad" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/aparna-nagarajan>,
         <http://data.semanticweb.org/person/apoorva-rao-balevalachilu>,
@@ -7775,7 +7775,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/julien-cojan>,
         <http://data.semanticweb.org/person/serena-villata> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Elena Cabrio, Julien Cojan, Serena Villata, Fabien Gandon" ;
+    swrc:listAuthor "Elena Cabrio,Julien Cojan,Serena Villata and Fabien Gandon" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/elena-cabrio>,
         <http://data.semanticweb.org/person/fabien-gandon>,
@@ -7794,7 +7794,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/jane-taggart>,
         <http://data.semanticweb.org/person/siaw-teng-liaw> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Hairong Yu, Siaw-Teng Liaw, Jane Taggart, Alireza Rahimi" ;
+    swrc:listAuthor "Hairong Yu,Siaw-Teng Liaw,Jane Taggart and Alireza Rahimi" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/alireza-rahimi>,
         <http://data.semanticweb.org/person/hairong-yu>,
@@ -7813,7 +7813,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/michael-granitzer>,
         <http://data.semanticweb.org/person/stefan-zwicklbauer> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Stefan Zwicklbauer, Christoph Einsiedler, Michael Granitzer, Christin Seifert" ;
+    swrc:listAuthor "Stefan Zwicklbauer,Christoph Einsiedler,Michael Granitzer and Christin Seifert" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/christin-seifert>,
         <http://data.semanticweb.org/person/christoph-einsiedler>,
@@ -7832,7 +7832,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/juergen-umbrich>,
         <http://data.semanticweb.org/person/pierre-yves-vandenbussche> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Pierre-Yves Vandenbussche, Carlos Buil Aranda, Aidan Hogan, Jürgen Umbrich" ;
+    swrc:listAuthor "Pierre-Yves Vandenbussche,Carlos Buil Aranda,Aidan Hogan and Jürgen Umbrich" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/aidan-hogan>,
         <http://data.semanticweb.org/person/carlos-buil-aranda>,
@@ -7853,7 +7853,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/mihaela-verman>,
         <http://data.semanticweb.org/person/philip-stutz> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Philip Stutz, Mihaela Verman, Lorenz Fischer, Abraham Bernstein" ;
+    swrc:listAuthor "Philip Stutz,Mihaela Verman,Lorenz Fischer and Abraham Bernstein" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/abraham-bernstein>,
         <http://data.semanticweb.org/person/lorenz-fischer>,
@@ -7872,7 +7872,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/vishwajeet-kumar>,
         <http://data.semanticweb.org/person/yuan-fang-li> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Chetana Gavankar, Vishwajeet Kumar, Yuan-Fang Li, Ganesh Ramakrishnan" ;
+    swrc:listAuthor "Chetana Gavankar,Vishwajeet Kumar,Yuan-Fang Li and Ganesh Ramakrishnan" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/chetana-gavankar>,
         <http://data.semanticweb.org/person/ganesh-ramakrishnan>,
@@ -7891,7 +7891,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/pascal-hitzler>,
         <http://data.semanticweb.org/person/peter-haase> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Kunal Sengupta, Peter Haase, Michael Schmidt, Pascal Hitzler" ;
+    swrc:listAuthor "Kunal Sengupta,Peter Haase,Michael Schmidt and Pascal Hitzler" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/kunal-sengupta>,
         <http://data.semanticweb.org/person/michael-schmidt>,
@@ -7910,7 +7910,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/evgeny-kharlamov>,
         <http://data.semanticweb.org/person/peter-haase> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Christoph Pinkel, Carsten Binnig, Evgeny Kharlamov, Peter Haase" ;
+    swrc:listAuthor "Christoph Pinkel,Carsten Binnig,Evgeny Kharlamov and Peter Haase" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/carsten-binnig>,
         <http://data.semanticweb.org/person/christoph-pinkel>,
@@ -7929,7 +7929,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/marco-antonio-casanova>,
         <http://data.semanticweb.org/person/stefan-dietze> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Bernardo Pereira Nunes, Besnik Fetahu, Stefan Dietze, Marco Antonio Casanova" ;
+    swrc:listAuthor "Bernardo Pereira Nunes,Besnik Fetahu,Stefan Dietze and Marco Antonio Casanova" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/bernardo-pereira-nunes>,
         <http://data.semanticweb.org/person/besnik-fetahu>,
@@ -7948,7 +7948,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/maarten-wijnants>,
         <http://data.semanticweb.org/person/stijn-verstichel> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Femke Ongenae, Stijn Verstichel, Maarten Wijnants, Filip De Turck" ;
+    swrc:listAuthor "Femke Ongenae,Stijn Verstichel,Maarten Wijnants and Filip De Turck" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/femke-ongenae>,
         <http://data.semanticweb.org/person/filip-de-turck>,
@@ -7967,7 +7967,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/satria-hutomo>,
         <http://data.semanticweb.org/person/soon-gill-hong> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Saemi Jang, Satria Hutomo, Soon Gill Hong, Mun Yi" ;
+    swrc:listAuthor "Saemi Jang,Satria Hutomo,Soon Gill Hong and Mun Yi" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/mun-yi>,
         <http://data.semanticweb.org/person/saemi-jang>,
@@ -7986,7 +7986,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/martin-przyjaciel-zablocki>,
         <http://data.semanticweb.org/person/thomas-hornung> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Alexander Schätzle, Martin Przyjaciel-Zablocki, Thomas Hornung, Georg Lausen" ;
+    swrc:listAuthor "Alexander Schätzle,Martin Przyjaciel-Zablocki,Thomas Hornung and Georg Lausen" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/alexander-schaetzle>,
         <http://data.semanticweb.org/person/georg-lausen>,
@@ -8005,7 +8005,7 @@ A uniform scheduling strategy---a uniform distribution of computation load among
         <http://data.semanticweb.org/person/lexing-xie>,
         <http://data.semanticweb.org/person/shepherd-liu> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Anila Sahar Butt, Armin Haller, Shepherd Liu, Lexing Xie" ;
+    swrc:listAuthor "Anila Sahar Butt,Armin Haller,Shepherd Liu and Lexing Xie" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/anila-sahar-butt>,
         <http://data.semanticweb.org/person/armin-haller>,
@@ -8032,7 +8032,7 @@ Web of Linked Data directly.""" ;
         <http://data.semanticweb.org/person/isao-kojima>,
         <http://data.semanticweb.org/person/steven-lynden> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Steven Lynden, Isao Kojima, Akiyoshi Matono, Akihito Nakamura" ;
+    swrc:listAuthor "Steven Lynden,Isao Kojima,Akiyoshi Matono and Akihito Nakamura" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/akihito-nakamura>,
         <http://data.semanticweb.org/person/akiyoshi-matono>,
@@ -8051,7 +8051,7 @@ Web of Linked Data directly.""" ;
         <http://data.semanticweb.org/person/luca-costabello>,
         <http://data.semanticweb.org/person/serena-villata> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Luca Costabello, Serena Villata, Iacopo Vagliano, Fabien Gandon" ;
+    swrc:listAuthor "Luca Costabello,Serena Villata,Iacopo Vagliano and Fabien Gandon" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/fabien-gandon>,
         <http://data.semanticweb.org/person/iacopo-vagliano>,
@@ -8070,7 +8070,7 @@ Web of Linked Data directly.""" ;
         <http://data.semanticweb.org/person/sambhawa-priya>,
         <http://data.semanticweb.org/person/xingjian-zhang> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Xingjian Zhang, Dezhao Song, Sambhawa Priya, Jeff Heflin" ;
+    swrc:listAuthor "Xingjian Zhang,Dezhao Song,Sambhawa Priya and Jeff Heflin" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/dezhao-song>,
         <http://data.semanticweb.org/person/jeff-heflin>,
@@ -8089,7 +8089,7 @@ Web of Linked Data directly.""" ;
         <http://data.semanticweb.org/person/raghava-mutharaju>,
         <http://data.semanticweb.org/person/sherif-sakr> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Raghava Mutharaju, Sherif Sakr, Alessandra Sala, Pascal Hitzler" ;
+    swrc:listAuthor "Raghava Mutharaju,Sherif Sakr,Alessandra Sala and Pascal Hitzler" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/alessandra-sala>,
         <http://data.semanticweb.org/person/pascal-hitzler>,
@@ -8108,7 +8108,7 @@ Web of Linked Data directly.""" ;
         <http://data.semanticweb.org/person/paolo-ciancarini>,
         <http://data.semanticweb.org/person/valentina-presutti> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Andrea Giovanni Nuzzolese, Aldo Gangemi, Valentina Presutti, Paolo Ciancarini" ;
+    swrc:listAuthor "Andrea Giovanni Nuzzolese,Aldo Gangemi,Valentina Presutti and Paolo Ciancarini" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/aldo-gangemi>,
         <http://data.semanticweb.org/person/andrea-giovanni-nuzzolese>,
@@ -8133,7 +8133,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/francesco-draicchio>,
         <http://data.semanticweb.org/person/valentina-presutti> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Aldo Gangemi, Valentina Presutti, Francesco Draicchio, Andrea Giovanni Nuzzolese" ;
+    swrc:listAuthor "Aldo Gangemi,Valentina Presutti,Francesco Draicchio and Andrea Giovanni Nuzzolese" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/aldo-gangemi>,
         <http://data.semanticweb.org/person/andrea-giovanni-nuzzolese>,
@@ -8152,7 +8152,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/rafael-s-goncalves>,
         <http://data.semanticweb.org/person/uli-sattler> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Rafael S. Gonçalves, Nicolas Matentzoglu, Bijan Parsia, Uli Sattler" ;
+    swrc:listAuthor "Rafael S. Gonçalves,Nicolas Matentzoglu,Bijan Parsia and Uli Sattler" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/bijan-parsia>,
         <http://data.semanticweb.org/person/nicolas-matentzoglu>,
@@ -8171,7 +8171,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/evgeny-kharlamov> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180049.pdf> ;
-    swrc:listAuthor "Bernardo Cuenca Grau, Evgeny Kharlamov, Egor V. Kostylev, Dmitriy Zheleznyakov" ;
+    swrc:listAuthor "Bernardo Cuenca Grau,Evgeny Kharlamov,Egor V. Kostylev and Dmitriy Zheleznyakov" ;
     swrc:pages "49-64" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180049.pdf> ;
     swrc:year "2013" ;
@@ -8192,7 +8192,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/werner-nutt> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180065.pdf> ;
-    swrc:listAuthor "Fariz Darari, Werner Nutt, Giuseppe Pirrò, Simon Razniewski" ;
+    swrc:listAuthor "Fariz Darari,Werner Nutt,Giuseppe Pirrò and Simon Razniewski" ;
     swrc:pages "65-80" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180065.pdf> ;
     swrc:year "2013" ;
@@ -8213,7 +8213,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/serena-villata> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180145.pdf> ;
-    swrc:listAuthor "Guido Governatori, Antonino Rotolo, Serena Villata, Fabien Gandon" ;
+    swrc:listAuthor "Guido Governatori,Antonino Rotolo,Serena Villata and Fabien Gandon" ;
     swrc:pages "145-160" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180145.pdf> ;
     swrc:year "2013" ;
@@ -8234,7 +8234,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/thanh-tran> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180161.pdf> ;
-    swrc:listAuthor "Daniel M. Herzig, Roi Blanco, Peter Mika, Thanh Tran" ;
+    swrc:listAuthor "Daniel M. Herzig,Roi Blanco,Peter Mika and Thanh Tran" ;
     swrc:pages "161-176" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180161.pdf> ;
     swrc:year "2013" ;
@@ -8255,7 +8255,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/stefan-decker> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180241.pdf> ;
-    swrc:listAuthor "Sabrina Kirrane, Ahmed Abdelrahman, Alessandra Mileo, Stefan Decker" ;
+    swrc:listAuthor "Sabrina Kirrane,Ahmed Abdelrahman,Alessandra Mileo and Stefan Decker" ;
     swrc:pages "241-256" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180241.pdf> ;
     swrc:year "2013" ;
@@ -8276,7 +8276,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/manfred-hauswirth> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180273.pdf> ;
-    swrc:listAuthor "Danh Le Phuoc, Hoan Nguyen Mau Quoc, Chan Le Van, Manfred Hauswirth" ;
+    swrc:listAuthor "Danh Le Phuoc,Hoan Nguyen Mau Quoc,Chan Le Van and Manfred Hauswirth" ;
     swrc:pages "273-288" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180273.pdf> ;
     swrc:year "2013" ;
@@ -8297,7 +8297,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/inanc-seylan> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180305.pdf> ;
-    swrc:listAuthor "Carsten Lutz, Inanc Seylan, David Toman, Frank Wolter" ;
+    swrc:listAuthor "Carsten Lutz,Inanc Seylan,David Toman and Frank Wolter" ;
     swrc:pages "305-320" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180305.pdf> ;
     swrc:year "2013" ;
@@ -8318,7 +8318,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/william-cohen> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180529.pdf> ;
-    swrc:listAuthor "Jay Pujara, Hui Miao, Lise Getoor, William Cohen" ;
+    swrc:listAuthor "Jay Pujara,Hui Miao,Lise Getoor and William Cohen" ;
     swrc:pages "529-544" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180529.pdf> ;
     swrc:year "2013" ;
@@ -8339,7 +8339,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/pedro-szekely> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180593.pdf> ;
-    swrc:listAuthor "Mohsen Taheriyan, Craig Knoblock, Pedro Szekely, José Luis Ambite" ;
+    swrc:listAuthor "Mohsen Taheriyan,Craig Knoblock,Pedro Szekely and José Luis Ambite" ;
     swrc:pages "593-608" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180593.pdf> ;
     swrc:year "2013" ;
@@ -8360,7 +8360,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/xingjian-zhang> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180671.pdf> ;
-    swrc:listAuthor "Xingjian Zhang, Dezhao Song, Sambhawa Priya, Jeff Heflin" ;
+    swrc:listAuthor "Xingjian Zhang,Dezhao Song,Sambhawa Priya and Jeff Heflin" ;
     swrc:pages "671-686" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180671.pdf> ;
     swrc:year "2013" ;
@@ -8381,7 +8381,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/yujiao-zhou> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180703.pdf> ;
-    swrc:listAuthor "Yujiao Zhou, Yavor Nenov, Bernardo Cuenca Grau, Ian Horrocks" ;
+    swrc:listAuthor "Yujiao Zhou,Yavor Nenov,Bernardo Cuenca Grau and Ian Horrocks" ;
     swrc:pages "703-718" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180703.pdf> ;
     swrc:year "2013" ;
@@ -8402,7 +8402,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/roi-blanco> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190033.pdf> ;
-    swrc:listAuthor "Roi Blanco, Berkant Barla Cambazoglu, Peter Mika, Nicolas Torzec" ;
+    swrc:listAuthor "Roi Blanco,Berkant Barla Cambazoglu,Peter Mika and Nicolas Torzec" ;
     swrc:pages "33-48" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190033.pdf> ;
     swrc:year "2013" ;
@@ -8423,7 +8423,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/jose-manuel-gomez-perez> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190081.pdf> ;
-    swrc:listAuthor "José Manuel Gómez-Pérez, Esteban García-Cuesta, Aleix Garrido, José Enrique Ruiz" ;
+    swrc:listAuthor "José Manuel Gómez-Pérez,Esteban García-Cuesta,Aleix Garrido and José Enrique Ruiz" ;
     swrc:pages "81-96" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190081.pdf> ;
     swrc:year "2013" ;
@@ -8444,7 +8444,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/soeren-auer> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190097.pdf> ;
-    swrc:listAuthor "Sebastian Hellmann, Jens Lehmann, Sören Auer, Martin Brümmer" ;
+    swrc:listAuthor "Sebastian Hellmann,Jens Lehmann,Sören Auer and Martin Brümmer" ;
     swrc:pages "97-112" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190097.pdf> ;
     swrc:year "2013" ;
@@ -8465,7 +8465,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/yves-raimond> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190145.pdf> ;
-    swrc:listAuthor "Yves Raimond, Michael Smethurst, Andrew McParland, Christopher Lowis" ;
+    swrc:listAuthor "Yves Raimond,Michael Smethurst,Andrew McParland and Christopher Lowis" ;
     swrc:pages "145-160" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190145.pdf> ;
     swrc:year "2013" ;
@@ -8486,7 +8486,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/tania-tudorache> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190193.pdf> ;
-    swrc:listAuthor "Tania Tudorache, Csongor I Nyulas, Natasha F. Noy, Mark Musen" ;
+    swrc:listAuthor "Tania Tudorache,Csongor I Nyulas,Natasha F. Noy and Mark Musen" ;
     swrc:pages "193-208" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190193.pdf> ;
     swrc:year "2013" ;
@@ -8507,7 +8507,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/ricardo-pietrobon> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190241.pdf> ;
-    swrc:listAuthor "Amrapali Zaveri, Joao Ricardo Nickenig Vissoci, Cinzia Daraio, Ricardo Pietrobon" ;
+    swrc:listAuthor "Amrapali Zaveri,Joao Ricardo Nickenig Vissoci,Cinzia Daraio and Ricardo Pietrobon" ;
     swrc:pages "241-256" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190241.pdf> ;
     swrc:year "2013" ;
@@ -8528,7 +8528,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/pierre-yves-vandenbussche> ;
     swrc:category "Evaluation Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190273.pdf> ;
-    swrc:listAuthor "Carlos Buil-Aranda, Aidan Hogan, Jürgen Umbrich, Pierre-Yves Vandenbussche" ;
+    swrc:listAuthor "Carlos Buil-Aranda,Aidan Hogan,Jürgen Umbrich and Pierre-Yves Vandenbussche" ;
     swrc:pages "273-288" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190273.pdf> ;
     swrc:year "2013" ;
@@ -8549,7 +8549,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/pierre-geneves> ;
     swrc:category "Evaluation Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190401.pdf> ;
-    swrc:listAuthor "Melisachew Wudage Chekol, Jérôme Euzenat, Pierre Genevès, Nabil Layaïda" ;
+    swrc:listAuthor "Melisachew Wudage Chekol,Jérôme Euzenat,Pierre Genevès and Nabil Layaïda" ;
     swrc:pages "401-416" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190401.pdf> ;
     swrc:year "2013" ;
@@ -8837,7 +8837,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/mark-molloy>,
         <http://data.semanticweb.org/person/xiaomin-song> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Jemma Wu, Edmond Breen, Xiaomin Song, Brett Cooke, Mark Molloy" ;
+    swrc:listAuthor "Jemma Wu,Edmond Breen,Xiaomin Song,Brett Cooke and Mark Molloy" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/brett-cooke>,
         <http://data.semanticweb.org/person/edmond-breen>,
@@ -8858,7 +8858,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/rik-van-de-walle>,
         <http://data.semanticweb.org/person/selver-softic> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Laurens De Vocht, Selver Softic, Erik Mannens, Rik Van de Walle, Martin Ebner" ;
+    swrc:listAuthor "Laurens De Vocht,Selver Softic,Erik Mannens,Rik Van de Walle and Martin Ebner" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/erik-mannens>,
         <http://data.semanticweb.org/person/laurens-de-vocht>,
@@ -8879,7 +8879,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/ruben-verborgh>,
         <http://data.semanticweb.org/person/sam-coppens> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Miel Vander Sande, Sam Coppens, Ruben Verborgh, Erik Mannens, Rik Van de Walle" ;
+    swrc:listAuthor "Miel Vander Sande,Sam Coppens,Ruben Verborgh,Erik Mannens and Rik Van de Walle" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/erik-mannens>,
         <http://data.semanticweb.org/person/miel-vander-sande>,
@@ -8900,7 +8900,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/pieter-colpaert>,
         <http://data.semanticweb.org/person/rik-van-de-walle> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Anastasia Dimou, Miel Vander Sande, Pieter Colpaert, Erik Mannens, Rik Van de Walle" ;
+    swrc:listAuthor "Anastasia Dimou,Miel Vander Sande,Pieter Colpaert,Erik Mannens and Rik Van de Walle" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/anastasia-dimou>,
         <http://data.semanticweb.org/person/erik-mannens>,
@@ -8921,7 +8921,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/marco-antonio-casanova>,
         <http://data.semanticweb.org/person/stefan-dietze> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Besnik Fetahu, Stefan Dietze, Bernardo Pereira Nunes, Davide Taibi, Marco Antonio Casanova" ;
+    swrc:listAuthor "Besnik Fetahu,Stefan Dietze,Bernardo Pereira Nunes,Davide Taibi and Marco Antonio Casanova" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/bernardo-pereira-nunes>,
         <http://data.semanticweb.org/person/besnik-fetahu>,
@@ -8942,7 +8942,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/michael-compton>,
         <http://data.semanticweb.org/person/peter-christen> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Charith Perera, Arkady Zaslavsky, Michael Compton, Peter Christen, Dimitrios Georgakopoulos" ;
+    swrc:listAuthor "Charith Perera,Arkady Zaslavsky,Michael Compton,Peter Christen and Dimitrios Georgakopoulos" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/arkady-zaslavsky>,
         <http://data.semanticweb.org/person/charith-perera>,
@@ -8963,7 +8963,7 @@ and a set of heuristics following best practices of OWL ontologies and RDF data 
         <http://data.semanticweb.org/person/srikanta-j-bedathur>,
         <http://data.semanticweb.org/person/stephan-seufert> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Stephan Seufert, Srikanta J. Bedathur, Johannes Hoffart, Andrey Gubichev, Klaus Berberich" ;
+    swrc:listAuthor "Stephan Seufert,Srikanta J. Bedathur,Johannes Hoffart,Andrey Gubichev and Klaus Berberich" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/andrey-gubichev>,
         <http://data.semanticweb.org/person/johannes-hoffart>,
@@ -8988,7 +8988,7 @@ health determinants, causally associated with diabetes mellitus.""" ;
         <http://data.semanticweb.org/person/luke-mondor>,
         <http://data.semanticweb.org/person/maxime-lavigne> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Maxime Lavigne, Arash Shaban-Nejad, Anya Okhmatovskaia, Luke Mondor, David L. Buckeridge" ;
+    swrc:listAuthor "Maxime Lavigne,Arash Shaban-Nejad,Anya Okhmatovskaia,Luke Mondor and David L. Buckeridge" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/anya-okhmatovskaia>,
         <http://data.semanticweb.org/person/arash-shaban-nejad>,
@@ -9009,7 +9009,7 @@ health determinants, causally associated with diabetes mellitus.""" ;
         <http://data.semanticweb.org/person/pascal-hitzler>,
         <http://data.semanticweb.org/person/yingjie-hu> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Grant McKenzie, Krzysztof Janowicz, Yingjie Hu, Kunal Sengupta, Pascal Hitzler" ;
+    swrc:listAuthor "Grant McKenzie,Krzysztof Janowicz,Yingjie Hu,Kunal Sengupta and Pascal Hitzler" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/grant-mckenzie>,
         <http://data.semanticweb.org/person/krzysztof-janowicz>,
@@ -9031,7 +9031,7 @@ Especially, ONTOMS2 supports SPARQL Update queries with an incremental instance 
         <http://data.semanticweb.org/person/myung-jae-park>,
         <http://data.semanticweb.org/person/sangyeon-kim> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Min-Joong Lee, Jong-Ryul Lee, Sangyeon Kim, Myung-Jae Park, Chin-Wan Chung" ;
+    swrc:listAuthor "Min-Joong Lee,Jong-Ryul Lee,Sangyeon Kim,Myung-Jae Park and Chin-Wan Chung" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/chin-wan-chung>,
         <http://data.semanticweb.org/person/jong-ryul-lee>,
@@ -9052,7 +9052,7 @@ Especially, ONTOMS2 supports SPARQL Update queries with an incremental instance 
         <http://data.semanticweb.org/person/manolis-koubarakis>,
         <http://data.semanticweb.org/person/manos-karpathiotakis> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Konstantina Bereta, Charalampos Nikolaou, Manos Karpathiotakis, Kostis Kyzirakos, Manolis Koubarakis" ;
+    swrc:listAuthor "Konstantina Bereta,Charalampos Nikolaou,Manos Karpathiotakis,Kostis Kyzirakos and Manolis Koubarakis" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/charalampos-nikolaou>,
         <http://data.semanticweb.org/person/konstantina-bereta>,
@@ -9073,7 +9073,7 @@ Especially, ONTOMS2 supports SPARQL Update queries with an incremental instance 
         <http://data.semanticweb.org/person/riccardo-rosati> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180097.pdf> ;
-    swrc:listAuthor "Enrico Franconi, Claudio Gutierrez, Alessandro Mosca, Giuseppe Pirrò, Riccardo Rosati" ;
+    swrc:listAuthor "Enrico Franconi,Claudio Gutierrez,Alessandro Mosca,Giuseppe Pirrò and Riccardo Rosati" ;
     swrc:pages "97-112" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180097.pdf> ;
     swrc:year "2013" ;
@@ -9096,7 +9096,7 @@ Especially, ONTOMS2 supports SPARQL Update queries with an incremental instance 
         <http://data.semanticweb.org/person/vs-subrahmanian> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180465.pdf> ;
-    swrc:listAuthor "Michael Ovelgönne, Noseong Park, V.S. Subrahmanian, Elizabeth K. Bowman, Kirk A. Ogaard" ;
+    swrc:listAuthor "Michael Ovelgönne,Noseong Park,V.S. Subrahmanian,Elizabeth K. Bowman and Kirk A. Ogaard" ;
     swrc:pages "465-480" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180465.pdf> ;
     swrc:year "2013" ;
@@ -9119,7 +9119,7 @@ Especially, ONTOMS2 supports SPARQL Update queries with an incremental instance 
         <http://data.semanticweb.org/person/muhammad-saleem> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180561.pdf> ;
-    swrc:listAuthor "Muhammad Saleem, Axel-Cyrille Ngonga Ngomo, Josiane Xavier Parreira, Helena Deus, Manfred Hauswirth" ;
+    swrc:listAuthor "Muhammad Saleem,Axel-Cyrille Ngonga Ngomo,Josiane Xavier Parreira,Helena Deus and Manfred Hauswirth" ;
     swrc:pages "561-576" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180561.pdf> ;
     swrc:year "2013" ;
@@ -9142,7 +9142,7 @@ Especially, ONTOMS2 supports SPARQL Update queries with an incremental instance 
         <http://data.semanticweb.org/person/michael-schuhmacher> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180577.pdf> ;
-    swrc:listAuthor "Heiner Stuckenschmidt, Michael Schuhmacher, Johannes Knopp, Christian Meilicke, Ansgar Scherp" ;
+    swrc:listAuthor "Heiner Stuckenschmidt,Michael Schuhmacher,Johannes Knopp,Christian Meilicke and Ansgar Scherp" ;
     swrc:pages "577-592" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180577.pdf> ;
     swrc:year "2013" ;
@@ -9165,7 +9165,7 @@ Especially, ONTOMS2 supports SPARQL Update queries with an incremental instance 
         <http://data.semanticweb.org/person/philippe-cudre-mauroux> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180625.pdf> ;
-    swrc:listAuthor "Alberto Tonon, Michele Catasta, Gianluca Demartini, Philippe Cudré-Mauroux, Karl Aberer" ;
+    swrc:listAuthor "Alberto Tonon,Michele Catasta,Gianluca Demartini,Philippe Cudré-Mauroux and Karl Aberer" ;
     swrc:pages "625-640" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180625.pdf> ;
     swrc:year "2013" ;
@@ -9188,7 +9188,7 @@ Especially, ONTOMS2 supports SPARQL Update queries with an incremental instance 
         <http://data.semanticweb.org/person/jacopo-urbani> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180641.pdf> ;
-    swrc:listAuthor "Jacopo Urbani, Alessandro Margara, Ceriel Jacobs, Frank Van Harmelen, Henri Bal" ;
+    swrc:listAuthor "Jacopo Urbani,Alessandro Margara,Ceriel Jacobs,Frank Van Harmelen and Henri Bal" ;
     swrc:pages "641-656" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180641.pdf> ;
     swrc:year "2013" ;
@@ -9211,7 +9211,7 @@ Especially, ONTOMS2 supports SPARQL Update queries with an incremental instance 
         <http://data.semanticweb.org/person/ziqi-zhang> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180687.pdf> ;
-    swrc:listAuthor "Ziqi Zhang, Anna Lisa Gentile, Eva Blomqvist, Isabelle Augenstein, Fabio Ciravegna" ;
+    swrc:listAuthor "Ziqi Zhang,Anna Lisa Gentile,Eva Blomqvist,Isabelle Augenstein and Fabio Ciravegna" ;
     swrc:pages "687-702" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180687.pdf> ;
     swrc:year "2013" ;
@@ -9234,7 +9234,7 @@ Especially, ONTOMS2 supports SPARQL Update queries with an incremental instance 
         <http://data.semanticweb.org/person/pierre-chaussecourte> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190049.pdf> ;
-    swrc:listAuthor "Pierre Chaussecourte, Birte Glimm, Ian Horrocks, Boris Motik, Laurent Pierre" ;
+    swrc:listAuthor "Pierre Chaussecourte,Birte Glimm,Ian Horrocks,Boris Motik and Laurent Pierre" ;
     swrc:pages "49-64" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190049.pdf> ;
     swrc:year "2013" ;
@@ -9257,7 +9257,7 @@ Especially, ONTOMS2 supports SPARQL Update queries with an incremental instance 
         <http://data.semanticweb.org/person/yingjie-hu> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190113.pdf> ;
-    swrc:listAuthor "Yingjie Hu, Krzysztof Janowicz, Grant Mckenzie, Kunal Sengupta, Pascal Hitzler" ;
+    swrc:listAuthor "Yingjie Hu,Krzysztof Janowicz,Grant Mckenzie,Kunal Sengupta and Pascal Hitzler" ;
     swrc:pages "113-128" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190113.pdf> ;
     swrc:year "2013" ;
@@ -9280,7 +9280,7 @@ Especially, ONTOMS2 supports SPARQL Update queries with an incremental instance 
         <http://data.semanticweb.org/person/spyros-kotoulas> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190177.pdf> ;
-    swrc:listAuthor "Simone Tallevi-Diotallevi, Spyros Kotoulas, Luca Foschini, Freddy Lecue, Antonio Corradi" ;
+    swrc:listAuthor "Simone Tallevi-Diotallevi,Spyros Kotoulas,Luca Foschini,Freddy Lecue and Antonio Corradi" ;
     swrc:pages "177-192" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190177.pdf> ;
     swrc:year "2013" ;
@@ -9303,7 +9303,7 @@ Especially, ONTOMS2 supports SPARQL Update queries with an incremental instance 
         <http://data.semanticweb.org/person/oscar-corcho> ;
     swrc:category "Evaluation Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190321.pdf> ;
-    swrc:listAuthor "Daniele Dell'Aglio, Jean-Paul Calbimonte, Marco Balduini, Oscar Corcho, Emanuele Della Valle" ;
+    swrc:listAuthor "Daniele Dell'Aglio,Jean-Paul Calbimonte,Marco Balduini,Oscar Corcho and Emanuele Della Valle" ;
     swrc:pages "321-336" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190321.pdf> ;
     swrc:year "2013" ;
@@ -9591,7 +9591,7 @@ ad-hoc environments.""" ;
         <http://data.semanticweb.org/person/philippe-cudre-mauroux>,
         <http://data.semanticweb.org/person/teodor-macicas> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Marat Charlaganov, Philippe Cudré-Mauroux, Christian Dinu, Christophe Guéret, Martin Grund, Teodor Macicas" ;
+    swrc:listAuthor "Marat Charlaganov,Philippe Cudré-Mauroux,Christian Dinu,Christophe Guéret,Martin Grund and Teodor Macicas" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/christian-dinu>,
         <http://data.semanticweb.org/person/christophe-gueret>,
@@ -9614,7 +9614,7 @@ ad-hoc environments.""" ;
         <http://data.semanticweb.org/person/milan-markovic>,
         <http://data.semanticweb.org/person/peter-edwards> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "David Corsar, Peter Edwards, Chris Baillie, Milan Markovic, Konstantinos Papangelis, John Nelson" ;
+    swrc:listAuthor "David Corsar,Peter Edwards,Chris Baillie,Milan Markovic,Konstantinos Papangelis and John Nelson" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/chris-baillie>,
         <http://data.semanticweb.org/person/david-corsar>,
@@ -9638,7 +9638,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/marco-antonio-casanova>,
         <http://data.semanticweb.org/person/stefan-dietze> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Alexander Arturo Mera Caraballo, Bernardo Pereira Nunes, Giseli Rabello Lopes, Luiz André P. Paes Leme, Marco Antonio Casanova, Stefan Dietze" ;
+    swrc:listAuthor "Alexander Arturo Mera Caraballo,Bernardo Pereira Nunes,Giseli Rabello Lopes,Luiz André P. Paes Leme,Marco Antonio Casanova and Stefan Dietze" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/alexander-arturo-mera-caraballo>,
         <http://data.semanticweb.org/person/bernardo-pereira-nunes>,
@@ -9661,7 +9661,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/michael-compton>,
         <http://data.semanticweb.org/person/raj-gaire> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Raj Gaire, Laurent Lefort, Michael Compton, Gregory Falzon, David Lamb, Kerry Taylor" ;
+    swrc:listAuthor "Raj Gaire,Laurent Lefort,Michael Compton,Gregory Falzon,David Lamb and Kerry Taylor" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/david-lamb>,
         <http://data.semanticweb.org/person/gregory-falzon>,
@@ -9684,7 +9684,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/ruben-verborgh>,
         <http://data.semanticweb.org/person/shubham-gupta> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Craig Knoblock, Pedro Szekely, Shubham Gupta, Animesh Manglik, Ruben Verborgh, Fengyu Yang" ;
+    swrc:listAuthor "Craig Knoblock,Pedro Szekely,Shubham Gupta,Animesh Manglik,Ruben Verborgh and Fengyu Yang" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/animesh-manglik>,
         <http://data.semanticweb.org/person/craig-knoblock>,
@@ -9707,7 +9707,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/patrice-seyed>,
         <http://data.semanticweb.org/person/timothy-lebo> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Patrice Seyed, Timothy Lebo, Evan Patton, Katherine Chastain, Brendan Ashby, Deborah McGuinness" ;
+    swrc:listAuthor "Patrice Seyed,Timothy Lebo,Evan Patton,Katherine Chastain,Brendan Ashby and Deborah McGuinness" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/brendan-ashby>,
         <http://data.semanticweb.org/person/deborah-mcguinness>,
@@ -9730,7 +9730,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/ulrike-sattler> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180081.pdf> ;
-    swrc:listAuthor "Chiara Del Vescovo, Pavel Klinov, Bijan Parsia, Ulrike Sattler, Thomas Schneider, Dmitry Tsarkov" ;
+    swrc:listAuthor "Chiara Del Vescovo,Pavel Klinov,Bijan Parsia,Ulrike Sattler,Thomas Schneider and Dmitry Tsarkov" ;
     swrc:pages "81-96" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180081.pdf> ;
     swrc:year "2013" ;
@@ -9755,7 +9755,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/tommaso-soru> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180129.pdf> ;
-    swrc:listAuthor "Daniel Gerber, Sebastian Hellmann, Lorenz Bühmann, Tommaso Soru, Axel-Cyrille Ngonga Ngomo, Ricardo Usbeck" ;
+    swrc:listAuthor "Daniel Gerber,Sebastian Hellmann,Lorenz Bühmann,Tommaso Soru,Axel-Cyrille Ngonga Ngomo and Ricardo Usbeck" ;
     swrc:pages "129-144" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180129.pdf> ;
     swrc:year "2013" ;
@@ -9780,7 +9780,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/tania-tudorache> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180193.pdf> ;
-    swrc:listAuthor "Matthew Horridge, Tania Tudorache, Jennifer Vendetti, Csongor Nyulas, Mark Musen, Natasha F. Noy" ;
+    swrc:listAuthor "Matthew Horridge,Tania Tudorache,Jennifer Vendetti,Csongor Nyulas,Mark Musen and Natasha F. Noy" ;
     swrc:pages "193-208" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180193.pdf> ;
     swrc:year "2013" ;
@@ -9805,7 +9805,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/sebastian-krause> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180337.pdf> ;
-    swrc:listAuthor "Andrea Moro, Hong Li, Sebastian Krause, Feiyu Xu, Roberto Navigli, Hans Uszkoreit" ;
+    swrc:listAuthor "Andrea Moro,Hong Li,Sebastian Krause,Feiyu Xu,Roberto Navigli and Hans Uszkoreit" ;
     swrc:pages "337-352" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180337.pdf> ;
     swrc:year "2013" ;
@@ -9830,7 +9830,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/trish-whetzel> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180433.pdf> ;
-    swrc:listAuthor "Natasha F. Noy, Paul Alexander, Rave Harpaz, Trish Whetzel, Raymond Fergerson, Mark Musen" ;
+    swrc:listAuthor "Natasha F. Noy,Paul Alexander,Rave Harpaz,Trish Whetzel,Raymond Fergerson and Mark Musen" ;
     swrc:pages "433-448" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180433.pdf> ;
     swrc:year "2013" ;
@@ -9855,7 +9855,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/isabel-cruz> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180513.pdf> ;
-    swrc:listAuthor "Catia Pesquita, Cosmin Stroe, Daniel Faria, Emanuel Santos, Isabel Cruz, Francisco Couto" ;
+    swrc:listAuthor "Catia Pesquita,Cosmin Stroe,Daniel Faria,Emanuel Santos,Isabel Cruz and Francisco Couto" ;
     swrc:pages "513-528" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180513.pdf> ;
     swrc:year "2013" ;
@@ -9880,7 +9880,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/themis-palpanas> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190001.pdf> ;
-    swrc:listAuthor "Marco Balduini, Emanuele Della Valle, Daniele Dell'Aglio, Themis Palpanas, Mikalai Tsytsarau, Cristian Confalonieri" ;
+    swrc:listAuthor "Marco Balduini,Emanuele Della Valle,Daniele Dell'Aglio,Themis Palpanas,Mikalai Tsytsarau and Cristian Confalonieri" ;
     swrc:pages "1-16" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190001.pdf> ;
     swrc:year "2013" ;
@@ -9905,7 +9905,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/robert-meusel> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190017.pdf> ;
-    swrc:listAuthor "Christian Bizer, Kai Eckert, Robert Meusel, Hannes Mühleisen, Michael Schuhmacher, Johanna Völker" ;
+    swrc:listAuthor "Christian Bizer,Kai Eckert,Robert Meusel,Hannes Mühleisen,Michael Schuhmacher and Johanna Völker" ;
     swrc:pages "17-32" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190017.pdf> ;
     swrc:year "2013" ;
@@ -9930,7 +9930,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/soeren-auer> ;
     swrc:category "Evaluation Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190257.pdf> ;
-    swrc:listAuthor "Maribel Acosta, Amrapali Zaveri, Elena Simperl, Dimitris Kontokostas, Sören Auer, Jens Lehmann" ;
+    swrc:listAuthor "Maribel Acosta,Amrapali Zaveri,Elena Simperl,Dimitris Kontokostas,Sören Auer and Jens Lehmann" ;
     swrc:pages "257-272" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190257.pdf> ;
     swrc:year "2013" ;
@@ -10299,7 +10299,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/sara-magliacane>,
         <http://data.semanticweb.org/person/tom-de-nies> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Tom De Nies, Sara Magliacane, Ruben Verborgh, Sam Coppens, Paul Groth, Erik Mannens, Rik Van de Walle" ;
+    swrc:listAuthor "Tom De Nies,Sara Magliacane,Ruben Verborgh,Sam Coppens,Paul Groth,Erik Mannens and Rik Van de Walle" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/erik-mannens>,
         <http://data.semanticweb.org/person/paul-groth>,
@@ -10324,7 +10324,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/vladimir-nevzorov> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180369.pdf> ;
-    swrc:listAuthor "Olga Nevzorova, Nikita Zhiltsov, Danila Zaikin, Olga Zhibrik, Alexander Kirillovich, Vladimir Nevzorov, Evgeniy Birialtsev" ;
+    swrc:listAuthor "Olga Nevzorova,Nikita Zhiltsov,Danila Zaikin,Olga Zhibrik,Alexander Kirillovich,Vladimir Nevzorov and Evgeniy Birialtsev" ;
     swrc:pages "369-384" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180369.pdf> ;
     swrc:year "2013" ;
@@ -10351,7 +10351,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/zhichun-wang> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180657.pdf> ;
-    swrc:listAuthor "Mengling Xu, Zhichun Wang, Rongfang Bie, Juanzi Li, Chen Zheng, Wantian Ke, Mingquan Zhou" ;
+    swrc:listAuthor "Mengling Xu,Zhichun Wang,Rongfang Bie,Juanzi Li,Chen Zheng,Wantian Ke and Mingquan Zhou" ;
     swrc:pages "657-670" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180657.pdf> ;
     swrc:year "2013" ;
@@ -10378,7 +10378,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/wolfgang-mueller> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190209.pdf> ;
-    swrc:listAuthor "Katherine Wolstencroft, Stuart Owen, Olga Krebs, Quyen Ngyuen, Jacky. L. Snoep, Wolfgang Mueller, Carole Goble" ;
+    swrc:listAuthor "Katherine Wolstencroft,Stuart Owen,Olga Krebs,Quyen Ngyuen,Jacky. L. Snoep,Wolfgang Mueller and Carole Goble" ;
     swrc:pages "209-224" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190209.pdf> ;
     swrc:year "2013" ;
@@ -10590,7 +10590,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/sara-tonelli>,
         <http://data.semanticweb.org/person/willem-robert-van-hage> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Marieke Van Erp, Antske Fokkens, Piek Vossen, Sara Tonelli, Willem Robert Van Hage, Luciano Serafini, Rachele Sprugnoli, Jesper Hoeksema" ;
+    swrc:listAuthor "Marieke Van Erp,Antske Fokkens,Piek Vossen,Sara Tonelli,Willem Robert Van Hage,Luciano Serafini,Rachele Sprugnoli and Jesper Hoeksema" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/antske-fokkens>,
         <http://data.semanticweb.org/person/jesper-hoeksema>,
@@ -10617,7 +10617,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/maria-esther-vidal>,
         <http://data.semanticweb.org/person/valeria-pestana> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Alejandro Flores, Guillermo Palma, Maria-Esther Vidal, Domingo De Abreu, Valeria Pestana, Jose Pinero, Jonathan Queipo, Jose Sanchez" ;
+    swrc:listAuthor "Alejandro Flores,Guillermo Palma,Maria-Esther Vidal,Domingo De Abreu,Valeria Pestana,Jose Pinero,Jonathan Queipo and Jose Sanchez" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/alejandro-flores>,
         <http://data.semanticweb.org/person/domingo-de-abreu>,
@@ -10764,7 +10764,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/zhichun-wang>,
         <http://data.semanticweb.org/person/zhigang-wang> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Zhigang Wang, Juanzi Li, Zhichun Wang, Shuangjie Li, Mingyang Li, Dongsheng Zhang, Yao Shi, Yongbin Liu, Jie Tang" ;
+    swrc:listAuthor "Zhigang Wang,Juanzi Li,Zhichun Wang,Shuangjie Li,Mingyang Li,Dongsheng Zhang,Yao Shi,Yongbin Liu and Jie Tang" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/dongsheng-zhang>,
         <http://data.semanticweb.org/person/jie-tang>,
@@ -10967,7 +10967,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/sever-fundatureanu> ;
     swrc:category "Evaluation Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190305.pdf> ;
-    swrc:listAuthor "Philippe Cudré-Mauroux, Iliya Enchev, Sever Fundatureanu, Paul Groth, Albert Haque, Andreas Harth, Felix Leif Keppmann, Daniel Miranker, Juan Sequeda, Marcin Wylot" ;
+    swrc:listAuthor "Philippe Cudré-Mauroux,Iliya Enchev,Sever Fundatureanu,Paul Groth,Albert Haque,Andreas Harth,Felix Leif Keppmann,Daniel Miranker,Juan Sequeda and Marcin Wylot" ;
     swrc:pages "305-320" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190305.pdf> ;
     swrc:year "2013" ;
@@ -11122,7 +11122,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/yrjana-rankka> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190065.pdf> ;
-    swrc:listAuthor "Carole Goble, Alasdair J. G. Gray, Lee Harland, Karen Karapetyan, Antonis Loizou, Ivan Mikhailov, Yrjana Rankka, Stefan Senger, Valery Tkachenko, Antony Williams, Egon Willighagen" ;
+    swrc:listAuthor "Carole Goble,Alasdair J. G. Gray,Lee Harland,Karen Karapetyan,Antonis Loizou,Ivan Mikhailov,Yrjana Rankka,Stefan Senger,Valery Tkachenko,Antony Williams and Egon Willighagen" ;
     swrc:pages "65-80" ;
     swrc:url <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190065.pdf> ;
     swrc:year "2013" ;
@@ -11447,7 +11447,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/veli-bicer>,
         <http://data.semanticweb.org/person/wei-jia-shen> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Spyros Kotoulas, Vanessa Lopez, Martin Stephenson, Pierpaolo Tommasi, Wei Jia Shen, Gang Hu, Marco Luca Sbodio, Veli Bicer, Anastasios Kementsietsidis, M. Mustafa Rafique, Jason Ellis, Thomas Erickson, Kavitha Srinivas, Kevin McAuliffe, Guo Tong Xie, Pol Mac Aonghusa" ;
+    swrc:listAuthor "Spyros Kotoulas,Vanessa Lopez,Martin Stephenson,Pierpaolo Tommasi,Wei Jia Shen,Gang Hu,Marco Luca Sbodio,Veli Bicer,Anastasios Kementsietsidis,M. Mustafa Rafique,Jason Ellis,Thomas Erickson,Kavitha Srinivas,Kevin McAuliffe,Guo Tong Xie and Pol Mac Aonghusa" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/anastasios-kementsietsidis>,
         <http://data.semanticweb.org/person/gang-hu>,
@@ -11527,7 +11527,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/sarunas-marciuska>,
         <http://data.semanticweb.org/person/timea-bagosi> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Evgeny Kharlamov, Martin Giese, Ernesto Jimenez-Ruiz, Martin G. Skjaeveland, Ahmet Soylu, Dmitriy Zheleznyakov, Timea Bagosi, Marco Console, Peter Haase, Ian Horrocks, Sarunas Marciuska, Christoph Pinkel, Mariano Rodriguez-Muro, Marco Ruzzi, Kunal Sengupta, Michael Schmidt, Evgenij Thorstensen, Johannes Trame, Arild Waaler" ;
+    swrc:listAuthor "Evgeny Kharlamov,Martin Giese,Ernesto Jimenez-Ruiz,Martin G. Skjaeveland,Ahmet Soylu,Dmitriy Zheleznyakov,Timea Bagosi,Marco Console,Peter Haase,Ian Horrocks,Sarunas Marciuska,Christoph Pinkel,Mariano Rodriguez-Muro,Marco Ruzzi,Kunal Sengupta,Michael Schmidt,Evgenij Thorstensen,Johannes Trame and Arild Waaler" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/ahmet-soylu>,
         <http://data.semanticweb.org/person/arild-waaler>,
@@ -11722,9 +11722,9 @@ tripleset repository.""" ;
 
 <http://data.semanticweb.org/conference/iswc/2013> a swc:ConferenceEvent ;
     rdfs:label "The 12th International Semantic Web Conference" ;
-    swc:acronym "ISWC2013" ;
     swc:address "Sydney, Australia" ;
     swc:completeGraph <http://data.semanticweb.org/conference/iswc/2013/complete> ;
+    swc:hasAcronym "ISWC2013" ;
     swc:hasLocation "Sydney, Australia" ;
     swc:hasRole <http://data.semanticweb.org/conference/iswc/2013/doctoral-consortium-chair>,
         <http://data.semanticweb.org/conference/iswc/2013/doctoral-consortium-sponsor>,
