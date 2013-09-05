@@ -7,6 +7,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -414,7 +415,7 @@
     rdf:_3 <http://data.semanticweb.org/person/varun-ratnakar> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-70/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/jorge-perez-0001> ;
+    rdf:_1 <http://data.semanticweb.org/person/jorge-perez> ;
     rdf:_2 <http://data.semanticweb.org/person/marcelo-arenas> ;
     rdf:_3 <http://data.semanticweb.org/person/claudio-gutierrez> .
 
@@ -1501,10 +1502,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-02> ;
     foaf:name "Jon Lathem" .
 
-<http://data.semanticweb.org/person/jorge-perez-0001> a foaf:Person ;
-    rdfs:label "Jorge Pérez 0001" ;
+<http://data.semanticweb.org/person/jorge-perez> a foaf:Person ;
+    rdfs:label "Jorge Pérez" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-70> ;
-    foaf:name "Jorge Pérez 0001" .
+    foaf:name "Jorge Pérez" .
 
 <http://data.semanticweb.org/person/jos-taekema> a foaf:Person ;
     rdfs:label "Jos Taekema" ;
@@ -2903,18 +2904,18 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-70/author_list> ;
     swrc:abstract "SPARQL is the W3C candidate recommendation query language for RDF. In this paper we address systematically the formal study of SPARQL, concentrating in its graph pattern facility. We consider for this study a fragment without literals and a simple version of filters which encompasses all the main issues yet is simple to formalize. We provide a compositional semantics, prove there are normal forms, prove complexity bounds, among others that the evaluation of SPARQL patterns is PSPACE-complete, compare our semantics to an alternative operational semantics, give simple and natural conditions when both semantics coincide and discuss optimizations procedures." ;
     swrc:author <http://data.semanticweb.org/person/claudio-gutierrez>,
-        <http://data.semanticweb.org/person/jorge-perez-0001>,
+        <http://data.semanticweb.org/person/jorge-perez>,
         <http://data.semanticweb.org/person/marcelo-arenas> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2006.semanticweb.org/items/Arenas2006bv.pdf> ;
     swrc:link_publisher <http://dx.doi.org/10.1007/11926078_3> ;
-    swrc:listAuthor "Jorge Pérez 0001,Marcelo Arenas and Claudio Gutierrez" ;
+    swrc:listAuthor "Jorge Pérez,Marcelo Arenas and Claudio Gutierrez" ;
     swrc:pages "30-43" ;
     swrc:url <http://dx.doi.org/10.1007/11926078_3>,
         <http://iswc2006.semanticweb.org/items/Arenas2006bv.pdf> ;
     swrc:year "2006" ;
     foaf:maker <http://data.semanticweb.org/person/claudio-gutierrez>,
-        <http://data.semanticweb.org/person/jorge-perez-0001>,
+        <http://data.semanticweb.org/person/jorge-perez>,
         <http://data.semanticweb.org/person/marcelo-arenas> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-84> a swrc:InProceedings ;

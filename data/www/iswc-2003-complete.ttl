@@ -7,6 +7,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -21,7 +22,7 @@
 <http://data.semanticweb.org/conference/iswc/2003/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2013 (2013-08-06)" ;
-    dcterms:modified "2013-08-27T23:40:38.147980"^^xsd:datetime ;
+    dcterms:modified "2013-09-05T10:43:16.857527"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2003/event-01> a swc:SpecialEvent ;
@@ -793,13 +794,6 @@
     ical:dtstart "2003-10-21T19:30:00"^^xsd:dateTime ;
     ical:tzid "America/New_York" .
 
-<http://data.semanticweb.org/organization/advanced-knowledge-technologies-akt> a foaf:Organization ;
-    rdfs:label "Advanced Knowledge Technologies (AKT)" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/sliver-sponsor> ;
-    foaf:homepage <http://www.aktors.org/> ;
-    foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ab/2003/iswc2003.semanticweb.org/AKT-300Pixels.jpg> ;
-    foaf:name "Advanced Knowledge Technologies (AKT)" .
-
 <http://data.semanticweb.org/organization/agfa-gevaert> a foaf:Organization ;
     rdfs:label "Agfa-Gevaert" ;
     owl:sameAs <http://dbpedia.org/resource/Agfa-Gevaert> ;
@@ -811,16 +805,18 @@
     foaf:member <http://data.semanticweb.org/person/jeen-broekstra> ;
     foaf:name "Aidministrator" .
 
+<http://data.semanticweb.org/organization/akt> a foaf:Organization ;
+    rdfs:label "AKT" ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/sliver-sponsor> ;
+    foaf:homepage <http://www.aktors.org/> ;
+    foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ab/2003/iswc2003.semanticweb.org/AKT-300Pixels.jpg> ;
+    foaf:name "AKT" .
+
 <http://data.semanticweb.org/organization/arizona-state-university> a foaf:Organization ;
     rdfs:label "Arizona State University" ;
     owl:sameAs <http://dbpedia.org/resource/Arizona_State_University> ;
     foaf:member <http://data.semanticweb.org/person/raphael-malyankar> ;
     foaf:name "Arizona State University" .
-
-<http://data.semanticweb.org/organization/bell-laboratories-and-temple-university> a foaf:Organization ;
-    rdfs:label "Bell Laboratories and Temple University" ;
-    foaf:member <http://data.semanticweb.org/person/wenfei-fan> ;
-    foaf:name "Bell Laboratories and Temple University" .
 
 <http://data.semanticweb.org/organization/bell-labs> a foaf:Organization ;
     rdfs:label "Bell Labs" ;
@@ -834,6 +830,12 @@
     foaf:member <http://data.semanticweb.org/person/david-embley> ;
     foaf:name "Brigham Young University" .
 
+<http://data.semanticweb.org/organization/ca-foscari-university-of-venice> a foaf:Organization ;
+    rdfs:label "Ca' Foscari University of Venice" ;
+    owl:sameAs <http://dbpedia.org/resource/Ca'_Foscari_University_of_Venice> ;
+    foaf:member <http://data.semanticweb.org/person/massimo-marchiori> ;
+    foaf:name "Ca' Foscari University of Venice" .
+
 <http://data.semanticweb.org/organization/cnr> a foaf:Organization ;
     rdfs:label "CNR" ;
     owl:sameAs <http://en.wikipedia.org/wiki/Consiglio_Nazionale_delle_Ricerche> ;
@@ -846,24 +848,13 @@
     foaf:member <http://data.semanticweb.org/person/claude-vogel> ;
     foaf:name "Convera Corporation" .
 
-<http://data.semanticweb.org/organization/department-of-public-administration-at-the-university-of-illinois-at-chicago> a foaf:Organization ;
-    rdfs:label "Department of Public Administration at the University of Illinois at Chicago" ;
-    foaf:member <http://data.semanticweb.org/person/isabel-cruz> ;
-    foaf:name "Department of Public Administration at the University of Illinois at Chicago" .
-
-<http://data.semanticweb.org/organization/deri,-galway> a foaf:Organization ;
+<http://data.semanticweb.org/organization/deri-galway> a foaf:Organization ;
     rdfs:label "DERI, Galway" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/platinum-sponsor> ;
     owl:sameAs <http://dbpedia.org/resource/Digital_Enterprise_Research_Institute> ;
     foaf:homepage <http://www.deri.ie/> ;
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ab/2003/iswc2003.semanticweb.org/deri.jpg> ;
     foaf:name "DERI, Galway" .
-
-<http://data.semanticweb.org/organization/ecole-polytechnique-federale-de-lausanne> a foaf:Organization ;
-    rdfs:label "École Polytechnique Fédérale de Lausanne" ;
-    owl:sameAs <http://dbpedia.org/resource/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne> ;
-    foaf:member <http://data.semanticweb.org/person/karl-aberer> ;
-    foaf:name "École Polytechnique Fédérale de Lausanne" .
 
 <http://data.semanticweb.org/organization/elsevier> a foaf:Organization ;
     rdfs:label "Elsevier" ;
@@ -884,6 +875,12 @@
     foaf:homepage <http://www.enigmatec.com/> ;
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ab/2003/iswc2003.semanticweb.org/Enigmatec_Logo.gif> ;
     foaf:name "Enigmatec" .
+
+<http://data.semanticweb.org/organization/epfl> a foaf:Organization ;
+    rdfs:label "EPFL" ;
+    owl:sameAs <http://dbpedia.org/resource/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne> ;
+    foaf:member <http://data.semanticweb.org/person/karl-aberer> ;
+    foaf:name "EPFL" .
 
 <http://data.semanticweb.org/organization/esperonto> a foaf:Organization ;
     rdfs:label "Esperonto" ;
@@ -909,10 +906,11 @@
     foaf:member <http://data.semanticweb.org/person/andreas-becks> ;
     foaf:name "Fraunhofer Institute" .
 
-<http://data.semanticweb.org/organization/fzi,-university-of-karlsruhe> a foaf:Organization ;
-    rdfs:label "FZI, University of Karlsruhe" ;
+<http://data.semanticweb.org/organization/fzi-forschungszentruminformatik> a foaf:Organization ;
+    rdfs:label "FZI Forschungszentrum_Informatik" ;
+    owl:sameAs <http://dbpedia.org/resource/Forschungszentrum_Informatik> ;
     foaf:member <http://data.semanticweb.org/person/boris-motik> ;
-    foaf:name "FZI, University of Karlsruhe" .
+    foaf:name "FZI Forschungszentrum_Informatik" .
 
 <http://data.semanticweb.org/organization/georgia-institute-of-technology> a foaf:Organization ;
     rdfs:label "Georgia Institute of Technology" ;
@@ -971,16 +969,16 @@
     foaf:member <http://data.semanticweb.org/person/loris-penserini> ;
     foaf:name "Marche Polytechnic University" .
 
+<http://data.semanticweb.org/organization/massachusetts-institute-of-technology> a foaf:Organization ;
+    rdfs:label "Massachusetts Institute of Technology" ;
+    owl:sameAs <http://dbpedia.org/resource/Massachusetts_Institute_of_Technology> ;
+    foaf:member <http://data.semanticweb.org/person/benjamin-grosof> ;
+    foaf:name "Massachusetts Institute of Technology" .
+
 <http://data.semanticweb.org/organization/mig-inra> a foaf:Organization ;
     rdfs:label "MIG-INRA" ;
     foaf:member <http://data.semanticweb.org/person/claire-nedellec> ;
     foaf:name "MIG-INRA" .
-
-<http://data.semanticweb.org/organization/mit> a foaf:Organization ;
-    rdfs:label "MIT" ;
-    owl:sameAs <http://dbpedia.org/resource/Massachusetts_Institute_of_Technology> ;
-    foaf:member <http://data.semanticweb.org/person/benjamin-grosof> ;
-    foaf:name "MIT" .
 
 <http://data.semanticweb.org/organization/mondeca> a foaf:Organization ;
     rdfs:label "Mondeca" ;
@@ -995,6 +993,12 @@
     owl:sameAs <http://dbpedia.org/resource/NASA> ;
     foaf:member <http://data.semanticweb.org/person/walt-truszkowski> ;
     foaf:name "NASA" .
+
+<http://data.semanticweb.org/organization/nasa-ames-research-center> a foaf:Organization ;
+    rdfs:label "NASA Ames Research Center" ;
+    owl:sameAs <http://dbpedia.org/resource/Ames_Research_Center> ;
+    foaf:member <http://data.semanticweb.org/person/naveen-ashish> ;
+    foaf:name "NASA Ames Research Center" .
 
 <http://data.semanticweb.org/organization/national-institute-of-informatics> a foaf:Organization ;
     rdfs:label "National Institute of Informatics" ;
@@ -1072,11 +1076,10 @@
     foaf:member <http://data.semanticweb.org/person/riichiro-mizoguchi> ;
     foaf:name "Osaka University" .
 
-<http://data.semanticweb.org/organization/philips> a foaf:Organization ;
-    rdfs:label "Philips" ;
-    owl:sameAs <http://dbpedia.org/resource/Philips> ;
+<http://data.semanticweb.org/organization/philips-research> a foaf:Organization ;
+    rdfs:label "Philips Research" ;
     foaf:member <http://data.semanticweb.org/person/herman-ter-horst> ;
-    foaf:name "Philips" .
+    foaf:name "Philips Research" .
 
 <http://data.semanticweb.org/organization/politecnico-di-milano> a foaf:Organization ;
     rdfs:label "Politecnico di Milano" ;
@@ -1127,7 +1130,7 @@
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ab/2003/iswc2003.semanticweb.org/logo_swws.gif> ;
     foaf:name "Semantic Web Enabled Web Services" .
 
-<http://data.semanticweb.org/organization/sirma-ai,-ltd> a foaf:Organization ;
+<http://data.semanticweb.org/organization/sirma-ai-ltd> a foaf:Organization ;
     rdfs:label "Sirma AI, Ltd." ;
     foaf:member <http://data.semanticweb.org/person/atanas-kiryakov> ;
     foaf:name "Sirma AI, Ltd." .
@@ -1176,19 +1179,19 @@
     foaf:member <http://data.semanticweb.org/person/jeremy-frumkin> ;
     foaf:name "University of Arizona" .
 
-<http://data.semanticweb.org/organization/university-of-california,-irvine> a foaf:Organization ;
+<http://data.semanticweb.org/organization/university-of-california-irvine> a foaf:Organization ;
     rdfs:label "University of California, Irvine" ;
     owl:sameAs <http://dbpedia.org/resource/University_of_California,_Irvine> ;
     foaf:member <http://data.semanticweb.org/person/chen-li> ;
     foaf:name "University of California, Irvine" .
 
-<http://data.semanticweb.org/organization/university-of-california,-los-angeles> a foaf:Organization ;
+<http://data.semanticweb.org/organization/university-of-california-los-angeles> a foaf:Organization ;
     rdfs:label "University of California, Los Angeles" ;
     owl:sameAs <http://dbpedia.org/resource/University_of_California,_Los_Angeles> ;
     foaf:member <http://data.semanticweb.org/person/carlo-zaniolo> ;
     foaf:name "University of California, Los Angeles" .
 
-<http://data.semanticweb.org/organization/university-of-california,-san-diego> a foaf:Organization ;
+<http://data.semanticweb.org/organization/university-of-california-san-diego> a foaf:Organization ;
     rdfs:label "University of California, San Diego" ;
     owl:sameAs <http://dbpedia.org/resource/University_of_California,_San_Diego> ;
     foaf:member <http://data.semanticweb.org/person/bertram-ludaescher> ;
@@ -1289,40 +1292,46 @@
     foaf:member <http://data.semanticweb.org/person/gerti-kappel> ;
     foaf:name "Vienna University of Technology" .
 
+<http://data.semanticweb.org/organization/villanova-university> a foaf:Organization ;
+    rdfs:label "Villanova University" ;
+    foaf:member <http://data.semanticweb.org/person/wenfei-fan> ;
+    foaf:name "Villanova University" .
+
 <http://data.semanticweb.org/organization/vrije-universiteit-brussel> a foaf:Organization ;
     rdfs:label "Vrije Universiteit Brussel" ;
     owl:sameAs <http://dbpedia.org/resource/Vrije_Universiteit_Brussel> ;
     foaf:member <http://data.semanticweb.org/person/robert-meersman> ;
     foaf:name "Vrije Universiteit Brussel" .
 
-<http://data.semanticweb.org/organization/w3c-and-university-of-venice> a foaf:Organization ;
-    rdfs:label "W3C and University of Venice" ;
+<http://data.semanticweb.org/organization/w3c> a foaf:Organization ;
+    rdfs:label "W3C" ;
+    owl:sameAs <http://dbpedia.org/resource/World_Wide_Web_Consortium> ;
     foaf:member <http://data.semanticweb.org/person/massimo-marchiori> ;
-    foaf:name "W3C and University of Venice" .
+    foaf:name "W3C" .
 
 <http://data.semanticweb.org/person/anhai-doan> a foaf:Person ;
     rdfs:label "AnHai Doan" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-03/chair> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-03/workshop-chair> ;
     foaf:name "AnHai Doan" .
 
 <http://data.semanticweb.org/person/gerd-wagner> a foaf:Person ;
     rdfs:label "Gerd Wagner" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-06/chair> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-06/workshop-chair> ;
     foaf:name "Gerd Wagner" .
 
 <http://data.semanticweb.org/person/hamish-cunningham> a foaf:Person ;
     rdfs:label "Hamish Cunningham" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-05/chair> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-05/workshop-chair> ;
     foaf:name "Hamish Cunningham" .
 
 <http://data.semanticweb.org/person/holger-knublauch> a foaf:Person ;
     rdfs:label "Holger Knublauch" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/tutorial-4/organizer> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/tutorial-4/tutorial-organizer> ;
     foaf:name "Holger Knublauch" .
 
 <http://data.semanticweb.org/person/holger-wache> a foaf:Person ;
     rdfs:label "Holger Wache" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/tutorial-1/organizer> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/tutorial-1/tutorial-organizer> ;
     foaf:name "Holger Wache" .
 
 <http://data.semanticweb.org/person/jim-hendler> a foaf:Person ;
@@ -1338,7 +1347,7 @@
 
 <http://data.semanticweb.org/person/michael-schroeder> a foaf:Person ;
     rdfs:label "Michael Schroeder" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-06/chair> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-06/workshop-chair> ;
     foaf:name "Michael Schroeder" .
 
 <http://data.semanticweb.org/person/mike-brodie> a foaf:Person ;
@@ -1354,7 +1363,7 @@
 
 <http://data.semanticweb.org/person/ubbo-visser> a foaf:Person ;
     rdfs:label "Ubbo Visser" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/tutorial-1/organizer> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/tutorial-1/tutorial-organizer> ;
     foaf:name "Ubbo Visser" .
 
 <http://data.semanticweb.org/conference/iswc/2003/demonstration-chair> a swc:Chair ;
@@ -1364,7 +1373,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2003/event-02> a swc:WorkshopEvent ;
     rdfs:label "Practical and ScalableSemantic Systems" ;
-    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/event-02/chair> ;
+    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/event-02/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2003> ;
     swrc:link_document <http://km.aifb.kit.edu/ws/psss03/proceedings/> ;
     swrc:url <http://km.aifb.kit.edu/ws/psss03/proceedings/> ;
@@ -1375,7 +1384,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2003/event-03> a swc:WorkshopEvent ;
     rdfs:label "Semantic Integration" ;
-    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/event-03/chair> ;
+    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/event-03/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2003> ;
     swrc:link_document <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ab/2003/iswc2003.semanticweb.org/pdf/SI2003-Proceedings.pdf> ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ab/2003/iswc2003.semanticweb.org/pdf/SI2003-Proceedings.pdf> ;
@@ -1386,7 +1395,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2003/event-04> a swc:WorkshopEvent ;
     rdfs:label "Semantic Web Technologies" ;
-    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/event-04/chair> ;
+    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/event-04/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2003> ;
     ical:dtend "2003-10-20T13:15:00"^^xsd:dateTime ;
     ical:dtstart "2003-10-20T09:15:00"^^xsd:dateTime ;
@@ -1395,7 +1404,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2003/event-05> a swc:WorkshopEvent ;
     rdfs:label "Human Language Technology for the Semantic Web and Web Services" ;
-    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/event-05/chair> ;
+    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/event-05/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2003> ;
     ical:dtend "2003-10-20T18:00:00"^^xsd:dateTime ;
     ical:dtstart "2003-10-20T09:15:00"^^xsd:dateTime ;
@@ -1404,7 +1413,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2003/event-06> a swc:WorkshopEvent ;
     rdfs:label "Rules and Rule Mark Up Languages for the Semantic Web" ;
-    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/event-06/chair> ;
+    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/event-06/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2003> ;
     ical:dtend "2003-10-20T18:00:00"^^xsd:dateTime ;
     ical:dtstart "2003-10-20T09:15:00"^^xsd:dateTime ;
@@ -1413,7 +1422,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2003/event-07> a swc:WorkshopEvent ;
     rdfs:label "Evaluation of Ontology-based Tools" ;
-    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/event-07/chair> ;
+    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/event-07/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2003> ;
     ical:dtend "2003-10-20T18:00:00"^^xsd:dateTime ;
     ical:dtstart "2003-10-20T09:15:00"^^xsd:dateTime ;
@@ -2049,7 +2058,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2003/tutorial-1> a swc:TutorialEvent ;
     rdfs:label "Information Integration on the World Wide Web" ;
-    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/tutorial-1/organizer> ;
+    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/tutorial-1/tutorial-organizer> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2003/track/tutorial> ;
     swrc:abstract "The overall goal of the tutorial is to discuss the relation between existing research in the area of intelligent information integration and new requirements and technologies that arise from the area of semantic web research. We would like to emphasize the importance of information integration on the World Wide Web in the context of providing intelligent access to heterogeneous and distributed information sources and intelligent services. We will provide an overview of existing solutions to the problem of information integration and extract common features in terms of architecture and technologies use in order to give potential attendees an impression of how successful approaches look like. Furthermore, we would like to stress how these common features relate to semantic web architecture and technology, revealing similarities and differences. Based on this comparison we discuss prospects and challenges for semantic web research in order to stimulate research in this area." ;
     ical:dtend "2003-10-20T13:15:00"^^xsd:dateTime ;
@@ -2059,7 +2068,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2003/tutorial-2> a swc:TutorialEvent ;
     rdfs:label "Agent-mediated web/grid services" ;
-    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/tutorial-2/organizer> ;
+    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/tutorial-2/tutorial-organizer> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2003/track/tutorial> ;
     swrc:abstract "This tutorial brings together theories, challenges, issues, languages and tools from the Semantic Web, Web Services, the Computational Grid and Agent Technology.  In addition, it will present challenges and issues of how Agent Technology can best serve human users in the area of Web Services.  We will present the current state of the art in Web-Based Services and sort through the increasing array of relevant tools, languages and theories both from academia and industry.  The tutorial will contain many examples to illustrate the described concepts, tools and their use." ;
     ical:dtend "2003-10-20T18:00:00"^^xsd:dateTime ;
@@ -2069,7 +2078,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2003/tutorial-3> a swc:TutorialEvent ;
     rdfs:label "Tutorial on OWL" ;
-    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/tutorial-3/organizer> ;
+    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/tutorial-3/tutorial-organizer> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2003/track/tutorial> ;
     swrc:abstract "The goal of the tutorial will be to provide an introduction and a working knowledge of OWL, including the history and background of OWL, the formal underpinnings of OWL, and pragmatic issues related to OWL. The tutorial will also address the building and use of OWL ontologies along with a demonstration of the use of a reasoner with an OWL ontology." ;
     ical:dtend "2003-10-20T13:15:00"^^xsd:dateTime ;
@@ -2079,7 +2088,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2003/tutorial-4> a swc:TutorialEvent ;
     rdfs:label "Creating Ontologies and Semantic Web Applications with Protégé" ;
-    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/tutorial-4/organizer> ;
+    swc:hasRole <http://data.semanticweb.org/conference/iswc/2003/tutorial-4/tutorial-organizer> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2003/track/tutorial> ;
     swrc:abstract "The major goal of this tutorial is to provide the attendees with both the theoretical foundations of ontology design and hands-on experience in the construction of ontologies and semantic web contents with Protégé.  In particular, the attendees will learn the basic principles and application domains of ontologies based on declarative knowledge representation systems, especially the semantic web language OWL.  They will get hands-on experience with ontology development using Protégé, including its recent extensions such as OWL expression editors and classifiers." ;
     swrc:link_document <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ab/2003/iswc2003.semanticweb.org/pdf/Protege-OWL-Tutorial-ISWC03.pdf> ;
@@ -2094,19 +2103,12 @@
     swc:heldBy <http://data.semanticweb.org/person/asuncion-gomez-perez> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2003> .
 
-<http://data.semanticweb.org/organization/bbn> a foaf:Organization ;
-    rdfs:label "BBN" ;
-    owl:sameAs <http://dbpedia.org/resource/BBN> ;
+<http://data.semanticweb.org/organization/bbn-technologies> a foaf:Organization ;
+    rdfs:label "BBN Technologies" ;
+    owl:sameAs <http://dbpedia.org/resource/BBN_Technologies> ;
     foaf:member <http://data.semanticweb.org/person/mark-burstein>,
         <http://data.semanticweb.org/person/mike-dean> ;
-    foaf:name "BBN" .
-
-<http://data.semanticweb.org/organization/dfki> a foaf:Organization ;
-    rdfs:label "DFKI" ;
-    owl:sameAs <http://dbpedia.org/resource/German_Research_Centre_for_Artificial_Intelligence> ;
-    foaf:member <http://data.semanticweb.org/person/matthias-klusch>,
-        <http://data.semanticweb.org/person/michael-sintek> ;
-    foaf:name "DFKI" .
+    foaf:name "BBN Technologies" .
 
 <http://data.semanticweb.org/organization/france-telecom> a foaf:Organization ;
     rdfs:label "France Télécom" ;
@@ -2116,6 +2118,13 @@
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ab/2003/iswc2003.semanticweb.org/logo_ft.gif> ;
     foaf:member <http://data.semanticweb.org/person/alain-leger> ;
     foaf:name "France Télécom" .
+
+<http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dkfi> a foaf:Organization ;
+    rdfs:label "German Research Centre for Artificial Intelligence (DKFI)" ;
+    owl:sameAs <http://dbpedia.org/resource/German_Research_Centre_for_Artificial_Intelligence> ;
+    foaf:member <http://data.semanticweb.org/person/matthias-klusch>,
+        <http://data.semanticweb.org/person/michael-sintek> ;
+    foaf:name "German Research Centre for Artificial Intelligence (DKFI)" .
 
 <http://data.semanticweb.org/organization/inria> a foaf:Organization ;
     rdfs:label "INRIA" ;
@@ -2173,7 +2182,7 @@
         <http://data.semanticweb.org/person/ian-horrocks> ;
     foaf:name "University of Manchester" .
 
-<http://data.semanticweb.org/organization/university-of-maryland,-baltimore-county> a foaf:Organization ;
+<http://data.semanticweb.org/organization/university-of-maryland-baltimore-county> a foaf:Organization ;
     rdfs:label "University of Maryland, Baltimore County" ;
     owl:sameAs <http://dbpedia.org/resource/University_of_Maryland,_Baltimore_County> ;
     foaf:member <http://data.semanticweb.org/person/anupam-joshi>,
@@ -2271,13 +2280,13 @@
 <http://data.semanticweb.org/person/benjamin-grosof> a foaf:Person ;
     rdfs:label "Benjamin Grosof" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/mit> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/massachusetts-institute-of-technology> ;
     foaf:name "Benjamin Grosof" .
 
 <http://data.semanticweb.org/person/bertram-ludaescher> a foaf:Person ;
     rdfs:label "Bertram Ludaescher" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/university-of-california,-san-diego> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/university-of-california-san-diego> ;
     foaf:name "Bertram Ludaescher" .
 
 <http://data.semanticweb.org/person/bettina-berendt> a foaf:Person ;
@@ -2289,7 +2298,7 @@
 <http://data.semanticweb.org/person/boris-motik> a foaf:Person ;
     rdfs:label "Boris Motik" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/fzi,-university-of-karlsruhe> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/fzi-forschungszentruminformatik> ;
     foaf:name "Boris Motik" .
 
 <http://data.semanticweb.org/person/borys-omelayenko> a foaf:Person ;
@@ -2307,7 +2316,7 @@
 <http://data.semanticweb.org/person/carlo-zaniolo> a foaf:Person ;
     rdfs:label "Carlo Zaniolo" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/university-of-california,-los-angeles> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/university-of-california-los-angeles> ;
     foaf:name "Carlo Zaniolo" .
 
 <http://data.semanticweb.org/person/charles-phillips> a foaf:Person ;
@@ -2319,7 +2328,7 @@
 <http://data.semanticweb.org/person/chen-li> a foaf:Person ;
     rdfs:label "Chen Li" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/university-of-california,-irvine> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/university-of-california-irvine> ;
     foaf:name "Chen Li" .
 
 <http://data.semanticweb.org/person/chris-dollin> a foaf:Person ;
@@ -2453,7 +2462,7 @@
 <http://data.semanticweb.org/person/herman-ter-horst> a foaf:Person ;
     rdfs:label "Herman ter Horst" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/philips> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/philips-research> ;
     foaf:name "Herman ter Horst" .
 
 <http://data.semanticweb.org/person/ioana-manolescu> a foaf:Person ;
@@ -2517,7 +2526,7 @@
 <http://data.semanticweb.org/person/karl-aberer> a foaf:Person ;
     rdfs:label "Karl Aberer" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/ecole-polytechnique-federale-de-lausanne> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/epfl> ;
     foaf:name "Karl Aberer" .
 
 <http://data.semanticweb.org/person/keith-bessette> a foaf:Person ;
@@ -2559,7 +2568,7 @@
 <http://data.semanticweb.org/person/martin-frank> a foaf:Person ;
     rdfs:label "Martin Frank" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/isi/usc> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/isiusc> ;
     foaf:name "Martin Frank" .
 
 <http://data.semanticweb.org/person/masahiro-hori> a foaf:Person ;
@@ -2568,16 +2577,10 @@
     swrc:affiliation <http://data.semanticweb.org/organization/kansai-university> ;
     foaf:name "Masahiro Hori" .
 
-<http://data.semanticweb.org/person/massimo-marchiori> a foaf:Person ;
-    rdfs:label "Massimo Marchiori" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/w3c-and-university-of-venice> ;
-    foaf:name "Massimo Marchiori" .
-
 <http://data.semanticweb.org/person/massimo-paoluccci> a foaf:Person ;
     rdfs:label "Massimo Paoluccci" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/carnegie-mellon-university> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/cmu> ;
     foaf:name "Massimo Paoluccci" .
 
 <http://data.semanticweb.org/person/matt-richardson> a foaf:Person ;
@@ -2589,12 +2592,12 @@
 <http://data.semanticweb.org/person/matthias-klusch> a foaf:Person ;
     rdfs:label "Matthias Klusch" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/dfki> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dkfi> ;
     foaf:name "Matthias Klusch" .
 
 <http://data.semanticweb.org/person/max-egenhofer> a foaf:Person ;
     rdfs:label "Max Egenhofer" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-04/chair> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-04/workshop-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/university-of-maine> ;
     foaf:mbox_sha1sum "102c446b2de82962ce190a751971ba6a95eb3942" ;
     foaf:name "Max Egenhofer" .
@@ -2604,13 +2607,6 @@
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
     swrc:affiliation <http://data.semanticweb.org/organization/north-carolina-state-university> ;
     foaf:name "Munindar Singh" .
-
-<http://data.semanticweb.org/person/naveen-ashish> a foaf:Person ;
-    rdfs:label "Naveen Ashish" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-04/chair> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/research-institute-for-advanced-computer-science> ;
-    foaf:mbox_sha1sum "66af295a5826abf87fe27b30d11a7d8b0fbbee79" ;
-    foaf:name "Naveen Ashish" .
 
 <http://data.semanticweb.org/person/nigel-collier> a foaf:Person ;
     rdfs:label "Nigel Collier" ;
@@ -2681,7 +2677,7 @@
 <http://data.semanticweb.org/person/robert-macgregor-manolescu> a foaf:Person ;
     rdfs:label "Robert MacGregor Manolescu" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/isi/usc> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/isiusc> ;
     foaf:name "Robert MacGregor Manolescu" .
 
 <http://data.semanticweb.org/person/robert-meersman> a foaf:Person ;
@@ -2749,7 +2745,7 @@
 <http://data.semanticweb.org/person/thomas-russ> a foaf:Person ;
     rdfs:label "Thomas Russ" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/isi/usc> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/isiusc> ;
     foaf:name "Thomas Russ" .
 
 <http://data.semanticweb.org/person/thuong-doan> a foaf:Person ;
@@ -2779,7 +2775,7 @@
 <http://data.semanticweb.org/person/wenfei-fan> a foaf:Person ;
     rdfs:label "Wenfei Fan" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/bell-laboratories-and-temple-university> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/villanova-university> ;
     foaf:name "Wenfei Fan" .
 
 <http://data.semanticweb.org/person/william-grosso> a foaf:Person ;
@@ -2791,7 +2787,7 @@
 <http://data.semanticweb.org/person/yolanda-gil> a foaf:Person ;
     rdfs:label "Yolanda Gil" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/isi/usc> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/isiusc> ;
     foaf:name "Yolanda Gil" .
 
 <http://data.semanticweb.org/person/yuan-an> a foaf:Person ;
@@ -2812,8 +2808,8 @@
     swrc:affiliation <http://data.semanticweb.org/organization/university-of-north-carolina> ;
     foaf:name "Zbigniew Ras" .
 
-<http://data.semanticweb.org/conference/iswc/2003/event-06/chair> a swc:Chair ;
-    rdfs:label "Chair" ;
+<http://data.semanticweb.org/conference/iswc/2003/event-06/workshop-chair> a swc:Chair ;
+    rdfs:label "Workshop Chair" ;
     swc:heldBy <http://data.semanticweb.org/person/gerd-wagner>,
         <http://data.semanticweb.org/person/michael-schroeder> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2003/event-06> .
@@ -3133,14 +3129,14 @@
     ical:tzid "America/New_York" ;
     foaf:homepage <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ab/2003/iswc2003.semanticweb.org/invitedtalks.html> .
 
-<http://data.semanticweb.org/conference/iswc/2003/tutorial-2/organizer> a swc:Presenter ;
-    rdfs:label "Organizer" ;
+<http://data.semanticweb.org/conference/iswc/2003/tutorial-2/tutorial-organizer> a swc:Presenter ;
+    rdfs:label "Tutorial Organizer" ;
     swc:heldBy <http://data.semanticweb.org/person/katia-sycara>,
         <http://data.semanticweb.org/person/terry-payne> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2003/tutorial-2> .
 
-<http://data.semanticweb.org/conference/iswc/2003/tutorial-4/organizer> a swc:Presenter ;
-    rdfs:label "Organizer" ;
+<http://data.semanticweb.org/conference/iswc/2003/tutorial-4/tutorial-organizer> a swc:Presenter ;
+    rdfs:label "Tutorial Organizer" ;
     swc:heldBy <http://data.semanticweb.org/person/holger-knublauch>,
         <http://data.semanticweb.org/person/natasha-f-noy> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2003/tutorial-4> .
@@ -3151,12 +3147,12 @@
         <http://data.semanticweb.org/person/sheila-mcilraith> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2003> .
 
-<http://data.semanticweb.org/organization/aifb,-university-of-karlsruhe> a foaf:Organization ;
-    rdfs:label "AIFB, University of KArlsruhe" ;
+<http://data.semanticweb.org/organization/aifb-university-of-karlsruhe> a foaf:Organization ;
+    rdfs:label "AIFB, University of Karlsruhe" ;
     foaf:member <http://data.semanticweb.org/person/raphael-volz>,
         <http://data.semanticweb.org/person/steffen-staab>,
         <http://data.semanticweb.org/person/york-sure> ;
-    foaf:name "AIFB, University of KArlsruhe" .
+    foaf:name "AIFB, University of Karlsruhe" .
 
 <http://data.semanticweb.org/organization/fujitsu> a foaf:Organization ;
     rdfs:label "Fujitsu" ;
@@ -3351,7 +3347,7 @@
 
 <http://data.semanticweb.org/person/carole-goble> a foaf:Person ;
     rdfs:label "Carole Goble" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-04/chair>,
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-04/workshop-chair>,
         <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
     swrc:affiliation <http://data.semanticweb.org/organization/university-of-manchester> ;
     foaf:mbox_sha1sum "135de3f22ed9ac45c5cc7d1090f6831c47560f00" ;
@@ -3639,6 +3635,13 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/poster-demo-proceedings/paper-23> ;
     foaf:name "Ion Constantinescu" .
 
+<http://data.semanticweb.org/person/isabel-cruz> a foaf:Person ;
+    rdfs:label "Isabel Cruz" ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-02/workshop-chair>,
+        <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/university-of-illinois-at-chicago> ;
+    foaf:name "Isabel Cruz" .
+
 <http://data.semanticweb.org/person/iv-ramakrishnan> a foaf:Person ;
     rdfs:label "I.V. Ramakrishnan" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/poster-demo-proceedings/paper-48> ;
@@ -3825,7 +3828,7 @@
     rdfs:label "Mark Burstein" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member>,
         <http://data.semanticweb.org/conference/iswc/2003/session-3b/session-chair> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/bbn> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/bbn-technologies> ;
     foaf:name "Mark Burstein" .
 
 <http://data.semanticweb.org/person/mark-fox> a foaf:Person ;
@@ -3847,6 +3850,13 @@
     rdfs:label "Martin R. Frank" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-58> ;
     foaf:name "Martin R. Frank" .
+
+<http://data.semanticweb.org/person/massimo-marchiori> a foaf:Person ;
+    rdfs:label "Massimo Marchiori" ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/ca-foscari-university-of-venice>,
+        <http://data.semanticweb.org/organization/w3c> ;
+    foaf:name "Massimo Marchiori" .
 
 <http://data.semanticweb.org/person/matthew-addis> a foaf:Person ;
     rdfs:label "Matthew Addis" ;
@@ -3931,9 +3941,17 @@
 <http://data.semanticweb.org/person/natasha-f-noy> a foaf:Person ;
     rdfs:label "Natasha F. Noy" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member>,
-        <http://data.semanticweb.org/conference/iswc/2003/tutorial-4/organizer> ;
+        <http://data.semanticweb.org/conference/iswc/2003/tutorial-4/tutorial-organizer> ;
     swrc:affiliation <http://data.semanticweb.org/organization/stanford-university> ;
     foaf:name "Natasha F. Noy" .
+
+<http://data.semanticweb.org/person/naveen-ashish> a foaf:Person ;
+    rdfs:label "Naveen Ashish" ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-04/workshop-chair> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/nasa-ames-research-center>,
+        <http://data.semanticweb.org/organization/research-institute-for-advanced-computer-science> ;
+    foaf:mbox_sha1sum "66af295a5826abf87fe27b30d11a7d8b0fbbee79" ;
+    foaf:name "Naveen Ashish" .
 
 <http://data.semanticweb.org/person/naveen-srinivasan> a foaf:Person ;
     rdfs:label "Naveen Srinivasan" ;
@@ -4249,7 +4267,7 @@
 
 <http://data.semanticweb.org/person/ying-ding> a foaf:Person ;
     rdfs:label "Ying Ding" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-05/chair>,
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-05/workshop-chair>,
         <http://data.semanticweb.org/conference/iswc/2003/sponsor-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/university-of-innsbruck> ;
     foaf:homepage <http://www.cs.vu.nl/~ying> ;
@@ -4316,36 +4334,36 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-34> ;
     foaf:name "Zoltán Miklós" .
 
-<http://data.semanticweb.org/conference/iswc/2003/event-02/chair> a swc:Chair ;
-    rdfs:label "Chair" ;
+<http://data.semanticweb.org/conference/iswc/2003/event-02/workshop-chair> a swc:Chair ;
+    rdfs:label "Workshop Chair" ;
     swc:heldBy <http://data.semanticweb.org/person/isabel-cruz>,
         <http://data.semanticweb.org/person/raphael-volz>,
         <http://data.semanticweb.org/person/stefan-decker> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2003/event-02> .
 
-<http://data.semanticweb.org/conference/iswc/2003/event-03/chair> a swc:Chair ;
-    rdfs:label "Chair" ;
+<http://data.semanticweb.org/conference/iswc/2003/event-03/workshop-chair> a swc:Chair ;
+    rdfs:label "Workshop Chair" ;
     swc:heldBy <http://data.semanticweb.org/person/alon-halevy>,
         <http://data.semanticweb.org/person/anhai-doan>,
         <http://data.semanticweb.org/person/natasha-noy> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2003/event-03> .
 
-<http://data.semanticweb.org/conference/iswc/2003/event-04/chair> a swc:Chair ;
-    rdfs:label "Chair" ;
+<http://data.semanticweb.org/conference/iswc/2003/event-04/workshop-chair> a swc:Chair ;
+    rdfs:label "Workshop Chair" ;
     swc:heldBy <http://data.semanticweb.org/person/carole-goble>,
         <http://data.semanticweb.org/person/max-egenhofer>,
         <http://data.semanticweb.org/person/naveen-ashish> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2003/event-04> .
 
-<http://data.semanticweb.org/conference/iswc/2003/event-05/chair> a swc:Chair ;
-    rdfs:label "Chair" ;
+<http://data.semanticweb.org/conference/iswc/2003/event-05/workshop-chair> a swc:Chair ;
+    rdfs:label "Workshop Chair" ;
     swc:heldBy <http://data.semanticweb.org/person/atanas-kiryakov>,
         <http://data.semanticweb.org/person/hamish-cunningham>,
         <http://data.semanticweb.org/person/ying-ding> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2003/event-05> .
 
-<http://data.semanticweb.org/conference/iswc/2003/event-07/chair> a swc:Chair ;
-    rdfs:label "Chair" ;
+<http://data.semanticweb.org/conference/iswc/2003/event-07/workshop-chair> a swc:Chair ;
+    rdfs:label "Workshop Chair" ;
     swc:heldBy <http://data.semanticweb.org/person/juergen-angele>,
         <http://data.semanticweb.org/person/oscar-corcho>,
         <http://data.semanticweb.org/person/york-sure> ;
@@ -4952,28 +4970,28 @@
         <http://data.semanticweb.org/conference/iswc/2003/session-2c>,
         <http://data.semanticweb.org/conference/iswc/2003/session-3c> .
 
-<http://data.semanticweb.org/conference/iswc/2003/tutorial-1/organizer> a swc:Presenter ;
-    rdfs:label "Organizer" ;
+<http://data.semanticweb.org/conference/iswc/2003/tutorial-1/tutorial-organizer> a swc:Presenter ;
+    rdfs:label "Tutorial Organizer" ;
     swc:heldBy <http://data.semanticweb.org/person/heiner-stuckenschmidt>,
         <http://data.semanticweb.org/person/holger-wache>,
         <http://data.semanticweb.org/person/ubbo-visser> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2003/tutorial-1> .
 
-<http://data.semanticweb.org/conference/iswc/2003/tutorial-3/organizer> a swc:Presenter ;
-    rdfs:label "Organizer" ;
+<http://data.semanticweb.org/conference/iswc/2003/tutorial-3/tutorial-organizer> a swc:Presenter ;
+    rdfs:label "Tutorial Organizer" ;
     swc:heldBy <http://data.semanticweb.org/person/ian-horrocks>,
         <http://data.semanticweb.org/person/peter-f-patel-schneider>,
         <http://data.semanticweb.org/person/sean-bechhofer> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2003/tutorial-3> .
 
-<http://data.semanticweb.org/organization/carnegie-mellon-university> a foaf:Organization ;
-    rdfs:label "Carnegie Mellon University" ;
+<http://data.semanticweb.org/organization/cmu> a foaf:Organization ;
+    rdfs:label "CMU" ;
     owl:sameAs <http://dbpedia.org/resource/Carnegie_Mellon_University> ;
     foaf:member <http://data.semanticweb.org/person/anupriya-ankolekar>,
         <http://data.semanticweb.org/person/katia-sycara>,
         <http://data.semanticweb.org/person/massimo-paoluccci>,
         <http://data.semanticweb.org/person/massimo-paolucci> ;
-    foaf:name "Carnegie Mellon University" .
+    foaf:name "CMU" .
 
 <http://data.semanticweb.org/organization/university-of-amsterdam> a foaf:Organization ;
     rdfs:label "University of Amsterdam" ;
@@ -5022,20 +5040,12 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-41> ;
     foaf:name "Grit Denker" .
 
-<http://data.semanticweb.org/person/isabel-cruz> a foaf:Person ;
-    rdfs:label "Isabel Cruz" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-02/chair>,
-        <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/department-of-public-administration-at-the-university-of-illinois-at-chicago>,
-        <http://data.semanticweb.org/organization/university-of-illinois-at-chicago> ;
-    foaf:name "Isabel Cruz" .
-
 <http://data.semanticweb.org/person/katia-sycara> a foaf:Person ;
     rdfs:label "Katia Sycara" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/program-chairs>,
         <http://data.semanticweb.org/conference/iswc/2003/talk/invited-1/session-chair>,
-        <http://data.semanticweb.org/conference/iswc/2003/tutorial-2/organizer> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/carnegie-mellon-university> ;
+        <http://data.semanticweb.org/conference/iswc/2003/tutorial-2/tutorial-organizer> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/cmu> ;
     foaf:homepage <http://www-2.cs.cmu.edu/~sycara/> ;
     foaf:mbox_sha1sum "80b0eee12d87ac02b057b13569fcf242afd72c8d" ;
     foaf:name "Katia Sycara" .
@@ -5051,7 +5061,7 @@
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member>,
         <http://data.semanticweb.org/conference/iswc/2003/publicity-chair>,
         <http://data.semanticweb.org/conference/iswc/2003/session-6a/session-chair> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/bbn> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/bbn-technologies> ;
     foaf:homepage <http://www.daml.org/people/mdean/> ;
     foaf:mbox_sha1sum "6006a914f7d645142fadf08d9a4e33aee98416d0" ;
     foaf:name "Mike Dean" .
@@ -5065,13 +5075,13 @@
     rdfs:label "Terry Payne" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member>,
         <http://data.semanticweb.org/conference/iswc/2003/session-6b/session-chair>,
-        <http://data.semanticweb.org/conference/iswc/2003/tutorial-2/organizer> ;
+        <http://data.semanticweb.org/conference/iswc/2003/tutorial-2/tutorial-organizer> ;
     swrc:affiliation <http://data.semanticweb.org/organization/university-of-southampton> ;
     foaf:name "Terry Payne" .
 
 <http://data.semanticweb.org/conference/iswc/2003/platinum-sponsor> a swc:Sponsor ;
     rdfs:label "Platinum Sponsor" ;
-    swc:heldBy <http://data.semanticweb.org/organization/deri,-galway>,
+    swc:heldBy <http://data.semanticweb.org/organization/deri-galway>,
         <http://data.semanticweb.org/organization/network-inference>,
         <http://data.semanticweb.org/organization/ontoweb>,
         <http://data.semanticweb.org/organization/springer> ;
@@ -5771,7 +5781,7 @@
         <http://data.semanticweb.org/person/umesh-dayal> ;
     foaf:name "Hewlett-Packard" .
 
-<http://data.semanticweb.org/organization/isi/usc> a foaf:Organization ;
+<http://data.semanticweb.org/organization/isiusc> a foaf:Organization ;
     rdfs:label "ISI/USC" ;
     owl:sameAs <http://dbpedia.org/resource/Information_Sciences_Institute> ;
     foaf:member <http://data.semanticweb.org/person/martin-frank>,
@@ -5794,7 +5804,7 @@
 <http://data.semanticweb.org/person/anupriya-ankolekar> a foaf:Person ;
     rdfs:label "Anupriya Ankolekar" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/carnegie-mellon-university> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/cmu> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-51> ;
     foaf:name "Anupriya Ankolekar" .
 
@@ -5857,7 +5867,7 @@
 
 <http://data.semanticweb.org/person/juergen-angele> a foaf:Person ;
     rdfs:label "Jürgen Angele" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-07/chair> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-07/workshop-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/ontoprise-gmbh> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-30> ;
     foaf:name "Jürgen Angele" .
@@ -5878,14 +5888,14 @@
 
 <http://data.semanticweb.org/person/natasha-noy> a foaf:Person ;
     rdfs:label "Natasha Noy" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-03/chair>,
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-03/workshop-chair>,
         <http://data.semanticweb.org/conference/iswc/2003/session-3a/session-chair> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/poster-demo-proceedings/paper-22> ;
     foaf:name "Natasha Noy" .
 
 <http://data.semanticweb.org/person/oscar-corcho> a foaf:Person ;
     rdfs:label "Oscar Corcho" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-07/chair> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-07/workshop-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/technical-university-of-madrid> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-28> ;
     foaf:name "Oscar Corcho" .
@@ -5893,7 +5903,7 @@
 <http://data.semanticweb.org/person/peter-f-patel-schneider> a foaf:Person ;
     rdfs:label "Peter F. Patel-Schneider" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/session-2b/session-chair>,
-        <http://data.semanticweb.org/conference/iswc/2003/tutorial-3/organizer> ;
+        <http://data.semanticweb.org/conference/iswc/2003/tutorial-3/tutorial-organizer> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-36> ;
     foaf:name "Peter F. Patel-Schneider" .
 
@@ -5942,8 +5952,8 @@
 
 <http://data.semanticweb.org/person/york-sure> a foaf:Person ;
     rdfs:label "York Sure" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-07/chair> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/aifb,-university-of-karlsruhe> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-07/workshop-chair> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/aifb-university-of-karlsruhe> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-29> ;
     foaf:name "York Sure" .
 
@@ -6313,7 +6323,7 @@
 
 <http://data.semanticweb.org/person/alon-halevy> a foaf:Person ;
     rdfs:label "Alon Halevy" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-03/chair>,
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-03/workshop-chair>,
         <http://data.semanticweb.org/conference/iswc/2003/senior-pc-member> ;
     swrc:affiliation <http://data.semanticweb.org/organization/university-of-washington> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/poster-demo-proceedings/paper-32> ;
@@ -6392,7 +6402,7 @@
 <http://data.semanticweb.org/person/heiner-stuckenschmidt> a foaf:Person ;
     rdfs:label "Heiner Stuckenschmidt" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member>,
-        <http://data.semanticweb.org/conference/iswc/2003/tutorial-1/organizer> ;
+        <http://data.semanticweb.org/conference/iswc/2003/tutorial-1/tutorial-organizer> ;
     swrc:affiliation <http://data.semanticweb.org/organization/vrije-universiteit-amsterdam> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-14> ;
     foaf:name "Heiner Stuckenschmidt" .
@@ -6465,9 +6475,9 @@
 
 <http://data.semanticweb.org/person/stefan-decker> a foaf:Person ;
     rdfs:label "Stefan Decker" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-02/chair>,
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-02/workshop-chair>,
         <http://data.semanticweb.org/conference/iswc/2003/senior-pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/isi/usc> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/isiusc> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-31> ;
     foaf:name "Stefan Decker" .
 
@@ -6715,7 +6725,7 @@
 
 <http://data.semanticweb.org/person/sean-bechhofer> a foaf:Person ;
     rdfs:label "Sean Bechhofer" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/tutorial-3/organizer> ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/tutorial-3/tutorial-organizer> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-08>,
         <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-13> ;
     foaf:name "Sean Bechhofer" .
@@ -6830,7 +6840,7 @@
 <http://data.semanticweb.org/person/michael-sintek> a foaf:Person ;
     rdfs:label "Michael Sintek" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/dfki> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dkfi> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/poster-demo-proceedings/paper-40>,
         <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-34> ;
     foaf:name "Michael Sintek" .
@@ -6938,7 +6948,7 @@
     rdfs:label "Massimo Paolucci" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/session-2c/session-chair>,
         <http://data.semanticweb.org/conference/iswc/2003/sponsor-chair> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/carnegie-mellon-university> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/cmu> ;
     foaf:homepage <http://www.ri.cmu.edu/people/paolucci_massimo.html> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-41>,
         <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-51> ;
@@ -6963,7 +6973,7 @@
     rdfs:label "Tim Finin" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member>,
         <http://data.semanticweb.org/conference/iswc/2003/session-2a/session-chair> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/university-of-maryland,-baltimore-county> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/university-of-maryland-baltimore-county> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/poster-demo-proceedings/paper-27>,
         <http://data.semanticweb.org/conference/iswc/2003/poster-demo-proceedings/paper-37> ;
     foaf:name "Tim Finin" .
@@ -7037,10 +7047,10 @@
 
 <http://data.semanticweb.org/person/atanas-kiryakov> a foaf:Person ;
     rdfs:label "Atanas Kiryakov" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-05/chair>,
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-05/workshop-chair>,
         <http://data.semanticweb.org/conference/iswc/2003/registration-chair>,
         <http://data.semanticweb.org/conference/iswc/2003/session-7b/session-chair> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/sirma-ai,-ltd> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/sirma-ai-ltd> ;
     foaf:homepage <http://www.sirma.bg/ak.htm> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-22>,
         <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-42> ;
@@ -7057,9 +7067,9 @@
 
 <http://data.semanticweb.org/person/raphael-volz> a foaf:Person ;
     rdfs:label "Raphael Volz" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-02/chair>,
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/event-02/workshop-chair>,
         <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/aifb,-university-of-karlsruhe>,
+    swrc:affiliation <http://data.semanticweb.org/organization/aifb-university-of-karlsruhe>,
         <http://data.semanticweb.org/organization/karlsruhe-institute-of-technology> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/poster-demo-proceedings/paper-31>,
         <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-13> ;
@@ -7099,7 +7109,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2003/sliver-sponsor> a swc:Sponsor ;
     rdfs:label "Sliver Sponsor" ;
-    swc:heldBy <http://data.semanticweb.org/organization/advanced-knowledge-technologies-akt>,
+    swc:heldBy <http://data.semanticweb.org/organization/akt>,
         <http://data.semanticweb.org/organization/elsevier>,
         <http://data.semanticweb.org/organization/enigmatec>,
         <http://data.semanticweb.org/organization/esperonto>,
@@ -7114,7 +7124,7 @@
 <http://data.semanticweb.org/person/anupam-joshi> a foaf:Person ;
     rdfs:label "Anupam Joshi" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/university-of-maryland,-baltimore-county> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/university-of-maryland-baltimore-county> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/poster-demo-proceedings/paper-27>,
         <http://data.semanticweb.org/conference/iswc/2003/poster-demo-proceedings/paper-37>,
         <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-05> ;
@@ -7141,7 +7151,7 @@
     rdfs:label "Steffen Staab" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/metadata-chair>,
         <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/aifb,-university-of-karlsruhe>,
+    swrc:affiliation <http://data.semanticweb.org/organization/aifb-university-of-karlsruhe>,
         <http://data.semanticweb.org/organization/karlsruhe-institute-of-technology> ;
     foaf:homepage <http://www.aifb.uni-karlsruhe.de/WBS/sst/> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/poster-demo-proceedings/paper-31>,
@@ -7154,7 +7164,7 @@
     rdfs:label "Ian Horrocks" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/senior-pc-member>,
         <http://data.semanticweb.org/conference/iswc/2003/session-4a/session-chair>,
-        <http://data.semanticweb.org/conference/iswc/2003/tutorial-3/organizer> ;
+        <http://data.semanticweb.org/conference/iswc/2003/tutorial-3/tutorial-organizer> ;
     swrc:affiliation <http://data.semanticweb.org/organization/university-of-manchester> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-08>,
         <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-35>,

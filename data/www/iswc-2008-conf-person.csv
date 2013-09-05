@@ -1,2 +1,553 @@
-role_type,role_label,role_event,role_event_label,role_event_type,name,person_uri,homepage,bio,depiction,mbox_sha1sum,cnt_mbox,organization,cnt_org
-,,,,,,,,,,,0,,0
+role_type,role_label,role_event,role_event_label,role_event_type,name,person_uri,homepage,cnt_paper,proceedings_label,bio,depiction,mbox_sha1sum,cnt_mbox,organization,cnt_org
+,,,,,AK Sinha,http://data.semanticweb.org/person/ak-sinha,,1,,,,75753862369a787f4a8ed6d512c84e10c126bc3d,1,Virginia Tech,1
+,,,,,Abdelmounaam Rezgui,http://data.semanticweb.org/person/abdelmounaam-rezgui,,1,,,,6542641188056f743c22ee0fdfacb420a2b9e307,1,Virginia Tech,1
+,,,,,Abraham Bernstein,http://data.semanticweb.org/person/abraham-bernstein,,2,,,,8704ad77580618cb845036d3a15626d30fd828c3,1,"University of Zurich;Department of Informatics, University of Zurich;Univ Zürich",1
+,,,,,Achille Fokoue,http://data.semanticweb.org/person/achille-fokoue,,1,,,,42e105e76a4873077b7c63e06d51946a89f0eafd,1,IBM Research Laboratory;IBM Research,1
+,,,,,Adam Funk,http://data.semanticweb.org/person/adam-funk,,1,,,,5d568aebe8cfe9c281b8bc4b9ae5b2d53c3dfe75,1,University Of Sheffield;The University of Sheffield;University of Sheffield,1
+,,,,,Aditya Kalyanpur,http://data.semanticweb.org/person/aditya-kalyanpur,,1,,,,b1fe362f3eabc1dac5c9829fb53fd2de0d556f5b,1,IBM TJ Watson Research Center;IBM T. J. Watson Research Center;IBM T.J. Watson Research Center,1
+,,,,,Adrian Mocan,http://data.semanticweb.org/person/adrian-mocan,,1,,,,bfee0d8ccefccc90080121419de00a7ee18824ef,1,Semantic Technology Institute Innsbruck;STI Innsbruck,1
+,,,,,Ahmad Iqbal,http://data.semanticweb.org/person/ahmad-iqbal,,1,,,,19772055ed41bc7cc69398ddf428149c731d21b4,1,"University of New South Wales;National ICT Australia;DERI, National University of Ireland, Galway;Digital Enterprise Research Institute, Galway;DERI, NUIG;Digital Enterprise Research Institute (DERI), National University of Ireland, Galway;DERI NUIG;DERI Galway;Digital Enterprise Research Institute (DERI), Galway",3
+,,,,,Ajay Chakravarthy,http://data.semanticweb.org/person/ajay-chakravarthy,,1,,,,204504dfc58a7935a5d945d767867d5025543d2f,1,University Of Sheffield;The University of Sheffield;University of Sheffield,1
+,,,,,Akimichi Tanaka,http://data.semanticweb.org/person/akimichi-tanaka,,1,,,,2dc6b957be5c82ef7bf0532a0429e8da60f62fac,1,"NTT Cyber Solutions Laboratories, NTT Corporation",1
+,,,,,Alan Rector,http://data.semanticweb.org/person/alan-rector,,1,,,,b4c3594530b2a7d19366535aa05b2298a49b66ea,1,University of Manchester;The University of Manchester,1
+,,,,,Alberto Salvati,http://data.semanticweb.org/person/alberto-salvati,,1,,,,6f5c4ac98c6ad3a78f3a9554a448366c0aabc8fb,1,"Semantic TechnoIogy Lab, CNR;CNR;Semantic TechnoIogy Lab. ISTC-CNR;CNR-ISTC",1
+,,,,,Aldo Gangemi,http://data.semanticweb.org/person/aldo-gangemi,,1,,,,8d7f004803b48a3b7c5e9f73dc16953069a6632d,1,"Semantic TechnoIogy Lab, CNR;CNR;Semantic TechnoIogy Lab. ISTC-CNR;CNR-ISTC",1
+,,,,,Alex Donaldson,http://data.semanticweb.org/person/alex-donaldson,,1,,,,,0,Pacific Northwest National Laboratory,1
+,,,,,Alex Kass,http://data.semanticweb.org/person/alex-kass,,1,,,,795fec1a9601795059507643c1fc8693cb709c5a,1,Accenture Technology Labs,1
+,,,,,Alexa Breuing,http://data.semanticweb.org/person/alexa-breuing,,1,,,,1e4da1fdea01d6d4b1f1d8262a3c279c99df8379,1,University of Bielefeld,1
+,,,,,Alexander Löser,http://data.semanticweb.org/person/alexander-loeser,,0,,,,e8ccd7ec47beae53db45584d8d2a4125a48e55b9,1,"SAP Research;SAP AG, SAP Research",1
+,,,,,Alexandra Poulovassilis,http://data.semanticweb.org/person/alexandra-poulovassilis,,0,,,,b804c68178a28ccde3196f5512affec2d7ded34c,1,,0
+,,,,,Alexey Tsymbal,http://data.semanticweb.org/person/alexey-tsymbal,,1,,,,64d57897e860a4173a76e23af4b62053f1f2bf53,1,"Corporate Technology Division Siemens AG Erlangen, Germany",1
+,,,,,Ali Mamat,http://data.semanticweb.org/person/ali-mamat,,1,,,,eb80b56f9592b52a76cb3e251313eb8d6c179399,1,Universiti Putra Malaysia (UPM),1
+,,,,,Alistair Russell,http://data.semanticweb.org/person/alistair-russell,,1,,,,715b6e6c2ddfb2ac7b03142d28fc1838d12de348,1,University of Southampton,1
+,,,,,Alvaro Graves,http://data.semanticweb.org/person/alvaro-graves,,1,,,,d202e08271ceb8161f29aa2698aa84c3539ab7d3,1,Rensselaer Polytechnic Institute;RPI,1
+,,,,,Aman Shakya,http://data.semanticweb.org/person/aman-shakya,,1,,,,6f397553a28dd90acb21de420945fde4c3b36c54,1,National Institute of Informatics,1
+,,,,,Amancio Bouza,http://data.semanticweb.org/person/amancio-bouza,,1,,,,9832cfc3c7b3521deb764fe5c36fe93d90cf156b,1,"University of Zurich;Department of Informatics, University of Zurich;Univ Zürich",1
+,,,,,America Holloway,http://data.semanticweb.org/person/america-holloway,,1,,,,313cb8c0a45d8fa3d32bf47d3a1f0fd63c1115a1,1,"University of California, Irvine",1
+,,,,,Amit P. Sheth,http://data.semanticweb.org/person/amit-sheth,,0,,,,c903202d3919813029e4dc56efbe0a2b2443074c,1,"Wright State University;Kno.e.sis Center, Wright State University",1
+,,,,,Amit Sheth,http://data.semanticweb.org/person/amit-sheth,,0,,,,c903202d3919813029e4dc56efbe0a2b2443074c,1,"Wright State University;Kno.e.sis Center, Wright State University",1
+,,,,,Andreas Hotho,http://data.semanticweb.org/person/andreas-hotho,,1,,,,618346f249ba96ff62d1a2765d7badc4282125ad,1,University of Kassel,1
+,,,,,Andreas Wechselberger,http://data.semanticweb.org/person/andreas-wechselberger,,1,,,,7c688befb97d4a51142b9af0690841c6348eccd4,1,"Bundeswehr University Munich, Germany",1
+,,,,,Andrew Branson,http://data.semanticweb.org/person/andrew-branson,,1,,,,eafd6f401ff0083b6a1d5cd77ccc16213cbb7339,1,"University of the West of England, Bristol;University of the West of England",1
+,,,,,Andrew Buttigieg,http://data.semanticweb.org/person/andrew-buttigieg,,1,,,,8ca699c5452125759cab0b95fa9af8700cf6e2b8,1,University of Malta,1
+,,,,,Anne Eberhardt,http://data.semanticweb.org/person/anne-eberhardt,,0,,,,,0,Universität Karlsruhe;University of Karlsruhe,1
+,,,,,Anthony G. Cohn,http://data.semanticweb.org/person/anthony-g-cohn,,2,,,,405fc64aabd338520f29ee885b478f23f845b9e1,1,University of Leeds,1
+,,,,,Anupam Joshi,http://data.semanticweb.org/person/anupam-joshi,,1,,,,de4984eb69b9610f133321ac8b1fc38de56661e3,1,"University of Maryland, Baltimore County;University of Maryland Baltimore County;Univ Maryland",1
+,,,,,Anupriya Ankolekar,http://data.semanticweb.org/person/anupriya-ankolekar,,0,,,,9a7019b0a99d67401833dcd7c77d7971cdad7cdf,1,"Institute AIFB, University of Karlsruhe;AIFB, Universität Karlsruhe (TH);AIFB, University of Karlsruhe;Insitute AIFB, University Karlsruhe;Institute AIFB, Universität Karlsruhe (TH);AIFB, Universität Karlsruhe",1
+,,,,,Aris van Dijk,http://data.semanticweb.org/person/aris-van-dijk,,1,,,,250807b478efe3ffc68b9f620989fe57dfe17226,1,University of Utrecht;Universiteit Utrecht,1
+,,,,,Ashok Malhotra,http://data.semanticweb.org/person/ashok-malhotra,,1,,,,ad69cf87db4b41d29e7d1da6a63d5d7c65ce1346,1,Oracle,1
+,,,,,Asunción Gómez-Pérez,http://data.semanticweb.org/person/asuncion-gomez-perez,,1,,,,f929b4dab306ec656affc5136763b6fe14c2347e,1,Universidad Politécnica de Madrid;Ontology Engineering Group. Laboratorio de Inteligencia Artificial. Facultad de Informática. Universidad Politécnica de Madrid.;Universidad Politecnica de Madrid,1
+,,,,,Axel Polleres,http://data.semanticweb.org/person/axel-polleres,,0,,,,35a8d4858ba240996a6f71836d93fbfdcd2b4843,1,"DERI, National University of Ireland, Galway;Digital Enterprise Research Institute, Galway;DERI, NUIG;Digital Enterprise Research Institute (DERI), National University of Ireland, Galway;DERI NUIG;DERI Galway;Digital Enterprise Research Institute (DERI), Galway",1
+,,,,,Bella Manoim,http://data.semanticweb.org/person/bella-manoim,,1,,,,1fc3b15a252d8c9cd40c6256e3dacf993ca402b5,1,Bard College,1
+,,,,,Benjamin Dai,http://data.semanticweb.org/person/benjamin-dai,,1,,,,e1568d64b692f22f5b024b12e1c5bf28fe31046e,1,Stanford University;Stanford University - BMIR,1
+,,,,,Benjamin Grosof,http://data.semanticweb.org/person/benjamin-grosof,,0,,,,,0,Vulcan Inc.,1
+,,,,,Benjamin Nowack,http://data.semanticweb.org/person/benjamin-nowack,,1,,,,9dc29db1837fd2125697e362da67d413a8cea7ab,1,semsol,1
+,,,,,Bernardo Cuenca Grau,http://data.semanticweb.org/person/bernardo-cuenca-grau,,0,,,,04c26ecbc4b7ae7a158b6d67ac3d877fe41190e7,1,,0
+,,,,,Bernhard Krabina,http://data.semanticweb.org/person/bernhard-krabina,,1,,,,aeca791f6d79e0dd2429e2869e227d2bf044ca98,1,KDZ - Centre for Public Administration Research,1
+,,,,,Bertram Ludaescher,http://data.semanticweb.org/person/bertram-ludaescher,,0,,,,55132fa000f6ffc4a6e2ecd158216a44d091fab7,1,UC Davis,1
+,,,,,Bertrand Souville,http://data.semanticweb.org/person/bertrand-souville,,2,,,,39afbb85d376f8fa637fa773fe193950b8ce10b6,1,"DoCoMo Euro-Lab, Munich;DoCoMo Euro-Labs;DoCoMo Euro labs;DoCoMo Euro-labs",1
+,,,,,Bettina Bauer-Messmer,http://data.semanticweb.org/person/bettina-bauer-messmer,,1,,,,dfeb0eb063045e27bd64fe020ec94d7a5a1f7fab,1,"Swiss Federal Institute for Forest, Snow and Landscape Research, An Institute of the ETH Board;Swiss Federal Institute for Forest, Snow and Landscape Research",1
+,,,,,Bhavani Thuraisingham,http://data.semanticweb.org/person/bhavani-thuraisingham,,1,,,,b7461b7b01dfa88ddde27fac264fc1ee0ed9abdc,1,University of Texas at Dallas,1
+,,,,,Bijan Parsia,http://data.semanticweb.org/person/bijan-parsia,,5,,,,c9ef3edda6fd12cc1e9113217a75e5074e2ee80e,1,University of Manchester;The University of Manchester,1
+,,,,,Boanerges Aleman-Meza,http://data.semanticweb.org/person/boanerges-aleman-meza,,0,,,,fc40bca7fdcf0c79bd5e339cd6454423dbc3c91b,1,"LSDIS Lab, University of Georgia",1
+,,,,,Bob Schloss,http://data.semanticweb.org/person/bob-schloss,,1,,,,bba1a4d3cf5414988d852762d55ec00df1fd1253,1,IBM Research Laboratory;IBM Research,1
+,,,,,Boris Motik,http://data.semanticweb.org/person/boris-motik,,1,,,,d4eccc5f2f9a33129c207211d7af8f298a7f71ee,1,University of Oxford,1
+,,,,,Brian Davis,http://data.semanticweb.org/person/brian-davis,,1,,,,8c6dfc17028b508310f6c7cde2ba007c545b591f,1,"DERI, National University of Ireland, Galway;Digital Enterprise Research Institute, Galway;DERI, NUIG;Digital Enterprise Research Institute (DERI), National University of Ireland, Galway;DERI NUIG;DERI Galway;Digital Enterprise Research Institute (DERI), Galway",1
+,,,,,Brian Kettler,http://data.semanticweb.org/person/brian-kettler,,0,,,,a2c72695ad43a1b1943d306acfb6f9a02d3137ac,1,,0
+,,,,,C. Lee Giles,http://data.semanticweb.org/person/c-lee-giles,,0,,,,9a03b1ad0292512f1986fa4fd68867978962c5ac,1,Pennsylvania State University,1
+,,,,,Carlo Allocca,http://data.semanticweb.org/person/carlo-allocca,,1,,,,008147d42b7fef2e6877d91208558dc98b720422,1,"Knowledge Media Institute, the Open University;Knowledge Media Institute, The Open University;The Open University;KMi, The Open University;KMi, Open University",1
+,,,,,Carlos Damasio,http://data.semanticweb.org/person/carlos-damasio,,0,,,,747d1d9898da965f6cb486c91053a0707b78f3c7,1,Universidade Nova de Lisboa,1
+,,,,,Carole Goble,http://data.semanticweb.org/person/carole-a-goble,,0,,,,f7238a78c0f25518c40148fe94b9fe722ff98c6d,1,University of Manchester;The University of Manchester,1
+,,,,,Carsten Lutz,http://data.semanticweb.org/person/carsten-lutz,,0,,,,44f913f6da457b855061438ca81cb673c2d9e246,1,TU Dresden,1
+,,,,,Cassio Dos Santos,http://data.semanticweb.org/person/cassio-dos-santos,,2,,,,bddcd8507ec1d191a8ebf8e74ecdd0a1ca025a24,1,IBM Software Group,1
+,,,,,Cassio Santos,http://data.semanticweb.org/person/cassio-dos-santos,,2,,,,bddcd8507ec1d191a8ebf8e74ecdd0a1ca025a24,1,IBM Software Group,1
+,,,,,Catherine Dolbear,http://data.semanticweb.org/person/catherine-dolbear,,3,,,,5c2c07a1bb0a0ce4c63fd62714ea306794cc68d4,1,Ordnance Survey;Ordnance Survey of Great Britain,1
+,,,,,Chaitanya Chemudugunta,http://data.semanticweb.org/person/chaitanya-chemudugunta,,1,,,,4166df9fe5dd8823cfda629bb21877e98ef56d83,1,"University of California, Irvine",1
+,,,,,Charlie Abela,http://data.semanticweb.org/person/charlie-abela,,1,,,,6888726cc05d7e512a412b06052992ce85ed4788,1,University of Malta,1
+,,,,,Chen Wang,http://data.semanticweb.org/person/chen-wang,,2,,,,856b2e418db56ded65e7e5811df751eb38518df0;43ab1d64e1013b8eea03c1383676d8db4ab6e3da,2,IBM China Research Lab;IBM China Research Laboratory,1
+,,,,,Cherie Youn,http://data.semanticweb.org/person/cherie-youn,,1,,,,fb69c6c8e08e2eebfdc11bd780f48afd4bd6ee13,1,Stanford University;Stanford University - BMIR,1
+,,,,,Chiara Ghidini,http://data.semanticweb.org/person/chiara-ghidini,,1,,,,aca9efa3e5a984c2a05baeb389b092d70b0e76fa,1,FBK-irst;FBK-IRST,1
+,,,,,Chris Bizer,http://data.semanticweb.org/person/christian-bizer,,0,,,,50c02ff93e7d477ace450e3fbddd63d228fb23f3,1,Freie Universität Berlin;Free University of Berlin,1
+,,,,,Christian Baumann,http://data.semanticweb.org/person/christian-baumann,,1,,,,5b1969e2aabcb2e954cb428a829550cd0ec8c236,1,"SAP Research;SAP AG, SAP Research",1
+,,,,,Christian Hirsch,http://data.semanticweb.org/person/christian-hirsch,,1,,,,6a6ec3a6bcb7084fbbb8867ea93b03c46f9e418f,1,University of Auckland,1
+,,,,,Christian Jacquemin,http://data.semanticweb.org/person/christian-jacquemin,,1,,,,a3169e0816bc72c44c5ab042fa16d53ed32e7ee0,1,LIMSI-CNRS,1
+,,,,,Christian Kuschel,http://data.semanticweb.org/person/christian-kuschel,,1,,,,f3d087c569678ffd6e5be9866e29c73041533bcd,1,"Georg-Simon-Ohm Hochschule, Nuremberg",1
+,,,,,Christian Wartena,http://data.semanticweb.org/person/christian-wartena,,1,,,,cfdecf5859c5225410ed2772b5249d6516be47b1,1,Telematica Instituut,1
+,,,,,Christoph Bussler,http://data.semanticweb.org/person/christoph-bussler,,0,,,,c3851852e12dae64e1e8a8780319333544355f26,1,"BEA Systems, Inc.",1
+,,,,,Christoph Pinkel,http://data.semanticweb.org/person/christoph-pinkel,,1,,,,dffe30f8065b8b325091b03452b566965c781a6b,1,MTC Infomedia OHG,1
+,,,,,Christophe Guéret,http://data.semanticweb.org/person/christophe-gueret,,1,,,,b35d03b79165699b8aee26174245017a2624d29a,1,VU Amsterdam;UVA;Vrije Universiteit Amsterdam;VU University Amsterdam;Vrije University Amsterdam,1
+,,,,,Christopher Matheus,http://data.semanticweb.org/person/christopher-matheus,,0,,,,f44e8167fcef12c98130c447178183516258060b,1,"Versatile Information Systems, Inc.",1
+,,,,,Ciro Cattuto,http://data.semanticweb.org/person/ciro-cattuto,,1,,,,c94ca9310ec8695fd5f6e1c6719919b3c7560dbf,1,"Complex Networks Lagrange Laboratory (CNLL), ISI Foundation",1
+,,,,,Claudia d'Amato,http://data.semanticweb.org/person/claudia-damato,,1,,,,5bcefa24904ebb8f0666b2b8b03fe3c89dac04f7,1,"Computer Science Department - University of Bari;Dipartimento di Informatica - Università degli Studi di Bari;Dipartimento di Informatica, Università di Bari",1
+,,,,,Claudio Gutierrez,http://data.semanticweb.org/person/claudio-gutierrez,,2,,,,f341588c8c974d3b6fa4134e12700da871e8704f,1,Universidad de Chile,1
+,,,,,Clement Jonquet,http://data.semanticweb.org/person/clement-jonquet,,1,,,,b6b6a2c7e586632f2d654f537f6ab32af4d763ee,1,Stanford University;Stanford University - BMIR,1
+,,,,,Cliff Joslyn,http://data.semanticweb.org/person/cliff-joslyn,,1,,,,a2316407ccea4185d152a734fd9fdfc39fee5bb0,1,Pacific Northwest National Laboratory,1
+,,,,,Colin Puleston,http://data.semanticweb.org/person/colin-puleston,,1,,,,fe88afe88814a8212994bf2329ebcf79815a4110,1,University of Manchester;The University of Manchester,1
+,,,,,Colm Conroy,http://data.semanticweb.org/person/colm-conroy,,1,,,,74ad5b98b8dd36170e6ab1baee2faea0fda2dbd9,1,Trinity College Dublin,1
+,,,,,Conny Christl,http://data.semanticweb.org/person/conny-christl,,1,,,,69eea97c5cc0ab14ebf1231386aea61591c95d33,1,ISN,1
+,,,,,Conor Hayes,http://data.semanticweb.org/person/conor-hayes,,0,,,,e3e11c1ce25fbaccc08ed9085e4ccd882a79a8f1,1,"DERI, National University of Ireland, Galway;Digital Enterprise Research Institute, Galway;DERI, NUIG;Digital Enterprise Research Institute (DERI), National University of Ireland, Galway;DERI NUIG;DERI Galway;Digital Enterprise Research Institute (DERI), Galway",1
+,,,,,Craig Knoblock,http://data.semanticweb.org/person/craig-knoblock,,0,,,,2c2715555efac793759255fe12d117541cf52a37,1,"Information Sciences Institute, University of Southern California",1
+,,,,,Cynthia Parr,http://data.semanticweb.org/person/cynthia-parr,,2,,,,13940fa3b6f615d9cd99d62a5bc58bcde691d596;e6883fd49b437f93a520710e00691b711b1230af,2,UMBC;Encyclopedia of Life,2
+,,,,,Dan Weld,http://data.semanticweb.org/person/dan-weld,,0,,,,5d0caf4b88e14ef4c91f2502b2882c82bbfd07fa,1,Univ Washington,1
+,,,,,Daniel Gruhl,http://data.semanticweb.org/person/daniel-gruhl,,0,,,,ea1d8684df123f4bc2bfc5c3efdb8eba85dec4e6,1,IBM Almaden Research Center,1
+,,,,,Daniel Miranker,http://data.semanticweb.org/person/daniel-miranker,,1,,,,0fea94336fe97522ad08d3100f2555d8b1acab05,1,"Department of Computer Sciences, The University of Texas at Austin;Institute for Cell and Molecular Biology, The University of Texas at Austin",2
+,,,,,Daniel Oberle,http://data.semanticweb.org/person/daniel-oberle,,1,,,,c37ad0dac2a588dc3f1cecd883eb262bf06ec164,1,SAP AG;SAP,1
+,,,,,Daniel Olmedilla,http://data.semanticweb.org/person/daniel-olmedilla,,2,,,,c3a45a041dadb23f4b7dd53cde114f0a5132a8b2;dd17a23d8b5ccf526ab93ef03147a724ed15cde0,2,"Research Center L3S;L3S Research Center;L3S Research Center & Hannover University;L3S Research Center, Hannover, Germany;Telefónica Research and Development;Telefonica R&D",2
+,,,,,Daniel Rubin,http://data.semanticweb.org/person/daniel-rubin,,1,,,,973f2afe8dd819d30fa24bab795a8cfa54c71f16,1,Stanford University;Stanford University - BMIR,1
+,,,,,Daniel Schwabe,http://data.semanticweb.org/person/daniel-schwabe,,1,,,,64426ee795421651f6fc88bf0fca221c52c4005a,1,"Dept. of Informatics, PUC-Rio",1
+,,,,,Dario Bonino,http://data.semanticweb.org/person/dario-bonino,,1,,,,d1f167d295fb554afa6a5885c29737ebc1f52393,1,Politecnico di Torino,1
+,,,,,Dave Reynolds,http://data.semanticweb.org/person/dave-reynolds,,0,,,,ac4c2f1da13f040a39311d7293d7c5439fcc72f8,1,Hewlett Packard Laboratories,1
+,,,,,David De Roure,http://data.semanticweb.org/person/david-de-roure,,0,,,,92d8538c2d7cf626d450cccf5112436e93ecf2db,1,University of Southampton,1
+,,,,,David Huynh,http://data.semanticweb.org/person/david-huynh,,0,,,,f7a83fbc5b671fba7843b223c105f04f35ef6326,1,MIT CSAIL;MIT,1
+,,,,,David J. Zielinski,http://data.semanticweb.org/person/david-j-zielinski,,1,,,,3eca5404bde5825a20b631a5cef782f9456a0870,1,Duke University,1
+,,,,,David Karger,http://data.semanticweb.org/person/david-karger,,0,,,,1192ccf2698e2122ed342719927b0f6e70c46269,1,MIT CSAIL;MIT,1
+,,,,,David Leal,http://data.semanticweb.org/person/david-leal,,1,,,,04a7861eea48b03b9679a0d0057fd33a052609e1,1,CAESAR Systems Limited,1
+,,,,,David Martin,http://data.semanticweb.org/person/david-martin,,1,,,,d49e8df5d14e4197e4e32334fd79481c37233bf5,1,SRI International;SRI,1
+,,,,,David Norheim,http://data.semanticweb.org/person/david-norheim,,1,,,,7306e91d7c4b2145ef5e2544ba9036b7bdadb217,1,Computas,1
+,,,,,David de Francisco,http://data.semanticweb.org/person/david-de-francisco,,1,,,,0a8c9e840919f504148b1af9a08b31caafb3246a,1,Telefónica Research and Development;Telefonica R&D,1
+,,,,,David-Paul Mann,http://data.semanticweb.org/person/david-paul-mann,,1,,,,f83f72bd4ce4faaad17c9b54e2e6bc90b69965fc,1,"ISWeb, University of Koblenz-Landau, Germany;University of Koblenz-Landau;Universität Koblenz- Landau",1
+,,,,,Dean Allemang,http://data.semanticweb.org/person/dean-allemang,,0,,,,2baa035ccc17b088b88518d944b59a0cc5b25dcb,1,TopQuadrant Inc,1
+,,,,,Deborah McGuinness,http://data.semanticweb.org/person/deborah-mcguinness,,5,,,,71ff9c05d8111e6a4bfcbd452a5c5579b24c39dc,1,Rensselaer Polytechnic Institute;RPI;McGuinness Associates;Stanford University;Stanford University - BMIR,3
+,,,,,Deepali Khushraj,http://data.semanticweb.org/person/deepali-khushraj,,0,,,,e63da76e4a6c0c55534ccbabe5f2cfffca41ce30,1,"Nokia Research Center, Cambridge",1
+,,,,,Dengping Wei,http://data.semanticweb.org/person/dengping-wei,,1,,,,bf0c3dc7abd6f1ec835d20b8ceb92ad9a0ad49f5,1,"Department of Computer Science and Technology, School of Computer, National University of Defense Technology, China",1
+,,,,,Derek Sleeman,http://data.semanticweb.org/person/derek-sleeman,,0,,,,cd55bc58cdf458781ce81a08aa80e4a49af3f8b1,1,University of Aberdeen,1
+,,,,,Diana Maynard,http://data.semanticweb.org/person/diana-maynard,,0,,,,6a9054d3a369f74a6338c546dceceeeb7be8ed6a,1,University Of Sheffield;The University of Sheffield;University of Sheffield,1
+,,,,,Dimitrios Giakoumis,http://data.semanticweb.org/person/dimitrios-giakoumis,,1,,,,60c30e9b5f04db5906b59f20fb7fbc4a1e4d7edf,1,Centre for Research and Technology Hellas (CERTH);Centre for Research and Technology Hellas;CERTH,1
+,,,,,Dimitrios Skoutas,http://data.semanticweb.org/person/dimitrios-skoutas,,1,,,,c2c3905ee18fb6ed699f0e1d390dafba156e2fff,1,National Technical University of Athens;National Technical Univ. of Athens,1
+,,,,,Dimitrios Tzovaras,http://data.semanticweb.org/person/dimitrios-tzovaras,,1,,,,c67c7164f492e321abb8ff1feb4f8d85946d397e,1,"Informatics and Telematics Institute (ITI), Greece;ITI;Centre for Research and Technology Hellas (CERTH);Centre for Research and Technology Hellas;CERTH",2
+,,,,,Dimitris Sacharidis,http://data.semanticweb.org/person/dimitris-sacharidis,,1,,,,326e2aa65a31726ba7e25c024e4413f7976f514d,1,National Technical University of Athens;National Technical Univ. of Athens,1
+,,,,,Dionysios Kehagias,http://data.semanticweb.org/person/dionysios-kehagias,,1,,,,cfa5cd94016ed4b07dd7636339bcaa3dbb4441a6,1,Centre for Research and Technology Hellas (CERTH);Centre for Research and Technology Hellas;CERTH,1
+,,,,,Dmitry Rogulin,http://data.semanticweb.org/person/dmitry-rogulin,,1,,,,e228136bb9593a02ba065f7b2741785ef381521e,1,"University of the West of England, Bristol;University of the West of England",1
+,,,,,Dominic Mainz,http://data.semanticweb.org/person/dominic-mainz,,1,,,,cf31861d1bc2a2efc82ad849fce0c163d6c1852f,1,"Heinrich-Heine-University Düsseldorf, Institute of Computer Science;Heinrich-Heine-University Duesseldorf, Department of Information Science",1
+,,,,,Dominik Benz,http://data.semanticweb.org/person/dominik-benz,,1,,,,5ad53cadeb9a0f5a27afadff026423894157a6e3,1,"Knowledge & Data Engineering Group, University of Kassel",1
+,,,,,Dominik Heim,http://data.semanticweb.org/person/dominik-heim,,1,,,,f876c2d60dbb32aaa4f6592da4a37220c1a644f6,1,"DFKI GmbH;DFKI GmbH, Language Technology Lab;DFKI;DFKI GmbH, Kaiserslautern;German Research Center for Artificial Intelligence",1
+,,,,,Dumitru Roman,http://data.semanticweb.org/person/dumitru-roman,,1,,,,a3368eaca754953fbcd7ed2ccb2ae7206128aefe,1,Semantic Technology Institute Innsbruck;STI Innsbruck,1
+,,,,,Dunja Mladenic,http://data.semanticweb.org/person/dunja-mladenic,,0,,,,98a26dfacc3ce23c7ae695e673e15413b7cb2603,1,Jozef Stefan Institute;J.Stefan Institute,1
+,,,,,Edith Schonberg,http://data.semanticweb.org/person/edith-schonberg,,1,,,,a53adc9a4033302868788d98103d812725ab49bf,1,IBM Research Laboratory;IBM Research,1
+,,,,,Edward Thomas,http://data.semanticweb.org/person/edward-thomas,,1,,,,5642a3afc4c64adc46bfa1a17f2424ff40c8f1a1,1,University of Aberdeen,1
+,,,,,Eero Hyvönen,http://data.semanticweb.org/person/eero-hyvoenen,,0,,,,7d73fa70931b84379629716dda05909efab4dabb,1,Helsinki University of Technology (TKK),1
+,,,,,Elena Beisswanger,http://data.semanticweb.org/person/elena-beisswanger,,1,,,,1f7d93280937e25fce22bd0342d20b4ec1913055,1,Jena University,1
+,,,,,Elena Simperl,http://data.semanticweb.org/person/elena-paslaru-bontas-simperl,,0,,,,09814d21068fb5bacc73c395dfd09780f462748a,1,Semantic Technology Institute Innsbruck;STI Innsbruck,1
+,,,,,Elie Sanchez,http://data.semanticweb.org/person/elie-sanchez,,0,,,,a55215f90024edab2d70aecfa8bb583f8fe4f518,1,"LIF, Universite Aix-Marseille II",1
+,,,,,Elisa Kendall,http://data.semanticweb.org/person/elisa-kendall,,0,,,,aec71169eb463ea4198b95d37570672610e70e89,1,"Sandpiper Software, Inc.",1
+,,,,,Emmanuelle Bermès,http://data.semanticweb.org/person/emmanuelle-bermes,,1,,,,a10b66ed5fd25f4d3833089212055a79da447e3e,1,Bibliothèque nationale de France,1
+,,,,,Enrico Daga,http://data.semanticweb.org/person/enrico-daga,,1,,,,424c24fe2a0860c82d37bb781361cf413178279b,1,"Semantic TechnoIogy Lab, CNR;CNR;Semantic TechnoIogy Lab. ISTC-CNR;CNR-ISTC",1
+,,,,,Enrico Minack,http://data.semanticweb.org/person/enrico-minack,,1,,,,d2c1717ba69c0baacdc4437aaf82ed17a0115a41,1,"Research Center L3S;L3S Research Center;L3S Research Center & Hannover University;L3S Research Center, Hannover, Germany",1
+,,,,,Enrico Motta,http://data.semanticweb.org/person/enrico-motta,,3,,,,28a0f82609671f47d811e6bee865afb23abfb8db,1,"Knowledge Media Institute, the Open University;Knowledge Media Institute, The Open University;The Open University;KMi, The Open University;KMi, Open University",1
+,,,,,Erik van Mulligen,http://data.semanticweb.org/person/erik-van-mulligen,,1,,,,ecd6dfb2c1f305c8cda9b3062e08edd320192c3a,1,Erasmus Medical Center Rotterdam;Erasmus MC - University Medical Center Rotterdam,1
+,,,,,Evgeni Golov,http://data.semanticweb.org/person/evgeni-golov,,1,,,,6132d4c7366282ab711a8c554b7e292f271ccc56,1,"Heinrich-Heine-University Düsseldorf, Institute of Computer Science;Heinrich-Heine-University Duesseldorf, Department of Information Science",1
+,,,,,Evren Sirin,http://data.semanticweb.org/person/evren-sirin,,0,,,,199129950aa1a391f5e9ca3fce00a2e4c17f678c,1,"Clark & Parsia, LLC;Clark & Parsia LLC",1
+,,,,,Eyal Oren,http://data.semanticweb.org/person/eyal-oren,,1,,,,38cd31e61b1df636aec6c443e825960703f4e6e9,1,VU Amsterdam;UVA;Vrije Universiteit Amsterdam;VU University Amsterdam;Vrije University Amsterdam,1
+,,,,,Fabio Ciravegna,http://data.semanticweb.org/person/fabio-ciravegna,,1,,,,464d09b4ca82f5a8e391511cd3d86c2bda719baa,1,University Of Sheffield;The University of Sheffield;University of Sheffield,1
+,,,,,Fadi Badra,http://data.semanticweb.org/person/fadi-badra,,1,,,,2e191bce60b6bf89bdc74c13714e996d3edbd6a1,1,LORIA,1
+,,,,,Faezeh Ensan,http://data.semanticweb.org/person/faezeh-ensan,,1,,,,02411d5e496a077b46a587908e1bbf4955b46f5d,1,University of New Brunswick,1
+,,,,,Fausto Giunchiglia,http://data.semanticweb.org/person/fausto-giunchiglia,,0,,,,ad1bf97094dfdc9d370fdf06df968c90c4b4852d,1,"University of Trento;DIT, University of Trento",1
+,,,,,Felix Kratzer,http://data.semanticweb.org/person/felix-kratzer,,1,,,,7e8dd156f3c0d9aab2b6e5224ca74b76cf32d615,1,pi-consult GmbH,1
+,,,,,Feng Cao,http://data.semanticweb.org/person/feng-cao,,2,,,,2252d02011fca085904857c4c2c60898828caee0,1,IBM China Research Lab;IBM China Research Laboratory,1
+,,,,,Floriana Esposito,http://data.semanticweb.org/person/floriana-esposito,,2,,,,e11d3c3bab0abac8725bcfe1aaa2511f49f79713,1,"Computer Science Department - University of Bari;Dipartimento di Informatica - Università degli Studi di Bari;Dipartimento di Informatica, Università di Bari",1
+,,,,,Francesca Alessandra Lisi,http://data.semanticweb.org/person/francesca-alessandra-lisi,,1,,,,082657c852d69248417b8795e8e81298c554da83,1,"Computer Science Department - University of Bari;Dipartimento di Informatica - Università degli Studi di Bari;Dipartimento di Informatica, Università di Bari",1
+,,,,,Frank van Harmelen,http://data.semanticweb.org/person/frank-van-harmelen,,1,,,,61c8d2dcc50fab61e7f66101bd4d063d8ab4124d,1,VU Amsterdam;UVA;Vrije Universiteit Amsterdam;VU University Amsterdam;Vrije University Amsterdam,1
+,,,,,Frank van-Harmelen,http://data.semanticweb.org/person/frank-van-harmelen,,1,,,,61c8d2dcc50fab61e7f66101bd4d063d8ab4124d,1,VU Amsterdam;UVA;Vrije Universiteit Amsterdam;VU University Amsterdam;Vrije University Amsterdam,1
+,,,,,François Bry,http://data.semanticweb.org/person/francois-bry,,0,,,,00430dd3c7eb31e6f180c589b8214bb2b8bff180,1,University of Munich,1
+,,,,,Frédéric Vernier,http://data.semanticweb.org/person/frederic-vernier,,1,,,,ccab0d8bf70ffa3b08e04c8a2370d11eef955e2e,1,LIMSI-CNRS,1
+,,,,,Fulvio Corno,http://data.semanticweb.org/person/fulvio-corno,,1,,,,a50818f54d8e9b6e95ce4e3c745e3aab92a2ae85,1,Politecnico di Torino,1
+,,,,,Gang Wu,http://data.semanticweb.org/person/gang-wu,,1,,,,838a92a624089c4539779ab4057d9ab0e6c731d6,1,"Department of Computer Science and Technology, Tsinghua University",1
+,,,,,Gautier Poupeau,http://data.semanticweb.org/person/gautier-poupeau,,1,,,,fc6c96cb766d6773decc0802dcf1ac95779d4cb7,1,Atos Origin,1
+,,,,,Georg Lausen,http://data.semanticweb.org/person/georg-lausen,,1,,,,9b94eccc1de49ceee1f8fe147ffa5e994a5080af,1,University of Freiburg;Freiburg University,1
+,,,,,Georg Schmidt,http://data.semanticweb.org/person/georg-schmidt,,1,,,,88e97877987d6b881f097da47481b4dbd2af1cde,1,brox IT-Solutions GmbH,1
+,,,,,George Fletcher,http://data.semanticweb.org/person/george-fletcher,,1,,,,eac11ac99e4af79d2254940c3b3c3382ab7d3963,1,"Washington State University, Vancouver",1
+,,,,,Georgios Meditskos,http://data.semanticweb.org/person/georgios-meditskos,,1,,,,1ec7e909d2d065bb4e8c5d49547da2f7ec368fec,1,"Aristotle University of Thessaloniki, Greece;Aristotle University of Thessaloniki",1
+,,,,,Gerald Reif,http://data.semanticweb.org/person/gerald-reif,,1,,,,a55828e2f196487ffc8a0165230c84e1b92e54c0,1,"University of Zurich;Department of Informatics, University of Zurich;Univ Zürich",1
+,,,,,Gerard de Melo,http://data.semanticweb.org/person/gerard-de-melo,,1,,,,349424ed9dd9413c3b49b6db639af2e46fb9e4c6,1,Max-Planck Institute for Informatics;Max Planck Institute for Informatics,1
+,,,,,Gerd Stumme,http://data.semanticweb.org/person/gerd-stumme,,1,,,,b5fb2cb32e71128cdf273cad45706863bccbbdca,1,University of Kassel,1
+,,,,,Gerhard Friedrich,http://data.semanticweb.org/person/gerhard-friedrich,,0,,,,0b3c57a08eacdd39224b5272381cf7dc0af12400,1,University Klagenfurt,1
+,,,,,Gerhard Weikum,http://data.semanticweb.org/person/gerhard-weikum,,1,,,,f1b5aab0cb717d9e791d598e03d8a1b048bc6cf0,1,Max-Planck Institute for Informatics;Max Planck Institute for Informatics,1
+,,,,,Germán Toro del Valle,http://data.semanticweb.org/person/german-toro-del-valle,,1,,,,3b632c51683d831616acb2a98af19118aeadfe1f,1,Telefónica Research and Development;Telefonica R&D,1
+,,,,,Gianni Vercelli,http://data.semanticweb.org/person/gianni-vercelli,,1,,,,ff2cf2fe89e25fb5a50182793941bcb19444ed49,1,DIST - University of Genoa,1
+,,,,,Gideon Zenz,http://data.semanticweb.org/person/gideon-zenz,,1,,,,103222c47128a9d1712e082546f3360a732a91a7,1,"Research Center L3S;L3S Research Center;L3S Research Center & Hannover University;L3S Research Center, Hannover, Germany",1
+,,,,,Giorgos Stamou,http://data.semanticweb.org/person/giorgos-stamou,,0,,,,ed24f9a731f7d754cfd077da217c483efea94d89,1,National Technical University of Athens;National Technical Univ. of Athens,1
+,,,,,Glen Hart,http://data.semanticweb.org/person/glen-hart,,3,,,,20e382d981f723a765ea9f9541b24b22aad4ab64,1,Ordnance Survey;Ordnance Survey of Great Britain,1
+,,,,,Glenda Kelly,http://data.semanticweb.org/person/glenda-kelly,,1,,,,aa54ba6c56d4372cfe9d1f49208b1418630e90a1,1,Duke University,1
+,,,,,Gong Cheng,http://data.semanticweb.org/person/gong-cheng,,1,,,,90949b51ff990bbe53fa3b030fb31b3c90634551,1,"Institute of Web Science, School of Computer Science and Engineering, Southeast University, P.R. China",1
+,,,,,Grażyna Paliwoda-Pękosz,http://data.semanticweb.org/person/grazyna-paliwoda-pekosz,,1,,,,2aca070d989e9fbf8b35ff7abaa6dd3e42b63f41,1,"Cracow University of Economics, Department of Computational Systems",1
+,,,,,Grigoris Antoniou,http://data.semanticweb.org/person/grigoris-antoniou,,0,,,,f44cd7769f416e96864ac43498b082155196829e,1,Institute of Computer Science-FORTH;FORTH-ICS,1
+,,,,,Guilin Qi,http://data.semanticweb.org/person/guilin-qi,,1,,,,7618a76dbd015fd744d2a2d5ef46642e65764490,1,Universität Karlsruhe;University of Karlsruhe,1
+,,,,,Guo Tong Xie,http://data.semanticweb.org/person/guotong-xie,,5,,,,f5c34dd1538d2a82798ba9b1ff312b6f477149c1,1,IBM China Research Lab;IBM China Research Laboratory,1
+,,,,,Guotong Xie,http://data.semanticweb.org/person/guotong-xie,,5,,,,f5c34dd1538d2a82798ba9b1ff312b6f477149c1,1,IBM China Research Lab;IBM China Research Laboratory,1
+,,,,,Guus Schreiber,http://data.semanticweb.org/person/guus-schreiber,,1,,,,ddaa983ca5d101642d761f81ec885e9c2bd0a093,1,VU Amsterdam;UVA;Vrije Universiteit Amsterdam;VU University Amsterdam;Vrije University Amsterdam,1
+,,,,,Gwenn Englebienne,http://data.semanticweb.org/person/gwenn-englebienne,,1,,,,188ef5bbc8b79ccfed2a5ac895dc38d6002671f3,1,University of Amsterdam;Universiteit van Amsterdam,1
+,,,,,Hai Zhuge,http://data.semanticweb.org/person/hai-zhuge,,0,,,,29a3ebb0d7ecebdb904313a53ec019b473ed42e8,1,"Institute of Computing Technology, Chinese Academy of Sciences",1
+,,,,,Hamidah Ibrahim,http://data.semanticweb.org/person/hamidah-ibrahim,,1,,,,e7d15277a81e946cb04aefcc792caecbb38dd12e,1,Universiti Putra Malaysia (UPM),1
+,,,,,Hamish Cunningham,http://data.semanticweb.org/person/hamish-cunningham,,1,,,,fb5cf1828c9604d218e22ab06b11c02cf69eb4f2,1,University Of Sheffield;The University of Sheffield;University of Sheffield,1
+,,,,,Hanyu Li,http://data.semanticweb.org/person/hanyu-li,,1,,,,76aec0bf1818516cd44c70825b63bbf3e63b87b8,1,IBM China Research Lab;IBM China Research Laboratory,1
+,,,,,Harald Gall,http://data.semanticweb.org/person/harald-gall,,1,,,,468a23599326fb9fda9cab78a28201bd4d5bc756,1,"University of Zurich;Department of Informatics, University of Zurich;Univ Zürich",1
+,,,,,Harith Alani,http://data.semanticweb.org/person/harith-alani,,1,,,,7c2ab565d1b14088c57954680eacbe9522329763,1,University of Southampton,1
+,,,,,Harry Halpin,http://data.semanticweb.org/person/harry-halpin,,1,,,,c5e75a0dd882184416c8680f5c402a261314bb79,1,University of Edinburgh,1
+,,,,,Heiner Stuckenschmidt,http://data.semanticweb.org/person/heiner-stuckenschmidt,,0,,,,f072571d8c8abd21e637a9dec2c5e835165c8ece,1,University of Mannheim,1
+,,,,,Hideaki Takeda,http://data.semanticweb.org/person/hideaki-takeda,,1,,,,b89c2a9de1b2b9c0b16d4d1e0bc33ca371f25e46,1,University of Tokyo;National Institute of Informatics,2
+,,,,,Holger Knublauch,http://data.semanticweb.org/person/holger-knublauch,,0,,,,0de329b1ffd56bada5b19dddeae2ec48ea20152a,1,,0
+,,,,,Holger Lewen,http://data.semanticweb.org/person/holger-lewen,,0,,,,036c0ec78378436586c9383f93b4726d52248bb7,1,Universität Karlsruhe;University of Karlsruhe,1
+,,,,,Holger Stenzhorn,http://data.semanticweb.org/person/holger-stenzhorn,,1,,,,2d653bed80ad98cd2fbff73902f68e1f88a76713,1,University Medical Center Freiburg;Freiburg University Hospital,1
+,,,,,Holger Wache,http://data.semanticweb.org/person/holger-wache,,0,,,,612ab1009b9f9bb7c31f53982a6de846e572dfff,1,University of Applied Science Northwestern Switzerland,1
+,,,,,Hong-Gee Kim,http://data.semanticweb.org/person/hong-gee-kim,,0,,,,283b71fc1fc4720170c6060c82f5446703fb3374,1,Seoul National University,1
+,,,,,Horacio Saggion,http://data.semanticweb.org/person/horacio-saggion,,0,,,,85be6818d5852d4af1775e73c65f2364aed6583d,1,University Of Sheffield;The University of Sheffield;University of Sheffield,1
+,,,,,Huib Aldewereld,http://data.semanticweb.org/person/huib-aldewereld,,1,,,,85015df5f1036272a6e79facf1c6ccf5927f51c5,1,University of Utrecht;Universiteit Utrecht,1
+,,,,,Ian Emmons,http://data.semanticweb.org/person/ian-emmons,,0,,,,840daae0c0ccb12ecc5f4188244078806aa5a2b7,1,,0
+,,,,,Ian Harrison,http://data.semanticweb.org/person/ian-harrison,,1,,,,523253577c98740c3d4ed34fe7501100724e4d85,1,SRI International;SRI,1
+,,,,,Ian Holt,http://data.semanticweb.org/person/ian-holt,,1,,,,e9b5c07656ccad22203df9bee4b01a9dce28fbc2,1,Ordnance Survey;Ordnance Survey of Great Britain,1
+,,,,,Ian Horrocks,http://data.semanticweb.org/person/ian-horrocks,,1,,,,6513c77252b509e1e5072e1bb5c3cce030567015,1,University of Oxford,1
+,,,,,Ignazio Palmisano,http://data.semanticweb.org/person/ignazio-palmisano,,1,,,,72a0c52f7aa5355c1b6e92e9e93e684e87e12b7e,1,"University of Liverpool, Computer Science Department;University of Liverpool",1
+,,,,,Igor Novakovic,http://data.semanticweb.org/person/igor-novakovic,,1,,,,791241d579b3a47a2be5be1151b306a21f750927,1,empolis GmbH,1
+,,,,,Iris Miliaraki,http://data.semanticweb.org/person/iris-miliaraki,,1,,,,bdcaabe25123d2d120184958cad9a3b4ec96dd7e,1,National and Kapodistrian University of Athens,1
+,,,,,Iryna Gurevych,http://data.semanticweb.org/person/iryna-gurevych,,1,,,,c40e248a60f6c8c97b0c8acc7251efc78963879e,1,Technische Universitaet Darmstadt;Darmstadt University of Technology,1
+,,,,,Isabel Cruz,http://data.semanticweb.org/person/isabel-cruz,,0,,,,450162ac52a51c1ed888fa843c004bbc77d8e757,1,University of Illinois at Chicago,1
+,,,,,Isabella Peters,http://data.semanticweb.org/person/isabella-peters,,1,,,,5ceed2551c3f2af16c244eb14ac51978e16d59f8,1,"Heinrich-Heine-University Düsseldorf, Institute of Computer Science;Heinrich-Heine-University Duesseldorf, Department of Information Science",1
+,,,,,Ivan Cantador,http://data.semanticweb.org/person/ivan-cantador,,1,,,,b16b236b808b9772d4dba554486b73a41b572ad1,1,Universidad Autonoma de Madrid,1
+,,,,,Ivan Herman,http://data.semanticweb.org/person/ivan-herman,,0,,,,5ac8032d5f6012aa1775ea2f63e1676bafd5e80b,1,World Wide Web Consortium,1
+,,,,,Jacco van Ossenbruggen,http://data.semanticweb.org/person/jacco-van-ossenbruggen,,1,,,,55937258805a240393727f8e803f0c787135bb91,1,"Centre for Mathematics and Computer Sciences (CWI);CWI;CWI, Amsterdam",1
+,,,,,Jagannathan Srinivasan,http://data.semanticweb.org/person/jagannathan-srinivasan,,1,,,,f3f12b445bccb179c3316d72820d4cd6e781cff0,1,Oracle,1
+,,,,,James Cunningham,http://data.semanticweb.org/person/james-cunningham,,1,,,,38354e876db144fe227589b60539acc80a6f2ddf,1,University of Manchester;The University of Manchester,1
+,,,,,James Hendler,http://data.semanticweb.org/person/james-hendler,,3,,,,b03a8c07c75cce97ff800d07844b75fd3a12f9ae,1,Rensselaer Polytechnic Institute;RPI,1
+,,,,,James Michaelis,http://data.semanticweb.org/person/james-michaelis,,1,,,,cbac22ca7a15891dfad9f359cd0e5e071cbfd18c,1,Rensselaer Polytechnic Institute;RPI,1
+,,,,,Jan Maluszynski,http://data.semanticweb.org/person/jan-maluszynski,,0,,,,23c5ce4ea015ee6b1c1f3fc4a18ade37f386a960,1,Linköping University,1
+,,,,,Jan Wielemaker,http://data.semanticweb.org/person/jan-wielemaker,,1,,,,ee65c949f273e1f02417a85c3be8c706ccc367c6,1,VU Amsterdam;UVA;Vrije Universiteit Amsterdam;VU University Amsterdam;Vrije University Amsterdam;University of Amsterdam;Universiteit van Amsterdam,2
+,,,,,Jan Zemánek,http://data.semanticweb.org/person/jan-zemanek,,1,,,,59b6ef35fd7e4fdb5a06d9df5f53cec368735537,1,"University of Economics, Prague",1
+,,,,,Jane Hunter,http://data.semanticweb.org/person/jane-hunter,,1,,,,aa9c9fb37fb8139e785ea9a59e2a8cc8cacf896e,1,University of Queensland,1
+,,,,,Jans Aasman,http://data.semanticweb.org/person/jans-aasman,,1,,,,203216e2412e287bad61ff368f0b51f41cc73311,1,"Franz, Inc.",1
+,,,,,Jean Lieber,http://data.semanticweb.org/person/jean-lieber,,1,,,,4882f098de7c711c69cd64204d42ec8350973ce7,1,LORIA,1
+,,,,,Jeff Heflin,http://data.semanticweb.org/person/jeff-heflin,,0,,,,1d8b1638f1c01384c2d034bb1853ecbe8952a4aa,1,Lehigh University,1
+,,,,,Jeff Partyka,http://data.semanticweb.org/person/jeff-partyka,,1,,,,a8c2c3f4a32ca12185ea344acdb1160c2843cc50,1,University of Texas at Dallas,1
+,,,,,Jeff Z. Pan,http://data.semanticweb.org/person/jeff-z-pan,,2,,,,24b23425121f196eb8f9826538eac262f57cf66d,1,University of Aberdeen,1
+,,,,,Jennifer Golbeck,http://data.semanticweb.org/person/jennifer-golbeck,,0,,,,007da7d143698299a48e0e578011ec5404ffd5f1,1,"University of Maryland, Baltimore County;University of Maryland Baltimore County;Univ Maryland",1
+,,,,,Jennifer Green,http://data.semanticweb.org/person/jennifer-green,,1,,,,ee9792a63d44998db9710c70899ca6575f8cc6e4,1,Ordnance Survey;Ordnance Survey of Great Britain,1
+,,,,,Jens Lehmann,http://data.semanticweb.org/person/jens-lehmann,,1,,,,01fee219e665ecea3905f361517b2bd4a344975d,1,"University of Leipzig, Department of Computer Science;University of Leipzig;University Leipzig",1
+,,,,,Jerome Euzenat,http://data.semanticweb.org/person/jerome-euzenat,,2,,,,22bc9bfef9e568c1439538b6a03d4cd8becf01f9,1,INRIA Rhône-Alpes,1
+,,,,,Jerome Thomere,http://data.semanticweb.org/person/jerome-thomere,,1,,,,fccefa5e1847727fe16b95cccd4c0e402a3ca3b9,1,SRI International;SRI,1
+,,,,,Jetendr Shamdasani,http://data.semanticweb.org/person/jetendr-shamdasani,,1,,,,74db600d4f1a347318a12f3d7823238bd7c6edf5,1,"University of the West of England, Bristol;University of the West of England",1
+,,,,,Ji Wang,http://data.semanticweb.org/person/ji-wang,,1,,,,db10b6911daf9d423a8f92ca781f3ae4dda09e85,1,"National Laboratory for Parallel and Distributed Processing, China",1
+,,,,,Jie Bao,http://data.semanticweb.org/person/jie-bao,,1,,,,c8753e1e5adcf276fb3e9e2c19f399cc71e90337,1,Rensselaer Polytechnic Institute;RPI,1
+,,,,,Jihie Kim,http://data.semanticweb.org/person/jihie-kim,,0,,,,49c6deee910dc5e3f09b7bad42962d54f0953ba2,1,,0
+,,,,,Jihye Lee,http://data.semanticweb.org/person/jihye-lee,,1,,,,d64fe8560626b70999b70f304e13d5b4d1de1c7f,1,Korea Institute of Science and Technology (KIST),1
+,,,,,Jim Hendler,http://data.semanticweb.org/person/james-hendler,,3,,,,b03a8c07c75cce97ff800d07844b75fd3a12f9ae,1,Rensselaer Polytechnic Institute;RPI,1
+,,,,,Jin Song Dong,http://data.semanticweb.org/person/jin-song-dong,,1,,,,4d4ba2a35ffcf36dad45f24d751a39866623975f,1,National University of Singapore,1
+,,,,,Jing Mei,http://data.semanticweb.org/person/jing-mei,,3,,,,6f53a3cf9ab1a2eef25e702f8cd6a9d0350d17fa,1,IBM China Research Lab;IBM China Research Laboratory,1
+,,,,,Joanna Guss,http://data.semanticweb.org/person/joanna-guss,,1,,,,d49b094253d6cf78e12e12a0989f12f6ca7f4b3d,1,EADS France,1
+,,,,,Joe Rockmore,http://data.semanticweb.org/person/joe-rockmore,,0,,,,f35d1617fb9afbe81b2bfa030e71d61d884eeaa0,1,,0
+,,,,,Joel Sachs,http://data.semanticweb.org/person/joel-sachs,,2,,,,6e24078f11fc0fa0c437f087903bea38f372542a,1,"University of Maryland, Baltimore County;University of Maryland Baltimore County;Univ Maryland",1
+,,,,,Johan Koolwaaij,http://data.semanticweb.org/person/johan-koolwaaij,,2,,,,9f1b8118dd1a5638f56c406f7529e64cc3a63480,1,Telematica Instituut,1
+,,,,,Johann-Christoph Freytag,http://data.semanticweb.org/person/johann-christoph-freytag,,1,,,,df0c8b3acacd91afa62690a5e20c56bd7373a6e0,1,Humboldt-Universität zu Berlin,1
+,,,,,Johanna Völker,http://data.semanticweb.org/person/johanna-voelker,,1,,,,abcc5402c76eeaea4fc989af80e0a9a961bfe0a7,1,"Institute AIFB, University of Karlsruhe;AIFB, Universität Karlsruhe (TH);AIFB, University of Karlsruhe;Insitute AIFB, University Karlsruhe;Institute AIFB, Universität Karlsruhe (TH);AIFB, Universität Karlsruhe",1
+,,,,,John Colgrave,http://data.semanticweb.org/person/john-colgrave,,2,,,,13ce2e647c40b464a73b415240a4380b289a79b5,1,IBM Software Group,1
+,,,,,John Darlington,http://data.semanticweb.org/person/john-darlington,,1,,,,f343ff1bc617f3c90d0f50e0d197e0b3222fd499,1,University of Southampton,1
+,,,,,John Davies,http://data.semanticweb.org/person/john-davies,,0,,,,737d6926354e5956f8a3ce371f71d49da4fbe20d,1,BT,1
+,,,,,John Dobree,http://data.semanticweb.org/person/john-dobree,,1,,,,,0,University of Southampton,1
+,,,,,John Domingue,http://data.semanticweb.org/person/john-domingue,,0,,,,ee358e3b2e0d8a6dd78e3b2ae9d56dd03a2c5941,1,"Knowledge Media Institute, the Open University;Knowledge Media Institute, The Open University;The Open University;KMi, The Open University;KMi, Open University",1
+,,,,,John Giannandrea,http://data.semanticweb.org/person/john-giannandrea,,0,,,,,0,,0
+,,,,,John Goodwin,http://data.semanticweb.org/person/john-goodwin,,1,,,,4e6e5f3e9ee7afb2826133bbc3c6695d19674cc4,1,Ordnance Survey;Ordnance Survey of Great Britain,1
+,,,,,John Grundy,http://data.semanticweb.org/person/john-grundy,,1,,,,205b9b659e474581369975fec5881773cd80563e,1,University of Auckland,1
+,,,,,John Hosking,http://data.semanticweb.org/person/john-hosking,,1,,,,9f574e31653fc42b039cb1adad3d62fba505c262,1,University of Auckland,1
+,,,,,John Miller,http://data.semanticweb.org/person/john-miller,,0,,,,a677a2f220297cb804b4d3b019ada1f6fc968fa9,1,University of Georgia,1
+,,,,,Jorge Pérez,http://data.semanticweb.org/person/jorge-a-perez,,1,,,,c1a6db51c27b1713615b1c3e6e4409ea7b1b0722,1,PUC Chile,1
+,,,,,Jose Julio Alferes,http://data.semanticweb.org/person/jose-julio-alferes,,1,,,,90006b80834d12ce5b86b77881da8faaf5ce235e,1,Universidade Nova de Lisboa,1
+,,,,,Jose Manuel Gomez-Perez,http://data.semanticweb.org/person/jose-manuel-gomez-perez,,1,,,,d95c6613086420712f5f0e79533ec46223c4ae93,1,"iSOCO, S.A.",1
+,,,,,José Luis Ambite,http://data.semanticweb.org/person/jose-luis-ambite,,0,,,,1e430f2ad8c3dd42da0ac00ed2c6a7c3e6fcaeb5,1,University of Southern California,1
+,,,,,Juan F. Sequeda,http://data.semanticweb.org/person/juan-f-sequeda,,1,,,,e36a6c5f10bf558670ec81424012f651b25e23a4,1,"Department of Computer Sciences, The University of Texas at Austin",1
+,,,,,Juanzi Li,http://data.semanticweb.org/person/juanzi-li,,1,,,,,0,"Department of Computer Science and Technology, Tsinghua University",1
+,,,,,Juergen Angele,http://data.semanticweb.org/person/juergen-angele,,0,,,,e86a470b51a386a6fb7988e4bce19254d91ea350,1,ontoprise GmbH,1
+,,,,,Julian Dolby,http://data.semanticweb.org/person/julian-dolby,,1,,,,ab2bddc57e5d65d6f1e31ed59c14e0063bc0fb65,1,IBM TJ Watson Research Center;IBM T. J. Watson Research Center;IBM T.J. Watson Research Center,1
+,,,,,Juri Luca De Coi,http://data.semanticweb.org/person/juri-luca-de-coi,,1,,,,493fcf27055b93d646235c00ba0221f67222823b,1,"Research Center L3S;L3S Research Center;L3S Research Center & Hannover University;L3S Research Center, Hannover, Germany",1
+,,,,,Jérôme David,http://data.semanticweb.org/person/jerome-david,,1,,,,3a1e43133839315dbf2ad69092ad987d54c2fa5e,1,INRIA Rhône-Alpes,1
+,,,,,Jérôme Euzenat,http://data.semanticweb.org/person/jerome-euzenat,,2,,,,22bc9bfef9e568c1439538b6a03d4cd8becf01f9,1,INRIA Rhône-Alpes,1
+,,,,,Jörg Koch,http://data.semanticweb.org/person/joerg-koch,,1,,,,7be97a39dc01eb1a8714a15e182731aac97e521e,1,"ISWeb, University of Koblenz-Landau, Germany;University of Koblenz-Landau;Universität Koblenz- Landau",1
+,,,,,Jürgen Bock,http://data.semanticweb.org/person/juergen-bock,,1,,,,c8c633c818cbd11bf01467de28230aa5559436e4,1,FZI Forschungszentrum Informatik;FZI Karlsruhe;FZI Research Center for Information Technologies,1
+,,,,,Jürgen Mainz,http://data.semanticweb.org/person/juergen-mainz,,1,,,,29a3b612be998fad90ae6956e662286da7bc5e57,1,"VARION GmbH,  Agency for Communication Design",1
+,,,,,Kaarel Kaljurand,http://data.semanticweb.org/person/kaarel-kaljurand,,1,,,,4631d88ec588e303c267a698eef59f46b55af1a8,1,"University of Zurich;Department of Informatics, University of Zurich;Univ Zürich",1
+,,,,,Kai Mainzer,http://data.semanticweb.org/person/kai-mainzer,,1,,,,af09bf321a7518ecd3f57348047596665e339190,1,FZI Forschungszentrum Informatik;FZI Karlsruhe;FZI Research Center for Information Technologies,1
+,,,,,Kalina Bontcheva,http://data.semanticweb.org/person/kalina-bontcheva,,1,,,,ca40a5f5c913e833a0419992909b3c53354bf853,1,University Of Sheffield;The University of Sheffield;University of Sheffield,1
+,,,,,Karl Aberer,http://data.semanticweb.org/person/karl-aberer,,0,,,,a9877790616eb28af52fd602e67b0dbeb50f5399,1,Ecole Polytechnique Fédérale de Lausanne;EPFL,1
+,,,,,Katrin Weller,http://data.semanticweb.org/person/katrin-weller,,2,,,,710bef6b764430f635a8aab0a1a9ef6227d6777a,1,"Heinrich-Heine-University Düsseldorf, Institute of Computer Science;Heinrich-Heine-University Duesseldorf, Department of Information Science",1
+,,,,,Kavitha Srinivas,http://data.semanticweb.org/person/kavitha-srinivas,,1,,,,3524dd31de79a544b21dd104327c3c7eb9a9f139,1,IBM Research Laboratory;IBM Research,1
+,,,,,Kay-Uwe Schmidt,http://data.semanticweb.org/person/kay-uwe-schmidt,,1,,,,aff2d115ef88f25d546c5fa404095d871feea660,1,"SAP Research;SAP AG, SAP Research",1
+,,,,,Kehong Wang,http://data.semanticweb.org/person/kehong-wang,,1,,,,,0,"Department of Computer Science and Technology, Tsinghua University",1
+,,,,,Kemafor Anyanwu,http://data.semanticweb.org/person/kemafor-anyanwu,,0,,,,8caa6f23c7e9f622ab0b047a4850f1b32a505ae0,1,NCSU,1
+,,,,,Kevin Hass,http://data.semanticweb.org/person/kevin-hass,,0,,,,ede4669ec6f21c6dac872813a1ac31d8e7b47ee5,1,,0
+,,,,,Kevin Shank,http://data.semanticweb.org/person/kevin-shank,,2,,,,bb4857a64b1ecbd6241d6430ac995a26da47482d,1,IBM Software Group,1
+,,,,,Kieron O'Hara,http://data.semanticweb.org/person/kieron-o'hara,,1,,,,827118f1af15e70ac77aeacf5abd2bcb39e52dea,1,University of Southampton,1
+,,,,,Klaus Deissner,http://data.semanticweb.org/person/klaus-deissner,,1,,,,9a452c1fc98d0e14999f426588db563d332b06ec,1,SAP AG;SAP,1
+,,,,,Knud Möller,http://data.semanticweb.org/person/knud-moeller,,1,,,,b15d1e7efb11374644555fa9734bf75a553a362c,1,"DERI, National University of Ireland, Galway;Digital Enterprise Research Institute, Galway;DERI, NUIG;Digital Enterprise Research Institute (DERI), National University of Ireland, Galway;DERI NUIG;DERI Galway;Digital Enterprise Research Institute (DERI), Galway",1
+,,,,,Konstantina Garoufi,http://data.semanticweb.org/person/konstantina-garoufi,,1,,,,3c8b7e3e5e059e2180ff513a037c789fb0f89eb0,1,Technische Universitaet Darmstadt;Darmstadt University of Technology,1
+,,,,,Kotaro Nakayama,http://data.semanticweb.org/person/kotaro-nakayama,,1,,,,b0f8678fdb1e2e5fa83270c4c88989f9bf0b7088,1,"University of Osaka;Graduate School of Information Science and Technology, Osaka University;ISIR, Osaka University;I.S.I.R., Osaka University",1
+,,,,,Kouji Kozaki,http://data.semanticweb.org/person/kouji-kozaki,,1,,,,c493b1b07fa4dacfdda46edc55ebae341758972f,1,"University of Osaka;Graduate School of Information Science and Technology, Osaka University;ISIR, Osaka University;I.S.I.R., Osaka University",1
+,,,,,Krishnaprasad Thirunarayan,http://data.semanticweb.org/person/krishnaprasad-thirunarayan,,0,,,,e70f6742afd3d6c1b6eebb41e0ae7cfa1f150108,1,"Wright State University;Kno.e.sis Center, Wright State University",1
+,,,,,Kristina Lerman,http://data.semanticweb.org/person/kristina-lerman,,0,,,,6d22bba4a4128a5ea6cc69dc314c13e55db8d022,1,USC,1
+,,,,,Krisztian Buza,http://data.semanticweb.org/person/krisztian-buza,,1,,,,89eaad86181e94f4ac6507ae44cc694335af487d,1,University of Hildesheim,1
+,,,,,Krys Kochut,http://data.semanticweb.org/person/krys-kochut,,1,,,,2bd72d12b19e522246834ebb2ff36b835d1ffaa0,1,University of Georgia,1
+,,,,,Kunal Verma,http://data.semanticweb.org/person/kunal-verma,,1,,,,62e4912c917641080e3784abd21db24fda4ce6e2,1,Accenture Technology Labs,1
+,,,,,Lalana Kagal,http://data.semanticweb.org/person/lalana-kagal,,0,,,,,0,MIT CSAIL;MIT,1
+,,,,,Landong Zuo,http://data.semanticweb.org/person/landong-zuo,,1,,,,294d7e9e8ec1c2781bd0a11abf20d2b3e00a13f6,1,University of Southampton,1
+,,,,,Lars Schmidt-Thieme,http://data.semanticweb.org/person/lars-schmidt-thieme,,1,,,,3ff97691d04aa172889553373a3467666bf7c100,1,University of Hildesheim,1
+,,,,,Latifur Khan,http://data.semanticweb.org/person/latifur-khan,,1,,,,99d0484f13da0c5b984724da6183afd5b6d60fee,1,UTD,1
+,,,,,Laura Dragan,http://data.semanticweb.org/person/laura-dragan,,1,,,,ab5934d27a92809ebed5a443febf2ada9e069c1f,1,"DERI, National University of Ireland, Galway;Digital Enterprise Research Institute, Galway;DERI, NUIG;Digital Enterprise Research Institute (DERI), National University of Ireland, Galway;DERI NUIG;DERI Galway;Digital Enterprise Research Institute (DERI), Galway",1
+,,,,,Laurent Mazuel,http://data.semanticweb.org/person/laurent-mazuel,,1,,,,e34b33d7379076f866ff2dfd333afeab0b3dec80,1,Laboratoire d'Informatique de Paris 6 (LIP6);LIP6,1
+,,,,,Leandro Balby Marinho,http://data.semanticweb.org/person/leandro-balby-marinho,,1,,,,30f86e65f16e52ba6c66b8a7b4cc82343dc60850,1,University of Hildesheim,1
+,,,,,Lei Zhang,http://data.semanticweb.org/person/lei-zhang,,2,,,,1e653a24ec99b645d3e70b8931d6088089fa6e66,1,IBM China Research Lab;IBM China Research Laboratory,1
+,,,,,Leo Sauermann,http://data.semanticweb.org/person/leo-sauermann,,1,,,,bda8b719cf44de6997b69bc9cc5fca622b2645b3,1,"DFKI GmbH;DFKI GmbH, Language Technology Lab;DFKI;DFKI GmbH, Kaiserslautern;German Research Center for Artificial Intelligence",1
+,,,,,Leopoldo Bertossi,http://data.semanticweb.org/person/leopoldo-bertossi,,0,,,,d2bdbb5bd7db44ef3e5cfdb6a4fc16388abd6667,1,Carleton University,1
+,,,,,Li Ding,http://data.semanticweb.org/person/li-ding,,3,,,,a7d0967c21ba8952ab0443bf822750d4c44afe2c,1,Rensselaer Polytechnic Institute;RPI,1
+,,,,,Li Ma,http://data.semanticweb.org/person/li-ma,,1,,,,a12dfb43dd03863a25af319ca616c69fbc96e460,1,IBM China Research Lab;IBM China Research Laboratory,1
+,,,,,Libby Miller,http://data.semanticweb.org/person/libby-miller,,0,,,,f68e81ac6289ffd7391bd2c53ab1dc6447d09a2e,1,,0
+,,,,,Lidia Rovan,http://data.semanticweb.org/person/lidia-rovan,,1,,,,0d6c7766f1f3d2e81d99925d07a5ef7dbefe1bfa,1,FER,1
+,,,,,Ling Feng,http://data.semanticweb.org/person/ling-feng,,1,,,,,0,"Department of Computer Science and Technology, Tsinghua University",1
+,,,,,Lloyd Rutledge,http://data.semanticweb.org/person/lloyd-rutledge,,0,,,,82d291392dd886ea5c9f2e3e8dbd3b8871db33e1,1,"Centre for Mathematics and Computer Sciences (CWI);CWI;CWI, Amsterdam",1
+,,,,,Lora Aroyo,http://data.semanticweb.org/person/lora-aroyo,,0,,,,c1544e63d723bb7310c57a36a94dfa75ae9a63c3,1,VU Amsterdam;UVA;Vrije Universiteit Amsterdam;VU University Amsterdam;Vrije University Amsterdam,1
+,,,,,Luciano Serafini,http://data.semanticweb.org/person/luciano-serafini,,1,,,,7fea00a39da1a3986831556109303fc904b9f935,1,FBK-irst;FBK-IRST,1
+,,,,,Luigi Iannone,http://data.semanticweb.org/person/luigi-iannone,,1,,,,69b308ec0ea39f1c8ebf7d5c5fa31b4bb609bc57,1,University of Manchester;The University of Manchester,1
+,,,,,Luigi Sauro,http://data.semanticweb.org/person/luigi-sauro,,1,,,,06861b9f33c0f5830cf759eb382a8b512d94c5f6,1,"University of Naples Federico II;Universita ""Federico II"" di Napoli",1
+,,,,,Lushan Han,http://data.semanticweb.org/person/lushan-han,,2,,,,03dbca6624c73f2355f702a25b457ce3085ffd12,1,"University of Maryland, Baltimore County;University of Maryland Baltimore County;Univ Maryland",1
+,,,,,Lyndon JB Nixon,http://data.semanticweb.org/person/lyndon-j-b-nixon,,1,,,,9df7283a72695f1db07b8fe71ec7b9ef0d04fc33,1,Freie Universität Berlin;Free University of Berlin,1
+,,,,,László van den Hoek,http://data.semanticweb.org/person/laszlo-van-den-hoek,,1,,,,393154b2b5eae3babf3a56614fbf4c4c560e0ac7,1,Erasmus Medical Center Rotterdam;Erasmus MC - University Medical Center Rotterdam,1
+,,,,,Maciej Janik,http://data.semanticweb.org/person/maciej-janik,,1,,,,6824c78a7cdcdb5cbf10bcc60473e018e75ca263,1,University of Georgia,1
+,,,,,Maciej Zaremba,http://data.semanticweb.org/person/maciej-zaremba,,1,,,,f3bc619738a8c1ed64e732828c4bf7c8d1fed12f,1,"DERI, National University of Ireland, Galway;Digital Enterprise Research Institute, Galway;DERI, NUIG;Digital Enterprise Research Institute (DERI), National University of Ireland, Galway;DERI NUIG;DERI Galway;Digital Enterprise Research Institute (DERI), Galway",1
+,,,,,Makoto Nakatsuji,http://data.semanticweb.org/person/makoto-nakatsuji,,1,,,,676bbe0a08c39b31531c2543d7d3a6cd11ee1090,1,"NTT Cyber Solutions Laboratories, NTT Corporation",1
+,,,,,Malte Kiesel,http://data.semanticweb.org/person/malte-kiesel,,1,,,,8b616d8c4c0e8c74b1e144f49288c0f9a5461915,1,"DFKI GmbH;DFKI GmbH, Language Technology Lab;DFKI;DFKI GmbH, Kaiserslautern;German Research Center for Artificial Intelligence",1
+,,,,,Manfred Hauswirth,http://data.semanticweb.org/person/manfred-hauswirth,,0,,,,ddb493a8a7c94cb9fc0c6e8d108ce0f62fee6f06,1,"DERI, National University of Ireland, Galway;Digital Enterprise Research Institute, Galway;DERI, NUIG;Digital Enterprise Research Institute (DERI), National University of Ireland, Galway;DERI NUIG;DERI Galway;Digital Enterprise Research Institute (DERI), Galway",1
+,,,,,Manolis Koubarakis,http://data.semanticweb.org/person/manolis-koubarakis,,1,,,,92ea611cf55f95a0ffd94eca818bb9d8a3f9a735,1,National and Kapodistrian University of Athens,1
+,,,,,Manuel Salvadores,http://data.semanticweb.org/person/manuel-salvadores,,1,,,,3291e1da0075475e2e13a0e7e018c3480deb1a34,1,University of Southampton,1
+,,,,,Manuel Sánchez-Gestido,http://data.semanticweb.org/person/manuel-sanchez-gestido,,1,,,,354b5667b1f30759ed4831ce0e52b94cfb1b2b8b,1,DeimosSpace;Deimos Space,1
+,,,,,Marcelo Arenas,http://data.semanticweb.org/person/marcelo-arenas,,1,,,,263fbdd4ad0d4f74a9a210582a03d51d7e04b904,1,PUC Chile,1
+,,,,,Marco Rospocher,http://data.semanticweb.org/person/marco-rospocher,,1,,,,b2d9a20521be4a262d94874dac0e659899874a8c,1,FBK-irst;FBK-IRST,1
+,,,,,Marco Schorlemmer,http://data.semanticweb.org/person/marco-schorlemmer,,0,,,,79e03894637802fe4a4423e5c980d87ab00fd4d9,1,IIIA-CSIC,1
+,,,,,Marianne Winslett,http://data.semanticweb.org/person/marianne-winslett,,0,,,,df5d6fd45d6ed3868f4310ec0c03857c84691cb9,1,University of Illinois,1
+,,,,,Mark A. Musen,http://data.semanticweb.org/person/mark-a-musen,,4,,,,60602b405f9d456ffc0e30d22d535100159b7874,1,Stanford University;Stanford University - BMIR,1
+,,,,,Mark Ackerman,http://data.semanticweb.org/person/mark-ackerman,,0,,,,347e212640de8a144d582f1750134da10b03b610,1,"School of Information, University of Michigan;Deptartment of EECS, University of Michigan",2
+,,,,,Mark Musen,http://data.semanticweb.org/person/mark-a-musen,,4,,,,60602b405f9d456ffc0e30d22d535100159b7874,1,Stanford University;Stanford University - BMIR,1
+,,,,,Mark Steyvers,http://data.semanticweb.org/person/mark-steyvers,,1,,,,dfb5bc31a5824bcf127263f4f65dd6a18ba5f6bf,1,"University of California, Irvine",1
+,,,,,Marko Grobelnik,http://data.semanticweb.org/person/marko-grobelnik,,0,,,,b6706a96f87552df0b385ae8120db0633ba76a44,1,Jozef Stefan Institute;J.Stefan Institute,1
+,,,,,Marko Luther,http://data.semanticweb.org/person/marko-luther,,2,,,,d11e1107ec730d5c1a95a7f100af961697de0f32,1,"DoCoMo Euro-Lab, Munich;DoCoMo Euro-Labs;DoCoMo Euro labs;DoCoMo Euro-labs",1
+,,,,,Markus Krötzsch,http://data.semanticweb.org/person/markus-kroetzsch,,2,,,,9d431a8ef18a887f519056a688c86b2d5099a188,1,"Institute AIFB, University of Karlsruhe;AIFB, Universität Karlsruhe (TH);AIFB, University of Karlsruhe;Insitute AIFB, University Karlsruhe;Institute AIFB, Universität Karlsruhe (TH);AIFB, Universität Karlsruhe",1
+,,,,,Marlon Dumas,http://data.semanticweb.org/person/marlon-dumas,,0,,,,28e430728f99aa4a38fd46551170596ce0e8009a,1,University of Tartu,1
+,,,,,Marta Gonzalez,http://data.semanticweb.org/person/marta-gonzalez,,1,,,,6e0017b4b4dcff2c190e5163f8698c67062e5eea,1,FUNDACION ROBOTIKER,1
+,,,,,Marta Sabou,http://data.semanticweb.org/person/marta-sabou,,2,,,,19f8655880a3531e2a1d6eb329f44d5d6b88324b,1,"Knowledge Media Institute, the Open University;Knowledge Media Institute, The Open University;The Open University;KMi, The Open University;KMi, Open University",1
+,,,,,Martin Dzbor,http://data.semanticweb.org/person/martin-dzbor,,0,,,,a206257995bc1efb16ae4a168c0a5da77b592090,1,"Knowledge Media Institute, the Open University;Knowledge Media Institute, The Open University;The Open University;KMi, The Open University;KMi, Open University",1
+,,,,,Martin Hepp,http://data.semanticweb.org/person/martin-hepp,,1,,,,49e06491d1c02eead2d362e2300fa56d24ed5213,1,"Bundeswehr University Munich, Germany",1
+,,,,,Martin Huber,http://data.semanticweb.org/person/martin-huber,,1,,,,07a330817b7f37afce726259117dea5810651427,1,Siemens,1
+,,,,,Martin Kost,http://data.semanticweb.org/person/martin-kost,,1,,,,aebb97cf71c7291e2a9ef1c32e36a82bd93e57f7,1,Humboldt-Universität zu Berlin,1
+,,,,,Martin Szomszor,http://data.semanticweb.org/person/martin-szomszor,,1,,,,6a23f2cd1b8d602a9e665658d3a5b135b72a04fd,1,University of Southampton,1
+,,,,,Martin Wibbels,http://data.semanticweb.org/person/martin-wibbels,,2,,,,bea4e178846ec099f502edd9ba2db1f2dfe85431,1,Telematica Instituut,1
+,,,,,María S. Pérez-Hernández,http://data.semanticweb.org/person/maria-s-perez-hernandez,,1,,,,b72e23f7e43ac3e242665e4468d978e89a27be65,1,Universidad Politécnica de Madrid;Ontology Engineering Group. Laboratorio de Inteligencia Artificial. Facultad de Informática. Universidad Politécnica de Madrid.;Universidad Politecnica de Madrid,1
+,,,,,Massimo Paolucci,http://data.semanticweb.org/person/massimo-paolucci,,0,,,,399afe97d2817172bb4122357cc622fc558ccd48,1,"DoCoMo Euro-Lab, Munich;DoCoMo Euro-Labs;DoCoMo Euro labs;DoCoMo Euro-labs",1
+,,,,,Mathieu d'Aquin,http://data.semanticweb.org/person/mathieu-daquin,,4,,,,e61cc68181adeb9fbbddc539a6fa01dd24b299c8,1,"Knowledge Media Institute, the Open University;Knowledge Media Institute, The Open University;The Open University;KMi, The Open University;KMi, Open University",1
+,,,,,Matthew Horridge,http://data.semanticweb.org/person/matthew-horridge,,2,,,,29c0127871609390f3d73c72c9418cc2936ac0f8,1,University of Manchester;The University of Manchester,1
+,,,,,Matthias Klusch,http://data.semanticweb.org/person/matthias-klusch,,0,,,,57876bb570c0df05cb5353220e5b2e1a040c1409,1,"DFKI GmbH;DFKI GmbH, Language Technology Lab;DFKI;DFKI GmbH, Kaiserslautern;German Research Center for Artificial Intelligence",1
+,,,,,Matthias Wagner,http://data.semanticweb.org/person/matthias-wagner,,2,,,,c04ccc9ac1eb404ee3eff3b3d2c480f8133361ff,1,"DoCoMo Euro-Lab, Munich;DoCoMo Euro-Labs;DoCoMo Euro labs;DoCoMo Euro-labs",1
+,,,,,Medha Atre,http://data.semanticweb.org/person/medha-atre,,1,,,,5153cecb22e010b8a92bda33b50bee0d790c78b6,1,Rensselaer Polytechnic Institute;RPI,1
+,,,,,Melliyal Annamalai,http://data.semanticweb.org/person/melliyal-annamalai,,0,,,,,0,Oracle,1
+,,,,,Michael Denny,http://data.semanticweb.org/person/michael-denny,,0,,,,ed68e2f4c7b658d6bad18e597d9ef0359bb899b5,1,Concurrent Technologies Corp.,1
+,,,,,Michael Dorf,http://data.semanticweb.org/person/michael-dorf,,1,,,,918c001ba344bc7bc98ec32c7d50749561e13f2e,1,Stanford University;Stanford University - BMIR,1
+,,,,,Michael Hausenblas,http://data.semanticweb.org/person/michael-hausenblas,,0,,,,636480acf3cca05e96e612e5e6da6090efd5c71f,1,JOANNEUM RESEARCH,1
+,,,,,Michael Kifer,http://data.semanticweb.org/person/michael-kifer,,1,,,,1d65460e480f36e611ceea2b522450c389c09756,1,State University of New York at Stony Brook,1
+,,,,,Michael Montegut,http://data.semanticweb.org/person/michael-montegut,,1,,,,612ccb2bda85b3fb29f879d662001bbadc76817a,1,Stanford University;Stanford University - BMIR,1
+,,,,,Michael Schmidt,http://data.semanticweb.org/person/michael-schmidt,,1,,,,cc85dfb34e99f9aafe0d6029b5dd1f8a59ac5ee7,1,University of Freiburg;Freiburg University,1
+,,,,,Michael Schneider,http://data.semanticweb.org/person/michael-schneider,,1,,,,699892b04bf8c4b0233bb7165eebeb3e4cbfda03,1,FZI Forschungszentrum Informatik;FZI Karlsruhe;FZI Research Center for Information Technologies,1
+,,,,,Michael Sintek,http://data.semanticweb.org/person/michael-sintek,,0,,,,839411c1c10db49cbaaaaf5548046a3b01da275c,1,"DFKI GmbH;DFKI GmbH, Language Technology Lab;DFKI;DFKI GmbH, Kaiserslautern;German Research Center for Artificial Intelligence",1
+,,,,,Michael Smith,http://data.semanticweb.org/person/michael-smith,,0,,,,6a51753815324c6f2b91e234ff65a6e957cf8053,1,"Clark & Parsia, LLC;Clark & Parsia LLC",1
+,,,,,Michael Witbrock,http://data.semanticweb.org/person/michael-witbrock,,0,,,,bcf51e443ad64c89701f46ae0ce0805f0400a06f,1,Cyc,1
+,,,,,Michael Wolverton,http://data.semanticweb.org/person/michael-wolverton,,1,,,,afcceb087a4d285d0e2b32ee4739e429f1bd396b,1,SRI International;SRI,1
+,,,,,Michel Böhms,http://data.semanticweb.org/person/michel-boehms,,1,,,,732d7ba23dc536e25f54c124a024da8ee83fe73c,1,TNO,1
+,,,,,Michel Dumontier,http://data.semanticweb.org/person/michel-dumontier,,0,,,,,0,,0
+,,,,,Michiel Hildebrand,http://data.semanticweb.org/person/michiel-hildebrand,,2,,,,13a70b643856f5942654273834c22364ad6d7e3a,1,"Centre for Mathematics and Computer Sciences (CWI);CWI;CWI, Amsterdam",1
+,,,,,Mieczyslaw Kokar,http://data.semanticweb.org/person/mieczyslaw-kokar,,0,,,,eaad9460eaaf2f12d24d5f12ab288650edbbeccf,1,Northeastern University,1
+,,,,,Miguel Rezende da Silva,http://data.semanticweb.org/person/miguel-rezende-da-silva,,1,,,,c03f3d3968e7a229c06a7ce502312130ff480827,1,"Dept. of Informatics, PUC-Rio",1
+,,,,,Mihaela Vela,http://data.semanticweb.org/person/mihaela-vela,,1,,,,68fb82a6131314d57d6631d39b5d200bdb7bbbbe,1,DFKI Saarbruecken,1
+,,,,,Mike Dean,http://data.semanticweb.org/person/mike-dean,,0,,,,6006a914f7d645142fadf08d9a4e33aee98416d0,1,BBN Technologies;BBN,1
+,,,,,Mike Uschold,http://data.semanticweb.org/person/mike-uschold,,0,,,,dec13295cf321695245e9fce5dc7648f0ecaf7b6,1,,0
+,,,,,Milan Stankovic,http://data.semanticweb.org/person/milan-stankovic,,1,,,,5bcf5873f64d7a8e7edb3d6ee7a19af043a82e81,1,"Université Paris-Sud XI, Orsay, France",1
+,,,,,Munindar P. Singh,http://data.semanticweb.org/person/munindar-p-singh,,0,,,,179be4576c6ad71abe6b5c5404ea8b8fa86cdfa3,1,NCSU,1
+,,,,,Myon-Woong Park,http://data.semanticweb.org/person/myon-woong-park,,1,,,,68295a345b9c7e263f62b07fe2ff61527862d3b0,1,Korea Institute of Science and Technology (KIST),1
+,,,,,Natasha F. Noy,http://data.semanticweb.org/person/natalya-noy,,4,,,,7d8b34490f91ef43b84489a7630394b04a8c2c21,1,Stanford University;Stanford University - BMIR,1
+,,,,,Natasha Noy,http://data.semanticweb.org/person/natalya-noy,,4,,,,7d8b34490f91ef43b84489a7630394b04a8c2c21,1,Stanford University;Stanford University - BMIR,1
+,,,,,Naveen Ashish,http://data.semanticweb.org/person/naveen-ashish,,0,,,,9d769c1a9416b46f746425cf36190ee98bb957d0,1,"University of California, Irvine",1
+,,,,,Neda Alipanah,http://data.semanticweb.org/person/neda-alipanah,,1,,,,82ea56c1e1c649ffb44de1d0afb2d3a2274fd0e4,1,University of Texas at Dallas,1
+,,,,,Nicholas Del Rio,http://data.semanticweb.org/person/nicholas-del-rio,,1,,,,9fbb20cd0da82247f71efaec8a3131b778f16eff,1,University of Texas at El Paso,1
+,,,,,Nicholas Gibbins,http://data.semanticweb.org/person/nicholas-gibbins,,1,,,,28339a9a36ee4e330da9613958efb89e2961c6cb,1,University of Southampton,1
+,,,,,Nicholas Griffith,http://data.semanticweb.org/person/nicholas-griffith,,2,,,,2a4a3a69b678147ea26603824d5f756122e02710,1,Stanford University;Stanford University - BMIR,1
+,,,,,Nick Bassiliades,http://data.semanticweb.org/person/nick-bassiliades,,1,,,,8c1f1d8aa5613b419a5f3716110ce9dcd3a8946f,1,"Aristotle University of Thessaloniki, Greece;Aristotle University of Thessaloniki",1
+,,,,,Nicola Fanizzi,http://data.semanticweb.org/person/nicola-fanizzi,,1,,,,3c1395bd919491feee209479341d32552e97231c,1,"Computer Science Department - University of Bari;Dipartimento di Informatica - Università degli Studi di Bari;Dipartimento di Informatica, Università di Bari",1
+,,,,,Nicolas Sabouret,http://data.semanticweb.org/person/nicolas-sabouret,,1,,,,e6f75cab0590c1404ed1f98771feddd5f9dd1b1e,1,Laboratoire d'Informatique de Paris 6 (LIP6);LIP6,1
+,,,,,Nigam Shah,http://data.semanticweb.org/person/nigam-shah,,1,,,,40f599c3935f0f17928a090c90140795afcac7ec,1,Stanford University;Stanford University - BMIR,1
+,,,,,Nigel R. Shadbolt,http://data.semanticweb.org/person/nigel-r-shadbolt,,2,,,,e966302104bd52f060f0e4545e8299f2d54ee3ae,1,University of Southampton,1
+,,,,,Nigel Shadbolt,http://data.semanticweb.org/person/nigel-r-shadbolt,,2,,,,e966302104bd52f060f0e4545e8299f2d54ee3ae,1,University of Southampton,1
+,,,,,Norbert Küchlin,http://data.semanticweb.org/person/norbert-kuechlin,,1,,,,8229ab27c16c4620d7890e479eb52803052de2a1,1,University of Freiburg;Freiburg University,1
+,,,,,Norwati Mustapha,http://data.semanticweb.org/person/norwati-mustapha,,1,,,,210f017f48a1f9dbd974662e1fef0c206201ffee,1,Universiti Putra Malaysia (UPM),1
+,,,,,Olaf Hartig,http://data.semanticweb.org/person/olaf-hartig,,1,,,,9c09772d208636b590bf7b41d9d1976b80f6b335,1,Humboldt-Universität zu Berlin,1
+,,,,,Olivier Bodenreider,http://data.semanticweb.org/person/olivier-bodenreider,,0,,,,bf554f67d7b26477e3bf5bf955d4caacdc54a2d0,1,US National Library of Medicine,1
+,,,,,Oscar Corcho,http://data.semanticweb.org/person/oscar-corcho,,1,,,,efbd90eca236ae3131e67f30e3abe0a1bceff305,1,Universidad Politécnica de Madrid;Ontology Engineering Group. Laboratorio de Inteligencia Artificial. Facultad de Informática. Universidad Politécnica de Madrid.;Universidad Politecnica de Madrid,1
+,,,,,Oszkar Ambrus,http://data.semanticweb.org/person/oszkar-ambrus,,1,,,,5764b255582995b49ed85c133a4ef218d937ce2c,1,"DERI, National University of Ireland, Galway;Digital Enterprise Research Institute, Galway;DERI, NUIG;Digital Enterprise Research Institute (DERI), National University of Ireland, Galway;DERI NUIG;DERI Galway;Digital Enterprise Research Institute (DERI), Galway",1
+,,,,,Padhraic Smyth,http://data.semanticweb.org/person/padhraic-smyth,,1,,,,b6f6bff269236361f28ce003470dc6e538c1e6ac,1,"University of California, Irvine",1
+,,,,,Pankaj Mehra,http://data.semanticweb.org/person/pankaj-mehra,,0,,,,2037a01ca847ad8e77fa9c41fdb64f8145859a54,1,,0
+,,,,,Paola Di Maio,http://data.semanticweb.org/person/paola-di-maio,,0,,,,5716cc48cb103e160c124f175ab92c4f05761bf4,1,mfu.ac.th,1
+,,,,,Paolo Bouquet,http://data.semanticweb.org/person/paolo-bouquet,,0,,,,f96e9ae6df41a7b2db4948b80d140712848b70d6,1,,0
+,,,,,Pascal Hitzler,http://data.semanticweb.org/person/pascal-hitzler,,2,,,,45c8cbd51ea3e90f3296a5e8dc64a2ec7ae7cac3,1,"Institute AIFB, University of Karlsruhe;AIFB, Universität Karlsruhe (TH);AIFB, University of Karlsruhe;Insitute AIFB, University Karlsruhe;Institute AIFB, Universität Karlsruhe (TH);AIFB, Universität Karlsruhe",1
+,,,,,Patrick Paulson,http://data.semanticweb.org/person/patrick-paulson,,1,,,,,0,Pacific Northwest National Laboratory,1
+,,,,,Patrick West,http://data.semanticweb.org/person/patrick-west,,1,,,,57b23c167b0034815bf203668d0eee2b6e03749c,1,NCAR,1
+,,,,,Paul - Alexandru Chirita,http://data.semanticweb.org/person/paul-alexandru-chirita,,0,,,,b8fb13f52e55f7172e9ff80f27816b7016729c06,1,Adobe Systems Inc.,1
+,,,,,Paul Doran,http://data.semanticweb.org/person/paul-doran,,1,,,,b9023ea52bf8d6d14b0f64f840491edacbf90c37,1,"University of Liverpool, Computer Science Department;University of Liverpool",1
+,,,,,Paul Smart,http://data.semanticweb.org/person/paul-smart,,1,,,,bb2fb15bffedd66c54cd701061763a709491fbf7,1,University of Southampton,1
+,,,,,Paul Warren,http://data.semanticweb.org/person/paul-warren,,1,,,,66bd603ad171d8f5f5498bd95ec397cbc8b065ed,1,BT,1
+,,,,,Paula Engelbrecht,http://data.semanticweb.org/person/paula-engelbrecht,,1,,,,52d1935dfd870d7e70330f31e244a615814221df,1,Ordnance Survey;Ordnance Survey of Great Britain,1
+,,,,,Paulo Pinheiro da Silva,http://data.semanticweb.org/person/paulo-pinheiro-da-silva,,2,,,,b6a3c19dcba51220bd64fb820607884193dbd16c,1,University of Texas at El Paso,1
+,,,,,Pavel Klinov,http://data.semanticweb.org/person/pavel-klinov,,2,,,,e95c601cbecec70c88b949d3d85b272cef0ee066,1,University of Manchester;The University of Manchester,1
+,,,,,Pavel Shvaiko,http://data.semanticweb.org/person/pavel-shvaiko,,0,,,,589a70242a14937778d863e0013065e20fabbc52,1,"University of Trento;DIT, University of Trento",1
+,,,,,Paweł Lula,http://data.semanticweb.org/person/pawel-lula,,1,,,,50b7bb64a96cf0adc9ced9be082b1121497509b8,1,"Cracow University of Economics, Department of Computational Systems",1
+,,,,,Peter Beck,http://data.semanticweb.org/person/peter-beck,,1,,,,e261e228874ac3b415e8927a538832e765ae871e,1,"Washington State University, Vancouver",1
+,,,,,Peter F. Patel-Schneider,http://data.semanticweb.org/person/peter-f-patel-schneider,,0,,,,,0,,0
+,,,,,Peter Fox,http://data.semanticweb.org/person/peter-fox,,2,,,,a676c9b5ce702813c809999ef64acc5d806ef5bb,1,"High Altitude Observatory (HAO), Earth and Sun Systems Laboratory (ESSL), National Center for Atmospheric Research (NCAR)",1
+,,,,,Peter Haase,http://data.semanticweb.org/person/peter-haase,,1,,,,37df258c12bd6cff2ef621f28549b5e48334e3d1,1,Universität Karlsruhe;University of Karlsruhe,1
+,,,,,Peter Mika,http://data.semanticweb.org/person/peter-mika,,0,,,,c0d6551197a0295bfc604841a994d544e0091665,1,"Yahoo, Spain;Yahoo! Research",2
+,,,,,Peter Scheir,http://data.semanticweb.org/person/peter-scheir,,1,,,,49c815684619ace339c7ed51bbe37a9045882584,1,Graz University of Technology,1
+,,,,,Peter Vojtas,http://data.semanticweb.org/person/peter-vojtas,,0,,,,0c89a6afa9ccc71c45fe959606dcdb478c24c113,1,,0
+,,,,,Peter Yeh,http://data.semanticweb.org/person/peter-yeh,,0,,,,da7dcfc2d58cf93b5d3eb989163dde997c854656,1,Accenture Technology Labs,1
+,,,,,Philipp Cimiano,http://data.semanticweb.org/person/philipp-cimiano,,0,,,,ef4dc5c9dd960b0b4c7b077badb054ffd0015ece,1,"Institute AIFB, University of Karlsruhe;AIFB, Universität Karlsruhe (TH);AIFB, University of Karlsruhe;Insitute AIFB, University Karlsruhe;Institute AIFB, Universität Karlsruhe (TH);AIFB, Universität Karlsruhe",1
+,,,,,Philipp Kärger,http://data.semanticweb.org/person/philipp-kaerger,,1,,,,155a39978be86c96a90d224281e704e22f9ef263,1,"Research Center L3S;L3S Research Center;L3S Research Center & Hannover University;L3S Research Center, Hannover, Germany",1
+,,,,,Philipp Sorg,http://data.semanticweb.org/person/philipp-sorg,,1,,,,45f0bc9eb325a55ad85bab235676168773181bce,1,"Institute AIFB, University of Karlsruhe;AIFB, Universität Karlsruhe (TH);AIFB, University of Karlsruhe;Insitute AIFB, University Karlsruhe;Institute AIFB, Universität Karlsruhe (TH);AIFB, Universität Karlsruhe",1
+,,,,,Philippe Thiran,http://data.semanticweb.org/person/philippe-thiran,,0,,,,efda73d071f9042c00549d28c59e147bc436a6a9,1,,0
+,,,,,Piero Bonatti,http://data.semanticweb.org/person/piero-bonatti,,1,,,,69edda4288bb908e54cd1c66a308289292c5ed4c,1,"University of Naples Federico II;Universita ""Federico II"" di Napoli",1
+,,,,,Premand Mohan,http://data.semanticweb.org/person/premand-mohan,,0,,,,a97bbb3d6caa32fa2be1ecc1074940d2b45bae02,1,,0
+,,,,,Qiu JI,http://data.semanticweb.org/person/qiu-ji,,1,,,,d77a3098fdded189e6f8e9778337fc4fdf865a93,1,"Institute AIFB, University of Karlsruhe;AIFB, Universität Karlsruhe (TH);AIFB, University of Karlsruhe;Insitute AIFB, University Karlsruhe;Institute AIFB, Universität Karlsruhe (TH);AIFB, Universität Karlsruhe",1
+,,,,,Rachael Brady,http://data.semanticweb.org/person/rachael-brady,,1,,,,00ca1d5c9af65dc49fc01c00cc547330cf94b462,1,Duke University,1
+,,,,,Rafael González-Cabero,http://data.semanticweb.org/person/rafael-gonzalez-cabero,,1,,,,204d15430e5a204d8259bda85972c8fccad951ad,1,,0
+,,,,,Ralf Moeller,http://data.semanticweb.org/person/ralf-moeller,,0,,,,cc0a3a9abb1f512360e8dfb19faf85e54f172c06,1,Hamburg University of Technology,1
+,,,,,Rama Akkiraju,http://data.semanticweb.org/person/rama-akkiraju,,0,,,,c653d33fd003882db92dba89652bd7fa1aefadaa,1,IBM TJ Watson Research Center;IBM T. J. Watson Research Center;IBM T.J. Watson Research Center,1
+,,,,,Ramanathan Guha,http://data.semanticweb.org/person/ramanathan-guha,,0,,,,913a50d2b27b28044d0c5a2e8740b248e94c32f3,1,,0
+,,,,,Ramesh Jain,http://data.semanticweb.org/person/ramesh-jain,,0,,,,,0,,0
+,,,,,Raphael Troncy,http://data.semanticweb.org/person/raphael-troncy,,1,,,,c9a868f278f25222e8a17de74eb1711051e82486,1,"Centre for Mathematics and Computer Sciences (CWI);CWI;CWI, Amsterdam",1
+,,,,,Raphael Volz,http://data.semanticweb.org/person/raphael-volz,,0,,,,8ded7083e8f6e0b47fcbcd17552fab2466b6099c,1,"Institute AIFB, University of Karlsruhe;AIFB, Universität Karlsruhe (TH);AIFB, University of Karlsruhe;Insitute AIFB, University Karlsruhe;Institute AIFB, Universität Karlsruhe (TH);AIFB, Universität Karlsruhe",1
+,,,,,Raphaël Troncy,http://data.semanticweb.org/person/raphael-troncy,,1,,,,c9a868f278f25222e8a17de74eb1711051e82486,1,"Centre for Mathematics and Computer Sciences (CWI);CWI;CWI, Amsterdam",1
+,,,,,Ravish Bhagdev,http://data.semanticweb.org/person/ravish-bhagdev,,1,,,,b933886e192b0e246accaa827409aab27f145499,1,University Of Sheffield;The University of Sheffield;University of Sheffield,1
+,,,,,Renzo Angles,http://data.semanticweb.org/person/renzo-angles,,1,,,,d13755bed865e8d39d9efb149665d1477d76485b,1,Universidad de Chile,1
+,,,,,Reuben Wright,http://data.semanticweb.org/person/reuben-wright,,1,,,,5e81034f0f5cd39aaeaecfbe8b9d6980738f7efa,1,DeimosSpace;Deimos Space,1
+,,,,,Ricardo Amador,http://data.semanticweb.org/person/ricardo-amador,,1,,,,3250e720e6ee23a12f5df0958679ce6e1af876ae,1,"CENTRIA, Universidade Nova de Lisboa",1
+,,,,,Riccardo Rosati,http://data.semanticweb.org/person/riccardo-rosati,,0,,,,347c5f7b49d6802f343668845c30c5e610d28a7f,1,"DIS, Universita di Roma La Sapienza, Italy",1
+,,,,,Richard Cyganiak,http://data.semanticweb.org/person/richard-cyganiak,,0,,,,bb3df3cf988e2d5fc234840d9dc9d4a6eaf822bd,1,"DERI, National University of Ireland, Galway;Digital Enterprise Research Institute, Galway;DERI, NUIG;Digital Enterprise Research Institute (DERI), National University of Ireland, Galway;DERI NUIG;DERI Galway;Digital Enterprise Research Institute (DERI), Galway",1
+,,,,,Richard McClatchey,http://data.semanticweb.org/person/richard-mcclatchey,,1,,,,07d950f852d05b1b430b4c4ccd64b026655e9502,1,"University of the West of England, Bristol;University of the West of England",1
+,,,,,Riichiro Mizoguchi,http://data.semanticweb.org/person/riichiro-mizoguchi,,1,,,,36f7c5e541fbc21084f8bc4c85215922ab342097,1,"University of Osaka;Graduate School of Information Science and Technology, Osaka University;ISIR, Osaka University;I.S.I.R., Osaka University",1
+,,,,,Robert Engels,http://data.semanticweb.org/person/robert-engels,,1,,,,608c13d67ab3e5fe3be33c7b9f443ffeba4d3883,1,Engels Semantic Information Services (ESIS),1
+,,,,,Robert Raskin,http://data.semanticweb.org/person/robert-raskin,,1,,,,f6b767fa8053dd7037c93ca9bcd22f6f160f2df1,1,Jet Propulsion Laboratory,1
+,,,,,Robert Schloss,http://data.semanticweb.org/person/robert-schloss,,2,,,,bba1a4d3cf5414988d852762d55ec00df1fd1253,1,IBM Research Laboratory;IBM Research,1
+,,,,,Robert W. McGrail,http://data.semanticweb.org/person/robert-w-mcgrail,,1,,,,9823ac8210e5bf03d51c622109e9aa0348fb6a5e,1,Bard College,1
+,,,,,Rogier Brussee,http://data.semanticweb.org/person/rogier-brussee,,1,,,,2b3dcc34b9fca28ca83697033462d7ff72134721,1,Telematica Instituut,1
+,,,,,Rolf Grütter,http://data.semanticweb.org/person/rolf-gruetter,,1,,,,ebfcf3b9138cbb5c13a3511f20f055b3cecaa63f,1,"Swiss Federal Institute for Forest, Snow and Landscape Research, An Institute of the ETH Board;Swiss Federal Institute for Forest, Snow and Landscape Research",1
+,,,,,Ronald Denaux,http://data.semanticweb.org/person/ronald-denaux,,2,,,,3064359ee79959158bda30a623ebfc489fa1dc35,1,University of Leeds,1
+,,,,,Rudi Studer,http://data.semanticweb.org/person/rudi-studer,,0,,,,3d7ceb7f783c89c73ca552380aa52894143dd79a,1,Universität Karlsruhe;University of Karlsruhe;FZI Forschungszentrum Informatik;FZI Karlsruhe;FZI Research Center for Information Technologies,2
+,,,,,SM Hazzaz Imtiaz,http://data.semanticweb.org/person/sm-hazzaz-imtiaz,,1,,,,b0673e9ce3ad2d1202d07c08630759d7a6daefa4,1,University of Southampton,1
+,,,,,Sam Chapman,http://data.semanticweb.org/person/sam-chapman,,1,,,,ed12ac7d755e51653bc11745142ffe57d4168fdc,1,University Of Sheffield;The University of Sheffield;University of Sheffield,1
+,,,,,Samson Tu,http://data.semanticweb.org/person/samson-tu,,1,,,,f3964b16e43634ffceef5f788457cbd9e189ca83,1,Stanford University;Stanford University - BMIR,1
+,,,,,Sang Keun Rhee,http://data.semanticweb.org/person/sang-keun-rhee,,1,,,,0ea851086b01de3b527309b3d94f7a1678feef11,1,Korea Institute of Science and Technology (KIST),1
+,,,,,Sean Bechhofer,http://data.semanticweb.org/person/sean-bechhofer,,1,,,,cdc01cde5b33382c60bdc4c0a68ca5c1736ec313,1,University of Manchester;The University of Manchester,1
+,,,,,Sebastian Boehm,http://data.semanticweb.org/person/sebastian-boehm,,2,,,,db5169ff9d4335a1ea9c10bd28fcae0a79b8e2f0,1,"DoCoMo Euro-Lab, Munich;DoCoMo Euro-Labs;DoCoMo Euro labs;DoCoMo Euro-labs",1
+,,,,,Sebastian Faubel,http://data.semanticweb.org/person/sebastian-faubel,,1,,,,8347ecd87f96c9070f5068629037f5265166aae5,1,"Georg-Simon-Ohm Hochschule, Nuremberg",1
+,,,,,Sebastian Hellmann,http://data.semanticweb.org/person/sebastian-hellmann,,1,,,,3b9b030bfa83b9c747d525b7943829d3abc2813b,1,"University of Leipzig, Department of Computer Science;University of Leipzig;University Leipzig",1
+,,,,,Sebastian Rudolph,http://data.semanticweb.org/person/sebastian-rudolph,,2,,,,f0cf8dd927b4146e5125662d1cfdfc2b2757fbda,1,"Institute AIFB, University of Karlsruhe;AIFB, Universität Karlsruhe (TH);AIFB, University of Karlsruhe;Insitute AIFB, University Karlsruhe;Institute AIFB, Universität Karlsruhe (TH);AIFB, Universität Karlsruhe",1
+,,,,,Sergej Sizov,http://data.semanticweb.org/person/sergej-sizov,,0,,,,9e5d9332ecf20e34d33dd5f378c4111f551068f1,1,"University of Koblenz-Landau, Computer Science",1
+,,,,,Shahdad Shariatmadari,http://data.semanticweb.org/person/shahdad-shariatmadari,,1,,,,d98b6192a00789780a1504de1ea11c7f203a5adf,1,Universiti Putra Malaysia (UPM),1
+,,,,,Shashi Shekhar,http://data.semanticweb.org/person/shashi-shekhar,,1,,,,74a6b653838d66d219cd75c01004a0c05fe21556,1,University of Minnesota,1
+,,,,,Shenghui Wang,http://data.semanticweb.org/person/shenghui-wang,,1,,,,b8c200bba0d987191cf168a51e6cabcfe2408851,1,VU Amsterdam;UVA;Vrije Universiteit Amsterdam;VU University Amsterdam;Vrije University Amsterdam,1
+,,,,,Shengping Liu,http://data.semanticweb.org/person/shengping-liu,,5,,,,0e121ae8674d91b1a7c10dfe7fe8854a819997d2,1,IBM China Research Lab;IBM China Research Laboratory,1
+,,,,,Shoji Kurakake,http://data.semanticweb.org/person/shoji-kurakake,,0,,,,8477d42318f760353122e464dfdbbafb0e029f4a,1,,0
+,,,,,Sibel Adali,http://data.semanticweb.org/person/sibel-adali,,1,,,,663769346ed17352f8f2aa78923de7e2ae5bd724,1,Rensselaer Polytechnic Institute;RPI,1
+,,,,,Siegfried Handschuh,http://data.semanticweb.org/person/siegfried-handschuh,,2,,,,583cac1297018405882f186064c6d98cd127af70,1,"DERI, National University of Ireland, Galway;Digital Enterprise Research Institute, Galway;DERI, NUIG;Digital Enterprise Research Institute (DERI), National University of Ireland, Galway;DERI NUIG;DERI Galway;Digital Enterprise Research Institute (DERI), Galway",1
+,,,,,Simon Ferndriger,http://data.semanticweb.org/person/simon-ferndriger,,1,,,,ad52a6ce435b870df91f60e3e124f4e56ac8167e,1,"University of Zurich;Department of Informatics, University of Zurich;Univ Zürich",1
+,,,,,Simon Jupp,http://data.semanticweb.org/person/simon-jupp,,1,,,,896fb3b772390d079981ef590c9730a1f4161df8,1,University of Manchester;The University of Manchester,1
+,,,,,Simon Schenk,http://data.semanticweb.org/person/simon-schenk,,2,,,,14c0da3c553cc8f7866a2d0ee7d5797ee90026a2,1,"ISWeb, University of Koblenz-Landau, Germany;University of Koblenz-Landau;Universität Koblenz- Landau",1
+,,,,,Sofia Angeletou,http://data.semanticweb.org/person/sofia-angeletou,,1,,,,f78114d4e45cfc6ac811e6191f50182fb9838938,1,"Knowledge Media Institute, the Open University;Knowledge Media Institute, The Open University;The Open University;KMi, The Open University;KMi, Open University",1
+,,,,,Sonja Zillner,http://data.semanticweb.org/person/sonja-zillner,,1,,,,461f734216dd877acc75ce499e5d2e6e801cced0,1,Siemens,1
+,,,,,Stefan Decker,http://data.semanticweb.org/person/stefan-decker,,0,,,,1bc1f862b688a45b7e0c8d4a8467c23177c53fad,1,"DERI, National University of Ireland, Galway;Digital Enterprise Research Institute, Galway;DERI, NUIG;Digital Enterprise Research Institute (DERI), National University of Ireland, Galway;DERI NUIG;DERI Galway;Digital Enterprise Research Institute (DERI), Galway",1
+,,,,,Stefan Kopp,http://data.semanticweb.org/person/stefan-kopp,,1,,,,be4d593fcae3061f8736168ac97f1b6830e7b8bf,1,University of Bielefeld,1
+,,,,,Stefan Schlobach,http://data.semanticweb.org/person/stefan-schlobach,,2,,,,77f7b82eb146c1867ee01643ef2eb740c0dc9cc4,1,VU Amsterdam;UVA;Vrije Universiteit Amsterdam;VU University Amsterdam;Vrije University Amsterdam,1
+,,,,,Stefan Schulz,http://data.semanticweb.org/person/stefan-schulz,,1,,,,58079263f4a9be48f2a76355d9110680bd688922,1,University Medical Center Freiburg;Freiburg University Hospital,1
+,,,,,Stefanie Lindstaedt,http://data.semanticweb.org/person/stefanie-lindstaedt,,1,,,,a1d63126a3a072774074d5a4dc0d4561bedb9326,1,Know-Center,1
+,,,,,Stefano Bianchi,http://data.semanticweb.org/person/stefano-bianchi,,1,,,,9ccaa69af524be7c1799d58494642cdeaea5062a,1,SOFTECO SISMAT,1
+,,,,,Steffen Staab,http://data.semanticweb.org/person/steffen-staab,,0,,,,ae8f32f31b69df2872d4c5d2e3bf21cf09cadf90,1,"ISWeb, University of Koblenz-Landau, Germany;University of Koblenz-Landau;Universität Koblenz- Landau",1
+,,,,,Stein L. Tomassen,http://data.semanticweb.org/person/stein-l-tomassen,,1,,,,fe40f994b23a80d420bbb93e35c6a474127cb241,1,NTNU,1
+,,,,,Steve Sears,http://data.semanticweb.org/person/steve-sears,,1,,,,c9e8f28693c4d71e745a473ca48afb4a51103a2e,1,"Franz, Inc.",1
+,,,,,Stuart Taylor,http://data.semanticweb.org/person/stuart-taylor,,1,,,,8664101b79ca0b8a663d5eaa764a7499e43f20e9,1,University of Aberdeen,1
+,,,,,Susie Stephens,http://data.semanticweb.org/person/susie-stephens,,0,,,,d72a3a0a8d572cad55b4c874d9fd626626cdf192,1,Eli Lilly,1
+,,,,,Sven Schwarz,http://data.semanticweb.org/person/sven-schwarz,,2,,,,ec2daa2424c7672b44140114b2e817e75ea4d3af,1,"DFKI GmbH;DFKI GmbH, Language Technology Lab;DFKI;DFKI GmbH, Kaiserslautern;German Research Center for Artificial Intelligence",1
+,,,,,Syed Tirmizi,http://data.semanticweb.org/person/syed-tirmizi,,1,,,,5effeded4e15719c9768a3ad06a7c490c557e78e,1,"Department of Computer Sciences, The University of Texas at Austin",1
+,,,,,Sören Auer,http://data.semanticweb.org/person/soeren-auer,,1,,,,09ac456515dee0896e8eba4b06ae589bef2069cf,1,"University of Leipzig, Department of Computer Science;University of Leipzig;University Leipzig",1
+,,,,,Takeru Hirota,http://data.semanticweb.org/person/takeru-hirota,,1,,,,8739f980a413ee2d884e99b16c789fb90585745b,1,"University of Osaka;Graduate School of Information Science and Technology, Osaka University;ISIR, Osaka University;I.S.I.R., Osaka University",1
+,,,,,Tamás Hauer,http://data.semanticweb.org/person/tamas-hauer,,1,,,,a80499202c71611db67e8cb514bdac434fd9de95,1,"University of the West of England, Bristol;University of the West of England",1
+,,,,,Tania Tudorache,http://data.semanticweb.org/person/tania-tudorache,,2,,,,638d023ba44fb531a81881698239ebb410af4790,1,Stanford University;Stanford University - BMIR,1
+,,,,,Taowei Wang,http://data.semanticweb.org/person/taowei-wang,,1,,,,213c42d0663de57f70e72bb835f954c1ea02c472,1,MINDSWAP,1
+,,,,,Terry Janssen,http://data.semanticweb.org/person/terry-janssen,,0,,,,1ebb463000f88dcce91800d42cff7d66203b5e04,1,,0
+,,,,,Terry Payne,http://data.semanticweb.org/person/terry-payne,,1,,,,23c0c818f3005a60174d4b5dc046aa88ed0a918b,1,University of Southampton,1
+,,,,,Tharam Dillon,http://data.semanticweb.org/person/tharam-dillon,,0,,,,53a514c14fa01abe1778d7e3d4aaed8f2b3481b8,1,"Digital Ecosystems and Business Intelligence Institute, Curtin University of Technology, Perth, Australia",1
+,,,,,Thierry Declerck,http://data.semanticweb.org/person/thierry-declerck,,1,,,,b20a498a8be8ac4ddfb1d9aca8d07612e99593d3,1,"DFKI GmbH;DFKI GmbH, Language Technology Lab;DFKI;DFKI GmbH, Kaiserslautern;German Research Center for Artificial Intelligence",1
+,,,,,Thies Pfeiffer,http://data.semanticweb.org/person/thies-pfeiffer,,1,,,,a6ed63fd215d005487ff030197d3ef223c94b849,1,"A.I. Group, Faculty of Technology, Bielefeld University, Germany",1
+,,,,,Thomas Eiter,http://data.semanticweb.org/person/thomas-eiter,,0,,,,f0758dd5ba72906f9f5b2ee040211578590965eb,1,"Institute of Information Systems, TU Vienna",1
+,,,,,Thomas Franz,http://data.semanticweb.org/person/thomas-franz,,2,,,,4c8c2ba49c3566f72814a605458a4e89063838b5,1,"ISWeb, University of Koblenz-Landau, Germany;University of Koblenz-Landau;Universität Koblenz- Landau",1
+,,,,,Thomas Hornung,http://data.semanticweb.org/person/thomas-hornung,,1,,,,5c349cdd138f1b6b445c8d8bffbfbbcb4fa24435,1,University of Freiburg;Freiburg University,1
+,,,,,Thomas Lukasiewicz,http://data.semanticweb.org/person/thomas-lukasiewicz,,0,,,,4bf26ebf8506355192b72150a419bdd8070abd98,1,University of Oxford,1
+,,,,,Thomas Meilender,http://data.semanticweb.org/person/thomas-meilender,,1,,,,7be4499a610f7f597868de31de8be16cc207916d,1,LORIA,1
+,,,,,Thomas Scharrenbach,http://data.semanticweb.org/person/thomas-scharrenbach,,2,,,,d6f4651db93a6556e68a4941a732afdf9e1c11c6,1,"Swiss Federal Institute for Forest, Snow and Landscape Research, An Institute of the ETH Board;Swiss Federal Institute for Forest, Snow and Landscape Research",1
+,,,,,Thomas Schneider,http://data.semanticweb.org/person/thomas-schneider,,0,,,,6542f602930fbc87c5026aec7fa2506652c2b189,1,University of Manchester;The University of Manchester,1
+,,,,,Tim Finin,http://data.semanticweb.org/person/tim-finin,,1,,,,49953f47b9c33484a753eaf14102af56c0148d37;9da08e2b4dc670d9254ab4a4b4d61637fed3b18f,2,"UMBC;University of Maryland, Baltimore County;University of Maryland Baltimore County;Univ Maryland",2
+,,,,,Timos Sellis,http://data.semanticweb.org/person/timos-sellis,,1,,,,0a1070a075ea740aa1ae02f32628f22d0b968971,1,Institute for the Management of Information Systems - R.C. Athena,1
+,,,,,Timothy Finin,http://data.semanticweb.org/person/tim-finin,,1,,,,49953f47b9c33484a753eaf14102af56c0148d37;9da08e2b4dc670d9254ab4a4b4d61637fed3b18f,2,"UMBC;University of Maryland, Baltimore County;University of Maryland Baltimore County;Univ Maryland",2
+,,,,,Ting Wang,http://data.semanticweb.org/person/ting-wang,,1,,,,b255e1335672b6c9331c7cfe0176d0705e4a0af2,1,"Department of Computer Science and Technology, School of Computer, National University of Defense Technology, China",1
+,,,,,Tiziana Margaria,http://data.semanticweb.org/person/tiziana-margaria,,0,,,,f25307fc4b5a3ae606bed9eb67f034f1ba7ff150,1,Univ. Potsdam,1
+,,,,,Tobias Kuhn,http://data.semanticweb.org/person/tobias-kuhn,,1,,,,d3757a84c57aafca37e790bedd43537bdb96ac6a,1,"University of Zurich;Department of Informatics, University of Zurich;Univ Zürich",1
+,,,,,Tom Heath,http://data.semanticweb.org/person/tom-heath,,0,,,,1dd0dab717be578c153b8ed70bee284845439706,1,Talis Information Ltd,1
+,,,,,Tomas Vitvar,http://data.semanticweb.org/person/tomas-vitvar,,1,,,,add37f77d1c406daf170cb0f0aeb8213ded3137d,1,Semantic Technology Institute Innsbruck;STI Innsbruck,1
+,,,,,Tony Solomonides,http://data.semanticweb.org/person/tony-solomonides,,1,,,,e872cba505f09b9381d9db5b139c47eb3d9db835,1,"University of the West of England, Bristol;University of the West of England",1
+,,,,,Torsten Zesch,http://data.semanticweb.org/person/torsten-zesch,,1,,,,c0b40e63261991900e7c40c3c8456bad0f990041,1,,0
+,,,,,Toru Ishida,http://data.semanticweb.org/person/toru-ishida,,1,,,,3ae966da2a3ac133e379b4c42874e28bdf849150,1,"Department of Social Informatics, Kyoto University",1
+,,,,,Trevor Martin,http://data.semanticweb.org/person/trevor-martin,,0,,,,ea1f89cd25838b32b18ef84b387c7d9cafd6252a,1,Univ Bristol,1
+,,,,,Udo Hahn,http://data.semanticweb.org/person/udo-hahn,,1,,,,8af9a3f2991b2ccdf8766b09f9a48b4877f774d7,1,Jena University,1
+,,,,,Uli Sattler,http://data.semanticweb.org/person/uli-sattler,,0,,,,263ccece2324c257d2b0c10a62c3233893cbae29,1,University of Manchester;The University of Manchester,1
+,,,,,Ulrike Sattler,http://data.semanticweb.org/person/ulrike-sattler,,2,,,,263ccece2324c257d2b0c10a62c3233893cbae29,1,University of Manchester;The University of Manchester,1
+,,,,,Umberto Straccia,http://data.semanticweb.org/person/umberto-straccia,,0,,,,743c2d225f6d5527e252a24abd0abd15caa79ccf,1,ISTI-CNR,1
+,,,,,Uwe Assmann,http://data.semanticweb.org/person/uwe-assmann,,0,,,,727259359c2eefab5f2713b875ec3de152265ff7,1,TU Dresden,1
+,,,,,Valentin Tablan,http://data.semanticweb.org/person/valentin-tablan,,1,,,,52c0f42a6a38efdd1f5bbefdd4ed15b38b035b4b,1,University Of Sheffield;The University of Sheffield;University of Sheffield,1
+,,,,,Valentina Presutti,http://data.semanticweb.org/person/valentina-presutti,,1,,,,7cdf93aba3cd434a666422057efd1e7df4bf3bac,1,"Laboratory for Applied Ontology ISTC CNR;Semantic TechnoIogy Lab, CNR;CNR;Semantic TechnoIogy Lab. ISTC-CNR;CNR-ISTC",2
+,,,,,Valentina Tamma,http://data.semanticweb.org/person/valentina-tamma,,1,,,,38fb98af3ddd45545d1a5f452204f4785a90ccba,1,"University of Liverpool, Computer Science Department;University of Liverpool",1
+,,,,,Vania Dimitrova,http://data.semanticweb.org/person/vania-dimitrova,,2,,,,c467a9bd8e406c04b2216123707d5eb1c757378f,1,"School of Computing, University of Leeds",1
+,,,,,Vasant Honavar,http://data.semanticweb.org/person/vasant-honavar,,0,,,,8413f0abe1e068d9d4958a2759216b4cef42c8f3,1,Iowa State University,1
+,,,,,Vassilis Christophides,http://data.semanticweb.org/person/vassilis-christophides,,0,,,,b207689149eafd504335acb9c10126f1d1e55734,1,"Institute of Computer Science-FORTH;FORTH-ICS;Computer Science Department, University of Crete",2
+,,,,,Veda Storey,http://data.semanticweb.org/person/veda-storey,,0,,,,332eddff74c8cd3e74fcaaadada34c3174795822,1,Georgia state university,1
+,,,,,Verena Kantere,http://data.semanticweb.org/person/verena-kantere,,1,,,,14aedd86fec5f2ec6e6ffc6ca4bbe4abc3c4dd2f,1,Ecole Polytechnique Fédérale de Lausanne;EPFL,1
+,,,,,Victoria Uren,http://data.semanticweb.org/person/victoria-uren,,0,,,,d0da2199b8bdbed7f6902611597a8b6999f651c6,1,"Knowledge Media Institute, the Open University;Knowledge Media Institute, The Open University;The Open University;KMi, The Open University;KMi, Open University",1
+,,,,,Viktoria Pammer,http://data.semanticweb.org/person/viktoria-pammer,,1,,,,57d3f19635a61a0e5d94f4f357cebfe9ab578aea,1,Know-Center,1
+,,,,,Vilas Wuwongse,http://data.semanticweb.org/person/vilas-wuwongse,,1,,,,870e0a660473ff5733560686fd4952f4daec4a03,1,Asian Institute of Technology,1
+,,,,,Vinay Chaudhri,http://data.semanticweb.org/person/vinay-chaudhri,,0,,,,f0bbfc648c07c071dbea8609a6db246864cc225c,1,SRI International;SRI,1
+,,,,,Vipul Kashyap,http://data.semanticweb.org/person/vipul-kashyap,,0,,,,41f062fcd307661f9f987daedccf8acf9a8b1fa1,1,Partners Healthcare System,1
+,,,,,Virginia Dignum,http://data.semanticweb.org/person/virginia-dignum,,1,,,,27cc2ae44d06882bb99a1eb773c4c5ba0e1a75e4,1,Utrecht University,1
+,,,,,Vit Novacek,http://data.semanticweb.org/person/vit-novacek,,1,,,,c91b8f5b6908408264728371f7331249e3857a87,1,"DERI, National University of Ireland, Galway;Digital Enterprise Research Institute, Galway;DERI, NUIG;Digital Enterprise Research Institute (DERI), National University of Ireland, Galway;DERI NUIG;DERI Galway;Digital Enterprise Research Institute (DERI), Galway",1
+,,,,,Vita Lanfranchi,http://data.semanticweb.org/person/vita-lanfranchi,,1,,,,8589eb61a6d43a1a7678fe51039214df4ad53d5a,1,University Of Sheffield;The University of Sheffield;University of Sheffield,1
+,,,,,Vojtech Svatek,http://data.semanticweb.org/person/vojtech-svatek,,1,,,,7b9eaf1b98b973552c075c5f01612546dcebd1d9,1,"University of Economics, Prague",1
+,,,,,Weichang Du,http://data.semanticweb.org/person/weichang-du,,1,,,,4fd9f715858479cade37aa0c0d5f32599d1448b3,1,University of New Brunswick,1
+,,,,,Wolf Siberski,http://data.semanticweb.org/person/wolf-siberski,,1,,,,3e974fd86be15908d8c3421c6077e5712a648cff,1,"Research Center L3S;L3S Research Center;L3S Research Center & Hannover University;L3S Research Center, Hannover, Germany",1
+,,,,,Wolf-Tilo Balke,http://data.semanticweb.org/person/wolf-tilo-balke,,0,,,,45c7502d75b8c733cb58d96a3eb6d22c9f304623,1,"University of Hannover;Research Center L3S;L3S Research Center;L3S Research Center & Hannover University;L3S Research Center, Hannover, Germany",2
+,,,,,Wolfgang May,http://data.semanticweb.org/person/wolfgang-may,,0,,,,88a57820214e6f45204f9052c26681edd75251c8,1,"Universitaet Goettingen, Germany",1
+,,,,,Wolfgang Nejdl,http://data.semanticweb.org/person/wolfgang-nejdl,,0,,,,8f4db0c244d721b7e92ce184bd4317b94bd2f494,1,University of Hannover,1
+,,,,,Wolfgang Prinz,http://data.semanticweb.org/person/wolfgang-prinz,,0,,,,af9eae5c527a44de92ec88967d4d8cbcd09a0d78,1,Fraunhofer FIT,1
+,,,,,Xia Wang,http://data.semanticweb.org/person/xia-wang,,1,,,,a27b9205dbadd5565d1bf801ce9c43006dd14341,1,"DERI, National University of Ireland, Galway;Digital Enterprise Research Institute, Galway;DERI, NUIG;Digital Enterprise Research Institute (DERI), National University of Ireland, Galway;DERI NUIG;DERI Galway;Digital Enterprise Research Institute (DERI), Galway",1
+,,,,,Xianyong Fang,http://data.semanticweb.org/person/xianyong-fang,,1,,,,f8eadff0069bb0006018171b119cc74cda59124b,1,LIMSI-CNRS,1
+,,,,,Xingzhi Sun,http://data.semanticweb.org/person/xingzhi-sun,,1,,,,725dcccc1b1fb88222804c8c237eec0e55ff1d3a,1,IBM Research Laboratory;IBM Research,1
+,,,,,Xuan Zhou,http://data.semanticweb.org/person/xuan-zhou,,1,,,,3b6b663ba58e59dd2c9973061ee07fb9d1414729,1,CSIRO Australia,1
+,,,,,Yang Yang,http://data.semanticweb.org/person/yang-yang,,2,,,,48beaae2ec3a44da2a0ac28e4d54e2c626144451,1,IBM China Research Lab;IBM China Research Laboratory,1
+,,,,,Yannis Avrithis,http://data.semanticweb.org/person/yannis-avrithis,,0,,,,4feaa3cf7c6425f2c9631c12930fe20aab600ded,1,National Technical University of Athens;National Technical Univ. of Athens,1
+,,,,,Yaodong Chen,http://data.semanticweb.org/person/yaodong-chen,,1,,,,c3768507de234abf6dd28b047385d1629e7b5e48,1,"Department of Computer Science and Technology, School of Computer, National University of Defense Technology, China",1
+,,,,,Yiannis Kompatsiaris,http://data.semanticweb.org/person/yiannis-kompatsiaris,,0,,,,5f3b23fd8386efffea258885f07983e8bb7942b1,1,"Informatics and Telematics Institute (ITI), Greece;ITI;Centre for Research and Technology Hellas (CERTH);Centre for Research and Technology Hellas;CERTH",2
+,,,,,Yolanda Gil,http://data.semanticweb.org/person/yolanda-gil,,0,,,,271995cf045094b4e575e4c7aaf3ad3006658cac,1,USC/ISI,1
+,,,,,Yong Yu,http://data.semanticweb.org/person/yong-yu,,0,,,,fb05f5f7d6f86d5cc9d06e33706e7e5162ace6a1,1,Shanghai Jiao Tong University,1
+,,,,,York Sure,http://data.semanticweb.org/person/york-sure,,0,,,,8a2cb3693e89b56a63618ee0582e9b5f1d4f9daf,1,"SAP Research, CEC Karlsruhe;SAP Research Karlsruhe",1
+,,,,,Yuan Ni,http://data.semanticweb.org/person/yuan-ni,,2,,,,df44250c64560e6c81b9648543a57997260beae2,1,IBM China Research Lab;IBM China Research Laboratory,1
+,,,,,Yuan-Fang Li,http://data.semanticweb.org/person/yuan-fang-li,,1,,,,e75254a534984d4f356aa5e98e1953b16190bfbf,1,University of Queensland,1
+,,,,,Yue Pan,http://data.semanticweb.org/person/yue-pan,,5,,,,13d2b17fe467ef472cb07612cb088d95668cbc83,1,IBM China Research Lab;IBM China Research Laboratory,1
+,,,,,Yuzhang Feng,http://data.semanticweb.org/person/yuzhang-feng,,1,,,,050d3f954e7cd6d86942432edd7524f3a278e709,1,National University of Singapore,1
+,,,,,Yuzhong Qu,http://data.semanticweb.org/person/yuzhong-qu,,1,,,,5c9d7cc4c5a7c1c2bc62ad8078e4f02d22aac9d2,1,"Institute of Web Science, School of Computer Science and Engineering, Southeast University, P.R. China",1
+,,,,,Zhisheng Huang,http://data.semanticweb.org/person/zhisheng-huang,,2,,,,238a59a17bd96fbb93f39aa9dba2f6847a8d261c,1,VU Amsterdam;UVA;Vrije Universiteit Amsterdam;VU University Amsterdam;Vrije University Amsterdam,1
+,,,,,Zoi Kaoudi,http://data.semanticweb.org/person/zoi-kaoudi,,1,,,,c9a5eca0c257e88ec99a109439e5de23c89d81b5,1,National and Kapodistrian University of Athens,1
+,,,,,henson graves,http://data.semanticweb.org/person/henson-graves,,1,,,,a669e55391b1be4fe32088c056d0d3f933fbc5cb,1,Lockheed Martin Aeronautics Company,1
+,,,,,robert Stevens,http://data.semanticweb.org/person/robert-stevens,,1,,,,9f6b7929ac641ad6368aa4cf6c7bbc9c4398ca0e,1,University of Manchester;The University of Manchester,1

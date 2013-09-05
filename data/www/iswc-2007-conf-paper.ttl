@@ -7,6 +7,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -418,7 +419,7 @@
 <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-14/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/david-martin> ;
     rdf:_2 <http://data.semanticweb.org/person/massimo-paolucci> ;
-    rdf:_3 <http://data.semanticweb.org/person/matthias-wagner-0001> .
+    rdf:_3 <http://data.semanticweb.org/person/matthias-wagner> .
 
 <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-15/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/lora-aroyo> ;
@@ -721,7 +722,7 @@
     rdf:_1 <http://data.semanticweb.org/person/eva-blomqvist> .
 
 <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-70/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/lei-zhang-0007> ;
+    rdf:_1 <http://data.semanticweb.org/person/lei-zhang> ;
     rdf:_2 <http://data.semanticweb.org/person/qiaoling-liu> ;
     rdf:_3 <http://data.semanticweb.org/person/jie-zhang> ;
     rdf:_4 <http://data.semanticweb.org/person/haofen-wang> ;
@@ -2335,10 +2336,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-31> ;
     foaf:name "Lei Sun" .
 
-<http://data.semanticweb.org/person/lei-zhang-0007> a foaf:Person ;
-    rdfs:label "Lei Zhang 0007" ;
+<http://data.semanticweb.org/person/lei-zhang> a foaf:Person ;
+    rdfs:label "Lei Zhang" ;
     foaf:made <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-70> ;
-    foaf:name "Lei Zhang 0007" .
+    foaf:name "Lei Zhang" .
 
 <http://data.semanticweb.org/person/li-jing> a foaf:Person ;
     rdfs:label "Li Jing" ;
@@ -2430,10 +2431,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-14> ;
     foaf:name "Massimo Paolucci" .
 
-<http://data.semanticweb.org/person/matthias-wagner-0001> a foaf:Person ;
-    rdfs:label "Matthias Wagner 0001" ;
+<http://data.semanticweb.org/person/matthias-wagner> a foaf:Person ;
+    rdfs:label "Matthias Wagner" ;
     foaf:made <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-14> ;
-    foaf:name "Matthias Wagner 0001" .
+    foaf:name "Matthias Wagner" .
 
 <http://data.semanticweb.org/person/meng-xian-xue> a foaf:Person ;
     rdfs:label "Meng Xian-Xue" ;
@@ -3481,18 +3482,18 @@
     swrc:abstract "Recently, the World Wide Web Consortium (W3C) produced a standard set of âSemantic Annotations for WSDL and XML Schemaâ (SAWSDL). SAWSDL provides a standard means by which WSDL documents can be related to semantic descriptions, such as those provided by OWL-S (OWL for Services) and other Semantic Web services frameworks. We argue that the value of SAWSDL cannot be realized until its use is specified, and its benefits explained, in connection with a particular framework. This paper is an important first step toward meeting that need, with respect to OWL-S. We explain what OWL-S constructs are appropriate for use with the various SAWSDL annotations, and provide a rationale and guidelines for their use. In addition, we discuss some weaknesses of SAWSDL, and identify some ways in which OWL-S could evolve so as to integrate more smoothly with SAWSDL." ;
     swrc:author <http://data.semanticweb.org/person/david-martin>,
         <http://data.semanticweb.org/person/massimo-paolucci>,
-        <http://data.semanticweb.org/person/matthias-wagner-0001> ;
+        <http://data.semanticweb.org/person/matthias-wagner> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2007.semanticweb.org/papers/337.pdf> ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-76298-0_25> ;
-    swrc:listAuthor "David Martin,Massimo Paolucci and Matthias Wagner 0001" ;
+    swrc:listAuthor "David Martin,Massimo Paolucci and Matthias Wagner" ;
     swrc:pages "340-352" ;
     swrc:url <http://dx.doi.org/10.1007/978-3-540-76298-0_25>,
         <http://iswc2007.semanticweb.org/papers/337.pdf> ;
     swrc:year "2007" ;
     foaf:maker <http://data.semanticweb.org/person/david-martin>,
         <http://data.semanticweb.org/person/massimo-paolucci>,
-        <http://data.semanticweb.org/person/matthias-wagner-0001> .
+        <http://data.semanticweb.org/person/matthias-wagner> .
 
 <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-17> a swrc:InProceedings ;
     rdfs:label "combiSQORE: An Ontology Combination Algorithm" ;
@@ -5147,21 +5148,21 @@
     swrc:abstract "As an extension to the current Web, Semantic Web will not only contain structured data with machine understandable semantics but also textual information. While structured queries can be used to find information more precisely on the Semantic Web, keyword searches are still needed to help exploit textual information. It thus becomes very important that we can combine precise structured queries with imprecise keyword searches to have a hybrid query capability. In addition, due to the huge volume of information on the Semantic Web, the hybrid query must be processed in a very scalable way. In this paper, we define such a hybrid query capability that combines unary tree-shaped structured queries with keyword searches. We show how existing information retrieval (IR) index structures and functions can be reused to index semantic web data and its textual information, and how the hybrid query is evaluated on the index structure using IR engines in an efficient and scalable manner. We implemented this IR approach in an engine called Semplore. Comprehensive experiments on its performance show that it is a promising approach. It leads us to believe that it may be possible to evolve current web search engines to query and search the Semantic Web. Finally, we breifly describe how Semplore is used for searching Wikipedia and an IBM customer's product information." ;
     swrc:author <http://data.semanticweb.org/person/haofen-wang>,
         <http://data.semanticweb.org/person/jie-zhang>,
-        <http://data.semanticweb.org/person/lei-zhang-0007>,
+        <http://data.semanticweb.org/person/lei-zhang>,
         <http://data.semanticweb.org/person/qiaoling-liu>,
         <http://data.semanticweb.org/person/yong-yu>,
         <http://data.semanticweb.org/person/yue-pan> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2007.semanticweb.org/papers/645.pdf> ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-76298-0_47> ;
-    swrc:listAuthor "Lei Zhang 0007,Qiaoling Liu,Jie Zhang,Haofen Wang,Yue Pan and Yong Yu" ;
+    swrc:listAuthor "Lei Zhang,Qiaoling Liu,Jie Zhang,Haofen Wang,Yue Pan and Yong Yu" ;
     swrc:pages "652-665" ;
     swrc:url <http://dx.doi.org/10.1007/978-3-540-76298-0_47>,
         <http://iswc2007.semanticweb.org/papers/645.pdf> ;
     swrc:year "2007" ;
     foaf:maker <http://data.semanticweb.org/person/haofen-wang>,
         <http://data.semanticweb.org/person/jie-zhang>,
-        <http://data.semanticweb.org/person/lei-zhang-0007>,
+        <http://data.semanticweb.org/person/lei-zhang>,
         <http://data.semanticweb.org/person/qiaoling-liu>,
         <http://data.semanticweb.org/person/yong-yu>,
         <http://data.semanticweb.org/person/yue-pan> .

@@ -7,6 +7,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -89,7 +90,7 @@
 <http://data.semanticweb.org/conference/iswc/2010/poster-demo-proceedings/paper-03/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/ulrich-lampe> ;
     rdf:_2 <http://data.semanticweb.org/person/melanie-siebenhaar> ;
-    rdf:_3 <http://data.semanticweb.org/person/stefan-schulte-0002> ;
+    rdf:_3 <http://data.semanticweb.org/person/stefan-schulte> ;
     rdf:_4 <http://data.semanticweb.org/person/ralf-steinmetz> .
 
 <http://data.semanticweb.org/conference/iswc/2010/poster-demo-proceedings/paper-04/author_list> a rdf:Seq ;
@@ -242,7 +243,7 @@
     rdf:_1 <http://data.semanticweb.org/person/katy-wolstencroft> ;
     rdf:_2 <http://data.semanticweb.org/person/matthew-horridge> ;
     rdf:_3 <http://data.semanticweb.org/person/stuart-owen> ;
-    rdf:_4 <http://data.semanticweb.org/person/wolfgang-mueller-0001> ;
+    rdf:_4 <http://data.semanticweb.org/person/wolfgang-mueller> ;
     rdf:_5 <http://data.semanticweb.org/person/finn-bacall> ;
     rdf:_6 <http://data.semanticweb.org/person/jacky-l-snoep> ;
     rdf:_7 <http://data.semanticweb.org/person/olga-krebs> ;
@@ -382,7 +383,7 @@
     rdf:_3 <http://data.semanticweb.org/person/blai-bonet> .
 
 <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-03/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/nuno-lopes-0002> ;
+    rdf:_1 <http://data.semanticweb.org/person/nuno-lopes> ;
     rdf:_2 <http://data.semanticweb.org/person/axel-polleres> ;
     rdf:_3 <http://data.semanticweb.org/person/umberto-straccia> ;
     rdf:_4 <http://data.semanticweb.org/person/antoine-zimmermann> .
@@ -439,7 +440,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-14/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/yuan-ni> ;
-    rdf:_2 <http://data.semanticweb.org/person/lei-zhang-0007> ;
+    rdf:_2 <http://data.semanticweb.org/person/lei-zhang> ;
     rdf:_3 <http://data.semanticweb.org/person/zhaoming-qiu> ;
     rdf:_4 <http://data.semanticweb.org/person/chen-wang> .
 
@@ -598,7 +599,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-45/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/thanh-tran> ;
-    rdf:_2 <http://data.semanticweb.org/person/lei-zhang-0007> ;
+    rdf:_2 <http://data.semanticweb.org/person/lei-zhang> ;
     rdf:_3 <http://data.semanticweb.org/person/rudi-studer> .
 
 <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-46/author_list> a rdf:Seq ;
@@ -609,7 +610,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-47/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/edward-benson> ;
-    rdf:_2 <http://data.semanticweb.org/person/adam-marcus-0002> ;
+    rdf:_2 <http://data.semanticweb.org/person/adam-marcus> ;
     rdf:_3 <http://data.semanticweb.org/person/fabian-howahl> ;
     rdf:_4 <http://data.semanticweb.org/person/david-r-karger> .
 
@@ -618,7 +619,7 @@
     rdf:_2 <http://data.semanticweb.org/person/fabio-ciravegna> .
 
 <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-49/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/yingjie-li-0004> ;
+    rdf:_1 <http://data.semanticweb.org/person/yingjie-li> ;
     rdf:_2 <http://data.semanticweb.org/person/jeff-heflin> .
 
 <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-50/author_list> a rdf:Seq ;
@@ -1783,18 +1784,18 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-49/author_list> ;
     swrc:abstract "In order to effectively and quickly answer queries in environments with distributed RDF/OWL, we present a query optimization algorithm to identify the potentially relevant Semantic Web data sources using structural query features and a term index. This algorithm is based on the observation that the join selectivity of a pair of query triple patterns is often higher than the overall selectivity of these two patterns treated independently. Given a rule goal tree that expresses the reformulation of a conjunctive query, our algorithm uses a bottom-up approach to estimate the selectivity of each node. It then prioritizes loading of selective nodes and uses the information from these sources to further constrain other nodes. Finally, we use an OWL reasoner to answer queries over the selected sources and their corresponding ontologies. We have evaluated our system using both a synthetic data set and a subset of the real-world Billion Triple Challenge data." ;
     swrc:author <http://data.semanticweb.org/person/jeff-heflin>,
-        <http://data.semanticweb.org/person/yingjie-li-0004> ;
+        <http://data.semanticweb.org/person/yingjie-li> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/301.pdf> ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_32> ;
-    swrc:listAuthor "Yingjie Li 0004 and Jeff Heflin" ;
+    swrc:listAuthor "Yingjie Li and Jeff Heflin" ;
     swrc:listKeyword "information integration,query optimization,query reformulation,semantic web,source selectivity" ;
     swrc:pages "502-517" ;
     swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_32>,
         <http://iswc2010.semanticweb.org/pdf/301.pdf> ;
     swrc:year "2010" ;
     foaf:maker <http://data.semanticweb.org/person/jeff-heflin>,
-        <http://data.semanticweb.org/person/yingjie-li-0004> .
+        <http://data.semanticweb.org/person/yingjie-li> .
 
 <http://data.semanticweb.org/conference/iswc/2010/proceedings-2/paper-01> a swrc:InProceedings ;
     rdfs:label "A Case Study of Linked Enterprise Data" ;
@@ -1901,10 +1902,10 @@
     foaf:maker <http://data.semanticweb.org/person/guo-qiang-zhang>,
         <http://data.semanticweb.org/person/olivier-bodenreider> .
 
-<http://data.semanticweb.org/person/adam-marcus-0002> a foaf:Person ;
-    rdfs:label "Adam Marcus 0002" ;
+<http://data.semanticweb.org/person/adam-marcus> a foaf:Person ;
+    rdfs:label "Adam Marcus" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-47> ;
-    foaf:name "Adam Marcus 0002" .
+    foaf:name "Adam Marcus" .
 
 <http://data.semanticweb.org/person/adrian-marte> a foaf:Person ;
     rdfs:label "Adrian Marte" ;
@@ -2906,16 +2907,6 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-16> ;
     foaf:name "Norman Heino" .
 
-<http://data.semanticweb.org/person/nuno-lopes> a foaf:Person ;
-    rdfs:label "Nuno Lopes" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2010/doctoral-consortium-proceedings/paper-03> ;
-    foaf:name "Nuno Lopes" .
-
-<http://data.semanticweb.org/person/nuno-lopes-0002> a foaf:Person ;
-    rdfs:label "Nuno Lopes 0002" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-03> ;
-    foaf:name "Nuno Lopes 0002" .
-
 <http://data.semanticweb.org/person/oktie-hassanzadeh> a foaf:Person ;
     rdfs:label "Oktie Hassanzadeh" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2010/poster-demo-proceedings/paper-27> ;
@@ -3161,10 +3152,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-17> ;
     foaf:name "Stefan Schlobach" .
 
-<http://data.semanticweb.org/person/stefan-schulte-0002> a foaf:Person ;
-    rdfs:label "Stefan Schulte 0002" ;
+<http://data.semanticweb.org/person/stefan-schulte> a foaf:Person ;
+    rdfs:label "Stefan Schulte" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2010/poster-demo-proceedings/paper-03> ;
-    foaf:name "Stefan Schulte 0002" .
+    foaf:name "Stefan Schulte" .
 
 <http://data.semanticweb.org/person/stefan-warwas> a foaf:Person ;
     rdfs:label "Stefan Warwas" ;
@@ -3321,10 +3312,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2010/proceedings-2/paper-13> ;
     foaf:name "Wolfgang Maass" .
 
-<http://data.semanticweb.org/person/wolfgang-mueller-0001> a foaf:Person ;
-    rdfs:label "Wolfgang Müller 0001" ;
+<http://data.semanticweb.org/person/wolfgang-mueller> a foaf:Person ;
+    rdfs:label "Wolfgang Müller" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2010/poster-demo-proceedings/paper-31> ;
-    foaf:name "Wolfgang Müller 0001" .
+    foaf:name "Wolfgang Müller" .
 
 <http://data.semanticweb.org/person/wouter-van-den-broeck> a foaf:Person ;
     rdfs:label "Wouter Van den Broeck" ;
@@ -3356,10 +3347,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2010/poster-demo-proceedings/paper-33> ;
     foaf:name "Ying Liu" .
 
-<http://data.semanticweb.org/person/yingjie-li-0004> a foaf:Person ;
-    rdfs:label "Yingjie Li 0004" ;
+<http://data.semanticweb.org/person/yingjie-li> a foaf:Person ;
+    rdfs:label "Yingjie Li" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-49> ;
-    foaf:name "Yingjie Li 0004" .
+    foaf:name "Yingjie Li" .
 
 <http://data.semanticweb.org/person/yinglong-ma> a foaf:Person ;
     rdfs:label "Yinglong Ma" ;
@@ -4142,19 +4133,19 @@
     dcterms:title "Summary Models for Routing Keywords to Linked Data Sources" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-45/author_list> ;
     swrc:abstract "The proliferation of linked data on the Web paves the way to a new generation of applications that exploit heterogeneous data from different sources. However, because this Web of data is large and continuously evolving, it is non-trivial to identify the relevant link data sources and to express some given information needs as structured queries against these sources. In this work, we allow users to express needs in terms of simple keywords. Given the keywords, we define the problem of finding the relevant sources as the one of keyword query routing. As a solution, we present a family of summary models, which compactly represents the Web of linked data and allows to quickly find relevant sources. The proposed models capture information at different levels, representing summaries of varying granularity. They represent different trade-offs between effectiveness and efficiency. We provide a theoretical analysis of these trade-offs and also, verify them in experiments carried out in a real-world setting using more than 150 publicly available datasets." ;
-    swrc:author <http://data.semanticweb.org/person/lei-zhang-0007>,
+    swrc:author <http://data.semanticweb.org/person/lei-zhang>,
         <http://data.semanticweb.org/person/rudi-studer>,
         <http://data.semanticweb.org/person/thanh-tran> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/114.pdf> ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_49> ;
-    swrc:listAuthor "Thanh Tran,Lei Zhang 0007 and Rudi Studer" ;
+    swrc:listAuthor "Thanh Tran,Lei Zhang and Rudi Studer" ;
     swrc:listKeyword "semantic web" ;
     swrc:pages "781-797" ;
     swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_49>,
         <http://iswc2010.semanticweb.org/pdf/114.pdf> ;
     swrc:year "2010" ;
-    foaf:maker <http://data.semanticweb.org/person/lei-zhang-0007>,
+    foaf:maker <http://data.semanticweb.org/person/lei-zhang>,
         <http://data.semanticweb.org/person/rudi-studer>,
         <http://data.semanticweb.org/person/thanh-tran> .
 
@@ -4242,18 +4233,18 @@
     swrc:abstract "Semantic matchmaking, i.e., the task of finding matching (Web) services based on semantic information, has been a prominent field of research lately, and a wide range of supporting tools both for research and practice have been published. However, no suitable solution for the visualization of matchmaking results exists so far. In this paper, we present the Matchmaking Visualizer, an application for the visual representation and analysis of semantic matchmaking results. It allows for the comparing of matchmaking approaches for semantic Web services in a fine-grained manner and thus complements existing evaluation suites that are based on rather coarse-grained information retrieval metrics." ;
     swrc:author <http://data.semanticweb.org/person/melanie-siebenhaar>,
         <http://data.semanticweb.org/person/ralf-steinmetz>,
-        <http://data.semanticweb.org/person/stefan-schulte-0002>,
+        <http://data.semanticweb.org/person/stefan-schulte>,
         <http://data.semanticweb.org/person/ulrich-lampe> ;
     swrc:category "Poster/Demo Paper" ;
     swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/501.pdf> ;
     swrc:link_publisher <http://ceur-ws.org/Vol-658/paper501.pdf> ;
-    swrc:listAuthor "Ulrich Lampe,Melanie Siebenhaar,Stefan Schulte 0002 and Ralf Steinmetz" ;
+    swrc:listAuthor "Ulrich Lampe,Melanie Siebenhaar,Stefan Schulte and Ralf Steinmetz" ;
     swrc:url <http://ceur-ws.org/Vol-658/paper501.pdf>,
         <http://iswc2010.semanticweb.org/pdf/501.pdf> ;
     swrc:year "2010" ;
     foaf:maker <http://data.semanticweb.org/person/melanie-siebenhaar>,
         <http://data.semanticweb.org/person/ralf-steinmetz>,
-        <http://data.semanticweb.org/person/stefan-schulte-0002>,
+        <http://data.semanticweb.org/person/stefan-schulte>,
         <http://data.semanticweb.org/person/ulrich-lampe> .
 
 <http://data.semanticweb.org/conference/iswc/2010/poster-demo-proceedings/paper-08> a swrc:InProceedings ;
@@ -4504,12 +4495,12 @@
     swrc:abstract "Starting from the general framework for annotated RDF(S) which we have presented in previous work, we address the development of a query language - AnQL - that is inspired by SPARQL, including several features of SPARQL 1.1. As a side effect we propose formal definitions of the semantics of these features (subqueries, aggregates, assignment, solution modifiers) which could serve as a basis for the ongoing work in SPARQL 1.1. We demonstrate the value of such a framework by comparing our approach to previously proposed extensions of SPARQL and show that AnQL generalises and extends them." ;
     swrc:author <http://data.semanticweb.org/person/antoine-zimmermann>,
         <http://data.semanticweb.org/person/axel-polleres>,
-        <http://data.semanticweb.org/person/nuno-lopes-0002>,
+        <http://data.semanticweb.org/person/nuno-lopes>,
         <http://data.semanticweb.org/person/umberto-straccia> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/51.pdf> ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_33> ;
-    swrc:listAuthor "Nuno Lopes 0002,Axel Polleres,Umberto Straccia and Antoine Zimmermann" ;
+    swrc:listAuthor "Nuno Lopes,Axel Polleres,Umberto Straccia and Antoine Zimmermann" ;
     swrc:listKeyword "RDF,SPARQL" ;
     swrc:pages "518-533" ;
     swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_33>,
@@ -4517,7 +4508,7 @@
     swrc:year "2010" ;
     foaf:maker <http://data.semanticweb.org/person/antoine-zimmermann>,
         <http://data.semanticweb.org/person/axel-polleres>,
-        <http://data.semanticweb.org/person/nuno-lopes-0002>,
+        <http://data.semanticweb.org/person/nuno-lopes>,
         <http://data.semanticweb.org/person/umberto-straccia> .
 
 <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-09> a swrc:InProceedings ;
@@ -4578,20 +4569,20 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-14/author_list> ;
     swrc:abstract "Many applications make use of named entity classification. Machine learning is the preferred technique adopted for many named entity classification methods where the choice of features is critical to final performance. Existing approaches explore only the features derived from the characteristic of the named entity itself or its linguistic context. With the development of the SemanticWeb, a large number of data sources are published and connected across the Web as Linked Open Data (LOD). LOD provides rich a priori knowledge about entity type information, knowledge that can be a valuable asset when used in connection with named entity classification. In this paper, we explore the use of LOD to enhance named entity classification. Our method extracts information from LOD and builds a type knowledge base which is used to score a (named entity string, type) pair. This score is then injected as one or more features into the existing classifier in order to improve its performance. We conducted a thorough experimental study and report the results, which confirm the effectiveness of our proposed method." ;
     swrc:author <http://data.semanticweb.org/person/chen-wang>,
-        <http://data.semanticweb.org/person/lei-zhang-0007>,
+        <http://data.semanticweb.org/person/lei-zhang>,
         <http://data.semanticweb.org/person/yuan-ni>,
         <http://data.semanticweb.org/person/zhaoming-qiu> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/153.pdf> ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_36> ;
-    swrc:listAuthor "Yuan Ni,Lei Zhang 0007,Zhaoming Qiu and Chen Wang" ;
+    swrc:listAuthor "Yuan Ni,Lei Zhang,Zhaoming Qiu and Chen Wang" ;
     swrc:listKeyword "classification,linked open data,named entity,semantic web" ;
     swrc:pages "566-581" ;
     swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_36>,
         <http://iswc2010.semanticweb.org/pdf/153.pdf> ;
     swrc:year "2010" ;
     foaf:maker <http://data.semanticweb.org/person/chen-wang>,
-        <http://data.semanticweb.org/person/lei-zhang-0007>,
+        <http://data.semanticweb.org/person/lei-zhang>,
         <http://data.semanticweb.org/person/yuan-ni>,
         <http://data.semanticweb.org/person/zhaoming-qiu> .
 
@@ -4827,20 +4818,20 @@
     dcterms:title "Talking about Data: Sharing Richly Structured Information through Blogs and Wikis" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-47/author_list> ;
     swrc:abstract "Several projects have brought rich data semantics to collaborative wikis, but blogging platforms remain primarily limited to text. As blogs comprise a significant portion of the web's content, engagement of the blogging community is crucial to the development of the semantic web. We provide a study of blog content to show a latent need for better data publishing and visualization support in blogging software. We then present DataPress, an extension to the WordPress blogging platform that enables users to publish, share, aggregate, and visualize structured information using the same workflow that they already apply to text-based content. In particular, we aim to preserve those attributes that make blogs such a successful publication medium: one-click access to the information, one-click publishing of it, natural authoring interfaces, and easy copy and paste of information (and visualizations) from other sources. We reflect on how our designs make progress toward these goals with a study of how users who installed DataPress made use of various features." ;
-    swrc:author <http://data.semanticweb.org/person/adam-marcus-0002>,
+    swrc:author <http://data.semanticweb.org/person/adam-marcus>,
         <http://data.semanticweb.org/person/david-r-karger>,
         <http://data.semanticweb.org/person/edward-benson>,
         <http://data.semanticweb.org/person/fabian-howahl> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/84.pdf> ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-17746-0_4> ;
-    swrc:listAuthor "Edward Benson,Adam Marcus 0002,Fabian Howahl and David R. Karger" ;
+    swrc:listAuthor "Edward Benson,Adam Marcus,Fabian Howahl and David R. Karger" ;
     swrc:listKeyword "semantic web" ;
     swrc:pages "48-63" ;
     swrc:url <http://dx.doi.org/10.1007/978-3-642-17746-0_4>,
         <http://iswc2010.semanticweb.org/pdf/84.pdf> ;
     swrc:year "2010" ;
-    foaf:maker <http://data.semanticweb.org/person/adam-marcus-0002>,
+    foaf:maker <http://data.semanticweb.org/person/adam-marcus>,
         <http://data.semanticweb.org/person/david-r-karger>,
         <http://data.semanticweb.org/person/edward-benson>,
         <http://data.semanticweb.org/person/fabian-howahl> .
@@ -5402,12 +5393,6 @@
         <http://data.semanticweb.org/conference/iswc/2010/poster-demo-proceedings/paper-13> ;
     foaf:name "Latifur Khan" .
 
-<http://data.semanticweb.org/person/lei-zhang-0007> a foaf:Person ;
-    rdfs:label "Lei Zhang 0007" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-14>,
-        <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-45> ;
-    foaf:name "Lei Zhang 0007" .
-
 <http://data.semanticweb.org/person/luciano-serafini> a foaf:Person ;
     rdfs:label "Luciano Serafini" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2010/poster-demo-proceedings/paper-24>,
@@ -5449,6 +5434,12 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2010/poster-demo-proceedings/paper-01>,
         <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-18> ;
     foaf:name "Nicholas Gibbins" .
+
+<http://data.semanticweb.org/person/nuno-lopes> a foaf:Person ;
+    rdfs:label "Nuno Lopes" ;
+    foaf:made <http://data.semanticweb.org/conference/iswc/2010/doctoral-consortium-proceedings/paper-03>,
+        <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-03> ;
+    foaf:name "Nuno Lopes" .
 
 <http://data.semanticweb.org/person/oscar-corcho> a foaf:Person ;
     rdfs:label "Óscar Corcho" ;
@@ -5814,11 +5805,11 @@
         <http://data.semanticweb.org/person/matthew-horridge>,
         <http://data.semanticweb.org/person/olga-krebs>,
         <http://data.semanticweb.org/person/stuart-owen>,
-        <http://data.semanticweb.org/person/wolfgang-mueller-0001> ;
+        <http://data.semanticweb.org/person/wolfgang-mueller> ;
     swrc:category "Poster/Demo Paper" ;
     swrc:link_open_access <http://iswc2010.semanticweb.org/pdf/499.pdf> ;
     swrc:link_publisher <http://ceur-ws.org/Vol-658/paper499.pdf> ;
-    swrc:listAuthor "Katy Wolstencroft,Matthew Horridge,Stuart Owen,Wolfgang Müller 0001,Finn Bacall,Jacky L. Snoep,Olga Krebs and Carole A. Goble" ;
+    swrc:listAuthor "Katy Wolstencroft,Matthew Horridge,Stuart Owen,Wolfgang Müller,Finn Bacall,Jacky L. Snoep,Olga Krebs and Carole A. Goble" ;
     swrc:listKeyword "biology,metadata standards,ontology annotation,spreadsheets" ;
     swrc:url <http://ceur-ws.org/Vol-658/paper499.pdf>,
         <http://iswc2010.semanticweb.org/pdf/499.pdf> ;
@@ -5830,7 +5821,7 @@
         <http://data.semanticweb.org/person/matthew-horridge>,
         <http://data.semanticweb.org/person/olga-krebs>,
         <http://data.semanticweb.org/person/stuart-owen>,
-        <http://data.semanticweb.org/person/wolfgang-mueller-0001> .
+        <http://data.semanticweb.org/person/wolfgang-mueller> .
 
 <http://data.semanticweb.org/person/andreas-eberhart> a foaf:Person ;
     rdfs:label "Andreas Eberhart" ;
@@ -5880,13 +5871,6 @@
         <http://data.semanticweb.org/conference/iswc/2010/proceedings-2/paper-10>,
         <http://data.semanticweb.org/conference/iswc/2010/proceedings-2/paper-15> ;
     foaf:name "Jens Lehmann" .
-
-<http://data.semanticweb.org/person/lei-zhang> a foaf:Person ;
-    rdfs:label "Lei Zhang" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2010/industry-proceedings>,
-        <http://data.semanticweb.org/conference/iswc/2010/proceedings-1>,
-        <http://data.semanticweb.org/conference/iswc/2010/proceedings-2> ;
-    foaf:name "Lei Zhang" .
 
 <http://data.semanticweb.org/person/michael-schmidt> a foaf:Person ;
     rdfs:label "Michael Schmidt" ;
@@ -6023,6 +6007,15 @@
         <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-43>,
         <http://data.semanticweb.org/conference/iswc/2010/proceedings-2> ;
     foaf:name "Birte Glimm" .
+
+<http://data.semanticweb.org/person/lei-zhang> a foaf:Person ;
+    rdfs:label "Lei Zhang" ;
+    foaf:made <http://data.semanticweb.org/conference/iswc/2010/industry-proceedings>,
+        <http://data.semanticweb.org/conference/iswc/2010/proceedings-1>,
+        <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-14>,
+        <http://data.semanticweb.org/conference/iswc/2010/proceedings-1/paper-45>,
+        <http://data.semanticweb.org/conference/iswc/2010/proceedings-2> ;
+    foaf:name "Lei Zhang" .
 
 <http://data.semanticweb.org/conference/iswc/2010/proceedings-2> a swrc:Proceedings ;
     rdfs:label "The Semantic Web - ISWC 2010" ;

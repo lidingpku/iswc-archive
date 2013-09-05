@@ -7,6 +7,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -655,7 +656,7 @@
     rdf:_3 <http://data.semanticweb.org/person/john-domingue> .
 
 <http://data.semanticweb.org/conference/iswc/2004/proceedings/paper-35/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/lei-zhang-0007> ;
+    rdf:_1 <http://data.semanticweb.org/person/lei-zhang> ;
     rdf:_10 <http://data.semanticweb.org/person/yue-pan> ;
     rdf:_2 <http://data.semanticweb.org/person/yong-yu> ;
     rdf:_3 <http://data.semanticweb.org/person/jing-lu> ;
@@ -2393,10 +2394,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-14> ;
     foaf:name "Lars Marius Garshol" .
 
-<http://data.semanticweb.org/person/lei-zhang-0007> a foaf:Person ;
-    rdfs:label "Lei Zhang 0007" ;
+<http://data.semanticweb.org/person/lei-zhang> a foaf:Person ;
+    rdfs:label "Lei Zhang" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2004/proceedings/paper-35> ;
-    foaf:name "Lei Zhang 0007" .
+    foaf:name "Lei Zhang" .
 
 <http://data.semanticweb.org/person/li-chia-kuo> a foaf:Person ;
     rdfs:label "Li-Chia Kuo" ;
@@ -5568,7 +5569,7 @@
         <http://data.semanticweb.org/person/guo-tong-xie>,
         <http://data.semanticweb.org/person/jing-lu>,
         <http://data.semanticweb.org/person/kewei-tu>,
-        <http://data.semanticweb.org/person/lei-zhang-0007>,
+        <http://data.semanticweb.org/person/lei-zhang>,
         <http://data.semanticweb.org/person/mingchuan-guo>,
         <http://data.semanticweb.org/person/yong-yu>,
         <http://data.semanticweb.org/person/yue-pan>,
@@ -5576,7 +5577,7 @@
         <http://data.semanticweb.org/person/zhuo-zhang> ;
     swrc:category "Industrial Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-30475-3_57> ;
-    swrc:listAuthor "Lei Zhang 0007,Yong Yu,Jing Lu,Chenxi Lin,Kewei Tu,MingChuan Guo,Zhuo Zhang,Guo Tong Xie,Zhong Su and Yue Pan" ;
+    swrc:listAuthor "Lei Zhang,Yong Yu,Jing Lu,Chenxi Lin,Kewei Tu,MingChuan Guo,Zhuo Zhang,Guo Tong Xie,Zhong Su and Yue Pan" ;
     swrc:pages "823-838" ;
     swrc:url <http://dx.doi.org/10.1007/978-3-540-30475-3_57> ;
     swrc:year "2004" ;
@@ -5584,7 +5585,7 @@
         <http://data.semanticweb.org/person/guo-tong-xie>,
         <http://data.semanticweb.org/person/jing-lu>,
         <http://data.semanticweb.org/person/kewei-tu>,
-        <http://data.semanticweb.org/person/lei-zhang-0007>,
+        <http://data.semanticweb.org/person/lei-zhang>,
         <http://data.semanticweb.org/person/mingchuan-guo>,
         <http://data.semanticweb.org/person/yong-yu>,
         <http://data.semanticweb.org/person/yue-pan>,

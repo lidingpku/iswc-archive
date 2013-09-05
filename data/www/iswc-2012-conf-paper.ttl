@@ -7,6 +7,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -163,7 +164,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2012/poster-demo-proceedings/paper-15/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/jan-michelfeit> ;
-    rdf:_2 <http://data.semanticweb.org/person/toma-knap> .
+    rdf:_2 <http://data.semanticweb.org/person/tomas-knap> .
 
 <http://data.semanticweb.org/conference/iswc/2012/poster-demo-proceedings/paper-16/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/enrico-motta> ;
@@ -668,7 +669,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2012/proceedings-2/paper-27/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/ying-zhang> ;
-    rdf:_2 <http://data.semanticweb.org/person/minh-duc-pham-0001> ;
+    rdf:_2 <http://data.semanticweb.org/person/minh-duc-pham> ;
     rdf:_3 <http://data.semanticweb.org/person/oscar-corcho> ;
     rdf:_4 <http://data.semanticweb.org/person/jean-paul-calbimonte> .
 
@@ -1223,15 +1224,15 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2012/poster-demo-proceedings/paper-15/author_list> ;
     swrc:abstract "As part of LOD2 project and OpenData.cz initiative, we are developing an ODCleanStore framework enabling management of Linked Data. In this paper, we focus on the query-time data fusion in ODCleanStore, which provides data consumers with integrated views on Linked Data; the fused data (1) has solved conflicts according to the preferred conflict resolution policies and (2) is accompanied with provenance and quality scores, so that the consumers can judge the usefulness and trustworthiness of the data for their task at hand." ;
     swrc:author <http://data.semanticweb.org/person/jan-michelfeit>,
-        <http://data.semanticweb.org/person/toma-knap> ;
+        <http://data.semanticweb.org/person/tomas-knap> ;
     swrc:category "Poster/Demo Paper" ;
     swrc:link_open_access <http://ceur-ws.org/Vol-914/paper_37.pdf> ;
-    swrc:listAuthor "Jan Michelfeit and Tomá Knap" ;
+    swrc:listAuthor "Jan Michelfeit and Tomáš Knap" ;
     swrc:listKeyword "data fusion,data integration,data quality,linked data" ;
     swrc:url <http://ceur-ws.org/Vol-914/paper_37.pdf> ;
     swrc:year "2012" ;
     foaf:maker <http://data.semanticweb.org/person/jan-michelfeit>,
-        <http://data.semanticweb.org/person/toma-knap> .
+        <http://data.semanticweb.org/person/tomas-knap> .
 
 <http://data.semanticweb.org/conference/iswc/2012/poster-demo-proceedings/paper-16> a swrc:InProceedings ;
     rdfs:label "Making Sense of Research with Rexplore" ;
@@ -2398,16 +2399,6 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2012/proceedings-1/paper-16> ;
     foaf:name "Minh Dao-Tran" .
 
-<http://data.semanticweb.org/person/minh-duc-pham> a foaf:Person ;
-    rdfs:label "Minh-Duc Pham" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2012/proceedings-1/paper-16> ;
-    foaf:name "Minh-Duc Pham" .
-
-<http://data.semanticweb.org/person/minh-duc-pham-0001> a foaf:Person ;
-    rdfs:label "Minh-Duc Pham 0001" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2012/proceedings-2/paper-27> ;
-    foaf:name "Minh-Duc Pham 0001" .
-
 <http://data.semanticweb.org/person/mirko-graziosi> a foaf:Person ;
     rdfs:label "Mirko Graziosi" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2012/proceedings-1/paper-23> ;
@@ -2878,10 +2869,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2012/industry-proceedings> ;
     foaf:name "Tom Heath" .
 
-<http://data.semanticweb.org/person/toma-knap> a foaf:Person ;
-    rdfs:label "Tomá Knap" ;
+<http://data.semanticweb.org/person/tomas-knap> a foaf:Person ;
+    rdfs:label "Tomáš Knap" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2012/poster-demo-proceedings/paper-15> ;
-    foaf:name "Tomá Knap" .
+    foaf:name "Tomáš Knap" .
 
 <http://data.semanticweb.org/person/tomas-vitvar> a foaf:Person ;
     rdfs:label "Tomas Vitvar" ;
@@ -4316,20 +4307,20 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2012/proceedings-2/paper-27/author_list> ;
     swrc:abstract "We introduce SRBench, a general-purpose benchmark primarily designed for streaming RDF/SPARQL engines, completely based on real-world data sets from the Linked Open Data cloud. With the increasing problem of too much streaming data but not enough tools to gain knowledge from them, researchers have set out for solutions in which Semantic Web technologies are adapted and extended for publishing, sharing, analysing and understanding streaming data. To help researchers and users comparing streaming RDF/SPARQL (strRS) engines in a standardised application scenario, we have designed SRBench, with which one can assess the abilities of a strRS engine to cope with a broad range of use cases typically encountered in real-world scenarios. The data sets used in the benchmark have been carefully chosen, such that they represent a realistic and relevant usage of streaming data. The benchmark defines a concise, yet comprehensive set of queries that cover the major aspects of strRS processing. Finally, our work is complemented with a functional evaluation on three representative strRS engines: SPARQLStream, C-SPARQL and CQELS. The presented results are meant to give a first baseline and illustrate the state-of-the-art." ;
     swrc:author <http://data.semanticweb.org/person/jean-paul-calbimonte>,
-        <http://data.semanticweb.org/person/minh-duc-pham-0001>,
+        <http://data.semanticweb.org/person/minh-duc-pham>,
         <http://data.semanticweb.org/person/oscar-corcho>,
         <http://data.semanticweb.org/person/ying-zhang> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2012.semanticweb.org/sites/default/files/76490625.pdf> ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-35176-1_40> ;
-    swrc:listAuthor "Ying Zhang,Minh-Duc Pham 0001,Óscar Corcho and Jean-Paul Calbimonte" ;
+    swrc:listAuthor "Ying Zhang,Minh-Duc Pham,Óscar Corcho and Jean-Paul Calbimonte" ;
     swrc:listKeyword "benchmark,sensor data,streaming RDF/SPARQL,streaming data" ;
     swrc:pages "641-657" ;
     swrc:url <http://dx.doi.org/10.1007/978-3-642-35176-1_40>,
         <http://iswc2012.semanticweb.org/sites/default/files/76490625.pdf> ;
     swrc:year "2012" ;
     foaf:maker <http://data.semanticweb.org/person/jean-paul-calbimonte>,
-        <http://data.semanticweb.org/person/minh-duc-pham-0001>,
+        <http://data.semanticweb.org/person/minh-duc-pham>,
         <http://data.semanticweb.org/person/oscar-corcho>,
         <http://data.semanticweb.org/person/ying-zhang> .
 
@@ -4805,6 +4796,12 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2012/poster-demo-proceedings/paper-13>,
         <http://data.semanticweb.org/conference/iswc/2012/proceedings-1/paper-13> ;
     foaf:name "Mikko Rinne" .
+
+<http://data.semanticweb.org/person/minh-duc-pham> a foaf:Person ;
+    rdfs:label "Minh-Duc Pham" ;
+    foaf:made <http://data.semanticweb.org/conference/iswc/2012/proceedings-1/paper-16>,
+        <http://data.semanticweb.org/conference/iswc/2012/proceedings-2/paper-27> ;
+    foaf:name "Minh-Duc Pham" .
 
 <http://data.semanticweb.org/person/natalya-fridman-noy> a foaf:Person ;
     rdfs:label "Natalya Fridman Noy" ;

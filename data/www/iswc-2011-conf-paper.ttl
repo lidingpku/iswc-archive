@@ -7,6 +7,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -484,7 +485,7 @@
     rdf:_3 <http://data.semanticweb.org/person/pavel-klinov> ;
     rdf:_4 <http://data.semanticweb.org/person/bijan-parsia> ;
     rdf:_5 <http://data.semanticweb.org/person/ulrike-sattler> ;
-    rdf:_6 <http://data.semanticweb.org/person/thomas-schneider-0002> ;
+    rdf:_6 <http://data.semanticweb.org/person/thomas-schneider> ;
     rdf:_7 <http://data.semanticweb.org/person/andrew-winget> .
 
 <http://data.semanticweb.org/conference/iswc/2011/proceedings-1/paper-15/author_list> a rdf:Seq ;
@@ -3679,16 +3680,6 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2011/proceedings-2/paper-28> ;
     foaf:name "Thomas C. Harmon" .
 
-<http://data.semanticweb.org/person/thomas-schneider> a foaf:Person ;
-    rdfs:label "Thomas Schneider" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2011/poster-demo-proceedings/paper-16> ;
-    foaf:name "Thomas Schneider" .
-
-<http://data.semanticweb.org/person/thomas-schneider-0002> a foaf:Person ;
-    rdfs:label "Thomas Schneider 0002" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2011/proceedings-1/paper-14> ;
-    foaf:name "Thomas Schneider 0002" .
-
 <http://data.semanticweb.org/person/thomas-steiner> a foaf:Person ;
     rdfs:label "Thomas Steiner" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2011/proceedings-2/paper-09> ;
@@ -6149,6 +6140,12 @@
         <http://data.semanticweb.org/conference/iswc/2011/proceedings-2/paper-27> ;
     foaf:name "Stefan Decker" .
 
+<http://data.semanticweb.org/person/thomas-schneider> a foaf:Person ;
+    rdfs:label "Thomas Schneider" ;
+    foaf:made <http://data.semanticweb.org/conference/iswc/2011/poster-demo-proceedings/paper-16>,
+        <http://data.semanticweb.org/conference/iswc/2011/proceedings-1/paper-14> ;
+    foaf:name "Thomas Schneider" .
+
 <http://data.semanticweb.org/person/timothy-lebo> a foaf:Person ;
     rdfs:label "Timothy Lebo" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2011/poster-demo-proceedings/paper-08>,
@@ -6401,12 +6398,12 @@
         <http://data.semanticweb.org/person/chiara-del-vescovo>,
         <http://data.semanticweb.org/person/damian-gessler>,
         <http://data.semanticweb.org/person/pavel-klinov>,
-        <http://data.semanticweb.org/person/thomas-schneider-0002>,
+        <http://data.semanticweb.org/person/thomas-schneider>,
         <http://data.semanticweb.org/person/ulrike-sattler> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Research_Paper/11/70310129.pdf> ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-642-25073-6_9> ;
-    swrc:listAuthor "Chiara Del Vescovo,Damian Gessler,Pavel Klinov,Bijan Parsia,Ulrike Sattler,Thomas Schneider 0002 and Andrew Winget" ;
+    swrc:listAuthor "Chiara Del Vescovo,Damian Gessler,Pavel Klinov,Bijan Parsia,Ulrike Sattler,Thomas Schneider and Andrew Winget" ;
     swrc:listKeyword "OWL,SSWAP,atomic decomposition,modularity,semantic Web services" ;
     swrc:pages "130-145" ;
     swrc:url <http://dx.doi.org/10.1007/978-3-642-25073-6_9>,
@@ -6417,7 +6414,7 @@
         <http://data.semanticweb.org/person/chiara-del-vescovo>,
         <http://data.semanticweb.org/person/damian-gessler>,
         <http://data.semanticweb.org/person/pavel-klinov>,
-        <http://data.semanticweb.org/person/thomas-schneider-0002>,
+        <http://data.semanticweb.org/person/thomas-schneider>,
         <http://data.semanticweb.org/person/ulrike-sattler> .
 
 <http://data.semanticweb.org/conference/iswc/2011/proceedings-1/paper-32> a swrc:InProceedings ;

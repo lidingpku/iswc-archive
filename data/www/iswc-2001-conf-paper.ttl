@@ -7,6 +7,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -102,7 +103,7 @@
     rdf:_2 <http://data.semanticweb.org/person/anita-tyler> .
 
 <http://data.semanticweb.org/conference/iswc/2001/position-proceedings/paper-23/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/jd-edwards> .
+    rdf:_1 <http://data.semanticweb.org/person/a-person-from-jd-edwards> .
 
 <http://data.semanticweb.org/conference/iswc/2001/position-proceedings/paper-24/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/brian-kettler> .
@@ -535,13 +536,13 @@
     dc:title "Semantic Web Position Paper" ;
     dcterms:title "Semantic Web Position Paper" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2001/position-proceedings/paper-23/author_list> ;
-    swrc:author <http://data.semanticweb.org/person/jd-edwards> ;
+    swrc:author <http://data.semanticweb.org/person/a-person-from-jd-edwards> ;
     swrc:category "Position Paper" ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-jded.pdf> ;
-    swrc:listAuthor "J.D. Edwards" ;
+    swrc:listAuthor "(A person from J.D. Edwards)" ;
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/position/soi-jded.pdf> ;
     swrc:year "2001" ;
-    foaf:maker <http://data.semanticweb.org/person/jd-edwards> .
+    foaf:maker <http://data.semanticweb.org/person/a-person-from-jd-edwards> .
 
 <http://data.semanticweb.org/conference/iswc/2001/position-proceedings/paper-24> a swrc:InProceedings ;
     rdfs:label "Building a Semantic Web for the Intelligence Community" ;
@@ -1121,6 +1122,11 @@
     foaf:maker <http://data.semanticweb.org/person/reinhold-klapsing>,
         <http://data.semanticweb.org/person/wolfram-conen> .
 
+<http://data.semanticweb.org/person/a-person-from-jd-edwards> a foaf:Person ;
+    rdfs:label "(A person from J.D. Edwards)" ;
+    foaf:made <http://data.semanticweb.org/conference/iswc/2001/position-proceedings/paper-23> ;
+    foaf:name "(A person from J.D. Edwards)" .
+
 <http://data.semanticweb.org/person/a-sheth> a foaf:Person ;
     rdfs:label "A. Sheth" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2001/position-proceedings/paper-01> ;
@@ -1450,11 +1456,6 @@
     rdfs:label "Jayne Curson" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2001/position-proceedings/paper-26> ;
     foaf:name "Jayne Curson" .
-
-<http://data.semanticweb.org/person/jd-edwards> a foaf:Person ;
-    rdfs:label "J.D. Edwards" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2001/position-proceedings/paper-23> ;
-    foaf:name "J.D. Edwards" .
 
 <http://data.semanticweb.org/person/jeff-z-pan> a foaf:Person ;
     rdfs:label "Jeff Z. Pan" ;
