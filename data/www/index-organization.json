@@ -366,9 +366,9 @@
                     "name": "AIFB, University of Karlsruhe",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/aifb-university-of-karlsruhe",
-                    "member_list": "Sebastian Rudolph;Andreas Harth",
+                    "member_list": "Yongtao Ma;Thanh Tran;Sebastian Rudolph;Daniel M. Herzig;Andreas Harth",
                     "year": "2013",
-                    "cnt_member": "2",
+                    "cnt_member": "5",
                     "logo": "",
                     "homepage": ""
                 }
@@ -1186,9 +1186,9 @@
                     "name": "BBC",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/bbc",
-                    "member_list": "Yves Raimond;Sofia Angeletou",
+                    "member_list": "Yves Raimond;Sofia Angeletou;Michael Smethurst;Christopher Lowis;Andrew McParland",
                     "year": "2013",
-                    "cnt_member": "2",
+                    "cnt_member": "5",
                     "logo": "",
                     "homepage": ""
                 }
@@ -1350,9 +1350,9 @@
                     "name": "Beijing Normal University",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/beijing-normal-university",
-                    "member_list": "Zhichun Wang",
+                    "member_list": "Mingquan Zhou;Rongfang Bie;Mengling Xu;Zhichun Wang;Chen Zheng;Wantian Ke",
                     "year": "2013",
-                    "cnt_member": "1",
+                    "cnt_member": "6",
                     "logo": "",
                     "homepage": ""
                 }
@@ -1741,6 +1741,22 @@
                     "member_list": "James Pustejovsky",
                     "year": "2012",
                     "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
+            "entity_uri": "http://data.semanticweb.org/organization/braunschweig-university-of-technology",
+            "name": "Braunschweig University of Technology",
+            "conf": [
+                {
+                    "name": "Braunschweig University of Technology",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/braunschweig-university-of-technology",
+                    "member_list": "Wolf-Tilo Balke;Silviu Homoceanu;Philipp Wille",
+                    "year": "2013",
+                    "cnt_member": "3",
                     "logo": "",
                     "homepage": ""
                 }
@@ -2357,6 +2373,22 @@
             ]
         },
         {
+            "entity_uri": "http://data.semanticweb.org/organization/centrum-wiskunde-informatica",
+            "name": "Centrum Wiskunde & Informatica",
+            "conf": [
+                {
+                    "name": "Centrum Wiskunde & Informatica",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/centrum-wiskunde-informatica",
+                    "member_list": "Hannes M\u00fchleisen",
+                    "year": "2013",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
             "entity_uri": "http://data.semanticweb.org/organization/cern",
             "name": "CERN",
             "conf": [
@@ -2789,6 +2821,16 @@
                     "cnt_member": "1",
                     "logo": "",
                     "homepage": ""
+                },
+                {
+                    "name": "CMU",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/cmu",
+                    "member_list": "William Cohen",
+                    "year": "2013",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
                 }
             ]
         },
@@ -2927,6 +2969,22 @@
             ]
         },
         {
+            "entity_uri": "http://data.semanticweb.org/organization/cnrs",
+            "name": "CNRS",
+            "conf": [
+                {
+                    "name": "CNRS",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/cnrs",
+                    "member_list": "Pierre Genev\u00e8s",
+                    "year": "2013",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
             "entity_uri": "http://data.semanticweb.org/organization/cognit",
             "name": "CognIT",
             "conf": [
@@ -2994,6 +3052,22 @@
                     "uri": "http://data.semanticweb.org/organization/computas",
                     "member_list": "David Norheim",
                     "year": "2012",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
+            "entity_uri": "http://data.semanticweb.org/organization/computer-research-institute-of-montreal",
+            "name": "Computer Research Institute of Montreal",
+            "conf": [
+                {
+                    "name": "Computer Research Institute of Montreal",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/computer-research-institute-of-montreal",
+                    "member_list": "Caroline Barri\u00e8re",
+                    "year": "2013",
                     "cnt_member": "1",
                     "logo": "",
                     "homepage": ""
@@ -3105,6 +3179,22 @@
                     "member_list": "",
                     "year": "2002",
                     "cnt_member": "0",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
+            "entity_uri": "http://data.semanticweb.org/organization/connected-discovery",
+            "name": "Connected Discovery",
+            "conf": [
+                {
+                    "name": "Connected Discovery",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/connected-discovery",
+                    "member_list": "Lee Harland",
+                    "year": "2013",
+                    "cnt_member": "1",
                     "logo": "",
                     "homepage": ""
                 }
@@ -3296,9 +3386,9 @@
                     "name": "CSIRO Australia",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/csiro-australia",
-                    "member_list": "Raj Gaire;Dimitrios Georgakopoulos;David Ratcliffe;Laurent Lefort;Charith Perera;Michael Compton;Arkady Zaslavsky;Kerry Taylor;Armin Haller",
+                    "member_list": "Raj Gaire;Dimitrios Georgakopoulos;David Ratcliffe;Ritaban Dutta;Laurent Lefort;Charith Perera;Greg Timms;Michael Compton;Arkady Zaslavsky;Kerry Taylor;Armin Haller;Ahsan Morshed",
                     "year": "2013",
-                    "cnt_member": "9",
+                    "cnt_member": "12",
                     "logo": "http://iswc2013.semanticweb.org/sites/default/files/logo_0.png?1352431679",
                     "homepage": "http://research.ict.csiro.au/"
                 }
@@ -3868,9 +3958,9 @@
                     "name": "DERI, Galway",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/deri-galway",
-                    "member_list": "Paul Buitelaar;Axel Polleres;Emir Mu\u00f1oz;Richard Cyganiak;Siegfried Handschuh;Josiane Xavier Parreira;Alessandra Mileo;Brian Davis;Stefan Decker;Matthias Nickles;Giovanni Tummarello;Andre Freitas;Aidan Hogan;Edward Curry;Manfred Hauswirth",
+                    "member_list": "Paul Buitelaar;Axel Polleres;Emir Mu\u00f1oz;Ahmed Abdelrahman;Richard Cyganiak;Siegfried Handschuh;Josiane Xavier Parreira;Helena Deus;Chan Le Van;Muhammad Saleem;Alessandra Mileo;Brian Davis;Stefan Decker;Matthias Nickles;Hoan Nguyen Mau Quoc;Giovanni Tummarello;Andre Freitas;Aidan Hogan;Manfred Hauswirth;Edward Curry;Danh Le Phuoc;Sabrina Kirrane",
                     "year": "2013",
-                    "cnt_member": "15",
+                    "cnt_member": "22",
                     "logo": "",
                     "homepage": ""
                 }
@@ -4121,6 +4211,22 @@
             ]
         },
         {
+            "entity_uri": "http://data.semanticweb.org/organization/disi-universita-degli-studi-di-trento",
+            "name": "DISI \u2013 Universita \u0301 degli Studi di Trento",
+            "conf": [
+                {
+                    "name": "DISI \u2013 Universita \u0301 degli Studi di Trento",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/disi-universita-degli-studi-di-trento",
+                    "member_list": "Themis Palpanas;Mikalai Tsytsarau",
+                    "year": "2013",
+                    "cnt_member": "2",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
             "entity_uri": "http://data.semanticweb.org/organization/dist-university-of-genoa",
             "name": "DIST - University of Genoa",
             "conf": [
@@ -4307,6 +4413,16 @@
                     "cnt_member": "3",
                     "logo": "",
                     "homepage": ""
+                },
+                {
+                    "name": "Duke University",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/duke-university",
+                    "member_list": "Ricardo Pietrobon;Joao Ricardo Nickenig Vissoci",
+                    "year": "2013",
+                    "cnt_member": "2",
+                    "logo": "",
+                    "homepage": ""
                 }
             ]
         },
@@ -4453,6 +4569,22 @@
                     "member_list": "Lora Aroyo",
                     "year": "2005",
                     "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
+            "entity_uri": "http://data.semanticweb.org/organization/electricite-de-france",
+            "name": "\u00c9lectricit\u00e9 de France",
+            "conf": [
+                {
+                    "name": "\u00c9lectricit\u00e9 de France",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/electricite-de-france",
+                    "member_list": "Pierre Chaussecourte;Laurent Pierre",
+                    "year": "2013",
+                    "cnt_member": "2",
                     "logo": "",
                     "homepage": ""
                 }
@@ -4804,9 +4936,9 @@
                     "name": "EPFL",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/epfl",
-                    "member_list": "Manos Karpathiotakis;Karl Aberer",
+                    "member_list": "Michele Catasta;Manos Karpathiotakis;Karl Aberer",
                     "year": "2013",
-                    "cnt_member": "2",
+                    "cnt_member": "3",
                     "logo": "",
                     "homepage": ""
                 }
@@ -5346,9 +5478,9 @@
                     "name": "Fluid Operations",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/fluid-operations",
-                    "member_list": "Peter Haase;Christoph Pinkel;Andriy Nikolov;Johannes Trame;Michael Schmidt",
+                    "member_list": "Peter Haase;Christoph Pinkel;Andriy Nikolov;Christian H\u00fctter;Andreas Schwarte;Michael Schmidt;Johannes Trame",
                     "year": "2013",
-                    "cnt_member": "5",
+                    "cnt_member": "7",
                     "logo": "http://iswc2013.semanticweb.org/sites/default/files/fluidoperations.png?1363060897",
                     "homepage": "http://www.fluidops.com/"
                 }
@@ -5420,9 +5552,9 @@
                     "name": "Fondazione Bruno Kessler",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/fondazione-bruno-kessler",
-                    "member_list": "Marco Rospocher;Luciano Serafini",
+                    "member_list": "Marco Rospocher;Luciano Serafini;Claudio Giuliano;Alberto Lavelli",
                     "year": "2013",
-                    "cnt_member": "2",
+                    "cnt_member": "4",
                     "logo": "",
                     "homepage": ""
                 }
@@ -5872,9 +6004,9 @@
                     "name": "Free University of Bozen-Bolzano",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/free-university-of-bozen-bolzano",
-                    "member_list": "Timea Bagosi;Sarunas Marciuska;Mariano Rodriguez-Muro;Enrico Franconi;Diego Calvanese",
+                    "member_list": "Werner Nutt;Simon Razniewski;Fariz Darari;Sarunas Marciuska;Alessandro Mosca;Enrico Franconi;Mariano Rodriguez-Muro;Timea Bagosi;Diego Calvanese;Giuseppe Pirr\u00f2",
                     "year": "2013",
-                    "cnt_member": "5",
+                    "cnt_member": "10",
                     "logo": "",
                     "homepage": ""
                 }
@@ -6553,6 +6685,22 @@
             ]
         },
         {
+            "entity_uri": "http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dfki",
+            "name": "German Research Centre for Artificial Intelligence (DFKI)",
+            "conf": [
+                {
+                    "name": "German Research Centre for Artificial Intelligence (DFKI)",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dfki",
+                    "member_list": "Sebastian Krause;Gunnar Aastrand Grimnes;Feiyu Xu;Hans Uszkoreit;Hong Li;Matthias Klusch",
+                    "year": "2013",
+                    "cnt_member": "6",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
             "entity_uri": "http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dkfi",
             "name": "German Research Centre for Artificial Intelligence (DKFI)",
             "conf": [
@@ -6603,16 +6751,6 @@
                     "member_list": "Feiyu Xu;Felix Sasaki;Hans Uszkoreit;Matthias Klusch;Sebastian Krause;Thierry Declerck;Hong Li;Michael Sintek",
                     "year": "2012",
                     "cnt_member": "8",
-                    "logo": "",
-                    "homepage": ""
-                },
-                {
-                    "name": "German Research Centre for Artificial Intelligence (DKFI)",
-                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
-                    "uri": "http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dkfi",
-                    "member_list": "Matthias Klusch;Gunnar Aastrand Grimnes",
-                    "year": "2013",
-                    "cnt_member": "2",
                     "logo": "",
                     "homepage": ""
                 }
@@ -6675,6 +6813,16 @@
                     "member_list": "Rik Van de Walle;Ruben Verborgh;Miel Vander Sande;Laurens De Vocht;Sam Coppens;Erik Mannens;Pieterjan De Potter;Davy Van Deursen;Tom De Nies;Pedro Debevere",
                     "year": "2012",
                     "cnt_member": "10",
+                    "logo": "",
+                    "homepage": ""
+                },
+                {
+                    "name": "Ghent University",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/ghent-university",
+                    "member_list": "Pieter Colpaert;Stijn Verstichel;Rik Van de Walle;Anastasia Dimou;Filip De Turck;Ruben Verborgh;Miel Vander Sande;Laurens De Vocht;Sam Coppens;Erik Mannens;Femke Ongenae;Tom De Nies",
+                    "year": "2013",
+                    "cnt_member": "12",
                     "logo": "",
                     "homepage": ""
                 }
@@ -6955,6 +7103,22 @@
             ]
         },
         {
+            "entity_uri": "http://data.semanticweb.org/organization/gsk",
+            "name": "GSK",
+            "conf": [
+                {
+                    "name": "GSK",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/gsk",
+                    "member_list": "Stefan Senger",
+                    "year": "2013",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
             "entity_uri": "http://data.semanticweb.org/organization/hamburg-university-of-technology",
             "name": "Hamburg University of Technology",
             "conf": [
@@ -7073,6 +7237,16 @@
                     "cnt_member": "2",
                     "logo": "",
                     "homepage": ""
+                },
+                {
+                    "name": "Hasso Plattner Institute",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/hasso-plattner-institute",
+                    "member_list": "Magnus Knuth;Harald Sack",
+                    "year": "2013",
+                    "cnt_member": "2",
+                    "logo": "",
+                    "homepage": ""
                 }
             ]
         },
@@ -7119,6 +7293,22 @@
                     "member_list": "Sara Cohen;Daniel Blum",
                     "year": "2010",
                     "cnt_member": "2",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
+            "entity_uri": "http://data.semanticweb.org/organization/heidelberg-institute-for-theoretical-studies",
+            "name": "Heidelberg Institute for Theoretical Studies",
+            "conf": [
+                {
+                    "name": "Heidelberg Institute for Theoretical Studies",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/heidelberg-institute-for-theoretical-studies",
+                    "member_list": "Wolfgang Mueller;Quyen Ngyuen;Olga Krebs",
+                    "year": "2013",
+                    "cnt_member": "3",
                     "logo": "",
                     "homepage": ""
                 }
@@ -7619,6 +7809,22 @@
             ]
         },
         {
+            "entity_uri": "http://data.semanticweb.org/organization/iaa-csic",
+            "name": "IAA-CSIC",
+            "conf": [
+                {
+                    "name": "IAA-CSIC",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/iaa-csic",
+                    "member_list": "Jos\u00e9 Enrique Ruiz",
+                    "year": "2013",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
             "entity_uri": "http://data.semanticweb.org/organization/ibm",
             "name": "IBM",
             "conf": [
@@ -7876,9 +8082,9 @@
                     "name": "IBM Research",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/ibm-research",
-                    "member_list": "Jason Ellis;Wei Jia Shen;Spyros Kotoulas;Marco Luca Sbodio;M. Mustafa Rafique;Kavitha Srinivas;Veli Bicer;Chris Welty;Freddy Lecue;Vanessa Lopez;Achille Fokoue;Pol Mac Aonghusa;Mihaela Bornea;Glenn Wightwick;Thomas Erickson;Kevin McAuliffe",
+                    "member_list": "Jason Ellis;Wei Jia Shen;Spyros Kotoulas;Marco Luca Sbodio;M. Mustafa Rafique;Kavitha Srinivas;Veli Bicer;Chris Welty;Freddy Lecue;Vanessa Lopez;Achille Fokoue;Pol Mac Aonghusa;Mihaela Bornea;Glenn Wightwick;Thomas Erickson;Kevin McAuliffe;Simone Tallevi-Diotallevi",
                     "year": "2013",
-                    "cnt_member": "16",
+                    "cnt_member": "17",
                     "logo": "",
                     "homepage": ""
                 }
@@ -8630,9 +8836,9 @@
                     "name": "INRIA & LIG",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/inria-lig",
-                    "member_list": "Melisachew Wudage Chekol;J\u00e9r\u00f4me Euzenat",
+                    "member_list": "Nabil Laya\u00efda;Melisachew Wudage Chekol;J\u00e9r\u00f4me Euzenat",
                     "year": "2013",
-                    "cnt_member": "2",
+                    "cnt_member": "3",
                     "logo": "",
                     "homepage": ""
                 }
@@ -9516,9 +9722,9 @@
                     "name": "ISI/USC",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/isiusc",
-                    "member_list": "Yolanda Gil;Shubham Gupta;Craig Knoblock",
+                    "member_list": "Yolanda Gil;Shubham Gupta;Craig Knoblock;Pedro Szekely;Mohsen Taheriyan;Jos\u00e9 Luis Ambite",
                     "year": "2013",
-                    "cnt_member": "3",
+                    "cnt_member": "6",
                     "logo": "",
                     "homepage": ""
                 }
@@ -9594,9 +9800,9 @@
                     "name": "iSOCO, S.A.",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/isoco-sa",
-                    "member_list": "Jose Manuel Gomez-Perez;Boris Villaz\u00f3n-Terrazas",
+                    "member_list": "Jose Manuel Gomez-Perez;Esteban Garc\u00eda-Cuesta;Boris Villaz\u00f3n-Terrazas;Aleix Garrido",
                     "year": "2013",
-                    "cnt_member": "2",
+                    "cnt_member": "4",
                     "logo": "",
                     "homepage": ""
                 }
@@ -9978,6 +10184,16 @@
                     "uri": "http://data.semanticweb.org/organization/joenkoeping-university",
                     "member_list": "Karl Hammar",
                     "year": "2012",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                },
+                {
+                    "name": "J\u00f6nk\u00f6ping University",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/joenkoeping-university",
+                    "member_list": "Karl Hammar",
+                    "year": "2013",
                     "cnt_member": "1",
                     "logo": "",
                     "homepage": ""
@@ -10370,9 +10586,9 @@
                     "name": "Karlsruhe Institute of Technology",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/karlsruhe-institute-of-technology",
-                    "member_list": "Andreas Harth",
+                    "member_list": "Rudi Studer;Maribel Acosta;Felix Leif Keppmann;Andreas Harth",
                     "year": "2013",
-                    "cnt_member": "1",
+                    "cnt_member": "4",
                     "logo": "",
                     "homepage": ""
                 }
@@ -10405,6 +10621,22 @@
                     "member_list": "Erik Duval",
                     "year": "2005",
                     "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
+            "entity_uri": "http://data.semanticweb.org/organization/kazan-volga-region-federal-university",
+            "name": "Kazan (Volga region) Federal University",
+            "conf": [
+                {
+                    "name": "Kazan (Volga region) Federal University",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/kazan-volga-region-federal-university",
+                    "member_list": "Danila Zaikin;Vladimir Nevzorov;Olga Nevzorova;Alexander Kirillovich;Olga Zhibrik;Nikita Zhiltsov;Evgeniy Birialtsev",
+                    "year": "2013",
+                    "cnt_member": "7",
                     "logo": "",
                     "homepage": ""
                 }
@@ -10632,9 +10864,9 @@
                     "name": "Kno.e.sis, Wright State University",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/knoesis-wright-state-university",
-                    "member_list": "Raghava Mutharaju;Pascal Hitzler;Cory Henson",
+                    "member_list": "Raghava Mutharaju;Pascal Hitzler;Kunal Sengupta;Cory Henson",
                     "year": "2013",
-                    "cnt_member": "3",
+                    "cnt_member": "4",
                     "logo": "",
                     "homepage": ""
                 }
@@ -10824,6 +11056,22 @@
                     "uri": "http://data.semanticweb.org/organization/kona",
                     "member_list": "Marco Neumann",
                     "year": "2011",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
+            "entity_uri": "http://data.semanticweb.org/organization/kona-llc",
+            "name": "KONA LLC",
+            "conf": [
+                {
+                    "name": "KONA LLC",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/kona-llc",
+                    "member_list": "Marco Neumann",
+                    "year": "2013",
                     "cnt_member": "1",
                     "logo": "",
                     "homepage": ""
@@ -11486,9 +11734,9 @@
                     "name": "Leipzig University",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/leipzig-university",
-                    "member_list": "S\u00f6ren Auer;Sebastian Hellmann;Jens Lehmann;Axel-Cyrille Ngonga Ngomo",
+                    "member_list": "Lorenz B\u00fchmann;Axel-Cyrille Ngonga Ngomo;Martin Br\u00fcmmer;Ricardo Usbeck;Tommaso Soru;Jens Lehmann;Dimitris Kontokostas;S\u00f6ren Auer;Sebastian Hellmann;Daniel Gerber;Amrapali Zaveri",
                     "year": "2013",
-                    "cnt_member": "4",
+                    "cnt_member": "11",
                     "logo": "",
                     "homepage": ""
                 }
@@ -11974,6 +12222,22 @@
                     "uri": "http://data.semanticweb.org/organization/lund-university",
                     "member_list": "Pierre Nugues",
                     "year": "2011",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
+            "entity_uri": "http://data.semanticweb.org/organization/maastricht-university",
+            "name": "Maastricht University",
+            "conf": [
+                {
+                    "name": "Maastricht University",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/maastricht-university",
+                    "member_list": "Egon Willighagen",
+                    "year": "2013",
                     "cnt_member": "1",
                     "logo": "",
                     "homepage": ""
@@ -13062,9 +13326,9 @@
                     "name": "National and Kapodistrian University of Athens",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/national-and-kapodistrian-university-of-athens",
-                    "member_list": "Manolis Koubarakis;Kostis Kyzirakos;Konstantina Bereta;Charalampos Nikolaou",
+                    "member_list": "Manolis Koubarakis;Kostis Kyzirakos;Konstantina Bereta;George Garbis;Charalampos Nikolaou",
                     "year": "2013",
-                    "cnt_member": "4",
+                    "cnt_member": "5",
                     "logo": "",
                     "homepage": ""
                 }
@@ -13833,6 +14097,22 @@
             ]
         },
         {
+            "entity_uri": "http://data.semanticweb.org/organization/nicta",
+            "name": "NICTA",
+            "conf": [
+                {
+                    "name": "NICTA",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/nicta",
+                    "member_list": "Guido Governatori",
+                    "year": "2013",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
             "entity_uri": "http://data.semanticweb.org/organization/nih",
             "name": "NIH",
             "conf": [
@@ -14283,6 +14563,16 @@
                     "member_list": "Trond Aalberg;Naimdjon Takhirov",
                     "year": "2012",
                     "cnt_member": "2",
+                    "logo": "",
+                    "homepage": ""
+                },
+                {
+                    "name": "Norwegian University of Science and Technology",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/norwegian-university-of-science-and-technology",
+                    "member_list": "John S. Tyssedal",
+                    "year": "2013",
+                    "cnt_member": "1",
                     "logo": "",
                     "homepage": ""
                 }
@@ -14902,9 +15192,9 @@
                     "name": "OpenLink Software",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/openlink-software",
-                    "member_list": "Kingsley Idehen",
+                    "member_list": "Ivan Mikhailov;Kingsley Idehen;Yrjana Rankka",
                     "year": "2013",
-                    "cnt_member": "1",
+                    "cnt_member": "3",
                     "logo": "http://iswc2013.semanticweb.org/sites/default/files/openlinklogo_wstrap_2008_0.png?1360536579",
                     "homepage": "http://www.openlinksw.com/"
                 }
@@ -15313,6 +15603,22 @@
             ]
         },
         {
+            "entity_uri": "http://data.semanticweb.org/organization/paris-8-university",
+            "name": "Paris 8 University",
+            "conf": [
+                {
+                    "name": "Paris 8 University",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/paris-8-university",
+                    "member_list": "Myriam Lamolle;Chan Le Duc",
+                    "year": "2013",
+                    "cnt_member": "2",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
             "entity_uri": "http://data.semanticweb.org/organization/paris-dauphine-university",
             "name": "Paris Dauphine University",
             "conf": [
@@ -15632,9 +15938,9 @@
                     "name": "Politecnico di Milano",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/politecnico-di-milano",
-                    "member_list": "Marco Balduini;Emanuele Della Valle",
+                    "member_list": "Marco Balduini;Emanuele Della Valle;Daniele Dell'Aglio",
                     "year": "2013",
-                    "cnt_member": "2",
+                    "cnt_member": "3",
                     "logo": "",
                     "homepage": ""
                 }
@@ -15875,6 +16181,22 @@
             ]
         },
         {
+            "entity_uri": "http://data.semanticweb.org/organization/poznan-university-of-economics",
+            "name": "Pozna\u0144 University of Economics",
+            "conf": [
+                {
+                    "name": "Pozna\u0144 University of Economics",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/poznan-university-of-economics",
+                    "member_list": "Agata Filipowska",
+                    "year": "2013",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
             "entity_uri": "http://data.semanticweb.org/organization/poznan-university-of-technology",
             "name": "Poznan University of Technology",
             "conf": [
@@ -16086,16 +16408,6 @@
                     "uri": "http://data.semanticweb.org/organization/qualcomm",
                     "member_list": "Li Ding",
                     "year": "2012",
-                    "cnt_member": "1",
-                    "logo": "",
-                    "homepage": ""
-                },
-                {
-                    "name": "Qualcomm",
-                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
-                    "uri": "http://data.semanticweb.org/organization/qualcomm",
-                    "member_list": "Li Ding",
-                    "year": "2013",
                     "cnt_member": "1",
                     "logo": "",
                     "homepage": ""
@@ -16351,6 +16663,16 @@
                     "cnt_member": "9",
                     "logo": "",
                     "homepage": ""
+                },
+                {
+                    "name": "Rensselaer Polytechnic Institute",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/rensselaer-polytechnic-institute",
+                    "member_list": "Jim Hendler;Brendan Ashby;Timothy Lebo;Patrice Seyed;Evan Patton;Katherine Chastain;Deborah McGuinness",
+                    "year": "2013",
+                    "cnt_member": "7",
+                    "logo": "",
+                    "homepage": ""
                 }
             ]
         },
@@ -16497,6 +16819,38 @@
                     "member_list": "Amal Zouaq",
                     "year": "2013",
                     "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
+            "entity_uri": "http://data.semanticweb.org/organization/royal-society-of-chemistry",
+            "name": "Royal Society of Chemistry",
+            "conf": [
+                {
+                    "name": "Royal Society of Chemistry",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/royal-society-of-chemistry",
+                    "member_list": "Antony Williams",
+                    "year": "2013",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
+            "entity_uri": "http://data.semanticweb.org/organization/rsc",
+            "name": "RSC",
+            "conf": [
+                {
+                    "name": "RSC",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/rsc",
+                    "member_list": "Valery Tkachenko;Karen Karapetyan",
+                    "year": "2013",
+                    "cnt_member": "2",
                     "logo": "",
                     "homepage": ""
                 }
@@ -17020,9 +17374,9 @@
                     "name": "Sapienza University of Rome",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/sapienza-university-of-rome",
-                    "member_list": "Simone Paolo Ponzetto;Marco Ruzzi;Simona Valentini;Paolo Bottoni;Riccardo Rosati;Miguel Ceriani;Marco Console",
+                    "member_list": "Simone Paolo Ponzetto;Marco Ruzzi;Simona Valentini;Andrea Moro;Paolo Bottoni;Riccardo Rosati;Cinzia Daraio;Roberto Navigli;Miguel Ceriani;Marco Console",
                     "year": "2013",
-                    "cnt_member": "7",
+                    "cnt_member": "10",
                     "logo": "",
                     "homepage": ""
                 }
@@ -18310,9 +18664,9 @@
                     "name": "Stanford University",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/stanford-university",
-                    "member_list": "Natasha Noy",
+                    "member_list": "Tania Tudorache;Natasha F. Noy;Csongor I Nyulas;Jennifer Vendetti;Jonathan Mortensen;Paul Alexander;Csongor Nyulas;Trish Whetzel;Natasha Noy;Rave Harpaz;Mark Musen;Matthew Horridge;Raymond Fergerson;Natalya F. Noy;Manuel Salvadores",
                     "year": "2013",
-                    "cnt_member": "1",
+                    "cnt_member": "15",
                     "logo": "",
                     "homepage": ""
                 }
@@ -18460,6 +18814,22 @@
                     "uri": "http://data.semanticweb.org/organization/storm-technology-ireland",
                     "member_list": "Sabrina Kirrane",
                     "year": "2011",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
+            "entity_uri": "http://data.semanticweb.org/organization/studio-labo",
+            "name": "studio labo",
+            "conf": [
+                {
+                    "name": "studio labo",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/studio-labo",
+                    "member_list": "Cristian Confalonieri",
+                    "year": "2013",
                     "cnt_member": "1",
                     "logo": "",
                     "homepage": ""
@@ -18942,9 +19312,9 @@
                     "name": "Technical University of Madrid",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/technical-university-of-madrid",
-                    "member_list": "Ra\u00fal Garc\u00eda-Castro;Oscar Corcho;Mari Carmen Su\u00e1rez-Figueroa;Asunci\u00f3n G\u00f3mez-P\u00e9rez",
+                    "member_list": "Mari Carmen Su\u00e1rez-Figueroa;Ra\u00fal Garc\u00eda-Castro;Oscar Corcho;Asunci\u00f3n G\u00f3mez-P\u00e9rez;Jose Mora;Jean-Paul Calbimonte",
                     "year": "2013",
-                    "cnt_member": "4",
+                    "cnt_member": "6",
                     "logo": "",
                     "homepage": ""
                 }
@@ -19368,9 +19738,9 @@
                     "name": "The Open University",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/the-open-university",
-                    "member_list": "Stuart Brown;Miriam Fernandez;Keerthi Thomas;Harith Alani",
+                    "member_list": "Stuart Brown;Paul Mulholland;Miriam Fernandez;Keerthi Thomas;Harith Alani",
                     "year": "2013",
-                    "cnt_member": "4",
+                    "cnt_member": "5",
                     "logo": "",
                     "homepage": ""
                 }
@@ -19949,6 +20319,22 @@
             ]
         },
         {
+            "entity_uri": "http://data.semanticweb.org/organization/united-states-army-research-laboratory",
+            "name": "United States Army Research Laboratory",
+            "conf": [
+                {
+                    "name": "United States Army Research Laboratory",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/united-states-army-research-laboratory",
+                    "member_list": "Kirk A. Ogaard;Elizabeth K. Bowman",
+                    "year": "2013",
+                    "cnt_member": "2",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
             "entity_uri": "http://data.semanticweb.org/organization/united-states-naval-academy",
             "name": "United States Naval Academy",
             "conf": [
@@ -20252,9 +20638,9 @@
                     "name": "Universidade Nova de Lisboa",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/universidade-nova-de-lisboa",
-                    "member_list": "Matthias Knorr;Joao Leite",
+                    "member_list": "Vadim Ivanov;Matthias Knorr;Joao Leite",
                     "year": "2013",
-                    "cnt_member": "2",
+                    "cnt_member": "3",
                     "logo": "",
                     "homepage": ""
                 }
@@ -20632,6 +21018,16 @@
                     "uri": "http://data.semanticweb.org/organization/universite-paris-est-ligm",
                     "member_list": "Olivier Cur\u00e9",
                     "year": "2012",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                },
+                {
+                    "name": "Universit\u00e9 Paris-Est, LIGM",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/universite-paris-est-ligm",
+                    "member_list": "Olivier Cur\u00e9",
+                    "year": "2013",
                     "cnt_member": "1",
                     "logo": "",
                     "homepage": ""
@@ -21128,9 +21524,9 @@
                     "name": "University of Auckland",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/university-of-auckland",
-                    "member_list": "Mark Gahegan;Jing Sun",
+                    "member_list": "Richard Hosking;Mark Gahegan;Jing Sun",
                     "year": "2013",
-                    "cnt_member": "2",
+                    "cnt_member": "3",
                     "logo": "",
                     "homepage": ""
                 }
@@ -21184,9 +21580,9 @@
                     "name": "University of Bari",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/university-of-bari",
-                    "member_list": "Nicola Fanizzi;Claudia D'Amato",
+                    "member_list": "Nicola Fanizzi;Giovanni Semeraro;Fedelucio Narducci;Claudia D'Amato",
                     "year": "2013",
-                    "cnt_member": "2",
+                    "cnt_member": "4",
                     "logo": "",
                     "homepage": ""
                 }
@@ -21304,9 +21700,9 @@
                     "name": "University of Bologna",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/university-of-bologna",
-                    "member_list": "Silvio Peroni;Paolo Ciancarini",
+                    "member_list": "Paolo Ciancarini;Antonino Rotolo;Simone Tallevi-Diotallevi;Antonio Corradi;Luca Foschini;Silvio Peroni",
                     "year": "2013",
-                    "cnt_member": "2",
+                    "cnt_member": "6",
                     "logo": "",
                     "homepage": ""
                 }
@@ -21373,6 +21769,16 @@
                     "member_list": "Jean Christoph Jung;Carsten Lutz",
                     "year": "2012",
                     "cnt_member": "2",
+                    "logo": "",
+                    "homepage": ""
+                },
+                {
+                    "name": "University of Bremen",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/university-of-bremen",
+                    "member_list": "Thomas Schneider;Inanc Seylan;Carsten Lutz",
+                    "year": "2013",
+                    "cnt_member": "3",
                     "logo": "",
                     "homepage": ""
                 }
@@ -21747,6 +22153,16 @@
                     "cnt_member": "1",
                     "logo": "",
                     "homepage": ""
+                },
+                {
+                    "name": "University of Chile",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/university-of-chile",
+                    "member_list": "Claudio Gutierrez",
+                    "year": "2013",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
                 }
             ]
         },
@@ -22087,6 +22503,16 @@
                     "cnt_member": "3",
                     "logo": "",
                     "homepage": ""
+                },
+                {
+                    "name": "University of Edinburgh",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/university-of-edinburgh",
+                    "member_list": "Egor V. Kostylev",
+                    "year": "2013",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
                 }
             ]
         },
@@ -22196,9 +22622,9 @@
                     "name": "University of Fribourg",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/university-of-fribourg",
-                    "member_list": "Thomas Hornung;Teodor Macicas;Philippe Cudr\u00e9-Mauroux;Martin Grund",
+                    "member_list": "Alberto Tonon;Gianluca Demartini;Thomas Hornung;Philippe Cudr\u00e9-Mauroux;Iliya Enchev;Teodor Macicas;Marcin Wylot;Martin Grund",
                     "year": "2013",
-                    "cnt_member": "4",
+                    "cnt_member": "8",
                     "logo": "",
                     "homepage": ""
                 }
@@ -22640,9 +23066,9 @@
                     "name": "University of Illinois at Chicago",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/university-of-illinois-at-chicago",
-                    "member_list": "Isabel Cruz",
+                    "member_list": "Isabel Cruz;Cosmin Stroe",
                     "year": "2013",
-                    "cnt_member": "1",
+                    "cnt_member": "2",
                     "logo": "",
                     "homepage": ""
                 }
@@ -23053,6 +23479,22 @@
             ]
         },
         {
+            "entity_uri": "http://data.semanticweb.org/organization/university-of-lisbon",
+            "name": "University of Lisbon",
+            "conf": [
+                {
+                    "name": "University of Lisbon",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/university-of-lisbon",
+                    "member_list": "Francisco Couto;Emanuel Santos;Daniel Faria;Catia Pesquita",
+                    "year": "2013",
+                    "cnt_member": "4",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
             "entity_uri": "http://data.semanticweb.org/organization/university-of-liverpool",
             "name": "University of Liverpool",
             "conf": [
@@ -23150,9 +23592,9 @@
                     "name": "University of Liverpool",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/university-of-liverpool",
-                    "member_list": "Valentina Tamma;Terry Payne",
+                    "member_list": "Valentina Tamma;Terry Payne;Sven Schewe;Frank Wolter",
                     "year": "2013",
-                    "cnt_member": "2",
+                    "cnt_member": "4",
                     "logo": "",
                     "homepage": ""
                 }
@@ -23184,6 +23626,16 @@
                     "uri": "http://data.semanticweb.org/organization/university-of-london",
                     "member_list": "Peter T. Wood;Alexandra Poulovassilis",
                     "year": "2010",
+                    "cnt_member": "2",
+                    "logo": "",
+                    "homepage": ""
+                },
+                {
+                    "name": "University of London",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/university-of-london",
+                    "member_list": "Roman Kontchakov;Michael Zakharyaschev",
+                    "year": "2013",
                     "cnt_member": "2",
                     "logo": "",
                     "homepage": ""
@@ -23368,9 +23820,9 @@
                     "name": "University of Manchester",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/university-of-manchester",
-                    "member_list": "Carole Goble;Alasdair J. G. Gray;Alasdair Gray;Uli Sattler;Nicolas Matentzoglu;Sean Bechhofer;Rafael S. Gon\u00e7alves;Bijan Parsia;Ulrike Sattler",
+                    "member_list": "Carole Goble;Alasdair J. G. Gray;Dmitry Tsarkov;Chiara Del Vescovo;Alasdair Gray;Uli Sattler;Nicolas Matentzoglu;Stuart Owen;Sean Bechhofer;Rafael S. Gon\u00e7alves;Bijan Parsia;Jacky. L. Snoep;Samantha Bail;Katherine Wolstencroft;Ulrike Sattler",
                     "year": "2013",
-                    "cnt_member": "9",
+                    "cnt_member": "15",
                     "logo": "",
                     "homepage": ""
                 }
@@ -23480,9 +23932,9 @@
                     "name": "University of Mannheim",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/university-of-mannheim",
-                    "member_list": "Ansgar Scherp",
+                    "member_list": "Heiner Stuckenschmidt;Robert Meusel;Michael Schuhmacher;Johannes Knopp;Christian Meilicke;Heiko Paulheim;Dominique Ritze;Johanna V\u00f6lker;Ansgar Scherp;Christian Bizer;Kai Eckert;Carsten Binnig",
                     "year": "2013",
-                    "cnt_member": "1",
+                    "cnt_member": "12",
                     "logo": "",
                     "homepage": ""
                 }
@@ -23612,9 +24064,9 @@
                     "name": "University of Maryland, Baltimore County",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/university-of-maryland-baltimore-county",
-                    "member_list": "Tim Finin",
+                    "member_list": "Varish Mulwad;Tim Finin;Anupam Joshi",
                     "year": "2013",
-                    "cnt_member": "1",
+                    "cnt_member": "3",
                     "logo": "",
                     "homepage": ""
                 }
@@ -23673,6 +24125,16 @@
                     "cnt_member": "4",
                     "logo": "",
                     "homepage": ""
+                },
+                {
+                    "name": "University of Maryland, College Park",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/university-of-maryland-college-park",
+                    "member_list": "Noseong Park;Jay Pujara;Lise Getoor;V.S. Subrahmanian;Michael Ovelg\u00f6nne;Hui Miao",
+                    "year": "2013",
+                    "cnt_member": "6",
+                    "logo": "",
+                    "homepage": ""
                 }
             ]
         },
@@ -23686,6 +24148,22 @@
                     "uri": "http://data.semanticweb.org/organization/university-of-miami",
                     "member_list": "Ubbo Visser",
                     "year": "2011",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
+            "entity_uri": "http://data.semanticweb.org/organization/university-of-milan",
+            "name": "University of Milan",
+            "conf": [
+                {
+                    "name": "University of Milan",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/university-of-milan",
+                    "member_list": "Alessio Palmero Aprosio",
+                    "year": "2013",
                     "cnt_member": "1",
                     "logo": "",
                     "homepage": ""
@@ -23713,6 +24191,16 @@
                     "member_list": "Matteo Palmonari;Anisa Rula;Andrea Maurino",
                     "year": "2012",
                     "cnt_member": "3",
+                    "logo": "",
+                    "homepage": ""
+                },
+                {
+                    "name": "University of Milan Bicocca",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/university-of-milan-bicocca",
+                    "member_list": "Matteo Palmonari",
+                    "year": "2013",
+                    "cnt_member": "1",
                     "logo": "",
                     "homepage": ""
                 }
@@ -23921,6 +24409,22 @@
             ]
         },
         {
+            "entity_uri": "http://data.semanticweb.org/organization/university-of-naples-federico-ii",
+            "name": "University of Naples Federico II",
+            "conf": [
+                {
+                    "name": "University of Naples Federico II",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/university-of-naples-federico-ii",
+                    "member_list": "Piero Bonatti;Luigi Sauro",
+                    "year": "2013",
+                    "cnt_member": "2",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
             "entity_uri": "http://data.semanticweb.org/organization/university-of-new-brunswick",
             "name": "University of New Brunswick",
             "conf": [
@@ -24094,9 +24598,9 @@
                     "name": "University of Oslo",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/university-of-oslo",
-                    "member_list": "Martin Giese;Martin G. Skjaeveland;Evgenij Thorstensen;Arild Waaler;Ahmet Soylu",
+                    "member_list": "Kjetil Kjernsmo;Martin G. Skj\u00e6veland;Ahmet Soylu;Espen H. Lian;Martin G. Skjaeveland;Evgenij Thorstensen;Martin Giese;Arild Waaler",
                     "year": "2013",
-                    "cnt_member": "5",
+                    "cnt_member": "8",
                     "logo": "",
                     "homepage": ""
                 }
@@ -24192,9 +24696,9 @@
                     "name": "University of Oxford",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/university-of-oxford",
-                    "member_list": "Jun Zhao;Evgeny Kharlamov;Dmitriy Zheleznyakov;Nadeschda Nikitina;Boris Motik;Ernesto Jim\u00e9nez?Ruiz;Thomas Lukasiewicz;Ernesto Jimenez-Ruiz;Markus Kr\u00f6tzsch;David De Roure;Ian Horrocks",
+                    "member_list": "Jun Zhao;Evgeny Kharlamov;Dmitriy Zheleznyakov;Yavor Nenov;Nadeschda Nikitina;Yujiao Zhou;Bernardo Cuenca Grau;Boris Motik;Ernesto Jim\u00e9nez?Ruiz;Thomas Lukasiewicz;Ernesto Jimenez-Ruiz;Markus Kr\u00f6tzsch;David De Roure;Ian Horrocks",
                     "year": "2013",
-                    "cnt_member": "11",
+                    "cnt_member": "14",
                     "logo": "",
                     "homepage": ""
                 }
@@ -24418,9 +24922,9 @@
                     "name": "University of Queensland",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/university-of-queensland",
-                    "member_list": "Tudor Groza;Lianli Gao",
+                    "member_list": "Tudor Groza;Lianli Gao;Jane Hunter;Chih-Hao Yu",
                     "year": "2013",
-                    "cnt_member": "2",
+                    "cnt_member": "4",
                     "logo": "",
                     "homepage": ""
                 }
@@ -24615,6 +25119,16 @@
                     "member_list": "Wim Peters;Stuart Wrigley;Khadija Elbedweihy;Fabio Ciravegna;Diana Maynard",
                     "year": "2012",
                     "cnt_member": "5",
+                    "logo": "",
+                    "homepage": ""
+                },
+                {
+                    "name": "University of Sheffield",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/university-of-sheffield",
+                    "member_list": "Diana Maynard;Ziqi Zhang;Fabio Ciravegna;Anna Lisa Gentile;Danica Damljanovic;Isabelle Augenstein;Kalina Bontcheva;Stuart Wrigley",
+                    "year": "2013",
+                    "cnt_member": "8",
                     "logo": "",
                     "homepage": ""
                 }
@@ -24819,6 +25333,16 @@
                     "member_list": "Gary Wills;Russell Newman;Hugh Glaser;E.A. Draffan;Yunjia Li;Ian Millard;Gianluca Correndo;Luc Moreau;Nigel Shadbolt;Rehab Albeladi;Magnus White;Jonathon Hare;Mike Wald",
                     "year": "2012",
                     "cnt_member": "13",
+                    "logo": "",
+                    "homepage": ""
+                },
+                {
+                    "name": "University of Southampton",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/university-of-southampton",
+                    "member_list": "Nicholas Gibbins;Luc Moreau;Kieron O'Hara;Gianluca Correndo;Elena Simperl",
+                    "year": "2013",
+                    "cnt_member": "5",
                     "logo": "",
                     "homepage": ""
                 }
@@ -25058,9 +25582,9 @@
                     "name": "University of Texas at Austin",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/university-of-texas-at-austin",
-                    "member_list": "Juan Sequeda;Juan F. Sequeda",
+                    "member_list": "Juan Sequeda;Juan F. Sequeda;Daniel Miranker;Albert Haque;Aibo Tian",
                     "year": "2013",
-                    "cnt_member": "2",
+                    "cnt_member": "5",
                     "logo": "",
                     "homepage": ""
                 }
@@ -25481,6 +26005,16 @@
                     "cnt_member": "1",
                     "logo": "",
                     "homepage": ""
+                },
+                {
+                    "name": "University of Turin",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/university-of-turin",
+                    "member_list": "Francesco Osborne",
+                    "year": "2013",
+                    "cnt_member": "1",
+                    "logo": "",
+                    "homepage": ""
                 }
             ]
         },
@@ -25570,9 +26104,9 @@
                     "name": "University of Victoria",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/university-of-victoria",
-                    "member_list": "Bo Fu",
+                    "member_list": "Margaret-Anne Storey;Bo Fu",
                     "year": "2013",
-                    "cnt_member": "1",
+                    "cnt_member": "2",
                     "logo": "",
                     "homepage": ""
                 }
@@ -25680,9 +26214,9 @@
                     "name": "University of Waterloo",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/university-of-waterloo",
-                    "member_list": "Olaf Hartig",
+                    "member_list": "Olaf Hartig;David Toman",
                     "year": "2013",
-                    "cnt_member": "1",
+                    "cnt_member": "2",
                     "logo": "",
                     "homepage": ""
                 }
@@ -25943,6 +26477,16 @@
                     "cnt_member": "2",
                     "logo": "http://iswc2012.semanticweb.org/sites/default/files/uzh_logo_e_pos_web_main_0.jpg",
                     "homepage": "http://www.ifi.uzh.ch/ddis/"
+                },
+                {
+                    "name": "University of Zurich",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/university-of-zurich",
+                    "member_list": "Lorenz Fischer;Mihaela Verman;Cosmin Basca;Thomas Scharrenbach;Philip Stutz;Abraham Bernstein",
+                    "year": "2013",
+                    "cnt_member": "6",
+                    "logo": "",
+                    "homepage": ""
                 }
             ]
         },
@@ -26456,9 +27000,9 @@
                     "name": "Vrije Universiteit Amsterdam",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/vrije-universiteit-amsterdam",
-                    "member_list": "Lora Aroyo;Willem Robert Van Hage;Antonis Loizou;Sara Magliacane;Piek Vossen;Jesper Hoeksema;Pieter De Leenheer;Marieke Van Erp;Laura Hollink;Antoine Isaac;Stefan Schlobach;Antske Fokkens;Rinke Hoekstra;Paul Groth",
+                    "member_list": "Ceriel Jacobs;Henri Bal;Sever Fundatureanu;Lora Aroyo;Alessandro Margara;Willem Robert Van Hage;Antonis Loizou;Sara Magliacane;Piek Vossen;Jesper Hoeksema;Pieter De Leenheer;Marieke Van Erp;Laura Hollink;Jacopo Urbani;Antoine Isaac;Stefan Schlobach;Antske Fokkens;Rinke Hoekstra;Frank Van Harmelen;Paul Groth",
                     "year": "2013",
-                    "cnt_member": "14",
+                    "cnt_member": "20",
                     "logo": "",
                     "homepage": ""
                 }
@@ -27048,9 +27592,9 @@
                     "name": "Wright State University",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/wright-state-university",
-                    "member_list": "Pascal Hitzler;Cory Henson;Amit Sheth",
+                    "member_list": "Amit Sheth;Kunal Sengupta;Krishnaprasad Thirunarayan;Pablo Mendes;Michelle Cheatham;Cory Henson;Pascal Hitzler",
                     "year": "2013",
-                    "cnt_member": "3",
+                    "cnt_member": "7",
                     "logo": "",
                     "homepage": ""
                 }
@@ -27147,6 +27691,22 @@
             ]
         },
         {
+            "entity_uri": "http://data.semanticweb.org/organization/yahoo-labs",
+            "name": "Yahoo! Labs",
+            "conf": [
+                {
+                    "name": "Yahoo! Labs",
+                    "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
+                    "uri": "http://data.semanticweb.org/organization/yahoo-labs",
+                    "member_list": "Roi Blanco;Peter Mika;Nicolas Torzec;Berkant Barla Cambazoglu",
+                    "year": "2013",
+                    "cnt_member": "4",
+                    "logo": "",
+                    "homepage": ""
+                }
+            ]
+        },
+        {
             "entity_uri": "http://data.semanticweb.org/organization/yahoo-research",
             "name": "Yahoo! Research",
             "conf": [
@@ -27194,9 +27754,9 @@
                     "name": "Yahoo! Research",
                     "conf_uri": "http://data.semanticweb.org/conference/iswc/2013",
                     "uri": "http://data.semanticweb.org/organization/yahoo-research",
-                    "member_list": "Peter Mika;David A. Shamma",
+                    "member_list": "Roi Blanco;Peter Mika;David A. Shamma",
                     "year": "2013",
-                    "cnt_member": "2",
+                    "cnt_member": "3",
                     "logo": "",
                     "homepage": ""
                 }
