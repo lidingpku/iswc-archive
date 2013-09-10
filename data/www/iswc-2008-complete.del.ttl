@@ -5,7 +5,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2008/tutorial/linked_data">
-    <ns2:url rdf:resource="http://events.linkeddata.org/iswc2008tutorial/ "/>
     <ns1:homepage rdf:resource="http://events.linkeddata.org/iswc2008tutorial/ "/>
+    <ns2:url rdf:resource="http://events.linkeddata.org/iswc2008tutorial/ "/>
   </rdf:Description>
 </rdf:RDF>

@@ -2,305 +2,305 @@
 <rdf:RDF
    xmlns:ns1="http://xmlns.com/foaf/0.1/"
    xmlns:ns2="http://swrc.ontoware.org/ontology#"
-   xmlns:ns3="http://www.w3.org/2002/12/cal/ical#"
-   xmlns:ns4="http://data.semanticweb.org/ns/swc/ontology#"
+   xmlns:ns3="http://data.semanticweb.org/ns/swc/ontology#"
+   xmlns:ns4="http://www.w3.org/2002/12/cal/ical#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/1">
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T11:00:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T12:30:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/poster-session">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T18:15:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T20:30:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-25T12:30:00">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T14:00:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T12:30:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/events/keynote/1">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T10:30:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T09:30:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-25T10:30:00">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T11:00:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T10:30:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/14">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:30:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T11:30:00+02:00</ns3:dtend>
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/industry/2">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T16:30:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T18:00:00+02:00</ns3:dtend>
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/talks/awards-and-closing">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T18:00:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T16:30:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/tutorials/1">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T09:00:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T18:00:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/mentoring-lunch">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T14:00:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T12:30:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/inuse/3">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T12:30:00+02:00</ns3:dtstart>
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T14:00:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/8">
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T12:30:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:30:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-27T12:30:00">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T14:00:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T12:30:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/tutorials/5">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T09:00:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T18:00:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/9">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:30:00+02:00</ns3:dtstart>
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T12:30:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/minute-madness">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T16:30:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T18:00:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-26T16:00:00">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T16:30:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T16:00:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/13">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T16:00:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T14:00:00+02:00</ns3:dtstart>
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/tutorials/7">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T18:00:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T14:00:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/inuse/4">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:00:00+02:00</ns3:dtstart>
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:30:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/oasis-symposium">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T18:00:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T14:00:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/6">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:30:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:00:00+02:00</ns3:dtstart>
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/outrageous-ideas">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:30:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T11:30:00+02:00</ns3:dtend>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/inuse/2">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T11:00:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T12:30:00+02:00</ns4:dtend>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/11">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T12:30:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T11:30:00+02:00</ns3:dtstart>
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T12:30:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T11:30:00+02:00</ns4:dtstart>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-26T12:30:00">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T14:00:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T12:30:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/industry/1">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T14:00:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T16:00:00+02:00</ns3:dtend>
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-24T10:30:00">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T10:30:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T11:00:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/organization/ontology-engineering-group-laboratorio-de-inteligencia-artificial-facultad-de-informática-universidad-politecnica-de-madrid-">
-    <rdfs:label>Ontology Engineering Group. Laboratorio de Inteligencia Artificial. Facultad de Informática. Universidad Politécnica de Madrid.</rdfs:label>
-    <ns1:name>Ontology Engineering Group. Laboratorio de Inteligencia Artificial. Facultad de Informática. Universidad Politécnica de Madrid.</ns1:name>
-    <ns1:member rdf:resource="http://data.semanticweb.org/person/elena-montiel-ponsoda"/>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-25T16:00:00">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T16:30:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T16:00:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-25T18:00:00">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T18:00:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T18:15:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-23T12:30:00">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T12:30:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T14:00:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/panels/meet-the-editors">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T11:00:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T12:30:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/12">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:30:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:00:00+02:00</ns3:dtstart>
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/5">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:30:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T12:30:00+02:00</ns3:dtend>
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/elsevier-developer-session">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T19:15:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T18:15:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/tutorials/3">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T12:30:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T09:00:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/theseus-symposium">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T09:00:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T18:00:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/town-hall">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T19:15:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T18:15:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/conference-dinner">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:00:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/doctoral-consortium/3">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T14:00:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T16:00:00+02:00</ns3:dtend>
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/organization/laboratoire-d’informatique-de-l’universit-paris-nord-(lipn)-umr-7030-universit-paris-13-cnrs">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-    <ns1:name>Laboratoire d’Informatique de l’universit Paris-Nord (LIPN) - UMR 7030 Universit Paris 13 - CNRS</ns1:name>
-    <ns1:member rdf:resource="http://data.semanticweb.org/person/yue-ma"/>
-    <rdfs:label>Laboratoire d’Informatique de l’universit Paris-Nord (LIPN) - UMR 7030 Universit Paris 13 - CNRS</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/10">
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T14:00:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T12:30:00+02:00</ns3:dtstart>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/1">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T11:00:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T12:30:00+02:00</ns4:dtend>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/events/keynote/2">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T09:00:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:00:00+02:00</ns3:dtend>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:00:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T09:00:00+02:00</ns4:dtstart>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-27T16:00:00">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T16:00:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T16:30:00+02:00</ns3:dtend>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/outrageous-ideas">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:30:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T11:30:00+02:00</ns4:dtend>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/talks/opening-ceremony">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T09:00:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T9:30:00+02:00</ns3:dtend>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T9:30:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T09:00:00+02:00</ns4:dtstart>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/2">
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T11:00:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T10:30:00+02:00</ns3:dtstart>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/inuse/4">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:30:00+02:00</ns4:dtend>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:00:00+02:00</ns4:dtstart>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-24T12:30:00">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T14:00:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T12:30:00+02:00</ns3:dtstart>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/linked-data-a-thon">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T18:00:00+02:00</ns4:dtstart>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/inuse/2">
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T11:00:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T12:30:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/events/keynote/3">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:00:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T09:00:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/person/elena-montiel-ponsoda">
-    <ns2:affiliation rdf:resource="http://data.semanticweb.org/organization/ontology-engineering-group-laboratorio-de-inteligencia-artificial-facultad-de-informática-universidad-politecnica-de-madrid-"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/tutorials/6">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T12:30:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T09:00:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/talks/semantic-information-management:-future-funding-by-eu-and-beyond">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T16:30:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T18:00:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-24T15:30:00">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T15:30:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T16:00:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/doctoral-consortium/1">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T09:00:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T10:30:00+02:00</ns3:dtend>
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-26T10:00:00">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:30:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:00:00+02:00</ns3:dtstart>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/industry/2">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T16:30:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T18:00:00+02:00</ns4:dtend>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/4">
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T12:30:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T11:00:00+02:00</ns3:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T12:30:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T11:00:00+02:00</ns4:dtstart>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/7">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:30:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:00:00+02:00</ns3:dtstart>
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/tutorials/1">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T09:00:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T18:00:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/theseus-symposium">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T18:00:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T09:00:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-25T18:00:00">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T18:00:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T18:15:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-24T12:30:00">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T14:00:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T12:30:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/minute-madness">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T18:00:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T16:30:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/tutorials/3">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T09:00:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T12:30:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/conference-dinner">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:00:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/tutorials/7">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T18:00:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T14:00:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/12">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:00:00+02:00</ns4:dtstart>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:30:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-23T16:00:00">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T16:00:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T16:30:00+02:00</ns4:dtend>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/person/yue-ma">
     <ns2:affiliation rdf:resource="http://data.semanticweb.org/organization/laboratoire-d’informatique-de-l’universit-paris-nord-(lipn)-umr-7030-universit-paris-13-cnrs"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/doctoral-consortium/2">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T12:30:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T11:00:00+02:00</ns3:dtstart>
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-23T10:30:00">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T11:00:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T10:30:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-23T16:00:00">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T16:00:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T16:30:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/linked-data-a-thon">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T18:00:00+02:00</ns3:dtstart>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-27T10:00:00">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:30:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:00:00+02:00</ns3:dtstart>
-  </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/3">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T14:00:00+02:00</ns3:dtstart>
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T16:00:00+02:00</ns3:dtend>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/tutorials/2">
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T14:00:00+02:00</ns3:dtstart>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T18:00:00+02:00</ns3:dtend>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T14:00:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T16:00:00+02:00</ns4:dtend>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/tutorials/4">
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T18:00:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T14:00:00+02:00</ns3:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T18:00:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T14:00:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/town-hall">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T19:15:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T18:15:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/10">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T12:30:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T14:00:00+02:00</ns4:dtend>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/inuse/5">
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T11:30:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:30:00+02:00</ns3:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T11:30:00+02:00</ns4:dtend>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:30:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/mentoring-lunch">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T12:30:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T14:00:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/5">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T12:30:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:30:00+02:00</ns4:dtstart>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-27T10:00:00">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:00:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:30:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-24T15:30:00">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T15:30:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T16:00:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-25T12:30:00">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T14:00:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T12:30:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-27T12:30:00">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T12:30:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T14:00:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/2">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T10:30:00+02:00</ns4:dtstart>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T11:00:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/panels/meet-the-editors">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T11:00:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T12:30:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-26T16:00:00">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T16:30:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T16:00:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-23T10:30:00">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T10:30:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T11:00:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/6">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:00:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:30:00+02:00</ns4:dtend>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/tutorials/2">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T18:00:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T14:00:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/doctoral-consortium/1">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T09:00:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T10:30:00+02:00</ns4:dtend>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/talks/awards-and-closing">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T16:30:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T18:00:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/14">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:30:00+02:00</ns4:dtstart>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T11:30:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-24T10:30:00">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T10:30:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T11:00:00+02:00</ns4:dtend>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/inuse/1">
-    <ns4:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
-    <ns3:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T11:00:00+02:00</ns3:dtend>
-    <ns3:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T10:30:00+02:00</ns3:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T11:00:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T10:30:00+02:00</ns4:dtstart>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/elena-montiel-ponsoda">
+    <ns2:affiliation rdf:resource="http://data.semanticweb.org/organization/ontology-engineering-group-laboratorio-de-inteligencia-artificial-facultad-de-informática-universidad-politecnica-de-madrid-"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/7">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:30:00+02:00</ns4:dtend>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:00:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/oasis-symposium">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T14:00:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T18:00:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/talks/semantic-information-management:-future-funding-by-eu-and-beyond">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T16:30:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T18:00:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-25T16:00:00">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T16:30:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T16:00:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-23T12:30:00">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T12:30:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T14:00:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/doctoral-consortium/2">
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T12:30:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T11:00:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-25T10:30:00">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T11:00:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T10:30:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-27T16:00:00">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T16:30:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T16:00:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/9">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:30:00+02:00</ns4:dtstart>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T12:30:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/organization/laboratoire-d’informatique-de-l’universit-paris-nord-(lipn)-umr-7030-universit-paris-13-cnrs">
+    <ns1:name>Laboratoire d’Informatique de l’universit Paris-Nord (LIPN) - UMR 7030 Universit Paris 13 - CNRS</ns1:name>
+    <ns1:member rdf:resource="http://data.semanticweb.org/person/yue-ma"/>
+    <rdfs:label>Laboratoire d’Informatique de l’universit Paris-Nord (LIPN) - UMR 7030 Universit Paris 13 - CNRS</rdfs:label>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/tutorials/5">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T18:00:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T09:00:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/industry/1">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T16:00:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T14:00:00+02:00</ns4:dtstart>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/doctoral-consortium/3">
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T16:00:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T14:00:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/13">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T16:00:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T14:00:00+02:00</ns4:dtstart>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/elsevier-developer-session">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T19:15:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T18:15:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/research/8">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:30:00+02:00</ns4:dtstart>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T12:30:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/inuse/3">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T14:00:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T12:30:00+02:00</ns4:dtstart>
+    <ns3:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/events/keynote/3">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T09:00:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-27T10:00:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-26T12:30:00">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T12:30:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T14:00:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/tutorials/6">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T09:00:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T12:30:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/organization/ontology-engineering-group-laboratorio-de-inteligencia-artificial-facultad-de-informática-universidad-politecnica-de-madrid-">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <rdfs:label>Ontology Engineering Group. Laboratorio de Inteligencia Artificial. Facultad de Informática. Universidad Politécnica de Madrid.</rdfs:label>
+    <ns1:name>Ontology Engineering Group. Laboratorio de Inteligencia Artificial. Facultad de Informática. Universidad Politécnica de Madrid.</ns1:name>
+    <ns1:member rdf:resource="http://data.semanticweb.org/person/elena-montiel-ponsoda"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/sessions/poster-session">
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T20:30:00+02:00</ns4:dtend>
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T18:15:00+02:00</ns4:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/events/keynote/1">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T09:30:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-25T10:30:00+02:00</ns4:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011/break-2011-10-26T10:00:00">
+    <ns4:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:00:00+02:00</ns4:dtstart>
+    <ns4:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T10:30:00+02:00</ns4:dtend>
   </rdf:Description>
 </rdf:RDF>
