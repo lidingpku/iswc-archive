@@ -12,9 +12,94 @@
 	xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
 	version='XHTML+RDFa 1.0' typeof='foaf:Document'>
 <head>
-    <title></title>
+    <title>Proceedings</title>
 </head>
-<body>
+<script type="text/javascript" >
+/*
+ * Dynamic Table of Contents script
+ * by Matt Whitlock <http://www.whitsoftdev.com/>
+ */
+
+function createLink(href, innerHTML) {
+	var a = document.createElement("a");
+	a.setAttribute("href", href);
+	a.innerHTML = innerHTML;
+	return a;
+}
+
+function generateTOC(toc) {
+	var i2 = 0, i3 = 0, i4 = 0;
+	toc = toc.appendChild(document.createElement("ul"));
+	for (var i = 0; i < document.body.childNodes.length; ++i) {
+		var node = document.body.childNodes[i];
+		var tagName = node.nodeName.toLowerCase();
+		if (tagName == "h4") {
+			++i4;
+			if (i4 == 1) toc.lastChild.lastChild.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3 + "." + i4;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h3") {
+			++i3, i4 = 0;
+			if (i3 == 1) toc.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h2") {
+			++i2, i3 = 0, i4 = 0;
+			var section = i2;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.appendChild(h2item = document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+	}
+}
+</script>
+<style type="text/css">
+.on { 
+  background: green;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px; 	
+}
+
+.off {
+  background: red;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 2px;
+  border-left-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px; 	
+}
+</style>    
+<script type="text/javascript">
+<!--
+	function togglestyle(el){
+	    if(el.className == "on") {
+	    	el.className="off";
+	    } else {
+	    	el.className="on";
+	    }
+	}
+	function toggle_visibility(cl){
+	   var els = document.getElementsByClassName(cl);
+	   for(var i=0; i<els.length; ++i){
+	      var s = els[i].style;
+	      s.display = s.display==='none' ? 'block' : 'none';
+	   };
+	}
+//-->
+</script>  
+<body onload="generateTOC(document.getElementById('toc'));">
+<input type="button" class="off" onclick="togglestyle(this); toggle_visibility('abstract');">show/hide abstracts</input>
+<div id="toc"></div>
 
 <h2>The Semantic Web - ISWC 2006 -- 5th International Semantic Web Conference, ISWC 2006, Athens, GA, USA, November 5-9, 2006. Proceedings</h2>
 
@@ -33,6 +118,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_79">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-22">
@@ -46,6 +132,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_73">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-23">
@@ -59,6 +146,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_75">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-28">
@@ -72,6 +160,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_74">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-37">
@@ -85,6 +174,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_76">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-56">
@@ -98,6 +188,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_72">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-65">
@@ -111,6 +202,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_81">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-71">
@@ -124,6 +216,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_78">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-76">
@@ -137,6 +230,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_83">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-77">
@@ -150,6 +244,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_80">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-79">
@@ -163,6 +258,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_77">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-83">
@@ -176,6 +272,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_82">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 </ol>
 <h3>Invited Talk Paper</h3>
@@ -193,6 +290,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_86">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">The virtual state is a metaphor meant to draw attention to the structures and processes of the state that are becoming increasingly aligned with the structures and processes of the semantic web. Semantic Web researchers understand the potential for information sharing, enhanced search, improved collaboration, innovation, and other direct implications of contemporary informatics. Yet many of the broader democratic and governmental implications of increasingly networked governance remain elusive, even in the world of public policy and politics. Governments, not businesses, remain the major information processing entities in the world. But where do they stand as knowledge managers, bridge builders and creators? As they strive to become not simply information-based but also knowledge-creating organizations, public agencies and institutions face a set of striking challenges. These include threats to privacy, to intellectual property, to identity, and to traditional processes of review and accountability. From the perspective of the organization of government, what are some of the key challenges faced by governments as they seek to become networked? What best practices are emerging globally? And in the networked world that is rapidly emerging and becoming institutionalized, how can public, private and nonprofit sectors learn from one another?</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-73">
@@ -206,6 +304,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_85">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">The notion of the Semantic Web can be coined as a Web of data when bringing database content to the Web or as a Web of enriched human-readable content when encoding the semantics of web-resources in a machine-interpretable form. It has been clear from the beginning that realizing the Semantic Web vision will require interdisciplinary research. At this the fifth ISWC, it is time to re-examine the extent to which interdisciplinary work has played and can play a role in Semantic Web research, and even how Semantic Web research can contribute to other disciplines. Core Semantic Web research has drawn from various disciplines, such as knowledge representation and formal ontologies, reusing and further developing their techniques in a new context. However, there are several other disciplines that explore research issues very relevant to the Semantic Web in different guises and to differing extents. As a community, we can benefit by also recognizing and drawing from the research in these different disciplines. On the other hand, Semantic Web research also has much to contribute to these disciplines and communities. For example, the Semantic Web offers scenario that often ask for unprecedented scalability of techniques from other disciplines. Throughout the talk, I will illustrate these points through examples from disciplines such as natural language processing, databases, software engineering and automated reasoning. The industry also has a major role to play in the realization of the Semantic Web vision. I will therefore additionally examine the added value of Semantic Web technologies for commercial applications and discuss issues that should be addressed for broadening the market for Semantic Web technologies.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-86">
@@ -219,6 +318,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_84">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">The Semantic Web is an ecosystem of interaction among computer systems. The social web is an ecosystem of conversation among people. Both are enabled by conventions for layered services and data exchange. Both are driven by human-generated content and made scalable by machine-readable data. Yet there is a popular misconception that the two worlds are alternative, opposing ideologies about how the web ought to be. Folksonomy vs. ontology. Practical vs. formalistic. Humans vs. machines. This is nonsense, and it is time to embrace a unified view. I subscribe to the vision of the Semantic Web as a substrate for collective intelligence. The best shot we have of collective intelligence in our lifetimes is large, distributed human-computer systems. The best way to get there is to harness the “people power” of the Web with the techniques of the Semantic Web. In this presentation I will show several ways that this can be, and is, happening.</div>
 </li>
 </ol>
 <h3>Research Track Paper</h3>
@@ -236,6 +336,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_20">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Facet browsing has become popular as a user friendly inter- face to data repositories. We extend facet browsing of Semantic Web data in four ways. First, users are able to select and navigate through facets of resources of any type and to make selections based on properties of other, semantically related, types. Second, we address a disadvantage of hierarchy-based navigation by adding a keyword search interface that dynamically makes semantically relevant suggestions. Third, the inter- face of our browser, /facet, allows the inclusion of facet-specific display options that go beyond the hierarchical navigation that characterizes current facet browsing. Fourth, the browser works on any RDFS dataset without any additional configuration. These properties make /facet an ideal tool for Semantic Web developers that need a instant interface to their complete dataset. The automatic facet configuration generated by the system can then be further refined to configure it as a tool for end users. The implementation is based on current Web standards and open source software. The new functionality we provide is motivated using a scenario from the cultural heritage domain.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-01">
@@ -249,6 +350,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_10">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">The task of automatically composing Web services involves two main composition processes, vertical and horizontal composition. Vertical composition consists of defining an appropriate combination of simple processes to perform a composition task. Horizontal composition process consists of determining the most appropriate Web service, from among a set of functionally equivalent ones for each component process. Several recent research efforts have dealt with the Web service composition problem. Nevertheless, most of them tackled only the vertical composition of Web services despite the growing trend towards functionally equivalent Web services. In an attempt to facilitate and streamline the process of horizontal composition of Web services while taking the above limitation into consideration, this work includes two main contributions. The first is a generic formalization of any Web service composition problem based on a constraint optimization problem (COP); this formalization is compatible to any Web service description language. The second contribution is an incremental user-intervention-based protocol to find the optimal composite Web service according to some predefined criteria at run-time. Our goal is i) to deal with many crucial natural features of Web services such as dynamic and distributed environment, uncertain and incomplete Web service information, etc; and ii) to allow human user intervention to enhance the solving process. Three approaches are described in this work, sequential approach, distributed approach and multi-agent approach to deal with realistic domains.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-03">
@@ -262,6 +364,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_28">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Automated composition of Web services or the process of forming new value added Web services is one of the most promising challenges in the semantic Web service research area. Semantics is one of the key elements for the automated composition of Web services because such a process requires rich machine-understandable descriptions of services that can be shared. Semantics enables Web service to describe their capabilities and processes, nevertheless there is still some work to be done. Indeed Web services described at functional level need a formal context to perform the automated composition of Web services. The suggested model (i.e. Causal link matrix) is a necessary starting point to apply problem-solving techniques such as regression-based search for Web service composition. The model supports a semantic context in order to find a correct, complete, consistent and optimal plan as a solution. In this paper an innovative and formal model for an AI planning-oriented composition is presented.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-04">
@@ -275,6 +378,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_39">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">With the wider use of ontologies in the Semantic Web and as part of production systems, multiple scenarios for ontology maintenance and evolution are emerging. For example, successive ontology versions can be posted on the (Semantic) Web, with users discovering the new versions serendipitously; ontology-development in a collaborative environment can be synchronous or asynchronous; managers of projects may exercise quality control, examining the changes from previous baseline versions and accepting or rejecting them before a new baseline is published, and so on. In this paper, we present the different scenarios for ontology maintenance and evolution that we have encountered in our own projects and in those of our collaborators. We define several dimensions that categorize different scenarios. For each scenario, we discuss the high-level tasks that an editing environment must support. We then present a unified comprehensive set of tools to support the different scenarios in a single framework, allowing users to switch between different modes easily.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-05">
@@ -288,6 +392,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_42">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">We address the issue of extracting implicit and explicit relationships between entities in biomedical text. We argue that entities seldom occur in text in their simple form and that relationships in text relate the modified, complex forms of entities with each other. We present a rule-based method for (1) extraction of such complex entities and (2) relationships between them and (3) the conversion of such relationships into RDF. Furthermore, we present results that clearly demonstrate the utility of the generated RDF in discovering knowledge from text corpora, by means of locating paths composed of the extracted relationships.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-06">
@@ -301,6 +406,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_52">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Part-whole relations are important in many domains, but typically receive less attention than subsumption relation. In this paper we describe a method for finding part-whole relations. The method consists of two steps: (i) finding phrase patterns for both explicit and implicit part-whole relations, and (ii) applying these patterns to find part-whole relation instances. We show results of applying this method to a domain of finding sources of carcinogens.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-08">
@@ -314,6 +420,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_14">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">This paper presents an approach for visually modeling OWL DL and OWL Full ontologies based on the well-established visual modeling language UML. We discuss a metamodel for OWL based on the Meta-Object Facility, an associated UML profile as visual syntax, and transformations between both. The work we present supports model-driven development of OWL ontologies and is currently undergoing the standardization process of the Object Management Group. After describing our approach, we present the implementation of our approach and an example, showing how the metamodel and UML profile can be used to improve developing Semantic Web applications.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-09">
@@ -327,6 +434,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_23">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">We explore flexible querying of RDF data, with the aim of making it possible to return data satisfying query conditions with varying degrees of exactness, and also to rank the results of a query depending on how ``closely'' they satisfy the query conditions. We make queries more flexible by logical relaxation of their conditions based on the notion of RDF entailment, which naturally incorporates RDFS ontologies. We develop a notion of ranking of query answers, and present a query processing algorithm for incrementally computing the relaxed answer of a query. Our approach has application in scenarios where there is a lack of understanding of the ontology underlying the data, or where the data objects have heterogeneous sets of properties or irregular structures.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-10">
@@ -340,6 +448,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_34">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Wireless connectivity and widespread diffusion of portable devices offer novel opportunities for users to share resources anywhere and anytime and to form ad-hoc coalitions. Resource access control is crucial to leverage ad-hoc collaboration. In pervasive scenarios, however, collaborating entities cannot be known in advance and resource availability frequently vary, even unpredictably, due to user/device mobility, thus complicating resource access control. Access control policies cannot be defined based on entity's identities/roles, as in traditional access control solutions, and cannot be all specified a priori to face any operative run time situation, but require continuous adjustments to adapt to the current. To address these issues, this paper advocates the adoption of novel access control policy models that follow two main design guidelines: context-awareness to control resource access on the basis of context visibility and to enable dynamic adaptation of policies depending on context changes, and semantic technologies for context/policy specification to allow high-level description and reasoning reason about context and policies. The paper describes also the implementation of these concepts in a semantic context-aware policy model that adopts ontologies and rules to express context and context-aware access control policies and to allow policy adaptation.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-12">
@@ -353,6 +462,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_13">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">This paper presents a framework for designing and developing Semantic Web Service applications that spans over several enterprises by applying techniques, methodologies, and notations offered by other fields, namely Software engineering, Web engineering, and Business Process modeling. In particular, we propose to exploit existing standards for the specification of business processes (e.g., BPMN), for modeling the cross enterprise process, combined with powerful methodologies, tools and notations (e.g., WebML) borrowed from the Web engineering field for designing and developing semantically rich Web applications, with semi-automatic elicitation of semantic descriptions (i.e., WSMO Ontologies, Goals, Web Services and Mediators) from the design of the applications, with huge advantages in terms of efficiency of the design and reduction of the extra work necessary for semantically annotating the information the crosses the organizational boundaries.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-13">
@@ -366,6 +476,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_49">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">We survey nearly 1300 OWL ontologies and RDFS schemas. The collection of statistical data allows us to perform analysis and report some trends. Though most of the documents are syntactically OWL Full, very few stay in OWL Full when they are syntactically patched by adding type triples. We also report the frequency of occurrences of OWL language constructs and the shape of class hierarchies in the ontologies. Finally, we note that of the largest ontologies surveyed here, most do not exceed the description logic expressivity of \mathcalALC</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-14">
@@ -379,6 +490,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_5">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">We propose an approach that unifies browsing by tags and visual features for intuitive exploration of image databases. In contrast to traditional image retrieval approaches, we utilise tags provided by users on collaborative tagging sites, complemented by simple image analysis and classification. This allows us to find new relations between data elements. We introduce the concept of a navigation map, that describes links between users, tags, and data elements for the example of the collaborative tagging site Flickr. We show that introducing similarity search based on image features yields additional links on this map. These theoretical considerations are supported by examples provided by our system, using data and tags from real Flickr users.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-15">
@@ -392,6 +504,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_9">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Semantic annotations of web services can facilitate the discovery of services, as well as their composition into workflows. At present, however, the practical utility of such annotations is limited by the small number of service annotations available for general use. Resources for manual annotation are scarce, and therefore some means is required by which services can be automatically (or semi-automatically) annotated. In this paper, we show how information can be inferred about the semantics of operation parameters based on their connections to other (annotated) operation parameters within tried-and-tested workflows. In an open-world context, we can infer only constraints on the semantics of parameters, but these loose annotations are still of value in detecting errors within workflows, annotations and ontologies, as well as in simplifying the manual annotation task.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-16">
@@ -405,6 +518,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_22">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Ontology matching is a crucial task to enable interoperation between Web applications using different but related ontologies. Today, most of the ontology matching techniques are targeted to find 1:1 mappings. However, block mappings are in fact more pervasive. In this paper, we discuss the block matching problem and suggest that both the matching quality and the partitioning quality should be considered in block matching. We propose a novel partitioning-based approach to address the block mapping problem. It considers both linguistic and structural characteristics of domain entities based on virtual documents, and uses a hierarchical bisection algorithm for partitioning. We set up two kinds of metrics to evaluate of the quality of block matching. The experimental results demonstrated that our approach is feasible.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-17">
@@ -418,6 +532,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_36">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Logic programming (LP) is often seen as a way to overcome several shortcomings of the Web Ontology Language (OWL), such as the inability to model integrity constraints or perform closed-world querying. However, the open-world semantics of OWL seems to be fundamentally incompatible with the closed-world semantics of LP. This has sparked a heated debate in the Semantic Web community, resulting in proposals for alternative ontology languages based entirely on logic programming. To help resolving this debate, we investigate the practical use cases which seem to be addressed by logic programming. In fact, many of these requirements have already been addressed outside of the Semantic Web. By drawing inspiration from these existing formalisms, we present a novel logic of hybrid MKNF knowledge bases, which seamlessly integrates OWL with LP. We are thus capable of addressing the identified use cases without a radical change in the architecture of the Semantic Web.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-19">
@@ -431,6 +546,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_18">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">The applicability of the Semantic Web in real world applications on the World Wide Web remains unclear because most existing work neglects the Web aspect: Semantic Web data is published and consumed on the Web by independent agents. Therefore, we developed a system to harvest and analyze publicly available Semantic Web data on the Web. We estimate at least 10 millions of Semantic Web documents on the Web using Google, and we have actually harvested 1.4 million documents comprising over 250 million triples. Based on the collection, we measured a rich spectrum of global properties and usage patterns of Semantic Web documents and terms. The most interesting observation is that the distribution of many metrics, such as the size of Semantic Web documents and the meta-usages of Semantic Web terms, follow the Power law.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-21">
@@ -444,6 +560,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_50">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">OWL ontologies present many interesting visualization challenges. Here we present CropCircles, a technique designed to view the class hierarchies in ontologies as trees. We place special emphasis on topology understanding when designing the tool. We drew inspiration from treemaps, but made substantial changes in the representation and layout. Most notably, the spacefillingness of treemap is relaxed in exchange for visual clarity. We outline the problem scape of visualizing ontology hierarchies, note the requirements that go into the design of the tool, and discuss the interface and implementation. Finally, through a controlled experiment involving task common to understanding ontologies, we show the benefits of our design.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-27">
@@ -457,6 +574,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_29">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">We study the problem of evaluating conjunctive queries composed of triple patterns over RDF data stored in distributed hash tables. Our goal is to develop algorithms that scale to large amounts of RDF data, distribute the query processing load evenly and incur little network traffic. We present and evaluate two novel query processing algorithms with these possibly conflicting goals in mind. We discuss the various tradeoffs that occur in our setting through a detailed experimental evaluation of the proposed algorithms.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-30">
@@ -470,6 +588,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_40">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Data on the Semantic Web is semi-structured and does not follow one fixed schema. Faceted browsing is a natural technique for navigating such data, partitioning the information space into orthogonal conceptual dimensions. Current faceted interfaces are manually constructed and have limited query expressiveness. We develop an expressive faceted interface for semi-structured data and formally show the improvement over existing interfaces. Secondly, we develop metrics for automatic ranking of facet quality, bypassing the need for manual construction of the interface. We develop a prototype for faceted navigation of arbitrary RDF data. Experimental evaluation shows improved usability over current interfaces.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-31">
@@ -483,6 +602,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_35">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Social networks have recently garnered considerable interest. With the intention of utilizing social networks for the SemanticWeb, several studies have examined automatic extraction of social networks. However, most methods have addressed extracting the strength of relations. Our goal is extracting underlying relations between entities embedded in social networks. To this end, we propose a method that automatically extracts labels that describe relations between entities. The fundamental idea is to cluster similar entity pairs according to their collective contexts in Web documents. The descriptive labels for relations are obtained from results of clustering. The proposed method is entirely unsupervised and is easily incorporated with existing social network extraction methods. Our method also contributes to ontology population by find relations between intances in social network. Our experiments conducted on entities in political social networks achieved clustering with high precision and recall. We were able to extract appropriate relation labels to represent the entities.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-34">
@@ -496,6 +616,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_33">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">In a semantic environment data is described by ontologies and heterogeneity problems have to be solved at the ontological level. This means that alignments between ontologies have to be created, most probably during design-time, and used in various run-time processes. Such alignments describe a set of mappings between the source and target ontologies, where the mappings show how instance data from one ontology can be expressed in terms of another ontology. In this paper we propose a formal model for mapping creation. Starting from this model we explore how such a model maps onto a design-time graphical tool that can be used in creating alignments between ontologies. In the other direction, we investigate how such a model helps in expressing the mappings in a logical language, based on the semantic relationships identified using the graphical tool.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-35">
@@ -509,6 +630,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_47">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">OWL is an ontology language developed by the W3C, and although initially developed for the Semantic Web, OWL has rapidly become a de facto standard for ontology development in general. The design of OWL was heavily influenced by research in description logics, and the specification includes a formal semantics. One of the goals of this formal approach was to provide interoperability: different OWL reasoners should provide the same results when processing the same ontologies. In this paper we present a system that allows users: (a) to test and compare OWL reasoners using an extensible library of real-life ontologies; (b) to check the ``correctness'' of the reasoners by comparing the computed class hierarchy; (c) to compare the performance of the reasoners when performing this task; and (d) to use SQL queries to analyse and present the results in any way they see fit.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-36">
@@ -522,6 +644,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_12">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Semantic Web browsers and other tools aimed at displaying RDF data to end users are all concerned with the same problem: presenting content primarily intended for machine consumption in a human-readable way. Their solutions differ but in the end address the same two high-level issues, no matter the underlying representation paradigm: specifying (i) what information contained in RDF models should be presented (content selection) and (ii) how this information should be presented (content formatting and styling). However, each tool currently relies on its own ad hoc mechanisms and vocabulary for specifying RDF presentation knowledge, making it difficult to share and reuse such knowledge across applications. Recognizing the general need for presenting RDF content to users and wanting to promote the exchange of presentation knowledge, we designed Fresnel as a browser-independent vocabulary of core RDF display concepts. In this paper we describe Fresnel's main concepts and present several RDF browsers and visualization tools that have adopted the vocabulary so far.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-38">
@@ -535,6 +658,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_11">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">The casual user is typically overwhelmed by the formal logic of the Semantic Web. The gap between the end user and the logic-based scaffolding has to be bridged if the Semantic Web's capabilities are to be utilized by a general public. This paper proposes that controlled natural languages offer one way to bridge the gap. We introduce GINO, a guided input natural language ontology editor that allows users to edit and query ontologies in a language akin to English. It uses a small static grammar, which it dynamically extends with elements from the loaded ontologies. The usability evaluation shows that GINO is well-suited for novice users when editing ontologies. We believe that the use of guided entry overcomes the habitability problem, which adversely affects most natural language systems. Additionally, its dynamic grammar generation allows for easy adaptation to new ontologies.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-42">
@@ -548,6 +672,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_15">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">In this paper we describe IRS-III which takes a semantic broker based approach to creating applications from Semantic Web Services by mediating between a service requester and one or more service providers. Business organisations can see Semantic Web Services as the basic mechanism for integrating data and processes across applications on the Web. This paper extends previous publications on IRS by providing an overall description of our framework components from the point of view of application development. More specifically, it describes the IRS-III methodology for building applications using Semantic Web Services and illustrates this methodology through a case study on e-government.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-40">
@@ -561,6 +686,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_37">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Recently, the use of blogs has been a remarkable means to publish user interests. In order to find suitable information resources from a large amount of blog entries which are published every day, we need an information filtering technique to automatically transcribe user interests to a user profile in detail. In this paper, we first classify user blog entries into service domain ontologies and extract interest ontologies that express a user's interests semantically as a hierarchy of classes according to interest weight by a top-down approach. Next, with a bottom-up approach, users modify their interest ontologies to update their interests in more detail. Furthermore, we propose a similarity measurement between ontologies considering the interest weight assigned to each class and instance. Then, we detect innovative blog entries that include concepts that the user has not thought about in the past based on the analysis of approximated ontologies of a user's interests. We present experimental results that demonstrate the performance of our proposed methods using a large-scale blog entries and music domain ontologies.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-41">
@@ -574,6 +700,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_48">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Information integration and retrieval have been important problems for many information systems --- it is hard to combine new information with any other piece of information we may already possess, and to make them both available for application queries. Many ontology-based applications are still cautious to integrate and retrieve information from natural language (NL) documents, but rather from structured or semi-structured sources. In this paper, we choose the botanical domain to investigate how to use ontologies to facilitate integrating and querying information on parallel leaf shape descriptions from NL documents. Our approach takes advantages of ontologies to precisely represent the semantics in shape descriptions, to integrates parallel ones according to their semantic distances, and to answer shape-related species identification queries. From this highly specialised domain, we learn a set of more general methodological rules, which could be useful in other domains.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-43">
@@ -587,6 +714,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_24">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Instance unification determines whether two instances in an ontology refer to the same object in the real world. More specifically, this paper addresses the instance unification problem for person names. The approach combines the use of citation information (i.e., abstract, initials, titles and co-authorship information) with web mining, in order to gather additional evidence for the instance unification algorithm. The method is evaluated on two datasets -- one from the BT digital library and one used in previous work on name disambiguation. The results show that the information mined from the web contributes substantially towards the successful handling of highly ambiguous cases which lowered the performance of previous methods.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-44">
@@ -600,6 +728,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_38">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">This paper argues that in order to allow for the comparison and sound assessment of possibly controversial or uncertain information on the web, the semantic web effort requires increased capabilities for the social reasoning about web ontologies and other knowledge contributions. As an approach to this issue, we propose formal means for the logical representation of heterogeneous, possibly inconsistent opinions, and various attitudes towards statements on the web using metamodeling techniques, namely modal description logic. Doing so, we integrate concepts from speech act theory and distributed artificial intelligence with approaches to web semantics, aiming for a social semantics of web content.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-45">
@@ -613,6 +742,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_19">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">The goal of the work presented in this paper is to obtain large amounts of semistructured data from the web. We contrast our approach to conventional web crawlers, and describe and evaluate a five-step pipelined architecture to crawl and index data from both the traditional and the Semantic Web.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-50">
@@ -626,6 +756,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_45">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">The technical challenges associated with the development and deployment of ontologies have been subject to a considerable number of research initiatives since the beginning of the nineties. The economical aspects of these processes are, however, still poorly exploited, impeding the dissemination of ontology-driven technologies beyond the boundaries of the academic community. This paper aims at contributing to the alleviation of this situation by proposing ONTOCOM (ONTOlogy COst Model), a model to predict the costs arising in ontology engineering processes. We introduce a methodology to generate a cost model adapted to a particular ontology development strategy, and an inventory of cost drivers which influence the amount of effort invested in activities performed during an ontology life cycle. We further present the results of the model validation procedure, which covered an expert-driven evaluation and a statistical calibration on 36 data points collected from real-world projects. The validation revealed that ontology engineering processes have a high learning rate, indicating that the building of very large ontologies is feasible from an economic point of view. Moreover, the complexity of ontology evaluation, domain analysis and conceptualization activities proved to have a major impact on the final ontology engineering process duration.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-48">
@@ -639,6 +770,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_17">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">In recent years several measures for the gold standard based evaluation of ontology learning were proposed. They can be distinguished by the layers of an ontology (e.g. lexical term layer and concept hierarchy) they evaluate. Judging those measures with a list of criteria we show that there exist some measures sufficient for evaluating the lexical term layer. However, existing measures for the evaluation of concept hierarchies fail to meet basic criteria. This paper presents a new taxonomic measure which overcomes the problems of current approaches.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-49">
@@ -652,6 +784,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_6">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Modular ontology languages, such as Distributed Description Logics (DDL), E-connections and Package-based Description Logics (P-DL) offer two broad classes of approaches to connect multiple ontol- ogy modules: use of mappings or linkings between ontology modules e.g., DDL and E-connections; and the use of importing e.g., P-DL. The major difference between the two approaches is on the usage of terms" at the syntactic level, and local model disjointness at the semantic level. We compare the semantics of linking in DDL, E-connections, and import- ing in P-DL within the Distributed First Order Logics (DFOL) frame- work. Our investigation shows that the domain disjointness assumption adopted by the linking approach leads to several semantic di\pmculties.We explore the possibility of avoiding some of the semantic di\pmculties of cur- rent modular ontology language proposals using the importing approach to linking ontology modules.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-54">
@@ -665,6 +798,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_32">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">With the fast development of Semantic Web, more and more RDF and OWL ontologies are created and shared. The effective management, such as storage, inference and query, of these ontologies on databases gains increasing attentions. This paper addresses ontology query answering by means of a Datalog program, specifically tailored to bridge ontologies and databases. Introducing meta integrity constraints inspired by epistemic interpretations, we believe such a Datalog program suitable to capture ontologies in the DB favor, while keeping reasoning tractable -- Here, we present a logical equivalent knowledge base whose (sound and complete) inference system appears to a Datalog program. As such, a deductive RDF database is responsible for SPARQL query answering involved in OWL and SWRL. Bi-directional strategies, taking advantage of both forward and backward chaining, are then studied to support for this kind of customized Datalog programs, returning exactly answers to the query with respect to its logical framework.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-52">
@@ -678,6 +812,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_4">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Precisely identifying entities in web documents is essential for document indexing, web search and data integration. Entity disambiguation is the challenge of determining the correct entity out of various candidate entities. Our novel method utilizes background knowledge in the form of a populated ontology. Additionally, it does not rely on the existence of any structure in a document or the appearance of data items that can provide strong evidence, such as email addresses, for disambiguating authors. Originality of our method is demonstrated in the way it uses different relationships in a document as well as in the ontology to provide clues in determining the correct entity. We dem-onstrate the applicability of our method by disambiguating authors in a collec-tion of DBWorld posts using a large scale, real-world ontology extracted from DBLP. The precision and recall measurements provide encouraging results.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-53">
@@ -691,6 +826,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_31">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">The Semantic Web's need for machine understandable content has led researchers to attempt to automatically acquire such content from a number of sources, including the web. To date, such research has focused on "document-driven" systems that individually process a small to moderate size set of documents, annotating each with respect to a given ontology. This paper introduces OntoSyphon, an alternative that strives to more fully leverage existing ontological content while scaling to extract comparatively shallow content from millions of documents. OntoSyphon operates in an "ontology-driven" manner: taking any ontology as input, OntoSyphon uses the ontology to specify web searches that identify possible semantic instances, relations, and taxonomic information. Redundancy in the web, together with information from the ontology, is then used to automatically verify these candidate instances and relations, enabling OntoSyphon to operate in a fully automated, unsupervised manner. A prototype of OntoSyphon is fully implemented and we present experimental results that demonstrate substantial instance learning in a variety of domains based on independently constructed ontologies. We also introduce new techniques for improving instance verification, and demonstrate empirically that they improve upon previously known techniques.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-57">
@@ -704,6 +840,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_30">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Ontology mapping plays an important role in bridging the semantic gap between distributed and heterogeneous data sources. As the Semantic Web slowly becomes real and the amount of online semantic data increases, a new generation of tools is developed that automatically find and integrate this data. Unlike in the case of earlier tools where mapping has been performed at the design time of the tool, these new tools require mapping techniques that can be performed at run time. The contribution of this paper is twofold. First, we investigate the general requirements for run time mapping techniques. Second, we describe our PowerMap mapping algorithm that was designed to be used at run-time by an ontology based question answering tool.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-58">
@@ -717,6 +854,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_16">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">This paper presents Provenance Explorer, a secure provenance visualization tool, designed to dynamically generate customized views of scientific data provenance that depend on the viewer's requirements and/or access privileges. Using RDF and graph visualizations, it enables scientists to view the data, states and events associated with a scientific workflow in order to understand the scientific methodology and validate the results. Initially the Provenance Explorer presents a simple, coarse-grained view of the scientific process or experiment. However the GUI allows permitted users to expand links between nodes (input states, events and output states) to reveal more fine-grained information about particular sub-events and their inputs and outputs. Access control is implemented using Shibboleth to identify and authenticate users and XACML to define access control policies. The system also provides a platform for publishing scientific results. It enables users to select particular nodes within the visualized workflow and drag-and-drop them into an RDF package for publication or e-learning. The direct relationships between the individual components selected for such packages are inferred by the rule-inference engine.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-59">
@@ -730,6 +868,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_44">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Ranking is an important concept to avoid empty or overfull and unordered result sets. However, such scoring can only express total orders, which restricts its usefulness when several factors influence result relevance. A more flexible way to express relevance is the notion of preferences. Users state which kind of answers they 'prefer' by adding soft constraints to their queries. Current approaches in the Semantic Web offer only limited facilities for specification of scoring/result ordering. There is no common language element to express and formalize ranking and preferences. We present a comprehensive extension of SPARQL which directly supports the expression of preferences. This includes formal syntax and semantics of preference expressions for SPARQL. Additionally, we describe our implementation of preference query processing, based on the ARQ query engine.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-63">
@@ -743,6 +882,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_7">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">In this paper, we present an approach, named RS2D, to retrieve top most semantic relevant OWL-S services in unstructured P2P networks with minimal communication overhead. Using RS2D, each peer determines the average query response behaviour of its immediate neighbors and routes the query for semantic relevant services to those with minimal naive bayesian risk of failure in terms of both communication and semantic gain. Experimental evaluation of the performance of integrated risk based service retrieval is compared with that of other relevant P2P service retrieval systems.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-60">
@@ -756,6 +896,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_1">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Ontology search and reuse is becoming increasingly important as the quest for methods to reduce the cost of constructing such knowledge structures continues. To this end, a number of ontology libraries and search engines are coming to existence to facilitate locating and retrieving potentially relevant ontologies. The number of ontologies available for reuse is steadily growing, and so is the need for methods to evaluate and rank existing ontologies in terms of their relevance to the needs of the knowledge engineer. This paper presents AKTiveRank, a prototype system for ranking ontologies based on a number of structural metrics. The paper describes those metrics, a ranking experiment and an evaluation of results.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-61">
@@ -769,6 +910,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_27">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">When agents communicate, they do not necessarily use the same vocabulary or ontology. For them to interact successfully, they must find correspondences (mappings) between the terms used in their respective ontologies. While many proposals for matching two agent ontologies have been presented in the literature, the resulting alignment may not be satisfactory to both agents, and thus may necessitate additional negotiation to identify a mutually agreeable set of alignments. We propose an approach for supporting the creation and exchange of different arguments, that support or reject possible correspondences. Each agent can decide, according to its preferences, whether to accept or refuse a candidate correspondence. The proposed framework considers arguments and propositions that are specific to the matching task and are based on the ontology semantics. This argumentation framework relies on a formal argument manipulation schema and on an encoding of the agents' preferences between particular kinds of arguments. Whilst the former does not vary between agents, the latter depends on the interests of each agent. Thus, this approach distinguishes clearly between alignment rationales which are valid for all agents and those specific to a particular agent.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-62">
@@ -778,6 +920,7 @@
 ,
 <span class="pages"  property="swrc:pages">573-582</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">A common approach for reasoning is to compute the deductive closure of an ontology using the rules specified and to work on the closure at query time. This approach reduces the run time complexity but increases the space requirements. The main reason of this increase is the type and subclass statements in the ontology. Type statements show a significant percentage in most ontologies. Since subclass is a transitive property, derivation of other statements, in particular type statements rely on it, gives rise to cyclic repetition and an excess of inferred type statements. In brief, a major part of closure computation is deriving the type statements relying on subclass statements. In this paper, we propose a syntactic transformation that is based on novel individual grouping constructs. This transformation reduces the number of inferred type statements relying on subclass relations. Thus, the space requirement of reasoning is reduced without affecting the soundness and the completeness.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-64">
@@ -791,6 +934,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_8">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Visually impaired users are hindered in their efforts to access the largest repository of electronic information in the world -- the World Wide Web (Web). The web is visually-centric with regard to presentation and information order / layout, this can (and does) hinder users who need presentation-agnostic access to information. Transcoding can help to make information more accessible via a restructuring of pages. We describe an approach based on annotation of web pages, encoding semantic information that can then be used by tools in order to manipulate and present web pages in a form that provides easier access to content. Annotations are made directly to style sheet information, allowing the annotation of large numbers of similar pages with little effort.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-69">
@@ -804,6 +948,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_26">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">In recent years, workflows have been increasingly used in scientific applications. This paper presents novel metadata reasoning capabilities that we have developed to support the creation of large workflows. They include 1) use of semantic web technologies in handling metadata constraints on file collections and nested file collections, 2) propagation and validation of metadata constraints from inputs to outputs in a workflow component, and through the links among components in a workflow, and 3) sub-workflows that generate metadata needed for workflow creation. We show how we used these capabilities to support the creation of large workflows in an earthquake science application.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-70">
@@ -817,6 +962,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_3">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">SPARQL is the W3C candidate recommendation query language for RDF. In this paper we address systematically the formal study of SPARQL, concentrating in its graph pattern facility. We consider for this study a fragment without literals and a simple version of filters which encompasses all the main issues yet is simple to formalize. We provide a compositional semantics, prove there are normal forms, prove complexity bounds, among others that the evaluation of SPARQL patterns is PSPACE-complete, compare our semantics to an alternative operational semantics, give simple and natural conditions when both semantics coincide and discuss optimizations procedures.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-74">
@@ -830,6 +976,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_25">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Reasoning on OWL ontologies is known to be intractable in the worst-case, which is a serious problem because in practice, most OWL ontologies have large Aboxes, i.e., numerous assertions about individuals and their relations. We propose a technique that uses a summary of the ontology (summary Abox ) to reduce reasoning to a small subset of the original Abox, and prove that our techniques are sound and complete.We demonstrate the scalability of this technique for consistency detection in 4 ontologies, the largest of which has 6.5 million role assertions.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-75">
@@ -843,6 +990,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_2">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">An ontology alignment explicitly describes the relations holding between two ontologies. A system composed of ontologies and alignments interconnecting them is herein called a distributed system. We give three different semantics of a distributed system, that do not interfere with the semantics of ontologies. Their advantages are compared, with respect to allowing consistent merge of ontologies, managing heterogeneity and complying with an alignment composition operation. We show that only the two first variants, which differ from other proposed semantics, can offer a sound composition operation.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-80">
@@ -856,6 +1004,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_51">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">In our research to use information extraction to help populate the semantic web, we have encountered significant obstacles to interoperability between the technologies. We believe these obstacles to be endemic to the basic paradigms, and not quirks of the specific implementations we have worked with. In particular, we identified five dimensions of interoperability that must be addressed to successfully populate semantic web knowledge bases from information extraction systems that are suitable for reasoning. We called the task of transforming IE data into knowledge-bases knowledge integration, and briefly presented a framework called KITE in which we are exploring these dimensions. Finally, we reported on the initial results of an experiment in which the knowledge integration process used the deeper semantics of OWL ontologies to improve the precision of relation extraction from text. By adding a simplistic consistency-checking step, we showed an 8.7% relative improvement in precision over a very robust IE application without that checking.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-82">
@@ -869,6 +1018,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_46">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Semantic annotation is a task of annotating web pages with ontological information. The large volume of web content needs to be annotated before furthering the investigation of Semantic Web, and thus it is necessary to automate the process of annotation. Our empirical study shows that strong dependencies exist among different types of targeted instances. Conditional Random Fields (CRFs) are the state-of-the-art approaches for modeling the dependencies to do better annotation. However, as information on a Web page is not necessary linearly laid-out, the previous linear-chain CRFs have their limitations in semantic annotation. This paper is concerned with the issue of semantic annotation on hierarchically dependent data (Hierarchical Semantic Annotation). To better incorporate dependencies across the hierarchically laid-out information, this paper proposes a Tree-structured Conditional Random Fields (TCRFs). Methods for performing the tasks of model-parameter estimation and annotation in TCRFs have been proposed. Experimental results indicate that the proposed TCRFs for hierarchical semantic annotation can significantly outperform the existing linear-chain CRF model.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-84">
@@ -882,6 +1032,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_21">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">In this paper, we will show how we use ontologies to bootstrap a knowledge acquisition process that extracts product knowledge from tabular data on Web pages. Furthermore, we use logical rules to reason about product specific properties and to derive higher-order knowledge about product features. We will also explain the knowledge acquisition process, covering both ontological and procedural aspects. Finally, we will give an qualitative and quantitative evaluation of our results.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-85">
@@ -895,6 +1046,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_43">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Web service composition is one of many interesting challenges facing the Semantic Web. In this paper we propose a means of performing automated Web service composition by exploiting generic procedures together with rich qualitative user preferences. To this end, we exploit the agent programming language Golog to represent our generic procedure and a first-order preference language to represent rich qualitative temporal user preferences. From these we generate Web service compositions that realize the generic procedure, satisfying the users hard constraints and optimizing for the users preferences. We prove our approach sound and optimal. Our system, GologPref, is implemented and interacting with services on the Web.</div>
 </li>
 </ol>
 <h3>Semantic Web Challenge Paper</h3>
@@ -912,6 +1064,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_71">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-26">
@@ -925,6 +1078,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_69">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-33">
@@ -938,6 +1092,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_67">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-46">
@@ -951,6 +1106,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_70">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-68">
@@ -964,6 +1120,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_68">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 </ol>
 <h3>Semantic Web In Use Track Paper</h3>
@@ -981,6 +1138,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_63">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Semantic Web technologies offer the prospect of significantly reducing the amount of effort required to integrate existing enterprise functionality in support of new composite processes.-- whether within a given organization or across multiple ones. A significant body of work in this area has aimed to fully automate this process, while assuming that all functionality has already been encapsulated in the form of semantic web services with rich and accurate annotations. In this article, we argue that this assumption is often unrealistic. Instead, we describe a mixed initiative framework for semantic web service discovery and composition that aims at flexibly interleaving human decision making and automated functionality in environments where annotations may be incomplete and even inconsistent. An initial version of this framework has been implemented in SAP's Guided Procedures, a key element of SAP's Enterperise Service Architecture (ESA).</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-02">
@@ -994,6 +1152,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_66">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">The healthcare industry is rapidly advancing towards the widespread use of electronic medical records systems to manage the increasingly large amount of patient data and reduce medical errors. In addition to patient data there is a large amount of data describing procedures, treatments, diagnoses, drugs, insurance plans, coverage, formularies and the relationships between these data sets. While practices have benefited from the use of EMRs, infusing these essential programs with rich domain knowledge and rules can greatly enhance their performance and ability to support clinical decisions. Active Semantic Electronic Medical Record (ASEMR) application discussed here uses Semantic Web technologies to reduce medical errors, improve physician efficiency with accurate completion of patient charts, improve patient safety and satisfaction in medical practice, and improve billing due to more accurate coding. This results in practice efficiency and growth by enabling physicians to see more patients with improved care. ASEMR has been deployed and in daily use for managing all patient records at the Athens Heart Center since December 2005. This showcases an application of Semantic Web in health care, especially small clinics.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-20">
@@ -1007,6 +1166,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_58">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">We have been developing a task-based service navigation system that offers to the user for his selected services relevant to the task the user wants to perform. We observed that the tasks likely to be performed in a given situation depend on the user's role such as businessman or father. To further our research, we constructed a role-ontology and utilized it to improve the usability of task-based service navigation. We have enhanced a basic task-model by associating tasks with role-concepts defined in the new role-ontology. We can generate a task-list that is precisely tuned to the user's current role. In addition, we can generate a personalized task-list from the task-model based on the user's task selection history. Because services are associated with tasks, our approach makes it much easier to navigate a user to the most appropriate services. In this paper, we describe the construction of our role-ontology and the task-based service navigation system based on the role-ontology.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-24">
@@ -1020,6 +1180,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_60">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">The scientific enterprise depends of the effective transfer of knowledge from creator to user. Recently the rate of scientific knowledge production is overwhelming the ability for researchers to process it. Semantic web technologies may help to handle this vast amount of scientific knowledge. However, automatic computerized techniques that extract semantics from natural language text for use in matching with the request of knowledge seekers achieve only mediocre results. Clearly, semantic descriptions of expert knowledge that are constructed by the knowledge creators themselves will be more accurate. We report an approach and software implementation of a knowledge sharing platform based on semantic web technologies, called EKOSS for expert knowledge ontology-based semantic search, that helps knowledge creator construct semantic descriptions of their knowledge. The EKOSS system enables knowledge creators to construct computer-interpretable semantically rich statements describing their knowledge with minimal effort and without any knowledge of semantic web technologies.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-25">
@@ -1033,6 +1194,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_59">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">This paper describes how Semantic Web technologies have been used in an online community for knowledge sharing between clinicians in oral medicine in Sweden. The main purpose of this community is to serve as repository of interesting and difficult cases, and as a support for monthly teleconferences. All information regarding users, meetings, news, and cases is stored in RDF. The community was built using the Struts framework and Jena was used for interacting with RDF.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-29">
@@ -1046,6 +1208,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_62">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">The ubiquitous non-semantic web includes a vast array of unstructured information such as HTML documents. The semantic web provides more structured knowledge such as hand-built ontologies and semantically aware databases. To leverage the full power of both the semantic and non-semantic portions of the web, software systems need to be able to reason over both kinds of information. Systems that use both structured and unstructured information face a significant challenge when trying to convince a user to believe their results: the sources and the kinds of reasoning that are applied to the sources are radically different in their nature and their reliability. Our work aims at explaining conclusions derived from a combination of structured and unstructured sources. We present our solution that provides an infrastructure capable of encoding justifications for conclusions in a single format. This integration provides an end-to-end description of the knowledge derivation process including access to text or HTML documents, descriptions of the analytic processes used for extraction, as well as descriptions of the ontologies and many kinds of information manipulation processes, including standard deduction. We produce unified traces of extraction and deduction processes in the Proof Markup Language (PML), an OWL-based formalism for encoding provenance for inferred information. We provide a browser for exploring PML and thus enabling a user to understand how some conclusion was reached.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-39">
@@ -1059,6 +1222,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_55">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">A distributed, end-to-end information integration system that is based on the Semantic Web architecture is of considerable interest to both commercial and government organizations. However, there are a number of challenges that have to be resolved to build such a system given the currently available Semantic Web technologies. We describe here the ISENS prototype system we designed, implemented, and tested (on a small scale) to address this problem. We discuss certain system limitations (some coming from underlying technologies used) and future ISENS development to resolve them and to enable an extended set of capabilities.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-47">
@@ -1072,6 +1236,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_56">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">In the current Information Society, being informed is a basic necessityy. As one of the main new business actors, news agencies are required to provide fresh, relevant, high-quality information to their customers. Dealing with this requirement is not an easy task, but, as partners of the NEWS (News Engine Web Services) project, we believe that the usage of Semantic Web technologies could help news agencies in achieving that objective. In this paper we will describe the aims and main achievements of the NEWS pronect, that was just completer.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-55">
@@ -1085,6 +1250,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_53">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">We present OntoWiki, a tool providing support for agile, distributed knowledge engineering scenarios. OntoWiki facilitates the visual presentation of a knowledge base as an information map, with different views on instance data. It enables intuitive authoring of semantic content, with an inline editing mode for editing RDF content, similar to WYSIWYG for text documents. It fosters social collaboration aspects by keeping track of changes, allowing to comment and discuss every single part of a knowledge base, enabling to rate and measure the popularity of content and honoring the activity of users. Ontowiki enhances the browsing and retrieval by offering semantic enhanced search strategies. All these techniques are applied with the ultimate goal of decreasing the entrance barrier for pro jects and domain experts to collaborate using semantic technologies. In the spirit of the Web 2.0 OntoWiki implements an ''architecture of participation'' that allows users to add value to the application as they use it. It is available as open-source software and a demonstration platform can be accessed at http://3ba.se.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-51">
@@ -1098,6 +1264,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_61">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">View-based search provides a promising paradigm for formulating complex semantic queries and representing results on the Semantic Web. A challenge for the application of the paradigm is the complexity of providing view-based search services through application programming interfaces (API) and web services. This paper presents a solution on how semantic view-based search can be provided efficiently through an API or as web service to external applications. The approach has been implemented as the open source tool Ontogator, that has been applied successfully in several practical semantic portals on the Semantic Web.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-67">
@@ -1111,6 +1278,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_64">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">In this paper we present lessons learned from building a Semantic Desktop system, the gnowsis beta. On desktop computers, semantic software has to provide stable services and has to reflect the personal view of the user. Our approach to ontologies, the Personal Information Model PIMO allows to create tagging services like del.icio.us on the desktop. A semantic wiki allows further annotations. Continuous evaluations of the system helped to improve it. These results were created in the EPOS research project and are available in the open source projects Aperture, kaukoluwiki, and gnowsis and will be continued in the Nepomuk project. By using these components, other developers can create new desktop applications the web 2.0 way.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-66">
@@ -1124,6 +1292,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_57">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Large heterogeneous online repositories of scientific information have the potential to change the way science is done today. In order for this potential to be realized, numerous challenges must be addressed concerning access to and interoperability of the online scientific data. In our work, we are using semantic web technologies to improve access and interoperability by providing a framework for collaboration and a basis for building and distributing advanced data simulation tools. Our initial scientific focus area is the solar terrestrial physics community. In this paper, we will present our work on the Virtual Solar Terrestrial Observatory (VSTO). We will present the emerging trend of the virtual observatory - a virtual integrated evolving scientific data repository - and describe the general use case and our semantically-enabled architecture. We will also present our specific implementation and describe the benefits of the semantic web in this setting. Further, we speculate on the future of the growing adoption of semantic technologies in this important application area of scientific cyberinfrastructure and semantically enabled scientific data repositories.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-81">
@@ -1137,6 +1306,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_65">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Clinical trials are studies in human patients to evaluate the safety and effectiveness of new therapies. Managing a clinical trial from its inception to completion typically involves multiple disparate applications facilitating activities such as trial design specification, clinical sites management, participants tracking, and trial data analysis. There remains however a strong impetus to integrate these diverse applications -- each supporting different but related functions of clinical trial management -- at syntactic and semantic levels so as to improve clarity, consistency and correctness in specifying clinical trials, and in acquiring and analyzing clinical data. The situation becomes especially critical with the need to manage multiple clinical trials at various sites, and to facilitate meta-analyses on trials. This paper introduces a knowledge-based framework that we are building to support a suite of clinical trial management applications. Our initiative uses semantic technologies to provide a consistent basis for the applications to interoperate. We are adapting this approach to the Immune Tolerance Network (ITN), an international research consortium developing new therapeutics in immune-mediated disorders.</div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-78">
@@ -1150,6 +1320,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="http://dx.doi.org/10.1007/11926078_54">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic">Integrating relational databases is recently acknowledged as an important vision of the Semantic Web research, however there are not many well-implemented tools and not many applications that are in large-scale real use either. This paper introduces the Dartgrid which is an application development framework together with a set of semantic tools to facilitate the integration of heterogenous relational databases using semantic web technologies. For examples, DartMapping is a visualized mapping tool to help DBA in defining semantic mappings from heterogeneous relational schemas to ontologies. DartQuery is an ontology-based query interface helping user to construct semantic queries, and capable of rewriting SPARQL semantic queries to a set of SQL queries. Dart-Search is an ontology-based search engine enabling user to make full-text search over all databases and to navigate across the search results semantically. It is also enriched with a concept ranking mechanism to enable user to find more accurate and reliable results. This toolkit has been used to develop an currently in-use application for China Academy of Traditional Chinese Medicine (CATCM). In this application, over 70 legacy relational databases are semantically interconnected by an ontology with over 70 classes and 800 properties, providing integrated semantic-enriched query, search and navigation services to TCM communities.</div>
 </li>
 </ol>
 <hr/>

@@ -12,9 +12,94 @@
 	xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
 	version='XHTML+RDFa 1.0' typeof='foaf:Document'>
 <head>
-    <title></title>
+    <title>Proceedings</title>
 </head>
-<body>
+<script type="text/javascript" >
+/*
+ * Dynamic Table of Contents script
+ * by Matt Whitlock <http://www.whitsoftdev.com/>
+ */
+
+function createLink(href, innerHTML) {
+	var a = document.createElement("a");
+	a.setAttribute("href", href);
+	a.innerHTML = innerHTML;
+	return a;
+}
+
+function generateTOC(toc) {
+	var i2 = 0, i3 = 0, i4 = 0;
+	toc = toc.appendChild(document.createElement("ul"));
+	for (var i = 0; i < document.body.childNodes.length; ++i) {
+		var node = document.body.childNodes[i];
+		var tagName = node.nodeName.toLowerCase();
+		if (tagName == "h4") {
+			++i4;
+			if (i4 == 1) toc.lastChild.lastChild.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3 + "." + i4;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h3") {
+			++i3, i4 = 0;
+			if (i3 == 1) toc.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h2") {
+			++i2, i3 = 0, i4 = 0;
+			var section = i2;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.appendChild(h2item = document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+	}
+}
+</script>
+<style type="text/css">
+.on { 
+  background: green;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px; 	
+}
+
+.off {
+  background: red;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 2px;
+  border-left-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px; 	
+}
+</style>    
+<script type="text/javascript">
+<!--
+	function togglestyle(el){
+	    if(el.className == "on") {
+	    	el.className="off";
+	    } else {
+	    	el.className="on";
+	    }
+	}
+	function toggle_visibility(cl){
+	   var els = document.getElementsByClassName(cl);
+	   for(var i=0; i<els.length; ++i){
+	      var s = els[i].style;
+	      s.display = s.display==='none' ? 'block' : 'none';
+	   };
+	}
+//-->
+</script>  
+<body onload="generateTOC(document.getElementById('toc'));">
+<input type="button" class="off" onclick="togglestyle(this); toggle_visibility('abstract');">show/hide abstracts</input>
+<div id="toc"></div>
 
 <h2>The Semantic Web - ISWC 2002 -- First International Semantic Web Conference Sardinia, Italy, June 9–12, 2002 Proceedings</h2>
 
@@ -29,6 +114,7 @@
 ,
 <span class="pages"  property="swrc:pages">1-2</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-34">
@@ -38,6 +124,7 @@
 ,
 <span class="pages"  property="swrc:pages">3-4</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 </ol>
 <h3>Position Paper</h3>
@@ -51,6 +138,7 @@
 ,
 <span class="pages"  property="swrc:pages">404-408</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-04">
@@ -60,6 +148,7 @@
 ,
 <span class="pages"  property="swrc:pages">399-403</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-15">
@@ -69,6 +158,7 @@
 ,
 <span class="pages"  property="swrc:pages">419-422</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-21">
@@ -78,6 +168,7 @@
 ,
 <span class="pages"  property="swrc:pages">394-398</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-25">
@@ -87,6 +178,7 @@
 ,
 <span class="pages"  property="swrc:pages">414-418</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-32">
@@ -96,6 +188,7 @@
 ,
 <span class="pages"  property="swrc:pages">409-413</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 </ol>
 <h3>Research Track Paper</h3>
@@ -109,6 +202,7 @@
 ,
 <span class="pages"  property="swrc:pages">379-393</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-02">
@@ -118,6 +212,7 @@
 ,
 <span class="pages"  property="swrc:pages">69-83</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-05">
@@ -127,6 +222,7 @@
 ,
 <span class="pages"  property="swrc:pages">102-116</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-06">
@@ -136,6 +232,7 @@
 ,
 <span class="pages"  property="swrc:pages">132-146</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-07">
@@ -145,6 +242,7 @@
 ,
 <span class="pages"  property="swrc:pages">279-291</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-09">
@@ -154,6 +252,7 @@
 ,
 <span class="pages"  property="swrc:pages">147-161</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-12">
@@ -163,6 +262,7 @@
 ,
 <span class="pages"  property="swrc:pages">318-332</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-14">
@@ -172,6 +272,7 @@
 ,
 <span class="pages"  property="swrc:pages">348-363</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-16">
@@ -181,6 +282,7 @@
 ,
 <span class="pages"  property="swrc:pages">292-306</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-17">
@@ -190,6 +292,7 @@
 ,
 <span class="pages"  property="swrc:pages">206-220</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-19">
@@ -199,6 +302,7 @@
 ,
 <span class="pages"  property="swrc:pages">16-29</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-20">
@@ -208,6 +312,7 @@
 ,
 <span class="pages"  property="swrc:pages">5-15</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-22">
@@ -217,6 +322,7 @@
 ,
 <span class="pages"  property="swrc:pages">30-38</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-23">
@@ -226,6 +332,7 @@
 ,
 <span class="pages"  property="swrc:pages">221-235</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-24">
@@ -235,6 +342,7 @@
 ,
 <span class="pages"  property="swrc:pages">117-131</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-26">
@@ -244,6 +352,7 @@
 ,
 <span class="pages"  property="swrc:pages">177-191</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-27">
@@ -253,6 +362,7 @@
 ,
 <span class="pages"  property="swrc:pages">250-263</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-28">
@@ -262,6 +372,7 @@
 ,
 <span class="pages"  property="swrc:pages">192-205</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-29">
@@ -271,6 +382,7 @@
 ,
 <span class="pages"  property="swrc:pages">333-347</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-31">
@@ -280,6 +392,7 @@
 ,
 <span class="pages"  property="swrc:pages">54-68</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-40">
@@ -289,6 +402,7 @@
 ,
 <span class="pages"  property="swrc:pages">364-378</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-33">
@@ -298,6 +412,7 @@
 ,
 <span class="pages"  property="swrc:pages">307-317</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-35">
@@ -307,6 +422,7 @@
 ,
 <span class="pages"  property="swrc:pages">39-53</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-38">
@@ -316,6 +432,7 @@
 ,
 <span class="pages"  property="swrc:pages">84-101</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-39">
@@ -325,6 +442,7 @@
 ,
 <span class="pages"  property="swrc:pages">264-278</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-37">
@@ -334,6 +452,7 @@
 ,
 <span class="pages"  property="swrc:pages">236-249</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-41">
@@ -343,6 +462,7 @@
 ,
 <span class="pages"  property="swrc:pages">162-176</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 </ol>
 <h3>System Descriptions</h3>
@@ -356,6 +476,7 @@
 ,
 <span class="pages"  property="swrc:pages">469-474</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-10">
@@ -365,6 +486,7 @@
 ,
 <span class="pages"  property="swrc:pages">442-447</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-11">
@@ -374,6 +496,7 @@
 ,
 <span class="pages"  property="swrc:pages">436-441</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-13">
@@ -383,6 +506,7 @@
 ,
 <span class="pages"  property="swrc:pages">454-459</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-18">
@@ -392,6 +516,7 @@
 ,
 <span class="pages"  property="swrc:pages">448-453</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-36">
@@ -401,6 +526,7 @@
 ,
 <span class="pages"  property="swrc:pages">423-435</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-42">
@@ -410,6 +536,7 @@
 ,
 <span class="pages"  property="swrc:pages">460-468</span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 </ol>
 <hr/>
@@ -428,6 +555,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-04">
@@ -439,6 +567,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-16">
@@ -450,6 +579,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-14">
@@ -461,6 +591,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-44">
@@ -472,6 +603,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-36">
@@ -483,6 +615,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-03">
@@ -494,6 +627,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-53">
@@ -505,6 +639,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-51">
@@ -516,6 +651,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-08">
@@ -527,6 +663,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-15">
@@ -538,6 +675,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-52">
@@ -549,6 +687,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-21">
@@ -560,6 +699,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-11">
@@ -571,6 +711,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-26">
@@ -582,6 +723,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-38">
@@ -593,6 +735,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-29">
@@ -604,6 +747,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-32">
@@ -615,6 +759,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-41">
@@ -626,6 +771,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-09">
@@ -637,6 +783,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-50">
@@ -648,6 +795,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-24">
@@ -659,6 +807,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-10">
@@ -670,6 +819,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-01">
@@ -681,6 +831,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-56">
@@ -692,6 +843,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-30">
@@ -703,6 +855,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-02">
@@ -714,6 +867,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-34">
@@ -725,6 +879,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-12">
@@ -736,6 +891,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-40">
@@ -747,6 +903,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-46">
@@ -758,6 +915,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-45">
@@ -769,6 +927,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-31">
@@ -780,6 +939,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-42">
@@ -791,6 +951,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-37">
@@ -802,6 +963,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-48">
@@ -813,6 +975,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-47">
@@ -824,6 +987,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-49">
@@ -835,6 +999,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-22">
@@ -846,6 +1011,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-25">
@@ -857,6 +1023,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-33">
@@ -868,6 +1035,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-17">
@@ -879,6 +1047,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-27">
@@ -890,6 +1059,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-20">
@@ -901,6 +1071,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-07">
@@ -912,6 +1083,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-54">
@@ -923,6 +1095,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-13">
@@ -934,6 +1107,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-06">
@@ -945,6 +1119,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-35">
@@ -956,6 +1131,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-19">
@@ -967,6 +1143,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-28">
@@ -978,6 +1155,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-18">
@@ -989,6 +1167,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-55">
@@ -1000,6 +1179,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-39">
@@ -1011,6 +1191,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-05">
@@ -1022,6 +1203,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 <li>
 <span resource="http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-23">
@@ -1033,6 +1215,7 @@
 ,
 <span class="link" property="swrc:link_publisher"><a href="">[Publisher]</a></span>
 </span>	
+<div class="abstract" style="display:none;font-style:italic"></div>
 </li>
 </ol>
 <hr/>
