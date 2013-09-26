@@ -1984,9 +1984,9 @@ Natural Language Processing, Semantic Web, Information Retrieval and Databases, 
     foaf:name "Enrico Franconi" .
 
 <http://data.semanticweb.org/person/ernesto-jimenez-ruiz> a foaf:Person ;
-    rdfs:label "Ernesto Jimenez-Ruiz" ;
+    rdfs:label "Ernesto Jiménez-Ruiz" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2013/poster-demo-proceedings/paper-05> ;
-    foaf:name "Ernesto Jimenez-Ruiz" .
+    foaf:name "Ernesto Jiménez-Ruiz" .
 
 <http://data.semanticweb.org/person/espen-h-lian> a foaf:Person ;
     rdfs:label "Espen H. Lian" ;
@@ -6671,7 +6671,7 @@ tripleset repository.""" ;
         <http://data.semanticweb.org/person/sarunas-marciuska>,
         <http://data.semanticweb.org/person/timea-bagosi> ;
     swrc:category "Poster/Demo Paper" ;
-    swrc:listAuthor "Evgeny Kharlamov,Martin Giese,Ernesto Jimenez-Ruiz,Martin G. Skjaeveland,Ahmet Soylu,Dmitriy Zheleznyakov,Timea Bagosi,Marco Console,Peter Haase,Ian Horrocks,Sarunas Marciuska,Christoph Pinkel,Mariano Rodriguez-Muro,Marco Ruzzi,Kunal Sengupta,Michael Schmidt,Evgenij Thorstensen,Johannes Trame and Arild Waaler" ;
+    swrc:listAuthor "Evgeny Kharlamov,Martin Giese,Ernesto Jiménez-Ruiz,Martin G. Skjaeveland,Ahmet Soylu,Dmitriy Zheleznyakov,Timea Bagosi,Marco Console,Peter Haase,Ian Horrocks,Sarunas Marciuska,Christoph Pinkel,Mariano Rodriguez-Muro,Marco Ruzzi,Kunal Sengupta,Michael Schmidt,Evgenij Thorstensen,Johannes Trame and Arild Waaler" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/ahmet-soylu>,
         <http://data.semanticweb.org/person/arild-waaler>,
