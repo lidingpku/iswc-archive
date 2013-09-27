@@ -13,6 +13,87 @@
 	version='XHTML+RDFa 1.0' typeof='foaf:Document'>
 <head>
     <title></title>
+<style>
+
+table {
+    *border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    width: 100%;
+
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+}
+
+tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+td, th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+td:first-child, th:first-child {
+    border-left: none;
+}
+
+th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+</style>
 </head>
 <body>
 
@@ -22,22 +103,24 @@
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>08:00 - 17:00</td>
-<td><span style="font-weight:bold">Registration</span> 
+<td><span><b style="font-size:110%">
+
+
+Registration
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -45,19 +128,21 @@
 </tr>
 <tr>
 <td>08:30 - 12:30</td>
-<td><span style="font-weight:bold">T1: XQuery: the query language, its applications and its implementations</span> 
+<td><span><b style="font-size:110%">
 
+
+<a href="http://iswc2004.semanticweb.org/CFParticipation/T1.html">T1: XQuery: the query language, its applications and its implementations</a>
+</b>
 (Tutorial Track)
+</span>
 
-<div>
-chair: Donald Kossman,Daniela Florescu
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Donald Kossman,Daniela Florescu</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 8</td>
@@ -65,19 +150,21 @@ chair: Donald Kossman,Daniela Florescu
 </tr>
 <tr>
 <td>08:30 - 12:30</td>
-<td><span style="font-weight:bold">T2: Ontology Design Patterns and Problems: Practical Ontology Engineering using Protege-OWL</span> 
+<td><span><b style="font-size:110%">
 
+
+<a href="http://iswc2004.semanticweb.org/CFParticipation/T2.html">T2: Ontology Design Patterns and Problems: Practical Ontology Engineering using Protege-OWL</a>
+</b>
 (Tutorial Track)
+</span>
 
-<div>
-chair: Natalya F. Noy,Mark A. Musen,Holger Knublauch,Guus Schreiber,Alan Rector
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Natalya F. Noy,Mark A. Musen,Holger Knublauch,Guus Schreiber,Alan Rector</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 10</td>
@@ -85,19 +172,21 @@ chair: Natalya F. Noy,Mark A. Musen,Holger Knublauch,Guus Schreiber,Alan Rector
 </tr>
 <tr>
 <td>08:30 - 12:30</td>
-<td><span style="font-weight:bold">T3: Tools and Technologies for Semantic Web Services</span> 
+<td><span><b style="font-size:110%">
 
+
+<a href="http://iswc2004.semanticweb.org/CFParticipation/T3.html">T3: Tools and Technologies for Semantic Web Services</a>
+</b>
 (Tutorial Track)
+</span>
 
-<div>
-chair: Christoph Bussler,Katia Sycara,Liliana Cabral,Michael Zaremba,John Domingue,Michael Stollberg,Sinuhe Arroyo,Matthew Moran
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Christoph Bussler,Katia Sycara,Liliana Cabral,Michael Zaremba,John Domingue,Michael Stollberg,Sinuhe Arroyo,Matthew Moran</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 4</td>
@@ -105,18 +194,21 @@ chair: Christoph Bussler,Katia Sycara,Liliana Cabral,Michael Zaremba,John Doming
 </tr>
 <tr>
 <td>09:00 - 18:00</td>
-<td><span style="font-weight:bold">W1: Semantic Web technology for mobile and ubiquitous applications</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Valentina Tamma,Terry Payne,Monique Calisti,Kaoru Hiramatsu,Chiara Ghidini
+<a href="http://www.csc.liv.ac.uk/~valli/ISWC-SWUbiquitous/">W1: Semantic Web technology for mobile and ubiquitous applications</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Valentina Tamma,Terry Payne,Monique Calisti,Kaoru Hiramatsu,Chiara Ghidini</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 5</td>
@@ -124,18 +216,21 @@ chair: Valentina Tamma,Terry Payne,Monique Calisti,Kaoru Hiramatsu,Chiara Ghidin
 </tr>
 <tr>
 <td>09:00 - 18:00</td>
-<td><span style="font-weight:bold">W2: Trust, Security, and Reputation on the Semantic Web</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Wolfgang Nejdl,Piero Bonatti,Marianne Winslett,Jennifer Golbeck
+<a href="http://trust.mindswap.org/trustWorkshop/">W2: Trust, Security, and Reputation on the Semantic Web</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Wolfgang Nejdl,Piero Bonatti,Marianne Winslett,Jennifer Golbeck</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 7</td>
@@ -143,15 +238,17 @@ chair: Wolfgang Nejdl,Piero Bonatti,Marianne Winslett,Jennifer Golbeck
 </tr>
 <tr>
 <td>10:30 - 11:30</td>
-<td><span style="font-weight:bold">Coffee Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Coffee Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Top of Hiroshima, Level 23</td>
@@ -159,15 +256,17 @@ chair: Wolfgang Nejdl,Piero Bonatti,Marianne Winslett,Jennifer Golbeck
 </tr>
 <tr>
 <td>12:00 - 14:00</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Top of Hiroshima, Level 23</td>
@@ -175,19 +274,21 @@ chair: Wolfgang Nejdl,Piero Bonatti,Marianne Winslett,Jennifer Golbeck
 </tr>
 <tr>
 <td>14:00 - 18:00</td>
-<td><span style="font-weight:bold">T4: RDF and Topic Maps Interoperability in Practice</span> 
+<td><span><b style="font-size:110%">
 
+
+<a href="http://www.ontopia.net/ontopia/events/iswc-2004-tutorial.html">T4: RDF and Topic Maps Interoperability in Practice</a>
+</b>
 (Tutorial Track)
+</span>
 
-<div>
-chair: Steve Pepper,Lars Marius Garshol
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Steve Pepper,Lars Marius Garshol</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 8</td>
@@ -195,19 +296,21 @@ chair: Steve Pepper,Lars Marius Garshol
 </tr>
 <tr>
 <td>14:00 - 18:00</td>
-<td><span style="font-weight:bold">T5: Theory and Practice of RDF Query Processing</span> 
+<td><span><b style="font-size:110%">
 
+
+<a href="http://www.cs.vu.nl/~heiner/ISWC04Tutorial.html">T5: Theory and Practice of RDF Query Processing</a>
+</b>
 (Tutorial Track)
+</span>
 
-<div>
-chair: Richard Vdovjak,Jeen Broekstra,Heiner Stuckenschmidt,Geert-Jan Houben,Ad Aerts
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Richard Vdovjak,Jeen Broekstra,Heiner Stuckenschmidt,Geert-Jan Houben,Ad Aerts</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 10</td>
@@ -215,19 +318,21 @@ chair: Richard Vdovjak,Jeen Broekstra,Heiner Stuckenschmidt,Geert-Jan Houben,Ad 
 </tr>
 <tr>
 <td>14:00 - 18:00</td>
-<td><span style="font-weight:bold">T6: Semantic Web Rules with Ontologies, and their E-Business Applications</span> 
+<td><span><b style="font-size:110%">
 
+
+<a href="http://www.daml.org/2004/11/tutorial/">T6: Semantic Web Rules with Ontologies, and their E-Business Applications</a>
+</b>
 (Tutorial Track)
+</span>
 
-<div>
-chair: Mike Dean,Benjamin Grosof
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Mike Dean,Benjamin Grosof</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 4</td>
@@ -235,15 +340,17 @@ chair: Mike Dean,Benjamin Grosof
 </tr>
 <tr>
 <td>15:00 - 16:00</td>
-<td><span style="font-weight:bold">Tea Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Tea Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Top of Hiroshima, Level 23</td>
@@ -254,22 +361,24 @@ chair: Mike Dean,Benjamin Grosof
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>08:00 - 17:00</td>
-<td><span style="font-weight:bold">Registration</span> 
+<td><span><b style="font-size:110%">
+
+
+Registration
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -277,18 +386,21 @@ chair: Mike Dean,Benjamin Grosof
 </tr>
 <tr>
 <td>09:00 - 18:00</td>
-<td><span style="font-weight:bold">W3: SW-EL'04: Applications of Semantic Web Technologies for E-Learning</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Yukihiro Itoh,Riichiro Mizoguchi,Lora Aroyo,Darina Dicheva
+<a href="http://wwwis.win.tue.nl/SW-EL04/swel-iswc.html">W3: SW-EL'04: Applications of Semantic Web Technologies for E-Learning</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Yukihiro Itoh,Riichiro Mizoguchi,Lora Aroyo,Darina Dicheva</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 10</td>
@@ -296,18 +408,21 @@ chair: Yukihiro Itoh,Riichiro Mizoguchi,Lora Aroyo,Darina Dicheva
 </tr>
 <tr>
 <td>09:00 - 18:00</td>
-<td><span style="font-weight:bold">W4: Evaluation of Ontology-based Tools (EON2004)</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: York Sure,Todd Hughes,Oscar Corcho,Jerome Euzenat
+<a href="http://km.aifb.uni-karlsruhe.de/ws/eon2004/">W4: Evaluation of Ontology-based Tools (EON2004)</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): York Sure,Todd Hughes,Oscar Corcho,Jerome Euzenat</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 7</td>
@@ -315,18 +430,21 @@ chair: York Sure,Todd Hughes,Oscar Corcho,Jerome Euzenat
 </tr>
 <tr>
 <td>09:00 - 18:00</td>
-<td><span style="font-weight:bold">W5: Rules and Rule Markup Languages for the Semantic Web</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Harold Boley,Grigoris Antoniou
+<a href="http://2004.ruleml.org/">W5: Rules and Rule Markup Languages for the Semantic Web</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Harold Boley,Grigoris Antoniou</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 5</td>
@@ -334,18 +452,21 @@ chair: Harold Boley,Grigoris Antoniou
 </tr>
 <tr>
 <td>09:00 - 18:00</td>
-<td><span style="font-weight:bold">W6: Semantic Web Services: Preparing to Meet the World of Business Applications</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Takahira Yamaguchi,Rubén Lara Hernández,David Martin
+<a href="http://www.ai.sri.com/SWS2004/">W6: Semantic Web Services: Preparing to Meet the World of Business Applications</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Takahira Yamaguchi,Rubén Lara Hernández,David Martin</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 4</td>
@@ -353,18 +474,21 @@ chair: Takahira Yamaguchi,Rubén Lara Hernández,David Martin
 </tr>
 <tr>
 <td>09:00 - 18:00</td>
-<td><span style="font-weight:bold">W7: Meaning coordination and negotiation</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Paolo Bouquet,Luciano Serafini
+<a href="http://dit.unitn.it/~bouquet/ISWC-04-MCN/">W7: Meaning coordination and negotiation</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Paolo Bouquet,Luciano Serafini</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 8</td>
@@ -372,18 +496,21 @@ chair: Paolo Bouquet,Luciano Serafini
 </tr>
 <tr>
 <td>09:00 - 18:00</td>
-<td><span style="font-weight:bold">W8: Knowledge Markup and Semantic Annotation (Semannot2004)</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Thierry Declerck,Siegfried Handschuh
+<a href="http://km.aifb.uni-karlsruhe.de/ws/semannot2004">W8: Knowledge Markup and Semantic Annotation (Semannot2004)</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Thierry Declerck,Siegfried Handschuh</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 9</td>
@@ -391,15 +518,17 @@ chair: Thierry Declerck,Siegfried Handschuh
 </tr>
 <tr>
 <td>10:30 - 11:30</td>
-<td><span style="font-weight:bold">Coffee Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Coffee Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Top of Hiroshima, Level 23</td>
@@ -407,15 +536,17 @@ chair: Thierry Declerck,Siegfried Handschuh
 </tr>
 <tr>
 <td>12:00 - 14:00</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Top of Hiroshima, Level 23</td>
@@ -423,15 +554,17 @@ chair: Thierry Declerck,Siegfried Handschuh
 </tr>
 <tr>
 <td>15:00 - 16:00</td>
-<td><span style="font-weight:bold">Tea Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Tea Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Top of Hiroshima, Level 23</td>
@@ -442,22 +575,24 @@ chair: Thierry Declerck,Siegfried Handschuh
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>09:00 - 09:30</td>
-<td><span style="font-weight:bold">Opening Ceremony</span> 
+<td><span><b style="font-size:110%">
+
+
+Opening Ceremony
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Room 1</td>
@@ -465,21 +600,24 @@ chair: Thierry Declerck,Siegfried Handschuh
 </tr>
 <tr>
 <td>09:30 - 10:30</td>
-<td><span style="font-weight:bold">The Semantic Web Story -- It's already 2004. Where are we?</span> 
+<td><span><b style="font-size:110%">
 
+InvitedTalk:
 
-<div>
-chair: F. Van Harmelen
+The Semantic Web Story -- It's already 2004. Where are we?
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): F. Van Harmelen</span>
 </div>
 
-<div>
-presenter: Edward Feigenbaum
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Edward Feigenbaum</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 1</td>
@@ -487,15 +625,17 @@ presenter: Edward Feigenbaum
 </tr>
 <tr>
 <td>10:30 - 11:00</td>
-<td><span style="font-weight:bold">Coffee Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Coffee Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Room 4</td>
@@ -503,19 +643,28 @@ presenter: Edward Feigenbaum
 </tr>
 <tr>
 <td>11:00 - 12:30</td>
-<td><span style="font-weight:bold">S1: Integration</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S1: Integration
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>An Extensible Directory Enabling Efficient Semantic Web Service Integration</b>,<i>Ion Constantinescu,Walter Binder and Boi Faltings</i><sup><span style="color:DarkRed">Integration and Interoperability</span></sup></li>
-<li><b>Opening Up Magpie via Semantic Services</b>,<i>Martin Dzbor,Enrico Motta and John Domingue</i><sup><span style="color:DarkRed">Integration and Interoperability</span></sup></li>
-<li><b>Working with Multiple Ontologies on the Semantic Web</b>,<i>Bernardo Cuenca Grau,Bijan Parsia and Evren Sirin</i><sup><span style="color:DarkRed">Integration and Interoperability</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. An Extensible Directory Enabling Efficient Semantic Web Service Integration,
+<span style="color:#666">Ion Constantinescu,Walter Binder and Boi Faltings</span>
+<sup><span style="color:DarkRed">Integration and Interoperability</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Opening Up Magpie via Semantic Services,
+<span style="color:#666">Martin Dzbor,Enrico Motta and John Domingue</span>
+<sup><span style="color:DarkRed">Integration and Interoperability</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Working with Multiple Ontologies on the Semantic Web,
+<span style="color:#666">Bernardo Cuenca Grau,Bijan Parsia and Evren Sirin</span>
+<sup><span style="color:DarkRed">Integration and Interoperability</span></sup></div>
+
 </td>
 
 <td>Room 1</td>
@@ -523,19 +672,28 @@ presenter: Edward Feigenbaum
 </tr>
 <tr>
 <td>11:00 - 12:30</td>
-<td><span style="font-weight:bold">S2: Searching & Querying</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S2: Searching & Querying
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>A Comparison of RDF Query Languages</b>,<i>Peter Haase,Jeen Broekstra,Andreas Eberhart and Raphael Volz</i><sup><span style="color:DarkRed">Searching and Querying</span></sup></li>
-<li><b>Generating On the Fly Queries for the Semantic Web: The ICS-FORTH Graphical RQL Interface (GRQL)</b>,<i>Nikolaos Athanasis,Vassilis Christophides and Dimitris Kotzinos</i><sup><span style="color:DarkRed">Searching and Querying</span></sup></li>
-<li><b>Information Retrieval Support for Ontology Construction and Use</b>,<i>Willem Robert van Hage,Maarten de Rijke and Maarten Marx</i><sup><span style="color:DarkRed">Searching and Querying</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. A Comparison of RDF Query Languages,
+<span style="color:#666">Peter Haase,Jeen Broekstra,Andreas Eberhart and Raphael Volz</span>
+<sup><span style="color:DarkRed">Searching and Querying</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Generating On the Fly Queries for the Semantic Web: The ICS-FORTH Graphical RQL Interface (GRQL),
+<span style="color:#666">Nikolaos Athanasis,Vassilis Christophides and Dimitris Kotzinos</span>
+<sup><span style="color:DarkRed">Searching and Querying</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Information Retrieval Support for Ontology Construction and Use,
+<span style="color:#666">Willem Robert van Hage,Maarten de Rijke and Maarten Marx</span>
+<sup><span style="color:DarkRed">Searching and Querying</span></sup></div>
+
 </td>
 
 <td>Room 2</td>
@@ -543,15 +701,17 @@ presenter: Edward Feigenbaum
 </tr>
 <tr>
 <td>12:30 - 14:00</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Top of Hiroshima, Level 23</td>
@@ -559,19 +719,28 @@ presenter: Edward Feigenbaum
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">S3: SW Services</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S3: SW Services
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>A Conceptual Architecture for Semantic Web Services</b>,<i>Chris Preist</i><sup><span style="color:DarkRed">Semantic Web Services</span></sup></li>
-<li><b>Applying KAoS Services to Ensure Policy Compliance for Semantic Web Services Workflow Composition and Enactment</b>,<i>Andrzej Uszok,Jeffrey M. Bradshaw,Renia Jeffers,Austin Tate and Jeff Dalton</i><sup><span style="color:DarkRed">Semantic Web Services</span></sup></li>
-<li><b>Applying Semantic Web Services to Bioinformatics: Experiences Gained, Lessons Learnt</b>,<i>Phillip W. Lord,Sean Bechhofer,Mark D. Wilkinson,Gary S. Schiltz,Damian Gessler,Duncan Hull,Carole A. Goble and Lincoln Stein</i><sup><span style="color:DarkRed">Semantic Web Services</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. A Conceptual Architecture for Semantic Web Services,
+<span style="color:#666">Chris Preist</span>
+<sup><span style="color:DarkRed">Semantic Web Services</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Applying KAoS Services to Ensure Policy Compliance for Semantic Web Services Workflow Composition and Enactment,
+<span style="color:#666">Andrzej Uszok,Jeffrey M. Bradshaw,Renia Jeffers,Austin Tate and Jeff Dalton</span>
+<sup><span style="color:DarkRed">Semantic Web Services</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Applying Semantic Web Services to Bioinformatics: Experiences Gained, Lessons Learnt,
+<span style="color:#666">Phillip W. Lord,Sean Bechhofer,Mark D. Wilkinson,Gary S. Schiltz,Damian Gessler,Duncan Hull,Carole A. Goble and Lincoln Stein</span>
+<sup><span style="color:DarkRed">Semantic Web Services</span></sup></div>
+
 </td>
 
 <td>Room 1</td>
@@ -579,19 +748,28 @@ presenter: Edward Feigenbaum
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">S4: User Interfaces & Visualization</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S4: User Interfaces & Visualization
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>OntoTrack: Combining Browsing and Editing with Reasoning and Explaining for OWL Lite Ontologies</b>,<i>Thorsten Liebig and Olaf Noppens</i><sup><span style="color:DarkRed">User Interfaces and Visualization</span></sup></li>
-<li><b>The Protégé OWL Plugin: An Open Development Environment for Semantic Web Applications</b>,<i>Holger Knublauch,Ray W. Fergerson,Natalya Fridman Noy and Mark A. Musen</i><sup><span style="color:DarkRed">User Interfaces and Visualization</span></sup></li>
-<li><b>Tracking Changes During Ontology Evolution</b>,<i>Natalya Fridman Noy,Sandhya Kunnatur,Michel C. A. Klein and Mark A. Musen</i><sup><span style="color:DarkRed">User Interfaces and Visualization</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. OntoTrack: Combining Browsing and Editing with Reasoning and Explaining for OWL Lite Ontologies,
+<span style="color:#666">Thorsten Liebig and Olaf Noppens</span>
+<sup><span style="color:DarkRed">User Interfaces and Visualization</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. The Protégé OWL Plugin: An Open Development Environment for Semantic Web Applications,
+<span style="color:#666">Holger Knublauch,Ray W. Fergerson,Natalya Fridman Noy and Mark A. Musen</span>
+<sup><span style="color:DarkRed">User Interfaces and Visualization</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Tracking Changes During Ontology Evolution,
+<span style="color:#666">Natalya Fridman Noy,Sandhya Kunnatur,Michel C. A. Klein and Mark A. Musen</span>
+<sup><span style="color:DarkRed">User Interfaces and Visualization</span></sup></div>
+
 </td>
 
 <td>Room 2</td>
@@ -599,15 +777,17 @@ presenter: Edward Feigenbaum
 </tr>
 <tr>
 <td>15:30 - 16:00</td>
-<td><span style="font-weight:bold">Tea Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Tea Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Room 4</td>
@@ -615,18 +795,25 @@ presenter: Edward Feigenbaum
 </tr>
 <tr>
 <td>16:00 - 17:00</td>
-<td><span style="font-weight:bold">S5: SW Mining</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S5: SW Mining
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>From Tables to Frames</b>,<i>Aleksander Pivk,Philipp Cimiano and York Sure</i><sup><span style="color:DarkRed">Semantic Web Mining</span></sup></li>
-<li><b>Learning Meta-descriptions of the FOAF Network</b>,<i>Gunnar Aastrand Grimnes,Peter Edwards and Alun D. Preece</i><sup><span style="color:DarkRed">Semantic Web Mining</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. From Tables to Frames,
+<span style="color:#666">Aleksander Pivk,Philipp Cimiano and York Sure</span>
+<sup><span style="color:DarkRed">Semantic Web Mining</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Learning Meta-descriptions of the FOAF Network,
+<span style="color:#666">Gunnar Aastrand Grimnes,Peter Edwards and Alun D. Preece</span>
+<sup><span style="color:DarkRed">Semantic Web Mining</span></sup></div>
+
 </td>
 
 <td>Room 1</td>
@@ -634,18 +821,25 @@ presenter: Edward Feigenbaum
 </tr>
 <tr>
 <td>16:00 - 17:00</td>
-<td><span style="font-weight:bold">S6: Large Scale Knowledge Mgmt</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S6: Large Scale Knowledge Mgmt
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>An Evaluation of Knowledge Base Systems for Large OWL Datasets</b>,<i>Yuanbo Guo,Zhengxiang Pan and Jeff Heflin</i><sup><span style="color:DarkRed">Large Scale Knowledge Management</span></sup></li>
-<li><b>Structure-Based Partitioning of Large Concept Hierarchies</b>,<i>Heiner Stuckenschmidt and Michel C. A. Klein</i><sup><span style="color:DarkRed">Large Scale Knowledge Management</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. An Evaluation of Knowledge Base Systems for Large OWL Datasets,
+<span style="color:#666">Yuanbo Guo,Zhengxiang Pan and Jeff Heflin</span>
+<sup><span style="color:DarkRed">Large Scale Knowledge Management</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Structure-Based Partitioning of Large Concept Hierarchies,
+<span style="color:#666">Heiner Stuckenschmidt and Michel C. A. Klein</span>
+<sup><span style="color:DarkRed">Large Scale Knowledge Management</span></sup></div>
+
 </td>
 
 <td>Room 2</td>
@@ -653,15 +847,17 @@ presenter: Edward Feigenbaum
 </tr>
 <tr>
 <td>17:00 - 18:30</td>
-<td><span style="font-weight:bold">Posters & 1st half of Demos with Drinks & Snacks</span> 
+<td><span><b style="font-size:110%">
+
+
+Posters & 1st half of Demos with Drinks & Snacks
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Room 5, Room 6</td>
@@ -672,28 +868,31 @@ presenter: Edward Feigenbaum
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>09:00 - 10:30</td>
-<td><span style="font-weight:bold">How to Build Google2Google - An (Incomplete) Recipe</span> 
+<td><span><b style="font-size:110%">
 
+InvitedTalk:
 
-<div>
-chair: S. McIlraith
+How to Build Google2Google - An (Incomplete) Recipe
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): S. McIlraith</span>
 </div>
 
-<div>
-presenter: Wolfgang Nejdl
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Wolfgang Nejdl</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 1</td>
@@ -701,15 +900,17 @@ presenter: Wolfgang Nejdl
 </tr>
 <tr>
 <td>10:30 - 19:00</td>
-<td><span style="font-weight:bold">Exhibition</span> 
+<td><span><b style="font-size:110%">
+
+
+Exhibition
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Room 5</td>
@@ -717,15 +918,17 @@ presenter: Wolfgang Nejdl
 </tr>
 <tr>
 <td>10:30 - 11:00</td>
-<td><span style="font-weight:bold">Coffee Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Coffee Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Room 5</td>
@@ -733,19 +936,28 @@ presenter: Wolfgang Nejdl
 </tr>
 <tr>
 <td>11:00 - 12:30</td>
-<td><span style="font-weight:bold">S7: Ontologies</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S7: Ontologies
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>QOM - Quick Ontology Mapping</b>,<i>Marc Ehrig and Steffen Staab</i><sup><span style="color:DarkRed">Ontologies</span></sup></li>
-<li><b>Specifying Ontology Views by Traversal</b>,<i>Natalya Fridman Noy and Mark A. Musen</i><sup><span style="color:DarkRed">Ontologies</span></sup></li>
-<li><b>Towards a Symptom Ontology for Semantic Web Applications</b>,<i>Kenneth Baclawski,Christopher J. Matheus,Mieczyslaw M. Kokar,Jerzy Letkowski and Paul A. Kogut</i><sup><span style="color:DarkRed">Ontologies</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. QOM - Quick Ontology Mapping,
+<span style="color:#666">Marc Ehrig and Steffen Staab</span>
+<sup><span style="color:DarkRed">Ontologies</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Specifying Ontology Views by Traversal,
+<span style="color:#666">Natalya Fridman Noy and Mark A. Musen</span>
+<sup><span style="color:DarkRed">Ontologies</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Towards a Symptom Ontology for Semantic Web Applications,
+<span style="color:#666">Kenneth Baclawski,Christopher J. Matheus,Mieczyslaw M. Kokar,Jerzy Letkowski and Paul A. Kogut</span>
+<sup><span style="color:DarkRed">Ontologies</span></sup></div>
+
 </td>
 
 <td>Room 1</td>
@@ -753,19 +965,28 @@ presenter: Wolfgang Nejdl
 </tr>
 <tr>
 <td>11:00 - 12:30</td>
-<td><span style="font-weight:bold">S8: Inference</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S8: Inference
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>Inferring Data Transformation Rules to Integrate Semantic Web Services</b>,<i>Bruce Spencer and Sandy Liu</i><sup><span style="color:DarkRed">Inference</span></sup></li>
-<li><b>Knowledge-Intensive Induction of Terminologies from Metadata</b>,<i>Floriana Esposito,Nicola Fanizzi,Luigi Iannone,Ignazio Palmisano and Giovanni Semeraro</i><sup><span style="color:DarkRed">Inference</span></sup></li>
-<li><b>Using Vampire to Reason with OWL</b>,<i>Dmitry Tsarkov,Alexandre Riazanov,Sean Bechhofer and Ian Horrocks</i><sup><span style="color:DarkRed">Inference</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Inferring Data Transformation Rules to Integrate Semantic Web Services,
+<span style="color:#666">Bruce Spencer and Sandy Liu</span>
+<sup><span style="color:DarkRed">Inference</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Knowledge-Intensive Induction of Terminologies from Metadata,
+<span style="color:#666">Floriana Esposito,Nicola Fanizzi,Luigi Iannone,Ignazio Palmisano and Giovanni Semeraro</span>
+<sup><span style="color:DarkRed">Inference</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Using Vampire to Reason with OWL,
+<span style="color:#666">Dmitry Tsarkov,Alexandre Riazanov,Sean Bechhofer and Ian Horrocks</span>
+<sup><span style="color:DarkRed">Inference</span></sup></div>
+
 </td>
 
 <td>Room 2</td>
@@ -773,15 +994,17 @@ presenter: Wolfgang Nejdl
 </tr>
 <tr>
 <td>12:30 - 14:00</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Top of Hiroshima, Level 23</td>
@@ -789,19 +1012,28 @@ presenter: Wolfgang Nejdl
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">S10: SW Services</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S10: SW Services
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>ASSAM: A Tool for Semi-automatically Annotating Semantic Web Services</b>,<i>Andreas Heß,Eddie Johnston and Nicholas Kushmerick</i><sup><span style="color:DarkRed">Semantic Web Services</span></sup></li>
-<li><b>Automated Composition of Semantic Web Services into Executable Processes</b>,<i>Paolo Traverso and Marco Pistore</i><sup><span style="color:DarkRed">Semantic Web Services</span></sup></li>
-<li><b>Automating Scientific Experiments on the Semantic Grid</b>,<i>Shalil Majithia,David W. Walker and W. A. Gray</i><sup><span style="color:DarkRed">Semantic Web Services</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. ASSAM: A Tool for Semi-automatically Annotating Semantic Web Services,
+<span style="color:#666">Andreas Heß,Eddie Johnston and Nicholas Kushmerick</span>
+<sup><span style="color:DarkRed">Semantic Web Services</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Automated Composition of Semantic Web Services into Executable Processes,
+<span style="color:#666">Paolo Traverso and Marco Pistore</span>
+<sup><span style="color:DarkRed">Semantic Web Services</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Automating Scientific Experiments on the Semantic Grid,
+<span style="color:#666">Shalil Majithia,David W. Walker and W. A. Gray</span>
+<sup><span style="color:DarkRed">Semantic Web Services</span></sup></div>
+
 </td>
 
 <td>Room 2</td>
@@ -809,19 +1041,28 @@ presenter: Wolfgang Nejdl
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">S9: Data Semantics</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S9: Data Semantics
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>A Method for Converting Thesauri to RDF/OWL</b>,<i>Mark van Assem,Maarten R. Menken,Guus Schreiber,Jan Wielemaker and Bob J. Wielinga</i><sup><span style="color:DarkRed">Data Semantics</span></sup></li>
-<li><b>Contexts for the Semantic Web</b>,<i>Ramanathan V. Guha,Rob McCool and Richard Fikes</i><sup><span style="color:DarkRed">Data Semantics</span></sup></li>
-<li><b>Bipartite Graphs as Intermediate Model for RDF</b>,<i>Jonathan Hayes and Claudio Gutiérrez</i><sup><span style="color:DarkRed">Data Semantics</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. A Method for Converting Thesauri to RDF/OWL,
+<span style="color:#666">Mark van Assem,Maarten R. Menken,Guus Schreiber,Jan Wielemaker and Bob J. Wielinga</span>
+<sup><span style="color:DarkRed">Data Semantics</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Contexts for the Semantic Web,
+<span style="color:#666">Ramanathan V. Guha,Rob McCool and Richard Fikes</span>
+<sup><span style="color:DarkRed">Data Semantics</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Bipartite Graphs as Intermediate Model for RDF,
+<span style="color:#666">Jonathan Hayes and Claudio Gutiérrez</span>
+<sup><span style="color:DarkRed">Data Semantics</span></sup></div>
+
 </td>
 
 <td>Room 1</td>
@@ -829,15 +1070,17 @@ presenter: Wolfgang Nejdl
 </tr>
 <tr>
 <td>15:30 - 16:00</td>
-<td><span style="font-weight:bold">Tea Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Tea Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Room 5</td>
@@ -845,18 +1088,25 @@ presenter: Wolfgang Nejdl
 </tr>
 <tr>
 <td>16:00 - 17:00</td>
-<td><span style="font-weight:bold">S11: Searching & Querying</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S11: Searching & Querying
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>Query Answering for OWL-DL with Rules</b>,<i>Boris Motik,Ulrike Sattler and Rudi Studer</i><sup><span style="color:DarkRed">Searching and Querying</span></sup></li>
-<li><b>Rules-By-Example - A Novel Approach to Semantic Indexing and Querying of Images</b>,<i>Suzanne Little and Jane Hunter</i><sup><span style="color:DarkRed">Searching and Querying</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Query Answering for OWL-DL with Rules,
+<span style="color:#666">Boris Motik,Ulrike Sattler and Rudi Studer</span>
+<sup><span style="color:DarkRed">Searching and Querying</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Rules-By-Example - A Novel Approach to Semantic Indexing and Querying of Images,
+<span style="color:#666">Suzanne Little and Jane Hunter</span>
+<sup><span style="color:DarkRed">Searching and Querying</span></sup></div>
+
 </td>
 
 <td>Room 1</td>
@@ -864,18 +1114,25 @@ presenter: Wolfgang Nejdl
 </tr>
 <tr>
 <td>16:00 - 17:00</td>
-<td><span style="font-weight:bold">S12: SW Middleware</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S12: SW Middleware
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>A Semantic Web Resource Protocol: XPointer and HTTP</b>,<i>Kendall Clark,Bijan Parsia,Bryan B. Thompson and Bradley R. Bebee</i><sup><span style="color:DarkRed">Semantic Web Middleware</span></sup></li>
-<li><b>Metadata-Driven Personal Knowledge Publishing</b>,<i>Ikki Ohmukai,Hideaki Takeda,Masahiro Hamasaki,Kosuke Numa and Shin Adachi</i><sup><span style="color:DarkRed">Semantic Web Middleware</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. A Semantic Web Resource Protocol: XPointer and HTTP,
+<span style="color:#666">Kendall Clark,Bijan Parsia,Bryan B. Thompson and Bradley R. Bebee</span>
+<sup><span style="color:DarkRed">Semantic Web Middleware</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Metadata-Driven Personal Knowledge Publishing,
+<span style="color:#666">Ikki Ohmukai,Hideaki Takeda,Masahiro Hamasaki,Kosuke Numa and Shin Adachi</span>
+<sup><span style="color:DarkRed">Semantic Web Middleware</span></sup></div>
+
 </td>
 
 <td>Room 2</td>
@@ -883,15 +1140,17 @@ presenter: Wolfgang Nejdl
 </tr>
 <tr>
 <td>17:00 - 18:30</td>
-<td><span style="font-weight:bold">2nd half of Demos & Posters viewing</span> 
+<td><span><b style="font-size:110%">
+
+
+2nd half of Demos & Posters viewing
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Room 5,Room 6</td>
@@ -899,15 +1158,17 @@ presenter: Wolfgang Nejdl
 </tr>
 <tr>
 <td>19:00 - 23:00</td>
-<td><span style="font-weight:bold">Banquet</span> 
+<td><span><b style="font-size:110%">
+
+
+Banquet
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Room 3, Room 4</td>
@@ -918,28 +1179,31 @@ presenter: Wolfgang Nejdl
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>09:00 - 10:00</td>
-<td><span style="font-weight:bold">Small Can Be Beautiful in the Semantic Web.</span> 
+<td><span><b style="font-size:110%">
 
+InvitedTalk:
 
-<div>
-chair: D. Plexousakis
+Small Can Be Beautiful in the Semantic Web.
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): D. Plexousakis</span>
 </div>
 
-<div>
-presenter: Marie-Christine Rousset
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Marie-Christine Rousset</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Room 1</td>
@@ -947,15 +1211,17 @@ presenter: Marie-Christine Rousset
 </tr>
 <tr>
 <td>10:00 - 10:30</td>
-<td><span style="font-weight:bold">Coffee Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Coffee Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Room 4</td>
@@ -963,18 +1229,25 @@ presenter: Marie-Christine Rousset
 </tr>
 <tr>
 <td>10:30 - 12:00</td>
-<td><span style="font-weight:bold">S15: Industrial 1</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S15: Industrial 1
+</b>
 (Industrial Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>Applying Semantic Web Technology to the Life Cycle Support of Complex Engineering Assets</b>,<i>David Price and Rob Bodington</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-<li><b>ORIENT: Integrate Ontology Engineering into Industry Tooling Environment</b>,<i>Lei Zhang,Yong Yu,Jing Lu,Chenxi Lin,Kewei Tu,MingChuan Guo,Zhuo Zhang,Guo Tong Xie,Zhong Su and Yue Pan</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Applying Semantic Web Technology to the Life Cycle Support of Complex Engineering Assets,
+<span style="color:#666">David Price and Rob Bodington</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. ORIENT: Integrate Ontology Engineering into Industry Tooling Environment,
+<span style="color:#666">Lei Zhang,Yong Yu,Jing Lu,Chenxi Lin,Kewei Tu,MingChuan Guo,Zhuo Zhang,Guo Tong Xie,Zhong Su and Yue Pan</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
 </td>
 
 <td>Room 5</td>
@@ -982,19 +1255,28 @@ presenter: Marie-Christine Rousset
 </tr>
 <tr>
 <td>10:30 - 12:00</td>
-<td><span style="font-weight:bold">S13: Ontologies</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S13: Ontologies
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>An API for Ontology Alignment</b>,<i>Jérôme Euzenat</i><sup><span style="color:DarkRed">Ontologies</span></sup></li>
-<li><b>Automatic Generation of Ontology for Scholarly Semantic Web</b>,<i>Thanh Tho Quan,Siu Cheung Hui,Alvis Cheuk M. Fong and Tru Hoang Cao</i><sup><span style="color:DarkRed">Ontologies</span></sup></li>
-<li><b>Patching Syntax in OWL Ontologies</b>,<i>Sean Bechhofer and Raphael Volz</i><sup><span style="color:DarkRed">Ontologies</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. An API for Ontology Alignment,
+<span style="color:#666">Jérôme Euzenat</span>
+<sup><span style="color:DarkRed">Ontologies</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Automatic Generation of Ontology for Scholarly Semantic Web,
+<span style="color:#666">Thanh Tho Quan,Siu Cheung Hui,Alvis Cheuk M. Fong and Tru Hoang Cao</span>
+<sup><span style="color:DarkRed">Ontologies</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Patching Syntax in OWL Ontologies,
+<span style="color:#666">Sean Bechhofer and Raphael Volz</span>
+<sup><span style="color:DarkRed">Ontologies</span></sup></div>
+
 </td>
 
 <td>Room 1</td>
@@ -1002,19 +1284,28 @@ presenter: Marie-Christine Rousset
 </tr>
 <tr>
 <td>10:30 - 12:00</td>
-<td><span style="font-weight:bold">S14: P2P Systems</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S14: P2P Systems
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>Bibster - A Semantics-Based Bibliographic Peer-to-Peer System</b>,<i>Peter Haase,Jeen Broekstra,Marc Ehrig,Maarten Menken,Peter Mika,Mariusz Olko,Michal Plechawski,Pawel Pyszlak,Björn Schnizler,Ronny Siebes,Steffen Staab and Christoph Tempich</i><sup><span style="color:DarkRed">P2P Systems</span></sup></li>
-<li><b>GridVine: Building Internet-Scale Semantic Overlay Networks</b>,<i>Karl Aberer,Philippe Cudré-Mauroux,Manfred Hauswirth and Tim Van Pelt</i><sup><span style="color:DarkRed">P2P Systems</span></sup></li>
-<li><b>Top-k Query Evaluation for Schema-Based Peer-to-Peer Networks</b>,<i>Wolfgang Nejdl,Wolf Siberski,Uwe Thaden and Wolf-Tilo Balke</i><sup><span style="color:DarkRed">P2P Systems</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Bibster - A Semantics-Based Bibliographic Peer-to-Peer System,
+<span style="color:#666">Peter Haase,Jeen Broekstra,Marc Ehrig,Maarten Menken,Peter Mika,Mariusz Olko,Michal Plechawski,Pawel Pyszlak,Björn Schnizler,Ronny Siebes,Steffen Staab and Christoph Tempich</span>
+<sup><span style="color:DarkRed">P2P Systems</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. GridVine: Building Internet-Scale Semantic Overlay Networks,
+<span style="color:#666">Karl Aberer,Philippe Cudré-Mauroux,Manfred Hauswirth and Tim Van Pelt</span>
+<sup><span style="color:DarkRed">P2P Systems</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Top-k Query Evaluation for Schema-Based Peer-to-Peer Networks,
+<span style="color:#666">Wolfgang Nejdl,Wolf Siberski,Uwe Thaden and Wolf-Tilo Balke</span>
+<sup><span style="color:DarkRed">P2P Systems</span></sup></div>
+
 </td>
 
 <td>Room 2</td>
@@ -1022,15 +1313,17 @@ presenter: Marie-Christine Rousset
 </tr>
 <tr>
 <td>12:00 - 12:30</td>
-<td><span style="font-weight:bold">Semantic Web Challenge Award</span> 
+<td><span><b style="font-size:110%">
+
+
+Semantic Web Challenge Award
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Room 1</td>
@@ -1038,15 +1331,17 @@ presenter: Marie-Christine Rousset
 </tr>
 <tr>
 <td>12:30 - 14:00</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Top of Hiroshima, Level 23</td>
@@ -1054,19 +1349,28 @@ presenter: Marie-Christine Rousset
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">S18: Industrial 2</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S18: Industrial 2
+</b>
 (Industrial Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>OntoViews - A Tool for Creating Semantic Web Portals</b>,<i>Eetu Mäkelä,Eero Hyvönen,Samppa Saarela and Kim Viljanen</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-<li><b>SemanticOrganizer: A Customizable Semantic Repository for Distributed NASA Project Teams</b>,<i>Richard M. Keller,Daniel C. Berrios,Robert E. Carvalho,David R. Hall,Stephen J. Rich,Ian B. Sturken,Keith J. Swanson and Shawn R. Wolfe</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-<li><b>Public Deployment of Semantic Service Matchmaker with UDDI Business Registry</b>,<i>Takahiro Kawamura,Jacques-Albert De Blasio,Tetsuo Hasegawa,Massimo Paolucci and Katia P. Sycara</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. OntoViews - A Tool for Creating Semantic Web Portals,
+<span style="color:#666">Eetu Mäkelä,Eero Hyvönen,Samppa Saarela and Kim Viljanen</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. SemanticOrganizer: A Customizable Semantic Repository for Distributed NASA Project Teams,
+<span style="color:#666">Richard M. Keller,Daniel C. Berrios,Robert E. Carvalho,David R. Hall,Stephen J. Rich,Ian B. Sturken,Keith J. Swanson and Shawn R. Wolfe</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Public Deployment of Semantic Service Matchmaker with UDDI Business Registry,
+<span style="color:#666">Takahiro Kawamura,Jacques-Albert De Blasio,Tetsuo Hasegawa,Massimo Paolucci and Katia P. Sycara</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
 </td>
 
 <td>Room 5</td>
@@ -1074,19 +1378,28 @@ presenter: Marie-Christine Rousset
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">S16: Data Semantics</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S16: Data Semantics
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>A Model Theoretic Semantics for Ontology Versioning</b>,<i>Jeff Heflin and Zhengxiang Pan</i><sup><span style="color:DarkRed">Data Semantics</span></sup></li>
-<li><b>Extending the RDFS Entailment Lemma</b>,<i>Herman J. ter Horst</i><sup><span style="color:DarkRed">Data Semantics</span></sup></li>
-<li><b>Using Semantic Web Technologies for Representing E-science Provenance</b>,<i>Jun Zhao,Chris Wroe,Carole A. Goble,Robert Stevens,Dennis Quan and R. Mark Greenwood</i><sup><span style="color:DarkRed">Data Semantics</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. A Model Theoretic Semantics for Ontology Versioning,
+<span style="color:#666">Jeff Heflin and Zhengxiang Pan</span>
+<sup><span style="color:DarkRed">Data Semantics</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Extending the RDFS Entailment Lemma,
+<span style="color:#666">Herman J. ter Horst</span>
+<sup><span style="color:DarkRed">Data Semantics</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Using Semantic Web Technologies for Representing E-science Provenance,
+<span style="color:#666">Jun Zhao,Chris Wroe,Carole A. Goble,Robert Stevens,Dennis Quan and R. Mark Greenwood</span>
+<sup><span style="color:DarkRed">Data Semantics</span></sup></div>
+
 </td>
 
 <td>Room 1</td>
@@ -1094,19 +1407,28 @@ presenter: Marie-Christine Rousset
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">S17: SW Services</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S17: SW Services
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>From Software APIs to Web Service Ontologies: A Semi-automatic Extraction Method</b>,<i>Marta Sabou</i><sup><span style="color:DarkRed">Semantic Web Services</span></sup></li>
-<li><b>Information Gathering During Planning for Web Service Composition</b>,<i>Ugur Kuter,Evren Sirin,Dana S. Nau,Bijan Parsia and James A. Hendler</i><sup><span style="color:DarkRed">Semantic Web Services</span></sup></li>
-<li><b>Semantic Web Service Interaction Protocols: An Ontological Approach</b>,<i>Ronald Ashri,Grit Denker,Darren Marvin,Mike Surridge and Terry R. Payne</i><sup><span style="color:DarkRed">Semantic Web Services</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. From Software APIs to Web Service Ontologies: A Semi-automatic Extraction Method,
+<span style="color:#666">Marta Sabou</span>
+<sup><span style="color:DarkRed">Semantic Web Services</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Information Gathering During Planning for Web Service Composition,
+<span style="color:#666">Ugur Kuter,Evren Sirin,Dana S. Nau,Bijan Parsia and James A. Hendler</span>
+<sup><span style="color:DarkRed">Semantic Web Services</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Semantic Web Service Interaction Protocols: An Ontological Approach,
+<span style="color:#666">Ronald Ashri,Grit Denker,Darren Marvin,Mike Surridge and Terry R. Payne</span>
+<sup><span style="color:DarkRed">Semantic Web Services</span></sup></div>
+
 </td>
 
 <td>Room 2</td>
@@ -1114,15 +1436,17 @@ presenter: Marie-Christine Rousset
 </tr>
 <tr>
 <td>15:30 - 16:00</td>
-<td><span style="font-weight:bold">Tea Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Tea Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Room 4</td>
@@ -1130,18 +1454,25 @@ presenter: Marie-Christine Rousset
 </tr>
 <tr>
 <td>16:00 - 17:00</td>
-<td><span style="font-weight:bold">S21: Industrial 3</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S21: Industrial 3
+</b>
 (Industrial Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>Querying Real World Services Through the Semantic Web</b>,<i>Kaoru Hiramatsu,Jun-ichi Akahani and Tetsuji Satoh</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-<li><b>SWS for Financial Overdrawn Alerting</b>,<i>José Manuel López Cobo,Silvestre Losada,Óscar Corcho,V. Richard Benjamins,Marcos Niño and Jesús Contreras</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Querying Real World Services Through the Semantic Web,
+<span style="color:#666">Kaoru Hiramatsu,Jun-ichi Akahani and Tetsuji Satoh</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. SWS for Financial Overdrawn Alerting,
+<span style="color:#666">José Manuel López Cobo,Silvestre Losada,Óscar Corcho,V. Richard Benjamins,Marcos Niño and Jesús Contreras</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
 </td>
 
 <td>Room 5</td>
@@ -1149,18 +1480,25 @@ presenter: Marie-Christine Rousset
 </tr>
 <tr>
 <td>16:00 - 17:00</td>
-<td><span style="font-weight:bold">S19: User Interfaces & Visualization</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S19: User Interfaces & Visualization
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>Visual Modeling of OWL DL Ontologies Using UML</b>,<i>Saartje Brockmans,Raphael Volz,Andreas Eberhart and Peter Löffler</i><sup><span style="color:DarkRed">User Interfaces and Visualization</span></sup></li>
-<li><b>What Would It Mean to Blog on the Semantic Web?</b>,<i>David R. Karger and Dennis Quan</i><sup><span style="color:DarkRed">User Interfaces and Visualization</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Visual Modeling of OWL DL Ontologies Using UML,
+<span style="color:#666">Saartje Brockmans,Raphael Volz,Andreas Eberhart and Peter Löffler</span>
+<sup><span style="color:DarkRed">User Interfaces and Visualization</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. What Would It Mean to Blog on the Semantic Web?,
+<span style="color:#666">David R. Karger and Dennis Quan</span>
+<sup><span style="color:DarkRed">User Interfaces and Visualization</span></sup></div>
+
 </td>
 
 <td>Room 1</td>
@@ -1168,18 +1506,25 @@ presenter: Marie-Christine Rousset
 </tr>
 <tr>
 <td>16:00 - 17:00</td>
-<td><span style="font-weight:bold">S20: Middleware and Agents</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+S20: Middleware and Agents
+</b>
 (Research Track)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>The Specification of Agent Behavior by Ordinary People: A Case Study</b>,<i>Luke McDowell,Oren Etzioni and Alon Y. Halevy</i><sup><span style="color:DarkRed">Tools and Methodologies for Web Agents</span></sup></li>
-<li><b>On the Emergent Semantic Web and Overlooked Issues</b>,<i>Yannis Kalfoglou,Harith Alani,W. Marco Schorlemmer and Chris Walton</i><sup><span style="color:DarkRed">Semantic Web Middleware</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. The Specification of Agent Behavior by Ordinary People: A Case Study,
+<span style="color:#666">Luke McDowell,Oren Etzioni and Alon Y. Halevy</span>
+<sup><span style="color:DarkRed">Tools and Methodologies for Web Agents</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. On the Emergent Semantic Web and Overlooked Issues,
+<span style="color:#666">Yannis Kalfoglou,Harith Alani,W. Marco Schorlemmer and Chris Walton</span>
+<sup><span style="color:DarkRed">Semantic Web Middleware</span></sup></div>
+
 </td>
 
 <td>Room 2</td>
@@ -1187,15 +1532,17 @@ presenter: Marie-Christine Rousset
 </tr>
 <tr>
 <td>17:00 - 17:15</td>
-<td><span style="font-weight:bold">Closing Ceremony</span> 
+<td><span><b style="font-size:110%">
+
+
+Closing Ceremony
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Room 1</td>

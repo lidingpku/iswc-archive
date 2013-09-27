@@ -13,6 +13,87 @@
 	version='XHTML+RDFa 1.0' typeof='foaf:Document'>
 <head>
     <title></title>
+<style>
+
+table {
+    *border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    width: 100%;
+
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+}
+
+tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+td, th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+td:first-child, th:first-child {
+    border-left: none;
+}
+
+th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+</style>
 </head>
 <body>
 
@@ -22,25 +103,28 @@
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>08:30 - 12:45</td>
-<td><span style="font-weight:bold">1st International Workshop on Semantic Music and Media</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Yves Raimond,Mark Sandler,David De Roure
+<a href="http://iswc2013.semanticweb.org/content/smam-2013">1st International Workshop on Semantic Music and Media</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Yves Raimond,Mark Sandler,David De Roure</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -48,18 +132,21 @@ chair: Yves Raimond,Mark Sandler,David De Roure
 </tr>
 <tr>
 <td>08:30 - 12:45</td>
-<td><span style="font-weight:bold">4th Workshop on Ontology Patterns</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Valentina Presutti,Michael Gruninger,Laurent Lefort,Ansgar Scherp
+<a href="http://iswc2013.semanticweb.org/content/wop-2013">4th Workshop on Ontology Patterns</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Valentina Presutti,Michael Gruninger,Laurent Lefort,Ansgar Scherp</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -67,18 +154,21 @@ chair: Valentina Presutti,Michael Gruninger,Laurent Lefort,Ansgar Scherp
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">3rd International Workshop on Linked Science 2013</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Paul Groth,Marieke Van Erp,Line C. Pouchard,Jun Zhao,Tomi Kauppinen,Carole Goble,Jacco van Ossenbruggen,Carsten Keßler,Yolanda Gil
+<a href="http://iswc2013.semanticweb.org/content/lisc-2013">3rd International Workshop on Linked Science 2013</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Paul Groth,Marieke Van Erp,Line C. Pouchard,Jun Zhao,Tomi Kauppinen,Carole Goble,Jacco van Ossenbruggen,Carsten Keßler,Yolanda Gil</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -86,18 +176,21 @@ chair: Paul Groth,Marieke Van Erp,Line C. Pouchard,Jun Zhao,Tomi Kauppinen,Carol
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">8th International Workshop on Ontology Matching</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Pavel Shvaiko,Ming Mao,Kavitha Srinivas,Jérôme Euzenat,Ernesto Jiménez-Ruiz
+<a href="http://iswc2013.semanticweb.org/content/om-2013">8th International Workshop on Ontology Matching</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Pavel Shvaiko,Ming Mao,Kavitha Srinivas,Jérôme Euzenat,Ernesto Jiménez-Ruiz</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -105,18 +198,21 @@ chair: Pavel Shvaiko,Ming Mao,Kavitha Srinivas,Jérôme Euzenat,Ernesto Jiménez
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">9th International Workshop on Scalable Semantic Web Knowledge Base Systems</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Thorsten Liebig,Achille Fokoue
+<a href="http://iswc2013.semanticweb.org/content/ssws-2013">9th International Workshop on Scalable Semantic Web Knowledge Base Systems</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Thorsten Liebig,Achille Fokoue</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -124,18 +220,21 @@ chair: Thorsten Liebig,Achille Fokoue
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">CrowdSem: Crowdsourcing the Semantic Web</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Natasha F. Noy,Maribel Acosta,Lora Aroyo,Jens Lehmann,Elena Simperl,Abraham Bernstein
+<a href="http://iswc2013.semanticweb.org/content/crowdsem">CrowdSem: Crowdsourcing the Semantic Web</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Natasha F. Noy,Maribel Acosta,Lora Aroyo,Jens Lehmann,Elena Simperl,Abraham Bernstein</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -143,18 +242,21 @@ chair: Natasha F. Noy,Maribel Acosta,Lora Aroyo,Jens Lehmann,Elena Simperl,Abrah
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">LD4IE - Linked Data for Information Extraction</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Ziqi Zhang,Heiko Paulheim,Claudia D'Amato,Anna Lisa Gentile
+<a href="http://iswc2013.semanticweb.org/content/ld4ie">LD4IE - Linked Data for Information Extraction</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Ziqi Zhang,Heiko Paulheim,Claudia D'Amato,Anna Lisa Gentile</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -162,19 +264,21 @@ chair: Ziqi Zhang,Heiko Paulheim,Claudia D'Amato,Anna Lisa Gentile
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Relational Database to RDF (RDB2RDF) Tutorial: The new R2RML and Direct Mapping Standards, from Semantics to Practice</span> 
+<td><span><b style="font-size:110%">
 
+
+<a href="http://iswc2013.semanticweb.org/content/relational-database-rdf">Tutorial 1: Relational Database to RDF (RDB2RDF)</a>
+</b>
 (Tutorial Track)
+</span>
 
 
-<div>
-presenter: Juan Sequeda,Daniel Miranker,Barry Norton
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Juan Sequeda,Daniel Miranker,Barry Norton</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -182,19 +286,21 @@ presenter: Juan Sequeda,Daniel Miranker,Barry Norton
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Stream Reasoning for Linked Data</span> 
+<td><span><b style="font-size:110%">
 
+
+<a href="http://iswc2013.semanticweb.org/content/stream-reasoning-linked-data">Tutorial 2: Stream Reasoning for Linked Data</a>
+</b>
 (Tutorial Track)
+</span>
 
 
-<div>
-presenter: Oscar Corcho,Jeff Z. Pan,Jean-Paul Calbimonte,Emanuele Della Valle
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Oscar Corcho,Jeff Z. Pan,Jean-Paul Calbimonte,Emanuele Della Valle</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -202,19 +308,21 @@ presenter: Oscar Corcho,Jeff Z. Pan,Jean-Paul Calbimonte,Emanuele Della Valle
 </tr>
 <tr>
 <td>09:00 - 12:45</td>
-<td><span style="font-weight:bold">The Web of Things</span> 
+<td><span><b style="font-size:110%">
 
+
+<a href="http://iswc2013.semanticweb.org/content/web-things">Tutorial 3: The Web of Things</a>
+</b>
 (Tutorial Track)
+</span>
 
 
-<div>
-presenter: Marko Grobelnik,Carolina Fortuna
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Marko Grobelnik,Carolina Fortuna</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -222,18 +330,21 @@ presenter: Marko Grobelnik,Carolina Fortuna
 </tr>
 <tr>
 <td>13:45 - 18:00</td>
-<td><span style="font-weight:bold">3rd International Workshop on Detection, Representation, and Exploitation of Events in the Semantic Web</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Willem Robert Van Hage,Marieke Van Erp,Pierre van de Laar,Raphaël Troncy,Laura Hollink,David A. Shamma,Lianli Gao
+<a href="http://iswc2013.semanticweb.org/content/derive-2013">3rd International Workshop on Detection, Representation, and Exploitation of Events in the Semantic Web</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Willem Robert Van Hage,Marieke Van Erp,Pierre van de Laar,Raphaël Troncy,Laura Hollink,David A. Shamma,Lianli Gao</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -241,18 +352,21 @@ chair: Willem Robert Van Hage,Marieke Van Erp,Pierre van de Laar,Raphaël Troncy
 </tr>
 <tr>
 <td>13:45 - 18:00</td>
-<td><span style="font-weight:bold">9th International Workshop on Uncertainty Reasoning for the Semantic Web</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Trevor Martin,Nicola Fanizzi,Thomas Lukasiewicz,Claudia D'Amato,Paulo Costa,Fernando Bobillo,Kathryn Laskey,Mike Pool,Rommel Carvalho,Ken Laskey,Matthias Nickles
+<a href="http://iswc2013.semanticweb.org/content/ursw-2013">9th International Workshop on Uncertainty Reasoning for the Semantic Web</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Trevor Martin,Nicola Fanizzi,Thomas Lukasiewicz,Claudia D'Amato,Paulo Costa,Fernando Bobillo,Kathryn Laskey,Mike Pool,Rommel Carvalho,Ken Laskey,Matthias Nickles</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -260,19 +374,21 @@ chair: Trevor Martin,Nicola Fanizzi,Thomas Lukasiewicz,Claudia D'Amato,Paulo Cos
 </tr>
 <tr>
 <td>13:45 - 17:30</td>
-<td><span style="font-weight:bold">Modelling Ontologies Visually</span> 
+<td><span><b style="font-size:110%">
 
+
+<a href="http://iswc2013.semanticweb.org/content/modelling-ontologies-visually">Tutorial 4: Modelling Ontologies Visually</a>
+</b>
 (Tutorial Track)
+</span>
 
 
-<div>
-presenter: Peter Chapman,John Howse,Jim Burton,Gem Stapleton,Aidan Delaney
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Peter Chapman,John Howse,Jim Burton,Gem Stapleton,Aidan Delaney</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -283,25 +399,28 @@ presenter: Peter Chapman,John Howse,Jim Burton,Gem Stapleton,Aidan Delaney
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>08:30 - 12:45</td>
-<td><span style="font-weight:bold">6th International Workshop on Semantic Sensor Networks</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Payam Barnaghi,Oscar Corcho,Manfred Hauswirth,Kerry Taylor,Cory Henson,Amit Sheth
+<a href="http://iswc2013.semanticweb.org/content/ssn-2013">6th International Workshop on Semantic Sensor Networks</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Payam Barnaghi,Oscar Corcho,Manfred Hauswirth,Kerry Taylor,Cory Henson,Amit Sheth</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -309,18 +428,21 @@ chair: Payam Barnaghi,Oscar Corcho,Manfred Hauswirth,Kerry Taylor,Cory Henson,Am
 </tr>
 <tr>
 <td>08:30 - 12:45</td>
-<td><span style="font-weight:bold">WaSABi: Workshop on Semantic Web Enterprise Adoption and Best Practice</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Sam Coppens,Miel Vander Sande,Marco Neumann,Magnus Knuth,Karl Hammar,Dominique Ritze
+<a href="http://iswc2013.semanticweb.org/content/wasabi">WaSABi: Workshop on Semantic Web Enterprise Adoption and Best Practice</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sam Coppens,Miel Vander Sande,Marco Neumann,Magnus Knuth,Karl Hammar,Dominique Ritze</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -328,18 +450,21 @@ chair: Sam Coppens,Miel Vander Sande,Marco Neumann,Magnus Knuth,Karl Hammar,Domi
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">1st International Workshop on Semantic Statistics</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Richard Cyganiak,Raphaël Troncy,Franck Cotton,Armin Haller,Alistair Hamilton
+<a href="http://iswc2013.semanticweb.org/content/semstats-2013">1st International Workshop on Semantic Statistics</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Richard Cyganiak,Raphaël Troncy,Franck Cotton,Armin Haller,Alistair Hamilton</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -347,18 +472,21 @@ chair: Richard Cyganiak,Raphaël Troncy,Franck Cotton,Armin Haller,Alistair Hami
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">4th International Workshop on Consuming Linked Data</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Takahide Matsutsuka,Olaf Hartig,Juan Sequeda,Aidan Hogan
+<a href="http://iswc2013.semanticweb.org/content/cold-2013">4th International Workshop on Consuming Linked Data</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Takahide Matsutsuka,Olaf Hartig,Juan Sequeda,Aidan Hogan</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -366,18 +494,21 @@ chair: Takahide Matsutsuka,Olaf Hartig,Juan Sequeda,Aidan Hogan
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">DBpedia & NLP 2013</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Sebastian Hellmann,Pablo Mendes,Dimitris Kontokostas,Caroline Barrière,Agata Filipowska
+<a href="http://iswc2013.semanticweb.org/content/dbpedia-nlp-2013">DBpedia & NLP 2013</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sebastian Hellmann,Pablo Mendes,Dimitris Kontokostas,Caroline Barrière,Agata Filipowska</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -385,15 +516,18 @@ chair: Sebastian Hellmann,Pablo Mendes,Dimitris Kontokostas,Caroline Barrière,A
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Doctoral Consortium</span> 
+<td><span><b style="font-size:110%">
+
+Track:
+
+Doctoral Consortium
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -401,18 +535,21 @@ chair: Sebastian Hellmann,Pablo Mendes,Dimitris Kontokostas,Caroline Barrière,A
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Society, Privacy and the Semantic Web - Policy and Technology</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Stefan Decker,Sabrina Kirrane,Jim Hendler
+<a href="http://iswc2013.semanticweb.org/content/privon-2013">Society, Privacy and the Semantic Web - Policy and Technology</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Stefan Decker,Sabrina Kirrane,Jim Hendler</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -420,19 +557,21 @@ chair: Stefan Decker,Sabrina Kirrane,Jim Hendler
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Microtask crowdsourcing to solve Semantic Web problems</span> 
+<td><span><b style="font-size:110%">
 
+
+<a href="http://iswc2013.semanticweb.org/content/microtask-crowdsourcing-solve-semantic-web-problems">Tutorial 5: Microtask crowdsourcing to solve Semantic Web problems</a>
+</b>
 (Tutorial Track)
+</span>
 
 
-<div>
-presenter: Maribel Acosta,Gianluca Demartini,Elena Simperl
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Maribel Acosta,Gianluca Demartini,Elena Simperl</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -440,19 +579,21 @@ presenter: Maribel Acosta,Gianluca Demartini,Elena Simperl
 </tr>
 <tr>
 <td>09:00 - 12:45</td>
-<td><span style="font-weight:bold">Hands-on Guide to Linked Data Applications</span> 
+<td><span><b style="font-size:110%">
 
+
+<a href="http://iswc2013.semanticweb.org/content/mobile-semantic-web">Tutorial 6: The Mobile Semantic Web</a>
+</b>
 (Tutorial Track)
+</span>
 
 
-<div>
-presenter: Liliana Cabral,Heiko Mueller,Ahsan Morshed
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Yuan-Fang Li,Shonali Krishnaswamy</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -460,19 +601,21 @@ presenter: Liliana Cabral,Heiko Mueller,Ahsan Morshed
 </tr>
 <tr>
 <td>09:00 - 12:45</td>
-<td><span style="font-weight:bold">The Mobile Semantic Web</span> 
+<td><span><b style="font-size:110%">
 
+
+<a href="http://iswc2013.semanticweb.org/content/hands-guide-linked-data-applications">Tutorial 7: Hands-on Guide to Linked Data Applications</a>
+</b>
 (Tutorial Track)
+</span>
 
 
-<div>
-presenter: Yuan-Fang Li,Shonali Krishnaswamy
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Liliana Cabral,Heiko Mueller,Ahsan Morshed</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -480,18 +623,21 @@ presenter: Yuan-Fang Li,Shonali Krishnaswamy
 </tr>
 <tr>
 <td>13:45 - 18:00</td>
-<td><span style="font-weight:bold">2nd International Workshop on Ordering and Reasoning</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Stefan Schlobach,Markus Krötzsch,Irene Celino,Emanuele Della Valle
+<a href="http://iswc2013.semanticweb.org/content/ordring-2013">2nd International Workshop on Ordering and Reasoning</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Stefan Schlobach,Markus Krötzsch,Irene Celino,Emanuele Della Valle</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -499,18 +645,21 @@ chair: Stefan Schlobach,Markus Krötzsch,Irene Celino,Emanuele Della Valle
 </tr>
 <tr>
 <td>13:45 - 18:00</td>
-<td><span style="font-weight:bold">Semantic Machine Learning and Linked Open Data Application</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Ritaban Dutta,Greg Timms,Ahsan Morshed
+<a href="http://iswc2013.semanticweb.org/content/sml2od-2013">Semantic Machine Learning and Linked Open Data Application</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Ritaban Dutta,Greg Timms,Ahsan Morshed</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -518,19 +667,21 @@ chair: Ritaban Dutta,Greg Timms,Ahsan Morshed
 </tr>
 <tr>
 <td>13:45 - 17:30</td>
-<td><span style="font-weight:bold">Big Data Management Tutorial</span> 
+<td><span><b style="font-size:110%">
 
+
+<a href="http://iswc2013.semanticweb.org/content/big-data-management">Tutorial 8: Big Data Management</a>
+</b>
 (Tutorial Track)
+</span>
 
 
-<div>
-presenter: Marko Grobelnik,Dunja Mladenic,Blaž Fortuna
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Marko Grobelnik,Dunja Mladenic,Blaž Fortuna</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -538,19 +689,21 @@ presenter: Marko Grobelnik,Dunja Mladenic,Blaž Fortuna
 </tr>
 <tr>
 <td>13:45 - 17:30</td>
-<td><span style="font-weight:bold">Linked Data for Web Scale Information Extraction</span> 
+<td><span><b style="font-size:110%">
 
+
+<a href="http://iswc2013.semanticweb.org/content/linked-data-web-scale-information-extraction">Tutorial 9: Linked Data for Web Scale Information Extraction</a>
+</b>
 (Tutorial Track)
+</span>
 
 
-<div>
-presenter: Ziqi Zhang,Anna Lisa Gentile
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Ziqi Zhang,Anna Lisa Gentile</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -561,22 +714,24 @@ presenter: Ziqi Zhang,Anna Lisa Gentile
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>07:30 - 20:00</td>
-<td><span style="font-weight:bold">Registration</span> 
+<td><span><b style="font-size:110%">
+
+
+Registration
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Foyer</td>
@@ -584,15 +739,17 @@ presenter: Ziqi Zhang,Anna Lisa Gentile
 </tr>
 <tr>
 <td>09:00 - 09:15</td>
-<td><span style="font-weight:bold">Opening Ceremony</span> 
+<td><span><b style="font-size:110%">
+
+
+Opening Ceremony
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Parkside Ballroom B</td>
@@ -600,21 +757,24 @@ presenter: Ziqi Zhang,Anna Lisa Gentile
 </tr>
 <tr>
 <td>09:15 - 10:15</td>
-<td><span style="font-weight:bold">Light at the End of the Tunnel</span> 
+<td><span><b style="font-size:110%">
 
+InvitedTalk:
 
-<div>
-chair: Chris Welty
+<a href="http://iswc2013.semanticweb.org/content/keynote-ramanathan-v-guha">Light at the End of the Tunnel</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Chris Welty</span>
 </div>
 
-<div>
-presenter: Ramanathan V. Guha
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Ramanathan V. Guha</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Parkside Ballroom B</td>
@@ -622,15 +782,17 @@ presenter: Ramanathan V. Guha
 </tr>
 <tr>
 <td>10:15 - 11:00</td>
-<td><span style="font-weight:bold">Morning Tea</span> 
+<td><span><b style="font-size:110%">
+
+
+Morning Tea
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Parkside Ballroom Foyer</td>
@@ -638,24 +800,37 @@ presenter: Ramanathan V. Guha
 </tr>
 <tr>
 <td>11:00 - 12:40</td>
-<td><span style="font-weight:bold">Semantic Web Landscape</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-wednesday#landscape">Semantic Web Landscape</a>
+</b>
 (Track 1)
+</span>
 
-<div>
-chair: Philippe Cudré-Mauroux
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Philippe Cudré-Mauroux</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>On the Status of Experimental Research on the Semantic Web</b>,<i>Heiner Stuckenschmidt,Michael Schuhmacher,Johannes Knopp,Christian Meilicke and Ansgar Scherp</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>A snapshot of the OWL Web</b>,<i>Nicolas Matentzoglu,Samantha Bail and Bijan Parsia</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Deployment of RDFa, Microdata, and Microformats on the Web – A Quantitative Analysis</b>,<i>Christian Bizer,Kai Eckert,Robert Meusel,Hannes Mühleisen,Michael Schuhmacher and Johanna Völker</i><sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></li>
-<li><b>When History Matters - Assessing Reliability for the Reuse of Scientific Workflows</b>,<i>José Manuel Gómez-Pérez,Esteban García-Cuesta,Aleix Garrido and José Enrique Ruiz</i><sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></li>
-<li><b>Simplified OWL Ontology Editing for the Web: Is WebProtégé Enough?</b>,<i>Matthew Horridge,Tania Tudorache,Jennifer Vendetti,Csongor Nyulas,Mark Musen and Natasha F. Noy</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. On the Status of Experimental Research on the Semantic Web,
+<span style="color:#666">Heiner Stuckenschmidt,Michael Schuhmacher,Johannes Knopp,Christian Meilicke and Ansgar Scherp</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. A snapshot of the OWL Web,
+<span style="color:#666">Nicolas Matentzoglu,Samantha Bail and Bijan Parsia</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Deployment of RDFa, Microdata, and Microformats on the Web – A Quantitative Analysis,
+<span style="color:#666">Christian Bizer,Kai Eckert,Robert Meusel,Hannes Mühleisen,Michael Schuhmacher and Johanna Völker</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">4. When History Matters - Assessing Reliability for the Reuse of Scientific Workflows,
+<span style="color:#666">José Manuel Gómez-Pérez,Esteban García-Cuesta,Aleix Garrido and José Enrique Ruiz</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">5. Simplified OWL Ontology Editing for the Web: Is WebProtégé Enough?,
+<span style="color:#666">Matthew Horridge,Tania Tudorache,Jennifer Vendetti,Csongor Nyulas,Mark Musen and Natasha F. Noy</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td>Parkside 110B</td>
@@ -663,24 +838,37 @@ chair: Philippe Cudré-Mauroux
 </tr>
 <tr>
 <td>11:00 - 12:40</td>
-<td><span style="font-weight:bold">Reasoning</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-wednesday#reasoning">Reasoning</a>
+</b>
 (Track 2)
+</span>
 
-<div>
-chair: Pascal Hitzler
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Pascal Hitzler</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Incremental Reasoning in OWL EL without Bookkeeping</b>,<i>Yevgeny Kazakov and Pavel Klinov</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Completeness Statements about RDF Data Sources and Their Use for Query Answering</b>,<i>Fariz Darari,Werner Nutt,Giuseppe Pirrò and Simon Razniewski</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>DynamiTE: Parallel Materialization of Dynamic RDF Data</b>,<i>Jacopo Urbani,Alessandro Margara,Ceriel Jacobs,Frank Van Harmelen and Henri Bal</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>A Query Tool for EL with Non-monotonic rules</b>,<i>Vadim Ivanov,Matthias Knorr and Joao Leite</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Towards Constructive Evidence of Data Flow-oriented Web Service Composition</b>,<i>Freddy Lecue</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Incremental Reasoning in OWL EL without Bookkeeping,
+<span style="color:#666">Yevgeny Kazakov and Pavel Klinov</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Completeness Statements about RDF Data Sources and Their Use for Query Answering,
+<span style="color:#666">Fariz Darari,Werner Nutt,Giuseppe Pirrò and Simon Razniewski</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. DynamiTE: Parallel Materialization of Dynamic RDF Data,
+<span style="color:#666">Jacopo Urbani,Alessandro Margara,Ceriel Jacobs,Frank Van Harmelen and Henri Bal</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">4. A Query Tool for EL with Non-monotonic rules,
+<span style="color:#666">Vadim Ivanov,Matthias Knorr and Joao Leite</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">5. Towards Constructive Evidence of Data Flow-oriented Web Service Composition,
+<span style="color:#666">Freddy Lecue</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td>Parkside Ballroom B</td>
@@ -688,19 +876,28 @@ chair: Pascal Hitzler
 </tr>
 <tr>
 <td>11:00 - 12:40</td>
-<td><span style="font-weight:bold">Industry 1</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-wednesday#industry1">Industry 1</a>
+</b>
 (Track 3)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>Invited Talk (TBA)</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>A Semantic Approach to Data Center Management</b>,<i>Michael Schmidt,Christian Hütter,Timo Weber,Peter Haase and Andriy Nikolov</i><sup><span style="color:DarkRed">Industry Track Paper</span></sup></li>
-<li><b>How Semantic Technologies supercharge a platform for context-aware applications</b>,<i>David Damen</i><sup><span style="color:DarkRed">Industry Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Invited Talk (TBA),
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. A Semantic Approach to Data Center Management,
+<span style="color:#666">Michael Schmidt,Christian Hütter,Timo Weber,Peter Haase and Andriy Nikolov</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. How Semantic Technologies supercharge a platform for context-aware applications,
+<span style="color:#666">David Damen</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup></div>
+
 </td>
 
 <td>Parkside 110A</td>
@@ -708,15 +905,17 @@ chair: Pascal Hitzler
 </tr>
 <tr>
 <td>12:40 - 14:20</td>
-<td><span style="font-weight:bold">JWS Lunch</span> 
+<td><span><b style="font-size:110%">
+
+
+JWS Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Invitation only</td>
@@ -724,15 +923,17 @@ chair: Pascal Hitzler
 </tr>
 <tr>
 <td>12:40 - 14:20</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Parkside Ballroom Foyer</td>
@@ -740,21 +941,28 @@ chair: Pascal Hitzler
 </tr>
 <tr>
 <td>14:20 - 15:00</td>
-<td><span style="font-weight:bold">Geo-Spatial Semantics</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-wednesday#geo">Geo-Spatial Semantics</a>
+</b>
 (Track 1)
+</span>
 
-<div>
-chair: Krzysztof Janowicz
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Krzysztof Janowicz</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>ORCHID – Reduction-Ratio-Optimal Computation of Geo-Spatial Distances for Link Discovery</b>,<i>Axel-Cyrille Ngonga Ngomo</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Geographica: A Benchmark for Geospatial RDF Stores</b>,<i>George Garbis,Kostis Kyzirakos and Manolis Koubarakis</i><sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. ORCHID – Reduction-Ratio-Optimal Computation of Geo-Spatial Distances for Link Discovery,
+<span style="color:#666">Axel-Cyrille Ngonga Ngomo</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Geographica: A Benchmark for Geospatial RDF Stores,
+<span style="color:#666">George Garbis,Kostis Kyzirakos and Manolis Koubarakis</span>
+<sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></div>
+
 </td>
 
 <td>Parkside 110B</td>
@@ -762,21 +970,28 @@ chair: Krzysztof Janowicz
 </tr>
 <tr>
 <td>14:20 - 15:00</td>
-<td><span style="font-weight:bold">Life Science</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-wednesday#life">Life Science</a>
+</b>
 (Track 2)
+</span>
 
-<div>
-chair: Patrice Seyed
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Patrice Seyed</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Semantic Data and Models Sharing in systems Biology: The Just Enough Results Model and the SEEK Platform</b>,<i>Katherine Wolstencroft,Stuart Owen,Olga Krebs,Quyen Ngyuen,Jacky. L. Snoep,Wolfgang Mueller and Carole Goble</i><sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></li>
-<li><b>Using Semantic Web in ICD-11: Three Years Down the Road</b>,<i>Tania Tudorache,Csongor I Nyulas,Natasha F. Noy and Mark Musen</i><sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Semantic Data and Models Sharing in systems Biology: The Just Enough Results Model and the SEEK Platform,
+<span style="color:#666">Katherine Wolstencroft,Stuart Owen,Olga Krebs,Quyen Ngyuen,Jacky. L. Snoep,Wolfgang Mueller and Carole Goble</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Using Semantic Web in ICD-11: Three Years Down the Road,
+<span style="color:#666">Tania Tudorache,Csongor I Nyulas,Natasha F. Noy and Mark Musen</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></div>
+
 </td>
 
 <td>Parkside Ballroom B</td>
@@ -784,18 +999,25 @@ chair: Patrice Seyed
 </tr>
 <tr>
 <td>14:20 - 15:00</td>
-<td><span style="font-weight:bold">Industry 2</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-wednesday#industry2">Industry 2</a>
+</b>
 (Track 3)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>DISQOVER Links For Lives: Building a Linked Data UX (User eXperience) for Federated Query and Faceted Search Linking HealthCare and Life sciences Data for All Users</b>,<i>Hans Constandt</i><sup><span style="color:DarkRed">Industry Track Paper</span></sup></li>
-<li><b>Semantic Business Architecture Modelling in Financial Industry Regulation</b>,<i>Terry Roach</i><sup><span style="color:DarkRed">Industry Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. DISQOVER Links For Lives: Building a Linked Data UX (User eXperience) for Federated Query and Faceted Search Linking HealthCare and Life sciences Data for All Users,
+<span style="color:#666">Hans Constandt</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Semantic Business Architecture Modelling in Financial Industry Regulation,
+<span style="color:#666">Terry Roach</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup></div>
+
 </td>
 
 <td>Parkside 110A</td>
@@ -803,15 +1025,17 @@ chair: Patrice Seyed
 </tr>
 <tr>
 <td>15:00 - 15:15</td>
-<td><span style="font-weight:bold">Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Parkside Ballroom Foyer</td>
@@ -819,22 +1043,31 @@ chair: Patrice Seyed
 </tr>
 <tr>
 <td>15:15 - 16:15</td>
-<td><span style="font-weight:bold">Natural Language Processing</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-wednesday#nlp">Natural Language Processing</a>
+</b>
 (Track 1)
+</span>
 
-<div>
-chair: Raphaël Troncy
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Raphaël Troncy</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Bringing Math to LOD: A Semantic Publishing Platform Prototype for Scientific Collections in Mathematics</b>,<i>Olga Nevzorova,Nikita Zhiltsov,Danila Zaikin,Olga Zhibrik,Alexander Kirillovich,Vladimir Nevzorov and Evgeniy Birialtsev</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Semantic Rule Filtering for Web-Scale Relation Extraction</b>,<i>Andrea Moro,Hong Li,Sebastian Krause,Feiyu Xu,Roberto Navigli and Hans Uszkoreit</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Integrating NLP using Linked Data</b>,<i>Sebastian Hellmann,Jens Lehmann,Sören Auer and Martin Brümmer</i><sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Bringing Math to LOD: A Semantic Publishing Platform Prototype for Scientific Collections in Mathematics,
+<span style="color:#666">Olga Nevzorova,Nikita Zhiltsov,Danila Zaikin,Olga Zhibrik,Alexander Kirillovich,Vladimir Nevzorov and Evgeniy Birialtsev</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Semantic Rule Filtering for Web-Scale Relation Extraction,
+<span style="color:#666">Andrea Moro,Hong Li,Sebastian Krause,Feiyu Xu,Roberto Navigli and Hans Uszkoreit</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Integrating NLP using Linked Data,
+<span style="color:#666">Sebastian Hellmann,Jens Lehmann,Sören Auer and Martin Brümmer</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></div>
+
 </td>
 
 <td>Parkside 110B</td>
@@ -842,22 +1075,31 @@ chair: Raphaël Troncy
 </tr>
 <tr>
 <td>15:15 - 16:15</td>
-<td><span style="font-weight:bold">Search</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-wednesday#search">Search</a>
+</b>
 (Track 2)
+</span>
 
-<div>
-chair: Jeff Heflin
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Jeff Heflin</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Federated Entity Search using On-The-Fly Consolidation</b>,<i>Daniel M. Herzig,Roi Blanco,Peter Mika and Thanh Tran</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Getting Lucky in Ontology Search: A Data-Driven Evaluation Framework for Ontology Ranking</b>,<i>Natasha F. Noy,Paul Alexander,Rave Harpaz,Trish Whetzel,Raymond Fergerson and Mark Musen</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Entity recommendations in Web Search</b>,<i>Roi Blanco,Berkant Barla Cambazoglu,Peter Mika and Nicolas Torzec</i><sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Federated Entity Search using On-The-Fly Consolidation,
+<span style="color:#666">Daniel M. Herzig,Roi Blanco,Peter Mika and Thanh Tran</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Getting Lucky in Ontology Search: A Data-Driven Evaluation Framework for Ontology Ranking,
+<span style="color:#666">Natasha F. Noy,Paul Alexander,Rave Harpaz,Trish Whetzel,Raymond Fergerson and Mark Musen</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Entity recommendations in Web Search,
+<span style="color:#666">Roi Blanco,Berkant Barla Cambazoglu,Peter Mika and Nicolas Torzec</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></div>
+
 </td>
 
 <td>Parkside Ballroom B</td>
@@ -865,19 +1107,28 @@ chair: Jeff Heflin
 </tr>
 <tr>
 <td>15:15 - 16:15</td>
-<td><span style="font-weight:bold">Industry 3</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-wednesday#industry3">Industry 3</a>
+</b>
 (Track 3)
+</span>
 
 
 
-<div>
-<ol>
-<li><b>Integrating Relational Databases with the Semantic Web: Four Scenarios</b>,<i>Daniel P. Miranker and Juan F. Sequeda</i><sup><span style="color:DarkRed">Industry Track Paper</span></sup></li>
-<li><b>OData and the Semantic Web</b>,<i>Michael Pizzo and Evelyne Viegas</i><sup><span style="color:DarkRed">Industry Track Paper</span></sup></li>
-<li><b>Speaker Panel</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Integrating Relational Databases with the Semantic Web: Four Scenarios,
+<span style="color:#666">Daniel P. Miranker and Juan F. Sequeda</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. OData and the Semantic Web,
+<span style="color:#666">Michael Pizzo and Evelyne Viegas</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Speaker Panel,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td>Parkside 110A</td>
@@ -885,15 +1136,17 @@ chair: Jeff Heflin
 </tr>
 <tr>
 <td>16:15 - 16:55</td>
-<td><span style="font-weight:bold">Afternoon Tea</span> 
+<td><span><b style="font-size:110%">
+
+
+Afternoon Tea
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Parkside Ballroom Foyer</td>
@@ -901,18 +1154,20 @@ chair: Jeff Heflin
 </tr>
 <tr>
 <td>16:55 - 18:05</td>
-<td><span style="font-weight:bold">Minute Madness</span> 
+<td><span><b style="font-size:110%">
 
 
-<div>
-chair: Tudor Groza,Eva Blomqvist
+Minute Madness
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Tudor Groza,Eva Blomqvist</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Parkside 110B</td>
@@ -920,15 +1175,17 @@ chair: Tudor Groza,Eva Blomqvist
 </tr>
 <tr>
 <td>18:05 - 20:00</td>
-<td><span style="font-weight:bold">Posters & Demos Session</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://iswc2013.semanticweb.org/content/accepted-posters-and-demos">Posters & Demos Session</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Parkside Ballroom B/Parkside Ballroom Foyer</td>
@@ -936,15 +1193,17 @@ chair: Tudor Groza,Eva Blomqvist
 </tr>
 <tr>
 <td>20:00 - 21:30</td>
-<td><span style="font-weight:bold">SWJ Dinner</span> 
+<td><span><b style="font-size:110%">
+
+
+SWJ Dinner
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Invitation only</td>
@@ -955,22 +1214,24 @@ chair: Tudor Groza,Eva Blomqvist
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>07:30 - 19:00</td>
-<td><span style="font-weight:bold">Registration</span> 
+<td><span><b style="font-size:110%">
+
+
+Registration
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Foyer</td>
@@ -978,15 +1239,17 @@ chair: Tudor Groza,Eva Blomqvist
 </tr>
 <tr>
 <td>09:00 - 09:15</td>
-<td><span style="font-weight:bold">Announcements</span> 
+<td><span><b style="font-size:110%">
+
+
+Announcements
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Parkside Ballroom B</td>
@@ -994,21 +1257,24 @@ chair: Tudor Groza,Eva Blomqvist
 </tr>
 <tr>
 <td>09:15 - 10:15</td>
-<td><span style="font-weight:bold">Progress in Open-World, Integrative, Transparent, Collaborative Science Data Platforms</span> 
+<td><span><b style="font-size:110%">
 
+InvitedTalk:
 
-<div>
-chair: Pascal Hitzler
+<a href="http://iswc2013.semanticweb.org/content/keynote-peter-fox">Progress in Open-World, Integrative, Transparent, Collaborative Science Data Platforms</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Pascal Hitzler</span>
 </div>
 
-<div>
-presenter: Peter Fox
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Peter Fox</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Parkside Ballroom B</td>
@@ -1016,15 +1282,17 @@ presenter: Peter Fox
 </tr>
 <tr>
 <td>10:15 - 11:00</td>
-<td><span style="font-weight:bold">Morning Tea</span> 
+<td><span><b style="font-size:110%">
+
+
+Morning Tea
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Parkside Ballroom Foyer</td>
@@ -1032,24 +1300,37 @@ presenter: Peter Fox
 </tr>
 <tr>
 <td>11:00 - 12:40</td>
-<td><span style="font-weight:bold">Streams</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-thursday#streams">Streams</a>
+</b>
 (Track 1)
+</span>
 
-<div>
-chair: Abraham Bernstein
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Abraham Bernstein</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Social listening of City Scale Events using the Streaming Linked Data Framework</b>,<i>Marco Balduini,Emanuele Della Valle,Daniele Dell'Aglio,Themis Palpanas,Mikalai Tsytsarau and Cristian Confalonieri</i><sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></li>
-<li><b>Elastic and scalable processing of Linked Stream Data in the Cloud</b>,<i>Danh Le Phuoc,Hoan Nguyen Mau Quoc,Chan Le Van and Manfred Hauswirth</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Real-time Urban Monitoring in Dublin using Semantic and Stream Technologies</b>,<i>Simone Tallevi-Diotallevi,Spyros Kotoulas,Luca Foschini,Freddy Lecue and Antonio Corradi</i><sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></li>
-<li><b>On Correctness in RDF stream processor benchmarking</b>,<i>Daniele Dell'Aglio,Jean-Paul Calbimonte,Marco Balduini,Oscar Corcho and Emanuele Della Valle</i><sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></li>
-<li><b>Real-time RDF extraction from unstructured data streams</b>,<i>Daniel Gerber,Sebastian Hellmann,Lorenz Bühmann,Tommaso Soru,Axel-Cyrille Ngonga Ngomo and Ricardo Usbeck</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Social listening of City Scale Events using the Streaming Linked Data Framework,
+<span style="color:#666">Marco Balduini,Emanuele Della Valle,Daniele Dell'Aglio,Themis Palpanas,Mikalai Tsytsarau and Cristian Confalonieri</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Elastic and scalable processing of Linked Stream Data in the Cloud,
+<span style="color:#666">Danh Le Phuoc,Hoan Nguyen Mau Quoc,Chan Le Van and Manfred Hauswirth</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Real-time Urban Monitoring in Dublin using Semantic and Stream Technologies,
+<span style="color:#666">Simone Tallevi-Diotallevi,Spyros Kotoulas,Luca Foschini,Freddy Lecue and Antonio Corradi</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">4. On Correctness in RDF stream processor benchmarking,
+<span style="color:#666">Daniele Dell'Aglio,Jean-Paul Calbimonte,Marco Balduini,Oscar Corcho and Emanuele Della Valle</span>
+<sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">5. Real-time RDF extraction from unstructured data streams,
+<span style="color:#666">Daniel Gerber,Sebastian Hellmann,Lorenz Bühmann,Tommaso Soru,Axel-Cyrille Ngonga Ngomo and Ricardo Usbeck</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td>Bayside 202-203</td>
@@ -1057,24 +1338,37 @@ chair: Abraham Bernstein
 </tr>
 <tr>
 <td>11:00 - 12:40</td>
-<td><span style="font-weight:bold">SPARQL</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-thursday#sparql">SPARQL</a>
+</b>
 (Track 2)
+</span>
 
-<div>
-chair: Axel Polleres
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Axel Polleres</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Evaluating and benchmarking SPARQL query containment solvers</b>,<i>Melisachew Wudage Chekol,Jérôme Euzenat,Pierre Genevès and Nabil Layaïda</i><sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></li>
-<li><b>Introducing Statistical Design of Experiments to SPARQL Endpoint Evaluation</b>,<i>Kjetil Kjernsmo and John S. Tyssedal</i><sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></li>
-<li><b>FedSearch: efficiently combining structured queries and full-text search in a SPARQL federation</b>,<i>Andriy Nikolov,Andreas Schwarte and Christian Hütter</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>SPARQL Web-Querying Infrastructure: Ready for Action?</b>,<i>Carlos Buil-Aranda,Aidan Hogan,Jürgen Umbrich and Pierre-Yves Vandenbussche</i><sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></li>
-<li><b>NoSQL Databases for RDF: An Empirical Evaluation</b>,<i>Philippe Cudré-Mauroux,Iliya Enchev,Sever Fundatureanu,Paul Groth,Albert Haque,Andreas Harth,Felix Leif Keppmann,Daniel Miranker,Juan Sequeda and Marcin Wylot</i><sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Evaluating and benchmarking SPARQL query containment solvers,
+<span style="color:#666">Melisachew Wudage Chekol,Jérôme Euzenat,Pierre Genevès and Nabil Layaïda</span>
+<sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Introducing Statistical Design of Experiments to SPARQL Endpoint Evaluation,
+<span style="color:#666">Kjetil Kjernsmo and John S. Tyssedal</span>
+<sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. FedSearch: efficiently combining structured queries and full-text search in a SPARQL federation,
+<span style="color:#666">Andriy Nikolov,Andreas Schwarte and Christian Hütter</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">4. SPARQL Web-Querying Infrastructure: Ready for Action?,
+<span style="color:#666">Carlos Buil-Aranda,Aidan Hogan,Jürgen Umbrich and Pierre-Yves Vandenbussche</span>
+<sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">5. NoSQL Databases for RDF: An Empirical Evaluation,
+<span style="color:#666">Philippe Cudré-Mauroux,Iliya Enchev,Sever Fundatureanu,Paul Groth,Albert Haque,Andreas Harth,Felix Leif Keppmann,Daniel Miranker,Juan Sequeda and Marcin Wylot</span>
+<sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></div>
+
 </td>
 
 <td>Bayside 204A</td>
@@ -1082,24 +1376,37 @@ chair: Axel Polleres
 </tr>
 <tr>
 <td>11:00 - 12:40</td>
-<td><span style="font-weight:bold">Data Management & Exploration</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-thursday#data">Data Management & Exploration</a>
+</b>
 (Track 3)
+</span>
 
-<div>
-chair: Sofia Pinto
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sofia Pinto</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Exploring Scholarly Data with Rexplore</b>,<i>Francesco Osborne,Enrico Motta and Paul Mulholland</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Publishing the Norwegian Petroleum Directorate’s FactPages as Semantic Web Data</b>,<i>Martin G. Skjæveland,Espen H. Lian and Ian Horrocks</i><sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></li>
-<li><b>Using Linked Data to evaluate the impact of Research and Development in Europe: a Structural Equation Model</b>,<i>Amrapali Zaveri,Joao Ricardo Nickenig Vissoci,Cinzia Daraio and Ricardo Pietrobon</i><sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></li>
-<li><b>Infrastructure for Efficient Exploration of Large Scale Linked Data via Contextual Tag Clouds</b>,<i>Xingjian Zhang,Dezhao Song,Sambhawa Priya and Jeff Heflin</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>The Energy Management Adviser at EDF</b>,<i>Pierre Chaussecourte,Birte Glimm,Ian Horrocks,Boris Motik and Laurent Pierre</i><sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Exploring Scholarly Data with Rexplore,
+<span style="color:#666">Francesco Osborne,Enrico Motta and Paul Mulholland</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Publishing the Norwegian Petroleum Directorate’s FactPages as Semantic Web Data,
+<span style="color:#666">Martin G. Skjæveland,Espen H. Lian and Ian Horrocks</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Using Linked Data to evaluate the impact of Research and Development in Europe: a Structural Equation Model,
+<span style="color:#666">Amrapali Zaveri,Joao Ricardo Nickenig Vissoci,Cinzia Daraio and Ricardo Pietrobon</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">4. Infrastructure for Efficient Exploration of Large Scale Linked Data via Contextual Tag Clouds,
+<span style="color:#666">Xingjian Zhang,Dezhao Song,Sambhawa Priya and Jeff Heflin</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">5. The Energy Management Adviser at EDF,
+<span style="color:#666">Pierre Chaussecourte,Birte Glimm,Ian Horrocks,Boris Motik and Laurent Pierre</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></div>
+
 </td>
 
 <td>Bayside 204B</td>
@@ -1107,15 +1414,17 @@ chair: Sofia Pinto
 </tr>
 <tr>
 <td>12:40 - 14:20</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Parkside Ballroom Foyer</td>
@@ -1123,15 +1432,17 @@ chair: Sofia Pinto
 </tr>
 <tr>
 <td>12:40 - 14:20</td>
-<td><span style="font-weight:bold">Mentoring Lunch</span> 
+<td><span><b style="font-size:110%">
+
+
+Mentoring Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Invitation only</td>
@@ -1139,16 +1450,19 @@ chair: Sofia Pinto
 </tr>
 <tr>
 <td>14:20 - 15:00</td>
-<td><span style="font-weight:bold">Semantic Web Challenge 1</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://challenge.semanticweb.org/2013/">Semantic Web Challenge 1</a>
+</b>
 (Track 1)
+</span>
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Bayside 202-203</td>
@@ -1156,21 +1470,28 @@ chair: Sofia Pinto
 </tr>
 <tr>
 <td>14:20 - 15:00</td>
-<td><span style="font-weight:bold">Multilingual Semantics</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-thursday#lingua">Multilingual Semantics</a>
+</b>
 (Track 2)
+</span>
 
-<div>
-chair: Asunción Gómez-Pérez
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Asunción Gómez-Pérez</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Towards an automatic creation of localized versions of DBpedia</b>,<i>Alessio Palmero Aprosio,Claudio Giuliano and Alberto Lavelli</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Cross-language Semantic Retrieval and Linking of E-gov Services</b>,<i>Fedelucio Narducci,Matteo Palmonari and Giovanni Semeraro</i><sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Towards an automatic creation of localized versions of DBpedia,
+<span style="color:#666">Alessio Palmero Aprosio,Claudio Giuliano and Alberto Lavelli</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Cross-language Semantic Retrieval and Linking of E-gov Services,
+<span style="color:#666">Fedelucio Narducci,Matteo Palmonari and Giovanni Semeraro</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></div>
+
 </td>
 
 <td>Bayside 204A</td>
@@ -1178,21 +1499,28 @@ chair: Asunción Gómez-Pérez
 </tr>
 <tr>
 <td>14:20 - 15:00</td>
-<td><span style="font-weight:bold">Logic 1</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-thursday#dl1">Logic 1</a>
+</b>
 (Track 3)
+</span>
 
-<div>
-chair: Jeff Z. Pan
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Jeff Z. Pan</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Simplifying Description Logic Ontologies</b>,<i>Nadeschda Nikitina and Sven Schewe</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>The Logic of Extensional RDFS</b>,<i>Enrico Franconi,Claudio Gutierrez,Alessandro Mosca,Giuseppe Pirrò and Riccardo Rosati</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Simplifying Description Logic Ontologies,
+<span style="color:#666">Nadeschda Nikitina and Sven Schewe</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. The Logic of Extensional RDFS,
+<span style="color:#666">Enrico Franconi,Claudio Gutierrez,Alessandro Mosca,Giuseppe Pirrò and Riccardo Rosati</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td>Bayside 204B</td>
@@ -1200,15 +1528,17 @@ chair: Jeff Z. Pan
 </tr>
 <tr>
 <td>15:00 - 15:15</td>
-<td><span style="font-weight:bold">Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1216,16 +1546,19 @@ chair: Jeff Z. Pan
 </tr>
 <tr>
 <td>15:15 - 16:15</td>
-<td><span style="font-weight:bold">Semantic Web Challenge 2</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://challenge.semanticweb.org/2013/">Semantic Web Challenge 2</a>
+</b>
 (Track 1)
+</span>
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Bayside 202-203</td>
@@ -1233,19 +1566,21 @@ chair: Jeff Z. Pan
 </tr>
 <tr>
 <td>15:15 - 16:15</td>
-<td><span style="font-weight:bold">Workshop Summaries</span> 
+<td><span><b style="font-size:110%">
 
+
+Workshop Summaries
+</b>
 (Track 2)
+</span>
 
-<div>
-chair: Ben Johnston
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Ben Johnston</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Bayside 204A</td>
@@ -1253,21 +1588,28 @@ chair: Ben Johnston
 </tr>
 <tr>
 <td>15:15 - 16:15</td>
-<td><span style="font-weight:bold">Logic 2</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-thursday#dl2">Logic 2</a>
+</b>
 (Track 3)
+</span>
 
-<div>
-chair: Jeff Z. Pan
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Jeff Z. Pan</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>A decision procedure for SHOIQ with transitive closure of roles</b>,<i>Chan Le Duc,Myriam Lamolle and Olivier Curé</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Empirical Study of Logic-Based Modules: Cheap Is Cheerful</b>,<i>Chiara Del Vescovo,Pavel Klinov,Bijan Parsia,Ulrike Sattler,Thomas Schneider and Dmitry Tsarkov</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. A decision procedure for SHOIQ with transitive closure of roles,
+<span style="color:#666">Chan Le Duc,Myriam Lamolle and Olivier Curé</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Empirical Study of Logic-Based Modules: Cheap Is Cheerful,
+<span style="color:#666">Chiara Del Vescovo,Pavel Klinov,Bijan Parsia,Ulrike Sattler,Thomas Schneider and Dmitry Tsarkov</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td>Bayside 204B</td>
@@ -1275,15 +1617,17 @@ chair: Jeff Z. Pan
 </tr>
 <tr>
 <td>16:15 - 16:55</td>
-<td><span style="font-weight:bold">Afternoon Tea</span> 
+<td><span><b style="font-size:110%">
+
+
+Afternoon Tea
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Bayside 2 foyer</td>
@@ -1291,15 +1635,17 @@ chair: Jeff Z. Pan
 </tr>
 <tr>
 <td>16:30 - 17:30</td>
-<td><span style="font-weight:bold">Town Hall</span> 
+<td><span><b style="font-size:110%">
+
+
+Town Hall
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Bayside 202-203</td>
@@ -1307,15 +1653,17 @@ chair: Jeff Z. Pan
 </tr>
 <tr>
 <td>19:00 - 22:15</td>
-<td><span style="font-weight:bold">Dinner Cruise</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://iswc2013.semanticweb.org/content/conference-dinner-sydney-harbour-cruise">Dinner Cruise</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>King Street Wharf</td>
@@ -1326,22 +1674,24 @@ chair: Jeff Z. Pan
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>07:30 - 19:00</td>
-<td><span style="font-weight:bold">Registration</span> 
+<td><span><b style="font-size:110%">
+
+
+Registration
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Foyer</td>
@@ -1349,15 +1699,17 @@ chair: Jeff Z. Pan
 </tr>
 <tr>
 <td>09:00 - 09:15</td>
-<td><span style="font-weight:bold">Announcements</span> 
+<td><span><b style="font-size:110%">
+
+
+Announcements
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Parkside  Ballroom B</td>
@@ -1365,21 +1717,24 @@ chair: Jeff Z. Pan
 </tr>
 <tr>
 <td>09:15 - 10:15</td>
-<td><span style="font-weight:bold">Semantic Big Data in Australia - from Dingoes to Drysdale</span> 
+<td><span><b style="font-size:110%">
 
+InvitedTalk:
 
-<div>
-chair: Kerry Taylor
+<a href="http://iswc2013.semanticweb.org/content/keynote-jane-hunter">Semantic Big Data in Australia - from Dingoes to Drysdale</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Kerry Taylor</span>
 </div>
 
-<div>
-presenter: Jane Hunter
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Jane Hunter</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Parkside  Ballroom B</td>
@@ -1387,15 +1742,17 @@ presenter: Jane Hunter
 </tr>
 <tr>
 <td>10:15 - 11:00</td>
-<td><span style="font-weight:bold">Morning Tea</span> 
+<td><span><b style="font-size:110%">
+
+
+Morning Tea
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Parkside Ballroom Foyer</td>
@@ -1403,24 +1760,37 @@ presenter: Jane Hunter
 </tr>
 <tr>
 <td>11:00 - 12:50</td>
-<td><span style="font-weight:bold">Ontology Mapping</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-friday#om">Ontology Mapping</a>
+</b>
 (Track 1)
+</span>
 
-<div>
-chair: Jérôme Euzenat
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Jérôme Euzenat</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Indented Tree or Graph? A Usability Study of Ontology Visualization Techniques in the Context of Class Mapping Evaluation</b>,<i>Bo Fu,Natalya F. Noy and Margaret-Anne Storey</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>String Similarity Metrics for Ontology Alignment</b>,<i>Michelle Cheatham and Pascal Hitzler</i><sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></li>
-<li><b>Evaluation measures for ontology matchers in supervised matching scenarios</b>,<i>Dominique Ritze,Heiko Paulheim and Kai Eckert</i><sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></li>
-<li><b>QODI: Query as Context in Automatic Data Integration</b>,<i>Aibo Tian,Juan F. Sequeda and Daniel Miranker</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>What's in a 'nym'? Synonyms in Biomedical Ontology Matching</b>,<i>Catia Pesquita,Cosmin Stroe,Daniel Faria,Emanuel Santos,Isabel Cruz and Francisco Couto</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Indented Tree or Graph? A Usability Study of Ontology Visualization Techniques in the Context of Class Mapping Evaluation,
+<span style="color:#666">Bo Fu,Natalya F. Noy and Margaret-Anne Storey</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. String Similarity Metrics for Ontology Alignment,
+<span style="color:#666">Michelle Cheatham and Pascal Hitzler</span>
+<sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Evaluation measures for ontology matchers in supervised matching scenarios,
+<span style="color:#666">Dominique Ritze,Heiko Paulheim and Kai Eckert</span>
+<sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">4. QODI: Query as Context in Automatic Data Integration,
+<span style="color:#666">Aibo Tian,Juan F. Sequeda and Daniel Miranker</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">5. What's in a 'nym'? Synonyms in Biomedical Ontology Matching,
+<span style="color:#666">Catia Pesquita,Cosmin Stroe,Daniel Faria,Emanuel Santos,Isabel Cruz and Francisco Couto</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td>Bayside 202-203</td>
@@ -1428,24 +1798,37 @@ chair: Jérôme Euzenat
 </tr>
 <tr>
 <td>11:00 - 12:50</td>
-<td><span style="font-weight:bold">Query</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-friday#query">Query</a>
+</b>
 (Track 2)
+</span>
 
-<div>
-chair: Philippe Cudré-Mauroux
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Philippe Cudré-Mauroux</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Complete Query Answering Over Horn Ontologies Using a Triple Store</b>,<i>Yujiao Zhou,Yavor Nenov,Bernardo Cuenca Grau and Ian Horrocks</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>DAW: Duplicate-AWare Federated Query Processing over the Web of Data</b>,<i>Muhammad Saleem,Axel-Cyrille Ngonga Ngomo,Josiane Xavier Parreira,Helena Deus and Manfred Hauswirth</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Towards a systematic benchmarking of ontology-based query rewriting systems</b>,<i>Jose Mora and Oscar Corcho</i><sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></li>
-<li><b>Personalized Best Answer Computation in Graph Databases</b>,<i>Michael Ovelgönne,Noseong Park,V.S. Subrahmanian,Elizabeth K. Bowman and Kirk A. Ogaard</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Controlled Query Evaluation over OWL 2 RL Ontologies</b>,<i>Bernardo Cuenca Grau,Evgeny Kharlamov,Egor V. Kostylev and Dmitriy Zheleznyakov</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Complete Query Answering Over Horn Ontologies Using a Triple Store,
+<span style="color:#666">Yujiao Zhou,Yavor Nenov,Bernardo Cuenca Grau and Ian Horrocks</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. DAW: Duplicate-AWare Federated Query Processing over the Web of Data,
+<span style="color:#666">Muhammad Saleem,Axel-Cyrille Ngonga Ngomo,Josiane Xavier Parreira,Helena Deus and Manfred Hauswirth</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Towards a systematic benchmarking of ontology-based query rewriting systems,
+<span style="color:#666">Jose Mora and Oscar Corcho</span>
+<sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">4. Personalized Best Answer Computation in Graph Databases,
+<span style="color:#666">Michael Ovelgönne,Noseong Park,V.S. Subrahmanian,Elizabeth K. Bowman and Kirk A. Ogaard</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">5. Controlled Query Evaluation over OWL 2 RL Ontologies,
+<span style="color:#666">Bernardo Cuenca Grau,Evgeny Kharlamov,Egor V. Kostylev and Dmitriy Zheleznyakov</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td>Bayside 204A</td>
@@ -1453,24 +1836,37 @@ chair: Philippe Cudré-Mauroux
 </tr>
 <tr>
 <td>11:00 - 12:50</td>
-<td><span style="font-weight:bold">Knowledge Discovery</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-friday#kd">Knowledge Discovery</a>
+</b>
 (Track 3)
+</span>
 
-<div>
-chair: Marko Grobelnik
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Marko Grobelnik</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>TRM – Learning Dependencies between Text and Structure with Topical Relational Models</b>,<i>Veli Bicer,Thanh Tran and Yongtao Ma</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Pattern Based Knowledge Base Enrichment</b>,<i>Lorenz Bühmann and Jens Lehmann</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Discovering Missing Semantic Relations between Entities in Wikipedia</b>,<i>Mengling Xu,Zhichun Wang,Rongfang Bie,Juanzi Li,Chen Zheng,Wantian Ke and Mingquan Zhou</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Using the past to explain the present: interlinking current affairs with archives via the Semantic Web</b>,<i>Yves Raimond,Michael Smethurst,Andrew McParland and Christopher Lowis</i><sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></li>
-<li><b>A Graph-Based Approach to Learn Semantic Descriptions of Data Sources</b>,<i>Mohsen Taheriyan,Craig Knoblock,Pedro Szekely and José Luis Ambite</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. TRM – Learning Dependencies between Text and Structure with Topical Relational Models,
+<span style="color:#666">Veli Bicer,Thanh Tran and Yongtao Ma</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Pattern Based Knowledge Base Enrichment,
+<span style="color:#666">Lorenz Bühmann and Jens Lehmann</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Discovering Missing Semantic Relations between Entities in Wikipedia,
+<span style="color:#666">Mengling Xu,Zhichun Wang,Rongfang Bie,Juanzi Li,Chen Zheng,Wantian Ke and Mingquan Zhou</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">4. Using the past to explain the present: interlinking current affairs with archives via the Semantic Web,
+<span style="color:#666">Yves Raimond,Michael Smethurst,Andrew McParland and Christopher Lowis</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">5. A Graph-Based Approach to Learn Semantic Descriptions of Data Sources,
+<span style="color:#666">Mohsen Taheriyan,Craig Knoblock,Pedro Szekely and José Luis Ambite</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td>Bayside 204B</td>
@@ -1478,15 +1874,17 @@ chair: Marko Grobelnik
 </tr>
 <tr>
 <td>12:50 - 14:20</td>
-<td><span style="font-weight:bold">ISWC2014 Lunch</span> 
+<td><span><b style="font-size:110%">
+
+
+ISWC2014 Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Invitation only</td>
@@ -1494,15 +1892,17 @@ chair: Marko Grobelnik
 </tr>
 <tr>
 <td>12:50 - 14:20</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Parkside Ballroom Foyer</td>
@@ -1510,21 +1910,28 @@ chair: Marko Grobelnik
 </tr>
 <tr>
 <td>14:20 - 15:00</td>
-<td><span style="font-weight:bold">Linked Data 1</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-friday#ld1">Linked Data 1</a>
+</b>
 (Track 1)
+</span>
 
-<div>
-chair: Mathieu D'Aquin
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Mathieu D'Aquin</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Secure Manipulation of Linked Data</b>,<i>Sabrina Kirrane,Ahmed Abdelrahman,Alessandra Mileo and Stefan Decker</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Incorporating Commercial and Private Data into an Open Linked Data Platform for Drug Discovery</b>,<i>Carole Goble,Alasdair J. G. Gray,Lee Harland,Karen Karapetyan,Antonis Loizou,Ivan Mikhailov,Yrjana Rankka,Stefan Senger,Valery Tkachenko,Antony Williams and Egon Willighagen</i><sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Secure Manipulation of Linked Data,
+<span style="color:#666">Sabrina Kirrane,Ahmed Abdelrahman,Alessandra Mileo and Stefan Decker</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Incorporating Commercial and Private Data into an Open Linked Data Platform for Drug Discovery,
+<span style="color:#666">Carole Goble,Alasdair J. G. Gray,Lee Harland,Karen Karapetyan,Antonis Loizou,Ivan Mikhailov,Yrjana Rankka,Stefan Senger,Valery Tkachenko,Antony Williams and Egon Willighagen</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></div>
+
 </td>
 
 <td>Bayside 202-203</td>
@@ -1532,21 +1939,28 @@ chair: Mathieu D'Aquin
 </tr>
 <tr>
 <td>14:20 - 15:00</td>
-<td><span style="font-weight:bold">Licensing and Confidentiality Models</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-friday#lic">Licensing and Confidentiality Models</a>
+</b>
 (Track 2)
+</span>
 
-<div>
-chair: Axel Polleres
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Axel Polleres</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>One License to Compose Them All: a deontic logic approach to data licensing on the Web of Data</b>,<i>Guido Governatori,Antonino Rotolo,Serena Villata and Fabien Gandon</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>A Confidentiality Model for Ontologies</b>,<i>Piero Bonatti and Luigi Sauro</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. One License to Compose Them All: a deontic logic approach to data licensing on the Web of Data,
+<span style="color:#666">Guido Governatori,Antonino Rotolo,Serena Villata and Fabien Gandon</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. A Confidentiality Model for Ontologies,
+<span style="color:#666">Piero Bonatti and Luigi Sauro</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td>Bayside 204A</td>
@@ -1554,21 +1968,28 @@ chair: Axel Polleres
 </tr>
 <tr>
 <td>14:20 - 15:00</td>
-<td><span style="font-weight:bold">Crowd-sourced semantics</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-friday#crowd">Crowd-sourced semantics</a>
+</b>
 (Track 3)
+</span>
 
-<div>
-chair: Lora Aroyo
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Lora Aroyo</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Reasoning on crowd-sourced semantic annotations to facilitate cataloguing of 3D artefacts in the cultural heritage domain</b>,<i>Chih-Hao Yu,Tudor Groza and Jane Hunter</i><sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></li>
-<li><b>Crowdsourcing Linked Data Quality Assessment</b>,<i>Maribel Acosta,Amrapali Zaveri,Elena Simperl,Dimitris Kontokostas,Sören Auer and Jens Lehmann</i><sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Reasoning on crowd-sourced semantic annotations to facilitate cataloguing of 3D artefacts in the cultural heritage domain,
+<span style="color:#666">Chih-Hao Yu,Tudor Groza and Jane Hunter</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Crowdsourcing Linked Data Quality Assessment,
+<span style="color:#666">Maribel Acosta,Amrapali Zaveri,Elena Simperl,Dimitris Kontokostas,Sören Auer and Jens Lehmann</span>
+<sup><span style="color:DarkRed">Evaluation Track Paper</span></sup></div>
+
 </td>
 
 <td>Bayside 204B</td>
@@ -1576,15 +1997,17 @@ chair: Lora Aroyo
 </tr>
 <tr>
 <td>15:00 - 15:15</td>
-<td><span style="font-weight:bold">Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1592,22 +2015,31 @@ chair: Lora Aroyo
 </tr>
 <tr>
 <td>15:15 - 16:15</td>
-<td><span style="font-weight:bold">Linked Data 2</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-friday#ld2">Linked Data 2</a>
+</b>
 (Track 1)
+</span>
 
-<div>
-chair: Fabien Gandon
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Fabien Gandon</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Semantic Message Passing for Generating Linked Data from Tables</b>,<i>Varish Mulwad,Tim Finin and Anupam Joshi</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>A Linked-Data-driven and Semantically-enabled Journal Portal for Scientometrics</b>,<i>Yingjie Hu,Krzysztof Janowicz,Grant Mckenzie,Kunal Sengupta and Pascal Hitzler</i><sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></li>
-<li><b>TRank: Ranking Entity Types Using the Web of Data</b>,<i>Alberto Tonon,Michele Catasta,Gianluca Demartini,Philippe Cudré-Mauroux and Karl Aberer</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Semantic Message Passing for Generating Linked Data from Tables,
+<span style="color:#666">Varish Mulwad,Tim Finin and Anupam Joshi</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. A Linked-Data-driven and Semantically-enabled Journal Portal for Scientometrics,
+<span style="color:#666">Yingjie Hu,Krzysztof Janowicz,Grant Mckenzie,Kunal Sengupta and Pascal Hitzler</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. TRank: Ranking Entity Types Using the Web of Data,
+<span style="color:#666">Alberto Tonon,Michele Catasta,Gianluca Demartini,Philippe Cudré-Mauroux and Karl Aberer</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td>Bayside 202-203</td>
@@ -1615,22 +2047,31 @@ chair: Fabien Gandon
 </tr>
 <tr>
 <td>15:15 - 16:15</td>
-<td><span style="font-weight:bold">Knowledge Extraction</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-friday#extrac">Knowledge Extraction</a>
+</b>
 (Track 2)
+</span>
 
-<div>
-chair: Axel-Cyrille Ngonga Ngomo
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Axel-Cyrille Ngonga Ngomo</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Knowledge Graph Identification</b>,<i>Jay Pujara,Hui Miao,Lise Getoor and William Cohen</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Type Inference on Noisy RDF Data</b>,<i>Heiko Paulheim and Christian Bizer</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Statistical Knowledge Patterns: Identifying Synonymous Relations in Large Linked Datasets</b>,<i>Ziqi Zhang,Anna Lisa Gentile,Eva Blomqvist,Isabelle Augenstein and Fabio Ciravegna</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Knowledge Graph Identification,
+<span style="color:#666">Jay Pujara,Hui Miao,Lise Getoor and William Cohen</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Type Inference on Noisy RDF Data,
+<span style="color:#666">Heiko Paulheim and Christian Bizer</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Statistical Knowledge Patterns: Identifying Synonymous Relations in Large Linked Datasets,
+<span style="color:#666">Ziqi Zhang,Anna Lisa Gentile,Eva Blomqvist,Isabelle Augenstein and Fabio Ciravegna</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td>Bayside 204A</td>
@@ -1638,22 +2079,31 @@ chair: Axel-Cyrille Ngonga Ngomo
 </tr>
 <tr>
 <td>15:15 - 16:15</td>
-<td><span style="font-weight:bold">Data Access</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+<a href="http://iswc2013.semanticweb.org/content/program-friday#access">Data Access</a>
+</b>
 (Track 3)
+</span>
 
-<div>
-chair: Oscar Corcho
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Oscar Corcho</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>ProSWIP: Property-based Data Access for Semantic Web Interactive Programming</b>,<i>Silviu Homoceanu,Philipp Wille and Wolf-Tilo Balke</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Ontology-Based Data Access: Ontop of Databases</b>,<i>Mariano Rodriguez-Muro,Roman Kontchakov and Michael Zakharyaschev</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>The Combined Approach to OBDA: Taming Role Hierarchies using Filters</b>,<i>Carsten Lutz,Inanc Seylan,David Toman and Frank Wolter</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. ProSWIP: Property-based Data Access for Semantic Web Interactive Programming,
+<span style="color:#666">Silviu Homoceanu,Philipp Wille and Wolf-Tilo Balke</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Ontology-Based Data Access: Ontop of Databases,
+<span style="color:#666">Mariano Rodriguez-Muro,Roman Kontchakov and Michael Zakharyaschev</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. The Combined Approach to OBDA: Taming Role Hierarchies using Filters,
+<span style="color:#666">Carsten Lutz,Inanc Seylan,David Toman and Frank Wolter</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td>Bayside 204B</td>
@@ -1661,15 +2111,17 @@ chair: Oscar Corcho
 </tr>
 <tr>
 <td>16:15 - 16:55</td>
-<td><span style="font-weight:bold">Afternoon Tea</span> 
+<td><span><b style="font-size:110%">
+
+
+Afternoon Tea
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Basyside 2 Foyer</td>
@@ -1677,15 +2129,17 @@ chair: Oscar Corcho
 </tr>
 <tr>
 <td>16:55 - 18:05</td>
-<td><span style="font-weight:bold">Closing Ceremony</span> 
+<td><span><b style="font-size:110%">
+
+
+Closing Ceremony
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td>Bayside 201-203</td>

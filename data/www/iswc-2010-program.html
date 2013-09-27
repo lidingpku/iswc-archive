@@ -13,6 +13,87 @@
 	version='XHTML+RDFa 1.0' typeof='foaf:Document'>
 <head>
     <title></title>
+<style>
+
+table {
+    *border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    width: 100%;
+
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+}
+
+tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+td, th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+td:first-child, th:first-child {
+    border-left: none;
+}
+
+th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+</style>
 </head>
 <body>
 
@@ -22,22 +103,25 @@
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>07:00 - 09:00</td>
-<td><span style="font-weight:bold">Breakfast</span> 
+<td><span><b style="font-size:110%">
+
+Meal:
+
+Breakfast
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -45,15 +129,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">1st International Workshop on Semantic Repositories for the Web</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://www.ontologydynamics.org/od/index.php/seres2010/">1st International Workshop on Semantic Repositories for the Web</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -61,15 +148,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">2nd International Workshop on the role of Semantic Web in Provenance Management</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://wiki.knoesis.org/index.php/SWPM-2010">2nd International Workshop on the role of Semantic Web in Provenance Management</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -77,15 +167,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">3rd International Workshop on Semantic Sensor Networks</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://research.ict.csiro.au/conferences/ssn/ssn10">3rd International Workshop on Semantic Sensor Networks</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -93,15 +186,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">6th International Workshop on Uncertainty Reasoning for the Semantic Web</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://c4i.gmu.edu/ursw/2010/">6th International Workshop on Uncertainty Reasoning for the Semantic Web</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -109,15 +205,17 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Introduction to the Semantic Web</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://people.csail.mit.edu/pcm/SemWebTutorial.html">Introduction to the Semantic Web</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -125,15 +223,17 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">OWL 2 - Theory and Practice</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://semantic-web-book.org/page/ISWC2010_Tutorial">OWL 2 - Theory and Practice</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -141,15 +241,17 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Ten Ways to Make your Semantic App Addictive</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://www.insemtives.eu/iswc2010-tutorial/">Ten Ways to Make your Semantic App Addictive</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -157,15 +259,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">The 5th International Workshop on Ontology Matching</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://om2010.ontologymatching.org/">The 5th International Workshop on Ontology Matching</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -173,15 +278,17 @@
 </tr>
 <tr>
 <td>09:00 - 12:30</td>
-<td><span style="font-weight:bold">Linked Open Services</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://www.linkedopenservices.org/events/tutorials/ISWC2010/">Linked Open Services</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -189,15 +296,18 @@
 </tr>
 <tr>
 <td>12:30 - 14:00</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+Meal:
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -205,15 +315,18 @@
 </tr>
 <tr>
 <td>14:00 - 17:30</td>
-<td><span style="font-weight:bold">2010 Workshop on Cross-Cultural and Cross-Lingual Aspects of the Semantic Web</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://c3lsw2010.info/">2010 Workshop on Cross-Cultural and Cross-Lingual Aspects of the Semantic Web</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -224,22 +337,25 @@
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>07:00 - 09:00</td>
-<td><span style="font-weight:bold">Breakfast</span> 
+<td><span><b style="font-size:110%">
+
+Meal:
+
+Breakfast
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -247,15 +363,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">2nd Workshop on Ontology Patterns</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://ontologydesignpatterns.org/wiki/WOP:2010">2nd Workshop on Ontology Patterns</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -263,15 +382,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">3rd International Workshop on Social Data on the Web</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://sdow.semanticweb.org/2010/">3rd International Workshop on Social Data on the Web</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -279,15 +401,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">4th International Workshop on Ontology Dynamics</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://www.ontologydynamics.org/od/index.php/iwod/iwod2010">4th International Workshop on Ontology Dynamics</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -295,15 +420,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Fourth International Workshop on Service Matchmaking and Resource Retrieval in the Semantic Web</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://www-ags.dfki.uni-sb.de/~klusch/smr2-10/">Fourth International Workshop on Service Matchmaking and Resource Retrieval in the Semantic Web</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -311,15 +439,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">International Workshop on Evaluation of Semantic Technologies</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://oeg-lia3.dia.fi.upm.es/iwest2010/">International Workshop on Evaluation of Semantic Technologies</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -327,15 +458,17 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Linked Data for eGovernment</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://latc-project.eu/events/2010/iswc-ld4egov">Linked Data for eGovernment</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -343,15 +476,17 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Semantic Search Tutorial</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://events.kmi.open.ac.uk/ssearch/">Semantic Search Tutorial</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -359,15 +494,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">The 6th International Workshop on Scalable Semantic Web Knowledge Base Systems</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://www.cse.lehigh.edu/~yug2/ssws10/home.htm">The 6th International Workshop on Scalable Semantic Web Knowledge Base Systems</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -375,15 +513,17 @@
 </tr>
 <tr>
 <td>09:00 - 12:30</td>
-<td><span style="font-weight:bold">Combine the Web of Data and the Web of Documents (RDFa and Drupal 7)</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://www.w3.org/2010/Talks/RDFa-Drupal-Tutorial/">Combine the Web of Data and the Web of Documents (RDFa and Drupal 7)</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -391,15 +531,18 @@
 </tr>
 <tr>
 <td>12:30 - 14:00</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+Meal:
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -407,15 +550,18 @@
 </tr>
 <tr>
 <td>14:00 - 17:30</td>
-<td><span style="font-weight:bold">First International Workshop on Consuming Linked Data</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://consuminglinkeddata.org/COLD2010/">First International Workshop on Consuming Linked Data</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -423,15 +569,17 @@
 </tr>
 <tr>
 <td>14:00 - 17:30</td>
-<td><span style="font-weight:bold">Web Rules: Fundamentals, Applications, and Standards</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://www.mit.edu/~bgrosof#ISWC2010RulesTutorial">Web Rules: Fundamentals, Applications, and Standards</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -442,22 +590,25 @@
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>07:00 - 09:00</td>
-<td><span style="font-weight:bold">Breakfast</span> 
+<td><span><b style="font-size:110%">
+
+Meal:
+
+Breakfast
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -465,15 +616,18 @@
 </tr>
 <tr>
 <td>08:30 - 09:00</td>
-<td><span style="font-weight:bold">Opening Ceremonies</span> 
+<td><span><b style="font-size:110%">
+
+Academic:
+
+Opening Ceremonies
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -481,19 +635,24 @@
 </tr>
 <tr>
 <td>09:00 - 10:00</td>
-<td><span style="font-weight:bold">Invited Talk: mc schrafel</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Ian Horrocks
+Invited Talk: mc schrafel
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Ian Horrocks</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>What does It Look Like, Really? Imagining how Citizens might Effectively, Usefully and Easily Find, Explore, Query and Re-present Open/Linked Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. What does It Look Like, Really? Imagining how Citizens might Effectively, Usefully and Easily Find, Explore, Query and Re-present Open/Linked Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -501,15 +660,17 @@ chair: Ian Horrocks
 </tr>
 <tr>
 <td>09:00 - 10:00</td>
-<td><span style="font-weight:bold">What does It Look Like, Really? Imagining how Citizens might Effectively, Usefully and Easily Find, Explore, Query and Re-present Open/Linked Data</span> 
+<td><span><b style="font-size:110%">
+
+
+What does It Look Like, Really? Imagining how Citizens might Effectively, Usefully and Easily Find, Explore, Query and Re-present Open/Linked Data
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -517,15 +678,17 @@ chair: Ian Horrocks
 </tr>
 <tr>
 <td>10:00 - 10:30</td>
-<td><span style="font-weight:bold">Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -533,22 +696,33 @@ chair: Ian Horrocks
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">Doctoral Consortium/1:  Mining and Search</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Huajun Chen
+Doctoral Consortium/1:  Mining and Search
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Huajun Chen</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Exploiting Relation Extraction for Ontology Alignment</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Towards Technology Structure Mining from Scientific Literature</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Towards Semantic Data Mining</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Open Innovation and Semantic Web:	Problem Solver Search on Linked Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Exploiting Relation Extraction for Ontology Alignment,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Towards Technology Structure Mining from Scientific Literature,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Towards Semantic Data Mining,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Open Innovation and Semantic Web:	Problem Solver Search on Linked Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -556,22 +730,33 @@ chair: Huajun Chen
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">In-Use Track/1</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Pascal Hitzler
+In-Use Track/1
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Pascal Hitzler</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Using SPARQL to Test for Lattices: application to quality assurance in biomedical ontologies</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Will Semantic Web Technologies Work for the Development of ICD-11?</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Time-Oriented Question Answering from Clinical Narratives Using Semantic-Web Techniques</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Experience of Using OWL Ontologies for Automated Inference of Routine Pre-Operative Screening Tests</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Using SPARQL to Test for Lattices: application to quality assurance in biomedical ontologies,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Will Semantic Web Technologies Work for the Development of ICD-11?,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Time-Oriented Question Answering from Clinical Narratives Using Semantic-Web Techniques,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Experience of Using OWL Ontologies for Automated Inference of Routine Pre-Operative Screening Tests,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -579,22 +764,33 @@ chair: Pascal Hitzler
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">Research Track: Ontology Evolution</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Eva Blomqvist
+Research Track: Ontology Evolution
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Eva Blomqvist</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Semantic Recognition of Ontology Refactoring</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Forgetting Fragments from Evolving Ontologies</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Evolution of DL-Lite Knowledge Bases</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>EvoPat - Pattern-Based Evolution and Refactoring of RDF Knowledge Bases</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Semantic Recognition of Ontology Refactoring,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Forgetting Fragments from Evolving Ontologies,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Evolution of DL-Lite Knowledge Bases,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. EvoPat - Pattern-Based Evolution and Refactoring of RDF Knowledge Bases,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -602,22 +798,33 @@ chair: Eva Blomqvist
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">Research Track: Proofs, Trust, NLP, Rules</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Vladimir Kolovski
+Research Track: Proofs, Trust, NLP, Rules
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Vladimir Kolovski</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Justification Oriented Proofs in OWL</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Assessing Trust in Uncertain Information</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Supporting Natural Language Processing with Background Knowledge: Coreference Resolution Case</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Declarative Semantics for the Rule Interchange Format Production Rule Dialect</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Justification Oriented Proofs in OWL,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Assessing Trust in Uncertain Information,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Supporting Natural Language Processing with Background Knowledge: Coreference Resolution Case,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Declarative Semantics for the Rule Interchange Format Production Rule Dialect,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -625,23 +832,34 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">Doctoral Consortium/1:  Mining and Search</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Doctoral Consortium/1:  Mining and Search
+</b>
 (Doctoral Consortium Track)
+</span>
 
-<div>
-chair: Huajun Chen
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Huajun Chen</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Exploiting Relation Extraction for Ontology Alignment</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Towards Technology Structure Mining from Scientific Literature</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Towards Semantic Data Mining</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Open Innovation and Semantic Web:	Problem Solver Search on Linked Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Exploiting Relation Extraction for Ontology Alignment,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Towards Technology Structure Mining from Scientific Literature,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Towards Semantic Data Mining,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Open Innovation and Semantic Web:	Problem Solver Search on Linked Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -649,23 +867,34 @@ chair: Huajun Chen
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">In-Use Track/1</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+In-Use Track/1
+</b>
 (In Use Track)
+</span>
 
-<div>
-chair: Pascal Hitzler
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Pascal Hitzler</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Using SPARQL to Test for Lattices: application to quality assurance in biomedical ontologies</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Will Semantic Web Technologies Work for the Development of ICD-11?</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Time-Oriented Question Answering from Clinical Narratives Using Semantic-Web Techniques</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Experience of Using OWL Ontologies for Automated Inference of Routine Pre-Operative Screening Tests</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Using SPARQL to Test for Lattices: application to quality assurance in biomedical ontologies,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Will Semantic Web Technologies Work for the Development of ICD-11?,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Time-Oriented Question Answering from Clinical Narratives Using Semantic-Web Techniques,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Experience of Using OWL Ontologies for Automated Inference of Routine Pre-Operative Screening Tests,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -673,23 +902,34 @@ chair: Pascal Hitzler
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">Research Track: Ontology Evolution</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Research Track: Ontology Evolution
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Eva Blomqvist
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Eva Blomqvist</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Semantic Recognition of Ontology Refactoring</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Forgetting Fragments from Evolving Ontologies</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Evolution of DL-Lite Knowledge Bases</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>EvoPat - Pattern-Based Evolution and Refactoring of RDF Knowledge Bases</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Semantic Recognition of Ontology Refactoring,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Forgetting Fragments from Evolving Ontologies,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Evolution of DL-Lite Knowledge Bases,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. EvoPat - Pattern-Based Evolution and Refactoring of RDF Knowledge Bases,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -697,23 +937,34 @@ chair: Eva Blomqvist
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">Research Track: Proofs, Trust, NLP, Rules</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Research Track: Proofs, Trust, NLP, Rules
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Vladimir Kolovski
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Vladimir Kolovski</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Justification Oriented Proofs in OWL</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Assessing Trust in Uncertain Information</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Supporting Natural Language Processing with Background Knowledge: Coreference Resolution Case</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Declarative Semantics for the Rule Interchange Format Production Rule Dialect</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Justification Oriented Proofs in OWL,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Assessing Trust in Uncertain Information,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Supporting Natural Language Processing with Background Knowledge: Coreference Resolution Case,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Declarative Semantics for the Rule Interchange Format Production Rule Dialect,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -721,15 +972,17 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>10:30 - 11:00</td>
-<td><span style="font-weight:bold">Exploiting Relation Extraction for Ontology Alignment</span> 
+<td><span><b style="font-size:110%">
+
+
+Exploiting Relation Extraction for Ontology Alignment
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -737,15 +990,17 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>10:30 - 11:00</td>
-<td><span style="font-weight:bold">Using SPARQL to Test for Lattices: application to quality assurance in biomedical ontologies</span> 
+<td><span><b style="font-size:110%">
+
+
+Using SPARQL to Test for Lattices: application to quality assurance in biomedical ontologies
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -753,15 +1008,17 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>10:30 - 11:00</td>
-<td><span style="font-weight:bold">Semantic Recognition of Ontology Refactoring</span> 
+<td><span><b style="font-size:110%">
+
+
+Semantic Recognition of Ontology Refactoring
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -769,15 +1026,17 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>10:30 - 11:00</td>
-<td><span style="font-weight:bold">Justification Oriented Proofs in OWL</span> 
+<td><span><b style="font-size:110%">
+
+
+Justification Oriented Proofs in OWL
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -785,15 +1044,17 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>11:00 - 11:30</td>
-<td><span style="font-weight:bold">Towards Technology Structure Mining from Scientific Literature</span> 
+<td><span><b style="font-size:110%">
+
+
+Towards Technology Structure Mining from Scientific Literature
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -801,15 +1062,17 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>11:00 - 11:30</td>
-<td><span style="font-weight:bold">Will Semantic Web Technologies Work for the Development of ICD-11?</span> 
+<td><span><b style="font-size:110%">
+
+
+Will Semantic Web Technologies Work for the Development of ICD-11?
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -817,15 +1080,17 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>11:00 - 11:30</td>
-<td><span style="font-weight:bold">Forgetting Fragments from Evolving Ontologies</span> 
+<td><span><b style="font-size:110%">
+
+
+Forgetting Fragments from Evolving Ontologies
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -833,15 +1098,17 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>11:00 - 11:30</td>
-<td><span style="font-weight:bold">Assessing Trust in Uncertain Information</span> 
+<td><span><b style="font-size:110%">
+
+
+Assessing Trust in Uncertain Information
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -849,15 +1116,17 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>11:30 - 12:00</td>
-<td><span style="font-weight:bold">Towards Semantic Data Mining</span> 
+<td><span><b style="font-size:110%">
+
+
+Towards Semantic Data Mining
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -865,15 +1134,17 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>11:30 - 12:00</td>
-<td><span style="font-weight:bold">Time-Oriented Question Answering from Clinical Narratives Using Semantic-Web Techniques</span> 
+<td><span><b style="font-size:110%">
+
+
+Time-Oriented Question Answering from Clinical Narratives Using Semantic-Web Techniques
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -881,15 +1152,17 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>11:30 - 12:00</td>
-<td><span style="font-weight:bold">Evolution of DL-Lite Knowledge Bases</span> 
+<td><span><b style="font-size:110%">
+
+
+Evolution of DL-Lite Knowledge Bases
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -897,15 +1170,17 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>11:30 - 12:00</td>
-<td><span style="font-weight:bold">Supporting Natural Language Processing with Background Knowledge: Coreference Resolution Case</span> 
+<td><span><b style="font-size:110%">
+
+
+Supporting Natural Language Processing with Background Knowledge: Coreference Resolution Case
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -913,15 +1188,17 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>12:00 - 12:30</td>
-<td><span style="font-weight:bold">Open Innovation and Semantic Web:	Problem Solver Search on Linked Data</span> 
+<td><span><b style="font-size:110%">
+
+
+Open Innovation and Semantic Web:	Problem Solver Search on Linked Data
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -929,15 +1206,17 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>12:00 - 12:30</td>
-<td><span style="font-weight:bold">Experience of Using OWL Ontologies for Automated Inference of Routine Pre-Operative Screening Tests</span> 
+<td><span><b style="font-size:110%">
+
+
+Experience of Using OWL Ontologies for Automated Inference of Routine Pre-Operative Screening Tests
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -945,15 +1224,17 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>12:00 - 12:30</td>
-<td><span style="font-weight:bold">EvoPat - Pattern-Based Evolution and Refactoring of RDF Knowledge Bases</span> 
+<td><span><b style="font-size:110%">
+
+
+EvoPat - Pattern-Based Evolution and Refactoring of RDF Knowledge Bases
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -961,15 +1242,17 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>12:00 - 12:30</td>
-<td><span style="font-weight:bold">Declarative Semantics for the Rule Interchange Format Production Rule Dialect</span> 
+<td><span><b style="font-size:110%">
+
+
+Declarative Semantics for the Rule Interchange Format Production Rule Dialect
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -977,15 +1260,18 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>12:30 - 14:00</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+Meal:
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -993,22 +1279,33 @@ chair: Vladimir Kolovski
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">Doctoral Consortium/2; Semantic Web Applications and Services</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Philippe Cudre Mauroux
+Doctoral Consortium/2; Semantic Web Applications and Services
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Philippe Cudre Mauroux</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Customizing the Composition of Actions, Programs, and Web Services with User Preferences</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Auto-experimentation of KDD Workflows based on Ontological Planning</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Causal Knowledge Modeling for Traditional Chinese Medicine using OWL 2</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Using Multi-Agent Based Middleware to Implement a Distributed Peer-To-Peer Semantic Service Oriented Architecture</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Customizing the Composition of Actions, Programs, and Web Services with User Preferences,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Auto-experimentation of KDD Workflows based on Ontological Planning,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Causal Knowledge Modeling for Traditional Chinese Medicine using OWL 2,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Using Multi-Agent Based Middleware to Implement a Distributed Peer-To-Peer Semantic Service Oriented Architecture,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -1016,18 +1313,21 @@ chair: Philippe Cudre Mauroux
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">In-Use Panel "OWL vs. RIF"</span> 
+<td><span><b style="font-size:110%">
 
+Panel:
 
-<div>
-chair: Sandro Hawke,Ivan Herman
+In-Use Panel "OWL vs. RIF"
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sandro Hawke,Ivan Herman</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -1035,21 +1335,30 @@ chair: Sandro Hawke,Ivan Herman
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">Research Track: Access to Other Kinds of Data</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Manuel Salvadores
+Research Track: Access to Other Kinds of Data
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Manuel Salvadores</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Enabling Ontology-based Access to Streaming Data Sources</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Converting and Annotating Quantitative Data Tables</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>How to Reuse a Faceted Classification and Put it on the Semantic Web</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Enabling Ontology-based Access to Streaming Data Sources,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Converting and Annotating Quantitative Data Tables,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. How to Reuse a Faceted Classification and Put it on the Semantic Web,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -1057,21 +1366,30 @@ chair: Manuel Salvadores
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">Research Track: Query Languages</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Kemafor Anyanwu
+Research Track: Query Languages
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Kemafor Anyanwu</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>AnQL: SPARQLing up annotated RDF</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>SPARQL Beyond Subgraph Matching</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Combining Approximation and Relaxation in SemanticWeb Path Queries</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. AnQL: SPARQLing up annotated RDF,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. SPARQL Beyond Subgraph Matching,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Combining Approximation and Relaxation in SemanticWeb Path Queries,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -1079,23 +1397,34 @@ chair: Kemafor Anyanwu
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">Doctoral Consortium/2; Semantic Web Applications and Services</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Doctoral Consortium/2; Semantic Web Applications and Services
+</b>
 (Doctoral Consortium Track)
+</span>
 
-<div>
-chair: Philippe Cudre Mauroux
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Philippe Cudre Mauroux</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Customizing the Composition of Actions, Programs, and Web Services with User Preferences</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Auto-experimentation of KDD Workflows based on Ontological Planning</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Causal Knowledge Modeling for Traditional Chinese Medicine using OWL 2</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Using Multi-Agent Based Middleware to Implement a Distributed Peer-To-Peer Semantic Service Oriented Architecture</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Customizing the Composition of Actions, Programs, and Web Services with User Preferences,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Auto-experimentation of KDD Workflows based on Ontological Planning,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Causal Knowledge Modeling for Traditional Chinese Medicine using OWL 2,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Using Multi-Agent Based Middleware to Implement a Distributed Peer-To-Peer Semantic Service Oriented Architecture,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -1103,22 +1432,31 @@ chair: Philippe Cudre Mauroux
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">Research Track: Access to Other Kinds of Data</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Research Track: Access to Other Kinds of Data
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Manuel Salvadores
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Manuel Salvadores</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Enabling Ontology-based Access to Streaming Data Sources</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Converting and Annotating Quantitative Data Tables</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>How to Reuse a Faceted Classification and Put it on the Semantic Web</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Enabling Ontology-based Access to Streaming Data Sources,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Converting and Annotating Quantitative Data Tables,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. How to Reuse a Faceted Classification and Put it on the Semantic Web,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -1126,22 +1464,31 @@ chair: Manuel Salvadores
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">Research Track: Query Languages</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Research Track: Query Languages
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Kemafor Anyanwu
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Kemafor Anyanwu</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>AnQL: SPARQLing up annotated RDF</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>SPARQL Beyond Subgraph Matching</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Combining Approximation and Relaxation in SemanticWeb Path Queries</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. AnQL: SPARQLing up annotated RDF,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. SPARQL Beyond Subgraph Matching,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Combining Approximation and Relaxation in SemanticWeb Path Queries,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -1149,15 +1496,17 @@ chair: Kemafor Anyanwu
 </tr>
 <tr>
 <td>14:00 - 14:30</td>
-<td><span style="font-weight:bold">Customizing the Composition of Actions, Programs, and Web Services with User Preferences</span> 
+<td><span><b style="font-size:110%">
+
+
+Customizing the Composition of Actions, Programs, and Web Services with User Preferences
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1165,15 +1514,17 @@ chair: Kemafor Anyanwu
 </tr>
 <tr>
 <td>14:00 - 14:30</td>
-<td><span style="font-weight:bold">Enabling Ontology-based Access to Streaming Data Sources</span> 
+<td><span><b style="font-size:110%">
+
+
+Enabling Ontology-based Access to Streaming Data Sources
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1181,15 +1532,17 @@ chair: Kemafor Anyanwu
 </tr>
 <tr>
 <td>14:00 - 14:30</td>
-<td><span style="font-weight:bold">AnQL: SPARQLing up annotated RDF</span> 
+<td><span><b style="font-size:110%">
+
+
+AnQL: SPARQLing up annotated RDF
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1197,15 +1550,17 @@ chair: Kemafor Anyanwu
 </tr>
 <tr>
 <td>14:30 - 15:00</td>
-<td><span style="font-weight:bold">Auto-experimentation of KDD Workflows based on Ontological Planning</span> 
+<td><span><b style="font-size:110%">
+
+
+Auto-experimentation of KDD Workflows based on Ontological Planning
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1213,15 +1568,17 @@ chair: Kemafor Anyanwu
 </tr>
 <tr>
 <td>14:30 - 15:00</td>
-<td><span style="font-weight:bold">Converting and Annotating Quantitative Data Tables</span> 
+<td><span><b style="font-size:110%">
+
+
+Converting and Annotating Quantitative Data Tables
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1229,15 +1586,17 @@ chair: Kemafor Anyanwu
 </tr>
 <tr>
 <td>14:30 - 15:00</td>
-<td><span style="font-weight:bold">SPARQL Beyond Subgraph Matching</span> 
+<td><span><b style="font-size:110%">
+
+
+SPARQL Beyond Subgraph Matching
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1245,15 +1604,17 @@ chair: Kemafor Anyanwu
 </tr>
 <tr>
 <td>15:00 - 15:30</td>
-<td><span style="font-weight:bold">How to Reuse a Faceted Classification and Put it on the Semantic Web</span> 
+<td><span><b style="font-size:110%">
+
+
+How to Reuse a Faceted Classification and Put it on the Semantic Web
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1261,15 +1622,17 @@ chair: Kemafor Anyanwu
 </tr>
 <tr>
 <td>15:00 - 15:30</td>
-<td><span style="font-weight:bold">Combining Approximation and Relaxation in SemanticWeb Path Queries</span> 
+<td><span><b style="font-size:110%">
+
+
+Combining Approximation and Relaxation in SemanticWeb Path Queries
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1277,15 +1640,17 @@ chair: Kemafor Anyanwu
 </tr>
 <tr>
 <td>15:00 - 15:15</td>
-<td><span style="font-weight:bold">Causal Knowledge Modeling for Traditional Chinese Medicine using OWL 2</span> 
+<td><span><b style="font-size:110%">
+
+
+Causal Knowledge Modeling for Traditional Chinese Medicine using OWL 2
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1293,15 +1658,17 @@ chair: Kemafor Anyanwu
 </tr>
 <tr>
 <td>15:15 - 15:30</td>
-<td><span style="font-weight:bold">Using Multi-Agent Based Middleware to Implement a Distributed Peer-To-Peer Semantic Service Oriented Architecture</span> 
+<td><span><b style="font-size:110%">
+
+
+Using Multi-Agent Based Middleware to Implement a Distributed Peer-To-Peer Semantic Service Oriented Architecture
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1309,15 +1676,17 @@ chair: Kemafor Anyanwu
 </tr>
 <tr>
 <td>15:30 - 16:00</td>
-<td><span style="font-weight:bold">Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1325,15 +1694,17 @@ chair: Kemafor Anyanwu
 </tr>
 <tr>
 <td>15:30 - 16:00</td>
-<td><span style="font-weight:bold">Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1341,15 +1712,17 @@ chair: Kemafor Anyanwu
 </tr>
 <tr>
 <td>15:30 - 15:30</td>
-<td><span style="font-weight:bold">Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1357,23 +1730,36 @@ chair: Kemafor Anyanwu
 </tr>
 <tr>
 <td>16:00 - 18:00</td>
-<td><span style="font-weight:bold">Doctoral Consoritium/3: Reasoning and Querying</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Jeff Z. Pan
+Doctoral Consoritium/3: Reasoning and Querying
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Jeff Z. Pan</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Towards Semantic Annotation Supported by Dependency Linguistics and ILP</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Adding Integrity Constraints to the Semantic Web for Instance Data Evaluation</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>RDFMatView: Indexing RDF Data for SPARQL Queries</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Extensions of SPARQL towards Heterogeneous Sources and Domain Annotations</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>A General Approach to Query the Web of Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Towards Semantic Annotation Supported by Dependency Linguistics and ILP,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Adding Integrity Constraints to the Semantic Web for Instance Data Evaluation,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. RDFMatView: Indexing RDF Data for SPARQL Queries,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Extensions of SPARQL towards Heterogeneous Sources and Domain Annotations,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. A General Approach to Query the Web of Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -1381,22 +1767,33 @@ chair: Jeff Z. Pan
 </tr>
 <tr>
 <td>16:00 - 18:00</td>
-<td><span style="font-weight:bold">In-Use/2</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Marko Grobelnik
+In-Use/2
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Marko Grobelnik</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>I18n of Semantic Web Applications</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Mapping Master: a Flexible Approach for Mapping Spreadsheets to OWL</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>ISReal: An Open Platform for Semantic-Based 3D Simulations in the 3D Internet</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Linkage of Heterogeneous Knowledge Resources within In-store Dialogue Interaction</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. I18n of Semantic Web Applications,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Mapping Master: a Flexible Approach for Mapping Spreadsheets to OWL,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. ISReal: An Open Platform for Semantic-Based 3D Simulations in the 3D Internet,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Linkage of Heterogeneous Knowledge Resources within In-store Dialogue Interaction,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -1404,22 +1801,33 @@ chair: Marko Grobelnik
 </tr>
 <tr>
 <td>16:00 - 18:00</td>
-<td><span style="font-weight:bold">Research Track: Ontology Similarity and Debugging</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Guilin Qi
+Research Track: Ontology Similarity and Debugging
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Guilin Qi</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Ontology similarity in the alignment space</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>A Feature and Information Theoretic Framework for Semantic Similarity and Relatedness</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>One size does not fit all: Customizing Ontology Alignment Using User Feedback</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Query strategy for sequential ontology debugging</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Ontology similarity in the alignment space,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. A Feature and Information Theoretic Framework for Semantic Similarity and Relatedness,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. One size does not fit all: Customizing Ontology Alignment Using User Feedback,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Query strategy for sequential ontology debugging,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -1427,21 +1835,30 @@ chair: Guilin Qi
 </tr>
 <tr>
 <td>16:00 - 18:00</td>
-<td><span style="font-weight:bold">Research Track: Social Semantic Web/1</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Alexandre Passant
+Research Track: Social Semantic Web/1
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Alexandre Passant</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Talking about Data: Sharing Richly Structured Information through Blogs and Wikis</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Making sense of Twitter</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Semantic Need: Guiding Metadata Annotations by Questions People #ask</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Talking about Data: Sharing Richly Structured Information through Blogs and Wikis,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Making sense of Twitter,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Semantic Need: Guiding Metadata Annotations by Questions People #ask,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -1449,24 +1866,37 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>16:00 - 18:00</td>
-<td><span style="font-weight:bold">Doctoral Consoritium/3: Reasoning and Querying</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Doctoral Consoritium/3: Reasoning and Querying
+</b>
 (Doctoral Consortium Track)
+</span>
 
-<div>
-chair: Jeff Z. Pan
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Jeff Z. Pan</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Towards Semantic Annotation Supported by Dependency Linguistics and ILP</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Adding Integrity Constraints to the Semantic Web for Instance Data Evaluation</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>RDFMatView: Indexing RDF Data for SPARQL Queries</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Extensions of SPARQL towards Heterogeneous Sources and Domain Annotations</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>A General Approach to Query the Web of Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Towards Semantic Annotation Supported by Dependency Linguistics and ILP,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Adding Integrity Constraints to the Semantic Web for Instance Data Evaluation,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. RDFMatView: Indexing RDF Data for SPARQL Queries,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Extensions of SPARQL towards Heterogeneous Sources and Domain Annotations,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. A General Approach to Query the Web of Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -1474,23 +1904,34 @@ chair: Jeff Z. Pan
 </tr>
 <tr>
 <td>16:00 - 18:00</td>
-<td><span style="font-weight:bold">In-Use/2</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+In-Use/2
+</b>
 (In Use Track)
+</span>
 
-<div>
-chair: Marko Grobelnik
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Marko Grobelnik</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>I18n of Semantic Web Applications</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Mapping Master: a Flexible Approach for Mapping Spreadsheets to OWL</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>ISReal: An Open Platform for Semantic-Based 3D Simulations in the 3D Internet</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Linkage of Heterogeneous Knowledge Resources within In-store Dialogue Interaction</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. I18n of Semantic Web Applications,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Mapping Master: a Flexible Approach for Mapping Spreadsheets to OWL,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. ISReal: An Open Platform for Semantic-Based 3D Simulations in the 3D Internet,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Linkage of Heterogeneous Knowledge Resources within In-store Dialogue Interaction,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -1498,23 +1939,34 @@ chair: Marko Grobelnik
 </tr>
 <tr>
 <td>16:00 - 18:00</td>
-<td><span style="font-weight:bold">Research Track: Ontology Similarity and Debugging</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Research Track: Ontology Similarity and Debugging
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Guilin Qi
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Guilin Qi</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Ontology similarity in the alignment space</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>A Feature and Information Theoretic Framework for Semantic Similarity and Relatedness</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>One size does not fit all: Customizing Ontology Alignment Using User Feedback</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Query strategy for sequential ontology debugging</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Ontology similarity in the alignment space,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. A Feature and Information Theoretic Framework for Semantic Similarity and Relatedness,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. One size does not fit all: Customizing Ontology Alignment Using User Feedback,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Query strategy for sequential ontology debugging,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -1522,22 +1974,31 @@ chair: Guilin Qi
 </tr>
 <tr>
 <td>16:00 - 18:00</td>
-<td><span style="font-weight:bold">Research Track: Social Semantic Web/1</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Research Track: Social Semantic Web/1
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Alexandre Passant
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Alexandre Passant</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Talking about Data: Sharing Richly Structured Information through Blogs and Wikis</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Making sense of Twitter</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Semantic Need: Guiding Metadata Annotations by Questions People #ask</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Talking about Data: Sharing Richly Structured Information through Blogs and Wikis,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Making sense of Twitter,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Semantic Need: Guiding Metadata Annotations by Questions People #ask,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -1545,15 +2006,18 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>16:00 - 16:30</td>
-<td><span style="font-weight:bold">Town Hall Meeting</span> 
+<td><span><b style="font-size:110%">
+
+Social:
+
+Town Hall Meeting
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1561,15 +2025,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>16:00 - 16:30</td>
-<td><span style="font-weight:bold">Towards Semantic Annotation Supported by Dependency Linguistics and ILP</span> 
+<td><span><b style="font-size:110%">
+
+
+Towards Semantic Annotation Supported by Dependency Linguistics and ILP
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1577,15 +2043,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>16:00 - 16:30</td>
-<td><span style="font-weight:bold">I18n of Semantic Web Applications</span> 
+<td><span><b style="font-size:110%">
+
+
+I18n of Semantic Web Applications
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1593,15 +2061,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>16:00 - 16:30</td>
-<td><span style="font-weight:bold">Ontology similarity in the alignment space</span> 
+<td><span><b style="font-size:110%">
+
+
+Ontology similarity in the alignment space
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1609,15 +2079,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>16:00 - 16:30</td>
-<td><span style="font-weight:bold">Talking about Data: Sharing Richly Structured Information through Blogs and Wikis</span> 
+<td><span><b style="font-size:110%">
+
+
+Talking about Data: Sharing Richly Structured Information through Blogs and Wikis
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1625,15 +2097,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>16:00 - 16:00</td>
-<td><span style="font-weight:bold">Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1641,15 +2115,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>16:00 - 15:30</td>
-<td><span style="font-weight:bold">Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1657,15 +2133,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>16:30 - 17:00</td>
-<td><span style="font-weight:bold">Adding Integrity Constraints to the Semantic Web for Instance Data Evaluation</span> 
+<td><span><b style="font-size:110%">
+
+
+Adding Integrity Constraints to the Semantic Web for Instance Data Evaluation
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1673,15 +2151,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>16:30 - 17:00</td>
-<td><span style="font-weight:bold">Mapping Master: a Flexible Approach for Mapping Spreadsheets to OWL</span> 
+<td><span><b style="font-size:110%">
+
+
+Mapping Master: a Flexible Approach for Mapping Spreadsheets to OWL
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1689,15 +2169,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>16:30 - 17:00</td>
-<td><span style="font-weight:bold">A Feature and Information Theoretic Framework for Semantic Similarity and Relatedness</span> 
+<td><span><b style="font-size:110%">
+
+
+A Feature and Information Theoretic Framework for Semantic Similarity and Relatedness
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1705,15 +2187,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>16:30 - 17:00</td>
-<td><span style="font-weight:bold">Making sense of Twitter</span> 
+<td><span><b style="font-size:110%">
+
+
+Making sense of Twitter
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1721,15 +2205,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>17:00 - 17:30</td>
-<td><span style="font-weight:bold">ISReal: An Open Platform for Semantic-Based 3D Simulations in the 3D Internet</span> 
+<td><span><b style="font-size:110%">
+
+
+ISReal: An Open Platform for Semantic-Based 3D Simulations in the 3D Internet
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1737,15 +2223,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>17:00 - 17:30</td>
-<td><span style="font-weight:bold">One size does not fit all: Customizing Ontology Alignment Using User Feedback</span> 
+<td><span><b style="font-size:110%">
+
+
+One size does not fit all: Customizing Ontology Alignment Using User Feedback
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1753,15 +2241,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>17:00 - 17:30</td>
-<td><span style="font-weight:bold">Semantic Need: Guiding Metadata Annotations by Questions People #ask</span> 
+<td><span><b style="font-size:110%">
+
+
+Semantic Need: Guiding Metadata Annotations by Questions People #ask
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1769,15 +2259,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>17:00 - 17:15</td>
-<td><span style="font-weight:bold">RDFMatView: Indexing RDF Data for SPARQL Queries</span> 
+<td><span><b style="font-size:110%">
+
+
+RDFMatView: Indexing RDF Data for SPARQL Queries
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1785,15 +2277,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>17:15 - 17:30</td>
-<td><span style="font-weight:bold">Extensions of SPARQL towards Heterogeneous Sources and Domain Annotations</span> 
+<td><span><b style="font-size:110%">
+
+
+Extensions of SPARQL towards Heterogeneous Sources and Domain Annotations
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1801,15 +2295,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>17:30 - 18:00</td>
-<td><span style="font-weight:bold">Linkage of Heterogeneous Knowledge Resources within In-store Dialogue Interaction</span> 
+<td><span><b style="font-size:110%">
+
+
+Linkage of Heterogeneous Knowledge Resources within In-store Dialogue Interaction
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1817,15 +2313,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>17:30 - 18:00</td>
-<td><span style="font-weight:bold">Query strategy for sequential ontology debugging</span> 
+<td><span><b style="font-size:110%">
+
+
+Query strategy for sequential ontology debugging
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1833,15 +2331,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>17:30 - 17:45</td>
-<td><span style="font-weight:bold">A General Approach to Query the Web of Data</span> 
+<td><span><b style="font-size:110%">
+
+
+A General Approach to Query the Web of Data
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1849,16 +2349,21 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>18:00 - 18:45</td>
-<td><span style="font-weight:bold">Industry Invited Talk: Jay Katzen</span> 
+<td><span><b style="font-size:110%">
+
+Session:
+
+Industry Invited Talk: Jay Katzen
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-<li><b>Applications at the heart of a new Publishing Ecosystem</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+<div style="padding-left:20px;margin:1px;">. Applications at the heart of a new Publishing Ecosystem,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -1866,15 +2371,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>18:00 - 18:45</td>
-<td><span style="font-weight:bold">Applications at the heart of a new Publishing Ecosystem</span> 
+<td><span><b style="font-size:110%">
+
+
+Applications at the heart of a new Publishing Ecosystem
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1882,15 +2389,18 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>19:00 - 22:00</td>
-<td><span style="font-weight:bold">Banquet</span> 
+<td><span><b style="font-size:110%">
+
+Social:
+
+Banquet
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1898,15 +2408,18 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>19:00 - 21:00</td>
-<td><span style="font-weight:bold">Reception</span> 
+<td><span><b style="font-size:110%">
+
+Social:
+
+Reception
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1914,15 +2427,17 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>19:00 - 20:00</td>
-<td><span style="font-weight:bold">Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1930,15 +2445,18 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>21:00 - 21:00</td>
-<td><span style="font-weight:bold">Poster Session</span> 
+<td><span><b style="font-size:110%">
+
+Session:
+
+Poster Session
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1949,22 +2467,25 @@ chair: Alexandre Passant
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>07:00 - 09:00</td>
-<td><span style="font-weight:bold">Breakfast</span> 
+<td><span><b style="font-size:110%">
+
+Meal:
+
+Breakfast
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1972,20 +2493,27 @@ chair: Alexandre Passant
 </tr>
 <tr>
 <td>09:00 - 10:00</td>
-<td><span style="font-weight:bold">In-Use/3</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Hideaki Takeda
+In-Use/3
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Hideaki Takeda</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Semantic Techniques for Enabling Knowledge Reuse in Conceptual Modelling</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>ORE - A Tool for Repairing and Enriching Knowledge Bases</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Semantic Techniques for Enabling Knowledge Reuse in Conceptual Modelling,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. ORE - A Tool for Repairing and Enriching Knowledge Bases,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -1993,20 +2521,27 @@ chair: Hideaki Takeda
 </tr>
 <tr>
 <td>09:00 - 10:00</td>
-<td><span style="font-weight:bold">Research Track: Agents</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Bernardo Cuenca-Grau
+Research Track: Agents
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Bernardo Cuenca-Grau</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>OWL-POLAR: Semantic Policies for Agent Reasoning</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Deciding Agent Orientation on Ontology Mappings</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. OWL-POLAR: Semantic Policies for Agent Reasoning,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Deciding Agent Orientation on Ontology Mappings,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2014,20 +2549,27 @@ chair: Bernardo Cuenca-Grau
 </tr>
 <tr>
 <td>09:00 - 10:00</td>
-<td><span style="font-weight:bold">Research Track: Large KBs</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Kavitha Srinivas
+Research Track: Large KBs
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Kavitha Srinivas</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Compact Representation of Large RDF Data Sets for Publishing and Exchange</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Optimize First, Buy Later: Analyzing Metrics to Ramp-up Very Large Knowledge Bases</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Compact Representation of Large RDF Data Sets for Publishing and Exchange,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Optimize First, Buy Later: Analyzing Metrics to Ramp-up Very Large Knowledge Bases,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2035,21 +2577,28 @@ chair: Kavitha Srinivas
 </tr>
 <tr>
 <td>09:00 - 10:00</td>
-<td><span style="font-weight:bold">In-Use/3</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+In-Use/3
+</b>
 (In Use Track)
+</span>
 
-<div>
-chair: Hideaki Takeda
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Hideaki Takeda</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Semantic Techniques for Enabling Knowledge Reuse in Conceptual Modelling</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>ORE - A Tool for Repairing and Enriching Knowledge Bases</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Semantic Techniques for Enabling Knowledge Reuse in Conceptual Modelling,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. ORE - A Tool for Repairing and Enriching Knowledge Bases,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2057,21 +2606,28 @@ chair: Hideaki Takeda
 </tr>
 <tr>
 <td>09:00 - 10:00</td>
-<td><span style="font-weight:bold">Research Track: Agents</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Research Track: Agents
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Bernardo Cuenca-Grau
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Bernardo Cuenca-Grau</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>OWL-POLAR: Semantic Policies for Agent Reasoning</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Deciding Agent Orientation on Ontology Mappings</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. OWL-POLAR: Semantic Policies for Agent Reasoning,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Deciding Agent Orientation on Ontology Mappings,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2079,21 +2635,28 @@ chair: Bernardo Cuenca-Grau
 </tr>
 <tr>
 <td>09:00 - 10:00</td>
-<td><span style="font-weight:bold">Research Track: Large KBs</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Research Track: Large KBs
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Kavitha Srinivas
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Kavitha Srinivas</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Compact Representation of Large RDF Data Sets for Publishing and Exchange</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Optimize First, Buy Later: Analyzing Metrics to Ramp-up Very Large Knowledge Bases</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Compact Representation of Large RDF Data Sets for Publishing and Exchange,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Optimize First, Buy Later: Analyzing Metrics to Ramp-up Very Large Knowledge Bases,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2101,15 +2664,17 @@ chair: Kavitha Srinivas
 </tr>
 <tr>
 <td>09:00 - 10:00</td>
-<td><span style="font-weight:bold">Semantic Techniques for Enabling Knowledge Reuse in Conceptual Modelling</span> 
+<td><span><b style="font-size:110%">
+
+
+Semantic Techniques for Enabling Knowledge Reuse in Conceptual Modelling
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2117,15 +2682,17 @@ chair: Kavitha Srinivas
 </tr>
 <tr>
 <td>09:00 - 09:30</td>
-<td><span style="font-weight:bold">Compact Representation of Large RDF Data Sets for Publishing and Exchange</span> 
+<td><span><b style="font-size:110%">
+
+
+Compact Representation of Large RDF Data Sets for Publishing and Exchange
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2133,15 +2700,17 @@ chair: Kavitha Srinivas
 </tr>
 <tr>
 <td>09:00 - 09:30</td>
-<td><span style="font-weight:bold">OWL-POLAR: Semantic Policies for Agent Reasoning</span> 
+<td><span><b style="font-size:110%">
+
+
+OWL-POLAR: Semantic Policies for Agent Reasoning
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2149,15 +2718,17 @@ chair: Kavitha Srinivas
 </tr>
 <tr>
 <td>09:30 - 10:00</td>
-<td><span style="font-weight:bold">ORE - A Tool for Repairing and Enriching Knowledge Bases</span> 
+<td><span><b style="font-size:110%">
+
+
+ORE - A Tool for Repairing and Enriching Knowledge Bases
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2165,15 +2736,17 @@ chair: Kavitha Srinivas
 </tr>
 <tr>
 <td>09:30 - 10:00</td>
-<td><span style="font-weight:bold">Optimize First, Buy Later: Analyzing Metrics to Ramp-up Very Large Knowledge Bases</span> 
+<td><span><b style="font-size:110%">
+
+
+Optimize First, Buy Later: Analyzing Metrics to Ramp-up Very Large Knowledge Bases
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2181,15 +2754,17 @@ chair: Kavitha Srinivas
 </tr>
 <tr>
 <td>09:30 - 10:00</td>
-<td><span style="font-weight:bold">Deciding Agent Orientation on Ontology Mappings</span> 
+<td><span><b style="font-size:110%">
+
+
+Deciding Agent Orientation on Ontology Mappings
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2197,15 +2772,17 @@ chair: Kavitha Srinivas
 </tr>
 <tr>
 <td>10:00 - 10:30</td>
-<td><span style="font-weight:bold">Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2213,22 +2790,33 @@ chair: Kavitha Srinivas
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">In-Use/4</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Shenghui Wang
+In-Use/4
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Shenghui Wang</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Using Semantic Web technologies for Clinical Trial Recruitment</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Knowledge Engineering for Historians on the Example of the Catalogus Professorum Lipsiensis</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Social dynamics in conferences: analyses of data from the Live Social Semantics application</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Semantic MediaWiki in Operation: Experiences with Building a Semantic Portal</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Using Semantic Web technologies for Clinical Trial Recruitment,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Knowledge Engineering for Historians on the Example of the Catalogus Professorum Lipsiensis,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Social dynamics in conferences: analyses of data from the Live Social Semantics application,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Semantic MediaWiki in Operation: Experiences with Building a Semantic Portal,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2236,22 +2824,33 @@ chair: Shenghui Wang
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">Research Track: Ontologies in Linked Data</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Wei Hu
+Research Track: Ontologies in Linked Data
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Wei Hu</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Fusion - Visually Exploring and Eliciting Relationships in Linked Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Ontology Alignment for Linked Open Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Linking and Building Ontologies of Linked Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Enhancing the Open-Domain Classification of Named Entity using Linked Open Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Fusion - Visually Exploring and Eliciting Relationships in Linked Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Ontology Alignment for Linked Open Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Linking and Building Ontologies of Linked Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Enhancing the Open-Domain Classification of Named Entity using Linked Open Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2259,22 +2858,33 @@ chair: Wei Hu
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">Research Track: Representation Extensions</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Bijan Parsia
+Research Track: Representation Extensions
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Bijan Parsia</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Representing and Querying Validity Time in RDF and OWL: A Logic-Based Approach</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>EL with Default Attributes and Overriding</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Integrated Metamodeling and Diagnosis in OWL 2</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>A Self-Policing Policy Language</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Representing and Querying Validity Time in RDF and OWL: A Logic-Based Approach,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. EL with Default Attributes and Overriding,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Integrated Metamodeling and Diagnosis in OWL 2,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. A Self-Policing Policy Language,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2282,23 +2892,34 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">In-Use/4</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+In-Use/4
+</b>
 (In Use Track)
+</span>
 
-<div>
-chair: Shenghui Wang
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Shenghui Wang</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Using Semantic Web technologies for Clinical Trial Recruitment</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Knowledge Engineering for Historians on the Example of the Catalogus Professorum Lipsiensis</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Social dynamics in conferences: analyses of data from the Live Social Semantics application</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Semantic MediaWiki in Operation: Experiences with Building a Semantic Portal</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Using Semantic Web technologies for Clinical Trial Recruitment,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Knowledge Engineering for Historians on the Example of the Catalogus Professorum Lipsiensis,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Social dynamics in conferences: analyses of data from the Live Social Semantics application,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Semantic MediaWiki in Operation: Experiences with Building a Semantic Portal,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2306,23 +2927,34 @@ chair: Shenghui Wang
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">Research Track: Ontologies in Linked Data</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Research Track: Ontologies in Linked Data
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Wei Hu
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Wei Hu</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Fusion - Visually Exploring and Eliciting Relationships in Linked Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Ontology Alignment for Linked Open Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Linking and Building Ontologies of Linked Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Enhancing the Open-Domain Classification of Named Entity using Linked Open Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Fusion - Visually Exploring and Eliciting Relationships in Linked Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Ontology Alignment for Linked Open Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Linking and Building Ontologies of Linked Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Enhancing the Open-Domain Classification of Named Entity using Linked Open Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2330,23 +2962,34 @@ chair: Wei Hu
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">Research Track: Representation Extensions</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Research Track: Representation Extensions
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Bijan Parsia
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Bijan Parsia</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Representing and Querying Validity Time in RDF and OWL: A Logic-Based Approach</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>EL with Default Attributes and Overriding</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Integrated Metamodeling and Diagnosis in OWL 2</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>A Self-Policing Policy Language</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Representing and Querying Validity Time in RDF and OWL: A Logic-Based Approach,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. EL with Default Attributes and Overriding,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Integrated Metamodeling and Diagnosis in OWL 2,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. A Self-Policing Policy Language,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2354,15 +2997,17 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>10:30 - 11:00</td>
-<td><span style="font-weight:bold">Using Semantic Web technologies for Clinical Trial Recruitment</span> 
+<td><span><b style="font-size:110%">
+
+
+Using Semantic Web technologies for Clinical Trial Recruitment
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2370,15 +3015,17 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>10:30 - 11:00</td>
-<td><span style="font-weight:bold">Representing and Querying Validity Time in RDF and OWL: A Logic-Based Approach</span> 
+<td><span><b style="font-size:110%">
+
+
+Representing and Querying Validity Time in RDF and OWL: A Logic-Based Approach
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2386,15 +3033,17 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>10:30 - 11:00</td>
-<td><span style="font-weight:bold">Fusion - Visually Exploring and Eliciting Relationships in Linked Data</span> 
+<td><span><b style="font-size:110%">
+
+
+Fusion - Visually Exploring and Eliciting Relationships in Linked Data
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2402,15 +3051,17 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>11:00 - 11:30</td>
-<td><span style="font-weight:bold">Knowledge Engineering for Historians on the Example of the Catalogus Professorum Lipsiensis</span> 
+<td><span><b style="font-size:110%">
+
+
+Knowledge Engineering for Historians on the Example of the Catalogus Professorum Lipsiensis
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2418,15 +3069,17 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>11:00 - 11:30</td>
-<td><span style="font-weight:bold">EL with Default Attributes and Overriding</span> 
+<td><span><b style="font-size:110%">
+
+
+EL with Default Attributes and Overriding
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2434,15 +3087,17 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>11:00 - 11:30</td>
-<td><span style="font-weight:bold">Ontology Alignment for Linked Open Data</span> 
+<td><span><b style="font-size:110%">
+
+
+Ontology Alignment for Linked Open Data
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2450,15 +3105,17 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>11:30 - 12:00</td>
-<td><span style="font-weight:bold">Social dynamics in conferences: analyses of data from the Live Social Semantics application</span> 
+<td><span><b style="font-size:110%">
+
+
+Social dynamics in conferences: analyses of data from the Live Social Semantics application
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2466,15 +3123,17 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>11:30 - 12:00</td>
-<td><span style="font-weight:bold">Integrated Metamodeling and Diagnosis in OWL 2</span> 
+<td><span><b style="font-size:110%">
+
+
+Integrated Metamodeling and Diagnosis in OWL 2
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2482,15 +3141,17 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>11:30 - 12:00</td>
-<td><span style="font-weight:bold">Linking and Building Ontologies of Linked Data</span> 
+<td><span><b style="font-size:110%">
+
+
+Linking and Building Ontologies of Linked Data
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2498,15 +3159,17 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>12:00 - 12:30</td>
-<td><span style="font-weight:bold">Semantic MediaWiki in Operation: Experiences with Building a Semantic Portal</span> 
+<td><span><b style="font-size:110%">
+
+
+Semantic MediaWiki in Operation: Experiences with Building a Semantic Portal
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2514,15 +3177,17 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>12:00 - 12:30</td>
-<td><span style="font-weight:bold">A Self-Policing Policy Language</span> 
+<td><span><b style="font-size:110%">
+
+
+A Self-Policing Policy Language
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2530,15 +3195,17 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>12:00 - 12:30</td>
-<td><span style="font-weight:bold">Enhancing the Open-Domain Classification of Named Entity using Linked Open Data</span> 
+<td><span><b style="font-size:110%">
+
+
+Enhancing the Open-Domain Classification of Named Entity using Linked Open Data
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2546,15 +3213,18 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>12:30 - 14:00</td>
-<td><span style="font-weight:bold">Semantic Web Career Mentoring Lunch</span> 
+<td><span><b style="font-size:110%">
+
+Meal:
+
+Semantic Web Career Mentoring Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2562,15 +3232,18 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>13:00 - 14:00</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+Meal:
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2578,20 +3251,27 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">Invited Talk: Austin Haugen and Evan Sandhaus</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Peter F. Patel-Schneider
+Invited Talk: Austin Haugen and Evan Sandhaus
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Peter F. Patel-Schneider</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>The Open Graph Protocol Design Decisions</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Semantic Technology at The New York Times: Lessons Learned and Future Directions</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. The Open Graph Protocol Design Decisions,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Semantic Technology at The New York Times: Lessons Learned and Future Directions,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2599,15 +3279,17 @@ chair: Peter F. Patel-Schneider
 </tr>
 <tr>
 <td>14:00 - 14:45</td>
-<td><span style="font-weight:bold">The Open Graph Protocol Design Decisions</span> 
+<td><span><b style="font-size:110%">
+
+
+The Open Graph Protocol Design Decisions
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2615,15 +3297,17 @@ chair: Peter F. Patel-Schneider
 </tr>
 <tr>
 <td>14:45 - 15:30</td>
-<td><span style="font-weight:bold">Semantic Technology at The New York Times: Lessons Learned and Future Directions</span> 
+<td><span><b style="font-size:110%">
+
+
+Semantic Technology at The New York Times: Lessons Learned and Future Directions
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2631,22 +3315,33 @@ chair: Peter F. Patel-Schneider
 </tr>
 <tr>
 <td>16:00 - 18:00</td>
-<td><span style="font-weight:bold">Research Track: Reasoning and Algorithms</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Axel Polleres
+Research Track: Reasoning and Algorithms
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Axel Polleres</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Completeness Guarantees for Incomplete Reasoners</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>JustBench: A Framework for OWL Benchmarking</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Optimising Ontology Classification</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Optimizing Enterprise-scale OWL 2 RL Reasoning in a Relational Database System</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Completeness Guarantees for Incomplete Reasoners,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. JustBench: A Framework for OWL Benchmarking,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Optimising Ontology Classification,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Optimizing Enterprise-scale OWL 2 RL Reasoning in a Relational Database System,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2654,15 +3349,18 @@ chair: Axel Polleres
 </tr>
 <tr>
 <td>16:00 - 18:00</td>
-<td><span style="font-weight:bold">Semantic Web Challenge</span> 
+<td><span><b style="font-size:110%">
+
+Session:
+
+Semantic Web Challenge
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2670,23 +3368,34 @@ chair: Axel Polleres
 </tr>
 <tr>
 <td>16:00 - 18:00</td>
-<td><span style="font-weight:bold">Research Track: Reasoning and Algorithms</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Research Track: Reasoning and Algorithms
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Axel Polleres
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Axel Polleres</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Completeness Guarantees for Incomplete Reasoners</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>JustBench: A Framework for OWL Benchmarking</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Optimising Ontology Classification</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Optimizing Enterprise-scale OWL 2 RL Reasoning in a Relational Database System</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Completeness Guarantees for Incomplete Reasoners,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. JustBench: A Framework for OWL Benchmarking,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Optimising Ontology Classification,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Optimizing Enterprise-scale OWL 2 RL Reasoning in a Relational Database System,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2697,22 +3406,25 @@ chair: Axel Polleres
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>07:00 - 09:00</td>
-<td><span style="font-weight:bold">Breakfast</span> 
+<td><span><b style="font-size:110%">
+
+Meal:
+
+Breakfast
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2720,19 +3432,24 @@ chair: Axel Polleres
 </tr>
 <tr>
 <td>09:00 - 10:00</td>
-<td><span style="font-weight:bold">Invited Talk: Li Xiaoming</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Yue Pan
+Invited Talk: Li Xiaoming
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Yue Pan</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Advanced Evaluation of Web Search - Methodology and Technology</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Advanced Evaluation of Web Search - Methodology and Technology,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2740,15 +3457,17 @@ chair: Yue Pan
 </tr>
 <tr>
 <td>09:00 - 10:00</td>
-<td><span style="font-weight:bold">Advanced Evaluation of Web Search - Methodology and Technology</span> 
+<td><span><b style="font-size:110%">
+
+
+Advanced Evaluation of Web Search - Methodology and Technology
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2756,15 +3475,17 @@ chair: Yue Pan
 </tr>
 <tr>
 <td>10:00 - 10:30</td>
-<td><span style="font-weight:bold">Break</span> 
+<td><span><b style="font-size:110%">
+
+
+Break
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2772,22 +3493,33 @@ chair: Yue Pan
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">In-Use/5</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Tania Tudorache
+In-Use/5
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Tania Tudorache</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>dbrec - Music Recommendations Using DBpedia</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>A Case Study of Linked Enterprise Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Semantic Technologies for Enterprise Cloud Management</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Enterprise Data Classification using Semantic Web Technologies</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. dbrec - Music Recommendations Using DBpedia,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. A Case Study of Linked Enterprise Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Semantic Technologies for Enterprise Cloud Management,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Enterprise Data Classification using Semantic Web Technologies,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2795,21 +3527,30 @@ chair: Tania Tudorache
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">Industry Track: Session 1</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Peter Mika
+Industry Track: Session 1
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Peter Mika</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>From Knowledge Capture to Semantic Applications: The Evolution of Semantic MediaWiki</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>K-Spend: Semantic Web Technologies for Spend Analysis</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Presentation and Discussion on RDF Next Steps</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. From Knowledge Capture to Semantic Applications: The Evolution of Semantic MediaWiki,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. K-Spend: Semantic Web Technologies for Spend Analysis,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Presentation and Discussion on RDF Next Steps,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2817,22 +3558,33 @@ chair: Peter Mika
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">Research Track: Linked Data</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Steffen Staab
+Research Track: Linked Data
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Steffen Staab</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Summary Models for Routing Keywords to Linked Data Sources</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Linked Data Query Processing Strategies</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>When owl:sameAs isn't the Same: An Analysis of Identity in Linked Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>SameAs Networks and Beyond: Analyzing Deployment Status and Implications of owl:sameAs in Linked Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Summary Models for Routing Keywords to Linked Data Sources,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Linked Data Query Processing Strategies,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. When owl:sameAs isn't the Same: An Analysis of Identity in Linked Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. SameAs Networks and Beyond: Analyzing Deployment Status and Implications of owl:sameAs in Linked Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2840,23 +3592,34 @@ chair: Steffen Staab
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">In-Use/5</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+In-Use/5
+</b>
 (In Use Track)
+</span>
 
-<div>
-chair: Tania Tudorache
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Tania Tudorache</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>dbrec - Music Recommendations Using DBpedia</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>A Case Study of Linked Enterprise Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Semantic Technologies for Enterprise Cloud Management</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Enterprise Data Classification using Semantic Web Technologies</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. dbrec - Music Recommendations Using DBpedia,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. A Case Study of Linked Enterprise Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Semantic Technologies for Enterprise Cloud Management,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Enterprise Data Classification using Semantic Web Technologies,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2864,22 +3627,31 @@ chair: Tania Tudorache
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">Industry Track: Session 1</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Industry Track: Session 1
+</b>
 (Industry Track)
+</span>
 
-<div>
-chair: Peter Mika
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Peter Mika</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>From Knowledge Capture to Semantic Applications: The Evolution of Semantic MediaWiki</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>K-Spend: Semantic Web Technologies for Spend Analysis</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Presentation and Discussion on RDF Next Steps</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. From Knowledge Capture to Semantic Applications: The Evolution of Semantic MediaWiki,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. K-Spend: Semantic Web Technologies for Spend Analysis,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Presentation and Discussion on RDF Next Steps,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2887,23 +3659,34 @@ chair: Peter Mika
 </tr>
 <tr>
 <td>10:30 - 12:30</td>
-<td><span style="font-weight:bold">Research Track: Linked Data</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Research Track: Linked Data
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Steffen Staab
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Steffen Staab</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Summary Models for Routing Keywords to Linked Data Sources</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Linked Data Query Processing Strategies</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>When owl:sameAs isn't the Same: An Analysis of Identity in Linked Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>SameAs Networks and Beyond: Analyzing Deployment Status and Implications of owl:sameAs in Linked Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Summary Models for Routing Keywords to Linked Data Sources,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Linked Data Query Processing Strategies,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. When owl:sameAs isn't the Same: An Analysis of Identity in Linked Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. SameAs Networks and Beyond: Analyzing Deployment Status and Implications of owl:sameAs in Linked Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -2911,15 +3694,17 @@ chair: Steffen Staab
 </tr>
 <tr>
 <td>10:30 - 11:00</td>
-<td><span style="font-weight:bold">dbrec - Music Recommendations Using DBpedia</span> 
+<td><span><b style="font-size:110%">
+
+
+dbrec - Music Recommendations Using DBpedia
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2927,15 +3712,17 @@ chair: Steffen Staab
 </tr>
 <tr>
 <td>10:30 - 11:00</td>
-<td><span style="font-weight:bold">Summary Models for Routing Keywords to Linked Data Sources</span> 
+<td><span><b style="font-size:110%">
+
+
+Summary Models for Routing Keywords to Linked Data Sources
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2943,15 +3730,17 @@ chair: Steffen Staab
 </tr>
 <tr>
 <td>11:00 - 11:30</td>
-<td><span style="font-weight:bold">A Case Study of Linked Enterprise Data</span> 
+<td><span><b style="font-size:110%">
+
+
+A Case Study of Linked Enterprise Data
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2959,15 +3748,17 @@ chair: Steffen Staab
 </tr>
 <tr>
 <td>11:00 - 11:30</td>
-<td><span style="font-weight:bold">Linked Data Query Processing Strategies</span> 
+<td><span><b style="font-size:110%">
+
+
+Linked Data Query Processing Strategies
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2975,15 +3766,17 @@ chair: Steffen Staab
 </tr>
 <tr>
 <td>11:30 - 12:00</td>
-<td><span style="font-weight:bold">Semantic Technologies for Enterprise Cloud Management</span> 
+<td><span><b style="font-size:110%">
+
+
+Semantic Technologies for Enterprise Cloud Management
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -2991,15 +3784,17 @@ chair: Steffen Staab
 </tr>
 <tr>
 <td>11:30 - 12:00</td>
-<td><span style="font-weight:bold">When owl:sameAs isn't the Same: An Analysis of Identity in Linked Data</span> 
+<td><span><b style="font-size:110%">
+
+
+When owl:sameAs isn't the Same: An Analysis of Identity in Linked Data
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3007,15 +3802,17 @@ chair: Steffen Staab
 </tr>
 <tr>
 <td>12:00 - 12:30</td>
-<td><span style="font-weight:bold">Enterprise Data Classification using Semantic Web Technologies</span> 
+<td><span><b style="font-size:110%">
+
+
+Enterprise Data Classification using Semantic Web Technologies
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3023,15 +3820,17 @@ chair: Steffen Staab
 </tr>
 <tr>
 <td>12:00 - 12:30</td>
-<td><span style="font-weight:bold">SameAs Networks and Beyond: Analyzing Deployment Status and Implications of owl:sameAs in Linked Data</span> 
+<td><span><b style="font-size:110%">
+
+
+SameAs Networks and Beyond: Analyzing Deployment Status and Implications of owl:sameAs in Linked Data
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3039,15 +3838,18 @@ chair: Steffen Staab
 </tr>
 <tr>
 <td>12:30 - 14:00</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+Meal:
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3055,15 +3857,18 @@ chair: Steffen Staab
 </tr>
 <tr>
 <td>13:00 - 14:00</td>
-<td><span style="font-weight:bold">Lightning Talks</span> 
+<td><span><b style="font-size:110%">
+
+Session:
+
+Lightning Talks
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3071,21 +3876,30 @@ chair: Steffen Staab
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">Industry Track: Session 2</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Lin Clark
+Industry Track: Session 2
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Lin Clark</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Building the Inform Semantic Publishing Ecosystem: from Author to Audience</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Intelligent Decision Automation on an Event Driven Semantic Platform</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Self-Service Development of Linked Data Applications with the Information Workbench</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Building the Inform Semantic Publishing Ecosystem: from Author to Audience,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Intelligent Decision Automation on an Event Driven Semantic Platform,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Self-Service Development of Linked Data Applications with the Information Workbench,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -3093,21 +3907,30 @@ chair: Lin Clark
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">Research Track: Scalability</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Zhisheng Huang
+Research Track: Scalability
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Zhisheng Huang</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>SAOR: Template Rule Optimisations for Distributed Reasoning over 1 Billion Linked Data Triples</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Finding the Achilles Heel of the Web of Data: using network analysis for link-recommendation</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Signal/Collect: Graph Algorithms for the (Semantic) Web</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. SAOR: Template Rule Optimisations for Distributed Reasoning over 1 Billion Linked Data Triples,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Finding the Achilles Heel of the Web of Data: using network analysis for link-recommendation,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Signal/Collect: Graph Algorithms for the (Semantic) Web,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -3115,21 +3938,30 @@ chair: Zhisheng Huang
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">Research Track: Semantic Web Services</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Sudhir Agarwal
+Research Track: Semantic Web Services
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sudhir Agarwal</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>An Expressive and Efficient Solution to the Service Selection Problem</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Preference-based Web Service Composition: A Middle Ground Between Execution and Search</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Using Semantics for Automating the Authentication of Web APIs</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. An Expressive and Efficient Solution to the Service Selection Problem,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Preference-based Web Service Composition: A Middle Ground Between Execution and Search,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Using Semantics for Automating the Authentication of Web APIs,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -3137,22 +3969,31 @@ chair: Sudhir Agarwal
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">Industry Track: Session 2</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Industry Track: Session 2
+</b>
 (Industry Track)
+</span>
 
-<div>
-chair: Lin Clark
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Lin Clark</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Building the Inform Semantic Publishing Ecosystem: from Author to Audience</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Intelligent Decision Automation on an Event Driven Semantic Platform</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Self-Service Development of Linked Data Applications with the Information Workbench</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Building the Inform Semantic Publishing Ecosystem: from Author to Audience,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Intelligent Decision Automation on an Event Driven Semantic Platform,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Self-Service Development of Linked Data Applications with the Information Workbench,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -3160,22 +4001,31 @@ chair: Lin Clark
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">Research Track: Scalability</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Research Track: Scalability
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Zhisheng Huang
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Zhisheng Huang</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>SAOR: Template Rule Optimisations for Distributed Reasoning over 1 Billion Linked Data Triples</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Finding the Achilles Heel of the Web of Data: using network analysis for link-recommendation</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Signal/Collect: Graph Algorithms for the (Semantic) Web</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. SAOR: Template Rule Optimisations for Distributed Reasoning over 1 Billion Linked Data Triples,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Finding the Achilles Heel of the Web of Data: using network analysis for link-recommendation,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Signal/Collect: Graph Algorithms for the (Semantic) Web,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -3183,22 +4033,31 @@ chair: Zhisheng Huang
 </tr>
 <tr>
 <td>14:00 - 15:30</td>
-<td><span style="font-weight:bold">Research Track: Semantic Web Services</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Research Track: Semantic Web Services
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Sudhir Agarwal
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sudhir Agarwal</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>An Expressive and Efficient Solution to the Service Selection Problem</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Preference-based Web Service Composition: A Middle Ground Between Execution and Search</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Using Semantics for Automating the Authentication of Web APIs</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. An Expressive and Efficient Solution to the Service Selection Problem,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Preference-based Web Service Composition: A Middle Ground Between Execution and Search,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Using Semantics for Automating the Authentication of Web APIs,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -3206,15 +4065,17 @@ chair: Sudhir Agarwal
 </tr>
 <tr>
 <td>14:00 - 14:30</td>
-<td><span style="font-weight:bold">Completeness Guarantees for Incomplete Reasoners</span> 
+<td><span><b style="font-size:110%">
+
+
+Completeness Guarantees for Incomplete Reasoners
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3222,15 +4083,17 @@ chair: Sudhir Agarwal
 </tr>
 <tr>
 <td>14:00 - 14:30</td>
-<td><span style="font-weight:bold">An Expressive and Efficient Solution to the Service Selection Problem</span> 
+<td><span><b style="font-size:110%">
+
+
+An Expressive and Efficient Solution to the Service Selection Problem
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3238,15 +4101,17 @@ chair: Sudhir Agarwal
 </tr>
 <tr>
 <td>14:00 - 14:30</td>
-<td><span style="font-weight:bold">SAOR: Template Rule Optimisations for Distributed Reasoning over 1 Billion Linked Data Triples</span> 
+<td><span><b style="font-size:110%">
+
+
+SAOR: Template Rule Optimisations for Distributed Reasoning over 1 Billion Linked Data Triples
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3254,15 +4119,17 @@ chair: Sudhir Agarwal
 </tr>
 <tr>
 <td>14:30 - 15:00</td>
-<td><span style="font-weight:bold">JustBench: A Framework for OWL Benchmarking</span> 
+<td><span><b style="font-size:110%">
+
+
+JustBench: A Framework for OWL Benchmarking
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3270,15 +4137,17 @@ chair: Sudhir Agarwal
 </tr>
 <tr>
 <td>14:30 - 15:00</td>
-<td><span style="font-weight:bold">Preference-based Web Service Composition: A Middle Ground Between Execution and Search</span> 
+<td><span><b style="font-size:110%">
+
+
+Preference-based Web Service Composition: A Middle Ground Between Execution and Search
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3286,15 +4155,17 @@ chair: Sudhir Agarwal
 </tr>
 <tr>
 <td>14:30 - 15:00</td>
-<td><span style="font-weight:bold">Finding the Achilles Heel of the Web of Data: using network analysis for link-recommendation</span> 
+<td><span><b style="font-size:110%">
+
+
+Finding the Achilles Heel of the Web of Data: using network analysis for link-recommendation
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3302,15 +4173,17 @@ chair: Sudhir Agarwal
 </tr>
 <tr>
 <td>15:00 - 15:30</td>
-<td><span style="font-weight:bold">Optimising Ontology Classification</span> 
+<td><span><b style="font-size:110%">
+
+
+Optimising Ontology Classification
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3318,15 +4191,17 @@ chair: Sudhir Agarwal
 </tr>
 <tr>
 <td>15:00 - 15:30</td>
-<td><span style="font-weight:bold">Using Semantics for Automating the Authentication of Web APIs</span> 
+<td><span><b style="font-size:110%">
+
+
+Using Semantics for Automating the Authentication of Web APIs
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3334,15 +4209,17 @@ chair: Sudhir Agarwal
 </tr>
 <tr>
 <td>15:00 - 15:30</td>
-<td><span style="font-weight:bold">Signal/Collect: Graph Algorithms for the (Semantic) Web</span> 
+<td><span><b style="font-size:110%">
+
+
+Signal/Collect: Graph Algorithms for the (Semantic) Web
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3350,15 +4227,18 @@ chair: Sudhir Agarwal
 </tr>
 <tr>
 <td>15:15 - 15:45</td>
-<td><span style="font-weight:bold">Awards and Closing Ceremonies</span> 
+<td><span><b style="font-size:110%">
+
+Academic:
+
+Awards and Closing Ceremonies
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3366,15 +4246,17 @@ chair: Sudhir Agarwal
 </tr>
 <tr>
 <td>15:30 - 16:00</td>
-<td><span style="font-weight:bold">Optimizing Enterprise-scale OWL 2 RL Reasoning in a Relational Database System</span> 
+<td><span><b style="font-size:110%">
+
+
+Optimizing Enterprise-scale OWL 2 RL Reasoning in a Relational Database System
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3382,20 +4264,27 @@ chair: Sudhir Agarwal
 </tr>
 <tr>
 <td>16:00 - 17:00</td>
-<td><span style="font-weight:bold">Industry Track: Session 2</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Fabio Ciravegna
+Industry Track: Session 2
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Fabio Ciravegna</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Enhancing the BBC's World Cup coverage with an ontology driven information architecture</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Semantic Media Asset Management: playence Media</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Enhancing the BBC's World Cup coverage with an ontology driven information architecture,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Semantic Media Asset Management: playence Media,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -3403,20 +4292,27 @@ chair: Fabio Ciravegna
 </tr>
 <tr>
 <td>16:00 - 17:00</td>
-<td><span style="font-weight:bold">Research Track: Query Optimization</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Yuzhong Qu
+Research Track: Query Optimization
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Yuzhong Qu</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>SPARQL Query Optimization on Top of DHTs</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Using Reformulation Trees to Optimize Queries over Distributed Heterogeneous Sources</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. SPARQL Query Optimization on Top of DHTs,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Using Reformulation Trees to Optimize Queries over Distributed Heterogeneous Sources,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -3424,20 +4320,27 @@ chair: Yuzhong Qu
 </tr>
 <tr>
 <td>16:00 - 17:00</td>
-<td><span style="font-weight:bold">Research Track: Social Semantic Web/2</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: Harith Alani
+Research Track: Social Semantic Web/2
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Harith Alani</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Measuring the dynamic bi-directional influence between content and social networks</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Toponym Resolution in Social Media</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Measuring the dynamic bi-directional influence between content and social networks,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Toponym Resolution in Social Media,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -3445,21 +4348,28 @@ chair: Harith Alani
 </tr>
 <tr>
 <td>16:00 - 17:00</td>
-<td><span style="font-weight:bold">Industry Track: Session 2</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Industry Track: Session 2
+</b>
 (Industry Track)
+</span>
 
-<div>
-chair: Fabio Ciravegna
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Fabio Ciravegna</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Enhancing the BBC's World Cup coverage with an ontology driven information architecture</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Semantic Media Asset Management: playence Media</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Enhancing the BBC's World Cup coverage with an ontology driven information architecture,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Semantic Media Asset Management: playence Media,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -3467,21 +4377,28 @@ chair: Fabio Ciravegna
 </tr>
 <tr>
 <td>16:00 - 17:00</td>
-<td><span style="font-weight:bold">Research Track: Query Optimization</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Research Track: Query Optimization
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Yuzhong Qu
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Yuzhong Qu</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>SPARQL Query Optimization on Top of DHTs</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Using Reformulation Trees to Optimize Queries over Distributed Heterogeneous Sources</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. SPARQL Query Optimization on Top of DHTs,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Using Reformulation Trees to Optimize Queries over Distributed Heterogeneous Sources,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -3489,21 +4406,28 @@ chair: Yuzhong Qu
 </tr>
 <tr>
 <td>16:00 - 17:00</td>
-<td><span style="font-weight:bold">Research Track: Social Semantic Web/2</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Research Track: Social Semantic Web/2
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Harith Alani
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Harith Alani</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Measuring the dynamic bi-directional influence between content and social networks</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Toponym Resolution in Social Media</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Measuring the dynamic bi-directional influence between content and social networks,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Toponym Resolution in Social Media,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -3511,15 +4435,17 @@ chair: Harith Alani
 </tr>
 <tr>
 <td>16:00 - 16:30</td>
-<td><span style="font-weight:bold">Measuring the dynamic bi-directional influence between content and social networks</span> 
+<td><span><b style="font-size:110%">
+
+
+Measuring the dynamic bi-directional influence between content and social networks
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3527,15 +4453,17 @@ chair: Harith Alani
 </tr>
 <tr>
 <td>16:00 - 16:30</td>
-<td><span style="font-weight:bold">SPARQL Query Optimization on Top of DHTs</span> 
+<td><span><b style="font-size:110%">
+
+
+SPARQL Query Optimization on Top of DHTs
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3543,15 +4471,17 @@ chair: Harith Alani
 </tr>
 <tr>
 <td>16:30 - 17:00</td>
-<td><span style="font-weight:bold">Toponym Resolution in Social Media</span> 
+<td><span><b style="font-size:110%">
+
+
+Toponym Resolution in Social Media
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -3559,15 +4489,17 @@ chair: Harith Alani
 </tr>
 <tr>
 <td>16:30 - 17:00</td>
-<td><span style="font-weight:bold">Using Reformulation Trees to Optimize Queries over Distributed Heterogeneous Sources</span> 
+<td><span><b style="font-size:110%">
+
+
+Using Reformulation Trees to Optimize Queries over Distributed Heterogeneous Sources
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>

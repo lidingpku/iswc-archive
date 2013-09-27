@@ -13,6 +13,87 @@
 	version='XHTML+RDFa 1.0' typeof='foaf:Document'>
 <head>
     <title></title>
+<style>
+
+table {
+    *border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    width: 100%;
+
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+}
+
+tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+td, th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+td:first-child, th:first-child {
+    border-left: none;
+}
+
+th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+</style>
 </head>
 <body>
 
@@ -22,22 +103,25 @@
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">4th International Workshop On Semantic Web Enabled Software Engineering</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://www.csd.abdn.ac.uk/swese2008/">4th International Workshop On Semantic Web Enabled Software Engineering</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -45,15 +129,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">7th Semantic Web Services Challenge Workshop</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://sws-challenge.org/wiki/index.php/Workshop_Karlsruhe">7th Semantic Web Services Challenge Workshop</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -61,15 +148,17 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Intro to Semantic Web</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://kmi.open.ac.uk/events/iswc08-semantic-web-intro/">Intro to Semantic Web</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -77,15 +166,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Terra Cognita Workshop</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://asio.bbn.com/terracognita2008/">Terra Cognita Workshop</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -93,15 +185,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Third International Workshop On Ontology Matching</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://om2008.ontologymatching.org/">Third International Workshop On Ontology Matching</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -109,15 +204,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Workshop On Uncertainty Reasoning For The Semantic Web</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://c4i.gmu.edu/ursw/2008/">Workshop On Uncertainty Reasoning For The Semantic Web</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -125,15 +223,17 @@
 </tr>
 <tr>
 <td>09:00 - 12:30</td>
-<td><span style="font-weight:bold">A Semantic Multimedia Web: Create, Annotate, Present and Share your Media</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://homepages.cwi.nl/~media/iswc08/">A Semantic Multimedia Web: Create, Annotate, Present and Share your Media</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -141,15 +241,17 @@
 </tr>
 <tr>
 <td>09:00 - 12:30</td>
-<td><span style="font-weight:bold">Formal Concept Analysis for the Semantic Web</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://www.aifb.uni-karlsruhe.de/WBS/jvo/fca4sw/">Formal Concept Analysis for the Semantic Web</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -157,15 +259,18 @@
 </tr>
 <tr>
 <td>09:00 - 12:30</td>
-<td><span style="font-weight:bold">Incentives For The Semantic Web</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://km.aifb.uni-karlsruhe.de/ws/insemtive2008/">Incentives For The Semantic Web</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -173,15 +278,17 @@
 </tr>
 <tr>
 <td>14:00 - 17:30</td>
-<td><span style="font-weight:bold">Knowledge Representation and Extraction for Business Intelligence</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://www.gate.ac.uk/conferences/iswc08-tutorial/">Knowledge Representation and Extraction for Business Intelligence</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -189,15 +296,17 @@
 </tr>
 <tr>
 <td>14:00 - 17:30</td>
-<td><span style="font-weight:bold">RDFa–Bridging the Web of Documents and the Web of Data</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://semanticweb.joanneum.at/tutorials/iswc08-rdfa">RDFa–Bridging the Web of Documents and the Web of Data</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -205,15 +314,17 @@
 </tr>
 <tr>
 <td>14:00 - 17:30</td>
-<td><span style="font-weight:bold">Working Modularly with OWL</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://owl.cs.manchester.ac.uk/2008/iswc-modtut/">Working Modularly with OWL</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -224,23 +335,26 @@
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">4th International Workshop on Scalable Semantic Web  
-					  Knowledge Base Systems</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://www.cse.lehigh.edu/~yug2/ssws08/home.htm">4th International Workshop on Scalable Semantic Web  
+					  Knowledge Base Systems</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -248,15 +362,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Nature inspired Reasoning for the Semantic Web</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://webscience.org/events/www2008-ws.html">Nature inspired Reasoning for the Semantic Web</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -264,15 +381,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Ontology-supported Business Intelligence</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://gate.ac.uk/conferences/obi08/obi08.htm">Ontology-supported Business Intelligence</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -280,15 +400,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Personal Identification and Collaborations: Knowledge Mediation and Extraction</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://expertfinder.info/pickme2008">Personal Identification and Collaborations: Knowledge Mediation and Extraction</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -296,15 +419,17 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Reasoning for Ontology Engineering and Usage</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://owl.cs.manchester.ac.uk/2008/iswc-tones/">Reasoning for Ontology Engineering and Usage</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -312,15 +437,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Service Matchmaking and Resource Retrieval in the Semantic Web</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://www-ags.dfki.uni-sb.de/~klusch/smr2-08/">Service Matchmaking and Resource Retrieval in the Semantic Web</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -328,15 +456,18 @@
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Social Data on the Web</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://sdow2008.semanticweb.org/">Social Data on the Web</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -344,15 +475,17 @@
 </tr>
 <tr>
 <td>09:00 - 12:30</td>
-<td><span style="font-weight:bold">How to Publish Linked Data on the Web</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://events.linkeddata.org/iswc2008tutorial/">How to Publish Linked Data on the Web</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -360,15 +493,18 @@
 </tr>
 <tr>
 <td>09:00 - 12:30</td>
-<td><span style="font-weight:bold">International Workshop on Ontology Dynamics</span> 
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://www.csd.abdn.ac.uk/iwod2008/">International Workshop on Ontology Dynamics</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -376,15 +512,17 @@
 </tr>
 <tr>
 <td>09:00 - 12:30</td>
-<td><span style="font-weight:bold">Realizing a Semantic Web Application</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://swa.cefriel.it/Teaching/RSWA2008">Realizing a Semantic Web Application</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -392,15 +530,17 @@
 </tr>
 <tr>
 <td>14:00 - 17:30</td>
-<td><span style="font-weight:bold">Free Semantic Content: Using OpenCyc in Semantic Web Applications</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://iswc2008.semanticweb.org/tutorials/free-semantic-content-using-opencyc-in-semantic-web-applications/">Free Semantic Content: Using OpenCyc in Semantic Web Applications</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -408,15 +548,17 @@
 </tr>
 <tr>
 <td>14:00 - 17:30</td>
-<td><span style="font-weight:bold">Semantic Web for Health Care and Life Sciences</span> 
+<td><span><b style="font-size:110%">
+
+
+<a href="http://esw.w3.org/topic/HCLS/ISWC2008/Tutorial">Semantic Web for Health Care and Life Sciences</a>
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>

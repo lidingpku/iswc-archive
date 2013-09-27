@@ -18,7 +18,7 @@
 <http://data.semanticweb.org/conference/iswc/2013/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2013 (2013-08-06)" ;
-    dcterms:modified "2013-09-26T22:01:53.935976"^^xsd:datetime ;
+    dcterms:modified "2013-09-26T23:46:03.258229"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2013/event-01> a swc:SpecialEvent ;
@@ -93,7 +93,8 @@
     swc:room "Parkside Ballroom B/Parkside Ballroom Foyer" ;
     ical:dtend "2013-10-23T20:00:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-23T18:05:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/accepted-posters-and-demos> .
 
 <http://data.semanticweb.org/conference/iswc/2013/event-10> a swc:SpecialEvent ;
     rdfs:label "SWJ Dinner" ;
@@ -183,7 +184,8 @@
     swc:room "King Street Wharf" ;
     ical:dtend "2013-10-24T22:15:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-24T19:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/conference-dinner-sydney-harbour-cruise> .
 
 <http://data.semanticweb.org/conference/iswc/2013/event-20> a swc:SpecialEvent ;
     rdfs:label "Registration" ;
@@ -1244,7 +1246,8 @@
     swc:room "Bayside 202-203" ;
     ical:dtend "2013-10-24T15:00:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-24T14:20:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://challenge.semanticweb.org/2013/> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-6a> a swc:SessionEvent ;
     rdfs:label "Semantic Web Challenge 2" ;
@@ -1253,7 +1256,8 @@
     swc:room "Bayside 202-203" ;
     ical:dtend "2013-10-24T16:15:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-24T15:15:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://challenge.semanticweb.org/2013/> .
 
 <http://data.semanticweb.org/conference/iswc/2013/track/doctoral-consortium> a swc:TrackEvent ;
     rdfs:label "Doctoral Consortium" ;
@@ -3001,104 +3005,127 @@
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2013/track/2/event-01> .
 
 <http://data.semanticweb.org/conference/iswc/2013/tutorial-1> a swc:TutorialEvent ;
-    rdfs:label "Big Data Management Tutorial" ;
+    rdfs:label "Tutorial 8: Big Data Management" ;
     swc:address "SMC Conference & Function Centre, Sydney, Australia" ;
-    swc:hasAcronym "Tutorial 8: Big Data Management" ;
     swc:hasLocation "SMC Conference & Function Centre, Sydney, Australia" ;
     swc:hasRole <http://data.semanticweb.org/conference/iswc/2013/tutorial-1/tutorial-organizer> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013/track/tutorial> ;
     ical:dtend "2013-10-22T17:30:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-22T13:45:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/big-data-management> .
 
 <http://data.semanticweb.org/conference/iswc/2013/tutorial-2> a swc:TutorialEvent ;
-    rdfs:label "Hands-on Guide to Linked Data Applications" ;
+    rdfs:label "Tutorial 7: Hands-on Guide to Linked Data Applications" ;
     swc:address "SMC Conference & Function Centre, Sydney, Australia" ;
-    swc:hasAcronym "Tutorial 7: Hands-on Guide to Linked Data Applications" ;
     swc:hasLocation "SMC Conference & Function Centre, Sydney, Australia" ;
     swc:hasRole <http://data.semanticweb.org/conference/iswc/2013/tutorial-2/tutorial-organizer> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013/track/tutorial> ;
+    swrc:abstract "The concept of Linked Open Data (LOD) shows great potential to overcome existing problems in discovery, integration, and reuse of data. More and more applications are emerging that make use of LOD. Building such applications is supported by a large number of tools that have been developed in the Semantic Web community. The goal of this tutorial is to provide novices with a practical introduction into building LOD applications. Participants will learn how to build a simple LOD application by following hands-on instructions. Using publicly available tools and practical use cases, we show how to go from structured data." ;
+    swrc:link_document <http://www.csiro.au/Organisation-Structure/Divisions/ICT-Centre/Linked-Data-Applications-Tutorial.aspx> ;
+    swrc:url <http://www.csiro.au/Organisation-Structure/Divisions/ICT-Centre/Linked-Data-Applications-Tutorial.aspx> ;
     ical:dtend "2013-10-22T12:45:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-22T09:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/hands-guide-linked-data-applications> .
 
 <http://data.semanticweb.org/conference/iswc/2013/tutorial-3> a swc:TutorialEvent ;
-    rdfs:label "Linked Data for Web Scale Information Extraction" ;
+    rdfs:label "Tutorial 9: Linked Data for Web Scale Information Extraction" ;
     swc:address "SMC Conference & Function Centre, Sydney, Australia" ;
-    swc:hasAcronym "Tutorial 9: Linked Data for Web Scale Information Extraction" ;
     swc:hasLocation "SMC Conference & Function Centre, Sydney, Australia" ;
     swc:hasRole <http://data.semanticweb.org/conference/iswc/2013/tutorial-3/tutorial-organizer> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013/track/tutorial> ;
+    swrc:abstract "This tutorial analyses open challenges for Web-scale Information Extraction (IE) and introduces the usage of Linked Data (LD) for the task. Linked Data has grown to a gigantic knowledge base, which, as of 2013, comprised 31 billion triples in 295 datasets (http://lod-cloud.net/state/). Such resources can become invaluable resources to train Web-scale IE and natural language tasks because they are very large scale and covering multiple domains. This tutorial will show how to exploit LD for IE and will explore IE techniques able to scale at web level. We will particularly focus on the tasks of Wrapper Induction and Table Interpretation." ;
+    swrc:link_document <http://oak.dcs.shef.ac.uk/wsie2013/index.html> ;
+    swrc:url <http://oak.dcs.shef.ac.uk/wsie2013/index.html> ;
     ical:dtend "2013-10-22T17:30:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-22T13:45:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/linked-data-web-scale-information-extraction> .
 
 <http://data.semanticweb.org/conference/iswc/2013/tutorial-4> a swc:TutorialEvent ;
-    rdfs:label "Microtask crowdsourcing to solve Semantic Web problems" ;
+    rdfs:label "Tutorial 5: Microtask crowdsourcing to solve Semantic Web problems" ;
     swc:address "SMC Conference & Function Centre, Sydney, Australia" ;
-    swc:hasAcronym "Tutorial 5: Microtask crowdsourcing to solve Semantic Web problems" ;
     swc:hasLocation "SMC Conference & Function Centre, Sydney, Australia" ;
     swc:hasRole <http://data.semanticweb.org/conference/iswc/2013/tutorial-4/tutorial-organizer> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013/track/tutorial> ;
+    swrc:abstract "Microtask crowdsourcing platforms, as one of the most popular instance of social computing technologies, are increasingly used to support massively collaborative projects on semantic content management. In this tutorial we will introduce the most popular approaches to microtask crowdsourcing for Semantic Web problems, as a mean to realize hybrid human-machine content management architectures. We will explain the core notions and technologies, including Amazon Mechanical Turk, CrowdFlower and specifically purposed tools building upon the functionality of these platforms. We will address questions related to quality assurance, resource management, and workflow design, and discuss a series of technical and socio-economical challenges and open issues related to the application of microtask crowdsourcing in given Semantic Web scenarios." ;
+    swrc:link_document <https://sites.google.com/site/microtasktutorial/> ;
+    swrc:url <https://sites.google.com/site/microtasktutorial/> ;
     ical:dtend "2013-10-22T17:30:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-22T09:00:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <https://sites.google.com/site/microtasktutorial/> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/microtask-crowdsourcing-solve-semantic-web-problems> .
 
 <http://data.semanticweb.org/conference/iswc/2013/tutorial-5> a swc:TutorialEvent ;
-    rdfs:label "Modelling Ontologies Visually" ;
+    rdfs:label "Tutorial 4: Modelling Ontologies Visually" ;
     swc:address "SMC Conference & Function Centre, Sydney, Australia" ;
-    swc:hasAcronym "Tutorial 4: Modelling Ontologies Visually" ;
     swc:hasLocation "SMC Conference & Function Centre, Sydney, Australia" ;
     swc:hasRole <http://data.semanticweb.org/conference/iswc/2013/tutorial-5/tutorial-organizer> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013/track/tutorial> ;
+    swrc:abstract "Ontology engineering has acknowledged benefits yet the notations with which one can create such models can require considerable technical expertise. There has been interest in the development of visual (i.e. diagrammatic) notations that are more readily accessible to those without substantial mathematical training. This tutorial will demonstrate a formal visual logic, called concept diagrams, suitable for ontology engineering. The notation has been designed with regard to cognitive theories combined with an emphasis on being sufficiently expressive to model rich domains. The tutorial introduces concept diagrams and attendees will gain knowledge of how to apply concept diagrams for ontology engineering." ;
+    swrc:link_document <http://www.ontologyengineering.org/iswc2013> ;
+    swrc:url <http://www.ontologyengineering.org/iswc2013> ;
     ical:dtend "2013-10-21T17:30:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-21T13:45:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/modelling-ontologies-visually> .
 
 <http://data.semanticweb.org/conference/iswc/2013/tutorial-6> a swc:TutorialEvent ;
-    rdfs:label "Relational Database to RDF (RDB2RDF) Tutorial: The new R2RML and Direct Mapping Standards, from Semantics to Practice" ;
+    rdfs:label "Tutorial 1: Relational Database to RDF (RDB2RDF)" ;
     swc:address "SMC Conference & Function Centre, Sydney, Australia" ;
-    swc:hasAcronym "Tutorial 1: Relational Database to RDF (RDB2RDF)" ;
     swc:hasLocation "SMC Conference & Function Centre, Sydney, Australia" ;
     swc:hasRole <http://data.semanticweb.org/conference/iswc/2013/tutorial-6/tutorial-organizer> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013/track/tutorial> ;
+    swrc:abstract "In one study it was reported that there is 500 times as much data in the hidden or deep web, then there is in crawlable, indexable web pages. Most of this data is stored in relational databases. Hence, the Semantic Web’s promise of Web-scale data integration will only live up to its true promise with the inclusion of legacy relational database management systems (RDBMS). Two new, interrelated and complementary W3C standards, “Direct Mapping of Relational Data to RDF” and “R2RML: RDB to RDF Mapping Language”, are poised to enable this data into the web of Linked Data. This tutorial will introduce, contrast and explain the preferred solution organizations embodies by these two standards. The tutorial will also include a hands-on session." ;
+    swrc:link_document <http://rdb2rdf.org/> ;
+    swrc:url <http://rdb2rdf.org/> ;
     ical:dtend "2013-10-21T17:30:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-21T09:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/relational-database-rdf> .
 
 <http://data.semanticweb.org/conference/iswc/2013/tutorial-7> a swc:TutorialEvent ;
-    rdfs:label "Stream Reasoning for Linked Data" ;
+    rdfs:label "Tutorial 2: Stream Reasoning for Linked Data" ;
     swc:address "SMC Conference & Function Centre, Sydney, Australia" ;
-    swc:hasAcronym "Tutorial 2: Stream Reasoning for Linked Data" ;
     swc:hasLocation "SMC Conference & Function Centre, Sydney, Australia" ;
     swc:hasRole <http://data.semanticweb.org/conference/iswc/2013/tutorial-7/tutorial-organizer> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013/track/tutorial> ;
+    swrc:abstract "The tutorial provides a comprehensive view of the Stream Reasoning research area. It consists of two parts. The first one is focused on RDF and SPARQL extensions for stream processing. It will begin with an introduction to RDF Stream processing models, and two concrete approaches that implement these models, namely C-SPARQL Engine and SPARQLStream, including hands on sessions. The second part of the tutorial explores Stream Reasoning approaches: approximate stream reasoning techniques for OWL2-DL, incremental materialization for RDF Streams (IMaRS), and an overview of EP-SPARQL and Sparkwave. Also the second part includes hands-on sessions." ;
+    swrc:link_document <http://streamreasoning.org/sr4ld2013> ;
+    swrc:url <http://streamreasoning.org/sr4ld2013> ;
     ical:dtend "2013-10-21T17:30:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-21T09:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/stream-reasoning-linked-data> .
 
 <http://data.semanticweb.org/conference/iswc/2013/tutorial-8> a swc:TutorialEvent ;
-    rdfs:label "The Mobile Semantic Web" ;
+    rdfs:label "Tutorial 6: The Mobile Semantic Web" ;
     swc:address "SMC Conference & Function Centre, Sydney, Australia" ;
-    swc:hasAcronym "Tutorial 6: The Mobile Semantic Web" ;
     swc:hasLocation "SMC Conference & Function Centre, Sydney, Australia" ;
     swc:hasRole <http://data.semanticweb.org/conference/iswc/2013/tutorial-8/tutorial-organizer> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013/track/tutorial> ;
+    swrc:abstract "The combination of the versatility of smart devices and the capabilities of semantic technologies forms a great foundation for a mobile Semantic Web that will contribute to further realizing the true potential of both disciplines. Motivated by a service discovery and matchmaking example, this tutorial provides an overview of background knowledge in ontology languages and basic reasoning problems, and how they are applicable in the mobile environment. It then presents challenges and state-of-the-art development on mobile ontology reasoning, focusing on the reasoning and optimization techniques developed in the mTableaux framework. Finally, the tutorial closes with an outlook of important research problems." ;
+    swrc:link_document <http://www.csse.monash.edu.au/~yli/iswc2013tut/> ;
+    swrc:url <http://www.csse.monash.edu.au/~yli/iswc2013tut/> ;
     ical:dtend "2013-10-22T12:45:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-22T09:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/mobile-semantic-web> .
 
 <http://data.semanticweb.org/conference/iswc/2013/tutorial-9> a swc:TutorialEvent ;
-    rdfs:label "The Web of Things" ;
+    rdfs:label "Tutorial 3: The Web of Things" ;
     swc:address "SMC Conference & Function Centre, Sydney, Australia" ;
-    swc:hasAcronym "Tutorial 3: The Web of Things" ;
     swc:hasLocation "SMC Conference & Function Centre, Sydney, Australia" ;
     swc:hasRole <http://data.semanticweb.org/conference/iswc/2013/tutorial-9/tutorial-organizer> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013/track/tutorial> ;
+    swrc:abstract "The aim of this tutorial is to present the Web of Things (WoT), its components, and how they interconnect through a series of semantic approaches into an operable stack of technologies. The goal is (1) to explain WoT and related concepts, (2) to give an overview and explain the functionality of the components of the WoT, (3) explain how these components (sensor networks, semantic web, data analytics) can be used to connect the “things” various levels of abstraction and (4) show relevant projects and demos." ;
+    swrc:link_document <http://carolinafortuna.com/web-of-things-tutorial/> ;
+    swrc:url <http://carolinafortuna.com/web-of-things-tutorial/> ;
     ical:dtend "2013-10-21T12:45:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-21T09:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/web-things> .
 
 <http://data.semanticweb.org/conference/iswc/2013/vice-chair> a swc:Chair ;
     rdfs:label "Vice Chair" ;
@@ -4385,10 +4412,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/cold/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "The quantity of published Linked Data continues to increase. However, applications that exploit Linked Data are not yet widespread. Reasons may include a lack of suitable solutions for a number of open problems. The diversity and dynamics of LOD sources have brought new challenges in seamless data integration, dynamic discovery, provenance tracking, and quality assessment at the Web scale. Addressing these issues requires joint community efforts from both LOD provision and consumption perspectives, including the development and investigation of concepts that can lead towards the realisation of a sustainable Linked Data ecosystem. The objective of this workshop is to provide a focused venue for academic and industrial discussions on concepts, algorithms, infrastructure and tools (including systematic analysis and rigorous evaluation) that help to exploit Linked Data (and not just to produce it)." ;
+    swrc:link_document <http://db.uwaterloo.ca/cold2013/> ;
+    swrc:url <http://db.uwaterloo.ca/cold2013/> ;
     ical:dtend "2013-10-22T17:30:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-22T09:00:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://db.uwaterloo.ca/cold2013/> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/cold-2013> .
 
 <http://data.semanticweb.org/workshop/crowdsem/2013> a swc:WorkshopEvent ;
     rdfs:label "CrowdSem: Crowdsourcing the Semantic Web" ;
@@ -4398,10 +4427,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/crowdsem/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "This interactive workshop takes stock of the emergent work and chart the research agenda with interactive sessions to brainstorm ideas and potential applications of collective intelligence to solving AI hard semantic web problems. The Global Brain Semantic Web—a Semantic Web interleaving a large number of human and machine computation—has great potential to overcome some of the issues of the current Semantic Web. In particular, semantic technologies have been deployed in the context of a wide range of information management tasks in scenarios that are increasingly significant in both technical (data size, variety and complexity of data sources) and economical terms (industries addressed and their market volume). For many of these tasks, machine-driven algorithmic techniques aiming at full automation do not reach a level of accuracy that many production environments require. Enhancing automatic techniques with human computation capabilities is becoming a viable solution in many cases. We believe that there is huge potential at the intersection of these disciplines - large scale, knowledge-driven, information management and crowdsourcing - to solve technically challenging problems purposefully and in a cost effective manner." ;
+    swrc:link_document <http://crowdsem.wordpress.com/> ;
+    swrc:url <http://crowdsem.wordpress.com/> ;
     ical:dtend "2013-10-21T17:30:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-21T09:00:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://crowdsem.wordpress.com/> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/crowdsem> .
 
 <http://data.semanticweb.org/workshop/dbpedia-nlp/2013> a swc:WorkshopEvent ;
     rdfs:label "DBpedia & NLP 2013" ;
@@ -4411,10 +4442,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "Recently, the DBpedia community has experienced an immense increase in activity and we believe, that the time has come to explore the connection between DBpedia & Natural Language Processing (NLP) in a yet unpreceded depth. The goal of this workshop can be summarized by this (pseudo-) formula: DBpedia & NLP ≡ DBpedia4NLP ⨅ NLP4DBpedia. DBpedia has a long-standing tradition to provide useful data as well as a commitment to reliable Semantic Web technologies and living best practices. With the rise of WikiData, DBpedia is step-by-step relieved from the tedious extraction of data from Wikipedia’s infoboxes and can shift its focus on new challenges such as extracting information from the unstructured article text as well as becoming a testing ground for multilingual NLP methods." ;
+    swrc:link_document <http://nlp-dbpedia2013.blogs.aksw.org/2013/04/25/nlp-dbpedia-workshop-in-oct-2013-iswc-2013-in-sydney/> ;
+    swrc:url <http://nlp-dbpedia2013.blogs.aksw.org/2013/04/25/nlp-dbpedia-workshop-in-oct-2013-iswc-2013-in-sydney/> ;
     ical:dtend "2013-10-22T17:30:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-22T09:00:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://nlp-dbpedia2013.blogs.aksw.org/2013/04/25/nlp-dbpedia-workshop-in-oct-2013-iswc-2013-in-sydney/> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/dbpedia-nlp-2013> .
 
 <http://data.semanticweb.org/workshop/derive/2013> a swc:WorkshopEvent ;
     rdfs:label "3rd International Workshop on Detection, Representation, and Exploitation of Events in the Semantic Web" ;
@@ -4424,10 +4457,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/derive/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "Events are at the heart of many of our daily information sources, being microposts, newswire, calendar information or sensor data. For detecting, representing and exploiting events in these sources, different research communities are each trying to resolve a small part of this puzzle. The goal of this workshop is to bring together those different areas in the recent surge of research on the use of events as a key concept for representing and organising knowledge on the Web. The workshop invites contributions to two central questions and its goal is to formulate answers to these questions that advance and reflect the current state of understanding and application of events. Each submission will be expected to address at least one question explicitly, if possible including a system demonstration. This year, we have also made available a challenge dataset based on sensor data and we specifically invite contributions that link events in sensor data such as social web and multimedia data using semantic web technologies. The most substantial contributions to the workshop will be presented orally (and if possible with a demo) in sessions organised according to the questions addressed, with time allocated for deep discussion." ;
+    swrc:link_document <http://semanticweb.cs.vu.nl/derive2013> ;
+    swrc:url <http://semanticweb.cs.vu.nl/derive2013> ;
     ical:dtend "2013-10-21T18:00:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-21T13:45:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://semanticweb.cs.vu.nl/derive2013> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/derive-2013> .
 
 <http://data.semanticweb.org/workshop/ld4ie/2013> a swc:WorkshopEvent ;
     rdfs:label "LD4IE - Linked Data for Information Extraction" ;
@@ -4437,10 +4472,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/ld4ie/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "This workshop focuses on the exploitation of Linked Data for Web Scale Information Extraction (IE), which concerns extracting structured knowledge from unstructured/semi-structured documents on the Web. One of the major bottlenecks for the current state of the art in IE is the availability of learning materials (e.g., seed data, training corpora), which, typically are manually created and are expensive to build and maintain. Linked Data (LD) defines best practices for exposing, sharing, and connecting data, information, and knowledge on the Semantic Web using uniform means such as URIs and RDF. It has so far been created a gigantic knowledge source of Linked Open Data (LOD), which constitutes a mine of learning materials for IE. However, the massive quantity requires efficient learning algorithms and the unguaranteed quality of data requires robust methods to handle redundancy and noise.LD4IE intends to gather researchers and practitioners to address multiple challenges arising from the usage of LD as learning material for IE tasks, focusing on (i) modelling user defined extraction tasks using LD; (ii) gathering learning materials from LD assuring quality (training data selection, cleaning, feature selection etc.); (iii) robust learning algorithms for handling LD; (iv) publishing IE results to the LOD cloud." ;
+    swrc:link_document <http://oak.dcs.shef.ac.uk/ld4ie2013/index.html> ;
+    swrc:url <http://oak.dcs.shef.ac.uk/ld4ie2013/index.html> ;
     ical:dtend "2013-10-21T17:30:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-21T09:00:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://oak.dcs.shef.ac.uk/ld4ie2013/index.html> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/ld4ie> .
 
 <http://data.semanticweb.org/workshop/lisc/2013> a swc:WorkshopEvent ;
     rdfs:label "3rd International Workshop on Linked Science 2013" ;
@@ -4450,10 +4487,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/lisc/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "This workshop aims to discuss and present results of new ways of applying Semantic Web technologies to the publishing, sharing and interlinking of scientific data and methods, and to the reasoning over such resources to discover interesting new links to validate, reuse and reproduce scientific research. The theme of this year’s workshop is “Supporting Reproducibility, Scientific Investigations and Experiments”. We will focus on scientific investigations and experiments that use Linked Data and semantic technologies to represent their data and methods and enable their knowledge discovery, reuse and validation." ;
+    swrc:link_document <http://linkedscience.org/events/lisc2013> ;
+    swrc:url <http://linkedscience.org/events/lisc2013> ;
     ical:dtend "2013-10-21T17:30:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-21T09:00:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://linkedscience.org/events/lisc2013> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/lisc-2013> .
 
 <http://data.semanticweb.org/workshop/om/2013> a swc:WorkshopEvent ;
     rdfs:label "8th International Workshop on Ontology Matching" ;
@@ -4463,10 +4502,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/om/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "Ontology matching is a key interoperability enabler for the Semantic Web, as well as a useful tactic in some classical data integration tasks dealing with the semantic heterogeneity problem. It takes the ontologies as input and determines as output an alignment, that is, a set of correspondences between the semantically related entities of those ontologies. These correspondences can be used for various tasks, such as ontology merging, data translation, query answering or navigation on the web of data. Thus, matching ontologies enables the knowledge and data expressed in the matched ontologies to interoperate." ;
+    swrc:link_document <http://www.om2013.ontologymatching.org/> ;
+    swrc:url <http://www.om2013.ontologymatching.org/> ;
     ical:dtend "2013-10-21T17:30:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-21T09:00:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://www.om2013.ontologymatching.org/> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/om-2013> .
 
 <http://data.semanticweb.org/workshop/ordring/2013> a swc:WorkshopEvent ;
     rdfs:label "2nd International Workshop on Ordering and Reasoning" ;
@@ -4476,10 +4517,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/ordring/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "More and more applications require real-time processing of massive, dynamically generated, ordered data; where order is often an essential factor reflecting recency, proximity or relevance. Stream and rank-aware data management techniques are progressively providing reactive and reliable query answering over such massive datasets, allowing integration of highly dynamic sources. Key to their success is the use of streaming algorithms that harness the natural or enforceable orders in the data. The expressive power of Semantic technologies is needed in those applications, but Semantic Technologies risk being unable to address the needs of those applications, because they do not consider ordering as an essential property. Ranking results is often seen as an “added task”, performed after inference, without affecting the inference process, which is order-agnostic. However, we perceive a trend towards order-aware semantic technologies: both researchers and practitioners understand that order matters in reasoning over massive and highly dynamic data. The idea of Stream Reasoning is gaining considerable momentum. Some top-k query answering techniques for Linked Data appeared. Several works are considering SPARQL query answering on RDF annotated with labels partially ordered. The Description Logic community is investigating top-k ontological query answering. This workshop aims at bringing together this growing and very active community interested in integrating ordering with reasoning by using methods inspired by stream and rank-aware data management. We see this workshop as a first step to stimulate and guide a paradigm shift in semantic technologies." ;
+    swrc:link_document <http://streamreasoning.org/events/ordring2013> ;
+    swrc:url <http://streamreasoning.org/events/ordring2013> ;
     ical:dtend "2013-10-22T18:00:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-22T13:45:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://streamreasoning.org/events/ordring2013> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/ordring-2013> .
 
 <http://data.semanticweb.org/workshop/provon/2013> a swc:WorkshopEvent ;
     rdfs:label "Society, Privacy and the Semantic Web - Policy and Technology" ;
@@ -4489,10 +4532,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/provon/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "We (the Semantic Web community) are responsible for the conception of technologies that enable large scale integration and mining of personal and public information in all domains of society. This brings unprecedented advantages, assists humans, organisations and systems with problem solving, enables innovation and increases productivity. It makes everything more transparent. However this transparency comes at a price: the loss of our privacy. There has been growing awareness within the community of the need to address privacy and security concerns. To date the focus has been on researching specific privacy and security models and frameworks, for example for access control, obfuscation, anonymization, aggregation, licensing, etc. However we are “putting the cart before the horse”, we need to identify clear privacy and security requirements before proposing technical solutions. With this workshop we aim at the following goals: First, raise awareness that the technologies the community are working on have global societal consequences. Vice versa, our research can be guided by determining a road map for desirable privacy goals. We aim to determine first steps towards identifying desirable goals. Second, raise awareness of interconnections between the different communities that are involved in Web privacy and security ­ e.g., policy makers, users, social sciences and computer scientists and provide a platform for interconnection and communication. Third, determine the next steps that need to be conducted in order to broaden the level of engagement between the relevant parties." ;
+    swrc:link_document <http://privon.semanticweb.org/> ;
+    swrc:url <http://privon.semanticweb.org/> ;
     ical:dtend "2013-10-22T17:30:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-22T09:00:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://privon.semanticweb.org/> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/privon-2013> .
 
 <http://data.semanticweb.org/workshop/semstats/2013> a swc:WorkshopEvent ;
     rdfs:label "1st International Workshop on Semantic Statistics" ;
@@ -4502,10 +4547,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/semstats/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "The goal of this workshop is to explore and strengthen the relationship between the Semantic Web and statistical communities, to provide better access to the data held by statistical offices. It will focus on ways in which statisticians can use Semantic Web technologies and standards in order to formalize, publish, document and link their data and metadata. The workshop will also cover the question of how to apply statistical methods or treatments to linked data, and how to develop new methods and tools for this purpose. Except for visualisation techniques and tools, this question is relatively unexplored, but the subject will obviously grow in importance in the near future." ;
+    swrc:link_document <http://www.datalift.org/en/event/semstats2013> ;
+    swrc:url <http://www.datalift.org/en/event/semstats2013> ;
     ical:dtend "2013-10-22T17:30:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-22T09:00:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://www.datalift.org/en/event/semstats2013> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/semstats-2013> .
 
 <http://data.semanticweb.org/workshop/smam/2013> a swc:WorkshopEvent ;
     rdfs:label "1st International Workshop on Semantic Music and Media" ;
@@ -4515,10 +4562,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/smam/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "This workshop provides a forum to explore and promote the applications of Semantic Web Technologies in the domain of music and time-based media. Emerging activities in research, development and production, driven by projects in both academia and industry, are already spanning many aspects of the creation, management, discovery, delivery and analysis of musical and media content. This workshop brings together this community to share information and practice, and especially to articulate the research agenda in Semantic Music and Media, e.g. \"end-to-end semantics\" through the lifecycle of digital media. This workshop aims at facilitating innovation and helping to achieve the full potential of Semantic Web in this domain, as well as informing Semantic Web research and its application to this area." ;
+    swrc:link_document <http://semanticmedia.org.uk/smam2013> ;
+    swrc:url <http://semanticmedia.org.uk/smam2013> ;
     ical:dtend "2013-10-21T12:45:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-21T08:30:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://semanticmedia.org.uk/smam2013> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/smam-2013> .
 
 <http://data.semanticweb.org/workshop/sml2od/2013> a swc:WorkshopEvent ;
     rdfs:label "Semantic Machine Learning and Linked Open Data Application" ;
@@ -4528,10 +4577,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/sml2od/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "Historical and spatial big data from the environmental and agricultural domains already exist in the modern technology-driven world. Government agencies, utilities and research bodies already have large amounts of data, but their value is not being fully realised because they are not integrated and consequently big knowledge is difficult to access. Semantic web, semantic machine learning and linked open data technology may help to build an \"outer knowledge layer\" so that this information could be accessed by domain people and the broader community. It can also be used to answer complex dynamic queries at run time from the system point of view." ;
+    swrc:link_document <http://www.csiro.au/SML2OD2013> ;
+    swrc:url <http://www.csiro.au/SML2OD2013> ;
     ical:dtend "2013-10-22T18:00:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-22T13:45:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://www.csiro.au/SML2OD2013> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/sml2od-2013> .
 
 <http://data.semanticweb.org/workshop/ssn/2013> a swc:WorkshopEvent ;
     rdfs:label "6th International Workshop on Semantic Sensor Networks" ;
@@ -4541,10 +4592,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/ssn/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "It is estimated that today there are 4 billion mobile devices that can act as sensors, including active and passive RFID tags. This is complemented by an even larger number of fixed sensors recording observations of a wide variety of modalities. Geographically distributed sensor nodes are capable of forming ad hoc networking topologies, with nodes expected to be dynamically inserted and removed from a network. The sensors are increasingly being connected with Web infrastructure, and the Sensor Web Enablement (SWE) standard developed by the Open Geospatial Consortium is widely being adopted in industry, government and academia alike. While such frameworks provide some interoperability, semantics is increasingly seen as key enabler for integration of sensor data and broader Web information systems. Analytical and reasoning capabilities afforded by Semantic Web standards and technologies are considered important for developing advanced applications that go from capturing observations to recognition of events and ultimately developing comprehensive situational awareness. Defense, transportation, global enterprise, and natural resource management industries are leading the rapid emergence of applications in commercial, civic, and scientific operations that involve sensors, web, services and semantics. Semantic technologies are often proposed as important components of complex, cross-jurisdictional, heterogeneous, dynamic information systems. The needs and opportunities arising from the rapidly growing capabilities of networked sensing devices are a challenging case." ;
+    swrc:link_document <http://knoesis.org/ssn2013> ;
+    swrc:url <http://knoesis.org/ssn2013> ;
     ical:dtend "2013-10-22T12:45:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-22T08:30:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://knoesis.org/ssn2013> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/ssn-2013> .
 
 <http://data.semanticweb.org/workshop/ssws/2013> a swc:WorkshopEvent ;
     rdfs:label "9th International Workshop on Scalable Semantic Web Knowledge Base Systems" ;
@@ -4554,10 +4607,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/ssws/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "This workshop provides a forum for discussing scalability issues for the Semantic Web, with the focus on the development and deployment of knowledge base systems for processing Semantic Web data. We expect that scalability issues are going to challenge the Semantic Web for a long time and significant effort is needed in order to tackle them. This workshop brings together researchers and practitioners to share their recent ideas and advances towards building scalable knowledge base systems for the Semantic Web." ;
+    swrc:link_document <http://www.ssws-ws.org/SSWS2013/> ;
+    swrc:url <http://www.ssws-ws.org/SSWS2013/> ;
     ical:dtend "2013-10-21T17:30:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-21T09:00:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://www.ssws-ws.org/SSWS2013/> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/ssws-2013> .
 
 <http://data.semanticweb.org/workshop/ursw/2013> a swc:WorkshopEvent ;
     rdfs:label "9th International Workshop on Uncertainty Reasoning for the Semantic Web" ;
@@ -4567,10 +4622,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/ursw/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "This Workshop is an exciting opportunity for collaboration and cross-fertilization between the uncertainty reasoning community and the Semantic Web community. Effective methods for reasoning under uncertainty are vital for realizing many aspects of the Semantic Web vision, but the ability of current-generation web technology to handle uncertainty remains extremely limited. Thus, there is a continuing demand for uncertainty reasoning technology among Semantic Web researchers and developers, and the URSW workshop creates a unique opening to bring together two communities with a clear commonality of interest but limited history of interaction. By capitalizing on this opportunity, URSW could spark dramatic progress toward realizing the Semantic Web vision." ;
+    swrc:link_document <http://c4i.gmu.edu/ursw/2013> ;
+    swrc:url <http://c4i.gmu.edu/ursw/2013> ;
     ical:dtend "2013-10-21T18:00:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-21T13:45:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://c4i.gmu.edu/ursw/2013> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/ursw-2013> .
 
 <http://data.semanticweb.org/workshop/wasabi/2013> a swc:WorkshopEvent ;
     rdfs:label "WaSABi: Workshop on Semantic Web Enterprise Adoption and Best Practice" ;
@@ -4580,10 +4637,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/wasabi/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "Over the years, Semantic Web based systems, applications, and tools have shown significant improvement. Their development and deployment shows the steady maturing of semantic technologies and demonstrates their value in solving current and emerging problems. Examples include enabling generic clients, facilitating autonomous agents and large scale distributed data integration. Despite the encouraging figures, the number of enterprises working on and with these technologies is dwarfed by the large number who have not yet adopted semantic technologies. Current adoption is mainly restricted to methodologies provided by the research community. Although Semantic Web acts as candidate technology to the industry, it does not win through in current enterprise challenges like data fusion, data integration or natural language processing (e.g. IBM Watson). To better understand the market dynamics uptake needs to be addressed and if possible quantified." ;
+    swrc:link_document <http://www.wasabi-ws.org/> ;
+    swrc:url <http://www.wasabi-ws.org/> ;
     ical:dtend "2013-10-22T12:45:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-22T08:30:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://www.wasabi-ws.org/> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/wasabi> .
 
 <http://data.semanticweb.org/workshop/wop/2013> a swc:WorkshopEvent ;
     rdfs:label "4th Workshop on Ontology Patterns" ;
@@ -4593,10 +4652,12 @@
     swc:hasRole <http://data.semanticweb.org/workshop/wop/2013/workshop-chair> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swrc:abstract "This is the fourth edition in a series of workshops addressing the topic of ontology and semantic web patterns as best practices, related to the ontologydesignpatterns.org initiative. Patterns need to be shared by a community in order to provide a common language, and to stimulate pattern usage and development. Hence, the aim of this workshop is twofold: 1) providing an arena for proposing and discussing good practices, patterns, pattern-based ontologies, systems etc., and 2) broadening the pattern community that is developing its own “language” for discussing and describing relevant problems and their solutions." ;
+    swrc:link_document <http://ontologydesignpatterns.org/wiki/WOP:2013> ;
+    swrc:url <http://ontologydesignpatterns.org/wiki/WOP:2013> ;
     ical:dtend "2013-10-21T12:45:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-21T08:30:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://ontologydesignpatterns.org/wiki/WOP:2013> .
+    foaf:homepage <http://iswc2013.semanticweb.org/content/wop-2013> .
 
 <http://data.semanticweb.org/conference/iswc/2013/doctoral-consortium-chair> a swc:Chair ;
     rdfs:label "Doctoral Consortium Chair" ;
@@ -4952,7 +5013,8 @@
     swc:room "Parkside 110A" ;
     ical:dtend "2013-10-23T15:00:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-23T14:20:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-wednesday#industry2> .
 
 <http://data.semanticweb.org/conference/iswc/2013/silver-sponsor> a swc:Sponsor ;
     rdfs:label "Silver Sponsor" ;
@@ -4980,11 +5042,10 @@
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swc:room "Parkside Ballroom B" ;
     swrc:abstract "A significant fraction of the pages on the web are generated from structured databases. A longstanding goal of the semantic web initiative is to get webmasters to make this structured data directly available on the web. The path towards this objective has been rocky at best. While there have been some notable wins (such as RSS and FOAF), many of the other initiatives have seen little industry adoption. Learning from these earlier attempts has guided the development of schema.org, which appears to have altered the trajectory. Two years after its launch over 4 million Internet domains are are using schema.org markup. In this talk, we recount the history behind the early efforts and try to understand why some of them succeeded while others failed. We will then give an update on Schema.org, its goals, accomplishments and where it is headed. We will also discuss some of the interesting research problems being addressed in the context of this effort." ;
-    swrc:link_document <http://iswc2013.semanticweb.org/content/keynote-ramanathan-v-guha> ;
-    swrc:url <http://iswc2013.semanticweb.org/content/keynote-ramanathan-v-guha> ;
     ical:dtend "2013-10-23T10:15:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-23T09:15:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/keynote-ramanathan-v-guha> .
 
 <http://data.semanticweb.org/conference/iswc/2013/talk/invited-2> a swc:InvitedTalkEvent ;
     rdfs:label "Progress in Open-World, Integrative, Transparent, Collaborative Science Data Platforms" ;
@@ -4996,7 +5057,8 @@
     swrc:abstract "As collaborative, or network science spreads into more science, engineering and medical fields, both the participants and their funders have expressed a very strong desire for highly functional data and information capabilities that are a) easy to use, b) integrated in a variety of ways, c) leverage prior investments and keep pace with rapid technical change, and d) are not expensive or time-consuming to build or maintain. In response, and based on our accumulated experience over the last decade and a maturing of several key semantic web approaches, we have adapted, extended, and integrated several open source applications and frameworks that handle major portions of functionality for these platforms. At minimum, these functions include: an object-type repository, collaboration tools, an ability to identify and manage all key entities in the platform, and an integrated portal to manage diverse content and applications, with varied access levels and privacy options. At the same time, there is increasing attention to how researchers present and explain results based on interpretation of increasingly diverse and heterogeneous data and information sources. With the renewed emphasis on good data practices, informatics practitioners have responded to this challenge with maturing informatics-based approaches. These approaches include, but are not limited to, use case development; information modeling and architectures; elaborating vocabularies; mediating interfaces to data and related services on the Web; and traceable provenance. The current era of data-intensive research presents numerous challenges to both individuals and research teams. In environmental science especially, sub-fields that were data-poor are becoming data-rich (volume, type and mode), while some that were largely model/ simulation driven are now dramatically shifting to data-driven or least to data-model assimilation approaches. These paradigm shifts make it very hard for researchers used to one mode to shift to another, let alone produce products of their work that are usable or understandable by non-specialists. However, it is exactly at these frontiers where much of the exciting environmental science needs to be performed and appreciated. XVIII Research networks (even small ones) need to deal with people, and many intellectual artifacts produced or consumed in research, organizational and/our outreach activities, as well as the relations among them. Increasingly these networks are modeled as knowledge networks, i.e. graphs with named and typed relations among the 'nodes'. Some important nodes are: people, organizations, datasets, events, presentations, publications, videos, meetings, reports, groups, and more. In this heterogeneous ecosystem, it is important to use a set of common informatics approaches to co-design and co-evolve the needed science data platforms based on what real people want to use them for. We present our methods and results for information modeling, adapting, integrating and evolving a networked data science and information architecture based on several open source technologies (e.g. Drupal, VIVO, the Comprehensive Knowledge Archive Network; CKAN, and the Global Handle System; GHS) and many semantic technologies. We discuss the results in the context of the Deep Carbon Virtual Observatory and the Global Change Information System, and conclude with musings on how the smart mediation among the components is modeled and managed, and its general applicability and ecacy." ;
     ical:dtend "2013-10-24T10:15:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-24T09:15:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/keynote-peter-fox> .
 
 <http://data.semanticweb.org/conference/iswc/2013/talk/invited-3> a swc:InvitedTalkEvent ;
     rdfs:label "Semantic Big Data in Australia - from Dingoes to Drysdale" ;
@@ -5008,7 +5070,8 @@
     swrc:abstract "This keynote will describe a number of projects being undertaken at the University of Queensland eResearch Lab that are pushing Semantic Web technologies to their limit to help solve grand challenges in the environmental, cultural and medical domains. In each of these use cases, we are integrating multi-modal data streams across space, time, disciplines, formats and agencies to infer and expose new knowledge through rich multi-layered and interactive visualizations. We are developing hypothesis-based query interfaces that provide evidence to validate or refute hypotheses and decision support services that recommend the optimum actions given current or predicted scenarios. We are using ontologies to influence and adapt government policies by linking policy-driven implementations, investments and management actions to real world indicators. Through evaluation of the methods and assessment of the achievements associated with the OzTrack, eReef, Skeletome and Twentieth Century in Paint projects, I will highlight those Semantic Web technologies that have worked for us and our user communities, those that haven't and those that need improvement. Finally, I will discuss what I believe will be the major outstanding research challenges facing Semantic Big Data in the next 5 years and those research areas with the greatest potential for impact." ;
     ical:dtend "2013-10-25T10:15:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-25T09:15:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/keynote-jane-hunter> .
 
 <http://data.semanticweb.org/conference/iswc/2013/tutorial-3/tutorial-organizer> a swc:Presenter ;
     rdfs:label "Tutorial Organizer" ;
@@ -6056,7 +6119,8 @@
     swc:room "Parkside 110A" ;
     ical:dtend "2013-10-23T12:40:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-23T11:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-wednesday#industry1> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-2a> a swc:SessionEvent ;
     rdfs:label "Geo-Spatial Semantics" ;
@@ -6068,7 +6132,8 @@
     swc:room "Parkside 110B" ;
     ical:dtend "2013-10-23T15:00:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-23T14:20:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-wednesday#geo> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-2b> a swc:SessionEvent ;
     rdfs:label "Life Science" ;
@@ -6080,7 +6145,8 @@
     swc:room "Parkside Ballroom B" ;
     ical:dtend "2013-10-23T15:00:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-23T14:20:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-wednesday#life> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-3c> a swc:SessionEvent ;
     rdfs:label "Industry 3" ;
@@ -6092,7 +6158,8 @@
     swc:room "Parkside 110A" ;
     ical:dtend "2013-10-23T16:15:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-23T15:15:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-wednesday#industry3> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-5b> a swc:SessionEvent ;
     rdfs:label "Multilingual Semantics" ;
@@ -6104,7 +6171,8 @@
     swc:room "Bayside 204A" ;
     ical:dtend "2013-10-24T15:00:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-24T14:20:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-thursday#lingua> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-5c> a swc:SessionEvent ;
     rdfs:label "Logic 1" ;
@@ -6116,7 +6184,8 @@
     swc:room "Bayside 204B" ;
     ical:dtend "2013-10-24T15:00:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-24T14:20:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-thursday#dl1> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-6c> a swc:SessionEvent ;
     rdfs:label "Logic 2" ;
@@ -6128,7 +6197,8 @@
     swc:room "Bayside 204B" ;
     ical:dtend "2013-10-24T16:15:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-24T15:15:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-thursday#dl2> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-8a> a swc:SessionEvent ;
     rdfs:label "Linked Data 1" ;
@@ -6140,7 +6210,8 @@
     swc:room "Bayside 202-203" ;
     ical:dtend "2013-10-25T15:00:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-25T14:20:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-friday#ld1> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-8b> a swc:SessionEvent ;
     rdfs:label "Licensing and Confidentiality Models" ;
@@ -6152,7 +6223,8 @@
     swc:room "Bayside 204A" ;
     ical:dtend "2013-10-25T15:00:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-25T14:20:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-friday#lic> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-8c> a swc:SessionEvent ;
     rdfs:label "Crowd-sourced semantics" ;
@@ -6164,7 +6236,8 @@
     swc:room "Bayside 204B" ;
     ical:dtend "2013-10-25T15:00:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-25T14:20:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-friday#crowd> .
 
 <http://data.semanticweb.org/conference/iswc/2013/tutorial-1/tutorial-organizer> a swc:Presenter ;
     rdfs:label "Tutorial Organizer" ;
@@ -9633,7 +9706,8 @@
     swc:room "Parkside 110B" ;
     ical:dtend "2013-10-23T16:15:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-23T15:15:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-wednesday#nlp> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-3b> a swc:SessionEvent ;
     rdfs:label "Search" ;
@@ -9646,7 +9720,8 @@
     swc:room "Parkside Ballroom B" ;
     ical:dtend "2013-10-23T16:15:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-23T15:15:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-wednesday#search> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-9a> a swc:SessionEvent ;
     rdfs:label "Linked Data 2" ;
@@ -9659,7 +9734,8 @@
     swc:room "Bayside 202-203" ;
     ical:dtend "2013-10-25T16:15:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-25T15:15:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-friday#ld2> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-9b> a swc:SessionEvent ;
     rdfs:label "Knowledge Extraction" ;
@@ -9672,7 +9748,8 @@
     swc:room "Bayside 204A" ;
     ical:dtend "2013-10-25T16:15:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-25T15:15:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-friday#extrac> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-9c> a swc:SessionEvent ;
     rdfs:label "Data Access" ;
@@ -9685,7 +9762,8 @@
     swc:room "Bayside 204B" ;
     ical:dtend "2013-10-25T16:15:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-25T15:15:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-friday#access> .
 
 <http://data.semanticweb.org/conference/iswc/2013/tutorial-7/tutorial-organizer> a swc:Presenter ;
     rdfs:label "Tutorial Organizer" ;
@@ -11628,7 +11706,8 @@
     swc:room "Parkside 110B" ;
     ical:dtend "2013-10-23T12:40:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-23T11:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-wednesday#landscape> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-1b> a swc:SessionEvent ;
     rdfs:label "Reasoning" ;
@@ -11643,7 +11722,8 @@
     swc:room "Parkside Ballroom B" ;
     ical:dtend "2013-10-23T12:40:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-23T11:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-wednesday#reasoning> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-4a> a swc:SessionEvent ;
     rdfs:label "Streams" ;
@@ -11658,7 +11738,8 @@
     swc:room "Bayside 202-203" ;
     ical:dtend "2013-10-24T12:40:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-24T11:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-thursday#streams> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-4b> a swc:SessionEvent ;
     rdfs:label "SPARQL" ;
@@ -11673,7 +11754,8 @@
     swc:room "Bayside 204A" ;
     ical:dtend "2013-10-24T12:40:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-24T11:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-thursday#sparql> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-4c> a swc:SessionEvent ;
     rdfs:label "Data Management & Exploration" ;
@@ -11688,7 +11770,8 @@
     swc:room "Bayside 204B" ;
     ical:dtend "2013-10-24T12:40:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-24T11:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-thursday#data> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-7a> a swc:SessionEvent ;
     rdfs:label "Ontology Mapping" ;
@@ -11703,7 +11786,8 @@
     swc:room "Bayside 202-203" ;
     ical:dtend "2013-10-25T12:50:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-25T11:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-friday#om> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-7b> a swc:SessionEvent ;
     rdfs:label "Query" ;
@@ -11718,7 +11802,8 @@
     swc:room "Bayside 204A" ;
     ical:dtend "2013-10-25T12:50:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-25T11:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-friday#query> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-7c> a swc:SessionEvent ;
     rdfs:label "Knowledge Discovery" ;
@@ -11733,7 +11818,8 @@
     swc:room "Bayside 204B" ;
     ical:dtend "2013-10-25T12:50:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-25T11:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/program-friday#kd> .
 
 <http://data.semanticweb.org/organization/kazan-volga-region-federal-university> a foaf:Organization ;
     rdfs:label "Kazan (Volga region) Federal University" ;

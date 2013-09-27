@@ -13,6 +13,87 @@
 	version='XHTML+RDFa 1.0' typeof='foaf:Document'>
 <head>
     <title></title>
+<style>
+
+table {
+    *border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    width: 100%;
+
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+}
+
+tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+td, th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+td:first-child, th:first-child {
+    border-left: none;
+}
+
+th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+</style>
 </head>
 <body>
 
@@ -22,30 +103,41 @@
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>10:30:00-05 - 12:30:00-05</td>
-<td><span style="font-weight:bold">Management: Robust and scalable knowledge management and reasoning on the Web</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Management: Robust and scalable knowledge management and reasoning on the Web
+</b>
 (ISWC2009 Research Track)
+</span>
 
-<div>
-chair: Umberto Straccia
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Umberto Straccia</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>A Decomposition-based Approach to Optimizing Conjunctive Query Answering in OWL DL</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Parallel Materialization of the Finite RDFS Closure for Hundreds of Millions of Triples</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Scalable Distributed Reasoning using MapReduce</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Towards Lightweight and Robust Large Scale Emergent Knowledge Processing</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. A Decomposition-based Approach to Optimizing Conjunctive Query Answering in OWL DL,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Parallel Materialization of the Finite RDFS Closure for Hundreds of Millions of Triples,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Scalable Distributed Reasoning using MapReduce,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Towards Lightweight and Robust Large Scale Emergent Knowledge Processing,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -53,23 +145,34 @@ chair: Umberto Straccia
 </tr>
 <tr>
 <td>10:30:00-05 - 12:30:00-05</td>
-<td><span style="font-weight:bold">User and the Social Semantic Web (Collaboration, Policy, and Trust)</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+User and the Social Semantic Web (Collaboration, Policy, and Trust)
+</b>
 (ISWC2009 Research Track)
+</span>
 
-<div>
-chair: Natalya Noy
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Natalya Noy</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Analysis of a Real Online Social Network using Semantic Web Frameworks</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Multi Visualisation and Dynamic Query for Effective Exploration of Semantic Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Policy Aware Content Reuse on the Web</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Social Trust Based Web Service Composition</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Analysis of a Real Online Social Network using Semantic Web Frameworks,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Multi Visualisation and Dynamic Query for Effective Exploration of Semantic Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Policy Aware Content Reuse on the Web,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Social Trust Based Web Service Composition,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -77,22 +180,31 @@ chair: Natalya Noy
 </tr>
 <tr>
 <td>14:00:00-05 - 15:30:00-05</td>
-<td><span style="font-weight:bold">Semantics: Alignment</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Semantics: Alignment
+</b>
 (ISWC2009 Research Track)
+</span>
 
-<div>
-chair: Valentina Tamma
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Valentina Tamma</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>A Conflict-based Operator for Mapping Revision--Theory and and Implementation</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Actively Learning Ontology Matching via User Interaction</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>What Four Million Mappings Can Tell You About Two Hundred Ontologies</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. A Conflict-based Operator for Mapping Revision--Theory and and Implementation,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Actively Learning Ontology Matching via User Interaction,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. What Four Million Mappings Can Tell You About Two Hundred Ontologies,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -100,22 +212,31 @@ chair: Valentina Tamma
 </tr>
 <tr>
 <td>14:00:00-05 - 15:30:00-05</td>
-<td><span style="font-weight:bold">Semantics: Ontology modeling, reuse, extraction, and evolution</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Semantics: Ontology modeling, reuse, extraction, and evolution
+</b>
 (ISWC2009 Research Track)
+</span>
 
-<div>
-chair: Thomas Lukasiewicz
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Thomas Lukasiewicz</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Graph-Based Ontology Construction from Heterogenous Evidences</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>On Detecting High-Level Changes in RDF/S KBs</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>OntoCase - Automatic Ontology Enrichment Based on Ontology Design Patterns</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Graph-Based Ontology Construction from Heterogenous Evidences,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. On Detecting High-Level Changes in RDF/S KBs,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. OntoCase - Automatic Ontology Enrichment Based on Ontology Design Patterns,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -123,18 +244,21 @@ chair: Thomas Lukasiewicz
 </tr>
 <tr>
 <td>16:00:00-05 - 16:45:00-05</td>
-<td><span style="font-weight:bold">Lightning talks</span> 
+<td><span><b style="font-size:110%">
 
+Session:
 
-<div>
-chair: David Karger,Abraham Bernstein
+Lightning talks
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): David Karger,Abraham Bernstein</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -142,18 +266,21 @@ chair: David Karger,Abraham Bernstein
 </tr>
 <tr>
 <td>16:45:00-05 - 17:45:00-05</td>
-<td><span style="font-weight:bold">Does the Semantic Web Need Ontologies?</span> 
+<td><span><b style="font-size:110%">
 
+Panel:
 
-<div>
-chair: Joel Sachs
+Does the Semantic Web Need Ontologies?
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Joel Sachs</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -164,30 +291,41 @@ chair: Joel Sachs
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>10:30:00-05 - 12:30:00-05</td>
-<td><span style="font-weight:bold">Applications: Semantic Web technologies for Services</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Applications: Semantic Web technologies for Services
+</b>
 (ISWC2009 Research Track)
+</span>
 
-<div>
-chair: David Martin
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): David Martin</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Automatically Constructing Semantic Web Services from Online Sources</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Exploiting User Feedback to Improve Semantic Web Service Discovery</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Optimizing QoS-Aware Semantic Web Service Composition</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Optimizing Web Service Composition while Enforcing Regulations</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Automatically Constructing Semantic Web Services from Online Sources,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Exploiting User Feedback to Improve Semantic Web Service Discovery,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Optimizing QoS-Aware Semantic Web Service Composition,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Optimizing Web Service Composition while Enforcing Regulations,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -195,23 +333,34 @@ chair: David Martin
 </tr>
 <tr>
 <td>10:30:00-05 - 12:30:00-05</td>
-<td><span style="font-weight:bold">Semantics: Reasoning with Rules or Modules</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Semantics: Reasoning with Rules or Modules
+</b>
 (ISWC2009 Research Track)
+</span>
 
-<div>
-chair: Frank van Harmelen
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Frank van Harmelen</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Decidable Order-Sorted Logic Programming for Ontologies and Rules with Argument Restructuring</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Goal-Directed Module Extraction for Explaining OWL DL Entailments</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Queries to Hybrid MKNF Knowledge Bases through Oracular Tabling</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Task Oriented Evaluation of Module Extraction Techniques</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Decidable Order-Sorted Logic Programming for Ontologies and Rules with Argument Restructuring,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Goal-Directed Module Extraction for Explaining OWL DL Entailments,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Queries to Hybrid MKNF Knowledge Bases through Oracular Tabling,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Task Oriented Evaluation of Module Extraction Techniques,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -219,22 +368,31 @@ chair: Frank van Harmelen
 </tr>
 <tr>
 <td>14:00:00-05 - 15:30:00-05</td>
-<td><span style="font-weight:bold">Applications: Semantic Web technologies for software and systems engineering - Process Models</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Applications: Semantic Web technologies for software and systems engineering - Process Models
+</b>
 (ISWC2009 Research Track)
+</span>
 
-<div>
-chair: Evren Sirin
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Evren Sirin</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Modeling and Query Patterns for Process Retrieval in OWL</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Semantically-aided business process modeling</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Synthesizing Semantic Web Service Compositions with jMosel and Golog</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Modeling and Query Patterns for Process Retrieval in OWL,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Semantically-aided business process modeling,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Synthesizing Semantic Web Service Compositions with jMosel and Golog,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -242,22 +400,31 @@ chair: Evren Sirin
 </tr>
 <tr>
 <td>14:00:00-05 - 15:30:00-05</td>
-<td><span style="font-weight:bold">Management: Search and query 1</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Management: Search and query 1
+</b>
 (ISWC2009 Research Track)
+</span>
 
-<div>
-chair: Peter Mika
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Peter Mika</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Executing SPARQL Queries over the Web of Linked Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>TripleRank: Ranking Semantic Web Data By Tensor Decomposition</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Using Naming Authority to Rank Data and Ontologies for Web Search</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Executing SPARQL Queries over the Web of Linked Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. TripleRank: Ranking Semantic Web Data By Tensor Decomposition,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Using Naming Authority to Rank Data and Ontologies for Web Search,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -268,30 +435,41 @@ chair: Peter Mika
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>10:30:00-05 - 12:30:00-05</td>
-<td><span style="font-weight:bold">Management: Search and Query 2</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Management: Search and Query 2
+</b>
 (ISWC2009 Research Track)
+</span>
 
-<div>
-chair: Chris Bizer,Christian Bizer
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Chris Bizer,Christian Bizer</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>A Practical Approach for Scalable Conjunctive Query Answering on Acyclic EL+ Knowledge Base</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Functions over RDF Language Elements</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Investigating the Semantic Gap through Query Log Analysis</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>XLWrap - Querying and Integrating Arbitrary Spreadsheets with SPARQL</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. A Practical Approach for Scalable Conjunctive Query Answering on Acyclic EL+ Knowledge Base,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Functions over RDF Language Elements,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Investigating the Semantic Gap through Query Log Analysis,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. XLWrap - Querying and Integrating Arbitrary Spreadsheets with SPARQL,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -299,24 +477,37 @@ chair: Chris Bizer,Christian Bizer
 </tr>
 <tr>
 <td>10:30:00-05 - 12:30:00-05</td>
-<td><span style="font-weight:bold">Semantics: Reasoning and Provenance</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Semantics: Reasoning and Provenance
+</b>
 (ISWC2009 Research Track)
+</span>
 
-<div>
-chair: Claudia d'Amato
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Claudia d'Amato</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>A Generic Approach for Large-Scale Ontological Reasoning in the Presence of Access Restrictions to ...</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>A Weighted Approach for Partial Matching in Mobile Reasoning</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Coloring RDF Triples to Capture Provenance</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Concept and Role Forgetting in ALC Ontologies</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Exploiting Partial Information in Taxonomy Construction</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. A Generic Approach for Large-Scale Ontological Reasoning in the Presence of Access Restrictions to ...,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. A Weighted Approach for Partial Matching in Mobile Reasoning,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Coloring RDF Triples to Capture Provenance,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Concept and Role Forgetting in ALC Ontologies,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Exploiting Partial Information in Taxonomy Construction,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -324,22 +515,31 @@ chair: Claudia d'Amato
 </tr>
 <tr>
 <td>14:00:00-05 - 15:30:00-05</td>
-<td><span style="font-weight:bold">Discovering Semantics</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Discovering Semantics
+</b>
 (ISWC2009 Research Track)
+</span>
 
-<div>
-chair: Fabio Ciravegna
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Fabio Ciravegna</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Context and Domain Knowledge Enhanced Entity Spotting in Informal Text</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Discovering and Maintaining Links on the Web of Data</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Learning Semantic Query Suggestions</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. Context and Domain Knowledge Enhanced Entity Spotting in Informal Text,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Discovering and Maintaining Links on the Web of Data,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Learning Semantic Query Suggestions,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>
@@ -347,22 +547,31 @@ chair: Fabio Ciravegna
 </tr>
 <tr>
 <td>14:00:00-05 - 15:30:00-05</td>
-<td><span style="font-weight:bold">Management: Database Technologies</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Management: Database Technologies
+</b>
 (ISWC2009 Research Track)
+</span>
 
-<div>
-chair: Steffen Staab
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Steffen Staab</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>DOGMA: A Disk-Oriented Graph Matching Algorithm for RDF Databases</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Dynamic Querying of Mass-Storage RDF Data with Rule-Based Entailment Regimes</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-<li><b>Efficient Query Answering for OWL 2</b>,<i></i><sup><span style="color:DarkRed"></span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">. DOGMA: A Disk-Oriented Graph Matching Algorithm for RDF Databases,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Dynamic Querying of Mass-Storage RDF Data with Rule-Based Entailment Regimes,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+<div style="padding-left:20px;margin:1px;">. Efficient Query Answering for OWL 2,
+<span style="color:#666"></span>
+<sup><span style="color:DarkRed"></span></sup></div>
+
 </td>
 
 <td></td>

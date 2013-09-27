@@ -13,6 +13,87 @@
 	version='XHTML+RDFa 1.0' typeof='foaf:Document'>
 <head>
     <title></title>
+<style>
+
+table {
+    *border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    width: 100%;
+
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+}
+
+tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+td, th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+td:first-child, th:first-child {
+    border-left: none;
+}
+
+th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+</style>
 </head>
 <body>
 
@@ -22,22 +103,24 @@
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>17:00 - 21:00</td>
-<td><span style="font-weight:bold">Pre-Registration</span> 
+<td><span><b style="font-size:110%">
+
+
+Pre-Registration
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -48,25 +131,28 @@
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Full-Day Workshop: Semantic Web Enabled Software Engineering (SWESE)</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Phil Tetlow,Jeff Z. Pan,Evan Wallace,Elisa F. Kendall
+<a href="http://www.mel.nist.gov/msid/conferences/SWESE/">Full-Day Workshop: Semantic Web Enabled Software Engineering (SWESE)</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Phil Tetlow,Jeff Z. Pan,Evan Wallace,Elisa F. Kendall</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>The Quinn Suite</td>
@@ -74,18 +160,21 @@ chair: Phil Tetlow,Jeff Z. Pan,Evan Wallace,Elisa F. Kendall
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Full-Day Workshop: The Semantic Desktop - Next Generation Personal Information Management and Collaboration Infrastructure</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Stefan Decker,Leo Sauermann,Jack Park,Dennis Quan
+<a href="http://www.semanticdesktop.org/">Full-Day Workshop: The Semantic Desktop - Next Generation Personal Information Management and Collaboration Infrastructure</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Stefan Decker,Leo Sauermann,Jack Park,Dennis Quan</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Inis Mór Ballroom 1</td>
@@ -93,19 +182,21 @@ chair: Stefan Decker,Leo Sauermann,Jack Park,Dennis Quan
 </tr>
 <tr>
 <td>09:00 - 12:30</td>
-<td><span style="font-weight:bold">Morning Tutorial: MDA Standards for Ontology Development</span> 
+<td><span><b style="font-size:110%">
 
+
+Morning Tutorial: MDA Standards for Ontology Development
+</b>
 (Tutorial Track)
+</span>
 
-<div>
-chair: Vladan Devedzic,Dragan Gasevic,Dragan Djuric
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Vladan Devedzic,Dragan Gasevic,Dragan Djuric</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Inis Mór Ballroom 2</td>
@@ -113,19 +204,21 @@ chair: Vladan Devedzic,Dragan Gasevic,Dragan Djuric
 </tr>
 <tr>
 <td>09:00 - 12:30</td>
-<td><span style="font-weight:bold">Morning Tutorial: Semantic Web Rules with Ontologies, and Their E-Service Applications</span> 
+<td><span><b style="font-size:110%">
 
+
+Morning Tutorial: Semantic Web Rules with Ontologies, and Their E-Service Applications
+</b>
 (Tutorial Track)
+</span>
 
-<div>
-chair: Mike Dean,Micheal Kifer,Benjamin Grosof
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Mike Dean,Micheal Kifer,Benjamin Grosof</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Inis Mór Ballroom 3</td>
@@ -133,15 +226,17 @@ chair: Mike Dean,Micheal Kifer,Benjamin Grosof
 </tr>
 <tr>
 <td>10:30 - 11:00</td>
-<td><span style="font-weight:bold">Morning Coffee</span> 
+<td><span><b style="font-size:110%">
+
+
+Morning Coffee
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -149,15 +244,17 @@ chair: Mike Dean,Micheal Kifer,Benjamin Grosof
 </tr>
 <tr>
 <td>12:30 - 14:00</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -165,19 +262,21 @@ chair: Mike Dean,Micheal Kifer,Benjamin Grosof
 </tr>
 <tr>
 <td>14:00 - 17:30</td>
-<td><span style="font-weight:bold">Afternoon Tutorial: Ontology Design Patterns and Problems: Practical Ontology Engineering using Protégé-OWL</span> 
+<td><span><b style="font-size:110%">
 
+
+Afternoon Tutorial: Ontology Design Patterns and Problems: Practical Ontology Engineering using Protégé-OWL
+</b>
 (Tutorial Track)
+</span>
 
-<div>
-chair: Robert Stevens,Nick Drummond,Natalya F. Noy,Matthew Horridge,Mark A. Musen,Alan Rector
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Robert Stevens,Nick Drummond,Natalya F. Noy,Matthew Horridge,Mark A. Musen,Alan Rector</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Inis Mór Ballroom 3</td>
@@ -185,19 +284,21 @@ chair: Robert Stevens,Nick Drummond,Natalya F. Noy,Matthew Horridge,Mark A. Muse
 </tr>
 <tr>
 <td>14:00 - 17:30</td>
-<td><span style="font-weight:bold">Afternoon Tutorial: Semantic Web Service Systems and Tools</span> 
+<td><span><b style="font-size:110%">
 
+
+Afternoon Tutorial: Semantic Web Service Systems and Tools
+</b>
 (Tutorial Track)
+</span>
 
-<div>
-chair: Michal Zaremba,Michael Stollberg,Matthew Moran,Liliana Cabral,John Domingue,Christoph Bussler
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Michal Zaremba,Michael Stollberg,Matthew Moran,Liliana Cabral,John Domingue,Christoph Bussler</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Inis Mór Ballroom 2</td>
@@ -205,15 +306,17 @@ chair: Michal Zaremba,Michael Stollberg,Matthew Moran,Liliana Cabral,John Doming
 </tr>
 <tr>
 <td>15:30 - 16:00</td>
-<td><span style="font-weight:bold">Afternoon Coffee</span> 
+<td><span><b style="font-size:110%">
+
+
+Afternoon Coffee
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -224,25 +327,28 @@ chair: Michal Zaremba,Michael Stollberg,Matthew Moran,Liliana Cabral,John Doming
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Full-Day Workshop: End User Semantic Web Interaction</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Ion Androutsopoulos,Duane Degler,Brian McBride,Abraham Bernstein
+<a href="http://www.ifi.unizh.ch/ddis/iswc2005ws.html">Full-Day Workshop: End User Semantic Web Interaction</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Ion Androutsopoulos,Duane Degler,Brian McBride,Abraham Bernstein</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Backstage bar</td>
@@ -250,18 +356,21 @@ chair: Ion Androutsopoulos,Duane Degler,Brian McBride,Abraham Bernstein
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Full-Day Workshop: Knowledge Markup and Semantic Annotation (Semannot2005)</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Thierry Declerck,Siegfried Handschuh,Marja-Riitta Koivunen
+<a href="http://km.aifb.uni-karlsruhe.de/ws/semannot2005">Full-Day Workshop: Knowledge Markup and Semantic Annotation (Semannot2005)</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Thierry Declerck,Siegfried Handschuh,Marja-Riitta Koivunen</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Inis Mór Ballroom 2</td>
@@ -269,18 +378,21 @@ chair: Thierry Declerck,Siegfried Handschuh,Marja-Riitta Koivunen
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Full-Day Workshop: Semantic Network Analysis</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Harith Alani,Gerd Stumme,Christoph Schmitz,Bettina Hoser
+<a href="http://www.kde.cs.uni-kassel.de/ws/sna2005">Full-Day Workshop: Semantic Network Analysis</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Harith Alani,Gerd Stumme,Christoph Schmitz,Bettina Hoser</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>The Quinn Suite</td>
@@ -288,18 +400,21 @@ chair: Harith Alani,Gerd Stumme,Christoph Schmitz,Bettina Hoser
 </tr>
 <tr>
 <td>09:00 - 17:30</td>
-<td><span style="font-weight:bold">Full-Day Workshop: The Semantic Web and Policy Workshop (SWPW)</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Tim Finin,Lalana Kagal,Jim Hendler
+<a href="http://www.cs.umbc.edu/swpw/">Full-Day Workshop: The Semantic Web and Policy Workshop (SWPW)</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Tim Finin,Lalana Kagal,Jim Hendler</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Marinas Restaurant</td>
@@ -307,18 +422,20 @@ chair: Tim Finin,Lalana Kagal,Jim Hendler
 </tr>
 <tr>
 <td>09:00 - 17:00</td>
-<td><span style="font-weight:bold">ISWC2005 Doctoral Symposium</span> 
+<td><span><b style="font-size:110%">
 
 
-<div>
-chair: Enda Ridge,Edward Curry
+<a href="http://ecrg.it.nuigalway.ie/iswds2005/">ISWC2005 Doctoral Symposium</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Enda Ridge,Edward Curry</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Joyce Suite, Radisson Hotel</td>
@@ -326,18 +443,21 @@ chair: Enda Ridge,Edward Curry
 </tr>
 <tr>
 <td>09:00 - 12:30</td>
-<td><span style="font-weight:bold">Morning Workshop: Uncertainty Reasoning For the Semantic Web</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Paulo C. G. Costa,Michael Pool,Kenneth J. Laskey,Kathryn B. Laskey
+<a href="http://www.iet.com/iswc/2005/ursw/">Morning Workshop: Uncertainty Reasoning For the Semantic Web</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Paulo C. G. Costa,Michael Pool,Kenneth J. Laskey,Kathryn B. Laskey</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Inis Mór Ballroom 3</td>
@@ -345,15 +465,17 @@ chair: Paulo C. G. Costa,Michael Pool,Kenneth J. Laskey,Kathryn B. Laskey
 </tr>
 <tr>
 <td>10:30 - 11:00</td>
-<td><span style="font-weight:bold">Morning Coffee</span> 
+<td><span><b style="font-size:110%">
+
+
+Morning Coffee
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -361,15 +483,17 @@ chair: Paulo C. G. Costa,Michael Pool,Kenneth J. Laskey,Kathryn B. Laskey
 </tr>
 <tr>
 <td>12:30 - 14:00</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -377,18 +501,20 @@ chair: Paulo C. G. Costa,Michael Pool,Kenneth J. Laskey,Kathryn B. Laskey
 </tr>
 <tr>
 <td>13:45 - 17:00</td>
-<td><span style="font-weight:bold">Industry Day – Information Juggernaut</span> 
+<td><span><b style="font-size:110%">
 
 
-<div>
-chair: Brian Cummins
+<a href="http://iswc2005.semanticweb.org/Pindustryday.html">Industry Day – Information Juggernaut</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Brian Cummins</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Aula Maxima, NUI Galway</td>
@@ -396,18 +522,21 @@ chair: Brian Cummins
 </tr>
 <tr>
 <td>14:00 - 17:30</td>
-<td><span style="font-weight:bold">Afternoon Workshop: Ontology Patterns for the Semantic Web</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Chris Welty,Aldo Gangemi
+<a href="http://www.research.ibm.com/people/w/welty/OPSW-05/">Afternoon Workshop: Ontology Patterns for the Semantic Web</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Chris Welty,Aldo Gangemi</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Inis Mór Ballroom 1</td>
@@ -415,18 +544,21 @@ chair: Chris Welty,Aldo Gangemi
 </tr>
 <tr>
 <td>14:00 - 17:30</td>
-<td><span style="font-weight:bold">Afternoon Workshop: Semantic Web Case Studies and Best Practices for eBusiness (SWCASE)</span> 
+<td><span><b style="font-size:110%">
 
+Workshop:
 
-<div>
-chair: Robert Tolksdorf,Guus Schreiber,Alain Leger
+<a href="http://nbi.inf.fu-berlin.de/conf/SWCASE05/">Afternoon Workshop: Semantic Web Case Studies and Best Practices for eBusiness (SWCASE)</a>
+</b>
+</span>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Robert Tolksdorf,Guus Schreiber,Alain Leger</span>
 </div>
 
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td>Inis Mór Ballroom 3</td>
@@ -434,15 +566,17 @@ chair: Robert Tolksdorf,Guus Schreiber,Alain Leger
 </tr>
 <tr>
 <td>15:30 - 16:00</td>
-<td><span style="font-weight:bold">Afternoon Coffee</span> 
+<td><span><b style="font-size:110%">
+
+
+Afternoon Coffee
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -453,22 +587,24 @@ chair: Robert Tolksdorf,Guus Schreiber,Alain Leger
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>09:00 - 09:15</td>
-<td><span style="font-weight:bold">ISWC2005 Introduction and Welcome</span> 
+<td><span><b style="font-size:110%">
+
+
+ISWC2005 Introduction and Welcome
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -476,15 +612,17 @@ chair: Robert Tolksdorf,Guus Schreiber,Alain Leger
 </tr>
 <tr>
 <td>09:15 - 09:30</td>
-<td><span style="font-weight:bold">ISWC2005 Awards</span> 
+<td><span><b style="font-size:110%">
+
+
+ISWC2005 Awards
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -492,18 +630,21 @@ chair: Robert Tolksdorf,Guus Schreiber,Alain Leger
 </tr>
 <tr>
 <td>09:30 - 10:30</td>
-<td><span style="font-weight:bold">Using the Semantic Web for e-Science - Inspiration, Incubation, Irritation</span> 
+<td><span><b style="font-size:110%">
+
+InvitedTalk:
+
+Using the Semantic Web for e-Science - Inspiration, Incubation, Irritation
+</b>
+</span>
 
 
-
-<div>
-presenter: Carole Goble
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Carole Goble</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -511,15 +652,17 @@ presenter: Carole Goble
 </tr>
 <tr>
 <td>10:30 - 11:00</td>
-<td><span style="font-weight:bold">Morning Coffee</span> 
+<td><span><b style="font-size:110%">
+
+
+Morning Coffee
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -527,22 +670,31 @@ presenter: Carole Goble
 </tr>
 <tr>
 <td>11:00 - 12:30</td>
-<td><span style="font-weight:bold">Paper Session Ia - SOCIAL NETWORKS</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session Ia - SOCIAL NETWORKS
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Stefan Decker
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Stefan Decker</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Ontologies Are Us: A Unified Model of Social Networks and Semantics</b>,<i>Peter Mika</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Searching Dynamic Communities with Personal Indexes</b>,<i>Alexander Löser,Christoph Tempich,Bastian Quilitz,Wolf-Tilo Balke,Steffen Staab and Wolfgang Nejdl</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Semantically Rich Recommendations in Social Networks for Sharing, Exchanging and Ranking Semantic Context</b>,<i>Stefania Ghita,Wolfgang Nejdl and Raluca Paiu</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Ontologies Are Us: A Unified Model of Social Networks and Semantics,
+<span style="color:#666">Peter Mika</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Searching Dynamic Communities with Personal Indexes,
+<span style="color:#666">Alexander Löser,Christoph Tempich,Bastian Quilitz,Wolf-Tilo Balke,Steffen Staab and Wolfgang Nejdl</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Semantically Rich Recommendations in Social Networks for Sharing, Exchanging and Ranking Semantic Context,
+<span style="color:#666">Stefania Ghita,Wolfgang Nejdl and Raluca Paiu</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -550,22 +702,31 @@ chair: Stefan Decker
 </tr>
 <tr>
 <td>11:00 - 12:30</td>
-<td><span style="font-weight:bold">Paper Session Ib - EDITING AND VISUALIZING ONTOLOGIES</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session Ib - EDITING AND VISUALIZING ONTOLOGIES
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: John Domingue
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): John Domingue</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Towards Imaging Large-Scale Ontologies for Quick Understanding and Analysis</b>,<i>Kewei Tu,Miao Xiong,Lei Zhang 0007,Haiping Zhu,Jie Zhang and Yong Yu</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Querying Ontologies: A Controlled English Interface for End-Users</b>,<i>Abraham Bernstein,Esther Kaufmann,Anne Göhring and Christoph Kiefer</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Using Triples for Implementation: The Triple20 Ontology-Manipulation Tool</b>,<i>Jan Wielemaker,Guus Schreiber and Bob J. Wielinga</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Towards Imaging Large-Scale Ontologies for Quick Understanding and Analysis,
+<span style="color:#666">Kewei Tu,Miao Xiong,Lei Zhang 0007,Haiping Zhu,Jie Zhang and Yong Yu</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Querying Ontologies: A Controlled English Interface for End-Users,
+<span style="color:#666">Abraham Bernstein,Esther Kaufmann,Anne Göhring and Christoph Kiefer</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Using Triples for Implementation: The Triple20 Ontology-Manipulation Tool,
+<span style="color:#666">Jan Wielemaker,Guus Schreiber and Bob J. Wielinga</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -573,22 +734,31 @@ chair: John Domingue
 </tr>
 <tr>
 <td>11:00 - 12:30</td>
-<td><span style="font-weight:bold">Paper Session Ic - E-SCIENCE</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session Ic - E-SCIENCE
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Terry Payne
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Terry Payne</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>A Little Semantic Web Goes a Long Way in Biology</b>,<i>Katy Wolstencroft,Andy Brass,Ian Horrocks,Phillip W. Lord,Ulrike Sattler,Daniele Turi and Robert Stevens</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Provenance-Based Validation of E-Science Experiments</b>,<i>Sylvia C. Wong,Simon Miles,Weijian Fang,Paul T. Groth and Luc Moreau</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-<li><b>Seven Bottlenecks to Workflow Reuse and Repurposing</b>,<i>Antoon Goderis,Ulrike Sattler,Phillip W. Lord and Carole A. Goble</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. A Little Semantic Web Goes a Long Way in Biology,
+<span style="color:#666">Katy Wolstencroft,Andy Brass,Ian Horrocks,Phillip W. Lord,Ulrike Sattler,Daniele Turi and Robert Stevens</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Provenance-Based Validation of E-Science Experiments,
+<span style="color:#666">Sylvia C. Wong,Simon Miles,Weijian Fang,Paul T. Groth and Luc Moreau</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Seven Bottlenecks to Workflow Reuse and Repurposing,
+<span style="color:#666">Antoon Goderis,Ulrike Sattler,Phillip W. Lord and Carole A. Goble</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -596,15 +766,17 @@ chair: Terry Payne
 </tr>
 <tr>
 <td>12:30 - 13:30</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -612,23 +784,34 @@ chair: Terry Payne
 </tr>
 <tr>
 <td>13:30 - 15:00</td>
-<td><span style="font-weight:bold">Paper Session IIa - EVALUATION AND BENCHMARKING</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session IIa - EVALUATION AND BENCHMARKING
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Sean Bechhofer
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sean Bechhofer</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>A Large Scale Taxonomy Mapping Evaluation</b>,<i>Paolo Avesani,Fausto Giunchiglia and Mikalai Yatskevich</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Rapid Benchmarking for Semantic Web Knowledge Base Systems</b>,<i>Sui-Yu Wang,Yuanbo Guo,Abir Qasem and Jeff Heflin</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Automatic Evaluation of Ontologies (AEON)</b>,<i>Johanna Völker,Denny Vrandecic and York Sure</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Guidelines for Benchmarking the Performance of Ontology Management APIs</b>,<i>Raul Garcia-Castro and Asunción Gómez-Pérez</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. A Large Scale Taxonomy Mapping Evaluation,
+<span style="color:#666">Paolo Avesani,Fausto Giunchiglia and Mikalai Yatskevich</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Rapid Benchmarking for Semantic Web Knowledge Base Systems,
+<span style="color:#666">Sui-Yu Wang,Yuanbo Guo,Abir Qasem and Jeff Heflin</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Automatic Evaluation of Ontologies (AEON),
+<span style="color:#666">Johanna Völker,Denny Vrandecic and York Sure</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">4. Guidelines for Benchmarking the Performance of Ontology Management APIs,
+<span style="color:#666">Raul Garcia-Castro and Asunción Gómez-Pérez</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -636,22 +819,31 @@ chair: Sean Bechhofer
 </tr>
 <tr>
 <td>13:30 - 15:00</td>
-<td><span style="font-weight:bold">Paper Session IIb - ONTOLOGY EVOLUTION</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session IIb - ONTOLOGY EVOLUTION
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: York Sure
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): York Sure</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Ontology Change Detection Using a Version Log</b>,<i>Peter Plessers and Olga De Troyer</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>RUL: A Declarative Update Language for RDF</b>,<i>Matoula Magiridou,S. Sahtouris,Vassilis Christophides and Manolis Koubarakis</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>On Applying the AGM Theory to DLs and OWL</b>,<i>Giorgos Flouris,Dimitris Plexousakis and Grigoris Antoniou</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Ontology Change Detection Using a Version Log,
+<span style="color:#666">Peter Plessers and Olga De Troyer</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. RUL: A Declarative Update Language for RDF,
+<span style="color:#666">Matoula Magiridou,S. Sahtouris,Vassilis Christophides and Manolis Koubarakis</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. On Applying the AGM Theory to DLs and OWL,
+<span style="color:#666">Giorgos Flouris,Dimitris Plexousakis and Grigoris Antoniou</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -659,23 +851,34 @@ chair: York Sure
 </tr>
 <tr>
 <td>13:30 - 15:00</td>
-<td><span style="font-weight:bold">Paper Session IIc - SEMANTIC WEB SERVICES</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session IIc - SEMANTIC WEB SERVICES
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Sheila McIlraith
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sheila McIlraith</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Information Modeling for End to End Composition of Semantic Web Services</b>,<i>Arun Kumar,Biplav Srivastava and Sumit Mittal</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Choreography in IRS-III - Coping with Heterogeneous Interaction Patterns in Web Services</b>,<i>John Domingue,Stefania Galizia and Liliana Cabral</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Web Service Composition with Volatile Information</b>,<i>Tsz-Chiu Au,Ugur Kuter and Dana S. Nau</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Towards a Formal Verification of OWL-S Process Models</b>,<i>Anupriya Ankolekar,Massimo Paolucci and Katia P. Sycara</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Information Modeling for End to End Composition of Semantic Web Services,
+<span style="color:#666">Arun Kumar,Biplav Srivastava and Sumit Mittal</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Choreography in IRS-III - Coping with Heterogeneous Interaction Patterns in Web Services,
+<span style="color:#666">John Domingue,Stefania Galizia and Liliana Cabral</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Web Service Composition with Volatile Information,
+<span style="color:#666">Tsz-Chiu Au,Ugur Kuter and Dana S. Nau</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">4. Towards a Formal Verification of OWL-S Process Models,
+<span style="color:#666">Anupriya Ankolekar,Massimo Paolucci and Katia P. Sycara</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -683,15 +886,17 @@ chair: Sheila McIlraith
 </tr>
 <tr>
 <td>15:00 - 15:30</td>
-<td><span style="font-weight:bold">Afternoon Coffee</span> 
+<td><span><b style="font-size:110%">
+
+
+Afternoon Coffee
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -699,22 +904,31 @@ chair: Sheila McIlraith
 </tr>
 <tr>
 <td>15:30 - 17:00</td>
-<td><span style="font-weight:bold">Paper Session IIIc - WEB SERVICES</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session IIIc - WEB SERVICES
+</b>
 (Industrial Track)
+</span>
 
-<div>
-chair: Alain Leger
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Alain Leger</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Automated Business-to-Business Integration of a Logistics Supply Chain Using Semantic Web Services Technology</b>,<i>Chris Preist,Javier Esplugas Cuadrado,Steven A. Battle,Stephan Grimm and Stuart K. Williams</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-<li><b>Ontological Approach to Generating Personalized User Interfaces for Web Services</b>,<i>Deepali Khushraj and Ora Lassila</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-<li><b>An Application of Semantic Web Technologies to Situation Awareness</b>,<i>Christopher J. Matheus,Mieczyslaw M. Kokar,Kenneth Baclawski and Jerzy Letkowski</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Automated Business-to-Business Integration of a Logistics Supply Chain Using Semantic Web Services Technology,
+<span style="color:#666">Chris Preist,Javier Esplugas Cuadrado,Steven A. Battle,Stephan Grimm and Stuart K. Williams</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Ontological Approach to Generating Personalized User Interfaces for Web Services,
+<span style="color:#666">Deepali Khushraj and Ora Lassila</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. An Application of Semantic Web Technologies to Situation Awareness,
+<span style="color:#666">Christopher J. Matheus,Mieczyslaw M. Kokar,Kenneth Baclawski and Jerzy Letkowski</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -722,22 +936,31 @@ chair: Alain Leger
 </tr>
 <tr>
 <td>15:30 - 17:00</td>
-<td><span style="font-weight:bold">Paper Session IIIa - DEBUGGING AND INCONSISTENCY MANAGEMENT</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session IIIa - DEBUGGING AND INCONSISTENCY MANAGEMENT
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Guus Schreiber
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Guus Schreiber</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Debugging OWL-DL Ontologies: A Heuristic Approach</b>,<i>Hai Wang,Matthew Horridge,Alan L. Rector,Nick Drummond and Julian Seidenberg</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>A General Diagnosis Method for Ontologies</b>,<i>Gerhard Friedrich and Kostyantyn M. Shchekotykhin</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>A Framework for Handling Inconsistency in Changing Ontologies</b>,<i>Peter Haase,Frank van Harmelen,Zhisheng Huang,Heiner Stuckenschmidt and York Sure</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Debugging OWL-DL Ontologies: A Heuristic Approach,
+<span style="color:#666">Hai Wang,Matthew Horridge,Alan L. Rector,Nick Drummond and Julian Seidenberg</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. A General Diagnosis Method for Ontologies,
+<span style="color:#666">Gerhard Friedrich and Kostyantyn M. Shchekotykhin</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. A Framework for Handling Inconsistency in Changing Ontologies,
+<span style="color:#666">Peter Haase,Frank van Harmelen,Zhisheng Huang,Heiner Stuckenschmidt and York Sure</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -745,22 +968,31 @@ chair: Guus Schreiber
 </tr>
 <tr>
 <td>15:30 - 17:00</td>
-<td><span style="font-weight:bold">Paper Session IIIb - LOGIC AND REASONING</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session IIIb - LOGIC AND REASONING
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Fausto Giunchiglia
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Fausto Giunchiglia</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>On the Properties of Metamodeling in OWL</b>,<i>Boris Motik</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>RDF Entailment as a Graph Homomorphism</b>,<i>Jean-François Baget</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>On Logical Consequence for Collections of OWL Documents</b>,<i>Yuanbo Guo and Jeff Heflin</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. On the Properties of Metamodeling in OWL,
+<span style="color:#666">Boris Motik</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. RDF Entailment as a Graph Homomorphism,
+<span style="color:#666">Jean-François Baget</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. On Logical Consequence for Collections of OWL Documents,
+<span style="color:#666">Yuanbo Guo and Jeff Heflin</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -771,25 +1003,28 @@ chair: Fausto Giunchiglia
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>09:00 - 10:00</td>
-<td><span style="font-weight:bold">"The Practical Web" - Semantic Acceleration Helping Realize the Semantic Web Vision</span> 
+<td><span><b style="font-size:110%">
+
+InvitedTalk:
+
+"The Practical Web" - Semantic Acceleration Helping Realize the Semantic Web Vision
+</b>
+</span>
 
 
-
-<div>
-presenter: Alfred Spector
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Alfred Spector</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -797,15 +1032,17 @@ presenter: Alfred Spector
 </tr>
 <tr>
 <td>10:00 - 10:30</td>
-<td><span style="font-weight:bold">Morning Coffee</span> 
+<td><span><b style="font-size:110%">
+
+
+Morning Coffee
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -813,22 +1050,31 @@ presenter: Alfred Spector
 </tr>
 <tr>
 <td>10:30 - 12:00</td>
-<td><span style="font-weight:bold">Paper Session IVc - SECTOR APPLICATIONS I</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session IVc - SECTOR APPLICATIONS I
+</b>
 (Industrial Track)
+</span>
 
-<div>
-chair: Nigel Shadbolt
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Nigel Shadbolt</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>LKMS - A Legal Knowledge Management System Exploiting Semantic Web Technologies</b>,<i>Luca Gilardoni,Christian Biasuzzi,Massimo Ferraro,Roberto Fonti and Piercarlo Slavazza</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-<li><b>Do Not Use This Gear with a Switching Lever! Automotive Industry Experience with Semantic Guides</b>,<i>Hans-Peter Schnurr and Jürgen Angele</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-<li><b>Definitions Management: A Semantics-Based Approach for Clinical Documentation in Healthcare Delivery</b>,<i>Vipul Kashyap,Alfredo Morales,Tonya Hongsermeier and Qi Li</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. LKMS - A Legal Knowledge Management System Exploiting Semantic Web Technologies,
+<span style="color:#666">Luca Gilardoni,Christian Biasuzzi,Massimo Ferraro,Roberto Fonti and Piercarlo Slavazza</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Do Not Use This Gear with a Switching Lever! Automotive Industry Experience with Semantic Guides,
+<span style="color:#666">Hans-Peter Schnurr and Jürgen Angele</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Definitions Management: A Semantics-Based Approach for Clinical Documentation in Healthcare Delivery,
+<span style="color:#666">Vipul Kashyap,Alfredo Morales,Tonya Hongsermeier and Qi Li</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -836,22 +1082,31 @@ chair: Nigel Shadbolt
 </tr>
 <tr>
 <td>10:30 - 12:00</td>
-<td><span style="font-weight:bold">Paper Session IVa - SEMANTIC MARKUP AND BROWSING</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session IVa - SEMANTIC MARKUP AND BROWSING
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Frank van Harmelen
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Frank van Harmelen</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Piggy Bank: Experience the Semantic Web Inside Your Web Browser</b>,<i>David Huynh,Stefano Mazzocchi and David R. Karger</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>A Template-Based Markup Tool for Semantic Web Content</b>,<i>Brian P. Kettler,James Starz,William Miller and Peter Haglich</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Finding and Ranking Knowledge on the Semantic Web</b>,<i>Li Ding,Rong Pan,Timothy W. Finin,Anupam Joshi,Yun Peng and Pranam Kolari</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Piggy Bank: Experience the Semantic Web Inside Your Web Browser,
+<span style="color:#666">David Huynh,Stefano Mazzocchi and David R. Karger</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. A Template-Based Markup Tool for Semantic Web Content,
+<span style="color:#666">Brian P. Kettler,James Starz,William Miller and Peter Haglich</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Finding and Ranking Knowledge on the Semantic Web,
+<span style="color:#666">Li Ding,Rong Pan,Timothy W. Finin,Anupam Joshi,Yun Peng and Pranam Kolari</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -859,22 +1114,31 @@ chair: Frank van Harmelen
 </tr>
 <tr>
 <td>10:30 - 12:00</td>
-<td><span style="font-weight:bold">Paper Session IVb - AGENTS AND DISTRIBUTED ARCHITECTURES</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session IVb - AGENTS AND DISTRIBUTED ARCHITECTURES
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Alun Preece
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Alun Preece</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>A Strategy for Automated Meaning Negotiation in Distributed Information Retrieval</b>,<i>Vadim Ermolayev,Natalya Keberle,Wolf-Ekkehard Matzke and Vladimir Vladimirov</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Introducing Autonomic Behaviour in Semantic Web Agents</b>,<i>Valentina A. M. Tamma,Ian Blacoe,Ben Lithgow Smith and Michael Wooldridge</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>An Ontological Framework for Dynamic Coordination</b>,<i>Valentina A. M. Tamma,Chris van Aart,Thierry Moyaux,Shamimabi Paurobally,Ben Lithgow Smith and Michael Wooldridge</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. A Strategy for Automated Meaning Negotiation in Distributed Information Retrieval,
+<span style="color:#666">Vadim Ermolayev,Natalya Keberle,Wolf-Ekkehard Matzke and Vladimir Vladimirov</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Introducing Autonomic Behaviour in Semantic Web Agents,
+<span style="color:#666">Valentina A. M. Tamma,Ian Blacoe,Ben Lithgow Smith and Michael Wooldridge</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. An Ontological Framework for Dynamic Coordination,
+<span style="color:#666">Valentina A. M. Tamma,Chris van Aart,Thierry Moyaux,Shamimabi Paurobally,Ben Lithgow Smith and Michael Wooldridge</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -882,15 +1146,17 @@ chair: Alun Preece
 </tr>
 <tr>
 <td>12:00 - 13:00</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -898,22 +1164,31 @@ chair: Alun Preece
 </tr>
 <tr>
 <td>13:00 - 14:30</td>
-<td><span style="font-weight:bold">Paper Session Vc - SECTOR APPLICATIONS II</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session Vc - SECTOR APPLICATIONS II
+</b>
 (Industrial Track)
+</span>
 
-<div>
-chair: Hans-Peter Schnurr
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Hans-Peter Schnurr</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Ubiquitous Service Finder Discovery of Services Semantically Derived from Metadata in Ubiquitous Computing</b>,<i>Takahiro Kawamura,Kouji Ueno,Shinichi Nagano,Tetsuo Hasegawa and Akihiko Ohsuga</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-<li><b>Task Knowledge Based Retrieval for Service Relevant to Mobile User's Activity</b>,<i>Takefumi Naganuma and Shoji Kurakake</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-<li><b>MediaCaddy - Semantic Web Based On-Demand Content Navigation System for Entertainment</b>,<i>Shishir Garg,Amit Goswami,Jérémy Huylebroeck,Senthil Jaganathan and Pramila Mullan</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Ubiquitous Service Finder Discovery of Services Semantically Derived from Metadata in Ubiquitous Computing,
+<span style="color:#666">Takahiro Kawamura,Kouji Ueno,Shinichi Nagano,Tetsuo Hasegawa and Akihiko Ohsuga</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Task Knowledge Based Retrieval for Service Relevant to Mobile User's Activity,
+<span style="color:#666">Takefumi Naganuma and Shoji Kurakake</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. MediaCaddy - Semantic Web Based On-Demand Content Navigation System for Entertainment,
+<span style="color:#666">Shishir Garg,Amit Goswami,Jérémy Huylebroeck,Senthil Jaganathan and Pramila Mullan</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -921,22 +1196,31 @@ chair: Hans-Peter Schnurr
 </tr>
 <tr>
 <td>13:00 - 14:30</td>
-<td><span style="font-weight:bold">Paper Session Va - RDF QUERYING AND STORAGE</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session Va - RDF QUERYING AND STORAGE
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Bijan Parsia
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Bijan Parsia</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Benchmarking Database Representations of RDF/S Stores</b>,<i>Yannis Theoharis,Vassilis Christophides and Gregory Karvounarakis</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Containment and Minimization of RDF/S Query Patterns</b>,<i>Giorgos Serfiotis,Ioanna Koffina,Vassilis Christophides and Val Tannen</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>BRAHMS: A WorkBench RDF Store and High Performance Memory System for Semantic Association Discovery</b>,<i>Maciej Janik and Krys Kochut</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Benchmarking Database Representations of RDF/S Stores,
+<span style="color:#666">Yannis Theoharis,Vassilis Christophides and Gregory Karvounarakis</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Containment and Minimization of RDF/S Query Patterns,
+<span style="color:#666">Giorgos Serfiotis,Ioanna Koffina,Vassilis Christophides and Val Tannen</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. BRAHMS: A WorkBench RDF Store and High Performance Memory System for Semantic Association Discovery,
+<span style="color:#666">Maciej Janik and Krys Kochut</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -944,22 +1228,31 @@ chair: Bijan Parsia
 </tr>
 <tr>
 <td>13:00 - 14:30</td>
-<td><span style="font-weight:bold">Paper Session Vb - ONTOLOGY MAPPING AND ALIGNMENT I</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session Vb - ONTOLOGY MAPPING AND ALIGNMENT I
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Deborah McGuinness
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Deborah McGuinness</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Bootstrapping Ontology Alignment Methods with APFEL</b>,<i>Marc Ehrig,Steffen Staab and York Sure</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>A Method to Combine Linguistic Ontology-Mapping Techniques</b>,<i>Willem Robert van Hage,Sophia Katrenko and Guus Schreiber</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>A String Metric for Ontology Alignment</b>,<i>Giorgos Stoilos,Giorgos B. Stamou and Stefanos D. Kollias</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Bootstrapping Ontology Alignment Methods with APFEL,
+<span style="color:#666">Marc Ehrig,Steffen Staab and York Sure</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. A Method to Combine Linguistic Ontology-Mapping Techniques,
+<span style="color:#666">Willem Robert van Hage,Sophia Katrenko and Guus Schreiber</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. A String Metric for Ontology Alignment,
+<span style="color:#666">Giorgos Stoilos,Giorgos B. Stamou and Stefanos D. Kollias</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -967,15 +1260,17 @@ chair: Deborah McGuinness
 </tr>
 <tr>
 <td>14:30 - 15:00</td>
-<td><span style="font-weight:bold">Afternoon Coffee</span> 
+<td><span><b style="font-size:110%">
+
+
+Afternoon Coffee
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -983,22 +1278,31 @@ chair: Deborah McGuinness
 </tr>
 <tr>
 <td>15:00 - 16:30</td>
-<td><span style="font-weight:bold">Paper Session VIc - METHODOLOGY</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session VIc - METHODOLOGY
+</b>
 (Industrial Track)
+</span>
 
-<div>
-chair: Luca Gilardoni
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Luca Gilardoni</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>On Identifying Knowledge Processing Requirements</b>,<i>Alain Léger,Lyndon J. B. Nixon and Pavel Shvaiko</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-<li><b>Towards a Killer App for the Semantic Web</b>,<i>Harith Alani,Yannis Kalfoglou,Kieron O'Hara and Nigel Shadbolt</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-<li><b>Enterprise Architecture Reference Modeling in OWL/RDF</b>,<i>Dean Allemang,Irene Polikoff and Ralph Hodgson</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. On Identifying Knowledge Processing Requirements,
+<span style="color:#666">Alain Léger,Lyndon J. B. Nixon and Pavel Shvaiko</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Towards a Killer App for the Semantic Web,
+<span style="color:#666">Harith Alani,Yannis Kalfoglou,Kieron O'Hara and Nigel Shadbolt</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Enterprise Architecture Reference Modeling in OWL/RDF,
+<span style="color:#666">Dean Allemang,Irene Polikoff and Ralph Hodgson</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -1006,22 +1310,31 @@ chair: Luca Gilardoni
 </tr>
 <tr>
 <td>15:00 - 16:30</td>
-<td><span style="font-weight:bold">Paper Session VIa - ONTOLOGY CREATION</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session VIa - ONTOLOGY CREATION
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Marta Sabou
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Marta Sabou</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>RelExt: A Tool for Relation Extraction from Text in Ontology Extension</b>,<i>Alexander Schutz and Paul Buitelaar</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Graph-Based Inferences in a Semantic Web Server for the Cartography of Competencies in a Telecom Valley</b>,<i>Fabien Gandon,Olivier Corby,Alain Giboin,Nicolas Gronnier and Cecile Guigard</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Ontology Design Patterns for Semantic Web Content</b>,<i>Aldo Gangemi</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. RelExt: A Tool for Relation Extraction from Text in Ontology Extension,
+<span style="color:#666">Alexander Schutz and Paul Buitelaar</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Graph-Based Inferences in a Semantic Web Server for the Cartography of Competencies in a Telecom Valley,
+<span style="color:#666">Fabien Gandon,Olivier Corby,Alain Giboin,Nicolas Gronnier and Cecile Guigard</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Ontology Design Patterns for Semantic Web Content,
+<span style="color:#666">Aldo Gangemi</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -1029,22 +1342,31 @@ chair: Marta Sabou
 </tr>
 <tr>
 <td>15:00 - 16:30</td>
-<td><span style="font-weight:bold">Paper Session VIb - ONTOLOGY MAPPING AND ALIGNMENT II</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session VIb - ONTOLOGY MAPPING AND ALIGNMENT II
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Jerome Euzenat
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Jerome Euzenat</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Constructing Complex Semantic Mappings Between XML Data and Ontologies</b>,<i>Yuan An,Alexander Borgida and John Mylopoulos</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>OMEN: A Probabilistic Ontology Mapping Tool</b>,<i>Prasenjit Mitra,Natasha F. Noy and Anuj R. Jaiswal</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>A Bayesian Network Approach to Ontology Mapping</b>,<i>Rong Pan,Zhongli Ding,Yang Yu and Yun Peng</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Constructing Complex Semantic Mappings Between XML Data and Ontologies,
+<span style="color:#666">Yuan An,Alexander Borgida and John Mylopoulos</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. OMEN: A Probabilistic Ontology Mapping Tool,
+<span style="color:#666">Prasenjit Mitra,Natasha F. Noy and Anuj R. Jaiswal</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. A Bayesian Network Approach to Ontology Mapping,
+<span style="color:#666">Rong Pan,Zhongli Ding,Yang Yu and Yun Peng</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -1052,15 +1374,17 @@ chair: Jerome Euzenat
 </tr>
 <tr>
 <td>16:30 - 18:00</td>
-<td><span style="font-weight:bold">EU Future Funding Session - Back to the drawing board: Options and directions for FP7 research</span> 
+<td><span><b style="font-size:110%">
+
+
+EU Future Funding Session - Back to the drawing board: Options and directions for FP7 research
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1071,25 +1395,28 @@ chair: Jerome Euzenat
 
 <table border="1">
 <tr>
-<th>time</th>
+<th style="width:85px">time</th>
 <th>event</th>
-<th>room</th>
+<th style="width:115px">room</th>
 </tr>
 
 <tr>
 <td>09:00 - 10:00</td>
-<td><span style="font-weight:bold">Semantic Web Public Policy Challenges: Privacy, Provenance, Property and Personhood</span> 
+<td><span><b style="font-size:110%">
+
+InvitedTalk:
+
+Semantic Web Public Policy Challenges: Privacy, Provenance, Property and Personhood
+</b>
+</span>
 
 
-
-<div>
-presenter: Daniel J Weitzner
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Daniel J Weitzner</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -1097,15 +1424,17 @@ presenter: Daniel J Weitzner
 </tr>
 <tr>
 <td>10:00 - 10:30</td>
-<td><span style="font-weight:bold">Morning Coffee</span> 
+<td><span><b style="font-size:110%">
+
+
+Morning Coffee
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1113,22 +1442,31 @@ presenter: Daniel J Weitzner
 </tr>
 <tr>
 <td>10:30 - 12:00</td>
-<td><span style="font-weight:bold">Paper Session VIIc - Applied Technology</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session VIIc - Applied Technology
+</b>
 (Industrial Track)
+</span>
 
-<div>
-chair: Chris Priest
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Chris Priest</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Gnowsis Adapter Framework: Treating Structured Data Sources as Virtual RDF Graphs</b>,<i>Leo Sauermann and Sven Schwarz</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-<li><b>The Concept Object Web for Knowledge Management</b>,<i>James Starz,Brian P. Kettler,Peter Haglich,Jason Losco,Gary Edwards and Mark Hoffman</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-<li><b>Supporting Rule System Interoperability on the Semantic Web with SWRL</b>,<i>Martin J. O'Connor,Holger Knublauch,Samson W. Tu,Benjamin N. Grosof,Mike Dean,William E. Grosso and Mark A. Musen</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Gnowsis Adapter Framework: Treating Structured Data Sources as Virtual RDF Graphs,
+<span style="color:#666">Leo Sauermann and Sven Schwarz</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. The Concept Object Web for Knowledge Management,
+<span style="color:#666">James Starz,Brian P. Kettler,Peter Haglich,Jason Losco,Gary Edwards and Mark Hoffman</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Supporting Rule System Interoperability on the Semantic Web with SWRL,
+<span style="color:#666">Martin J. O'Connor,Holger Knublauch,Samson W. Tu,Benjamin N. Grosof,Mike Dean,William E. Grosso and Mark A. Musen</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -1136,22 +1474,31 @@ chair: Chris Priest
 </tr>
 <tr>
 <td>10:30 - 12:00</td>
-<td><span style="font-weight:bold">Paper Session VIIa - RULES</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session VIIa - RULES
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Ian Horrocks
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Ian Horrocks</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Combining RDF and Part of OWL with Rules: Semantics, Decidability, Complexity</b>,<i>Herman J. ter Horst</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Stable Model Theory for Extended RDF Ontologies</b>,<i>Anastasia Analyti,Grigoris Antoniou,Carlos Viegas Damásio and Gerd Wagner</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Resolution-Based Approximate Reasoning for OWL DL</b>,<i>Pascal Hitzler and Denny Vrandecic</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Combining RDF and Part of OWL with Rules: Semantics, Decidability, Complexity,
+<span style="color:#666">Herman J. ter Horst</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Stable Model Theory for Extended RDF Ontologies,
+<span style="color:#666">Anastasia Analyti,Grigoris Antoniou,Carlos Viegas Damásio and Gerd Wagner</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Resolution-Based Approximate Reasoning for OWL DL,
+<span style="color:#666">Pascal Hitzler and Denny Vrandecic</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -1159,22 +1506,31 @@ chair: Ian Horrocks
 </tr>
 <tr>
 <td>10:30 - 12:00</td>
-<td><span style="font-weight:bold">Paper Session VIIb - TRUST AND POLICIES</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session VIIb - TRUST AND POLICIES
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Norman Sadeh
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Norman Sadeh</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Preferential Reasoning on a Web of Trust</b>,<i>Stijn Heymans,Davy Van Nieuwenborgh and Dirk Vermeir</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>On Partial Encryption of RDF-Graphs</b>,<i>Mark Giereth</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Representing Web Service Policies in OWL-DL</b>,<i>Vladimir Kolovski,Bijan Parsia,Yarden Katz and James A. Hendler</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Preferential Reasoning on a Web of Trust,
+<span style="color:#666">Stijn Heymans,Davy Van Nieuwenborgh and Dirk Vermeir</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. On Partial Encryption of RDF-Graphs,
+<span style="color:#666">Mark Giereth</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">3. Representing Web Service Policies in OWL-DL,
+<span style="color:#666">Vladimir Kolovski,Bijan Parsia,Yarden Katz and James A. Hendler</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -1182,15 +1538,17 @@ chair: Norman Sadeh
 </tr>
 <tr>
 <td>12:00 - 13:00</td>
-<td><span style="font-weight:bold">Lunch</span> 
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1198,21 +1556,28 @@ chair: Norman Sadeh
 </tr>
 <tr>
 <td>13:00 - 14:00</td>
-<td><span style="font-weight:bold">Paper Session VIIIc - SECTOR APPLICATIONS III</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session VIIIc - SECTOR APPLICATIONS III
+</b>
 (Industrial Track)
+</span>
 
-<div>
-chair: Dean Allemang
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Dean Allemang</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>A Semantic Search Engine for the International Relation Sector</b>,<i>Luis Rodrigo,V. Richard Benjamins,Jesús Contreras,Diego Patón,D. Navarro,R. Salla,Mercedes Blázquez,P. Tena and I. Martos</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-<li><b>Semantic Service Integration for Water Resource Management</b>,<i>Ross G. Ackland,Kerry L. Taylor,Laurent Lefort,Mark A. Cameron and Joel Rahman</i><sup><span style="color:DarkRed">Industrial Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. A Semantic Search Engine for the International Relation Sector,
+<span style="color:#666">Luis Rodrigo,V. Richard Benjamins,Jesús Contreras,Diego Patón,D. Navarro,R. Salla,Mercedes Blázquez,P. Tena and I. Martos</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Semantic Service Integration for Water Resource Management,
+<span style="color:#666">Ross G. Ackland,Kerry L. Taylor,Laurent Lefort,Mark A. Cameron and Joel Rahman</span>
+<sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -1220,21 +1585,28 @@ chair: Dean Allemang
 </tr>
 <tr>
 <td>13:00 - 14:00</td>
-<td><span style="font-weight:bold">Paper Session VIIIa - SEMANTIC SEARCH AND BROWSING</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session VIIIa - SEMANTIC SEARCH AND BROWSING
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Paul Buitelaar
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Paul Buitelaar</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>RitroveRAI: A Web Application for Semantic Indexing and Hyperlinking of Multimedia News</b>,<i>Roberto Basili,Marco Cammisa and Emanuele Donati</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Semantic Browsing of Digital Collections</b>,<i>Trevor D. Collins,Paul Mulholland and Zdenek Zdráhal</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. RitroveRAI: A Web Application for Semantic Indexing and Hyperlinking of Multimedia News,
+<span style="color:#666">Roberto Basili,Marco Cammisa and Emanuele Donati</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Semantic Browsing of Digital Collections,
+<span style="color:#666">Trevor D. Collins,Paul Mulholland and Zdenek Zdráhal</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -1242,21 +1614,28 @@ chair: Paul Buitelaar
 </tr>
 <tr>
 <td>13:00 - 14:00</td>
-<td><span style="font-weight:bold">Paper Session VIIIb - VERSIONING AND CONTEXT</span> 
+<td><span><b style="font-size:110%">
 
+Session:
+
+Paper Session VIIIb - VERSIONING AND CONTEXT
+</b>
 (Research Track)
+</span>
 
-<div>
-chair: Jeff Heflin
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Jeff Heflin</span>
 </div>
 
 
-<div>
-<ol>
-<li><b>Reasoning with Multi-version Ontologies: A Temporal Logic Approach</b>,<i>Zhisheng Huang and Heiner Stuckenschmidt</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-<li><b>Decentralized Case-Based Reasoning for the Semantic Web</b>,<i>Mathieu d'Aquin,Jean Lieber and Amedeo Napoli</i><sup><span style="color:DarkRed">Research Track Paper</span></sup></li>
-</ol>
-</div>
+
+<div style="padding-left:20px;margin:1px;">1. Reasoning with Multi-version Ontologies: A Temporal Logic Approach,
+<span style="color:#666">Zhisheng Huang and Heiner Stuckenschmidt</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+<div style="padding-left:20px;margin:1px;">2. Decentralized Case-Based Reasoning for the Semantic Web,
+<span style="color:#666">Mathieu d'Aquin,Jean Lieber and Amedeo Napoli</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
 </td>
 
 <td></td>
@@ -1264,15 +1643,17 @@ chair: Jeff Heflin
 </tr>
 <tr>
 <td>14:00 - 14:30</td>
-<td><span style="font-weight:bold">Afternoon Coffee</span> 
+<td><span><b style="font-size:110%">
+
+
+Afternoon Coffee
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1280,15 +1661,17 @@ chair: Jeff Heflin
 </tr>
 <tr>
 <td>14:30 - 15:00</td>
-<td><span style="font-weight:bold">Plenary Session: Semantic Web Challenge</span> 
+<td><span><b style="font-size:110%">
+
+
+Plenary Session: Semantic Web Challenge
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1296,15 +1679,17 @@ chair: Jeff Heflin
 </tr>
 <tr>
 <td>15:00 - 15:15</td>
-<td><span style="font-weight:bold">Plenary Session: RuleML Opening Remarks</span> 
+<td><span><b style="font-size:110%">
+
+
+Plenary Session: RuleML Opening Remarks
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
@@ -1312,18 +1697,21 @@ chair: Jeff Heflin
 </tr>
 <tr>
 <td>15:15 - 16:15</td>
-<td><span style="font-weight:bold">Plenary Session: Putting the Web back in Semantic Web</span> 
+<td><span><b style="font-size:110%">
+
+InvitedTalk:
+
+Plenary Session: Putting the Web back in Semantic Web
+</b>
+</span>
 
 
-
-<div>
-presenter: Sir Tim Berners Lee
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Sir Tim Berners Lee</span>
 </div>
 
-<div>
-<ol>
-</ol>
-</div>
+
+
 </td>
 
 <td></td>
@@ -1331,15 +1719,17 @@ presenter: Sir Tim Berners Lee
 </tr>
 <tr>
 <td>16:15 - 16:30</td>
-<td><span style="font-weight:bold">Plenary Session: ISWC Closing Remarks</span> 
+<td><span><b style="font-size:110%">
+
+
+Plenary Session: ISWC Closing Remarks
+</b>
+</span>
 
 
 
 
-<div>
-<ol>
-</ol>
-</div>
+
 </td>
 
 <td></td>
