@@ -18,7 +18,7 @@
 <http://data.semanticweb.org/conference/iswc/2001/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2013 (2013-08-06)" ;
-    dcterms:modified "2013-09-05T10:43:06.419338"^^xsd:datetime ;
+    dcterms:modified "2013-09-26T17:10:02.286792"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2001/event-01> a swc:SpecialEvent ;
@@ -691,7 +691,6 @@
 
 <http://data.semanticweb.org/organization/fzi-forschungszentruminformatik> a foaf:Organization ;
     rdfs:label "FZI Forschungszentrum_Informatik" ;
-    owl:sameAs <http://dbpedia.org/resource/Forschungszentrum_Informatik> ;
     foaf:member <http://data.semanticweb.org/person/alexander-maedche> ;
     foaf:name "FZI Forschungszentrum_Informatik" .
 
@@ -780,7 +779,6 @@
 
 <http://data.semanticweb.org/organization/leipzig-university> a foaf:Organization ;
     rdfs:label "Leipzig University" ;
-    owl:sameAs <http://dbpedia.org/resource/University_of_Leipzig> ;
     foaf:member <http://data.semanticweb.org/person/christian-guensel> ;
     foaf:name "Leipzig University" .
 
@@ -871,7 +869,7 @@
 
 <http://data.semanticweb.org/organization/oracle> a foaf:Organization ;
     rdfs:label "Oracle" ;
-    owl:sameAs <http://dbpedia.org/resource/Oracle> ;
+    owl:sameAs <http://dbpedia.org/resource/Oracle_Corporation> ;
     foaf:member <http://data.semanticweb.org/person/christoph-bussler> ;
     foaf:name "Oracle" .
 
@@ -937,15 +935,20 @@
 
 <http://data.semanticweb.org/organization/technical-university-of-madrid> a foaf:Organization ;
     rdfs:label "Technical University of Madrid" ;
-    owl:sameAs <http://dbpedia.org/resource/Technical_University_of_Madrid> ;
+    owl:sameAs <http://dbpedia.org/resource/Universidad_Politécnica_de_Madrid> ;
     foaf:member <http://data.semanticweb.org/person/asuncion-gomez-perez> ;
     foaf:name "Technical University of Madrid" .
 
 <http://data.semanticweb.org/organization/the-open-university> a foaf:Organization ;
     rdfs:label "The Open University" ;
-    owl:sameAs <http://dbpedia.org/resource/Open_University> ;
     foaf:member <http://data.semanticweb.org/person/enrico-motta> ;
     foaf:name "The Open University" .
+
+<http://data.semanticweb.org/organization/university-nancy> a foaf:Organization ;
+    rdfs:label "University Nancy" ;
+    owl:sameAs <http://dbpedia.org/resource/Nancy-Universit%C3%A9> ;
+    foaf:member <http://data.semanticweb.org/person/jean-luc-metzger> ;
+    foaf:name "University Nancy" .
 
 <http://data.semanticweb.org/organization/university-of-bremen> a foaf:Organization ;
     rdfs:label "University of Bremen" ;
@@ -2494,7 +2497,7 @@
 <http://data.semanticweb.org/person/amedeo-napoli> a foaf:Person ;
     rdfs:label "Amedeo Napoli" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/loria-university-of-nancy> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/loria> ;
     foaf:mbox_sha1sum "820eee54cdfb4b1134dba7a3ba6d9089929ff206" ;
     foaf:name "Amedeo Napoli" .
 
@@ -2805,12 +2808,6 @@
     swrc:affiliation <http://data.semanticweb.org/organization/sprint> ;
     foaf:name "Jay Cee Straley" .
 
-<http://data.semanticweb.org/person/jean-luc-metzger> a foaf:Person ;
-    rdfs:label "Jean-Luc Metzger" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/participant> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/loria-university-of-nancy> ;
-    foaf:name "Jean-Luc Metzger" .
-
 <http://data.semanticweb.org/person/jeen-broekstra> a foaf:Person ;
     rdfs:label "Jeen Broekstra" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/participant> ;
@@ -3059,7 +3056,7 @@
 <http://data.semanticweb.org/person/rim-al-hulou> a foaf:Person ;
     rdfs:label "Rim Al Hulou" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/participant> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/loria-university-of-nancy> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/loria> ;
     foaf:name "Rim Al Hulou" .
 
 <http://data.semanticweb.org/person/robert-a-nado> a foaf:Person ;
@@ -3595,12 +3592,12 @@
         <http://data.semanticweb.org/person/tran-cao-son> ;
     foaf:name "Knowledge Systems Laboratory" .
 
-<http://data.semanticweb.org/organization/loria-university-of-nancy> a foaf:Organization ;
-    rdfs:label "LORIA, University of Nancy" ;
+<http://data.semanticweb.org/organization/loria> a foaf:Organization ;
+    rdfs:label "LORIA" ;
     foaf:member <http://data.semanticweb.org/person/amedeo-napoli>,
         <http://data.semanticweb.org/person/jean-luc-metzger>,
         <http://data.semanticweb.org/person/rim-al-hulou> ;
-    foaf:name "LORIA, University of Nancy" .
+    foaf:name "LORIA" .
 
 <http://data.semanticweb.org/organization/national-institute-of-informatics> a foaf:Organization ;
     rdfs:label "National Institute of Informatics" ;
@@ -3687,6 +3684,13 @@
     swrc:affiliation <http://data.semanticweb.org/organization/ibm> ;
     foaf:mbox_sha1sum "906abcdff67f6c3b8db5458b1198a3ea9e40550a" ;
     foaf:name "James Snell" .
+
+<http://data.semanticweb.org/person/jean-luc-metzger> a foaf:Person ;
+    rdfs:label "Jean-Luc Metzger" ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/participant> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/loria>,
+        <http://data.semanticweb.org/organization/university-nancy> ;
+    foaf:name "Jean-Luc Metzger" .
 
 <http://data.semanticweb.org/person/martin-lacher> a foaf:Person ;
     rdfs:label "Martin Lacher" ;
@@ -4193,7 +4197,6 @@
 
 <http://data.semanticweb.org/organization/sapienza-university-of-rome> a foaf:Organization ;
     rdfs:label "Sapienza University of Rome" ;
-    owl:sameAs <http://dbpedia.org/resource/Sapienza_University_of_Rome> ;
     foaf:member <http://data.semanticweb.org/person/diego-calvanese>,
         <http://data.semanticweb.org/person/giuseppe-de-giacomo>,
         <http://data.semanticweb.org/person/maurizio-lenzerini>,
@@ -6552,7 +6555,6 @@
 
 <http://data.semanticweb.org/organization/stanford-university> a foaf:Organization ;
     rdfs:label "Stanford University" ;
-    owl:sameAs <http://dbpedia.org/resource/Stanford_University> ;
     foaf:member <http://data.semanticweb.org/person/annemarie-feely>,
         <http://data.semanticweb.org/person/arturo-crespo>,
         <http://data.semanticweb.org/person/bob-spillers>,

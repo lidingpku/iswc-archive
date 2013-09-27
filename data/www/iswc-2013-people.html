@@ -13,9 +13,55 @@
 	version='XHTML+RDFa 1.0' typeof='foaf:Document'>
 <head>
     <title></title>
-</head>
-<body>
+<script type="text/javascript" >
+/*
+ * Dynamic Table of Contents script
+ * by Matt Whitlock <http://www.whitsoftdev.com/>
+ */
 
+function createLink(href, innerHTML) {
+	var a = document.createElement("a");
+	a.setAttribute("href", href);
+	a.innerHTML = innerHTML;
+	return a;
+}
+
+function generateTOC(toc) {
+	var i2 = 0, i3 = 0, i4 = 0;
+	toc = toc.appendChild(document.createElement("ul"));
+	for (var i = 0; i < document.body.childNodes.length; ++i) {
+		var node = document.body.childNodes[i];
+		var tagName = node.nodeName.toLowerCase();
+		if (tagName == "h4") {
+			++i4;
+			if (i4 == 1) toc.lastChild.lastChild.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3 + "." + i4;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h3") {
+			++i3, i4 = 0;
+			if (i3 == 1) toc.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h2") {
+			++i2, i3 = 0, i4 = 0;
+			var section = i2;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.appendChild(h2item = document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+	}
+}
+</script>
+
+</head>
+<body onload="generateTOC(document.getElementById('toc'));">
+<div id="toc"></div>
 
 <h2> The 12th International Semantic Web Conference (organization Committee)</h2>
 
@@ -49,7 +95,7 @@ Vice Chair
 <span resource="http://data.semanticweb.org/person/dimitrios-georgakopoulos">
 <span class="name" property="foaf:name" style="font-weight:bold">Dimitrios Georgakopoulos</span>
 ,
-<span class="organization" >CSIRO ICT Centre</span>
+<span class="organization" >CSIRO Australia</span>
 </span>	
 </li>
 </ol>
@@ -82,7 +128,7 @@ Semantic Web Jam Session Chair
 <span resource="http://data.semanticweb.org/person/aldo-gangemi">
 <span class="name" property="foaf:name" style="font-weight:bold">Aldo Gangemi</span>
 ,
-<span class="organization" >CNR Institute of Cognitive Sciences and Technology</span>
+<span class="organization" >ISTC-CNR</span>
 </span>	
 </li>
 </ol>
@@ -92,17 +138,17 @@ Semantic Web Challenge Chair
 
 <ol>
 <li>
+<span resource="http://data.semanticweb.org/person/andreas-harth">
+<span class="name" property="foaf:name" style="font-weight:bold">Andreas Harth</span>
+,
+<span class="organization" >AIFB, University of Karlsruhe</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/sean-bechhofer">
 <span class="name" property="foaf:name" style="font-weight:bold">Sean Bechhofer</span>
 ,
 <span class="organization" >University of Manchester</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/andreas-harth">
-<span class="name" property="foaf:name" style="font-weight:bold">Andreas Harth</span>
-,
-<span class="organization" >Karlsruhe Institute of Technology</span>
 </span>	
 </li>
 </ol>
@@ -119,17 +165,17 @@ Publicity Chair
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/armin-haller">
+<span class="name" property="foaf:name" style="font-weight:bold">Armin Haller</span>
+,
+<span class="organization" >CSIRO Australia</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/yuan-fang-li">
 <span class="name" property="foaf:name" style="font-weight:bold">Yuan-Fang Li</span>
 ,
 <span class="organization" >Monash University</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/armin-haller">
-<span class="name" property="foaf:name" style="font-weight:bold">Armin Haller</span>
-,
-<span class="organization" >CSIRO ICT Centre</span>
 </span>	
 </li>
 </ol>
@@ -149,7 +195,7 @@ Program Chair
 <span resource="http://data.semanticweb.org/person/harith-alani">
 <span class="name" property="foaf:name" style="font-weight:bold">Harith Alani</span>
 ,
-<span class="organization" >The Open University</span>
+<span class="organization" >KMi, The Open University</span>
 </span>	
 </li>
 </ol>
@@ -335,7 +381,7 @@ Local Organiser
 <span resource="http://data.semanticweb.org/person/armin-haller">
 <span class="name" property="foaf:name" style="font-weight:bold">Armin Haller</span>
 ,
-<span class="organization" >CSIRO ICT Centre</span>
+<span class="organization" >CSIRO Australia</span>
 </span>	
 </li>
 </ol>
@@ -367,6 +413,13 @@ PC Member at ISWC2013 (Evaluation Track)
 
 
 <ol>
+<li>
+<span resource="http://data.semanticweb.org/person/axel-polleres">
+<span class="name" property="foaf:name" style="font-weight:bold">Axel Polleres</span>
+,
+<span class="organization" >Siemens</span>
+</span>	
+</li>
 <li>
 <span resource="http://data.semanticweb.org/person/carlos-castillo">
 <span class="name" property="foaf:name" style="font-weight:bold">Carlos Castillo</span>
@@ -522,6 +575,13 @@ PC Member at ISWC2013 (Evaluation Track)
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/andreas-harth">
+<span class="name" property="foaf:name" style="font-weight:bold">Andreas Harth</span>
+,
+<span class="organization" >AIFB, University of Karlsruhe</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/marta-sabou">
 <span class="name" property="foaf:name" style="font-weight:bold">Marta Sabou</span>
 ,
@@ -536,24 +596,10 @@ PC Member at ISWC2013 (Evaluation Track)
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/axel-polleres">
-<span class="name" property="foaf:name" style="font-weight:bold">Axel Polleres</span>
-,
-<span class="organization" >Siemens</span>
-</span>	
-</li>
-<li>
 <span resource="http://data.semanticweb.org/person/vassilis-christophides">
 <span class="name" property="foaf:name" style="font-weight:bold">Vassilis Christophides</span>
 ,
 <span class="organization" >University of Crete</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/andreas-harth">
-<span class="name" property="foaf:name" style="font-weight:bold">Andreas Harth</span>
-,
-<span class="organization" >Karlsruhe Institute of Technology</span>
 </span>	
 </li>
 <li>
@@ -599,6 +645,13 @@ PC Member at ISWC2013 (Evaluation Track)
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/heiko-paulheim">
+<span class="name" property="foaf:name" style="font-weight:bold">Heiko Paulheim</span>
+,
+<span class="organization" >University of Mannheim</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/maria-esther-vidal">
 <span class="name" property="foaf:name" style="font-weight:bold">Maria Esther Vidal</span>
 ,
@@ -610,13 +663,6 @@ PC Member at ISWC2013 (Evaluation Track)
 <span class="name" property="foaf:name" style="font-weight:bold">Pierre-Yves Vandenbussche</span>
 ,
 <span class="organization" >Fujitsu</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/heiko-paulheim">
-<span class="name" property="foaf:name" style="font-weight:bold">Heiko Paulheim</span>
-,
-<span class="organization" >University of Mannheim</span>
 </span>	
 </li>
 </ol>
@@ -682,6 +728,13 @@ PC Member at ISWC2013 (Posters and Demos)
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/hanmin-jung">
+<span class="name" property="foaf:name" style="font-weight:bold">Hanmin Jung</span>
+,
+<span class="organization" >Korea Institute of Science and Technology Information</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/haofen-wang">
 <span class="name" property="foaf:name" style="font-weight:bold">Haofen Wang</span>
 ,
@@ -700,6 +753,13 @@ PC Member at ISWC2013 (Posters and Demos)
 <span class="name" property="foaf:name" style="font-weight:bold">Hong-Gee Kim</span>
 ,
 <span class="organization" >Seoul National University</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/jason-jung">
+<span class="name" property="foaf:name" style="font-weight:bold">Jason Jung</span>
+,
+<span class="organization" >Yeungnam University</span>
 </span>	
 </li>
 <li>
@@ -829,17 +889,17 @@ PC Member at ISWC2013 (Posters and Demos)
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/hanmin-jung">
-<span class="name" property="foaf:name" style="font-weight:bold">Hanmin Jung</span>
-,
-<span class="organization" >Yeungnam University</span>
-</span>	
-</li>
-<li>
 <span resource="http://data.semanticweb.org/person/tania-tudorache">
 <span class="name" property="foaf:name" style="font-weight:bold">Tania Tudorache</span>
 ,
 <span class="organization" >Stanford University</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/miriam-fernandez">
+<span class="name" property="foaf:name" style="font-weight:bold">Miriam Fernandez</span>
+,
+<span class="organization" >KMi, The Open University</span>
 </span>	
 </li>
 <li>
@@ -878,6 +938,13 @@ PC Member at ISWC2013 (Posters and Demos)
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/armin-haller">
+<span class="name" property="foaf:name" style="font-weight:bold">Armin Haller</span>
+,
+<span class="organization" >CSIRO Australia</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/yuan-fang-li">
 <span class="name" property="foaf:name" style="font-weight:bold">Yuan-Fang Li</span>
 ,
@@ -903,20 +970,6 @@ PC Member at ISWC2013 (Posters and Demos)
 <span class="name" property="foaf:name" style="font-weight:bold">Gerd Gröner</span>
 ,
 <span class="organization" >University of Koblenz and Landau</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/miriam-fernandez">
-<span class="name" property="foaf:name" style="font-weight:bold">Miriam Fernandez</span>
-,
-<span class="organization" >The Open University</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/armin-haller">
-<span class="name" property="foaf:name" style="font-weight:bold">Armin Haller</span>
-,
-<span class="organization" >CSIRO ICT Centre</span>
 </span>	
 </li>
 <li>
@@ -1000,6 +1053,13 @@ PC Member at ISWC2013 (Research Track)
 <span class="name" property="foaf:name" style="font-weight:bold">Claudia Wagner</span>
 ,
 <span class="organization" >Joanneum Research, IIS</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/cory-henson">
+<span class="name" property="foaf:name" style="font-weight:bold">Cory Henson</span>
+,
+<span class="organization" >Wright State University</span>
 </span>	
 </li>
 <li>
@@ -1133,6 +1193,13 @@ PC Member at ISWC2013 (Research Track)
 <span class="name" property="foaf:name" style="font-weight:bold">Guilin Qi</span>
 ,
 <span class="organization" >Southeast University</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/hanmin-jung">
+<span class="name" property="foaf:name" style="font-weight:bold">Hanmin Jung</span>
+,
+<span class="organization" >Korea Institute of Science and Technology Information</span>
 </span>	
 </li>
 <li>
@@ -1280,13 +1347,6 @@ PC Member at ISWC2013 (Research Track)
 <span class="name" property="foaf:name" style="font-weight:bold">Lynda Hardman</span>
 ,
 <span class="organization" >CWI Amsterdam</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/manuel-atencia">
-<span class="name" property="foaf:name" style="font-weight:bold">Manuel Atencia</span>
-,
-<span class="organization" >INRIA & University of Grenoble</span>
 </span>	
 </li>
 <li>
@@ -1570,6 +1630,13 @@ PC Member at ISWC2013 (Research Track)
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/achille-fokoue">
+<span class="name" property="foaf:name" style="font-weight:bold">Achille Fokoue</span>
+,
+<span class="organization" >IBM Research</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/jie-bao">
 <span class="name" property="foaf:name" style="font-weight:bold">Jie Bao</span>
 ,
@@ -1598,13 +1665,6 @@ PC Member at ISWC2013 (Research Track)
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/cory-henson">
-<span class="name" property="foaf:name" style="font-weight:bold">Cory Henson</span>
-,
-<span class="organization" >Wright State University</span>
-</span>	
-</li>
-<li>
 <span resource="http://data.semanticweb.org/person/eero-hyvoenen">
 <span class="name" property="foaf:name" style="font-weight:bold">Eero Hyvönen</span>
 ,
@@ -1619,17 +1679,17 @@ PC Member at ISWC2013 (Research Track)
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/hanmin-jung">
-<span class="name" property="foaf:name" style="font-weight:bold">Hanmin Jung</span>
-,
-<span class="organization" >Yeungnam University</span>
-</span>	
-</li>
-<li>
 <span resource="http://data.semanticweb.org/person/jerome-euzenat">
 <span class="name" property="foaf:name" style="font-weight:bold">Jérôme Euzenat</span>
 ,
 <span class="organization" >INRIA</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/manuel-atencia">
+<span class="name" property="foaf:name" style="font-weight:bold">Manuel Atencia</span>
+,
+<span class="organization" >University of Grenoble</span>
 </span>	
 </li>
 <li>
@@ -1658,13 +1718,6 @@ PC Member at ISWC2013 (Research Track)
 <span class="name" property="foaf:name" style="font-weight:bold">Vassilis Christophides</span>
 ,
 <span class="organization" >University of Crete</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/achille-fokoue">
-<span class="name" property="foaf:name" style="font-weight:bold">Achille Fokoue</span>
-,
-<span class="organization" >IBM Research</span>
 </span>	
 </li>
 <li>
@@ -1731,6 +1784,13 @@ PC Member at ISWC2013 (Research Track)
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/vanessa-lopez">
+<span class="name" property="foaf:name" style="font-weight:bold">Vanessa Lopez</span>
+,
+<span class="organization" >IBM Research</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/mark-musen">
 <span class="name" property="foaf:name" style="font-weight:bold">Mark Musen</span>
 ,
@@ -1784,6 +1844,20 @@ PC Member at ISWC2013 (Research Track)
 <span class="name" property="foaf:name" style="font-weight:bold">Ansgar Scherp</span>
 ,
 <span class="organization" >University of Mannheim</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/miriam-fernandez">
+<span class="name" property="foaf:name" style="font-weight:bold">Miriam Fernandez</span>
+,
+<span class="organization" >KMi, The Open University</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/peter-mika">
+<span class="name" property="foaf:name" style="font-weight:bold">Peter Mika</span>
+,
+<span class="organization" >Yahoo! Research</span>
 </span>	
 </li>
 <li>
@@ -1871,6 +1945,13 @@ PC Member at ISWC2013 (Research Track)
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/aldo-gangemi">
+<span class="name" property="foaf:name" style="font-weight:bold">Aldo Gangemi</span>
+,
+<span class="organization" >ISTC-CNR</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/valentina-presutti">
 <span class="name" property="foaf:name" style="font-weight:bold">Valentina Presutti</span>
 ,
@@ -1882,6 +1963,13 @@ PC Member at ISWC2013 (Research Track)
 <span class="name" property="foaf:name" style="font-weight:bold">Gong Cheng</span>
 ,
 <span class="organization" >Nanjing University</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/armin-haller">
+<span class="name" property="foaf:name" style="font-weight:bold">Armin Haller</span>
+,
+<span class="organization" >CSIRO Australia</span>
 </span>	
 </li>
 <li>
@@ -1948,27 +2036,6 @@ PC Member at ISWC2013 (Research Track)
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/vanessa-lopez">
-<span class="name" property="foaf:name" style="font-weight:bold">Vanessa Lopez</span>
-,
-<span class="organization" >IBM Research</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/miriam-fernandez">
-<span class="name" property="foaf:name" style="font-weight:bold">Miriam Fernandez</span>
-,
-<span class="organization" >The Open University</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/peter-mika">
-<span class="name" property="foaf:name" style="font-weight:bold">Peter Mika</span>
-,
-<span class="organization" >Yahoo! Research</span>
-</span>	
-</li>
-<li>
 <span resource="http://data.semanticweb.org/person/christophe-gueret">
 <span class="name" property="foaf:name" style="font-weight:bold">Christophe Guéret</span>
 ,
@@ -1980,20 +2047,6 @@ PC Member at ISWC2013 (Research Track)
 <span class="name" property="foaf:name" style="font-weight:bold">Kerry Taylor</span>
 ,
 <span class="organization" >CSIRO Australia</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/aldo-gangemi">
-<span class="name" property="foaf:name" style="font-weight:bold">Aldo Gangemi</span>
-,
-<span class="organization" >CNR Institute of Cognitive Sciences and Technology</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/armin-haller">
-<span class="name" property="foaf:name" style="font-weight:bold">Armin Haller</span>
-,
-<span class="organization" >CSIRO ICT Centre</span>
 </span>	
 </li>
 <li>
@@ -2049,6 +2102,13 @@ PC Member at ISWC2013 (Semantic Web In Use Track)
 <span class="name" property="foaf:name" style="font-weight:bold">Anupriya Ankolekar</span>
 ,
 <span class="organization" >Hewlett Packard Laboratories</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/axel-polleres">
+<span class="name" property="foaf:name" style="font-weight:bold">Axel Polleres</span>
+,
+<span class="organization" >Siemens</span>
 </span>	
 </li>
 <li>
@@ -2353,17 +2413,17 @@ PC Member at ISWC2013 (Semantic Web In Use Track)
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/achille-fokoue">
+<span class="name" property="foaf:name" style="font-weight:bold">Achille Fokoue</span>
+,
+<span class="organization" >IBM Research</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/marta-sabou">
 <span class="name" property="foaf:name" style="font-weight:bold">Marta Sabou</span>
 ,
 <span class="organization" >MODUL University Vienna</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/axel-polleres">
-<span class="name" property="foaf:name" style="font-weight:bold">Axel Polleres</span>
-,
-<span class="organization" >Siemens</span>
 </span>	
 </li>
 <li>
@@ -2381,24 +2441,17 @@ PC Member at ISWC2013 (Semantic Web In Use Track)
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/pablo-mendes">
-<span class="name" property="foaf:name" style="font-weight:bold">Pablo Mendes</span>
-,
-<span class="organization" >Wright State University</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/achille-fokoue">
-<span class="name" property="foaf:name" style="font-weight:bold">Achille Fokoue</span>
-,
-<span class="organization" >IBM Research</span>
-</span>	
-</li>
-<li>
 <span resource="http://data.semanticweb.org/person/antonis-loizou">
 <span class="name" property="foaf:name" style="font-weight:bold">Antonis Loizou</span>
 ,
 <span class="organization" >Vrije Universiteit Amsterdam</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/egon-willighagen">
+<span class="name" property="foaf:name" style="font-weight:bold">Egon Willighagen</span>
+,
+<span class="organization" >Maastricht University</span>
 </span>	
 </li>
 <li>
@@ -2416,6 +2469,13 @@ PC Member at ISWC2013 (Semantic Web In Use Track)
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/amrapali-zaveri">
+<span class="name" property="foaf:name" style="font-weight:bold">Amrapali Zaveri</span>
+,
+<span class="organization" >Leipzig University</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/yves-raimond">
 <span class="name" property="foaf:name" style="font-weight:bold">Yves Raimond</span>
 ,
@@ -2430,10 +2490,10 @@ PC Member at ISWC2013 (Semantic Web In Use Track)
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/michael-schmidt">
-<span class="name" property="foaf:name" style="font-weight:bold">Michael Schmidt</span>
+<span resource="http://data.semanticweb.org/person/pablo-mendes">
+<span class="name" property="foaf:name" style="font-weight:bold">Pablo Mendes</span>
 ,
-<span class="organization" >Fluid Operations</span>
+<span class="organization" >Wright State University</span>
 </span>	
 </li>
 <li>
@@ -2455,6 +2515,13 @@ PC Member at ISWC2013 (Semantic Web In Use Track)
 <span class="name" property="foaf:name" style="font-weight:bold">Ruben Verborgh</span>
 ,
 <span class="organization" >Ghent University</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/armin-haller">
+<span class="name" property="foaf:name" style="font-weight:bold">Armin Haller</span>
+,
+<span class="organization" >CSIRO Australia</span>
 </span>	
 </li>
 <li>
@@ -2507,24 +2574,10 @@ PC Member at ISWC2013 (Semantic Web In Use Track)
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/egon-willighagen">
-<span class="name" property="foaf:name" style="font-weight:bold">Egon Willighagen</span>
+<span resource="http://data.semanticweb.org/person/michael-schmidt">
+<span class="name" property="foaf:name" style="font-weight:bold">Michael Schmidt</span>
 ,
-<span class="organization" >Maastricht University</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/amrapali-zaveri">
-<span class="name" property="foaf:name" style="font-weight:bold">Amrapali Zaveri</span>
-,
-<span class="organization" >Leipzig University</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/armin-haller">
-<span class="name" property="foaf:name" style="font-weight:bold">Armin Haller</span>
-,
-<span class="organization" >CSIRO ICT Centre</span>
+<span class="organization" >Fluid Operations</span>
 </span>	
 </li>
 <li>
@@ -2603,6 +2656,13 @@ Senior PC Member at ISWC2013 (Research Track)
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/axel-polleres">
+<span class="name" property="foaf:name" style="font-weight:bold">Axel Polleres</span>
+,
+<span class="organization" >Siemens</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/david-r-karger">
 <span class="name" property="foaf:name" style="font-weight:bold">David R. Karger</span>
 ,
@@ -2673,13 +2733,6 @@ Senior PC Member at ISWC2013 (Research Track)
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/axel-polleres">
-<span class="name" property="foaf:name" style="font-weight:bold">Axel Polleres</span>
-,
-<span class="organization" >Siemens</span>
-</span>	
-</li>
-<li>
 <span resource="http://data.semanticweb.org/person/soeren-auer">
 <span class="name" property="foaf:name" style="font-weight:bold">Sören Auer</span>
 ,
@@ -2715,7 +2768,7 @@ Senior PC Member at ISWC2013 (Research Track)
 </span>	
 </li>
 </ol>
-<h2>[Proceedings] Proceedings of ISWC 2013 Poster and Demo</h2>
+<h2>[Proceedings] Proceedings of ISWC 2013 Industry Track</h2>
 
 
 <hr/>
@@ -2724,10 +2777,98 @@ Authors
 
 <ol>
 <li>
-<span resource="http://data.semanticweb.org/person/martin-g-skjaeveland">
-<span class="name" property="foaf:name" style="font-weight:bold">Martin G. Skjaeveland</span>
+<span resource="http://data.semanticweb.org/person/daniel-p-miranker">
+<span class="name" property="foaf:name" style="font-weight:bold">Daniel P. Miranker</span>
+,
+<span class="organization" >Capsenta Inc</span>
 </span>	
 </li>
+<li>
+<span resource="http://data.semanticweb.org/person/david-damen">
+<span class="name" property="foaf:name" style="font-weight:bold">David Damen</span>
+,
+<span class="organization" >Argus Labs</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/evelyne-viegas">
+<span class="name" property="foaf:name" style="font-weight:bold">Evelyne Viegas</span>
+,
+<span class="organization" >Microsoft Research</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/hans-constandt">
+<span class="name" property="foaf:name" style="font-weight:bold">Hans Constandt</span>
+,
+<span class="organization" >OntoForce</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/michael-pizzo">
+<span class="name" property="foaf:name" style="font-weight:bold">Michael Pizzo</span>
+,
+<span class="organization" >Microsoft</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/terry-roach">
+<span class="name" property="foaf:name" style="font-weight:bold">Terry Roach</span>
+,
+<span class="organization" >University of New South Wales</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/timo-weber">
+<span class="name" property="foaf:name" style="font-weight:bold">Timo Weber</span>
+,
+<span class="organization" >Freudenberg IT</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/christian-huetter">
+<span class="name" property="foaf:name" style="font-weight:bold">Christian Hütter</span>
+,
+<span class="organization" >Fluid Operations</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/andriy-nikolov">
+<span class="name" property="foaf:name" style="font-weight:bold">Andriy Nikolov</span>
+,
+<span class="organization" >Fluid Operations</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/juan-sequeda">
+<span class="name" property="foaf:name" style="font-weight:bold">Juan Sequeda</span>
+,
+<span class="organization" >University of Texas at Austin</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/peter-haase">
+<span class="name" property="foaf:name" style="font-weight:bold">Peter Haase</span>
+,
+<span class="organization" >Fluid Operations</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/michael-schmidt">
+<span class="name" property="foaf:name" style="font-weight:bold">Michael Schmidt</span>
+,
+<span class="organization" >Fluid Operations</span>
+</span>	
+</li>
+</ol>
+<h2>[Proceedings] Proceedings of ISWC 2013 Poster and Demo</h2>
+
+
+<hr/>
+Authors
+
+
+<ol>
 <li>
 <span resource="http://data.semanticweb.org/person/dongsheng-zhang">
 <span class="name" property="foaf:name" style="font-weight:bold">Dongsheng Zhang</span>
@@ -2939,6 +3080,13 @@ Authors
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/vadim-ivanov">
+<span class="name" property="foaf:name" style="font-weight:bold">Vadim Ivanov</span>
+,
+<span class="organization" >Universidade Nova de Lisboa</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/katherine-chastain">
 <span class="name" property="foaf:name" style="font-weight:bold">Katherine Chastain</span>
 ,
@@ -3135,6 +3283,13 @@ Authors
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/vanessa-lopez">
+<span class="name" property="foaf:name" style="font-weight:bold">Vanessa Lopez</span>
+,
+<span class="organization" >IBM Research</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/marat-charlaganov">
 <span class="name" property="foaf:name" style="font-weight:bold">Marat Charlaganov</span>
 ,
@@ -3215,7 +3370,7 @@ Authors
 <span resource="http://data.semanticweb.org/person/shepherd-liu">
 <span class="name" property="foaf:name" style="font-weight:bold">Shepherd Liu</span>
 ,
-<span class="organization" >CSIRO ICT Centre</span>
+<span class="organization" >CSIRO Australia</span>
 </span>	
 </li>
 <li>
@@ -3236,7 +3391,7 @@ Authors
 <span resource="http://data.semanticweb.org/person/raghava-mutharaju">
 <span class="name" property="foaf:name" style="font-weight:bold">Raghava Mutharaju</span>
 ,
-<span class="organization" >Kno.e.sis, Wright State University</span>
+<span class="organization" >Wright State University</span>
 </span>	
 </li>
 <li>
@@ -3461,6 +3616,13 @@ Authors
 <span class="name" property="foaf:name" style="font-weight:bold">Michael Granitzer</span>
 ,
 <span class="organization" >University of Passau</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/miriam-fernandez">
+<span class="name" property="foaf:name" style="font-weight:bold">Miriam Fernandez</span>
+,
+<span class="organization" >KMi, The Open University</span>
 </span>	
 </li>
 <li>
@@ -3842,6 +4004,13 @@ Authors
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/harith-alani">
+<span class="name" property="foaf:name" style="font-weight:bold">Harith Alani</span>
+,
+<span class="organization" >KMi, The Open University</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/marco-luca-sbodio">
 <span class="name" property="foaf:name" style="font-weight:bold">Marco Luca Sbodio</span>
 ,
@@ -3923,6 +4092,13 @@ Authors
 <span class="name" property="foaf:name" style="font-weight:bold">Ahmet Soylu</span>
 ,
 <span class="organization" >University of Oslo</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/armin-haller">
+<span class="name" property="foaf:name" style="font-weight:bold">Armin Haller</span>
+,
+<span class="organization" >CSIRO Australia</span>
 </span>	
 </li>
 <li>
@@ -4066,6 +4242,13 @@ Authors
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/heiko-paulheim">
+<span class="name" property="foaf:name" style="font-weight:bold">Heiko Paulheim</span>
+,
+<span class="organization" >University of Mannheim</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/femke-ongenae">
 <span class="name" property="foaf:name" style="font-weight:bold">Femke Ongenae</span>
 ,
@@ -4096,6 +4279,13 @@ Authors
 <li>
 <span resource="http://data.semanticweb.org/person/arkady-zaslavsky">
 <span class="name" property="foaf:name" style="font-weight:bold">Arkady Zaslavsky</span>
+,
+<span class="organization" >CSIRO Australia</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/dimitrios-georgakopoulos">
+<span class="name" property="foaf:name" style="font-weight:bold">Dimitrios Georgakopoulos</span>
 ,
 <span class="organization" >CSIRO Australia</span>
 </span>	
@@ -4157,6 +4347,13 @@ Authors
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/pedro-szekely">
+<span class="name" property="foaf:name" style="font-weight:bold">Pedro Szekely</span>
+,
+<span class="organization" >ISI/USC</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/kavi-mahesh">
 <span class="name" property="foaf:name" style="font-weight:bold">Kavi Mahesh</span>
 ,
@@ -4175,6 +4372,13 @@ Authors
 <span class="name" property="foaf:name" style="font-weight:bold">Marieke Van Erp</span>
 ,
 <span class="organization" >Vrije Universiteit Amsterdam</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/martin-g-skjveland">
+<span class="name" property="foaf:name" style="font-weight:bold">Martin G. Skjæveland</span>
+,
+<span class="organization" >University of Oslo</span>
 </span>	
 </li>
 <li>
@@ -4248,20 +4452,6 @@ Authors
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/melisachew-wudage-chekol">
-<span class="name" property="foaf:name" style="font-weight:bold">Melisachew Wudage Chekol</span>
-,
-<span class="organization" >INRIA & LIG</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/amedeo-napoli">
-<span class="name" property="foaf:name" style="font-weight:bold">Amedeo Napoli</span>
-,
-<span class="organization" >LORIA-INRIA</span>
-</span>	
-</li>
-<li>
 <span resource="http://data.semanticweb.org/person/guillermo-palma">
 <span class="name" property="foaf:name" style="font-weight:bold">Guillermo Palma</span>
 ,
@@ -4280,13 +4470,6 @@ Authors
 <span class="name" property="foaf:name" style="font-weight:bold">Michael Compton</span>
 ,
 <span class="organization" >CSIRO Australia</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/michael-schmidt">
-<span class="name" property="foaf:name" style="font-weight:bold">Michael Schmidt</span>
-,
-<span class="organization" >Fluid Operations</span>
 </span>	
 </li>
 <li>
@@ -4402,6 +4585,13 @@ Authors
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/aldo-gangemi">
+<span class="name" property="foaf:name" style="font-weight:bold">Aldo Gangemi</span>
+,
+<span class="organization" >ISTC-CNR</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/abraham-bernstein">
 <span class="name" property="foaf:name" style="font-weight:bold">Abraham Bernstein</span>
 ,
@@ -4437,31 +4627,10 @@ Authors
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/vadim-ivanov">
-<span class="name" property="foaf:name" style="font-weight:bold">Vadim Ivanov</span>
-,
-<span class="organization" >UNL FCT</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/vanessa-lopez">
-<span class="name" property="foaf:name" style="font-weight:bold">Vanessa Lopez</span>
-,
-<span class="organization" >IBM Research</span>
-</span>	
-</li>
-<li>
 <span resource="http://data.semanticweb.org/person/charith-perera">
 <span class="name" property="foaf:name" style="font-weight:bold">Charith Perera</span>
 ,
 <span class="organization" >CSIRO Australia</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/miriam-fernandez">
-<span class="name" property="foaf:name" style="font-weight:bold">Miriam Fernandez</span>
-,
-<span class="organization" >The Open University</span>
 </span>	
 </li>
 <li>
@@ -4479,45 +4648,24 @@ Authors
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/harith-alani">
-<span class="name" property="foaf:name" style="font-weight:bold">Harith Alani</span>
+<span resource="http://data.semanticweb.org/person/melisachew-wudage-chekol">
+<span class="name" property="foaf:name" style="font-weight:bold">Melisachew Wudage Chekol</span>
 ,
-<span class="organization" >The Open University</span>
+<span class="organization" >LIG</span>
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/armin-haller">
-<span class="name" property="foaf:name" style="font-weight:bold">Armin Haller</span>
+<span resource="http://data.semanticweb.org/person/amedeo-napoli">
+<span class="name" property="foaf:name" style="font-weight:bold">Amedeo Napoli</span>
 ,
-<span class="organization" >CSIRO ICT Centre</span>
+<span class="organization" >LORIA</span>
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/heiko-paulheim">
-<span class="name" property="foaf:name" style="font-weight:bold">Heiko Paulheim</span>
+<span resource="http://data.semanticweb.org/person/michael-schmidt">
+<span class="name" property="foaf:name" style="font-weight:bold">Michael Schmidt</span>
 ,
-<span class="organization" >University of Mannheim</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/dimitrios-georgakopoulos">
-<span class="name" property="foaf:name" style="font-weight:bold">Dimitrios Georgakopoulos</span>
-,
-<span class="organization" >CSIRO ICT Centre</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/pedro-szekely">
-<span class="name" property="foaf:name" style="font-weight:bold">Pedro Szekely</span>
-,
-<span class="organization" >University of Southern California</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/aldo-gangemi">
-<span class="name" property="foaf:name" style="font-weight:bold">Aldo Gangemi</span>
-,
-<span class="organization" >CNR Institute of Cognitive Sciences and Technology</span>
+<span class="organization" >Fluid Operations</span>
 </span>	
 </li>
 <li>
@@ -4684,13 +4832,6 @@ Authors
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/nabil-layaieda">
-<span class="name" property="foaf:name" style="font-weight:bold">Nabil Layaïda</span>
-,
-<span class="organization" >INRIA & LIG</span>
-</span>	
-</li>
-<li>
 <span resource="http://data.semanticweb.org/person/noseong-park">
 <span class="name" property="foaf:name" style="font-weight:bold">Noseong Park</span>
 ,
@@ -4761,6 +4902,13 @@ Authors
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/andreas-harth">
+<span class="name" property="foaf:name" style="font-weight:bold">Andreas Harth</span>
+,
+<span class="organization" >AIFB, University of Karlsruhe</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/oscar-corcho">
 <span class="name" property="foaf:name" style="font-weight:bold">Oscar Corcho</span>
 ,
@@ -4775,10 +4923,10 @@ Authors
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/andreas-harth">
-<span class="name" property="foaf:name" style="font-weight:bold">Andreas Harth</span>
+<span resource="http://data.semanticweb.org/person/nabil-layaieda">
+<span class="name" property="foaf:name" style="font-weight:bold">Nabil Layaïda</span>
 ,
-<span class="organization" >Karlsruhe Institute of Technology</span>
+<span class="organization" >LIG</span>
 </span>	
 </li>
 <li>
@@ -4908,6 +5056,13 @@ Authors
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/egon-willighagen">
+<span class="name" property="foaf:name" style="font-weight:bold">Egon Willighagen</span>
+,
+<span class="organization" >Maastricht University</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/stefan-decker">
 <span class="name" property="foaf:name" style="font-weight:bold">Stefan Decker</span>
 ,
@@ -4996,6 +5151,13 @@ Authors
 <span class="name" property="foaf:name" style="font-weight:bold">Sven Schewe</span>
 ,
 <span class="organization" >University of Liverpool</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/vadim-ivanov">
+<span class="name" property="foaf:name" style="font-weight:bold">Vadim Ivanov</span>
+,
+<span class="organization" >Universidade Nova de Lisboa</span>
 </span>	
 </li>
 <li>
@@ -5458,13 +5620,6 @@ Authors
 <span class="name" property="foaf:name" style="font-weight:bold">Esteban García-Cuesta</span>
 ,
 <span class="organization" >iSOCO, S.A.</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/melisachew-wudage-chekol">
-<span class="name" property="foaf:name" style="font-weight:bold">Melisachew Wudage Chekol</span>
-,
-<span class="organization" >INRIA & LIG</span>
 </span>	
 </li>
 <li>
@@ -6126,6 +6281,13 @@ Authors
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/pedro-szekely">
+<span class="name" property="foaf:name" style="font-weight:bold">Pedro Szekely</span>
+,
+<span class="organization" >ISI/USC</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/carlos-buil-aranda">
 <span class="name" property="foaf:name" style="font-weight:bold">Carlos Buil Aranda</span>
 ,
@@ -6245,6 +6407,13 @@ Authors
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/amrapali-zaveri">
+<span class="name" property="foaf:name" style="font-weight:bold">Amrapali Zaveri</span>
+,
+<span class="organization" >Leipzig University</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/kai-eckert">
 <span class="name" property="foaf:name" style="font-weight:bold">Kai Eckert</span>
 ,
@@ -6252,10 +6421,24 @@ Authors
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/roi-blanco">
+<span class="name" property="foaf:name" style="font-weight:bold">Roi Blanco</span>
+,
+<span class="organization" >Yahoo! Research</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/bernardo-cuenca-grau">
 <span class="name" property="foaf:name" style="font-weight:bold">Bernardo Cuenca Grau</span>
 ,
 <span class="organization" >University of Oxford</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/peter-mika">
+<span class="name" property="foaf:name" style="font-weight:bold">Peter Mika</span>
+,
+<span class="organization" >Yahoo! Research</span>
 </span>	
 </li>
 <li>
@@ -6294,6 +6477,13 @@ Authors
 </span>	
 </li>
 <li>
+<span resource="http://data.semanticweb.org/person/heiko-paulheim">
+<span class="name" property="foaf:name" style="font-weight:bold">Heiko Paulheim</span>
+,
+<span class="organization" >University of Mannheim</span>
+</span>	
+</li>
+<li>
 <span resource="http://data.semanticweb.org/person/jens-lehmann">
 <span class="name" property="foaf:name" style="font-weight:bold">Jens Lehmann</span>
 ,
@@ -6322,20 +6512,6 @@ Authors
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/egon-willighagen">
-<span class="name" property="foaf:name" style="font-weight:bold">Egon Willighagen</span>
-,
-<span class="organization" >Maastricht University</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/vadim-ivanov">
-<span class="name" property="foaf:name" style="font-weight:bold">Vadim Ivanov</span>
-,
-<span class="organization" >UNL FCT</span>
-</span>	
-</li>
-<li>
 <span resource="http://data.semanticweb.org/person/simone-tallevi-diotallevi">
 <span class="name" property="foaf:name" style="font-weight:bold">Simone Tallevi-Diotallevi</span>
 ,
@@ -6343,38 +6519,10 @@ Authors
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/pedro-szekely">
-<span class="name" property="foaf:name" style="font-weight:bold">Pedro Szekely</span>
+<span resource="http://data.semanticweb.org/person/melisachew-wudage-chekol">
+<span class="name" property="foaf:name" style="font-weight:bold">Melisachew Wudage Chekol</span>
 ,
-<span class="organization" >University of Southern California</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/amrapali-zaveri">
-<span class="name" property="foaf:name" style="font-weight:bold">Amrapali Zaveri</span>
-,
-<span class="organization" >Leipzig University</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/roi-blanco">
-<span class="name" property="foaf:name" style="font-weight:bold">Roi Blanco</span>
-,
-<span class="organization" >Yahoo! Research</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/peter-mika">
-<span class="name" property="foaf:name" style="font-weight:bold">Peter Mika</span>
-,
-<span class="organization" >Yahoo! Research</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/heiko-paulheim">
-<span class="name" property="foaf:name" style="font-weight:bold">Heiko Paulheim</span>
-,
-<span class="organization" >University of Mannheim</span>
+<span class="organization" >LIG</span>
 </span>	
 </li>
 <li>
@@ -6389,6 +6537,13 @@ Authors
 <span class="name" property="foaf:name" style="font-weight:bold">Enrico Motta</span>
 ,
 <span class="organization" >KMi, The Open University</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/kunal-sengupta">
+<span class="name" property="foaf:name" style="font-weight:bold">Kunal Sengupta</span>
+,
+<span class="organization" >Wright State University</span>
 </span>	
 </li>
 <li>
@@ -6413,24 +6568,17 @@ Authors
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/ian-horrocks">
-<span class="name" property="foaf:name" style="font-weight:bold">Ian Horrocks</span>
-,
-<span class="organization" >University of Oxford</span>
-</span>	
-</li>
-<li>
-<span resource="http://data.semanticweb.org/person/kunal-sengupta">
-<span class="name" property="foaf:name" style="font-weight:bold">Kunal Sengupta</span>
-,
-<span class="organization" >Wright State University</span>
-</span>	
-</li>
-<li>
 <span resource="http://data.semanticweb.org/person/pascal-hitzler">
 <span class="name" property="foaf:name" style="font-weight:bold">Pascal Hitzler</span>
 ,
 <span class="organization" >Wright State University</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/ian-horrocks">
+<span class="name" property="foaf:name" style="font-weight:bold">Ian Horrocks</span>
+,
+<span class="organization" >University of Oxford</span>
 </span>	
 </li>
 </ol>

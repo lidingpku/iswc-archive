@@ -22,7 +22,7 @@
 <http://data.semanticweb.org/conference/iswc/2003/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2013 (2013-08-06)" ;
-    dcterms:modified "2013-09-05T10:43:16.857527"^^xsd:datetime ;
+    dcterms:modified "2013-09-26T17:10:04.975737"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2003/event-01> a swc:SpecialEvent ;
@@ -851,7 +851,6 @@
 <http://data.semanticweb.org/organization/deri-galway> a foaf:Organization ;
     rdfs:label "DERI, Galway" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/platinum-sponsor> ;
-    owl:sameAs <http://dbpedia.org/resource/Digital_Enterprise_Research_Institute> ;
     foaf:homepage <http://www.deri.ie/> ;
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ab/2003/iswc2003.semanticweb.org/deri.jpg> ;
     foaf:name "DERI, Galway" .
@@ -908,7 +907,6 @@
 
 <http://data.semanticweb.org/organization/fzi-forschungszentruminformatik> a foaf:Organization ;
     rdfs:label "FZI Forschungszentrum_Informatik" ;
-    owl:sameAs <http://dbpedia.org/resource/Forschungszentrum_Informatik> ;
     foaf:member <http://data.semanticweb.org/person/boris-motik> ;
     foaf:name "FZI Forschungszentrum_Informatik" .
 
@@ -1066,7 +1064,7 @@
 
 <http://data.semanticweb.org/organization/oracle> a foaf:Organization ;
     rdfs:label "Oracle" ;
-    owl:sameAs <http://dbpedia.org/resource/Oracle> ;
+    owl:sameAs <http://dbpedia.org/resource/Oracle_Corporation> ;
     foaf:member <http://data.semanticweb.org/person/christoph-bussler> ;
     foaf:name "Oracle" .
 
@@ -2119,12 +2117,12 @@
     foaf:member <http://data.semanticweb.org/person/alain-leger> ;
     foaf:name "France Télécom" .
 
-<http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dkfi> a foaf:Organization ;
-    rdfs:label "German Research Centre for Artificial Intelligence (DKFI)" ;
+<http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dfki> a foaf:Organization ;
+    rdfs:label "German Research Centre for Artificial Intelligence (DFKI)" ;
     owl:sameAs <http://dbpedia.org/resource/German_Research_Centre_for_Artificial_Intelligence> ;
     foaf:member <http://data.semanticweb.org/person/matthias-klusch>,
         <http://data.semanticweb.org/person/michael-sintek> ;
-    foaf:name "German Research Centre for Artificial Intelligence (DKFI)" .
+    foaf:name "German Research Centre for Artificial Intelligence (DFKI)" .
 
 <http://data.semanticweb.org/organization/inria> a foaf:Organization ;
     rdfs:label "INRIA" ;
@@ -2135,7 +2133,6 @@
 
 <http://data.semanticweb.org/organization/leipzig-university> a foaf:Organization ;
     rdfs:label "Leipzig University" ;
-    owl:sameAs <http://dbpedia.org/resource/University_of_Leipzig> ;
     foaf:member <http://data.semanticweb.org/person/erhard-rahm>,
         <http://data.semanticweb.org/person/sergey-melnik> ;
     foaf:name "Leipzig University" .
@@ -2149,7 +2146,7 @@
 
 <http://data.semanticweb.org/organization/technical-university-of-madrid> a foaf:Organization ;
     rdfs:label "Technical University of Madrid" ;
-    owl:sameAs <http://dbpedia.org/resource/Technical_University_of_Madrid> ;
+    owl:sameAs <http://dbpedia.org/resource/Universidad_Politécnica_de_Madrid> ;
     foaf:member <http://data.semanticweb.org/person/asuncion-gomez-perez>,
         <http://data.semanticweb.org/person/oscar-corcho> ;
     foaf:name "Technical University of Madrid" .
@@ -2592,7 +2589,7 @@
 <http://data.semanticweb.org/person/matthias-klusch> a foaf:Person ;
     rdfs:label "Matthias Klusch" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dkfi> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dfki> ;
     foaf:name "Matthias Klusch" .
 
 <http://data.semanticweb.org/person/max-egenhofer> a foaf:Person ;
@@ -3164,7 +3161,6 @@
 
 <http://data.semanticweb.org/organization/stanford-university> a foaf:Organization ;
     rdfs:label "Stanford University" ;
-    owl:sameAs <http://dbpedia.org/resource/Stanford_University> ;
     foaf:member <http://data.semanticweb.org/person/natasha-f-noy>,
         <http://data.semanticweb.org/person/richard-fikes>,
         <http://data.semanticweb.org/person/sheila-mcilraith> ;
@@ -3172,7 +3168,6 @@
 
 <http://data.semanticweb.org/organization/the-open-university> a foaf:Organization ;
     rdfs:label "The Open University" ;
-    owl:sameAs <http://dbpedia.org/resource/Open_University> ;
     foaf:member <http://data.semanticweb.org/person/enrico-motta>,
         <http://data.semanticweb.org/person/maria-vargas-vera>,
         <http://data.semanticweb.org/person/martin-dzbor> ;
@@ -5783,7 +5778,6 @@
 
 <http://data.semanticweb.org/organization/isiusc> a foaf:Organization ;
     rdfs:label "ISI/USC" ;
-    owl:sameAs <http://dbpedia.org/resource/Information_Sciences_Institute> ;
     foaf:member <http://data.semanticweb.org/person/martin-frank>,
         <http://data.semanticweb.org/person/robert-macgregor-manolescu>,
         <http://data.semanticweb.org/person/stefan-decker>,
@@ -6840,7 +6834,7 @@
 <http://data.semanticweb.org/person/michael-sintek> a foaf:Person ;
     rdfs:label "Michael Sintek" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dkfi> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dfki> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2003/poster-demo-proceedings/paper-40>,
         <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-34> ;
     foaf:name "Michael Sintek" .

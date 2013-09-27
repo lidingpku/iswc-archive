@@ -18,7 +18,7 @@
 <http://data.semanticweb.org/conference/iswc/2002/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2013 (2013-08-06)" ;
-    dcterms:modified "2013-09-05T10:43:11.622430"^^xsd:datetime ;
+    dcterms:modified "2013-09-26T17:10:03.629331"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2002/event-01> a swc:SpecialEvent ;
@@ -706,11 +706,11 @@
     foaf:member <http://data.semanticweb.org/person/lynn-andrea-stein> ;
     foaf:name "Franklin W. Olin College of Engineering" .
 
-<http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dkfi> a foaf:Organization ;
-    rdfs:label "German Research Centre for Artificial Intelligence (DKFI)" ;
+<http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dfki> a foaf:Organization ;
+    rdfs:label "German Research Centre for Artificial Intelligence (DFKI)" ;
     owl:sameAs <http://dbpedia.org/resource/German_Research_Centre_for_Artificial_Intelligence> ;
     foaf:member <http://data.semanticweb.org/person/harold-boley> ;
-    foaf:name "German Research Centre for Artificial Intelligence (DKFI)" .
+    foaf:name "German Research Centre for Artificial Intelligence (DFKI)" .
 
 <http://data.semanticweb.org/organization/hewlett-packard> a foaf:Organization ;
     rdfs:label "Hewlett-Packard" ;
@@ -759,10 +759,10 @@
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2002/supporting-organization> ;
     foaf:name "LEKS/CNR Roma" .
 
-<http://data.semanticweb.org/organization/loria-university-of-nancy> a foaf:Organization ;
-    rdfs:label "LORIA, University of Nancy" ;
+<http://data.semanticweb.org/organization/loria> a foaf:Organization ;
+    rdfs:label "LORIA" ;
     foaf:member <http://data.semanticweb.org/person/amedeo-napoli> ;
-    foaf:name "LORIA, University of Nancy" .
+    foaf:name "LORIA" .
 
 <http://data.semanticweb.org/organization/lucent> a foaf:Organization ;
     rdfs:label "Lucent" ;
@@ -836,19 +836,17 @@
 
 <http://data.semanticweb.org/organization/sapienza-university-of-rome> a foaf:Organization ;
     rdfs:label "Sapienza University of Rome" ;
-    owl:sameAs <http://dbpedia.org/resource/Sapienza_University_of_Rome> ;
     foaf:member <http://data.semanticweb.org/person/tiziana-catarci> ;
     foaf:name "Sapienza University of Rome" .
 
 <http://data.semanticweb.org/organization/technical-university-of-madrid> a foaf:Organization ;
     rdfs:label "Technical University of Madrid" ;
-    owl:sameAs <http://dbpedia.org/resource/Technical_University_of_Madrid> ;
+    owl:sameAs <http://dbpedia.org/resource/Universidad_Politécnica_de_Madrid> ;
     foaf:member <http://data.semanticweb.org/person/asuncion-gomez-perez> ;
     foaf:name "Technical University of Madrid" .
 
 <http://data.semanticweb.org/organization/the-open-university> a foaf:Organization ;
     rdfs:label "The Open University" ;
-    owl:sameAs <http://dbpedia.org/resource/Open_University> ;
     foaf:member <http://data.semanticweb.org/person/enrico-motta> ;
     foaf:name "The Open University" .
 
@@ -1683,7 +1681,7 @@
 <http://data.semanticweb.org/person/amedeo-napoli> a foaf:Person ;
     rdfs:label "Amedeo Napoli" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2002/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/loria-university-of-nancy> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/loria> ;
     foaf:name "Amedeo Napoli" .
 
 <http://data.semanticweb.org/person/amit-sheth> a foaf:Person ;
@@ -1720,7 +1718,7 @@
 <http://data.semanticweb.org/person/harold-boley> a foaf:Person ;
     rdfs:label "Harold Boley" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2002/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dkfi> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dfki> ;
     foaf:name "Harold Boley" .
 
 <http://data.semanticweb.org/person/isabel-cruz> a foaf:Person ;
@@ -4421,7 +4419,6 @@
 
 <http://data.semanticweb.org/organization/stanford-university> a foaf:Organization ;
     rdfs:label "Stanford University" ;
-    owl:sameAs <http://dbpedia.org/resource/Stanford_University> ;
     foaf:member <http://data.semanticweb.org/person/deborah-mcguinness>,
         <http://data.semanticweb.org/person/natasha-f-noy>,
         <http://data.semanticweb.org/person/richard-fikes>,

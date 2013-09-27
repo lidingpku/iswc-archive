@@ -18,7 +18,7 @@
 <http://data.semanticweb.org/conference/iswc/2004/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2013 (2013-08-06)" ;
-    dcterms:modified "2013-09-05T10:43:23.844378"^^xsd:datetime ;
+    dcterms:modified "2013-09-26T17:10:06.736135"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-01/author_list> a rdf:Seq ;
@@ -1453,7 +1453,6 @@
 
 <http://data.semanticweb.org/organization/university-of-kassel> a foaf:Organization ;
     rdfs:label "University of Kassel" ;
-    owl:sameAs <http://dbpedia.org/resource/University_of_Kassel> ;
     foaf:member <http://data.semanticweb.org/person/gerd-stumme> ;
     foaf:name "University of Kassel" .
 
@@ -1614,11 +1613,6 @@
     rdfs:label "Michael Zaremba" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2004/tutorial-3/tutorial-organizer> ;
     foaf:name "Michael Zaremba" .
-
-<http://data.semanticweb.org/person/michel-klein> a foaf:Person ;
-    rdfs:label "Michel Klein" ;
-    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2004/semantic-web-challenge-chair> ;
-    foaf:name "Michel Klein" .
 
 <http://data.semanticweb.org/person/monique-calisti> a foaf:Person ;
     rdfs:label "Monique Calisti" ;
@@ -2508,7 +2502,6 @@
 <http://data.semanticweb.org/organization/deri-galway> a foaf:Organization ;
     rdfs:label "DERI, Galway" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2004/sliver-sponsor> ;
-    owl:sameAs <http://dbpedia.org/resource/Digital_Enterprise_Research_Institute> ;
     foaf:homepage <http://www.deri.ie/> ;
     foaf:logo <http://iswc2004.semanticweb.org/logo/deri.jpg> ;
     foaf:member <http://data.semanticweb.org/person/stefan-decker> ;
@@ -2613,7 +2606,6 @@
 
 <http://data.semanticweb.org/organization/the-open-university> a foaf:Organization ;
     rdfs:label "The Open University" ;
-    owl:sameAs <http://dbpedia.org/resource/Open_University> ;
     foaf:member <http://data.semanticweb.org/person/enrico-motta>,
         <http://data.semanticweb.org/person/john-domingue> ;
     foaf:name "The Open University" .
@@ -2621,7 +2613,6 @@
 <http://data.semanticweb.org/organization/toshiba> a foaf:Organization ;
     rdfs:label "Toshiba" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2004/gold-sponsor> ;
-    owl:sameAs <http://dbpedia.org/resource/Toshiba> ;
     foaf:homepage <http://www.toshiba.co.jp/index.htm> ;
     foaf:logo <http://iswc2004.semanticweb.org/logo/toshiba.gif> ;
     foaf:member <http://data.semanticweb.org/person/kazuo-sumita> ;
@@ -3025,7 +3016,7 @@
 <http://data.semanticweb.org/person/matthias-klusch> a foaf:Person ;
     rdfs:label "Matthias Klusch" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2004/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dkfi> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dfki> ;
     foaf:name "Matthias Klusch" .
 
 <http://data.semanticweb.org/person/michael-gruninger> a foaf:Person ;
@@ -3045,6 +3036,12 @@
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2004/pc-member> ;
     swrc:affiliation <http://data.semanticweb.org/organization/university-of-liverpool> ;
     foaf:name "Michael Wooldridge" .
+
+<http://data.semanticweb.org/person/michel-klein> a foaf:Person ;
+    rdfs:label "Michel Klein" ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2004/semantic-web-challenge-chair> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/vrije-universiteit-amsterdam> ;
+    foaf:name "Michel Klein" .
 
 <http://data.semanticweb.org/person/mihhail-matskin> a foaf:Person ;
     rdfs:label "Mihhail Matskin" ;
@@ -3975,17 +3972,16 @@
         <http://data.semanticweb.org/person/michel-scholl> ;
     foaf:name "CNAM" .
 
-<http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dkfi> a foaf:Organization ;
-    rdfs:label "German Research Centre for Artificial Intelligence (DKFI)" ;
+<http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dfki> a foaf:Organization ;
+    rdfs:label "German Research Centre for Artificial Intelligence (DFKI)" ;
     owl:sameAs <http://dbpedia.org/resource/German_Research_Centre_for_Artificial_Intelligence> ;
     foaf:member <http://data.semanticweb.org/person/matthias-klusch>,
         <http://data.semanticweb.org/person/michael-sintek>,
         <http://data.semanticweb.org/person/thierry-declerck> ;
-    foaf:name "German Research Centre for Artificial Intelligence (DKFI)" .
+    foaf:name "German Research Centre for Artificial Intelligence (DFKI)" .
 
 <http://data.semanticweb.org/organization/isiusc> a foaf:Organization ;
     rdfs:label "ISI/USC" ;
-    owl:sameAs <http://dbpedia.org/resource/Information_Sciences_Institute> ;
     foaf:member <http://data.semanticweb.org/person/jose-luis-ambite>,
         <http://data.semanticweb.org/person/robert-macgregor>,
         <http://data.semanticweb.org/person/yolanda-gil> ;
@@ -4046,14 +4042,6 @@
         <http://data.semanticweb.org/person/lucas-mcdowell>,
         <http://data.semanticweb.org/person/oren-etzioni> ;
     foaf:name "University of Washington" .
-
-<http://data.semanticweb.org/organization/vrije-universiteit-amsterdam> a foaf:Organization ;
-    rdfs:label "Vrije Universiteit Amsterdam" ;
-    owl:sameAs <http://dbpedia.org/resource/Vrije_Universiteit> ;
-    foaf:member <http://data.semanticweb.org/person/frank-van-harmelen>,
-        <http://data.semanticweb.org/person/guus-schreiber>,
-        <http://data.semanticweb.org/person/heiner-stuckenschmidt> ;
-    foaf:name "Vrije Universiteit Amsterdam" .
 
 <http://data.semanticweb.org/person/a-a-piccini> a foaf:Person ;
     rdfs:label "A A Piccini" ;
@@ -6389,6 +6377,15 @@
         <http://data.semanticweb.org/person/yannis-labrou> ;
     foaf:name "Fujitsu" .
 
+<http://data.semanticweb.org/organization/vrije-universiteit-amsterdam> a foaf:Organization ;
+    rdfs:label "Vrije Universiteit Amsterdam" ;
+    owl:sameAs <http://dbpedia.org/resource/Vrije_Universiteit> ;
+    foaf:member <http://data.semanticweb.org/person/frank-van-harmelen>,
+        <http://data.semanticweb.org/person/guus-schreiber>,
+        <http://data.semanticweb.org/person/heiner-stuckenschmidt>,
+        <http://data.semanticweb.org/person/michel-klein> ;
+    foaf:name "Vrije Universiteit Amsterdam" .
+
 <http://data.semanticweb.org/person/darina-dicheva> a foaf:Person ;
     rdfs:label "Darina Dicheva" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2004/event-11/workshop-chair> ;
@@ -6999,7 +6996,6 @@
 
 <http://data.semanticweb.org/organization/stanford-university> a foaf:Organization ;
     rdfs:label "Stanford University" ;
-    owl:sameAs <http://dbpedia.org/resource/Stanford_University> ;
     foaf:member <http://data.semanticweb.org/person/deborah-mcguinness>,
         <http://data.semanticweb.org/person/mark-musen>,
         <http://data.semanticweb.org/person/natasha-noy>,
@@ -7076,7 +7072,7 @@
 <http://data.semanticweb.org/person/michael-sintek> a foaf:Person ;
     rdfs:label "Michael Sintek" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2004/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dkfi> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dfki> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-11> ;
     foaf:name "Michael Sintek" .
 
@@ -7920,7 +7916,7 @@
     rdfs:label "Thierry Declerck" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2004/event-16/workshop-chair>,
         <http://data.semanticweb.org/conference/iswc/2004/pc-member> ;
-    swrc:affiliation <http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dkfi> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence-dfki> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-16> ;
     foaf:name "Thierry Declerck" .
 

@@ -13,9 +13,55 @@
 	version='XHTML+RDFa 1.0' typeof='foaf:Document'>
 <head>
     <title></title>
-</head>
-<body>
+<script type="text/javascript" >
+/*
+ * Dynamic Table of Contents script
+ * by Matt Whitlock <http://www.whitsoftdev.com/>
+ */
 
+function createLink(href, innerHTML) {
+	var a = document.createElement("a");
+	a.setAttribute("href", href);
+	a.innerHTML = innerHTML;
+	return a;
+}
+
+function generateTOC(toc) {
+	var i2 = 0, i3 = 0, i4 = 0;
+	toc = toc.appendChild(document.createElement("ul"));
+	for (var i = 0; i < document.body.childNodes.length; ++i) {
+		var node = document.body.childNodes[i];
+		var tagName = node.nodeName.toLowerCase();
+		if (tagName == "h4") {
+			++i4;
+			if (i4 == 1) toc.lastChild.lastChild.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3 + "." + i4;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h3") {
+			++i3, i4 = 0;
+			if (i3 == 1) toc.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h2") {
+			++i2, i3 = 0, i4 = 0;
+			var section = i2;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.appendChild(h2item = document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+	}
+}
+</script>
+
+</head>
+<body onload="generateTOC(document.getElementById('toc'));">
+<div id="toc"></div>
 
 <h2> The First Semantic Web Working Symposium (organization Committee)</h2>
 
@@ -261,7 +307,7 @@ PC Member
 <span resource="http://data.semanticweb.org/person/amedeo-napoli">
 <span class="name" property="foaf:name" style="font-weight:bold">Amedeo Napoli</span>
 ,
-<span class="organization" >LORIA, University of Nancy</span>
+<span class="organization" >LORIA</span>
 </span>	
 </li>
 <li>
@@ -1162,13 +1208,6 @@ Participant
 </span>	
 </li>
 <li>
-<span resource="http://data.semanticweb.org/person/jean-luc-metzger">
-<span class="name" property="foaf:name" style="font-weight:bold">Jean-Luc Metzger</span>
-,
-<span class="organization" >LORIA, University of Nancy</span>
-</span>	
-</li>
-<li>
 <span resource="http://data.semanticweb.org/person/jeen-broekstra">
 <span class="name" property="foaf:name" style="font-weight:bold">Jeen Broekstra</span>
 ,
@@ -1508,7 +1547,7 @@ Participant
 <span resource="http://data.semanticweb.org/person/rim-al-hulou">
 <span class="name" property="foaf:name" style="font-weight:bold">Rim Al Hulou</span>
 ,
-<span class="organization" >LORIA, University of Nancy</span>
+<span class="organization" >LORIA</span>
 </span>	
 </li>
 <li>
@@ -1789,6 +1828,13 @@ Participant
 <span class="name" property="foaf:name" style="font-weight:bold">James Pustejovsky</span>
 ,
 <span class="organization" >Lingomotors</span>
+</span>	
+</li>
+<li>
+<span resource="http://data.semanticweb.org/person/jean-luc-metzger">
+<span class="name" property="foaf:name" style="font-weight:bold">Jean-Luc Metzger</span>
+,
+<span class="organization" >University Nancy</span>
 </span>	
 </li>
 <li>
