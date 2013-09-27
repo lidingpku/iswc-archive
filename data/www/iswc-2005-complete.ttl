@@ -18,7 +18,7 @@
 <http://data.semanticweb.org/conference/iswc/2005/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2013 (2013-08-06)" ;
-    dcterms:modified "2013-09-26T17:10:08.757306"^^xsd:datetime ;
+    dcterms:modified "2013-09-26T22:01:44.757639"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2005/doctoral-symposium-proceedings/paper-01/author_list> a rdf:Seq ;

@@ -1046,13 +1046,13 @@
     swrc:abstract "Automation of service composition is one of the most interesting challenges facing the Semantic Web and the Web of services today. Despite approaches which are able to infer a partial order of services, its data ﬂow remains implicit and difﬁcult to be automatically generated. Enhanced with formal representations, the semantic links between output and input parameters of services can be then exploited to infer their data ﬂow. This work addresses the problem of effectively inferring data ﬂow between services based on their representations. To this end, we introduce the non standard Description Logic reasoning join, aiming to provide a “constructive evidence” of why services can be connected and how non trivial links (many to many parameters) can be inferred in data ﬂow. The preliminary evaluation provides evidence in favor of our approach regarding the completeness of data ﬂow." ;
     swrc:author <http://data.semanticweb.org/person/freddy-lecue> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180289.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180289-towards-constructive-evidence-of-data-flow-oriented-web-service-composition.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Freddy Lecue" ;
     swrc:listKeyword "Semantic Web, Web Service, Service Composition, Data Flow, Auto- mated Reasoning, Non Standard Reasoning." ;
     swrc:pages "289-304" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180289.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180289-towards-constructive-evidence-of-data-flow-oriented-web-service-composition.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/freddy-lecue> .
 
@@ -1065,13 +1065,13 @@
     swrc:abstract "The discovery of links between resources within knowledge bases is of crucial importance to realize the vision of the Semantic Web. Addressing this task is especially challenging when dealing with geo-spatial datasets due to their sheer size and the potential complexity of single geo-spatial objects. Yet, so far, little attention has been paid to the characteristics of geo-spatial data within the context of link discovery. In this paper, we address this gap by presenting Orchid, a reduction-ratio-optimal link discovery approach designed especially for geo-spatial data. Orchid relies on a combination of the Hausdorﬀ and orthodromic metrics to compute the distance between geo-spatial objects. We ﬁrst present two novel approaches for the eﬃcient computation of Hausdorﬀ distances. Then, we present the space tiling approach implemented by Orchid and prove that it is optimal with respect to the reduction ratio that it can achieve. The evaluation of our approaches is carried out on three real datasets of diﬀerent size and complexity. Our results suggest that our approaches to the computation of Hausdorﬀ distances require two orders of magnitude less orthodromic distances computations to compare geographical data. Moreover, they require two orders of magnitude less time than a naive approach to achieve this goal. Finally, our results indicate that Orchid scales to large datasets while outperforming the state of the art signiﬁcantly." ;
     swrc:author <http://data.semanticweb.org/person/axel-cyrille-ngonga-ngomo> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180385.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180385-orchid-reduction-ratio-optimal-computation-of-geo-spatial-distances-for-link-discovery.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Axel-Cyrille Ngonga Ngomo" ;
     swrc:listKeyword "Link discovery, Record Linkage, Deduplication, Geo-Spatial Data, Haus- dorﬀ Distances" ;
     swrc:pages "385-400" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180385.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180385-orchid-reduction-ratio-optimal-computation-of-geo-spatial-distances-for-link-discovery.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/axel-cyrille-ngonga-ngomo> .
 
@@ -1084,12 +1084,12 @@
     swrc:abstract "Due to the abundance of content on the Web, content authors and publishers have a pressing need for systems that select content that is valuable for them, is trustworthy and is related to their own work. Additionally, the value of their own work needs to be assessed before it is published, to guarantee high value for the consumer. In this doctoral research, we investigate how to use Semantic Web technologies to automatically assess the value of content that is – or is about to be – digitally published. To achieve this, we propose methods to assess the relevance of content to existing publications, retrieve or reconstruct its provenance, and derive a trust assessment from this provenance. We discuss our evaluation methods, and present some preliminary results." ;
     swrc:author <http://data.semanticweb.org/person/tom-de-nies> ;
     swrc:category "Doctoral Consortium Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190417.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190417-assessing-content-value-for-digital-publishing-through-relevance-and-provenance-based-trust.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Tom De Nies" ;
     swrc:pages "417-424" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190417.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190417-assessing-content-value-for-digital-publishing-through-relevance-and-provenance-based-trust.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/tom-de-nies> .
 
@@ -1102,12 +1102,12 @@
     swrc:abstract "Many online platforms employ networks of human workers to perform computational tasks that can be diﬃcult for a machine (e.g. reporting travel disruption). Such systems have to make a range of decisions, for example, selection of suitable workers for a task. In this paper we present an approach that utilises Semantic Web technologies and provenance to support such decision-making processes." ;
     swrc:author <http://data.semanticweb.org/person/milan-markovic> ;
     swrc:category "Doctoral Consortium Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190433.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190433-utilising-provenance-to-enhance-social-computation.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Milan Markovic" ;
     swrc:pages "433-440" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190433.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190433-utilising-provenance-to-enhance-social-computation.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/milan-markovic> .
 
@@ -1120,12 +1120,12 @@
     swrc:abstract "As the scale and complexity of ontologies increases, so too do errors and engineering challenges. It is frequently unclear, however, to what degree extralogical ontology errors negatively affect the application that the ontology underpins. For example, “Shoe SubClassOf Foot” may be correct logically, but not in a human interpretation. Indeed, such errors, not caught by reasoning, are likely to be domain-speciﬁc, and thus identifying salient ontology errors requires consideration of the domain. There are both automated and manual methods that provide ontology quality assurance. Nevertheless, these methods do not readily scale as ontology size increases, and do not necessarily identify the most salient extralogical errors. Recently, crowdsourcing has enabled solutions to complex problems that computers alone cannot solve. For instance, human workers can quickly and more accurately identify objects in images at scale. Crowdsourcing presents an opportunity to develop methods for ontology quality assurance that overcome the current limitations of scalability and applicability. In this work, I aim (1) to determine the effect of extralogical ontology errors in an example domain, (2) to develop a scalable framework for crowdsourcing ontology veriﬁcation that overcomes current ontology Q/A method limitations, and (3) to apply this framework to ontologies in use. I will then evaluate the method itself and also its effect in the context of a speciﬁc domain. As an example domain, I will use biomedicine, which applies many large-scale ontologies. Thus, this work will enable scalable quality assurance for extralogical errors in biomedical ontologies." ;
     swrc:author <http://data.semanticweb.org/person/jonathan-mortensen> ;
     swrc:category "Doctoral Consortium Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190441.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190441-crowdsourcing-ontology-verification.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Jonathan Mortensen" ;
     swrc:pages "441-448" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190441.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190441-crowdsourcing-ontology-verification.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/jonathan-mortensen> .
 
@@ -1138,12 +1138,12 @@
     swrc:abstract "Ontology Based Data Access (OBDA) enables access to relational data with a complex structure through ontologies as conceptual domain models. To this end, mappings are required. A key aim of OBDA is to facilitate access to data with a complex structure. Ironically, though, in today’s existing OBDA systems mappings typically need to be compiled by hand, which is a complex and labor intensive task. Additionally, existing semi-automatic mapping approaches suﬀer from high human eﬀort for cleaning up results. Fully automatic approaches, on the other side, suﬀer from a lack of precision and/or recall. In setups where the correctness of query results is crucial but the initial human eﬀort must still be kept be small as possible, neither approach is acceptable. This situation calls for a guided, pay as you go feedback process for human mapping validation. We envision a comprehensive suite of methods and techniques that work well with one another in a seamless mapping process and support mapping construction in the context of OBDA. This suite will in part consist of a recombination and adaptation of various existing methods, but will also comprise newly devised algorithms and techniques." ;
     swrc:author <http://data.semanticweb.org/person/christoph-pinkel> ;
     swrc:category "Doctoral Consortium Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190449.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190449-interactive-pay-as-you-go-relational-to-ontology-mapping.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Christoph Pinkel" ;
     swrc:pages "449-456" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190449.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190449-interactive-pay-as-you-go-relational-to-ontology-mapping.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/christoph-pinkel> .
 
@@ -1365,12 +1365,12 @@
     swrc:author <http://data.semanticweb.org/person/luigi-sauro>,
         <http://data.semanticweb.org/person/piero-bonatti> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180017.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180017-a-confidentiality-model-for-ontologies.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Piero Bonatti and Luigi Sauro" ;
     swrc:pages "17-32" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180017.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180017-a-confidentiality-model-for-ontologies.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/luigi-sauro>,
         <http://data.semanticweb.org/person/piero-bonatti> .
@@ -1385,12 +1385,12 @@
     swrc:author <http://data.semanticweb.org/person/jens-lehmann>,
         <http://data.semanticweb.org/person/lorenz-buehmann> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180033.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180033-pattern-based-knowledge-base-enrichment.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Lorenz Bühmann and Jens Lehmann" ;
     swrc:pages "33-48" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180033.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180033-pattern-based-knowledge-base-enrichment.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/jens-lehmann>,
         <http://data.semanticweb.org/person/lorenz-buehmann> .
@@ -1405,12 +1405,12 @@
     swrc:author <http://data.semanticweb.org/person/pavel-klinov>,
         <http://data.semanticweb.org/person/yevgeny-kazakov> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180225.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180225-incremental-reasoning-in-owl-el-without-bookkeeping.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Yevgeny Kazakov and Pavel Klinov" ;
     swrc:pages "225-240" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180225.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180225-incremental-reasoning-in-owl-el-without-bookkeeping.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/pavel-klinov>,
         <http://data.semanticweb.org/person/yevgeny-kazakov> .
@@ -1425,12 +1425,12 @@
     swrc:author <http://data.semanticweb.org/person/nadeschda-nikitina>,
         <http://data.semanticweb.org/person/sven-schewe> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180401.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180401-simplifying-description-logic-ontologies.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Nadeschda Nikitina and Sven Schewe" ;
     swrc:pages "401-416" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180401.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180401-simplifying-description-logic-ontologies.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/nadeschda-nikitina>,
         <http://data.semanticweb.org/person/sven-schewe> .
@@ -1445,13 +1445,13 @@
     swrc:author <http://data.semanticweb.org/person/christian-bizer>,
         <http://data.semanticweb.org/person/heiko-paulheim> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180497.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180497-type-inference-on-noisy-rdf-data.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Heiko Paulheim and Christian Bizer" ;
     swrc:listKeyword "Type Inference, Noisy Data, Link-based Classiﬁcation" ;
     swrc:pages "497-512" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180497.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180497-type-inference-on-noisy-rdf-data.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/christian-bizer>,
         <http://data.semanticweb.org/person/heiko-paulheim> .
@@ -1466,12 +1466,12 @@
     swrc:author <http://data.semanticweb.org/person/michelle-cheatham>,
         <http://data.semanticweb.org/person/pascal-hitzler> ;
     swrc:category "Evaluation Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190289.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190289-string-similarity-metrics-for-ontology-alignment.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Michelle Cheatham and Pascal Hitzler" ;
     swrc:pages "289-304" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190289.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190289-string-similarity-metrics-for-ontology-alignment.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/michelle-cheatham>,
         <http://data.semanticweb.org/person/pascal-hitzler> .
@@ -1486,12 +1486,12 @@
     swrc:author <http://data.semanticweb.org/person/john-s-tyssedal>,
         <http://data.semanticweb.org/person/kjetil-kjernsmo> ;
     swrc:category "Evaluation Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190353.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190353-introducing-statistical-design-of-experiments-to-sparql-endpoint-evaluation.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Kjetil Kjernsmo and John S. Tyssedal" ;
     swrc:pages "353-368" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190353.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190353-introducing-statistical-design-of-experiments-to-sparql-endpoint-evaluation.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/john-s-tyssedal>,
         <http://data.semanticweb.org/person/kjetil-kjernsmo> .
@@ -1506,13 +1506,13 @@
     swrc:author <http://data.semanticweb.org/person/jose-mora>,
         <http://data.semanticweb.org/person/oscar-corcho> ;
     swrc:category "Evaluation Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190369.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190369-towards-a-systematic-benchmarking-of-ontology-based-query-rewriting-systems.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Jose Mora and Oscar Corcho" ;
     swrc:listKeyword "Benchmark, OBDA, Query Rewriting, Inference" ;
     swrc:pages "369-384" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190369.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190369-towards-a-systematic-benchmarking-of-ontology-based-query-rewriting-systems.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/jose-mora>,
         <http://data.semanticweb.org/person/oscar-corcho> .
@@ -1527,12 +1527,12 @@
     swrc:author <http://data.semanticweb.org/person/mark-gahegan>,
         <http://data.semanticweb.org/person/richard-hosking> ;
     swrc:category "Doctoral Consortium Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190425.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190425-the-effects-of-licensing-on-open-data-computing-a-measure-of-health-for-our-scholarly-record.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Richard Hosking and Mark Gahegan" ;
     swrc:pages "425-432" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190425.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190425-the-effects-of-licensing-on-open-data-computing-a-measure-of-health-for-our-scholarly-record.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/mark-gahegan>,
         <http://data.semanticweb.org/person/richard-hosking> .
@@ -3754,12 +3754,12 @@
         <http://data.semanticweb.org/person/veli-bicer>,
         <http://data.semanticweb.org/person/yongtao-ma> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180001.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180001-trm-learning-dependencies-between-text-and-structure-with-topical-relational-models.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Veli Bicer,Thanh Tran and Yongtao Ma" ;
     swrc:pages "1-16" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180001.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180001-trm-learning-dependencies-between-text-and-structure-with-topical-relational-models.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/thanh-tran>,
         <http://data.semanticweb.org/person/veli-bicer>,
@@ -3776,12 +3776,12 @@
         <http://data.semanticweb.org/person/margaret-anne-storey>,
         <http://data.semanticweb.org/person/natalya-f-noy> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180113.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180113-indented-tree-or-graph-a-usability-study-of-ontology-visualization-techniques-in-the-context-of-class-mapping-evaluation.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Bo Fu,Natalya F. Noy and Margaret-Anne Storey" ;
     swrc:pages "113-128" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180113.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180113-indented-tree-or-graph-a-usability-study-of-ontology-visualization-techniques-in-the-context-of-class-mapping-evaluation.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/bo-fu>,
         <http://data.semanticweb.org/person/margaret-anne-storey>,
@@ -3798,12 +3798,12 @@
         <http://data.semanticweb.org/person/silviu-homoceanu>,
         <http://data.semanticweb.org/person/wolf-tilo-balke> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180177.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180177-proswip-property-based-data-access-for-semantic-web-interactive-programming.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Silviu Homoceanu,Philipp Wille and Wolf-Tilo Balke" ;
     swrc:pages "177-192" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180177.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180177-proswip-property-based-data-access-for-semantic-web-interactive-programming.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/philipp-wille>,
         <http://data.semanticweb.org/person/silviu-homoceanu>,
@@ -3820,12 +3820,12 @@
         <http://data.semanticweb.org/person/matthias-knorr>,
         <http://data.semanticweb.org/person/vadim-ivanov> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180209.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180209-a-query-tool-for-el-with-non-monotonic-rules.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Vadim Ivanov,Matthias Knorr and Joao Leite" ;
     swrc:pages "209-224" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180209.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180209-a-query-tool-for-el-with-non-monotonic-rules.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/joao-leite>,
         <http://data.semanticweb.org/person/matthias-knorr>,
@@ -3842,12 +3842,12 @@
         <http://data.semanticweb.org/person/myriam-lamolle>,
         <http://data.semanticweb.org/person/olivier-cure> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180257.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180257-a-decision-procedure-for-shoiq-with-transitive-closure-of-roles.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Chan Le Duc,Myriam Lamolle and Olivier Curé" ;
     swrc:pages "257-272" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180257.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180257-a-decision-procedure-for-shoiq-with-transitive-closure-of-roles.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/chan-le-duc>,
         <http://data.semanticweb.org/person/myriam-lamolle>,
@@ -3864,13 +3864,13 @@
         <http://data.semanticweb.org/person/nicolas-matentzoglu>,
         <http://data.semanticweb.org/person/samantha-bail> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180321.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180321-a-snapshot-of-the-owl-web.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Nicolas Matentzoglu,Samantha Bail and Bijan Parsia" ;
     swrc:listKeyword "Ontology Engineering, empirical methods, corpus, OWL" ;
     swrc:pages "321-336" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180321.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180321-a-snapshot-of-the-owl-web.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/bijan-parsia>,
         <http://data.semanticweb.org/person/nicolas-matentzoglu>,
@@ -3887,13 +3887,13 @@
         <http://data.semanticweb.org/person/tim-finin>,
         <http://data.semanticweb.org/person/varish-mulwad> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180353.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180353-semantic-message-passing-for-generating-linked-data-from-tables.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Varish Mulwad,Tim Finin and Anupam Joshi" ;
     swrc:listKeyword "Tables, Semantic Web, Linked Data, Graphical Models" ;
     swrc:pages "353-368" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180353.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180353-semantic-message-passing-for-generating-linked-data-from-tables.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/anupam-joshi>,
         <http://data.semanticweb.org/person/tim-finin>,
@@ -3910,12 +3910,12 @@
         <http://data.semanticweb.org/person/andriy-nikolov>,
         <http://data.semanticweb.org/person/christian-huetter> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180417.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180417-fedsearch-efficiently-combining-structured-queries-and-full-text-search-in-a-sparql-federation.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Andriy Nikolov,Andreas Schwarte and Christian Hütter" ;
     swrc:pages "417-432" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180417.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180417-fedsearch-efficiently-combining-structured-queries-and-full-text-search-in-a-sparql-federation.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/andreas-schwarte>,
         <http://data.semanticweb.org/person/andriy-nikolov>,
@@ -3932,13 +3932,13 @@
         <http://data.semanticweb.org/person/francesco-osborne>,
         <http://data.semanticweb.org/person/paul-mulholland> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180449.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180449-exploring-scholarly-data-with-rexplore.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Francesco Osborne,Enrico Motta and Paul Mulholland" ;
     swrc:listKeyword "Scholarly Data, Visual Analytics, Data Exploration, Empirical Evaluation, Ontology Population, Data Mining, Data Integration." ;
     swrc:pages "449-464" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180449.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180449-exploring-scholarly-data-with-rexplore.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/enrico-motta>,
         <http://data.semanticweb.org/person/francesco-osborne>,
@@ -3955,12 +3955,12 @@
         <http://data.semanticweb.org/person/alessio-palmero-aprosio>,
         <http://data.semanticweb.org/person/claudio-giuliano> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180481.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180481-towards-an-automatic-creation-of-localized-versions-of-dbpedia.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Alessio Palmero Aprosio,Claudio Giuliano and Alberto Lavelli" ;
     swrc:pages "481-496" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180481.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180481-towards-an-automatic-creation-of-localized-versions-of-dbpedia.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/alberto-lavelli>,
         <http://data.semanticweb.org/person/alessio-palmero-aprosio>,
@@ -3977,12 +3977,12 @@
         <http://data.semanticweb.org/person/michael-zakharyaschev>,
         <http://data.semanticweb.org/person/roman-kontchakov> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180545.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180545-ontology-based-data-access-ontop-of-databases.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Mariano Rodriguez-Muro,Roman Kontchakov and Michael Zakharyaschev" ;
     swrc:pages "545-560" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180545.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180545-ontology-based-data-access-ontop-of-databases.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/mariano-rodriguez-muro>,
         <http://data.semanticweb.org/person/michael-zakharyaschev>,
@@ -3999,13 +3999,13 @@
         <http://data.semanticweb.org/person/daniel-miranker>,
         <http://data.semanticweb.org/person/juan-f-sequeda> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180609.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180609-qodi-query-as-context-in-automatic-data-integration.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Aibo Tian,Juan F. Sequeda and Daniel Miranker" ;
     swrc:listKeyword "QODI, Ontology-based data integration, Query-speciﬁc ontology map- ping" ;
     swrc:pages "609-624" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180609.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180609-qodi-query-as-context-in-automatic-data-integration.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/aibo-tian>,
         <http://data.semanticweb.org/person/daniel-miranker>,
@@ -4022,12 +4022,12 @@
         <http://data.semanticweb.org/person/giovanni-semeraro>,
         <http://data.semanticweb.org/person/matteo-palmonari> ;
     swrc:category "Semantic Web In Use Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190129.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190129-cross-language-semantic-retrieval-and-linking-of-e-gov-services.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Fedelucio Narducci,Matteo Palmonari and Giovanni Semeraro" ;
     swrc:pages "129-144" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190129.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190129-cross-language-semantic-retrieval-and-linking-of-e-gov-services.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/fedelucio-narducci>,
         <http://data.semanticweb.org/person/giovanni-semeraro>,
@@ -4044,12 +4044,12 @@
         <http://data.semanticweb.org/person/ian-horrocks>,
         <http://data.semanticweb.org/person/martin-g-skjveland> ;
     swrc:category "Semantic Web In Use Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190161.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190161-publishing-the-norwegian-petroleum-directorate-s-factpages-as-semantic-web-data.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Martin G. Skjæveland,Espen H. Lian and Ian Horrocks" ;
     swrc:pages "161-176" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190161.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190161-publishing-the-norwegian-petroleum-directorate-s-factpages-as-semantic-web-data.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/espen-h-lian>,
         <http://data.semanticweb.org/person/ian-horrocks>,
@@ -4066,12 +4066,12 @@
         <http://data.semanticweb.org/person/jane-hunter>,
         <http://data.semanticweb.org/person/tudor-groza> ;
     swrc:category "Semantic Web In Use Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190225.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190225-reasoning-on-crowd-sourced-semantic-annotations-to-facilitate-cataloguing-of-3d-artefacts-in-the-cultural-heritage-domain.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Chih-Hao Yu,Tudor Groza and Jane Hunter" ;
     swrc:pages "225-240" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190225.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190225-reasoning-on-crowd-sourced-semantic-annotations-to-facilitate-cataloguing-of-3d-artefacts-in-the-cultural-heritage-domain.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/chih-hao-yu>,
         <http://data.semanticweb.org/person/jane-hunter>,
@@ -4088,13 +4088,13 @@
         <http://data.semanticweb.org/person/kostis-kyzirakos>,
         <http://data.semanticweb.org/person/manolis-koubarakis> ;
     swrc:category "Evaluation Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190337.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190337-geographica-a-benchmark-for-geospatial-rdf-stores.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "George Garbis,Kostis Kyzirakos and Manolis Koubarakis" ;
     swrc:listKeyword "benchmarking, geospatial, RDF store, Linked Open Data, GeoSPARQL, stSPARQL" ;
     swrc:pages "337-352" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190337.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190337-geographica-a-benchmark-for-geospatial-rdf-stores.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/george-garbis>,
         <http://data.semanticweb.org/person/kostis-kyzirakos>,
@@ -4111,13 +4111,13 @@
         <http://data.semanticweb.org/person/heiko-paulheim>,
         <http://data.semanticweb.org/person/kai-eckert> ;
     swrc:category "Evaluation Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190385.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190385-evaluation-measures-for-ontology-matchers-in-supervised-matching-scenarios.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Dominique Ritze,Heiko Paulheim and Kai Eckert" ;
     swrc:listKeyword "Supervised Ontology Matching, Evaluation, Recall, Precision, F-Measure, Precision@N-Curves, ROC-Curves, Precision-Recall-Curves" ;
     swrc:pages "385-400" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190385.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190385-evaluation-measures-for-ontology-matchers-in-supervised-matching-scenarios.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/dominique-ritze>,
         <http://data.semanticweb.org/person/heiko-paulheim>,
@@ -4553,12 +4553,12 @@
         <http://data.semanticweb.org/person/egor-v-kostylev>,
         <http://data.semanticweb.org/person/evgeny-kharlamov> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180049.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180049-controlled-query-evaluation-over-owl-2-rl-ontologies.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Bernardo Cuenca Grau,Evgeny Kharlamov,Egor V. Kostylev and Dmitriy Zheleznyakov" ;
     swrc:pages "49-64" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180049.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180049-controlled-query-evaluation-over-owl-2-rl-ontologies.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/bernardo-cuenca-grau>,
         <http://data.semanticweb.org/person/dmitriy-zheleznyakov>,
@@ -4577,12 +4577,12 @@
         <http://data.semanticweb.org/person/simon-razniewski>,
         <http://data.semanticweb.org/person/werner-nutt> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180065.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180065-completeness-statements-about-rdf-data-sources-and-their-use-for-query-answering.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Fariz Darari,Werner Nutt,Giuseppe Pirrò and Simon Razniewski" ;
     swrc:pages "65-80" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180065.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180065-completeness-statements-about-rdf-data-sources-and-their-use-for-query-answering.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/fariz-darari>,
         <http://data.semanticweb.org/person/giuseppe-pirro>,
@@ -4601,12 +4601,12 @@
         <http://data.semanticweb.org/person/guido-governatori>,
         <http://data.semanticweb.org/person/serena-villata> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180145.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180145-one-license-to-compose-them-all-a-deontic-logic-approach-to-data-licensing-on-the-web-of-data.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Guido Governatori,Antonino Rotolo,Serena Villata and Fabien Gandon" ;
     swrc:pages "145-160" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180145.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180145-one-license-to-compose-them-all-a-deontic-logic-approach-to-data-licensing-on-the-web-of-data.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/antonino-rotolo>,
         <http://data.semanticweb.org/person/fabien-gandon>,
@@ -4625,12 +4625,12 @@
         <http://data.semanticweb.org/person/roi-blanco>,
         <http://data.semanticweb.org/person/thanh-tran> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180161.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180161-federated-entity-search-using-on-the-fly-consolidation.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Daniel M. Herzig,Roi Blanco,Peter Mika and Thanh Tran" ;
     swrc:pages "161-176" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180161.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180161-federated-entity-search-using-on-the-fly-consolidation.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/daniel-m-herzig>,
         <http://data.semanticweb.org/person/peter-mika>,
@@ -4649,12 +4649,12 @@
         <http://data.semanticweb.org/person/sabrina-kirrane>,
         <http://data.semanticweb.org/person/stefan-decker> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180241.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180241-secure-manipulation-of-linked-data.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Sabrina Kirrane,Ahmed Abdelrahman,Alessandra Mileo and Stefan Decker" ;
     swrc:pages "241-256" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180241.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180241-secure-manipulation-of-linked-data.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/ahmed-abdelrahman>,
         <http://data.semanticweb.org/person/alessandra-mileo>,
@@ -4673,13 +4673,13 @@
         <http://data.semanticweb.org/person/hoan-nguyen-mau-quoc>,
         <http://data.semanticweb.org/person/manfred-hauswirth> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180273.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180273-elastic-and-scalable-processing-of-linked-stream-data-in-the-cloud.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Danh Le Phuoc,Hoan Nguyen Mau Quoc,Chan Le Van and Manfred Hauswirth" ;
     swrc:listKeyword "Cloud, Linked Data, linked stream processing, continuous queries" ;
     swrc:pages "273-288" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180273.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180273-elastic-and-scalable-processing-of-linked-stream-data-in-the-cloud.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/chan-le-van>,
         <http://data.semanticweb.org/person/danh-le-phuoc>,
@@ -4698,12 +4698,12 @@
         <http://data.semanticweb.org/person/frank-wolter>,
         <http://data.semanticweb.org/person/inanc-seylan> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180305.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180305-the-combined-approach-to-obda-taming-role-hierarchies-using-filters.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Carsten Lutz,Inanc Seylan,David Toman and Frank Wolter" ;
     swrc:pages "305-320" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180305.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180305-the-combined-approach-to-obda-taming-role-hierarchies-using-filters.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/carsten-lutz>,
         <http://data.semanticweb.org/person/david-toman>,
@@ -4722,12 +4722,12 @@
         <http://data.semanticweb.org/person/lise-getoor>,
         <http://data.semanticweb.org/person/william-cohen> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180529.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180529-knowledge-graph-identification.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Jay Pujara,Hui Miao,Lise Getoor and William Cohen" ;
     swrc:pages "529-544" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180529.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180529-knowledge-graph-identification.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/hui-miao>,
         <http://data.semanticweb.org/person/jay-pujara>,
@@ -4746,13 +4746,13 @@
         <http://data.semanticweb.org/person/mohsen-taheriyan>,
         <http://data.semanticweb.org/person/pedro-szekely> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180593.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180593-a-graph-based-approach-to-learn-semantic-descriptions-of-data-sources.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Mohsen Taheriyan,Craig Knoblock,Pedro Szekely and José Luis Ambite" ;
     swrc:listKeyword "semantic description, source modeling, source description, semantic model, Semantic Web" ;
     swrc:pages "593-608" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180593.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180593-a-graph-based-approach-to-learn-semantic-descriptions-of-data-sources.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/craig-knoblock>,
         <http://data.semanticweb.org/person/jose-luis-ambite>,
@@ -4771,13 +4771,13 @@
         <http://data.semanticweb.org/person/sambhawa-priya>,
         <http://data.semanticweb.org/person/xingjian-zhang> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180671.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180671-infrastructure-for-efficient-exploration-of-large-scale-linked-data-via-contextual-tag-clouds.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Xingjian Zhang,Dezhao Song,Sambhawa Priya and Jeff Heflin" ;
     swrc:listKeyword "Ontology visualization, indented tree, graph, usability study" ;
     swrc:pages "671-686" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180671.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180671-infrastructure-for-efficient-exploration-of-large-scale-linked-data-via-contextual-tag-clouds.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/dezhao-song>,
         <http://data.semanticweb.org/person/jeff-heflin>,
@@ -4796,12 +4796,12 @@
         <http://data.semanticweb.org/person/yavor-nenov>,
         <http://data.semanticweb.org/person/yujiao-zhou> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180703.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180703-complete-query-answering-over-horn-ontologies-using-a-triple-store.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Yujiao Zhou,Yavor Nenov,Bernardo Cuenca Grau and Ian Horrocks" ;
     swrc:pages "703-718" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180703.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180703-complete-query-answering-over-horn-ontologies-using-a-triple-store.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/bernardo-cuenca-grau>,
         <http://data.semanticweb.org/person/ian-horrocks>,
@@ -4820,12 +4820,12 @@
         <http://data.semanticweb.org/person/peter-mika>,
         <http://data.semanticweb.org/person/roi-blanco> ;
     swrc:category "Semantic Web In Use Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190033.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190033-entity-recommendations-in-web-search.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Roi Blanco,Berkant Barla Cambazoglu,Peter Mika and Nicolas Torzec" ;
     swrc:pages "33-48" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190033.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190033-entity-recommendations-in-web-search.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/berkant-barla-cambazoglu>,
         <http://data.semanticweb.org/person/nicolas-torzec>,
@@ -4844,12 +4844,12 @@
         <http://data.semanticweb.org/person/jose-enrique-ruiz>,
         <http://data.semanticweb.org/person/jose-manuel-gomez-perez> ;
     swrc:category "Semantic Web In Use Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190081.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190081-when-history-matters-assessing-reliability-for-the-reuse-of-scientific-workflows.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "José Manuel Gómez-Pérez,Esteban García-Cuesta,Aleix Garrido and José Enrique Ruiz" ;
     swrc:pages "81-96" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190081.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190081-when-history-matters-assessing-reliability-for-the-reuse-of-scientific-workflows.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/aleix-garrido>,
         <http://data.semanticweb.org/person/esteban-garcia-cuesta>,
@@ -4868,13 +4868,13 @@
         <http://data.semanticweb.org/person/sebastian-hellmann>,
         <http://data.semanticweb.org/person/soeren-auer> ;
     swrc:category "Semantic Web In Use Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190097.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190097-integrating-nlp-using-linked-data.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Sebastian Hellmann,Jens Lehmann,Sören Auer and Martin Brümmer" ;
     swrc:listKeyword "Data Integration, Natural Language Processing, RDF" ;
     swrc:pages "97-112" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190097.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190097-integrating-nlp-using-linked-data.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/jens-lehmann>,
         <http://data.semanticweb.org/person/martin-bruemmer>,
@@ -4893,12 +4893,12 @@
         <http://data.semanticweb.org/person/michael-smethurst>,
         <http://data.semanticweb.org/person/yves-raimond> ;
     swrc:category "Semantic Web In Use Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190145.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190145-using-the-past-to-explain-the-present-interlinking-current-affairs-with-archives-via-the-semantic-web.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Yves Raimond,Michael Smethurst,Andrew McParland and Christopher Lowis" ;
     swrc:pages "145-160" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190145.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190145-using-the-past-to-explain-the-present-interlinking-current-affairs-with-archives-via-the-semantic-web.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/andrew-mcparland>,
         <http://data.semanticweb.org/person/christopher-lowis>,
@@ -4917,12 +4917,12 @@
         <http://data.semanticweb.org/person/natasha-f-noy>,
         <http://data.semanticweb.org/person/tania-tudorache> ;
     swrc:category "Semantic Web In Use Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190193.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190193-using-semantic-web-in-icd-11-three-years-down-the-road.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Tania Tudorache,Csongor I Nyulas,Natasha F. Noy and Mark Musen" ;
     swrc:pages "193-208" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190193.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190193-using-semantic-web-in-icd-11-three-years-down-the-road.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/csongor-i-nyulas>,
         <http://data.semanticweb.org/person/mark-musen>,
@@ -4941,12 +4941,12 @@
         <http://data.semanticweb.org/person/joao-ricardo-nickenig-vissoci>,
         <http://data.semanticweb.org/person/ricardo-pietrobon> ;
     swrc:category "Semantic Web In Use Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190241.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190241-using-linked-data-to-evaluate-the-impact-of-research-and-development-in-europe-a-structural-equation-model.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Amrapali Zaveri,Joao Ricardo Nickenig Vissoci,Cinzia Daraio and Ricardo Pietrobon" ;
     swrc:pages "241-256" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190241.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190241-using-linked-data-to-evaluate-the-impact-of-research-and-development-in-europe-a-structural-equation-model.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/amrapali-zaveri>,
         <http://data.semanticweb.org/person/cinzia-daraio>,
@@ -4965,12 +4965,12 @@
         <http://data.semanticweb.org/person/juergen-umbrich>,
         <http://data.semanticweb.org/person/pierre-yves-vandenbussche> ;
     swrc:category "Evaluation Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190273.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190273-sparql-web-querying-infrastructure-ready-for-action-.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Carlos Buil-Aranda,Aidan Hogan,Jürgen Umbrich and Pierre-Yves Vandenbussche" ;
     swrc:pages "273-288" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190273.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190273-sparql-web-querying-infrastructure-ready-for-action-.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/aidan-hogan>,
         <http://data.semanticweb.org/person/carlos-buil-aranda>,
@@ -4989,12 +4989,12 @@
         <http://data.semanticweb.org/person/nabil-layaieda>,
         <http://data.semanticweb.org/person/pierre-geneves> ;
     swrc:category "Evaluation Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190401.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190401-evaluating-and-benchmarking-sparql-query-containment-solvers.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Melisachew Wudage Chekol,Jérôme Euzenat,Pierre Genevès and Nabil Layaïda" ;
     swrc:pages "401-416" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190401.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190401-evaluating-and-benchmarking-sparql-query-containment-solvers.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/jerome-euzenat>,
         <http://data.semanticweb.org/person/melisachew-wudage-chekol>,
@@ -5265,12 +5265,12 @@
         <http://data.semanticweb.org/person/giuseppe-pirro>,
         <http://data.semanticweb.org/person/riccardo-rosati> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180097.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180097-the-logic-of-extensional-rdfs.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Enrico Franconi,Claudio Gutierrez,Alessandro Mosca,Giuseppe Pirrò and Riccardo Rosati" ;
     swrc:pages "97-112" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180097.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180097-the-logic-of-extensional-rdfs.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/alessandro-mosca>,
         <http://data.semanticweb.org/person/claudio-gutierrez>,
@@ -5291,12 +5291,12 @@
         <http://data.semanticweb.org/person/noseong-park>,
         <http://data.semanticweb.org/person/vs-subrahmanian> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180465.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180465-personalized-best-answer-computation-in-graph-databases.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Michael Ovelgönne,Noseong Park,V.S. Subrahmanian,Elizabeth K. Bowman and Kirk A. Ogaard" ;
     swrc:pages "465-480" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180465.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180465-personalized-best-answer-computation-in-graph-databases.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/elizabeth-k-bowman>,
         <http://data.semanticweb.org/person/kirk-a-ogaard>,
@@ -5317,13 +5317,13 @@
         <http://data.semanticweb.org/person/manfred-hauswirth>,
         <http://data.semanticweb.org/person/muhammad-saleem> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180561.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180561-daw-duplicate-aware-federated-query-processing-over-the-web-of-data.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Muhammad Saleem,Axel-Cyrille Ngonga Ngomo,Josiane Xavier Parreira,Helena Deus and Manfred Hauswirth" ;
     swrc:listKeyword "federated query processing, SPARQL, min-wise indepen- dent permutations, Web of Data" ;
     swrc:pages "561-576" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180561.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180561-daw-duplicate-aware-federated-query-processing-over-the-web-of-data.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/axel-cyrille-ngonga-ngomo>,
         <http://data.semanticweb.org/person/helena-deus>,
@@ -5344,12 +5344,12 @@
         <http://data.semanticweb.org/person/johannes-knopp>,
         <http://data.semanticweb.org/person/michael-schuhmacher> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180577.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180577-on-the-status-of-experimental-research-on-the-semantic-web.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Heiner Stuckenschmidt,Michael Schuhmacher,Johannes Knopp,Christian Meilicke and Ansgar Scherp" ;
     swrc:pages "577-592" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180577.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180577-on-the-status-of-experimental-research-on-the-semantic-web.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/ansgar-scherp>,
         <http://data.semanticweb.org/person/christian-meilicke>,
@@ -5370,12 +5370,12 @@
         <http://data.semanticweb.org/person/michele-catasta>,
         <http://data.semanticweb.org/person/philippe-cudre-mauroux> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180625.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180625-trank-ranking-entity-types-using-the-web-of-data.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Alberto Tonon,Michele Catasta,Gianluca Demartini,Philippe Cudré-Mauroux and Karl Aberer" ;
     swrc:pages "625-640" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180625.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180625-trank-ranking-entity-types-using-the-web-of-data.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/alberto-tonon>,
         <http://data.semanticweb.org/person/gianluca-demartini>,
@@ -5396,12 +5396,12 @@
         <http://data.semanticweb.org/person/henri-bal>,
         <http://data.semanticweb.org/person/jacopo-urbani> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180641.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180641-dynamite-parallel-materialization-of-dynamic-rdf-data.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Jacopo Urbani,Alessandro Margara,Ceriel Jacobs,Frank Van Harmelen and Henri Bal" ;
     swrc:pages "641-656" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180641.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180641-dynamite-parallel-materialization-of-dynamic-rdf-data.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/alessandro-margara>,
         <http://data.semanticweb.org/person/ceriel-jacobs>,
@@ -5422,12 +5422,12 @@
         <http://data.semanticweb.org/person/isabelle-augenstein>,
         <http://data.semanticweb.org/person/ziqi-zhang> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180687.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180687-statistical-knowledge-patterns-identifying-synonymous-relations-in-large-linked-datasets.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Ziqi Zhang,Anna Lisa Gentile,Eva Blomqvist,Isabelle Augenstein and Fabio Ciravegna" ;
     swrc:pages "687-702" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180687.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180687-statistical-knowledge-patterns-identifying-synonymous-relations-in-large-linked-datasets.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/anna-lisa-gentile>,
         <http://data.semanticweb.org/person/eva-blomqvist>,
@@ -5448,12 +5448,12 @@
         <http://data.semanticweb.org/person/laurent-pierre>,
         <http://data.semanticweb.org/person/pierre-chaussecourte> ;
     swrc:category "Semantic Web In Use Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190049.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190049-the-energy-management-adviser-at-edf.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Pierre Chaussecourte,Birte Glimm,Ian Horrocks,Boris Motik and Laurent Pierre" ;
     swrc:pages "49-64" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190049.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190049-the-energy-management-adviser-at-edf.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/birte-glimm>,
         <http://data.semanticweb.org/person/boris-motik>,
@@ -5474,12 +5474,12 @@
         <http://data.semanticweb.org/person/pascal-hitzler>,
         <http://data.semanticweb.org/person/yingjie-hu> ;
     swrc:category "Semantic Web In Use Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190113.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190113-a-linked-data-driven-and-semantically-enabled-journal-portal-for-scientometrics.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Yingjie Hu,Krzysztof Janowicz,Grant Mckenzie,Kunal Sengupta and Pascal Hitzler" ;
     swrc:pages "113-128" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190113.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190113-a-linked-data-driven-and-semantically-enabled-journal-portal-for-scientometrics.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/grant-mckenzie>,
         <http://data.semanticweb.org/person/krzysztof-janowicz>,
@@ -5500,12 +5500,12 @@
         <http://data.semanticweb.org/person/simone-tallevi-diotallevi>,
         <http://data.semanticweb.org/person/spyros-kotoulas> ;
     swrc:category "Semantic Web In Use Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190177.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190177-real-time-urban-monitoring-in-dublin-using-semantic-and-stream-technologies.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Simone Tallevi-Diotallevi,Spyros Kotoulas,Luca Foschini,Freddy Lecue and Antonio Corradi" ;
     swrc:pages "177-192" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190177.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190177-real-time-urban-monitoring-in-dublin-using-semantic-and-stream-technologies.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/antonio-corradi>,
         <http://data.semanticweb.org/person/freddy-lecue>,
@@ -5526,12 +5526,12 @@
         <http://data.semanticweb.org/person/marco-balduini>,
         <http://data.semanticweb.org/person/oscar-corcho> ;
     swrc:category "Evaluation Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190321.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190321-on-correctness-in-rdf-stream-processor-benchmarking.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Daniele Dell'Aglio,Jean-Paul Calbimonte,Marco Balduini,Oscar Corcho and Emanuele Della Valle" ;
     swrc:pages "321-336" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190321.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190321-on-correctness-in-rdf-stream-processor-benchmarking.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/daniele-dellaglio>,
         <http://data.semanticweb.org/person/emanuele-della-valle>,
@@ -6105,12 +6105,12 @@
         <http://data.semanticweb.org/person/thomas-schneider>,
         <http://data.semanticweb.org/person/ulrike-sattler> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180081.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180081-empirical-study-of-logic-based-modules-cheap-is-cheerful.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Chiara Del Vescovo,Pavel Klinov,Bijan Parsia,Ulrike Sattler,Thomas Schneider and Dmitry Tsarkov" ;
     swrc:pages "81-96" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180081.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180081-empirical-study-of-logic-based-modules-cheap-is-cheerful.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/bijan-parsia>,
         <http://data.semanticweb.org/person/chiara-del-vescovo>,
@@ -6133,12 +6133,12 @@
         <http://data.semanticweb.org/person/sebastian-hellmann>,
         <http://data.semanticweb.org/person/tommaso-soru> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180129.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180129-real-time-rdf-extraction-from-unstructured-data-streams.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Daniel Gerber,Sebastian Hellmann,Lorenz Bühmann,Tommaso Soru,Axel-Cyrille Ngonga Ngomo and Ricardo Usbeck" ;
     swrc:pages "129-144" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180129.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180129-real-time-rdf-extraction-from-unstructured-data-streams.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/axel-cyrille-ngonga-ngomo>,
         <http://data.semanticweb.org/person/daniel-gerber>,
@@ -6161,12 +6161,12 @@
         <http://data.semanticweb.org/person/natasha-f-noy>,
         <http://data.semanticweb.org/person/tania-tudorache> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180193.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180193-simplified-owl-ontology-editing-for-the-web-is-webprot-g-enough-.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Matthew Horridge,Tania Tudorache,Jennifer Vendetti,Csongor Nyulas,Mark Musen and Natasha F. Noy" ;
     swrc:pages "193-208" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180193.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180193-simplified-owl-ontology-editing-for-the-web-is-webprot-g-enough-.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/csongor-nyulas>,
         <http://data.semanticweb.org/person/jennifer-vendetti>,
@@ -6189,13 +6189,13 @@
         <http://data.semanticweb.org/person/roberto-navigli>,
         <http://data.semanticweb.org/person/sebastian-krause> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180337.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180337-semantic-rule-filtering-for-web-scale-relation-extraction.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Andrea Moro,Hong Li,Sebastian Krause,Feiyu Xu,Roberto Navigli and Hans Uszkoreit" ;
     swrc:listKeyword "Relation Extraction, Semantics, WSD, Rule Filtering, Web-scale, Semantic relations" ;
     swrc:pages "337-352" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180337.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180337-semantic-rule-filtering-for-web-scale-relation-extraction.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/andrea-moro>,
         <http://data.semanticweb.org/person/feiyu-xu>,
@@ -6218,12 +6218,12 @@
         <http://data.semanticweb.org/person/raymond-fergerson>,
         <http://data.semanticweb.org/person/trish-whetzel> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180433.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180433-getting-lucky-in-ontology-search-a-data-driven-evaluation-framework-for-ontology-ranking.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Natasha F. Noy,Paul Alexander,Rave Harpaz,Trish Whetzel,Raymond Fergerson and Mark Musen" ;
     swrc:pages "433-448" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180433.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180433-getting-lucky-in-ontology-search-a-data-driven-evaluation-framework-for-ontology-ranking.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/mark-musen>,
         <http://data.semanticweb.org/person/natasha-f-noy>,
@@ -6246,13 +6246,13 @@
         <http://data.semanticweb.org/person/francisco-couto>,
         <http://data.semanticweb.org/person/isabel-cruz> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180513.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180513-what-s-in-a-nym-synonyms-in-biomedical-ontology-matching.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Catia Pesquita,Cosmin Stroe,Daniel Faria,Emanuel Santos,Isabel Cruz and Francisco Couto" ;
     swrc:listKeyword "Ontology Matching, Synonym Derivation, Ontology Exten- sion, Biomedical Ontologies" ;
     swrc:pages "513-528" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180513.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180513-what-s-in-a-nym-synonyms-in-biomedical-ontology-matching.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/catia-pesquita>,
         <http://data.semanticweb.org/person/cosmin-stroe>,
@@ -6275,12 +6275,12 @@
         <http://data.semanticweb.org/person/mikalai-tsytsarau>,
         <http://data.semanticweb.org/person/themis-palpanas> ;
     swrc:category "Semantic Web In Use Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190001.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190001-social-listening-of-city-scale-events-using-the-streaming-linked-data-framework.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Marco Balduini,Emanuele Della Valle,Daniele Dell'Aglio,Themis Palpanas,Mikalai Tsytsarau and Cristian Confalonieri" ;
     swrc:pages "1-16" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190001.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190001-social-listening-of-city-scale-events-using-the-streaming-linked-data-framework.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/cristian-confalonieri>,
         <http://data.semanticweb.org/person/daniele-dellaglio>,
@@ -6303,13 +6303,13 @@
         <http://data.semanticweb.org/person/michael-schuhmacher>,
         <http://data.semanticweb.org/person/robert-meusel> ;
     swrc:category "Semantic Web In Use Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190017.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190017-deployment-of-rdfa-microdata-and-microformats-on-the-web-a-quantitative-analysis.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Christian Bizer,Kai Eckert,Robert Meusel,Hannes Mühleisen,Michael Schuhmacher and Johanna Völker" ;
     swrc:listKeyword "Web Science, Web of Data, RDFa, Microdata, Microformats" ;
     swrc:pages "17-32" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190017.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190017-deployment-of-rdfa-microdata-and-microformats-on-the-web-a-quantitative-analysis.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/christian-bizer>,
         <http://data.semanticweb.org/person/hannes-muehleisen>,
@@ -6332,12 +6332,12 @@
         <http://data.semanticweb.org/person/maribel-acosta>,
         <http://data.semanticweb.org/person/soeren-auer> ;
     swrc:category "Evaluation Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190257.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190257-crowdsourcing-linked-data-quality-assessment.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Maribel Acosta,Amrapali Zaveri,Elena Simperl,Dimitris Kontokostas,Sören Auer and Jens Lehmann" ;
     swrc:pages "257-272" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190257.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190257-crowdsourcing-linked-data-quality-assessment.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/amrapali-zaveri>,
         <http://data.semanticweb.org/person/dimitris-kontokostas>,
@@ -6386,13 +6386,13 @@
         <http://data.semanticweb.org/person/olga-zhibrik>,
         <http://data.semanticweb.org/person/vladimir-nevzorov> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180369.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180369-bringing-math-to-lod-a-semantic-publishing-platform-prototype-for-scientific-collections-in-mathematics.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Olga Nevzorova,Nikita Zhiltsov,Danila Zaikin,Olga Zhibrik,Alexander Kirillovich,Vladimir Nevzorov and Evgeniy Birialtsev" ;
     swrc:listKeyword "Linked Data, Ontology Engineering, Ontology Extraction" ;
     swrc:pages "369-384" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180369.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180369-bringing-math-to-lod-a-semantic-publishing-platform-prototype-for-scientific-collections-in-mathematics.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/alexander-kirillovich>,
         <http://data.semanticweb.org/person/danila-zaikin>,
@@ -6417,13 +6417,13 @@
         <http://data.semanticweb.org/person/wantian-ke>,
         <http://data.semanticweb.org/person/zhichun-wang> ;
     swrc:category "Research Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180657.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180657-discovering-missing-semantic-relations-between-entities-in-wikipedia.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41334-6> ;
     swrc:listAuthor "Mengling Xu,Zhichun Wang,Rongfang Bie,Juanzi Li,Chen Zheng,Wantian Ke and Mingquan Zhou" ;
     swrc:listKeyword "Wikipedia, Infobox, Linked Data" ;
     swrc:pages "657-670" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41334-6>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180657.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82180657-discovering-missing-semantic-relations-between-entities-in-wikipedia.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/chen-zheng>,
         <http://data.semanticweb.org/person/juanzi-li>,
@@ -6448,13 +6448,13 @@
         <http://data.semanticweb.org/person/stuart-owen>,
         <http://data.semanticweb.org/person/wolfgang-mueller> ;
     swrc:category "Semantic Web In Use Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190209.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190209-semantic-data-and-models-sharing-in-systems-biology-the-just-enough-results-model-and-the-seek-platform.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Katherine Wolstencroft,Stuart Owen,Olga Krebs,Quyen Ngyuen,Jacky. L. Snoep,Wolfgang Mueller and Carole Goble" ;
     swrc:listKeyword "Semantic Systems Biology, Semantic Data Management, OWL On- tology, RDF Extraction from spreadsheets, Standard Metadata" ;
     swrc:pages "209-224" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190209.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190209-semantic-data-and-models-sharing-in-systems-biology-the-just-enough-results-model-and-the-seek-platform.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/carole-goble>,
         <http://data.semanticweb.org/person/jacky-l-snoep>,
@@ -6756,12 +6756,12 @@
         <http://data.semanticweb.org/person/philippe-cudre-mauroux>,
         <http://data.semanticweb.org/person/sever-fundatureanu> ;
     swrc:category "Evaluation Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190305.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190305-nosql-databases-for-rdf-an-empirical-evaluation.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Philippe Cudré-Mauroux,Iliya Enchev,Sever Fundatureanu,Paul Groth,Albert Haque,Andreas Harth,Felix Leif Keppmann,Daniel Miranker,Juan Sequeda and Marcin Wylot" ;
     swrc:pages "305-320" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190305.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190305-nosql-databases-for-rdf-an-empirical-evaluation.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/albert-haque>,
         <http://data.semanticweb.org/person/andreas-harth>,
@@ -6793,12 +6793,12 @@
         <http://data.semanticweb.org/person/valery-tkachenko>,
         <http://data.semanticweb.org/person/yrjana-rankka> ;
     swrc:category "Semantic Web In Use Track Paper" ;
-    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190065.pdf> ;
+    swrc:link_open_access <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190065-incorporating-commercial-and-private-data-into-an-open-linked-data-platform-for-drug-discovery.pdf> ;
     swrc:link_publisher <http://www.springer.com/computer/ai/book/978-3-642-41337-7> ;
     swrc:listAuthor "Carole Goble,Alasdair J. G. Gray,Lee Harland,Karen Karapetyan,Antonis Loizou,Ivan Mikhailov,Yrjana Rankka,Stefan Senger,Valery Tkachenko,Antony Williams and Egon Willighagen" ;
     swrc:pages "65-80" ;
     swrc:url <http://www.springer.com/computer/ai/book/978-3-642-41337-7>,
-        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190065.pdf> ;
+        <https://github.com/lidingpku/iswc-archive/raw/master/paper/iswc-2013/82190065-incorporating-commercial-and-private-data-into-an-open-linked-data-platform-for-drug-discovery.pdf> ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/alasdair-j-g-gray>,
         <http://data.semanticweb.org/person/antonis-loizou>,
