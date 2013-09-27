@@ -1,4 +1,4 @@
-altLabel,title,subtitle,uri,source,status,redirects,disambiguates,matched_entity_type,,modified
+altLabel,title,subtitle,uri,source,status,redirects,disambiguates,matched_entity_type,row_type,modified
 3roundstones,3roundstones,,,,man,,,,,2013/09/03
 40Hz.org,40Hz.org,,,,man,,,,,2013/09/05
 "Aalto University","Aalto University",,http://dbpedia.org/resource/Aalto_University,,ok,,,TRUE,,2013/08/01
@@ -8,16 +8,14 @@ Acklin,Acklin,,,,man,,,,,2013/08/01
 AgentLink,AgentLink,,,,man,,,,,2013/08/01
 Agfa-Gevaert,Agfa-Gevaert,,http://dbpedia.org/resource/Agfa-Gevaert,,ok,,,,,2013/08/01
 Aidministrator,Aidministrator,,,,man,,,,,2013/08/01
+"Institute AIFB","AIFB, University of Karlsruhe",,,http://www.aifb.kit.edu/,man,,,,,2013/09/09
+"Institute AIFB, KIT","AIFB, University of Karlsruhe",,,http://www.aifb.kit.edu/,man,,,,,2013/09/09
 "AIFB, Karlsruhe Institute of Technology","AIFB, University of Karlsruhe",,,http://www.aifb.kit.edu/,man-short,,,TRUE,,2013/08/01
 "AIFB, University Karlsruhe","AIFB, University of Karlsruhe",,,http://www.aifb.kit.edu/,man-short,,,,,2013/08/01
 "AIFB, University of Karlsruhe","AIFB, University of Karlsruhe",,,http://www.aifb.kit.edu/,man-short,,,,,2013/08/01
-"Institute AIFB","AIFB, University of Karlsruhe",,,http://www.aifb.kit.edu/,man,,,,,2013/09/09
 "Institute AIFB at University of Karlsruhe","AIFB, University of Karlsruhe",,,http://www.aifb.kit.edu/,man-short,,,,,2013/08/01
-"Institute AIFB, KIT","AIFB, University of Karlsruhe",,,http://www.aifb.kit.edu/,man,,,,,2013/09/09
 "Institute AIFB, University of Karlsruhe","AIFB, University of Karlsruhe",,,http://www.aifb.kit.edu/,man-short,,,,,2013/08/01
 "Institute AIFB, Univ. of Karlsruhe","AIFB, University of Karlsruhe",,,http://www.aifb.kit.edu/,man-short,,,,,2013/08/01
-AKSW,"AKSW Group",,,http://aksw.org/,man-short,,,,,2013/09/03
-"AKSW Group","AKSW Group",,,http://aksw.org/,man-short,,,,,2013/08/01
 "Advanced Knowledge Technologies (AKT)",AKT,"Advanced Knowledge Technologies",,http://www.aktors.org/akt/,man,,,,,2013/08/01
 "AKT project",AKT,"Advanced Knowledge Technologies",,http://www.aktors.org/akt/,man,,,,,2013/08/01
 "Alcatel Lucent Bell Labs","Alcatel Lucent Bell Labs",,,,man,,,TRUE,,2013/08/01
@@ -32,6 +30,7 @@ Antidot,Antidot,,,,man,,,,,2013/09/03
 AOARD,AOARD,,,,man,,,,,2013/08/01
 Apelon,Apelon,,,,man,,,,,2013/08/01
 "Apelon, Inc.","Apelon, Inc.",,,,man,,,,,2013/09/05
+"Argus Labs","Argus Labs",,,http://www.arguslab.com/,man,,,TRUE,,2013/09/26
 "Aristotle University of Thessaloniki","Aristotle University of Thessaloniki",,http://dbpedia.org/resource/Aristotle_University_of_Thessaloniki,,ok,,,TRUE,,2013/09/03
 "Aritificial Intelligence Journal","Aritificial Intelligence Journal",,http://dbpedia.org/resource/Artificial_Intelligence_(journal),,man,,,,,2013/09/03
 "Arizona State University","Arizona State University",,http://dbpedia.org/resource/Arizona_State_University,,ok,,,,,2013/08/01
@@ -47,8 +46,8 @@ ARO-FE,ARO-FE,,,,man,,,,,2013/08/01
 "ATR Intelligent Robotics and Communication Laboratories","ATR Intelligent Robotics and Communication Laboratories",,,,ok,,,,,2013/08/01
 AT&T,AT&T,,http://dbpedia.org/resource/AT&T,,ok,,,,,2013/08/01
 ABS,"Australian Bureau of Statistics",,http://dbpedia.org/resource/Australian_Bureau_of_Statistics,,ok,,,,,2013/08/01
-ANU,"Australian National University",,http://dbpedia.org/resource/Australian_National_University,,ok,,,TRUE,,2013/09/04
 "Australian National University","Australian National University",,http://dbpedia.org/resource/Australian_National_University,,k,,,TRUE,,2013/09/04
+ANU,"Australian National University",,http://dbpedia.org/resource/Australian_National_University,,ok,,,TRUE,,2013/09/04
 "School of Computer Science, Australian National University","Australian National University",,http://dbpedia.org/resource/Australian_National_University,,ok,,,TRUE,,2013/09/04
 "Australian Proteome Analysis Facility","Australian Proteome Analysis Facility",,,,man,,,TRUE,,2013/09/04
 "Austrian Institute of Technology","Austrian Institute of Technology",,http://dbpedia.org/resource/Austrian_Institute_of_Technology,,ok,,,,,2013/09/03
@@ -56,9 +55,9 @@ ANU,"Australian National University",,http://dbpedia.org/resource/Australian_Nat
 "Universidad Autónoma de Madrid","Autonomous University of Madrid",,http://dbpedia.org/resource/Autonomous_University_of_Madrid,,ok,,,TRUE,,2013/08/01
 BBC,BBC,,http://dbpedia.org/resource/BBC,,ok,,,TRUE,,2013/08/01
 "British Broadcasting Corporation",BBC,,http://dbpedia.org/resource/BBC,,ok,,,TRUE,,2013/08/01
-BBN,"BBN Technologies",,http://dbpedia.org/resource/BBN_Technologies,,ok-disambiguates,,http://dbpedia.org/resource/Big_Bang_nucleosynthesis,,,2013/08/01
-"Bolt, Beranek and Newman","BBN Technologies",,http://dbpedia.org/resource/BBN_Technologies,,ok,,,,,2013/08/01
 "Raytheon BBN Technologies","BBN Technologies",,http://dbpedia.org/resource/BBN_Technologies,,ok,,,TRUE,,2013/08/01
+"Bolt, Beranek and Newman","BBN Technologies",,http://dbpedia.org/resource/BBN_Technologies,,ok,,,,,2013/08/01
+BBN,"BBN Technologies",,http://dbpedia.org/resource/BBN_Technologies,,ok-disambiguates,,http://dbpedia.org/resource/Big_Bang_nucleosynthesis,,,2013/08/01
 BEA,"BEA Systems, Inc.",,http://dbpedia.org/resource/BEA_Systems,,ok,,,,,2013/08/01
 Behaviorengine,Behaviorengine,,,,man,,,,,2013/08/01
 "Beijing Normal Univeristy","Beijing Normal University",,http://dbpedia.org/resource/Beijing_Normal_University,,ok,,,TRUE,,2013/08/01
@@ -92,13 +91,14 @@ BT,BT,,http://dbpedia.org/resource/BT_Group,,ok,,,,,2013/08/01
 "University of Venice","Ca' Foscari University of Venice",,http://dbpedia.org/resource/Ca'_Foscari_University_of_Venice,,ok,,,,,2013/08/01
 "University of Venice","Ca' Foscari University of Venice",,http://dbpedia.org/resource/Ca'_Foscari_University_of_Venice,,ok,,,,,2013/08/01
 CalTech,"California Institute of Technology",,http://dbpedia.org/resource/California_Institute_of_Technology,,ok,,,,,2013/08/01
+"Capsenta Inc","Capsenta Inc",,,http://www.capsenta.com/,man,,,,,2013/09/26
 "Cardiff University","Cardiff University",,http://dbpedia.org/resource/Cardiff_University,,ok,,,TRUE,,2013/09/03
 "Carleton University","Carleton University",,http://dbpedia.org/resource/Carleton_University,,ok,,,TRUE,,2013/08/01
 "Case Western Reserve University","Case Western Reserve University",,http://dbpedia.org/resource/Case_Western_Reserve_University,,ok,,,TRUE,,2013/09/03
 CEFRIEL,CEFRIEL,,,http://www.cefriel.com/,ok,,,,,2013/08/01
 CELCT,CELCT,,,,ok,,,,,2013/09/04
-"Centre for Research and Technology Hellas (CERTH)","Centre for Research and Technology Hellas",,,,man-short,,,,,2013/09/03
 "Informatics and Telematics Institute, Thessaloniki","Centre for Research and Technology Hellas",,,http://en.wikipedia.org/wiki/List_of_research_institutes_in_Greece,man-short,,,,,2013/08/01
+"Centre for Research and Technology Hellas (CERTH)","Centre for Research and Technology Hellas",,,,man-short,,,,,2013/09/03
 "Centrum Wiskunde & Informatica","Centrum Wiskunde & Informatica",,http://dbpedia.org/resource/Centrum_Wiskunde_&_Informatica,,ok,,,TRUE,,2013/09/09
 CERN,CERN,,http://dbpedia.org/resource/CERN,,ok,,,TRUE,,2013/09/03
 "University Carlos III of Madrid","Charles III University of Madrid",,http://dbpedia.org/resource/Charles_III_University_of_Madrid,,ok,,,TRUE,,2013/09/03
@@ -106,11 +106,11 @@ CERN,CERN,,http://dbpedia.org/resource/CERN,,ok,,,TRUE,,2013/09/03
 "TU Chemnitz","Chemnitz University of Technology",,http://dbpedia.org/resource/Chemnitz_University_of_Technology,,ok,,,TRUE,,2013/09/03
 "Chinese Academy of Sciences","Chinese Academy of Sciences",,http://dbpedia.org/resource/Chinese_Academy_of_Sciences,,ok,,,TRUE,,2013/09/03
 Cisco,"Cisco Systems",,http://dbpedia.org/resource/Cisco_Systems,,ok,,,,,2013/08/01
-"Clark & Parsia","Clark & Parsia",,,,ok,,,,,2013/09/03
 "Clark & Parsia, LLC","Clark & Parsia",,,,man,,,,,2013/09/04
+"Clark & Parsia","Clark & Parsia",,,,ok,,,,,2013/09/03
 "Claude Bernard University of Lyon 1","Claude Bernard University Lyon 1",,http://dbpedia.org/resource/Claude_Bernard_University_Lyon_1,,ok,,,TRUE,,2013/08/01
-"LISI, University Claude Bernard","Claude Bernard University Lyon 1",,,https://fr.wikipedia.org/wiki/Laboratoire_d'informatique_en_image_et_syst%C3%A8mes_d'information,man,,,,,2013/08/01
 "Université Lyon 1","Claude Bernard University Lyon 1",,http://dbpedia.org/resource/Claude_Bernard_University_Lyon_1,,ok,,,TRUE,,2013/09/04
+"LISI, University Claude Bernard","Claude Bernard University Lyon 1",,,https://fr.wikipedia.org/wiki/Laboratoire_d'informatique_en_image_et_syst%C3%A8mes_d'information,man,,,,,2013/08/01
 "Universite Lyon 1, LIRIS","Claude Bernard University Lyon 1",,,,man,,,TRUE,,2013/09/03
 "University Lyon 1, LIRIS-CNRS","Claude Bernard University Lyon 1",,,,ok,,,,,2013/08/01
 "University of Lyon 1, LIRIS-CNRS","Claude Bernard University Lyon 1",,,,ok,,,,,2013/08/01
@@ -120,7 +120,6 @@ CNAM,CNAM,,http://dbpedia.org/resource/Conservatoire_National_des_Arts_et_M%C3%A
 CNAM-Paris,CNAM,,http://dbpedia.org/resource/Conservatoire_National_des_Arts_et_M%C3%A9tiers,,man-short,,,,,2013/08/01
 "Conservatoire National des Arts et Métiers",CNAM,,http://dbpedia.org/resource/Conservatoire_National_des_Arts_et_M%C3%A9tiers,,man-short,,,,,2013/08/01
 CNR,CNR,,http://en.wikipedia.org/wiki/Consiglio_Nazionale_delle_Ricerche,,man,,,,,2013/08/01
-"CNR Institute of Cognitive Sciences and Technology","CNR Institute of Cognitive Sciences and Technology",,,,man,,,,,2013/09/04
 CNRS,CNRS,,http://dbpedia.org/resource/French_National_Centre_for_Scientific_Research,,ok,,,,,2013/09/09
 CognIT,CognIT,,,,ok,,,,,2013/08/01
 "Collibra NV","Collibra NV",,,,man,,,,,2013/09/04
@@ -129,7 +128,6 @@ Computas,Computas,,,,man,,,TRUE,,2013/09/03
 "Concordia University","Concordia University",,http://dbpedia.org/resource/Concordia_University,,ok,,,TRUE,,2013/08/01
 ConfMan,ConfMan,,,,ok,,,,,2013/08/01
 "Connected Discovery","Connected Discovery",,,,man,,,,,2013/09/09
-Connotate,Connotate,,,,ok,,,,,2013/08/01
 Connotate,Connotate,,,,ok,,,,,2013/08/01
 Consultant,Consultant,,,,ok,,,,,2013/08/01
 CONVERA,"Convera Corporation",,http://dbpedia.org/resource/Convera_Corporation,,ok,,,,,2013/08/01
@@ -141,11 +139,11 @@ CRIM,CRIM,,,,man,,,,,2013/09/03
 "Commonwealth Scientific and Industrial Research Organisation","CSIRO Australia",,http://dbpedia.org/resource/Commonwealth_Scientific_and_Industrial_Research_Organisation,,man-short,,,TRUE,,2013/09/04
 CSIRO,"CSIRO Australia",,http://dbpedia.org/resource/Commonwealth_Scientific_and_Industrial_Research_Organisation,,man-short,,,TRUE,,2013/08/01
 "CSIRO, Australia","CSIRO Australia",,http://dbpedia.org/resource/Commonwealth_Scientific_and_Industrial_Research_Organisation,,man-short,,,TRUE,,2013/09/04
-"CSIRO ICT Centre","CSIRO ICT Centre",,,,ok,,,,,2013/08/01
-"Centre for Mathematics and Computer Sciences (CWI)","CWI Amsterdam",,http://dbpedia.org/resource/Centrum_Wiskunde_&_Informatica,,ok,,,TRUE,,2013/09/04
+"CSIRO ICT Centre","CSIRO Australia",,,,ok,,,,,2013/08/01
 "Centrum Wiskunde & Informatica (CWI)","CWI Amsterdam",,http://dbpedia.org/resource/Centrum_Wiskunde_&_Informatica,,man-short,,,TRUE,,2013/09/03
 "CWI, Amsterdam","CWI Amsterdam",,http://dbpedia.org/resource/Centrum_Wiskunde_&_Informatica,,man-short,,,,,2013/08/01
 "CWI/VU University Amsterdam","CWI Amsterdam",,http://dbpedia.org/resource/Centrum_Wiskunde_&_Informatica,,man-short,,,,,2013/08/01
+"Centre for Mathematics and Computer Sciences (CWI)","CWI Amsterdam",,http://dbpedia.org/resource/Centrum_Wiskunde_&_Informatica,,ok,,,TRUE,,2013/09/04
 "Czech Technical University in Prague","Czech Technical University in Prague",,http://dbpedia.org/resource/Czech_Technical_University_in_Prague,,ok,,,TRUE,,2013/08/01
 DaimlerChrysler,"Daimler AG",,http://dbpedia.org/resource/Daimler_AG,,man,,,,,2013/08/01
 DAML,DAML,"DARPA Agent Markup Language Program",http://dbpedia.org/resource/DARPA_Agent_Markup_Language,,man-short,,,,,2013/08/01
@@ -157,23 +155,23 @@ DARPA/IXO,DARPA/IXO,,,,ok,,,,,2013/08/01
 DataPop,"DataPop, Inc.",,,,ok,,,,,2013/08/01
 "Delft University of Technology","Delft University of Technology",,http://dbpedia.org/resource/Delft_University_of_Technology,,ok,,,TRUE,,2013/09/03
 "TU Delft","Delft University of Technology",,http://dbpedia.org/resource/Delft_University_of_Technology,,ok,,,TRUE,,2013/08/01
-DERI,"DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,,,2013/08/01
-"DERI Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,TRUE,,2013/08/01
-"DERI, Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,,,2013/08/01
-"DERI, National University of Ireland","DERI, Galway",,,,man-short,,,TRUE,,2013/08/01
-"DERI - National University of Ireland, Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,,,2013/08/01
 "DERI National University of Ireland, Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man,,,TRUE,,2013/09/04
-DERI/NUIG,"DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,,,2013/08/01
-"DERI, NUI Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,TRUE,,2013/09/03
-"DERI/NUI Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,TRUE,,2013/08/01
-"DERI/NUI,, Galway","DERI, Galway",,,,man-short,,,TRUE,,2013/08/01
 "Digital Enterprise Research Institute","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man,,,TRUE,,2013/09/09
 "Digital Enterprise Research Institute (DERI), National University of Ireland, Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man,,,TRUE,,2013/09/04
-"Digital Enterprise Research Institute, Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,,,2013/08/01
-"Digital Enterprise Research Institute, Ireland","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,TRUE,,2013/09/04
-"Digital Enterprise Research Institute, National University of Ireland Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,,,2013/08/01
 "Digital Enterprise Research Institute, National University of Ireland, Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man,,,TRUE,,2013/09/09
 "Digital Enterprise Research Institute, NUIG","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man,,,TRUE,,2013/09/09
+"DERI Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,TRUE,,2013/08/01
+"DERI, NUI Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,TRUE,,2013/09/03
+"DERI/NUI Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,TRUE,,2013/08/01
+"Digital Enterprise Research Institute, Ireland","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,TRUE,,2013/09/04
+DERI,"DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,,,2013/08/01
+"DERI, Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,,,2013/08/01
+"DERI - National University of Ireland, Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,,,2013/08/01
+DERI/NUIG,"DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,,,2013/08/01
+"Digital Enterprise Research Institute, Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,,,2013/08/01
+"Digital Enterprise Research Institute, National University of Ireland Galway","DERI, Galway",,http://dbpedia.org/resource/Digital_Enterprise_Research_Institute,,man-short,,,,,2013/08/01
+"DERI, National University of Ireland","DERI, Galway",,,,man-short,,,TRUE,,2013/08/01
+"DERI/NUI,, Galway","DERI, Galway",,,,man-short,,,TRUE,,2013/08/01
 Derivo,"Derivo GmbH",,,,man,,,,,2013/09/03
 "derivo GmbH","Derivo GmbH",,,,man,,,,,2013/08/01
 DIP,DIP,,,,ok,,,,,2013/08/01
@@ -198,8 +196,8 @@ Enigmatec,Enigmatec,,,,man,,,,,2013/08/01
 Enigmatect,Enigmatec,,,,man,,,,,2013/08/01
 "ENTERPRISE IRELAND","Enterprise Ireland",,http://dbpedia.org/resource/Enterprise_Ireland,,ok,,,,,2013/08/01
 "Ecole Polytechnique Federale de Lausanne",EPFL,,http://dbpedia.org/resource/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne,,man-short,,,TRUE,,2013/09/04
-"École Polytechnique Federale de Lausanne",EPFL,,http://dbpedia.org/resource/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne,,ok,,,,,2013/08/01
 EPFL,EPFL,,http://dbpedia.org/resource/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne,,man-short,,,,,2013/08/01
+"École Polytechnique Federale de Lausanne",EPFL,,http://dbpedia.org/resource/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne,,ok,,,,,2013/08/01
 Epigraph,Epigraph,,,,man,,,,,2013/08/01
 Epimorphics,"Epimorphics Ltd",,,,man,,,,,2013/09/03
 Esperonto,Esperonto,,,,ok,,,,,2013/08/01
@@ -225,13 +223,13 @@ IHMC,"Florida Institute for Human and Machine Cognition",,http://dbpedia.org/res
 "Fluminense Federal University","Fluminense Federal University",,http://dbpedia.org/resource/Fluminense_Federal_University,,ok,,,TRUE,,2013/09/04
 "FOAF project","FOAF project",,,,man,,,,,2013/09/03
 "Fondazione Bruno Kessler","Fondazione Bruno Kessler",,,,ok,,,,,2013/08/01
+FORTH-ICS,FORTH-ICS,,,,man,,,,,2013/09/03
+ICS-FORTH,FORTH-ICS,,,,man,,,,,2013/08/01
+"ICS-FORTH & University of Crete",FORTH-ICS,,,,man,,,,,2013/08/01
 "CS-FORTH Crete",FORTH-ICS,,,,ok,,,,,2013/08/01
 FORTH,FORTH-ICS,,,,ok,,,,,2013/08/01
-FORTH-ICS,FORTH-ICS,,,,man,,,,,2013/09/03
 "ICS FORTH",FORTH-ICS,,,,ok,,,,,2013/08/01
-ICS-FORTH,FORTH-ICS,,,,man,,,,,2013/08/01
 "ICS-FORTH and University of Crete",FORTH-ICS,,,,ok,,,,,2013/08/01
-"ICS-FORTH & University of Crete",FORTH-ICS,,,,man,,,,,2013/08/01
 "Institute of Computer Science",FORTH-ICS,,,,ok,,,,,2013/08/01
 "forward look","Forward Look",,,,man,,,,,2013/09/03
 "France Telecom","France Télécom",,http://dbpedia.org/resource/France_T%C3%A9l%C3%A9com,,ok,,,,,2013/08/01
@@ -247,27 +245,28 @@ Fraunhofer,"Fraunhofer Institute",,,,ok,,,TRUE,,2013/09/03
 "Free University of Berlin","Free University of Berlin",,http://dbpedia.org/resource/Free_University_of_Berlin,,ok,,,TRUE,,2013/09/03
 "Freie Universitaet Berlin","Free University of Berlin",,http://dbpedia.org/resource/Free_University_of_Berlin,,ok,,,TRUE,,2013/08/01
 "Freie Universität Berlin","Free University of Berlin",,http://dbpedia.org/resource/Free_University_of_Berlin,,ok,,,,,2013/08/01
+"KRDB, Free University of Bolzano","Free University of Bozen-Bolzano",,http://dbpedia.org/resource/Free_University_of_Bozen-Bolzano,,man,,,,,2013/09/09
+"KRDB Research Centre, Free University of Bozen-Bolzano","Free University of Bozen-Bolzano",,http://dbpedia.org/resource/Free_University_of_Bozen-Bolzano,,man,,,,,2013/09/09
 "Faculty of Computer Science, Free University of Bolzano","Free University of Bozen-Bolzano",,http://dbpedia.org/resource/Free_University_of_Bozen-Bolzano,,ok,,,TRUE,,2013/09/04
 "Free University of Bozen-Bolzano","Free University of Bozen-Bolzano",,http://dbpedia.org/resource/Free_University_of_Bozen-Bolzano,,ok,,,,,2013/08/01
 "Free Univ. of Bolzano","Free University of Bozen-Bolzano",,http://dbpedia.org/resource/Free_University_of_Bozen-Bolzano,,ok,,,,,2013/08/01
 "FU Bozen-Bolzano","Free University of Bozen-Bolzano",,http://dbpedia.org/resource/Free_University_of_Bozen-Bolzano,,ok,,,,,2013/09/09
-"KRDB, Free University of Bolzano","Free University of Bozen-Bolzano",,http://dbpedia.org/resource/Free_University_of_Bozen-Bolzano,,man,,,,,2013/09/09
-"KRDB Research Centre, Free University of Bozen-Bolzano","Free University of Bozen-Bolzano",,http://dbpedia.org/resource/Free_University_of_Bozen-Bolzano,,man,,,,,2013/09/09
 "University Bolzano","Free University of Bozen-Bolzano",,http://dbpedia.org/resource/Free_University_of_Bozen-Bolzano,,ok,,,,,2013/08/01
 "Free University Of Brussels","Free University of Brussels",,http://dbpedia.org/resource/Free_University_of_Brussels,,ok,,,,,2013/08/01
 "University Brussels","Free University of Brussels",,http://dbpedia.org/resource/Free_University_of_Brussels,,ok,,,,,2013/08/01
 "French National Center for Scientific Research","French National Centre for Scientific Research",,http://dbpedia.org/resource/French_National_Centre_for_Scientific_Research,,ok,,,,,2013/08/01
+"Freudenberg IT","Freudenberg IT",,http://dbpedia.org/resource/Freudenberg_IT,,ok,,,TRUE,,2013/09/26
 "FTW Telecommunications Research Center Vienna","FTW Telecommunications Research Center Vienna",,,,ok,,,,,2013/08/01
-Fujitsu,Fujitsu,,http://dbpedia.org/resource/Fujitsu,,ok,,,,,2013/08/01
 "Fujitsu Ireland",Fujitsu,,http://dbpedia.org/resource/Fujitsu,,man,,,TRUE,,2013/09/04
 "Fujitsu, Ireland",Fujitsu,,http://dbpedia.org/resource/Fujitsu,,man,,,TRUE,,2013/09/04
 "Fujitsu Labs",Fujitsu,,http://dbpedia.org/resource/Fujitsu,,ok,,,TRUE,,2013/08/01
+Fujitsu,Fujitsu,,http://dbpedia.org/resource/Fujitsu,,ok,,,,,2013/08/01
 "Fujitsu Ltd.",Fujitsu,,http://dbpedia.org/resource/Fujitsu,,ok,,,,,2013/08/01
 FZI,"FZI Forschungszentrum_Informatik",,http://dbpedia.org/resource/Forschungszentrum_Informatik,,man-short,,,,,2013/08/01
 "FZI at the University of Karlsruhe","FZI Forschungszentrum_Informatik",,http://dbpedia.org/resource/Forschungszentrum_Informatik,,man-short,,,,,2013/08/01
 "FZI Forschungszentrum Informatik","FZI Forschungszentrum_Informatik",,http://dbpedia.org/resource/Forschungszentrum_Informatik,,man-short,,,,,2013/08/01
-"FZI Research Center for Information Technology","FZI Forschungszentrum_Informatik",,,,man-short,,,TRUE,,2013/09/03
 "FZI, University Karlsruhe","FZI Forschungszentrum_Informatik",,http://dbpedia.org/resource/Forschungszentrum_Informatik,,man-short,,,,,2013/08/01
+"FZI Research Center for Information Technology","FZI Forschungszentrum_Informatik",,,,man-short,,,TRUE,,2013/09/03
 Gakken,Gakken,,http://dbpedia.org/resource/Gakken,,ok,,,,,2013/08/01
 "Galaxy Express","Galaxy Express",,http://dbpedia.org/resource/Galaxy_Express_Corporation,,ok-disambiguates,,,,,2013/08/01
 Garlik,Garlik,,,,man,,,,,2013/09/03
@@ -282,18 +281,18 @@ DFKI,"German Research Centre for Artificial Intelligence (DFKI)",,http://dbpedia
 "DFKI, Kaiserslautern","German Research Centre for Artificial Intelligence (DFKI)",,http://dbpedia.org/resource/German_Research_Centre_for_Artificial_Intelligence,,man,,,,,2013/08/01
 "DFKI, LT-Lab","German Research Centre for Artificial Intelligence (DFKI)",,http://dbpedia.org/resource/German_Research_Centre_for_Artificial_Intelligence,,man,,,,,2013/09/09
 "GESIS - Leibniz Institute for the Social Sciences","GESIS – Leibniz Institute for the Social Sciences",,,http://www.gesis.org/en/institute/,man,,,,,2013/09/03
-"Dept. of Information Technology (INTEC), Ghent University - iMinds","Ghent University",,http://dbpedia.org/resource/Ghent_University,,man,,,,,2013/09/04
-"Dept. of Information Technology (INTEC), INTEC Broadband Communication Networks (IBCN), Ghent University - iMinds","Ghent University",,http://dbpedia.org/resource/Ghent_University,,man,,,,,2013/09/04
-"Ghent University","Ghent University",,http://dbpedia.org/resource/Ghent_University,,ok,,,,,2013/08/01
 "Ghent University-IBBT","Ghent University",,http://dbpedia.org/resource/Ghent_University,,man,,,TRUE,,2013/09/04
 "Ghent University - iMinds","Ghent University",,http://dbpedia.org/resource/Ghent_University,,man,,,TRUE,,2013/09/04
+"Dept. of Information Technology (INTEC), Ghent University - iMinds","Ghent University",,http://dbpedia.org/resource/Ghent_University,,man,,,,,2013/09/04
+"Dept. of Information Technology (INTEC), INTEC Broadband Communication Networks (IBCN), Ghent University - iMinds","Ghent University",,http://dbpedia.org/resource/Ghent_University,,man,,,,,2013/09/04
 "Ghent University - iMinds - ELIS - Multimedia Lab","Ghent University",,http://dbpedia.org/resource/Ghent_University,,man,,,,,2013/09/04
 "Ghent University - iMinds - Multimedia Lab","Ghent University",,http://dbpedia.org/resource/Ghent_University,,man,,,,,2013/09/04
+"Ghent University","Ghent University",,http://dbpedia.org/resource/Ghent_University,,ok,,,,,2013/08/01
 "iMinds, Multimedia Lab, Ghent University","Ghent University",,http://dbpedia.org/resource/Ghent_University,,ok,,,,,2013/08/01
 Gnowsis.com,Gnowsis,,,,ok,,,,,2013/08/01
 "University of Frankfurt","Goethe University Frankfurt",,http://dbpedia.org/resource/Goethe_University_Frankfurt,,ok,,,TRUE,,2013/08/01
-Google,"Google Inc.",,http://dbpedia.org/resource/Google,,ok,,,,,2013/08/01
 "Google Inc","Google Inc.",,http://dbpedia.org/resource/Google,,ok,,,TRUE,,2013/09/04
+Google,"Google Inc.",,http://dbpedia.org/resource/Google,,ok,,,,,2013/08/01
 "Google Research","Google Inc.",,http://dbpedia.org/resource/Google,,ok,,,,,2013/08/01
 "Griffith University","Griffith University",,http://dbpedia.org/resource/Griffith_University,,ok,,,,,2013/08/01
 GSK,GSK,,,,man,,,TRUE,,2013/09/09
@@ -316,13 +315,13 @@ Hitachi,Hitachi,,http://dbpedia.org/resource/Hitachi,,ok,,,,,2013/08/01
 "Hewlett Packard Labs, Bristol","HP Labs Bristol",,http://dbpedia.org/resource/HP_Labs,,ok,,,,,2013/08/01
 "HP Laboratories, Bristol","HP Labs Bristol",,http://dbpedia.org/resource/HP_Labs,,ok,,,,,2013/08/01
 "HP Labs, Bristol","HP Labs Bristol",,http://dbpedia.org/resource/HP_Labs,,ok,,,,,2013/08/01
-"Humboldt University, Berlin","Humboldt University of Berlin",,http://dbpedia.org/resource/Humboldt_University_of_Berlin,,ok,,,,,2013/08/01
 "Humboldt University of Berlin","Humboldt University of Berlin",,http://dbpedia.org/resource/Humboldt_University_of_Berlin,,ok,,,TRUE,,2013/09/03
+"Humboldt University, Berlin","Humboldt University of Berlin",,http://dbpedia.org/resource/Humboldt_University_of_Berlin,,ok,,,,,2013/08/01
 Hypios,Hypios,,,,man,,,,,2013/09/03
 IAA-CSIC,IAA-CSIC,,,,man,,,TRUE,,2013/09/09
 IBM,IBM,,http://dbpedia.org/resource/IBM,,ok,,,,,2013/08/01
-"IBM China Research Laboratory","IBM China Research Laboratory",,,,ok,,,,,2013/08/01
 "IBM Research - China","IBM China Research Laboratory",,,,man,,,,,2013/09/04
+"IBM China Research Laboratory","IBM China Research Laboratory",,,,ok,,,,,2013/08/01
 "IBM Research Lab , Haifa, Israel","IBM Haifa Research Laboratory",,http://dbpedia.org/resource/IBM_Haifa_Research_Laboratory,,man,,,TRUE,,2013/09/03
 "IBM Research","IBM Research",,http://dbpedia.org/resource/IBM_Research,,ok,,,,,2013/08/01
 "IBM T.J. Watson Research Center","IBM Thomas J. Watson Research Center",,http://dbpedia.org/resource/Thomas_J._Watson_Research_Center,,ok,,,,,2013/08/01
@@ -347,17 +346,13 @@ ILOG,ILOG,,http://dbpedia.org/resource/ILOG,,ok,,,,,2013/08/01
 Ingenta,Ingenta,,http://dbpedia.org/resource/Ingenta,,ok,,,,,2013/09/03
 "Inoveon, Inc.","Inoveon, Inc.",,,,man,,,,,2013/09/05
 INRIA,INRIA,,http://dbpedia.org/resource/National_Institute_for_Research_in_Computer_Science_and_Control,,man,,,,,2013/08/01
-"INRIA and LIG","INRIA & LIG",,,,man,,,,,2013/09/09
-"INRIA & LIG","INRIA & LIG",,,,man,,,,,2013/09/03
+"INRIA Rhône-Alpes","INRIA Rhône-Alpes",,http://dbpedia.org/resource/National_Institute_for_Research_in_Computer_Science_and_Control,,man,,,,,2013/08/01
 "INRIA Alpes","INRIA Rhône-Alpes",,http://dbpedia.org/resource/National_Institute_for_Research_in_Computer_Science_and_Control,,ok,,,,,2013/08/01
 "INRIA Rhone-Alpes","INRIA Rhône-Alpes",,http://dbpedia.org/resource/National_Institute_for_Research_in_Computer_Science_and_Control,,ok,,,,,2013/08/01
-"INRIA Rhône-Alpes","INRIA Rhône-Alpes",,http://dbpedia.org/resource/National_Institute_for_Research_in_Computer_Science_and_Control,,man,,,,,2013/08/01
 "INRIA Rhône-Alpes","INRIA Rhône-Alpes",,http://dbpedia.org/resource/National_Institute_for_Research_in_Computer_Science_and_Control,,ok,,,,,2013/08/01
 "INRIA, Rhône-Alpes","INRIA Rhône-Alpes",,http://dbpedia.org/resource/National_Institute_for_Research_in_Computer_Science_and_Control,,ok,,,,,2013/08/01
 "INRIA Sophia Antipolis","INRIA Sophia Antipolis",,http://dbpedia.org/resource/Sophia_Antipolis,,man,,,,,2013/09/04
 "WIMMICS, INRIA Sophia Antipolis - Méditerranée","INRIA Sophia Antipolis",,,,man,,,,,2013/09/04
-"INRIA & Universit, de Grenoble 1","INRIA & University of Grenoble",,,,man,,,,,2013/09/04
-"INRIA & University of Grenoble","INRIA & University of Grenoble",,,,man,,,,,2013/09/03
 INSEE,INSEE,,http://dbpedia.org/resource/INSEE,,ok,,,,,2013/08/01
 "Institute for Infocomm Research","Institute for Infocomm Research",,,,ok,,,,,2013/08/01
 "Institute for Theoretical Computer Science","Institute for Theoretical Computer Science",,http://dbpedia.org/resource/Institute_for_Theoretical_Computer_Science,,ok,,,,,2013/08/01
@@ -372,21 +367,23 @@ IPGems,IPGems,,,,ok,,,,,2013/08/01
 "IRIN, University Nantes","IRIN, University of Nantes",,,,man,,,,,2013/08/01
 IRIT,IRIT,,,,man,,,,,2013/09/04
 "Information Sciences Institute",ISI/USC,,http://dbpedia.org/resource/Information_Sciences_Institute,,man,,,,,2013/09/04
-"Information Sciences Institute, University of Southern California",ISI/USC,,,,ok,,,TRUE,,2013/09/03
 "Information Sciences Institute,University of Southern California",ISI/USC,,http://dbpedia.org/resource/Information_Sciences_Institute,,ok,,,,,2013/08/01
-ISI,ISI/USC,,http://dbpedia.org/resource/Information_Sciences_Institute,,ok-disambiguates,,http://dbpedia.org/resource/Institute_for_Scientific_Interchange,,,2013/08/01
 "ISI, University of Southern California",ISI/USC,,http://dbpedia.org/resource/Information_Sciences_Institute,,ok,,,,,2013/08/01
 "USC Information Sciences Institute",ISI/USC,,http://dbpedia.org/resource/Information_Sciences_Institute,,ok,,,,,2013/08/01
 "USC ISI",ISI/USC,,http://dbpedia.org/resource/Information_Sciences_Institute,,ok,,,,,2013/08/01
 USC/ISI,ISI/USC,,http://dbpedia.org/resource/Information_Sciences_Institute,,ok,,,,,2013/08/01
+ISI,ISI/USC,,http://dbpedia.org/resource/Information_Sciences_Institute,,ok-disambiguates,,http://dbpedia.org/resource/Institute_for_Scientific_Interchange,,,2013/08/01
+"USC/Information Sciences Institute",ISI/USC,,,,man,,,TRUE,,2013/09/26
+"Information Sciences Institute, University of Southern California",ISI/USC,,,,ok,,,TRUE,,2013/09/03
 "Intelligent Software Components (iSOCO) S.A.","iSOCO, S.A.","Intelligent Software Components S.A.",,,ok,,,,,2013/08/01
 ISOCO,"iSOCO, S.A.",,,http://www.isoco.com/home,ok,,,,,2013/08/01
 iSOCO,"iSOCO, S.A.",,,http://www.isoco.com/home,ok,,,,,2013/08/01
 iSoco,"iSOCO, S.A.",,,http://www.isoco.com/home,ok,,,,,2013/08/01
-"iSOCO, Intelligent Software Components","iSOCO, S.A.",,,,ok,,,,,2013/08/01
 "iSOCO S.A.","iSOCO, S.A.",,,http://www.isoco.com/home,ok,,,,,2013/08/01
-CNR-ISTC,ISTC-CNR,,,,ok,,,,,2013/08/01
+"iSOCO, Intelligent Software Components","iSOCO, S.A.",,,,ok,,,,,2013/08/01
 ISTC-CNR,ISTC-CNR,,,http://www.istc.cnr.it,ok,,,,,2013/08/01
+"CNR Institute of Cognitive Sciences and Technology",ISTC-CNR,,,,man,,,,,2013/09/26
+CNR-ISTC,ISTC-CNR,,,,ok,,,,,2013/08/01
 "STLab (ISTC-CNR)",ISTC-CNR,,,,ok,,,,,2013/08/01
 "STLab, ISTC-CNR",ISTC-CNR,,,,ok,,,,,2013/08/01
 ISTI-CNR,ISTI-CNR,,,,ok,,,,,2013/08/01
@@ -422,15 +419,11 @@ KAIST,KAIST,,http://dbpedia.org/resource/KAIST,,ok,,,TRUE,,2013/09/03
 "Keck Labs","Keck Labs",,,http://www.kecklabs.com/keck.html,man,,,,,2013/09/05
 "Keio University","Keio University",,http://dbpedia.org/resource/Keio_University,,ok,,,,,2013/08/01
 Kestrel,Kestrel,,,,man,,,,,2013/08/01
+"Knowledge Media Institute, the Open University","Kmi, The Open University",,,,man,,,TRUE,,2013/09/04
+"Knowledge Media Institute","KMi, The Open University",,,,man,,,,,2013/09/04
 KMI,"KMi, The Open University",,,,man-short,,,TRUE,,2013/08/01
 "KMi, The Open University","KMi, The Open University",,,,man-short,,,,,2013/08/01
-"Knowledge Media Institute","KMi, The Open University",,,,man,,,,,2013/09/04
-"Knowledge Media Institute, the Open University","Kmi, The Open University",,,,man,,,TRUE,,2013/09/04
 "Knowledge Media Institute, The Open University","KMi, The Open University",,,,man-short,,,,,2013/08/01
-"Kno.e.sis Center, Wright State University","Kno.e.sis, Wright State University",,,,ok,,,,,2013/08/01
-"Kno.e.sis Center,Wright State University","Kno.e.sis, Wright State University",,,,ok,,,,,2013/08/01
-"Knoesis Center, Wright State University","Kno.e.sis, Wright State University",,,,man,,,,,2013/09/04
-"Kno.e.sis Center, Wright State University, Dayton, Ohio","Kno.e.sis, Wright State University",,,,ok,,,,,2013/09/09
 Know-Center,Know-Center,,,,ok,,,,,2013/08/01
 "Knowledge Synergy","Knowledge Synergy",,,,ok,,,,,2013/08/01
 "KSL, Stanford University","Knowledge Systems Laboratory",,http://dbpedia.org/resource/Knowledge_Systems_Laboratory,,ok,,,,,2013/08/01
@@ -458,12 +451,14 @@ LastMileServices,LastMileServices,,,,ok,,,,,2013/08/01
 "University Laval","Laval University",,http://dbpedia.org/resource/Universit%C3%A9_Laval,,ok,,,,,2013/08/01
 "Lawrence Livermore National Labs","Lawrence Livermore National Laboratory",,http://dbpedia.org/resource/Lawrence_Livermore_National_Laboratory,,ok,,,,,2013/08/01
 "Lehigh University","Lehigh University",,http://dbpedia.org/resource/Lehigh_University,,ok,,,,,2013/08/01
-"Universität Leipzig","Leipzig University",,http://dbpedia.org/resource/University_of_Leipzig,,ok,,,TRUE,,2013/08/01
 "Universitat Leipzig, IFI/AKSW, PO 100920, D-04009 Leipzig","Leipzig University",,http://dbpedia.org/resource/University_of_Leipzig,,man,,,,,2013/09/09
-"University Leipzig","Leipzig University",,http://dbpedia.org/resource/University_of_Leipzig,,ok,,,,,2013/08/01
-"University of Leipzig","Leipzig University",,http://dbpedia.org/resource/University_of_Leipzig,,ok,,,,,2013/08/01
 "University of Leipzig, AKSW Group","Leipzig University",,http://dbpedia.org/resource/University_of_Leipzig,,man,,,,,2013/09/09
 "University of Leipzip","Leipzig University",,http://dbpedia.org/resource/University_of_Leipzig,,man,,,,,2013/09/09
+"Universität Leipzig","Leipzig University",,http://dbpedia.org/resource/University_of_Leipzig,,ok,,,TRUE,,2013/08/01
+"University Leipzig","Leipzig University",,http://dbpedia.org/resource/University_of_Leipzig,,ok,,,,,2013/08/01
+"University of Leipzig","Leipzig University",,http://dbpedia.org/resource/University_of_Leipzig,,ok,,,,,2013/08/01
+AKSW,"Leipzig University",,,http://aksw.org/,man-short,,,,,2013/09/03
+"AKSW Group","Leipzig University",,,http://aksw.org/,man-short,,,,,2013/08/01
 "LEKS/CNR Roma","LEKS/CNR Roma",,,,ok,,,,,2013/08/01
 Lingomotors,Lingomotors,,,,man,,,,,2013/08/01
 "Linköping University","Linköping University",,http://dbpedia.org/resource/Link%C3%B6ping_University,,ok,,,TRUE,,2013/08/01
@@ -471,14 +466,12 @@ LMS,LMS,,,,man,,,,,2013/08/01
 LOA-CNR,LOA-CNR,,,,ok,,,,,2013/08/01
 "Lockheed Martin","Lockheed Martin",,http://dbpedia.org/resource/Lockheed_Martin,,ok,,,TRUE,,2013/09/03
 "London Borough of Camden","London Borough of Camden",,http://dbpedia.org/resource/London_Borough_of_Camden,,ok,,,,,2013/08/01
-LORIA-INRIA,LORIA-INRIA,,,,ok,,,,,2013/09/04
-LORIA,"LORIA, University of Nancy",,,http://www.loria.fr/le-loria-1-en,man,,,,,2013/08/01
-"LORIA, University Nancy","LORIA, University of Nancy",,,http://www.loria.fr/le-loria-1-en,man,,,,,2013/08/01
+LORIA,LORIA,,,http://www.loria.fr/le-loria-1-en,man,,,,,2013/08/01
 LSIS-CNRS,LSIS-CNRS,,,,ok,,,,,2013/08/01
 Lucent,Lucent,,http://dbpedia.org/resource/Lucent,,ok,,,,,2013/08/01
 "Lucent Technologies",Lucent,,http://dbpedia.org/resource/Lucent,,ok,,,,,2013/08/01
-"Ludwig Maximilians University of Munich","Ludwig Maximilian University of Munich",,http://dbpedia.org/resource/Ludwig_Maximilian_University_of_Munich,,ok,,,TRUE,,2013/09/03
 "University of Mynuch","Ludwig Maximilian University of Munich",,http://dbpedia.org/resource/Ludwig_Maximilian_University_of_Munich,,man,,,,,2013/09/03
+"Ludwig Maximilians University of Munich","Ludwig Maximilian University of Munich",,http://dbpedia.org/resource/Ludwig_Maximilian_University_of_Munich,,ok,,,TRUE,,2013/09/03
 "University of Lyon 2","Lumière University Lyon 2",,http://dbpedia.org/resource/Lumi%C3%A8re_University_Lyon_2,,ok,,,,,2013/08/01
 "Maastricht University","Maastricht University",,http://dbpedia.org/resource/Maastricht_University,,ok,,,TRUE,,2013/09/09
 "Macgregor Group","Macgregor Group",,,,ok,,,,,2013/08/01
@@ -498,10 +491,11 @@ MIT,"Massachusetts Institute of Technology",,http://dbpedia.org/resource/Massach
 Memect,Memect,,,,man,,,,,2013/09/04
 Metaweb,Metaweb,,http://dbpedia.org/resource/Metaweb,,ok,,,TRUE,,2013/09/03
 "Michigan State University","Michigan State University",,http://dbpedia.org/resource/Michigan_State_University,,ok,,,TRUE,,2013/09/05
+Microsoft,Microsoft,,http://dbpedia.org/resource/Microsoft,,ok,,,TRUE,,2013/09/26
 "Microsoft Research","Microsoft Research",,http://dbpedia.org/resource/Microsoft_Research,,ok,,,,,2013/08/01
 MIG-INRA,MIG-INRA,,,,ok,,,,,2013/08/01
-"MITRE Corporation","Mitre Corporation",,http://dbpedia.org/resource/Mitre_Corporation,,ok,,,,,2013/08/01
 "The MITRE Corporation","Mitre Corporation",,http://dbpedia.org/resource/Mitre_Corporation,,ok,,,TRUE,,2013/08/01
+"MITRE Corporation","Mitre Corporation",,http://dbpedia.org/resource/Mitre_Corporation,,ok,,,,,2013/08/01
 "MIT Sloan School of Management","MIT Sloan School of Management",,http://dbpedia.org/resource/MIT_Sloan_School_of_Management,,ok,,,TRUE,,2013/09/03
 "Mizogushi Lab, Osaka","Mizogushi Lab, Osaka",,,,ok,,,,,2013/08/01
 "MODUL University Vienna","MODUL University Vienna",,,,ok,,,,,2013/08/01
@@ -515,20 +509,20 @@ Motorola,Motorola,,http://dbpedia.org/resource/Motorola,,ok,,,,,2013/08/01
 "Nanchang Hangkong University","Nanchang Hangkong University",,,,man,,,TRUE,,2013/09/04
 "Nanjing University","Nanjing University",,http://dbpedia.org/resource/Nanjing_University,,ok,,,TRUE,,2013/08/01
 NASA,NASA,,http://dbpedia.org/resource/NASA,,ok,,,,,2013/08/01
-"NASA Ames","NASA Ames Research Center",,http://dbpedia.org/resource/Ames_Research_Center,,ok,,,,,2013/08/01
 "NASA Ames Research Center","NASA Ames Research Center",,http://dbpedia.org/resource/Ames_Research_Center,,ok,,,TRUE,,2013/09/04
+"NASA Ames","NASA Ames Research Center",,http://dbpedia.org/resource/Ames_Research_Center,,ok,,,,,2013/08/01
 "National and Kapodistrian University of Athens","National and Kapodistrian University of Athens",,http://dbpedia.org/resource/National_and_Kapodistrian_University_of_Athens,,ok,,,TRUE,,2013/09/03
 AIST,"National Insititute of Advanced Industrial Science and Technology (Japan)",,http://dbpedia.org/resource/National_Institute_of_Advanced_Industrial_Science_and_Technology,,man,,,TRUE,,2013/09/04
 "National Insititute of Advanced Industrial Science and Technology","National Insititute of Advanced Industrial Science and Technology (Japan)",,http://dbpedia.org/resource/National_Institute_of_Advanced_Industrial_Science_and_Technology,,man,,,TRUE,,2013/09/04
 "National Institute of Advanced Industrial Science","National Insititute of Advanced Industrial Science and Technology (Japan)",,http://dbpedia.org/resource/National_Institute_of_Advanced_Industrial_Science_and_Technology,,ok,,,,,2013/08/01
 "National Institute of Advanced Industrial Science and Technology","National Insititute of Advanced Industrial Science and Technology (Japan)",,http://dbpedia.org/resource/National_Institute_of_Advanced_Industrial_Science_and_Technology,,ok,,,,,2013/08/01
+NII,"National Institute of Informatics",,http://dbpedia.org/resource/National_Institute_of_Informatics,,man,,,,,2013/08/01
 "National Institute for Informatics","National Institute of Informatics",,http://dbpedia.org/resource/National_Institute_of_Informatics,,ok,,,,,2013/08/01
 "National Institute of Informatics","National Institute of Informatics",,http://dbpedia.org/resource/National_Institute_of_Informatics,,ok,,,,,2013/08/01
-NII,"National Institute of Informatics",,http://dbpedia.org/resource/National_Institute_of_Informatics,,man,,,,,2013/08/01
 NICT,"National Institute of Information and Communications Technology",,http://dbpedia.org/resource/National_Institute_of_Information_and_Communications_Technology,,ok,,,,,2013/09/03
 NIWA,"National Institute of Water and Atmospheric Research",,http://dbpedia.org/resource/National_Institute_of_Water_and_Atmospheric_Research,,ok,,,,,2013/08/01
-"National Library of Medicine","National Library of Medicine",,http://dbpedia.org/resource/United_States_National_Library_of_Medicine,,ok,,,,,2013/08/01
 NLM,"National Library of Medicine",,http://dbpedia.org/resource/United_States_National_Library_of_Medicine,,man,,,,,2013/08/01
+"National Library of Medicine","National Library of Medicine",,http://dbpedia.org/resource/United_States_National_Library_of_Medicine,,ok,,,,,2013/08/01
 "National Observatory of Athens","National Observatory of Athens",,http://dbpedia.org/resource/National_Observatory_of_Athens,,ok,,,,,2013/09/03
 "National Research Centre","National Research Centre",,,,ok,,,,,2013/08/01
 "National Research Council","National Research Council",,http://dbpedia.org/resource/United_States_National_Research_Council,,ok-disambiguates,,,,,2013/08/01
@@ -551,9 +545,9 @@ NIH,NIH,,http://dbpedia.org/resource/National_Institutes_of_Health,,man,,,,,2013
 NIST,NIST,,http://dbpedia.org/resource/National_Institute_of_Standards_and_Technology,,man,,,,,2013/08/01
 Nisus,"Nisus Inc.",,,,man,,,,,2013/08/01
 "Nisus Inc.","Nisus Inc.",,,,ok,,,,,2013/08/01
+"Nokia Services",Nokia,,http://dbpedia.org/resource/Nokia,,ok,,,TRUE,,2013/08/01
 Nokia,Nokia,,http://dbpedia.org/resource/Nokia,,ok,,,,,2013/08/01
 NOKIA,Nokia,,http://dbpedia.org/resource/Nokia,,ok,,,,,2013/08/01
-"Nokia Services",Nokia,,http://dbpedia.org/resource/Nokia,,ok,,,TRUE,,2013/08/01
 "NOKIA Research","Nokia Research",,,,ok,,,,,2013/08/01
 "Nokia Research","Nokia Research",,,,ok,,,,,2013/08/01
 "Nokia Research Center","Nokia Research",,,,ok,,,,,2013/08/01
@@ -572,6 +566,7 @@ Nuance,"Nuance Communications",,http://dbpedia.org/resource/Nuance_Communication
 OASIS,Oasis,,,,ok,,,,,2013/08/01
 OCLC,OCLC,,http://dbpedia.org/resource/Online_Computer_Library_Center,,man-short,,,,,2013/09/03
 "OCLC Research",OCLC,,http://dbpedia.org/resource/Online_Computer_Library_Center,,man-short,,,,,2013/08/01
+OntoForce,OntoForce,,,,man,,,,,2013/09/26
 "On To Knowkledge","On To Knowkledge",,,,ok,,,,,2013/08/01
 Ontopia,Ontopia,,,,ok,,,,,2013/08/01
 Ontoprise,"Ontoprise GmbH",,,,ok,,,,,2013/08/01
@@ -601,8 +596,8 @@ ParadigmLeaps.org,ParadigmLeaps.org,,,,man,,,,,2013/09/05
 "LIASD-LINC, University Paris 8, IUT of Montreuil","Paris 8 University",,http://dbpedia.org/resource/Paris_8_University,,man,,,,,2013/09/09
 "LIASD, University Paris 8, IUT de Montreuil","Paris 8 University",,http://dbpedia.org/resource/Paris_8_University,,man,,,,,2013/09/09
 "University of Paris-Dauphine","Paris Dauphine University",,http://dbpedia.org/resource/Paris_Dauphine_University,,ok,,,,,2013/08/01
-"Hypios & STIH, Universit, Paris-Sorbonne","Paris-Sorbonne University",,http://dbpedia.org/resource/Paris-Sorbonne_University,,man,,,,,2013/09/04
 "Université Paris-Sorbonne","Paris-Sorbonne University",,http://dbpedia.org/resource/Paris-Sorbonne_University,,man,,,TRUE,,2013/09/04
+"Hypios & STIH, Universit, Paris-Sorbonne","Paris-Sorbonne University",,http://dbpedia.org/resource/Paris-Sorbonne_University,,man,,,,,2013/09/04
 "Partners HealthCare System, Inc.","Partners HealthCare System, Inc.",,,,ok,,,,,2013/08/01
 PeerIndex,PeerIndex,,,,ok,,,TRUE,,2013/08/01
 "Pennsylvania State University","Pennsylvania State University",,http://dbpedia.org/resource/Pennsylvania_State_University,,ok,,,TRUE,,2013/09/03
@@ -613,8 +608,8 @@ Philips,Philips,,http://dbpedia.org/resource/Philips,,ok,,,,,2013/08/01
 "DEI, Politecnico di Milano","Politecnico di Milano",,http://dbpedia.org/resource/Politecnico_di_Milano,,ok,,,TRUE,,2013/09/04
 "Politecnico di Milano","Politecnico di Milano",,http://dbpedia.org/resource/Politecnico_di_Milano,,ok,,,,,2013/08/01
 "Politecnico Milano","Politecnico di Milano",,http://dbpedia.org/resource/Politecnico_di_Milano,,ok,,,,,2013/08/01
-"Politecnico di Bari","Polytechnic University of Bari",,http://dbpedia.org/resource/Polytechnic_University_of_Bari,,ok,,,,,2013/08/01
 "Technical University of Bari","Polytechnic University of Bari",,http://dbpedia.org/resource/Politecnico_di_Bari,,man,,,TRUE,,2013/09/03
+"Politecnico di Bari","Polytechnic University of Bari",,http://dbpedia.org/resource/Polytechnic_University_of_Bari,,ok,,,,,2013/08/01
 "Universitat Politecnica de Catalunya","Polytechnic University of Catalonia",,http://dbpedia.org/resource/Polytechnic_University_of_Catalonia,,ok,,,,,2013/08/01
 "Universitat Politècnica de Catalunya","Polytechnic University of Catalonia",,http://dbpedia.org/resource/Polytechnic_University_of_Catalonia,,ok,,,,,2013/08/01
 "Universitat Pompeu Fabra (UPF)","Pompeu Fabra University",,http://dbpedia.org/resource/Pompeu_Fabra_University,http://en.wikipedia.org/wiki/Pompeu_Fabra_University,ok,,,,,2013/09/05
@@ -659,26 +654,26 @@ RSC,RSC,,,,man,,,,,2013/09/09
 "Saarland University","Saarland University",,http://dbpedia.org/resource/Saarland_University,,ok,,,,,2013/08/01
 "University of Saarland","Saarland University",,http://dbpedia.org/resource/Saarland_University,,ok,,,,,2013/08/01
 SAIC,SAIC,,,,man,,,TRUE,,2013/09/03
-"Department of Computer Science, Yonsei University and Mobile Communication Division, Samsung Electronics Co., Ltd","Samsung Electronics",,,,man,,,,,2013/09/04
 "Samsung Electronics","Samsung Electronics",,http://dbpedia.org/resource/Samsung_Electronics,,ok,,,TRUE,,2013/08/01
-"Samsung Information System America","Samsung Information Systems America",,,,ok,,,TRUE,,2013/08/01
+"Department of Computer Science, Yonsei University and Mobile Communication Division, Samsung Electronics Co., Ltd","Samsung Electronics",,,,man,,,,,2013/09/04
 "Samsung Information Systems America","Samsung Information Systems America",,,,man,,,TRUE,,2013/09/03
+"Samsung Information System America","Samsung Information Systems America",,,,ok,,,TRUE,,2013/08/01
 "Sandia National Laboratories","Sandia National Laboratories",,,,man,,,TRUE,,2013/09/03
 Sandpiper,"Sandpiper software",,,,man,,,,,2013/08/01
 "Sandpiper software","Sandpiper software",,,,ok,,,,,2013/08/01
 "San Jose Mercury News","San Jose Mercury News",,http://dbpedia.org/resource/San_Jose_Mercury_News,,ok,,,,,2013/08/01
 SAP,"SAP AG",,http://dbpedia.org/resource/SAP_AG,,ok,,,,,2013/08/01
-"Dipartimento di Informatica, Sapienza Università di Roma","Sapienza University of Rome",,http://dbpedia.org/resource/Sapienza_University_of_Rome,,man,,,,,2013/09/09
-"Dipartimento di Ingegneria Informatica Automatica e Gestionale Antonio Ruberti, University of Rome ""La Sapienza""","Sapienza University of Rome",,,,man,,,,,2013/09/04
-"DIS, Sapienza Universita' di Roma","Sapienza University of Rome",,http://dbpedia.org/resource/Sapienza_University_of_Rome,,ok,,,,,2013/08/01
 "Sapienza Universita di Roma","Sapienza University of Rome",,http://dbpedia.org/resource/Sapienza_University_of_Rome,,man,,,TRUE,,2013/09/04
+"Dipartimento di Informatica, Sapienza Università di Roma","Sapienza University of Rome",,http://dbpedia.org/resource/Sapienza_University_of_Rome,,man,,,,,2013/09/09
 "Sapienza Università di Roma","Sapienza University of Rome",,http://dbpedia.org/resource/Sapienza_University_of_Rome,,ok,,,TRUE,,2013/09/03
-"Sapienza - University of Rome","Sapienza University of Rome",,,,man,,,,,2013/09/04
-"Sapienza University of Rome","Sapienza University of Rome",,,,man,,,TRUE,,2013/09/04
-"University of Rome","Sapienza University of Rome",,http://dbpedia.org/resource/Sapienza_University_of_Rome,,ok-disambiguates,,,,,2013/08/01
+"DIS, Sapienza Universita' di Roma","Sapienza University of Rome",,http://dbpedia.org/resource/Sapienza_University_of_Rome,,ok,,,,,2013/08/01
 "University of Rome ""La Sapienza""","Sapienza University of Rome",,http://dbpedia.org/resource/Sapienza_University_of_Rome,,ok,,,,,2013/08/01
 "University of Rome “La Sapienza”","Sapienza University of Rome",,http://dbpedia.org/resource/Sapienza_University_of_Rome,,ok,,,,,2013/08/01
 "University Roma I","Sapienza University of Rome",,http://dbpedia.org/resource/Sapienza_University_of_Rome,,ok,,,,,2013/08/01
+"University of Rome","Sapienza University of Rome",,http://dbpedia.org/resource/Sapienza_University_of_Rome,,ok-disambiguates,,,,,2013/08/01
+"Sapienza University of Rome","Sapienza University of Rome",,,,man,,,TRUE,,2013/09/04
+"Dipartimento di Ingegneria Informatica Automatica e Gestionale Antonio Ruberti, University of Rome ""La Sapienza""","Sapienza University of Rome",,,,man,,,,,2013/09/04
+"Sapienza - University of Rome","Sapienza University of Rome",,,,man,,,,,2013/09/04
 "SAP Labs USA","SAP Labs USA",,,,man,,,TRUE,,2013/09/03
 SC4,SC4,,,,ok,,,,,2013/08/01
 SDForum,SDForum,,,,ok,,,,,2013/08/01
@@ -702,8 +697,8 @@ SJTU,"Shanghai Jiao Tong University",,http://dbpedia.org/resource/Shanghai_Jiao_
 Siderean,"Siderean Software",,,,ok,,,,,2013/08/01
 "Siderean Software","Siderean Software",,,,ok,,,,,2013/08/01
 "Siemens AG",Siemens,,http://dbpedia.org/resource/Siemens,,ok,,,TRUE,,2013/09/03
-"Siemens AG, Corporate Technology",Siemens,,,,man,,,TRUE,,2013/09/03
 "Siemens AG Österreich",Siemens,,http://dbpedia.org/resource/Siemens,,ok,,,TRUE,,2013/08/01
+"Siemens AG, Corporate Technology",Siemens,,,,man,,,TRUE,,2013/09/03
 "Universidad Simon Bolivar","Simón Bolívar University",,http://dbpedia.org/resource/Sim%C3%B3n_Bol%C3%ADvar_University,,ok,,,TRUE,,2013/08/01
 "Universidad Simon Bolivar, Dept. Computer Science","Simón Bolívar University",,http://dbpedia.org/resource/Simón_Bolívar_University,,ok,,,,,2013/08/01
 SIRMA,"Sirma AI, Ltd.",,,,ok,,,,,2013/08/01
@@ -711,8 +706,8 @@ SIRMA,"Sirma AI, Ltd.",,,,ok,,,,,2013/08/01
 Sony,Sony,,http://dbpedia.org/resource/Sony,,ok,,,,,2013/08/01
 "Southeast University","Southeast University",,http://dbpedia.org/resource/Southeast_University,,ok,,,TRUE,,2013/08/01
 "Spanish Research Council","Spanish National Research Council",,http://dbpedia.org/resource/Spanish_National_Research_Council,,ok,,,,,2013/08/01
-SpiritSoft,Spirit-Soft,,,,ok,,,,,2013/08/01
 Spirit-Soft,Spirit-Soft,,,,man,,,,,2013/08/01
+SpiritSoft,Spirit-Soft,,,,ok,,,,,2013/08/01
 Springer,Springer,,http://dbpedia.org/resource/Springer_Publishing,,ok,,,,,2013/08/01
 Sprint,Sprint,,http://dbpedia.org/resource/Sprint_Nextel,,man,,,,,2013/08/01
 "SRI Consulting Business Intelligence","SRI Consulting Business Intelligence",,,,man,,,,,2013/09/05
@@ -720,13 +715,13 @@ SRI,"SRI International",,http://dbpedia.org/resource/SRI_International,,man,,,,,
 "SRI International","SRI International",,http://dbpedia.org/resource/SRI_International,,ok,,,,,2013/08/01
 "CS, Stanford University","Stanford University",,http://dbpedia.org/resource/Stanford_University,,man,,,,,2013/08/01
 "DB, Stanford University","Stanford University",,http://dbpedia.org/resource/Stanford_University,,man,,,,,2013/08/01
-"SMI, Stanford University","Stanford University",,,,man,,,,,2013/08/01
 Stanford,"Stanford University",,http://dbpedia.org/resource/Stanford_University,,ok,,,,,2013/08/01
-"Stanford Medical Informatics, Stanford University","Stanford University",,,,man,,,,,2013/09/05
 "Stanford Univ.","Stanford University",,http://dbpedia.org/resource/Stanford_University,,ok,,,,,2013/08/01
 "Stanford University","Stanford University",,http://dbpedia.org/resource/Stanford_University,,ok,,,,,2013/08/01
 "Stanford university","Stanford University",,http://dbpedia.org/resource/Stanford_University,,ok,,,,,2013/08/01
 "Stanford, University","Stanford University",,http://dbpedia.org/resource/Stanford_University,,ok,,,,,2013/08/01
+"SMI, Stanford University","Stanford University",,,,man,,,,,2013/08/01
+"Stanford Medical Informatics, Stanford University","Stanford University",,,,man,,,,,2013/09/05
 "STI International","STI International",,,,ok,,,TRUE,,2013/08/01
 "Stokholm University","Stockholm University",,http://dbpedia.org/resource/Stockholm_University,,man,,,,,2013/08/01
 "Stony Brook University","Stony Brook University",,http://dbpedia.org/resource/Stony_Brook_University,,ok,,,TRUE,,2013/09/03
@@ -734,23 +729,23 @@ Stanford,"Stanford University",,http://dbpedia.org/resource/Stanford_University,
 "studio labo","studio labo",,,,man,,,,,2013/09/09
 "Sugar Labs","Sugar Labs",,,,ok,,,TRUE,,2013/09/03
 "University of Wales Swansea","Swansea University",,http://dbpedia.org/resource/Swansea_University,,ok,,,,,2013/08/01
-SWAP,"SWAP project",,,,ok-disambiguates,,,,,2013/08/01
 "SWAP project","SWAP project",,,,ok,,,,,2013/08/01
+SWAP,"SWAP project",,,,ok-disambiguates,,,,,2013/08/01
 "Swiss Federal Institute for Forest, Snow and Landscape Research","Swiss Federal Institute for Forest, Snow and Landscape Research",,,http://www.wsl.ch/,man,,,,,2013/09/03
 "Swiss Institute of Bioinformatics","Swiss Institute of Bioinformatics",,http://dbpedia.org/resource/Swiss_Institute_of_Bioinformatics,,ok,,,,,2013/08/01
 Systap,Systap,,,,ok,,,,,2013/09/03
 "Taalee Inc","Taalee Inc",,,,man,,,,,2013/08/01
 Talis,Talis,,http://dbpedia.org/resource/Talis,,ok,,,,,2013/09/03
 "TasLab, Informatica Trentina SpA","TasLab, Informatica Trentina SpA",,,,man,,,,,2013/09/03
-"Technical University of Munich","Technical University Munich",,http://dbpedia.org/resource/Technical_University_Munich,,ok,,,,,2013/08/01
 "Technische Universität München","Technical University Munich",,http://dbpedia.org/resource/Technical_University_Munich,,ok,,,TRUE,,2013/09/04
+"Technical University of Munich","Technical University Munich",,http://dbpedia.org/resource/Technical_University_Munich,,ok,,,,,2013/08/01
 "Technical University of Crete","Technical University of Crete",,http://dbpedia.org/resource/Technical_University_of_Crete,,ok,,,,,2013/08/01
 "Technical University of Hamburg","Technical University of Hamburg",,http://dbpedia.org/resource/Technical_University_of_Hamburg,,ok,,,TRUE,,2013/09/03
-"Ontology Group, Departamento de Inteligencia Artificial at Universidad Politécnica de Madrid","Technical University of Madrid",,http://dbpedia.org/resource/Universidad_Politécnica_de_Madrid,,ok,,,,,2013/08/01
+"Universidad Politécnica de Madrid","Technical University of Madrid",,http://dbpedia.org/resource/Technical_University_of_Madrid,,ok,,,TRUE,,2013/08/01
 "Polytechnic University of Madrid","Technical University of Madrid",,http://dbpedia.org/resource/Technical_University_of_Madrid,,ok,,,,,2013/08/01
 "Universidad Politecnica de Madrid","Technical University of Madrid",,http://dbpedia.org/resource/Technical_University_of_Madrid,,ok,,,,,2013/08/01
-"Universidad Politécnica de Madrid","Technical University of Madrid",,http://dbpedia.org/resource/Technical_University_of_Madrid,,ok,,,TRUE,,2013/08/01
 "Universidad Politecnica de Madrid(UPM)","Technical University of Madrid",,http://dbpedia.org/resource/Technical_University_of_Madrid,,ok,,,,,2013/08/01
+"Ontology Group, Departamento de Inteligencia Artificial at Universidad Politécnica de Madrid","Technical University of Madrid",,http://dbpedia.org/resource/Universidad_Politécnica_de_Madrid,,ok,,,,,2013/08/01
 UPM,"Technical University of Madrid",,http://dbpedia.org/resource/Universidad_Politécnica_de_Madrid,,ok-disambiguates,,,,,2013/08/01
 Technion,"Technion – Israel Institute of Technology",,http://dbpedia.org/resource/Technion,,ok,,,,,2013/08/01
 "Technische Universität Darmstadt","Technische Universität Darmstadt",,http://dbpedia.org/resource/Technische_Universit%C3%A4t_Darmstadt,,ok,,,TRUE,,2013/08/01
@@ -766,15 +761,15 @@ Telcordia,"Telcordia Technologies",,http://dbpedia.org/resource/Telcordia_Techno
 "Temple University","Temple University",,http://dbpedia.org/resource/Temple_University,,ok,,,,,2013/08/01
 Tenforce,Tenforce,,,,man,,,TRUE,,2013/09/03
 "Thammasat University","Thammasat University",,http://dbpedia.org/resource/Thammasat_University,,ok,,,TRUE,,2013/08/01
-"Communications, The Open University","The Open University",,,,man,,,,,2013/09/03
 "Open University","The Open University",,http://dbpedia.org/resource/Open_University,,man,,,,,2013/08/01
 "The Open University","The Open University",,http://dbpedia.org/resource/Open_University,,ok,,,,,2013/08/01
+"Communications, The Open University","The Open University",,,,man,,,,,2013/09/03
 "TNO, Netherlands","TNO, Netherlands",,,http://www.tno.nl/,ok,,,,,2013/08/01
 "Tokyo Institute of Technology","Tokyo Institute of Technology",,http://dbpedia.org/resource/Tokyo_Institute_of_Technology,,ok,,,,,2013/08/01
 TopQuadrant,"TopQuadrant Inc.",,,,ok,,,,,2013/08/01
 "TopQuadrant Inc.","TopQuadrant Inc.",,,,ok,,,,,2013/08/01
-"Corporate Research and Development Center, Toshiba",Toshiba,,,,ok,,,,,2013/08/01
 Toshiba,Toshiba,,http://dbpedia.org/resource/Toshiba,,ok,,,,,2013/08/01
+"Corporate Research and Development Center, Toshiba",Toshiba,,,,ok,,,,,2013/08/01
 Toyota,Toyota,,http://dbpedia.org/resource/Toyota,,ok,,,,,2013/08/01
 "Toyota Motor Corporation (Auditor)",Toyota,,http://dbpedia.org/resource/Toyota,,ok,,,,,2013/08/01
 "Trient Consulting Group S.r.l.","Trient Consulting Group Srl",,,http://www.trientgroup.it/,man,,,,,2013/09/03
@@ -785,8 +780,9 @@ Toyota,Toyota,,http://dbpedia.org/resource/Toyota,,ok,,,,,2013/08/01
 "U.S. Army Research Laboratory","United States Army Research Laboratory",,http://dbpedia.org/resource/United_States_Army_Research_Laboratory,,ok,,,TRUE,,2013/09/09
 "United States Naval Academy","United States Naval Academy",,http://dbpedia.org/resource/United_States_Naval_Academy,,ok,,,,,2013/08/01
 "Federal University of Espirito Santo","Universidade Federal do Espírito Santo",,,,ok,,,,,2013/08/01
-"CENTRIA, Universidade Nova de Lisboa","Universidade Nova de Lisboa",,http://dbpedia.org/resource/Universidade_Nova_de_Lisboa,,man,,,,,2013/09/04
 "Universidade Nova de Lisboa","Universidade Nova de Lisboa",,http://dbpedia.org/resource/Universidade_Nova_de_Lisboa,,man,,,TRUE,,2013/09/03
+"CENTRIA, Universidade Nova de Lisboa","Universidade Nova de Lisboa",,http://dbpedia.org/resource/Universidade_Nova_de_Lisboa,,man,,,,,2013/09/04
+"UNL FCT","Universidade Nova de Lisboa",,,,man,,,TRUE,,2013/09/26
 "Université de Montréal","Université de Montréal",,http://dbpedia.org/resource/Universit%C3%A9_de_Montr%C3%A9al,,ok,,,TRUE,,2013/09/03
 "University of Namur","Université de Namur",,,,ok,,,,,2013/08/01
 "Université Libre de Bruxelles","Université libre de Bruxelles",,http://dbpedia.org/resource/Universit%C3%A9_libre_de_Bruxelles,,ok,,,TRUE,,2013/09/03
@@ -797,29 +793,30 @@ Toyota,Toyota,,http://dbpedia.org/resource/Toyota,,ok,,,,,2013/08/01
 "University Amsterdam","University of Amsterdam",,http://dbpedia.org/resource/University_of_Amsterdam,,ok,,,,,2013/08/01
 "University of Amsterdam","University of Amsterdam",,http://dbpedia.org/resource/University_of_Amsterdam,,ok,,,,,2013/08/01
 "University of Applied Science Northweastern Switzerland","University of Applied Science Northweastern Switzerland",,,,ok,,,,,2013/08/01
+"University of Applied Sciences Western Switzerland","University of Applied Sciences and Arts Western Switzerland",,http://dbpedia.org/resource/University_of_Applied_Sciences_Western_Switzerland,http://www.hes-so.ch/,man,,,TRUE,,2013/09/03
 "University of Applied Sciences and Arts Northwestern Switzerland","University of Applied Sciences and Arts Western Switzerland",,,http://www.fhnw.ch/,man,,,,,2013/09/03
 "University of Applied Sciences Northwestern Switzerland","University of Applied Sciences and Arts Western Switzerland",,,,ok,,,,,2013/08/01
-"University of Applied Sciences Western Switzerland","University of Applied Sciences and Arts Western Switzerland",,http://dbpedia.org/resource/University_of_Applied_Sciences_Western_Switzerland,http://www.hes-so.ch/,man,,,TRUE,,2013/09/03
 "University of Arizona","University of Arizona",,http://dbpedia.org/resource/University_of_Arizona,,ok,,,,,2013/08/01
 UALR,"University of Arkansas at Little Rock",,http://dbpedia.org/resource/University_of_Arkansas_at_Little_Rock,,ok,,,TRUE,,2013/09/03
 UAMS,"University of Arkansas for Medical Sciences",,http://dbpedia.org/resource/University_of_Arkansas_for_Medical_Sciences,,ok,,,TRUE,,2013/09/03
-"Centre for eResearch and SGGES, University of Auckland","University of Auckland",,,,man,,,,,2013/09/04
 "The University of Auckland","University of Auckland",,http://dbpedia.org/resource/University_of_Auckland,,ok,,,TRUE,,2013/08/01
 "University of Auckland","University of Auckland",,http://dbpedia.org/resource/University_of_Auckland,,ok,,,TRUE,,2013/09/09
+"Centre for eResearch and SGGES, University of Auckland","University of Auckland",,,,man,,,,,2013/09/04
 "Dipartimento di Informatica - University of Bari","University of Bari",,http://dbpedia.org/resource/University_of_Bari,,man,,,,,2013/09/09
 "University of Bari","University of Bari",,http://dbpedia.org/resource/University_of_Bari,,ok,,,TRUE,,2013/08/01
 "University of Bergen","University of Bergen",,http://dbpedia.org/resource/University_of_Bergen,,ok,,,,,2013/08/01
 "University of Birmingham","University of Birmingham",,http://dbpedia.org/resource/University_of_Birmingham,,ok,,,TRUE,,2013/08/01
-"DEIS, University of Bologna","University of Bologna",,http://dbpedia.org/resource/University_of_Bologna,,ok,,,,,2013/09/09
 "University of Bologna","University of Bologna",,http://dbpedia.org/resource/University_of_Bologna,,ok,,,TRUE,,2013/09/03
 "University of Bologna","University of Bologna",,http://dbpedia.org/resource/University_of_Bologna,,ok,,,TRUE,,2013/09/03
+"DEIS, University of Bologna","University of Bologna",,http://dbpedia.org/resource/University_of_Bologna,,ok,,,,,2013/09/09
 "Univ. of Bologna","University of Bologna",,http://dbpedia.org/resource/University_of_Bologna,,ok,,,,,2013/09/04
 "Universitaet Bremen","University of Bremen",,http://dbpedia.org/resource/University_of_Bremen,,ok,,,TRUE,,2013/09/09
 "Universität Bremen","University of Bremen",,http://dbpedia.org/resource/University_of_Bremen,,ok,,,TRUE,,2013/09/09
-"Universitat Bremen TZI","University of Bremen",,http://dbpedia.org/resource/University_of_Bremen,,ok,,,,,2013/08/01
 "University of Bremen","University of Bremen",,http://dbpedia.org/resource/University_of_Bremen,,ok,,,TRUE,,2013/09/03
+"Universitat Bremen TZI","University of Bremen",,http://dbpedia.org/resource/University_of_Bremen,,ok,,,,,2013/08/01
 "University of Bremen","University of Bremen",,http://dbpedia.org/resource/University_of_Bremen,,ok,,,,,2013/08/01
 Universit`,"University of Brescia",,http://dbpedia.org/resource/University_of_Brescia,,ok,,,,,2013/08/01
+"University of Brighton","University of Brighton",,http://dbpedia.org/resource/University_of_Brighton,,ok,,,TRUE,,2013/09/26
 "Bristol University","University of Bristol",,http://dbpedia.org/resource/University_of_Bristol,,ok,,,,,2013/08/01
 "University of Bristol","University of Bristol",,http://dbpedia.org/resource/University_of_Bristol,,ok,,,,,2013/08/01
 "Universitá di Cagliari","University of Cagliari",,http://dbpedia.org/resource/University_of_Cagliari,,ok,,,,,2013/08/01
@@ -873,13 +870,13 @@ UIUC,"University of Illinois at Urbana–Champaign",,http://dbpedia.org/resource
 "University of Innsbruck","University of Innsbruck",,http://dbpedia.org/resource/University_of_Innsbruck,,ok,,,,,2013/08/01
 "Univ. Innsbruck","University of Innsbruck",,http://dbpedia.org/resource/University_of_Innsbruck,,ok,,,,,2013/08/01
 "University of Ioannina","University of Ioannina",,http://dbpedia.org/resource/University_of_Ioannina,,ok,,,,,2013/08/01
-"Knowledge & Data Engineering Group, University of Kassel","University of Kassel",,,,man,,,TRUE,,2013/09/04
 "University of Kassel","University of Kassel",,http://dbpedia.org/resource/University_of_Kassel,,ok,,,,,2013/08/01
+"Knowledge & Data Engineering Group, University of Kassel","University of Kassel",,,,man,,,TRUE,,2013/09/04
 "University of Kentucky","University of Kentucky",,http://dbpedia.org/resource/University_of_Kentucky,,ok,,,TRUE,,2013/09/03
-"University of Koblenz","University of Koblenz and Landau",,http://dbpedia.org/resource/University_of_Koblenz_and_Landau,,ok,,,,,2013/08/01
 "University of Koblenz and Landau","University of Koblenz and Landau",,http://dbpedia.org/resource/University_of_Koblenz_and_Landau,,ok,,,TRUE,,2013/09/03
 "University of Koblenz-Landau","University of Koblenz and Landau",,http://dbpedia.org/resource/University_of_Koblenz_and_Landau,,ok,,,TRUE,,2013/08/01
 University of Koblenz-Landau,"University of Koblenz and Landau",,http://dbpedia.org/resource/University_of_Koblenz_and_Landau,,ok,,,TRUE,,2013/09/03
+"University of Koblenz","University of Koblenz and Landau",,http://dbpedia.org/resource/University_of_Koblenz_and_Landau,,ok,,,,,2013/08/01
 University of L'Aquila,"University of L'Aquila",,http://dbpedia.org/resource/University_of_L'Aquila,,ok,,,TRUE,,2013/09/03
 "Univeristy of Lausanne","University of Lausanne",,http://dbpedia.org/resource/University_of_Lausanne,,ok,,,,,2013/08/01
 "Leeds University","University of Leeds",,http://dbpedia.org/resource/University_of_Leeds,,ok,,,,,2013/08/01
@@ -893,39 +890,39 @@ University of L'Aquila,"University of L'Aquila",,http://dbpedia.org/resource/U
 "Univ. Lyon","University of Lyon",,http://dbpedia.org/resource/University_of_Lyon,,ok,,,,,2013/08/01
 "University of Madeira","University of Madeira",,http://dbpedia.org/resource/University_of_Madeira,,ok,,,,,2013/08/01
 "University of Maine","University of Maine",,http://dbpedia.org/resource/University_of_Maine,,ok,,,,,2013/08/01
-"Manchester University","University of Manchester",,http://dbpedia.org/resource/University_of_Manchester,,ok,,,,,2013/08/01
-"The University of Manchester","University of Manchester",,http://dbpedia.org/resource/University_of_Manchester,,ok,,,TRUE,,2013/08/01
-"University of Manchester","University of Manchester",,http://dbpedia.org/resource/University_of_Manchester,,ok,,,,,2013/08/01
 "University of M anchester","University of Manchester",,http://dbpedia.org/resource/University_of_Manchester,,man,,,,,2013/08/01
+"The University of Manchester","University of Manchester",,http://dbpedia.org/resource/University_of_Manchester,,ok,,,TRUE,,2013/08/01
+"Manchester University","University of Manchester",,http://dbpedia.org/resource/University_of_Manchester,,ok,,,,,2013/08/01
+"University of Manchester","University of Manchester",,http://dbpedia.org/resource/University_of_Manchester,,ok,,,,,2013/08/01
 "University of Mannheim","University of Mannheim",,http://dbpedia.org/resource/University_of_Mannheim,,ok,,,TRUE,,2013/08/01
 "University of mannheim","University of Mannheim",,http://dbpedia.org/resource/University_of_Mannheim,,ok,,,TRUE,,2013/09/09
+"University of Maryland,Baltimore County","University of Maryland, Baltimore County",,"http://dbpedia.org/resource/University_of_Maryland,_Baltimore_County",,ok,,,TRUE,,2013/08/01
 UMBC,"University of Maryland, Baltimore County",,"http://dbpedia.org/resource/University_of_Maryland,_Baltimore_County",,ok,,,,,2013/08/01
 "University Maryland Baltimore County","University of Maryland, Baltimore County",,"http://dbpedia.org/resource/University_of_Maryland,_Baltimore_County",,ok,,,,,2013/08/01
 "University of Maryland Baltimore County","University of Maryland, Baltimore County",,"http://dbpedia.org/resource/University_of_Maryland,_Baltimore_County",,ok,,,,,2013/08/01
 "University of Maryland-Baltimore County","University of Maryland, Baltimore County",,"http://dbpedia.org/resource/University_of_Maryland,_Baltimore_County",,ok,,,,,2013/08/01
 "University of Maryland, Baltimore County","University of Maryland, Baltimore County",,"http://dbpedia.org/resource/University_of_Maryland,_Baltimore_County",,ok,,,,,2013/08/01
-"University of Maryland,Baltimore County","University of Maryland, Baltimore County",,"http://dbpedia.org/resource/University_of_Maryland,_Baltimore_County",,ok,,,TRUE,,2013/08/01
+"University of Maryland, College Park","University of Maryland, College Park",,"http://dbpedia.org/resource/University_of_Maryland,_College_Park",,ok,,,TRUE,,2013/09/09
 "University Maryland","University of Maryland, College Park",,"http://dbpedia.org/resource/University_of_Maryland,_College_Park",,ok,,,,,2013/08/01
 "University of Maryland","University of Maryland, College Park",,"http://dbpedia.org/resource/University_of_Maryland,_College_Park",,ok,,,,,2013/08/01
 "University of Maryland College Park","University of Maryland, College Park",,"http://dbpedia.org/resource/University_of_Maryland,_College_Park",,ok,,,,,2013/08/01
-"University of Maryland, College Park","University of Maryland, College Park",,"http://dbpedia.org/resource/University_of_Maryland,_College_Park",,ok,,,TRUE,,2013/09/09
 "Università degli Studi di Milano","University of Milan",,http://dbpedia.org/resource/University_of_Milan,,ok,,,TRUE,,2013/09/09
 "University of Milano-Bicocca","University of Milan Bicocca",,,,ok,,,,,2013/08/01
 "University of Minnesota","University of Minnesota",,http://dbpedia.org/resource/University_of_Minnesota,,ok,,,,,2013/08/01
-"University of Modena","University of Modena and Reggio Emilia",,http://dbpedia.org/resource/University_of_Modena_and_Reggio_Emilia,,ok,,,,,2013/08/01
 "University of Modena and Reggio Emilia","University of Modena and Reggio Emilia",,http://dbpedia.org/resource/University_of_Modena_and_Reggio_Emilia,,ok,,,TRUE,,2013/09/03
+"University of Modena","University of Modena and Reggio Emilia",,http://dbpedia.org/resource/University_of_Modena_and_Reggio_Emilia,,ok,,,,,2013/08/01
 "LIRMM, University of Montpellier","University of Montpellier",,http://dbpedia.org/resource/University_of_Montpellier,,ok,,,,,2013/08/01
 "Institute for Informatics, University of Munich","University of Munich",,http://dbpedia.org/resource/Ludwig_Maximilian_University_of_Munich,,ok,,,,,2013/08/01
 "Ludwig Maximilian University of Munich","University of Munich",,http://dbpedia.org/resource/Ludwig_Maximilian_University_of_Munich,,ok,,,,,2013/08/01
-"University of Muenster","University of Münster",,http://dbpedia.org/resource/University_of_M%C3%BCnster,,ok,,,,,2013/08/01
 "University of Münster","University of Münster",,http://dbpedia.org/resource/University_of_M%C3%BCnster,,ok,,,TRUE,,2013/08/01
+"University of Muenster","University of Münster",,http://dbpedia.org/resource/University_of_M%C3%BCnster,,ok,,,,,2013/08/01
 "IRIN, Université de Nantes","University of Nantes",,http://dbpedia.org/resource/University_of_Nantes‎,,man,,,,,2013/09/05
 "University of Naples ""Federico II""","University of Naples Federico II",,http://dbpedia.org/resource/University_of_Naples_Federico_II,,ok,,,TRUE,,2013/09/09
 "University of New England","University of New England (Australia)",,http://dbpedia.org/resource/University_of_New_England_(Australia),,ok,,,TRUE,,2013/09/04
 "The University of New South Wales","University of New South Wales",,http://dbpedia.org/resource/University_of_New_South_Wales,,ok,,,TRUE,,2013/08/01
-"University New South Wales","University of New South Wales",,http://dbpedia.org/resource/University_of_New_South_Wales,,ok,,,,,2013/08/01
 "University of New South Wales","University of New South Wales",,http://dbpedia.org/resource/University_of_New_South_Wales,,ok,,,TRUE,,2013/09/03
 UNSW,"University of New South Wales",,http://dbpedia.org/resource/University_of_New_South_Wales,,ok,,,TRUE,,2013/09/04
+"University New South Wales","University of New South Wales",,http://dbpedia.org/resource/University_of_New_South_Wales,,ok,,,,,2013/08/01
 "University of North Carolina","University of North Carolina",,http://dbpedia.org/resource/University_of_North_Carolina,,ok,,,,,2013/08/01
 "University of Orsay","University of Orsay",,,,ok,,,,,2013/08/01
 "University of Orsay – LRI","University of Orsay",,,,ok,,,,,2013/08/01
@@ -957,7 +954,6 @@ UNSW,"University of New South Wales",,http://dbpedia.org/resource/University_of_
 "University of South Carolina","University of South Carolina",,http://dbpedia.org/resource/University_of_South_Carolina,,ok,,,,,2013/08/01
 "University of Southern California","University of Southern California",,http://dbpedia.org/resource/University_of_Southern_California,,ok,,,,,2013/08/01
 "University Southern California","University of Southern California",,http://dbpedia.org/resource/University_of_Southern_California,,ok,,,,,2013/08/01
-"USC/Information Sciences Institute","University of Southern California",,http://dbpedia.org/resource/University_of_Southern_California,,ok,,,TRUE,,2013/09/04
 "University of Surrey","University of Surrey",,http://dbpedia.org/resource/University_of_Surrey,,ok,,,TRUE,,2013/08/01
 "University of Technology Sydney","University of Technology, Sydney",,"http://dbpedia.org/resource/University_of_Technology,_Sydney",,ok,,,TRUE,,2013/09/04
 UTS,"University of Technology, Sydney",,"http://dbpedia.org/resource/University_of_Technology,_Sydney",,ok,,,TRUE,,2013/08/01
@@ -987,14 +983,14 @@ UTS,"University of Technology, Sydney",,"http://dbpedia.org/resource/University_
 "University of Waikato","University of Waikato",,http://dbpedia.org/resource/University_of_Waikato,,ok,,,TRUE,,2013/09/03
 "Instituite of Mathematics Warsaw University","University of Warsaw",,http://dbpedia.org/resource/University_of_Warsaw,,ok,,,,,2013/08/01
 "Institute of Mathematics, Warsaw University","University of Warsaw",,http://dbpedia.org/resource/University_of_Warsaw,,ok,,,,,2013/08/01
-"University of Washington","University of Washington",,http://dbpedia.org/resource/University_of_Washington,,ok,,,,,2013/08/01
 "University Washington","University of Washington",,http://dbpedia.org/resource/University_of_Washington,,man,,,,,2013/08/01
+"University of Washington","University of Washington",,http://dbpedia.org/resource/University_of_Washington,,ok,,,,,2013/08/01
 "Univ. Washington","University of Washington",,http://dbpedia.org/resource/University_of_Washington,,ok,,,,,2013/08/01
 "University of Waterloo","University of Waterloo",,http://dbpedia.org/resource/University_of_Waterloo,,ok,,,TRUE,,2013/08/01
 "University of Western Australia","University of Western Australia",,http://dbpedia.org/resource/University_of_Western_Australia,,ok,,,TRUE,,2013/09/05
 "University of Western Sydney","University of Western Sydney",,http://dbpedia.org/resource/University_of_Western_Sydney,,ok,,,TRUE,,2013/08/01
-"University of West Florida","University of West Florida",,http://dbpedia.org/resource/University_of_West_Florida,,ok,,,,,2013/08/01
 "University Western Florida","University of West Florida",,http://dbpedia.org/resource/University_of_West_Florida,,man,,,,,2013/08/01
+"University of West Florida","University of West Florida",,http://dbpedia.org/resource/University_of_West_Florida,,ok,,,,,2013/08/01
 "The University of Wollongong","University of Wollongong",,http://dbpedia.org/resource/University_of_Wollongong,,ok,,,TRUE,,2013/08/01
 "University of Wuerzburg","University of Würzburg",,http://dbpedia.org/resource/University_of_W%C3%BCrzburg,,ok,,,TRUE,,2013/08/01
 "University Würzburg","University of Würzburg",,http://dbpedia.org/resource/University_of_W%C3%BCrzburg,,ok,,,,,2013/08/01
@@ -1004,7 +1000,6 @@ UTS,"University of Technology, Sydney",,"http://dbpedia.org/resource/University_
 "Uinversity of Zurich","University of Zurich",,http://dbpedia.org/resource/University_of_Zurich,,ok,,,,,2013/09/04
 "University of Zurich","University of Zurich",,http://dbpedia.org/resource/University_of_Zurich,,ok,,,,,2013/08/01
 "Universtiy of Zurich","University of Zurich",,http://dbpedia.org/resource/University_of_Zurich,,ok,,,,,2013/09/04
-"UNL FCT","UNL FCT",,,,ok,,,TRUE,,2013/09/04
 "Vanderbilt University","Vanderbilt University",,http://dbpedia.org/resource/Vanderbilt_University,,ok,,,TRUE,,2013/09/05
 "Vassar College","Vassar College",,http://dbpedia.org/resource/Vassar_College,,ok,,,,,2013/08/01
 Verticalnet,VerticalNet,,http://dbpedia.org/resource/VerticalNet,,ok,,,,,2013/08/01
@@ -1016,16 +1011,16 @@ Visa,"Visa Inc.",,http://dbpedia.org/resource/Visa_Inc.,,ok,,,TRUE,,2013/09/05
 "Visual Interaction and Communications Centre","Visual Interaction and Communications Centre",,,,ok,,,,,2013/08/01
 "VNU University of Engineering and Technology","VNU University of Engineering and Technology",,,,man,,,TRUE,,2013/09/04
 "Free University of Amsterdam","Vrije Universiteit Amsterdam",,http://dbpedia.org/resource/Vrije_Universiteit,,man,,,,,2013/08/01
-"Frije University Amsterdam","Vrije Universiteit Amsterdam",,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,,,2013/08/01
-"University of Amsterdam/Vrije Universiteit Amsterdam","Vrije Universiteit Amsterdam",,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,TRUE,,2013/08/01
 "Vrije U Amsterdam","Vrije Universiteit Amsterdam",,http://dbpedia.org/resource/Vrije_Universiteit,,man,,,,,2013/08/01
-"Vrije Universiteit Amsterdam","Vrije Universiteit Amsterdam",,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,,,2013/08/01
-"Vrije Universiteit, Amsterdam","Vrije Universiteit Amsterdam",,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,,,2013/08/01
-"Vrije University","Vrije Universiteit Amsterdam",,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,,,2013/08/01
 "Vrije University Amsterdam","Vrije Universiteit Amsterdam",,http://dbpedia.org/resource/Vrije_Universiteit,,man,,,,,2013/08/01
+"University of Amsterdam/Vrije Universiteit Amsterdam","Vrije Universiteit Amsterdam",,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,TRUE,,2013/08/01
 "VU Amsterdam","Vrije Universiteit Amsterdam",,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,TRUE,,2013/08/01
 "VU University Amsterdam","Vrije Universiteit Amsterdam",,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,TRUE,,2013/08/01
 "VU UNiversity Amsterdam","Vrije Universiteit Amsterdam",,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,TRUE,,2013/09/04
+"Frije University Amsterdam","Vrije Universiteit Amsterdam",,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,,,2013/08/01
+"Vrije Universiteit Amsterdam","Vrije Universiteit Amsterdam",,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,,,2013/08/01
+"Vrije Universiteit, Amsterdam","Vrije Universiteit Amsterdam",,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,,,2013/08/01
+"Vrije University","Vrije Universiteit Amsterdam",,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,,,2013/08/01
 "Vrije Universiteit, Brussels","Vrije Universiteit Brussel",,http://dbpedia.org/resource/Vrije_Universiteit_Brussel,,ok,,,,,2013/08/01
 "VTT Technical Research Centre of Finland","VTT Technical Research Centre of Finland",,http://dbpedia.org/resource/VTT_Technical_Research_Centre_of_Finland,,ok,,,,,2013/08/01
 "Vulcan Inc","Vulcan Inc.",,http://dbpedia.org/resource/Vulcan_Inc.,,ok,,,TRUE,,2013/09/03
@@ -1047,6 +1042,10 @@ WebMediaBrands,WebMediaBrands,,,,ok,,,,,2013/08/01
 "WonderWeb: Ontology Infrastructure for the Semantic Web",WonderWeb,"Ontology Infrastructure for the Semantic Web",,,man-short,,,,,2013/08/01
 "Worcester Polytechnic Institute","Worcester Polytechnic Institute",,http://dbpedia.org/resource/Worcester_Polytechnic_Institute,,ok,,,,,2013/08/01
 "Wright State University","Wright State University",,http://dbpedia.org/resource/Wright_State_University,,ok,,,TRUE,,2013/08/01
+"Knoesis Center, Wright State University","Wright State University",,,,man,,,,,2013/09/26
+"Kno.e.sis Center, Wright State University","Wright State University",,,,ok,,,,,2013/09/26
+"Kno.e.sis Center,Wright State University","Wright State University",,,,ok,,,,,2013/09/26
+"Kno.e.sis Center, Wright State University, Dayton, Ohio","Wright State University",,,,ok,,,,,2013/09/26
 Ximetrix,Ximetrix,,,,ok,,,,,2013/08/01
 "Xonar GmbH","Xonar GmbH",,,,man,,,,,2013/08/01
 Xyleme,Xyleme,,,,ok,,,,,2013/08/01
@@ -1061,3 +1060,11 @@ YarcData,YarcData,,,,man,,,,,2013/09/03
 "Department of Computer Science, Yonsei University","Yonsei University",,http://dbpedia.org/resource/Yonsei_University,,man,,,TRUE,,2013/09/04
 "York University","York University",,http://dbpedia.org/resource/York_University,,ok,,,,,2013/08/01
 "Zhejiang University","Zhejiang University",,http://dbpedia.org/resource/Zhejiang_University,,ok,,,TRUE,,2013/09/03
+LIG,LIG,,,,man,,,,,2013/09/26
+"Laboratoire d'Informatique de Grenoble",LIG,,,,man,,,,,2013/09/26
+"INRIA & LIG","INRIA; LIG",,,,man,,,,map2,2013/09/26
+"INRIA and LIG","INRIA; LIG",,,,man,,,,map2,2013/09/26
+"Universite, de Grenoble","University of Grenoble",,http://dbpedia.org/resource/University_of_Grenoble,,ok,,,TRUE,,2013/09/26
+"LORIA, University Nancy","LORIA; University Nancy",,,,man,,,,map2,2013/09/26
+"INRIA & University of Grenoble","INRIA; University of Grenoble",,,,man,,,,map2,2013/09/26
+"University Nancy",Nancy-Université,,http://dbpedia.org/resource/Nancy-Universit%C3%A9,,ok,,,TRUE,,2013/09/26
