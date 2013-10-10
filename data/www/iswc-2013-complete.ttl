@@ -17,8 +17,8 @@
 
 <http://data.semanticweb.org/conference/iswc/2013/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
-    dcterms:hasVersion "iswc metadata 2001-2013 (2013-08-06)" ;
-    dcterms:modified "2013-09-26T23:46:03.258229"^^xsd:datetime ;
+    dcterms:hasVersion "iswc metadata 2001-2013 (2013-10-10)" ;
+    dcterms:modified "2013-10-10T08:59:44.635029"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2013/event-01> a swc:SpecialEvent ;
@@ -1221,15 +1221,6 @@
 <http://data.semanticweb.org/conference/iswc/2013/proceedings-2/paper-31/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/christoph-pinkel> .
 
-<http://data.semanticweb.org/conference/iswc/2013/session-1c/event-01> a swc:InvitedTalkEvent ;
-    rdfs:label "Invited Talk (TBA)" ;
-    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013/session-1c> ;
-    swc:orderInSession 1 ;
-    swc:order_in_super_event 1 ;
-    ical:dtend "2013-10-23T12:00:00"^^xsd:dateTime ;
-    ical:dtstart "2013-10-23T11:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
-
 <http://data.semanticweb.org/conference/iswc/2013/session-3c/event-03> a swc:SpecialEvent ;
     rdfs:label "Speaker Panel" ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013/session-3c> ;
@@ -1341,6 +1332,12 @@
     owl:sameAs <http://dbpedia.org/resource/Bundeswehr_University_Munich> ;
     foaf:member <http://data.semanticweb.org/person/martin-hepp> ;
     foaf:name "Bundeswehr University Munich" .
+
+<http://data.semanticweb.org/organization/bureau-of-meteorology> a foaf:Organization ;
+    rdfs:label "Bureau of Meteorology" ;
+    owl:sameAs <http://dbpedia.org/resource/Bureau_of_Meteorology> ;
+    foaf:member <http://data.semanticweb.org/person/andrew-woolf> ;
+    foaf:name "Bureau of Meteorology" .
 
 <http://data.semanticweb.org/organization/capsenta-inc> a foaf:Organization ;
     rdfs:label "Capsenta Inc" ;
@@ -2376,6 +2373,21 @@
     rdfs:label "Session Chair" ;
     swc:heldBy <http://data.semanticweb.org/person/pascal-hitzler> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2013/session-1b> .
+
+<http://data.semanticweb.org/conference/iswc/2013/session-1c/event-01> a swc:InvitedTalkEvent ;
+    rdfs:label "Invited Talk -- Andrew Woolf" ;
+    swc:hasRole <http://data.semanticweb.org/conference/iswc/2013/session-1c/event-01/speaker> ;
+    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013/session-1c> ;
+    swc:orderInSession 1 ;
+    swc:order_in_super_event 1 ;
+    ical:dtend "2013-10-23T12:00:00"^^xsd:dateTime ;
+    ical:dtstart "2013-10-23T11:00:00"^^xsd:dateTime ;
+    ical:tzid "Australia/Sydney" .
+
+<http://data.semanticweb.org/conference/iswc/2013/session-1c/event-01/speaker> a swc:Presenter ;
+    rdfs:label "Speaker" ;
+    swc:heldBy <http://data.semanticweb.org/person/andrew-woolf> ;
+    swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2013/session-1c/event-01> .
 
 <http://data.semanticweb.org/conference/iswc/2013/session-1c/event-02> a swc:TalkEvent ;
     rdfs:label "A Semantic Approach to Data Center Management" ;
@@ -3436,6 +3448,12 @@
     swrc:affiliation <http://data.semanticweb.org/organization/university-of-wuerzburg> ;
     foaf:name "Andreas Hotho" .
 
+<http://data.semanticweb.org/person/andrew-woolf> a foaf:Person ;
+    rdfs:label "Andrew Woolf" ;
+    swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/session-1c/event-01/speaker> ;
+    swrc:affiliation <http://data.semanticweb.org/organization/bureau-of-meteorology> ;
+    foaf:name "Andrew Woolf" .
+
 <http://data.semanticweb.org/person/anna-fensel> a foaf:Person ;
     rdfs:label "Anna Fensel" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/pc-member-at-iswc2013-research-track> ;
@@ -3484,7 +3502,7 @@
     rdfs:label "Blaž Fortuna" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/tutorial-1/tutorial-organizer> ;
     swrc:affiliation <http://data.semanticweb.org/organization/jozef-stefan-institute> ;
-    skos:altLabel "Blaz Fortuna " ;
+    skos:altLabel "Blaz Fortuna" ;
     foaf:name "Blaž Fortuna" .
 
 <http://data.semanticweb.org/person/bo-hu> a foaf:Person ;
