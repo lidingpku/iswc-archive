@@ -94,8 +94,92 @@ tr:last-child td:last-child {
     border-radius: 0 0 6px 0;
 }
 </style>
-</head>
-<body>
+<script type="text/javascript" >
+/*
+ * Dynamic Table of Contents script
+ * by Matt Whitlock <http://www.whitsoftdev.com/>
+ */
+
+function createLink(href, innerHTML) {
+	var a = document.createElement("a");
+	a.setAttribute("href", href);
+	a.innerHTML = innerHTML;
+	return a;
+}
+
+function generateTOC(toc) {
+	var i2 = 0, i3 = 0, i4 = 0;
+	toc = toc.appendChild(document.createElement("ul"));
+	for (var i = 0; i < document.body.childNodes.length; ++i) {
+		var node = document.body.childNodes[i];
+		var tagName = node.nodeName.toLowerCase();
+		if (tagName == "h4") {
+			++i4;
+			if (i4 == 1) toc.lastChild.lastChild.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3 + "." + i4;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h3") {
+			++i3, i4 = 0;
+			if (i3 == 1) toc.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h2") {
+			++i2, i3 = 0, i4 = 0;
+			var section = i2;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.appendChild(h2item = document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+	}
+}
+</script>
+<style type="text/css">
+.on {
+  background: green;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.off {
+  background: red;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 2px;
+  border-left-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+</style>
+<script type="text/javascript">
+<!--
+	function togglestyle(el){
+	    if(el.className == "on") {
+	    	el.className="off";
+	    } else {
+	    	el.className="on";
+	    }
+	}
+	function toggle_visibility(cl){
+	   var els = document.getElementsByClassName(cl);
+	   for(var i=0; i<els.length; ++i){
+	      var s = els[i].style;
+	      s.display = s.display==='none' ? 'block' : 'none';
+	   };
+	}
+//-->
+</script>
+<body onload="generateTOC(document.getElementById('toc'));">
+<input type="button" class="off" onclick="togglestyle(this); toggle_visibility('details');">show/hide details</input>
+<div id="toc"></div>
 
 <h1>Program</h1>
 
@@ -117,9 +201,13 @@ Breakfast and registration
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -136,12 +224,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): York Sure,Oscar Corcho,Jürgen Angele</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -158,12 +250,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Ying Ding,Hamish Cunningham,Atanas Kiryakov</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -180,12 +276,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Michael Schroeder,Gerd Wagner</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -202,12 +302,19 @@ Workshop:
 (Tutorial Track)
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> This tutorial brings together theories, challenges, issues, languages and tools from the Semantic Web, Web Services, the Computational Grid and Agent Technology.  In addition, it will present challenges and issues of how Agent Technology can best serve human users in the area of Web Services.  We will present the current state of the art in Web-Based Services and sort through the increasing array of relevant tools, languages and theories both from academia and industry.  The tutorial will contain many examples to illustrate the described concepts, tools and their use.</span>
+</div>
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Terry Payne,Katia Sycara</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -224,12 +331,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Stefan Decker,Raphael Volz,Isabel Cruz</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -246,12 +357,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Natasha Noy,AnHai Doan,Alon Halevy</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -268,12 +383,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Naveen Ashish,Max Egenhofer,Carole Goble</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -290,12 +409,19 @@ Workshop:
 (Tutorial Track)
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> The overall goal of the tutorial is to discuss the relation between existing research in the area of intelligent information integration and new requirements and technologies that arise from the area of semantic web research. We would like to emphasize the importance of information integration on the World Wide Web in the context of providing intelligent access to heterogeneous and distributed information sources and intelligent services. We will provide an overview of existing solutions to the problem of information integration and extract common features in terms of architecture and technologies use in order to give potential attendees an impression of how successful approaches look like. Furthermore, we would like to stress how these common features relate to semantic web architecture and technology, revealing similarities and differences. Based on this comparison we discuss prospects and challenges for semantic web research in order to stimulate research in this area.</span>
+</div>
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Ubbo Visser,Holger Wache,Heiner Stuckenschmidt</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -312,12 +438,19 @@ Workshop:
 (Tutorial Track)
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> The goal of the tutorial will be to provide an introduction and a working knowledge of OWL, including the history and background of OWL, the formal underpinnings of OWL, and pragmatic issues related to OWL. The tutorial will also address the building and use of OWL ontologies along with a demonstration of the use of a reasoner with an OWL ontology.</span>
+</div>
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Sean Bechhofer,Peter F. Patel-Schneider,Ian Horrocks</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -333,9 +466,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -351,9 +488,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -369,9 +510,13 @@ WonderWeb
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -388,12 +533,19 @@ WonderWeb
 (Tutorial Track)
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> The major goal of this tutorial is to provide the attendees with both the theoretical foundations of ontology design and hands-on experience in the construction of ontologies and semantic web contents with Protégé.  In particular, the attendees will learn the basic principles and application domains of ontologies based on declarative knowledge representation systems, especially the semantic web language OWL.  They will get hands-on experience with ontology development using Protégé, including its recent extensions such as OWL expression editors and classifiers.</span>
+</div>
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Natasha F. Noy,Holger Knublauch</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -409,9 +561,13 @@ Registration
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -427,9 +583,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -445,9 +605,13 @@ Reception
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -473,9 +637,13 @@ Breakfast and registration
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -493,6 +661,8 @@ Industrial track
 (Industrial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Brian McBride</span>
 </div>
@@ -505,6 +675,8 @@ Industrial track
 <div style="padding-left:20px;margin:1px;">3. Making Business Sense of the Semantic Web,
 <span style="color:#666">Zavisa Bjelogrlic,Dirk-Willem van Gulik and Alberto Reggiori</span>
 <sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -521,6 +693,8 @@ Foundations
 </b>
 (Main Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Nicola Guarino</span>
@@ -538,6 +712,8 @@ Foundations
 <span style="color:#666">Jeff Z. Pan and Ian Horrocks</span>
 <sup><span style="color:DarkRed">Foundations</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Sundial Room</td>
@@ -553,6 +729,8 @@ Multi-Media
 </b>
 (Main Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Guus Schreiber</span>
@@ -570,6 +748,8 @@ Multi-Media
 <span style="color:#666">Matthew Addis,Mike J. Boniface,Simon Goodall,Paul Grimwood,Sanghee Kim,Paul H. Lewis,Kirk Martinez and Alison Stevenson</span>
 <sup><span style="color:DarkRed">Multi-media</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Sanibel Room</td>
@@ -584,9 +764,13 @@ Coffee break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -603,6 +787,8 @@ Industrial track
 </b>
 (Industrial Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Massimo Paolucci</span>
@@ -620,6 +806,8 @@ Industrial track
 <span style="color:#666">Michael Uschold,Peter Clark,Fred Dickey,Casey K. Fung,Sonia Smith,Stephen A. Uczekaj,Michael Wilke,Sean Bechhofer and Ian Horrocks</span>
 <sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Captiva Room</td>
@@ -635,6 +823,8 @@ Applications and Multi-Media
 </b>
 (Main Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Tim Finin</span>
@@ -652,6 +842,8 @@ Applications and Multi-Media
 <span style="color:#666">Zhen-jie Wang,Huanye Sheng and Peng Ding</span>
 <sup><span style="color:DarkRed">Applications</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Sanibel Room</td>
@@ -667,6 +859,8 @@ Foundations
 </b>
 (Main Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Peter F. Patel-Schneider</span>
@@ -684,6 +878,8 @@ Foundations
 <span style="color:#666">Kunal Patel and Gopal Gupta</span>
 <sup><span style="color:DarkRed">Foundations</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Sundial Room</td>
@@ -698,9 +894,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -716,9 +916,13 @@ Remarks
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -735,8 +939,14 @@ InvitedTalk:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Katia Sycara</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> With the coming of OWL, the Web will soon have a recommended ontology language, many ontology-based tools, a large number of reference ontologies, and a large user community interested in what ontologies are and how to use them. In fact, it's beginning to look like we may be successful enough that as researchers we must ask ourselves the question "Why are we doing this?" As ontology on the Web becomes part of the "practice" of Web life, and the logic toolkits are produced by software companies instead of AI labs, where do we in the research world go? Many are familiar with Tim Berners-Lee's "layer cake" (or more recently the "Semantic Wave") which suggests moving to rules and proofs, but that's just the "language" stack. Time for us to think more about what we do with all this, how we explore the new ideas emerging from the pursuit and, perhaps most importantly of all, whether this Semantic Web stuff brings with it any insights into the most seminal scientific problem of all -- our quest to understand human intelligence.</span>
 </div>
 
 <div style="padding-left:10px;margin:2px;">
@@ -744,6 +954,7 @@ InvitedTalk:
 </div>
 
 
+</div>
 
 </td>
 
@@ -759,9 +970,13 @@ Coffee break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -778,6 +993,8 @@ Industrial track
 </b>
 (Industrial Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Michael Uschold</span>
@@ -798,6 +1015,8 @@ Industrial track
 <span style="color:#666">Thomas Dreyer,David Leal,Andrea Schröder and Michael Schwan</span>
 <sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Captiva Room</td>
@@ -813,6 +1032,8 @@ Information Retrieval
 </b>
 (Main Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Natasha Noy</span>
@@ -833,6 +1054,8 @@ Information Retrieval
 <span style="color:#666">Saikat Mukherjee,Guizhen Yang and I. V. Ramakrishnan</span>
 <sup><span style="color:DarkRed">Information Retrieval</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Sanibel Room</td>
@@ -848,6 +1071,8 @@ Semantic Web Services/Challenge/Security, Trust, and Privacy/Tools and Methodolo
 </b>
 (Main Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Mark Burstein</span>
@@ -865,6 +1090,8 @@ Semantic Web Services/Challenge/Security, Trust, and Privacy/Tools and Methodolo
 <span style="color:#666">Jan Wielemaker,Guus Schreiber and Bob J. Wielinga</span>
 <sup><span style="color:DarkRed">Tools and Metodologies</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Sundial Room</td>
@@ -879,9 +1106,13 @@ Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -898,9 +1129,13 @@ Poster + Demos session
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -926,9 +1161,13 @@ Breakfast
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -946,6 +1185,8 @@ Applications
 (Main Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Vipul Kashyap</span>
 </div>
@@ -961,6 +1202,8 @@ Applications
 <div style="padding-left:20px;margin:1px;">3. Ontology-Based Resource Matching in the Grid - The Grid Meets the Semantic Web,
 <span style="color:#666">Hongsuda Tangmunarunkit,Stefan Decker and Carl Kesselman</span>
 <sup><span style="color:DarkRed">Applications</span></sup></div>
+
+</div>
 
 </td>
 
@@ -978,6 +1221,8 @@ Ontological Reasoning
 (Main Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Ian Horrocks</span>
 </div>
@@ -994,6 +1239,8 @@ Ontological Reasoning
 <span style="color:#666">Laks V. S. Lakshmanan and Fereidoon Sadri</span>
 <sup><span style="color:DarkRed">Ontological Reasoning</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Sanibel Room, Captiva Room</td>
@@ -1008,9 +1255,13 @@ Coffee break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1028,6 +1279,8 @@ Foundations
 (Main Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Bijan Parsia</span>
 </div>
@@ -1043,6 +1296,8 @@ Foundations
 <div style="padding-left:20px;margin:1px;">3. Viewing the Semantic Web through RVL Lenses,
 <span style="color:#666">Aimilia Magkanaraki,Val Tannen,Vassilis Christophides and Dimitris Plexousakis</span>
 <sup><span style="color:DarkRed">Foundations</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1060,6 +1315,8 @@ Semantic Web Services
 (Main Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Enrico Motta</span>
 </div>
@@ -1076,6 +1333,8 @@ Semantic Web Services
 <span style="color:#666">Boualem Benatallah,Mohand-Said Hacid,Christophe Rey and Farouk Toumani</span>
 <sup><span style="color:DarkRed">Semantic Web Services</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Sundial Room</td>
@@ -1090,9 +1349,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1108,9 +1371,13 @@ Remarks
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1127,8 +1394,14 @@ InvitedTalk:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): John Mylopulos</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> Web Services appear to be the basis fo</span>
 </div>
 
 <div style="padding-left:10px;margin:2px;">
@@ -1136,6 +1409,7 @@ InvitedTalk:
 </div>
 
 
+</div>
 
 </td>
 
@@ -1151,9 +1425,13 @@ Coffee break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1170,6 +1448,8 @@ Agents and the Semantic Web
 </b>
 (Main Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Mike Dean</span>
@@ -1190,6 +1470,8 @@ Agents and the Semantic Web
 <span style="color:#666">Koji Kamei,Sen Yoshida,Kazuhiro Kuwabara,Jun-ichi Akahani and Tetsuji Satoh</span>
 <sup><span style="color:DarkRed">Agents and the Semantic Web</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Sanibel Room, Captiva Room</td>
@@ -1205,6 +1487,8 @@ Semantic web Services
 </b>
 (Main Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Terry Payne</span>
@@ -1225,6 +1509,8 @@ Semantic web Services
 <span style="color:#666">Enrico Motta,John Domingue,Liliana Cabral and Mauro Gaspari</span>
 <sup><span style="color:DarkRed">Semantic Web Services</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Sundial Room</td>
@@ -1239,9 +1525,13 @@ Dinner
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1267,9 +1557,13 @@ Breakfast
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1287,6 +1581,8 @@ Applications and Tools
 (Main Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Atanas Kiryakov</span>
 </div>
@@ -1302,6 +1598,8 @@ Applications and Tools
 <div style="padding-left:20px;margin:1px;">3. DAMLJessKB: A Tool for Reasoning with the Semantic Web,
 <span style="color:#666">Joseph Kopena and William C. Regli</span>
 <sup><span style="color:DarkRed">Tools and Metodologies</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1319,6 +1617,8 @@ Security and Semantic Web Services
 (Main Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Ling Liu</span>
 </div>
@@ -1335,6 +1635,8 @@ Security and Semantic Web Services
 <span style="color:#666">Matthew Richardson,Rakesh Agrawal and Pedro Domingos</span>
 <sup><span style="color:DarkRed">Security, Trust, and Privacy</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Sanibel Room, Captiva Room</td>
@@ -1349,9 +1651,13 @@ Coffee break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1369,6 +1675,8 @@ Security, Trust and Privacy
 (Main Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Grit Denker</span>
 </div>
@@ -1381,6 +1689,8 @@ Security, Trust and Privacy
 <div style="padding-left:20px;margin:1px;">2. A Semantic E-Wallet to Reconcile Privacy and Context Awareness,
 <span style="color:#666">Fabien Gandon and Norman M. Sadeh</span>
 <sup><span style="color:DarkRed">Security, Trust, and Privacy</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1398,6 +1708,8 @@ Tools and Methodologies
 (Main Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Harold Boley</span>
 </div>
@@ -1410,6 +1722,8 @@ Tools and Methodologies
 <div style="padding-left:20px;margin:1px;">2. Cooking the Semantic Web with the OWL API,
 <span style="color:#666">Sean Bechhofer,Raphael Volz and Phillip W. Lord</span>
 <sup><span style="color:DarkRed">Tools and Metodologies</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1425,9 +1739,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1443,9 +1761,13 @@ Remarks
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1462,8 +1784,14 @@ InvitedTalk:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Dieter Fensel</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> As a powerful melding of WWW and KR and related technologies, the semantic web is such a wide, all-encompassing notion that it is not obvious to its proponents where to direct their energy. Which parts of the roadmap will need encouragement, which will be eagerly funded and developed anyway? Which need more research, and which just need standards work to become ubiquitous? Are there areas which could come off the rails and derail the whole design if we get them wrong? In this talk, I will present choices that face researchers and practitioners and discuss a conceptual roadmap of the most exciting and useful prospects.</span>
 </div>
 
 <div style="padding-left:10px;margin:2px;">
@@ -1471,6 +1799,7 @@ InvitedTalk:
 </div>
 
 
+</div>
 
 </td>
 
@@ -1486,9 +1815,13 @@ Coffee break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1505,9 +1838,13 @@ Panel Discussion on Knowledge Acquisition Projects in conjunction with K-CAP 200
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 

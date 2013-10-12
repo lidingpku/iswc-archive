@@ -94,8 +94,92 @@ tr:last-child td:last-child {
     border-radius: 0 0 6px 0;
 }
 </style>
-</head>
-<body>
+<script type="text/javascript" >
+/*
+ * Dynamic Table of Contents script
+ * by Matt Whitlock <http://www.whitsoftdev.com/>
+ */
+
+function createLink(href, innerHTML) {
+	var a = document.createElement("a");
+	a.setAttribute("href", href);
+	a.innerHTML = innerHTML;
+	return a;
+}
+
+function generateTOC(toc) {
+	var i2 = 0, i3 = 0, i4 = 0;
+	toc = toc.appendChild(document.createElement("ul"));
+	for (var i = 0; i < document.body.childNodes.length; ++i) {
+		var node = document.body.childNodes[i];
+		var tagName = node.nodeName.toLowerCase();
+		if (tagName == "h4") {
+			++i4;
+			if (i4 == 1) toc.lastChild.lastChild.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3 + "." + i4;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h3") {
+			++i3, i4 = 0;
+			if (i3 == 1) toc.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h2") {
+			++i2, i3 = 0, i4 = 0;
+			var section = i2;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.appendChild(h2item = document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+	}
+}
+</script>
+<style type="text/css">
+.on {
+  background: green;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.off {
+  background: red;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 2px;
+  border-left-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+</style>
+<script type="text/javascript">
+<!--
+	function togglestyle(el){
+	    if(el.className == "on") {
+	    	el.className="off";
+	    } else {
+	    	el.className="on";
+	    }
+	}
+	function toggle_visibility(cl){
+	   var els = document.getElementsByClassName(cl);
+	   for(var i=0; i<els.length; ++i){
+	      var s = els[i].style;
+	      s.display = s.display==='none' ? 'block' : 'none';
+	   };
+	}
+//-->
+</script>
+<body onload="generateTOC(document.getElementById('toc'));">
+<input type="button" class="off" onclick="togglestyle(this); toggle_visibility('details');">show/hide details</input>
+<div id="toc"></div>
 
 <h1>Program</h1>
 
@@ -118,9 +202,13 @@ Breakfast
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -137,9 +225,13 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -156,9 +248,13 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -175,9 +271,13 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -194,9 +294,13 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -212,9 +316,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> TBA</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -230,9 +341,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> TBA</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -248,9 +366,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> TBA</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -267,9 +392,13 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -285,9 +414,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> TBA</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -304,9 +440,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -323,9 +463,13 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -352,9 +496,13 @@ Breakfast
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -371,9 +519,13 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -390,9 +542,13 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -409,9 +565,13 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -428,9 +588,13 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -447,9 +611,13 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -465,9 +633,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> TBA</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -483,9 +658,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> TBA</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -502,9 +684,13 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -520,9 +706,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> TBA</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -539,9 +732,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -558,9 +755,13 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -576,9 +777,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> TBA</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -605,9 +813,13 @@ Breakfast
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -624,9 +836,13 @@ Opening Ceremonies
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -643,6 +859,8 @@ Invited Talk: mc schrafel
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Ian Horrocks</span>
 </div>
@@ -652,6 +870,8 @@ Invited Talk: mc schrafel
 <div style="padding-left:20px;margin:1px;">. What does It Look Like, Really? Imagining how Citizens might Effectively, Usefully and Easily Find, Explore, Query and Re-present Open/Linked Data,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -667,9 +887,13 @@ What does It Look Like, Really? Imagining how Citizens might Effectively, Useful
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -685,9 +909,13 @@ Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -703,6 +931,8 @@ Session:
 Doctoral Consortium/1:  Mining and Search
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Huajun Chen</span>
@@ -723,6 +953,8 @@ Doctoral Consortium/1:  Mining and Search
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -737,6 +969,8 @@ Session:
 In-Use Track/1
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Pascal Hitzler</span>
@@ -757,6 +991,8 @@ In-Use Track/1
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -771,6 +1007,8 @@ Session:
 Research Track: Ontology Evolution
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Eva Blomqvist</span>
@@ -791,6 +1029,8 @@ Research Track: Ontology Evolution
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -805,6 +1045,8 @@ Session:
 Research Track: Proofs, Trust, NLP, Rules
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Vladimir Kolovski</span>
@@ -824,6 +1066,8 @@ Research Track: Proofs, Trust, NLP, Rules
 <div style="padding-left:20px;margin:1px;">. Declarative Semantics for the Rule Interchange Format Production Rule Dialect,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -841,6 +1085,8 @@ Doctoral Consortium/1:  Mining and Search
 (Doctoral Consortium Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Huajun Chen</span>
 </div>
@@ -860,6 +1106,8 @@ Doctoral Consortium/1:  Mining and Search
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -875,6 +1123,8 @@ In-Use Track/1
 </b>
 (In Use Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Pascal Hitzler</span>
@@ -895,6 +1145,8 @@ In-Use Track/1
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -910,6 +1162,8 @@ Research Track: Ontology Evolution
 </b>
 (Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Eva Blomqvist</span>
@@ -930,6 +1184,8 @@ Research Track: Ontology Evolution
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -945,6 +1201,8 @@ Research Track: Proofs, Trust, NLP, Rules
 </b>
 (Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Vladimir Kolovski</span>
@@ -965,6 +1223,8 @@ Research Track: Proofs, Trust, NLP, Rules
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -979,9 +1239,13 @@ Exploiting Relation Extraction for Ontology Alignment
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -997,9 +1261,13 @@ Using SPARQL to Test for Lattices: application to quality assurance in biomedica
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1015,9 +1283,13 @@ Semantic Recognition of Ontology Refactoring
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1033,9 +1305,13 @@ Justification Oriented Proofs in OWL
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1051,9 +1327,13 @@ Towards Technology Structure Mining from Scientific Literature
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1069,9 +1349,13 @@ Will Semantic Web Technologies Work for the Development of ICD-11?
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1087,9 +1371,13 @@ Forgetting Fragments from Evolving Ontologies
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1105,9 +1393,13 @@ Assessing Trust in Uncertain Information
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1123,9 +1415,13 @@ Towards Semantic Data Mining
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1141,9 +1437,13 @@ Time-Oriented Question Answering from Clinical Narratives Using Semantic-Web Tec
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1159,9 +1459,13 @@ Evolution of DL-Lite Knowledge Bases
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1177,9 +1481,13 @@ Supporting Natural Language Processing with Background Knowledge: Coreference Re
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1195,9 +1503,13 @@ Open Innovation and Semantic Web:	Problem Solver Search on Linked Data
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1213,9 +1525,13 @@ Experience of Using OWL Ontologies for Automated Inference of Routine Pre-Operat
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1231,9 +1547,13 @@ EvoPat - Pattern-Based Evolution and Refactoring of RDF Knowledge Bases
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1249,9 +1569,13 @@ Declarative Semantics for the Rule Interchange Format Production Rule Dialect
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1268,9 +1592,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1286,6 +1614,8 @@ Session:
 Doctoral Consortium/2; Semantic Web Applications and Services
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Philippe Cudre Mauroux</span>
@@ -1306,6 +1636,8 @@ Doctoral Consortium/2; Semantic Web Applications and Services
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1321,12 +1653,16 @@ In-Use Panel "OWL vs. RIF"
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Sandro Hawke,Ivan Herman</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -1342,6 +1678,8 @@ Session:
 Research Track: Access to Other Kinds of Data
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Manuel Salvadores</span>
@@ -1359,6 +1697,8 @@ Research Track: Access to Other Kinds of Data
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1373,6 +1713,8 @@ Session:
 Research Track: Query Languages
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Kemafor Anyanwu</span>
@@ -1389,6 +1731,8 @@ Research Track: Query Languages
 <div style="padding-left:20px;margin:1px;">. Combining Approximation and Relaxation in SemanticWeb Path Queries,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -1406,6 +1750,8 @@ Doctoral Consortium/2; Semantic Web Applications and Services
 (Doctoral Consortium Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Philippe Cudre Mauroux</span>
 </div>
@@ -1425,6 +1771,8 @@ Doctoral Consortium/2; Semantic Web Applications and Services
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1440,6 +1788,8 @@ Research Track: Access to Other Kinds of Data
 </b>
 (Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Manuel Salvadores</span>
@@ -1457,6 +1807,8 @@ Research Track: Access to Other Kinds of Data
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1472,6 +1824,8 @@ Research Track: Query Languages
 </b>
 (Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Kemafor Anyanwu</span>
@@ -1489,6 +1843,8 @@ Research Track: Query Languages
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1503,9 +1859,13 @@ Customizing the Composition of Actions, Programs, and Web Services with User Pre
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1521,9 +1881,13 @@ Enabling Ontology-based Access to Streaming Data Sources
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1539,9 +1903,13 @@ AnQL: SPARQLing up annotated RDF
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1557,9 +1925,13 @@ Auto-experimentation of KDD Workflows based on Ontological Planning
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1575,9 +1947,13 @@ Converting and Annotating Quantitative Data Tables
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1593,9 +1969,13 @@ SPARQL Beyond Subgraph Matching
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1611,9 +1991,13 @@ How to Reuse a Faceted Classification and Put it on the Semantic Web
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1629,9 +2013,13 @@ Combining Approximation and Relaxation in SemanticWeb Path Queries
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1647,9 +2035,13 @@ Causal Knowledge Modeling for Traditional Chinese Medicine using OWL 2
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1665,27 +2057,13 @@ Using Multi-Agent Based Middleware to Implement a Distributed Peer-To-Peer Seman
 </b>
 </span>
 
+<div class="details">
 
 
 
 
-</td>
 
-<td></td>
-
-</tr>
-<tr>
-<td>15:30 - 16:00</td>
-<td><span><b style="font-size:110%">
-
-
-Break
-</b>
-</span>
-
-
-
-
+</div>
 
 </td>
 
@@ -1701,9 +2079,35 @@ Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
+
+</td>
+
+<td></td>
+
+</tr>
+<tr>
+<td>15:30 - 16:00</td>
+<td><span><b style="font-size:110%">
+
+
+Break
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
 
 </td>
 
@@ -1719,9 +2123,13 @@ Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1737,6 +2145,8 @@ Session:
 Doctoral Consoritium/3: Reasoning and Querying
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Jeff Z. Pan</span>
@@ -1760,6 +2170,8 @@ Doctoral Consoritium/3: Reasoning and Querying
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1774,6 +2186,8 @@ Session:
 In-Use/2
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Marko Grobelnik</span>
@@ -1794,6 +2208,8 @@ In-Use/2
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1808,6 +2224,8 @@ Session:
 Research Track: Ontology Similarity and Debugging
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Guilin Qi</span>
@@ -1828,6 +2246,8 @@ Research Track: Ontology Similarity and Debugging
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1842,6 +2262,8 @@ Session:
 Research Track: Social Semantic Web/1
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Alexandre Passant</span>
@@ -1859,6 +2281,8 @@ Research Track: Social Semantic Web/1
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1874,6 +2298,8 @@ Doctoral Consoritium/3: Reasoning and Querying
 </b>
 (Doctoral Consortium Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Jeff Z. Pan</span>
@@ -1896,6 +2322,8 @@ Doctoral Consoritium/3: Reasoning and Querying
 <div style="padding-left:20px;margin:1px;">. A General Approach to Query the Web of Data,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -1913,6 +2341,8 @@ In-Use/2
 (In Use Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Marko Grobelnik</span>
 </div>
@@ -1932,6 +2362,8 @@ In-Use/2
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1947,6 +2379,8 @@ Research Track: Ontology Similarity and Debugging
 </b>
 (Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Guilin Qi</span>
@@ -1967,6 +2401,8 @@ Research Track: Ontology Similarity and Debugging
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1982,6 +2418,8 @@ Research Track: Social Semantic Web/1
 </b>
 (Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Alexandre Passant</span>
@@ -1999,6 +2437,8 @@ Research Track: Social Semantic Web/1
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -2014,9 +2454,13 @@ Town Hall Meeting
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2032,9 +2476,13 @@ Towards Semantic Annotation Supported by Dependency Linguistics and ILP
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2050,9 +2498,13 @@ I18n of Semantic Web Applications
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2068,9 +2520,13 @@ Ontology similarity in the alignment space
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2086,9 +2542,13 @@ Talking about Data: Sharing Richly Structured Information through Blogs and Wiki
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2104,9 +2564,13 @@ Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2122,9 +2586,13 @@ Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2140,9 +2608,13 @@ Adding Integrity Constraints to the Semantic Web for Instance Data Evaluation
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2158,9 +2630,13 @@ Mapping Master: a Flexible Approach for Mapping Spreadsheets to OWL
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2176,9 +2652,13 @@ A Feature and Information Theoretic Framework for Semantic Similarity and Relate
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2194,9 +2674,13 @@ Making sense of Twitter
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2212,9 +2696,13 @@ ISReal: An Open Platform for Semantic-Based 3D Simulations in the 3D Internet
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2230,9 +2718,13 @@ One size does not fit all: Customizing Ontology Alignment Using User Feedback
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2248,9 +2740,13 @@ Semantic Need: Guiding Metadata Annotations by Questions People #ask
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2266,9 +2762,13 @@ RDFMatView: Indexing RDF Data for SPARQL Queries
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2284,9 +2784,13 @@ Extensions of SPARQL towards Heterogeneous Sources and Domain Annotations
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2302,9 +2806,13 @@ Linkage of Heterogeneous Knowledge Resources within In-store Dialogue Interactio
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2320,9 +2828,13 @@ Query strategy for sequential ontology debugging
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2338,9 +2850,13 @@ A General Approach to Query the Web of Data
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2357,12 +2873,16 @@ Industry Invited Talk: Jay Katzen
 </b>
 </span>
 
+<div class="details">
+
 
 
 
 <div style="padding-left:20px;margin:1px;">. Applications at the heart of a new Publishing Ecosystem,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -2378,9 +2898,13 @@ Applications at the heart of a new Publishing Ecosystem
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2397,9 +2921,13 @@ Banquet
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2416,9 +2944,13 @@ Reception
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2434,9 +2966,13 @@ Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2453,9 +2989,13 @@ Poster Session
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2482,9 +3022,13 @@ Breakfast
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2501,6 +3045,8 @@ In-Use/3
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Hideaki Takeda</span>
 </div>
@@ -2513,6 +3059,8 @@ In-Use/3
 <div style="padding-left:20px;margin:1px;">. ORE - A Tool for Repairing and Enriching Knowledge Bases,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -2529,6 +3077,8 @@ Research Track: Agents
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Bernardo Cuenca-Grau</span>
 </div>
@@ -2541,6 +3091,8 @@ Research Track: Agents
 <div style="padding-left:20px;margin:1px;">. Deciding Agent Orientation on Ontology Mappings,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -2557,6 +3109,8 @@ Research Track: Large KBs
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Kavitha Srinivas</span>
 </div>
@@ -2569,6 +3123,8 @@ Research Track: Large KBs
 <div style="padding-left:20px;margin:1px;">. Optimize First, Buy Later: Analyzing Metrics to Ramp-up Very Large Knowledge Bases,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -2586,6 +3142,8 @@ In-Use/3
 (In Use Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Hideaki Takeda</span>
 </div>
@@ -2598,6 +3156,8 @@ In-Use/3
 <div style="padding-left:20px;margin:1px;">. ORE - A Tool for Repairing and Enriching Knowledge Bases,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -2615,6 +3175,8 @@ Research Track: Agents
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Bernardo Cuenca-Grau</span>
 </div>
@@ -2627,6 +3189,8 @@ Research Track: Agents
 <div style="padding-left:20px;margin:1px;">. Deciding Agent Orientation on Ontology Mappings,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -2644,6 +3208,8 @@ Research Track: Large KBs
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Kavitha Srinivas</span>
 </div>
@@ -2656,6 +3222,8 @@ Research Track: Large KBs
 <div style="padding-left:20px;margin:1px;">. Optimize First, Buy Later: Analyzing Metrics to Ramp-up Very Large Knowledge Bases,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -2671,9 +3239,13 @@ Semantic Techniques for Enabling Knowledge Reuse in Conceptual Modelling
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2689,9 +3261,13 @@ Compact Representation of Large RDF Data Sets for Publishing and Exchange
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2707,9 +3283,13 @@ OWL-POLAR: Semantic Policies for Agent Reasoning
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2725,9 +3305,13 @@ ORE - A Tool for Repairing and Enriching Knowledge Bases
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2743,9 +3327,13 @@ Optimize First, Buy Later: Analyzing Metrics to Ramp-up Very Large Knowledge Bas
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2761,9 +3349,13 @@ Deciding Agent Orientation on Ontology Mappings
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2779,9 +3371,13 @@ Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -2797,6 +3393,8 @@ Session:
 In-Use/4
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Shenghui Wang</span>
@@ -2817,6 +3415,8 @@ In-Use/4
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -2831,6 +3431,8 @@ Session:
 Research Track: Ontologies in Linked Data
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Wei Hu</span>
@@ -2851,6 +3453,8 @@ Research Track: Ontologies in Linked Data
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -2865,6 +3469,8 @@ Session:
 Research Track: Representation Extensions
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Bijan Parsia</span>
@@ -2884,6 +3490,8 @@ Research Track: Representation Extensions
 <div style="padding-left:20px;margin:1px;">. A Self-Policing Policy Language,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -2901,6 +3509,8 @@ In-Use/4
 (In Use Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Shenghui Wang</span>
 </div>
@@ -2920,6 +3530,8 @@ In-Use/4
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -2935,6 +3547,8 @@ Research Track: Ontologies in Linked Data
 </b>
 (Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Wei Hu</span>
@@ -2955,6 +3569,8 @@ Research Track: Ontologies in Linked Data
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -2970,6 +3586,8 @@ Research Track: Representation Extensions
 </b>
 (Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Bijan Parsia</span>
@@ -2990,6 +3608,8 @@ Research Track: Representation Extensions
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -3004,9 +3624,13 @@ Using Semantic Web technologies for Clinical Trial Recruitment
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3022,9 +3646,13 @@ Representing and Querying Validity Time in RDF and OWL: A Logic-Based Approach
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3040,9 +3668,13 @@ Fusion - Visually Exploring and Eliciting Relationships in Linked Data
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3058,9 +3690,13 @@ Knowledge Engineering for Historians on the Example of the Catalogus Professorum
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3076,9 +3712,13 @@ EL with Default Attributes and Overriding
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3094,9 +3734,13 @@ Ontology Alignment for Linked Open Data
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3112,9 +3756,13 @@ Social dynamics in conferences: analyses of data from the Live Social Semantics 
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3130,9 +3778,13 @@ Integrated Metamodeling and Diagnosis in OWL 2
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3148,9 +3800,13 @@ Linking and Building Ontologies of Linked Data
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3166,9 +3822,13 @@ Semantic MediaWiki in Operation: Experiences with Building a Semantic Portal
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3184,9 +3844,13 @@ A Self-Policing Policy Language
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3202,9 +3866,13 @@ Enhancing the Open-Domain Classification of Named Entity using Linked Open Data
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3221,9 +3889,13 @@ Semantic Web Career Mentoring Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3240,9 +3912,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3259,6 +3935,8 @@ Invited Talk: Austin Haugen and Evan Sandhaus
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Peter F. Patel-Schneider</span>
 </div>
@@ -3271,6 +3949,8 @@ Invited Talk: Austin Haugen and Evan Sandhaus
 <div style="padding-left:20px;margin:1px;">. Semantic Technology at The New York Times: Lessons Learned and Future Directions,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -3286,9 +3966,13 @@ The Open Graph Protocol Design Decisions
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3304,9 +3988,13 @@ Semantic Technology at The New York Times: Lessons Learned and Future Directions
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3322,6 +4010,8 @@ Session:
 Research Track: Reasoning and Algorithms
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Axel Polleres</span>
@@ -3342,6 +4032,8 @@ Research Track: Reasoning and Algorithms
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -3357,9 +4049,13 @@ Semantic Web Challenge
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3377,6 +4073,8 @@ Research Track: Reasoning and Algorithms
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Axel Polleres</span>
 </div>
@@ -3395,6 +4093,8 @@ Research Track: Reasoning and Algorithms
 <div style="padding-left:20px;margin:1px;">. Optimizing Enterprise-scale OWL 2 RL Reasoning in a Relational Database System,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -3421,9 +4121,13 @@ Breakfast
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3440,6 +4144,8 @@ Invited Talk: Li Xiaoming
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Yue Pan</span>
 </div>
@@ -3449,6 +4155,8 @@ Invited Talk: Li Xiaoming
 <div style="padding-left:20px;margin:1px;">. Advanced Evaluation of Web Search - Methodology and Technology,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -3464,9 +4172,13 @@ Advanced Evaluation of Web Search - Methodology and Technology
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3482,9 +4194,13 @@ Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3500,6 +4216,8 @@ Session:
 In-Use/5
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Tania Tudorache</span>
@@ -3520,6 +4238,8 @@ In-Use/5
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -3534,6 +4254,8 @@ Session:
 Industry Track: Session 1
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Peter Mika</span>
@@ -3551,6 +4273,8 @@ Industry Track: Session 1
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -3565,6 +4289,8 @@ Session:
 Research Track: Linked Data
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Steffen Staab</span>
@@ -3584,6 +4310,8 @@ Research Track: Linked Data
 <div style="padding-left:20px;margin:1px;">. SameAs Networks and Beyond: Analyzing Deployment Status and Implications of owl:sameAs in Linked Data,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -3601,6 +4329,8 @@ In-Use/5
 (In Use Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Tania Tudorache</span>
 </div>
@@ -3620,6 +4350,8 @@ In-Use/5
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -3635,6 +4367,8 @@ Industry Track: Session 1
 </b>
 (Industry Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Peter Mika</span>
@@ -3652,6 +4386,8 @@ Industry Track: Session 1
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -3667,6 +4403,8 @@ Research Track: Linked Data
 </b>
 (Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Steffen Staab</span>
@@ -3687,6 +4425,8 @@ Research Track: Linked Data
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -3701,9 +4441,13 @@ dbrec - Music Recommendations Using DBpedia
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3719,9 +4463,13 @@ Summary Models for Routing Keywords to Linked Data Sources
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3737,9 +4485,13 @@ A Case Study of Linked Enterprise Data
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3755,9 +4507,13 @@ Linked Data Query Processing Strategies
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3773,9 +4529,13 @@ Semantic Technologies for Enterprise Cloud Management
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3791,9 +4551,13 @@ When owl:sameAs isn't the Same: An Analysis of Identity in Linked Data
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3809,9 +4573,13 @@ Enterprise Data Classification using Semantic Web Technologies
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3827,9 +4595,13 @@ SameAs Networks and Beyond: Analyzing Deployment Status and Implications of owl:
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3846,9 +4618,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3865,9 +4641,13 @@ Lightning Talks
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -3883,6 +4663,8 @@ Session:
 Industry Track: Session 2
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Lin Clark</span>
@@ -3900,6 +4682,8 @@ Industry Track: Session 2
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -3914,6 +4698,8 @@ Session:
 Research Track: Scalability
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Zhisheng Huang</span>
@@ -3931,6 +4717,8 @@ Research Track: Scalability
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -3945,6 +4733,8 @@ Session:
 Research Track: Semantic Web Services
 </b>
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Sudhir Agarwal</span>
@@ -3961,6 +4751,8 @@ Research Track: Semantic Web Services
 <div style="padding-left:20px;margin:1px;">. Using Semantics for Automating the Authentication of Web APIs,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -3978,6 +4770,8 @@ Industry Track: Session 2
 (Industry Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Lin Clark</span>
 </div>
@@ -3993,6 +4787,8 @@ Industry Track: Session 2
 <div style="padding-left:20px;margin:1px;">. Self-Service Development of Linked Data Applications with the Information Workbench,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -4010,6 +4806,8 @@ Research Track: Scalability
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Zhisheng Huang</span>
 </div>
@@ -4025,6 +4823,8 @@ Research Track: Scalability
 <div style="padding-left:20px;margin:1px;">. Signal/Collect: Graph Algorithms for the (Semantic) Web,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -4042,6 +4842,8 @@ Research Track: Semantic Web Services
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Sudhir Agarwal</span>
 </div>
@@ -4058,6 +4860,8 @@ Research Track: Semantic Web Services
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -4072,9 +4876,13 @@ Completeness Guarantees for Incomplete Reasoners
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -4090,9 +4898,13 @@ An Expressive and Efficient Solution to the Service Selection Problem
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -4108,9 +4920,13 @@ SAOR: Template Rule Optimisations for Distributed Reasoning over 1 Billion Linke
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -4126,9 +4942,13 @@ JustBench: A Framework for OWL Benchmarking
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -4144,9 +4964,13 @@ Preference-based Web Service Composition: A Middle Ground Between Execution and 
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -4162,9 +4986,13 @@ Finding the Achilles Heel of the Web of Data: using network analysis for link-re
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -4180,9 +5008,13 @@ Optimising Ontology Classification
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -4198,9 +5030,13 @@ Using Semantics for Automating the Authentication of Web APIs
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -4216,9 +5052,13 @@ Signal/Collect: Graph Algorithms for the (Semantic) Web
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -4235,9 +5075,13 @@ Awards and Closing Ceremonies
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -4253,9 +5097,13 @@ Optimizing Enterprise-scale OWL 2 RL Reasoning in a Relational Database System
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -4272,6 +5120,8 @@ Industry Track: Session 2
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Fabio Ciravegna</span>
 </div>
@@ -4284,6 +5134,8 @@ Industry Track: Session 2
 <div style="padding-left:20px;margin:1px;">. Semantic Media Asset Management: playence Media,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -4300,6 +5152,8 @@ Research Track: Query Optimization
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Yuzhong Qu</span>
 </div>
@@ -4312,6 +5166,8 @@ Research Track: Query Optimization
 <div style="padding-left:20px;margin:1px;">. Using Reformulation Trees to Optimize Queries over Distributed Heterogeneous Sources,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -4328,6 +5184,8 @@ Research Track: Social Semantic Web/2
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Harith Alani</span>
 </div>
@@ -4340,6 +5198,8 @@ Research Track: Social Semantic Web/2
 <div style="padding-left:20px;margin:1px;">. Toponym Resolution in Social Media,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -4357,6 +5217,8 @@ Industry Track: Session 2
 (Industry Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Fabio Ciravegna</span>
 </div>
@@ -4369,6 +5231,8 @@ Industry Track: Session 2
 <div style="padding-left:20px;margin:1px;">. Semantic Media Asset Management: playence Media,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -4386,6 +5250,8 @@ Research Track: Query Optimization
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Yuzhong Qu</span>
 </div>
@@ -4398,6 +5264,8 @@ Research Track: Query Optimization
 <div style="padding-left:20px;margin:1px;">. Using Reformulation Trees to Optimize Queries over Distributed Heterogeneous Sources,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -4415,6 +5283,8 @@ Research Track: Social Semantic Web/2
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Harith Alani</span>
 </div>
@@ -4427,6 +5297,8 @@ Research Track: Social Semantic Web/2
 <div style="padding-left:20px;margin:1px;">. Toponym Resolution in Social Media,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -4442,9 +5314,13 @@ Measuring the dynamic bi-directional influence between content and social networ
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -4460,9 +5336,13 @@ SPARQL Query Optimization on Top of DHTs
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -4478,9 +5358,13 @@ Toponym Resolution in Social Media
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -4496,9 +5380,13 @@ Using Reformulation Trees to Optimize Queries over Distributed Heterogeneous Sou
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 

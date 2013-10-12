@@ -94,8 +94,92 @@ tr:last-child td:last-child {
     border-radius: 0 0 6px 0;
 }
 </style>
-</head>
-<body>
+<script type="text/javascript" >
+/*
+ * Dynamic Table of Contents script
+ * by Matt Whitlock <http://www.whitsoftdev.com/>
+ */
+
+function createLink(href, innerHTML) {
+	var a = document.createElement("a");
+	a.setAttribute("href", href);
+	a.innerHTML = innerHTML;
+	return a;
+}
+
+function generateTOC(toc) {
+	var i2 = 0, i3 = 0, i4 = 0;
+	toc = toc.appendChild(document.createElement("ul"));
+	for (var i = 0; i < document.body.childNodes.length; ++i) {
+		var node = document.body.childNodes[i];
+		var tagName = node.nodeName.toLowerCase();
+		if (tagName == "h4") {
+			++i4;
+			if (i4 == 1) toc.lastChild.lastChild.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3 + "." + i4;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h3") {
+			++i3, i4 = 0;
+			if (i3 == 1) toc.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h2") {
+			++i2, i3 = 0, i4 = 0;
+			var section = i2;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.appendChild(h2item = document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+	}
+}
+</script>
+<style type="text/css">
+.on {
+  background: green;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.off {
+  background: red;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 2px;
+  border-left-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+</style>
+<script type="text/javascript">
+<!--
+	function togglestyle(el){
+	    if(el.className == "on") {
+	    	el.className="off";
+	    } else {
+	    	el.className="on";
+	    }
+	}
+	function toggle_visibility(cl){
+	   var els = document.getElementsByClassName(cl);
+	   for(var i=0; i<els.length; ++i){
+	      var s = els[i].style;
+	      s.display = s.display==='none' ? 'block' : 'none';
+	   };
+	}
+//-->
+</script>
+<body onload="generateTOC(document.getElementById('toc'));">
+<input type="button" class="off" onclick="togglestyle(this); toggle_visibility('details');">show/hide details</input>
+<div id="toc"></div>
 
 <h1>Program</h1>
 
@@ -117,9 +201,13 @@ Pre-Registration
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -146,12 +234,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Phil Tetlow,Jeff Z. Pan,Evan Wallace,Elisa F. Kendall</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -168,12 +260,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Stefan Decker,Leo Sauermann,Jack Park,Dennis Quan</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -190,12 +286,16 @@ Morning Tutorial: MDA Standards for Ontology Development
 (Tutorial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Vladan Devedzic,Dragan Gasevic,Dragan Djuric</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -212,12 +312,16 @@ Morning Tutorial: Semantic Web Rules with Ontologies, and Their E-Service Applic
 (Tutorial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Mike Dean,Micheal Kifer,Benjamin Grosof</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -233,9 +337,13 @@ Morning Coffee
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -251,9 +359,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -270,12 +382,16 @@ Afternoon Tutorial: Ontology Design Patterns and Problems: Practical Ontology En
 (Tutorial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Robert Stevens,Nick Drummond,Natalya F. Noy,Matthew Horridge,Mark A. Musen,Alan Rector</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -292,12 +408,16 @@ Afternoon Tutorial: Semantic Web Service Systems and Tools
 (Tutorial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Michal Zaremba,Michael Stollberg,Matthew Moran,Liliana Cabral,John Domingue,Christoph Bussler</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -313,9 +433,13 @@ Afternoon Coffee
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -342,12 +466,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Ion Androutsopoulos,Duane Degler,Brian McBride,Abraham Bernstein</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -364,12 +492,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Thierry Declerck,Siegfried Handschuh,Marja-Riitta Koivunen</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -386,12 +518,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Harith Alani,Gerd Stumme,Christoph Schmitz,Bettina Hoser</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -408,12 +544,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Tim Finin,Lalana Kagal,Jim Hendler</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -429,12 +569,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Enda Ridge,Edward Curry</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -451,12 +595,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Paulo C. G. Costa,Michael Pool,Kenneth J. Laskey,Kathryn B. Laskey</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -472,9 +620,13 @@ Morning Coffee
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -490,9 +642,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -508,12 +664,16 @@ Lunch
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Brian Cummins</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -530,12 +690,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Chris Welty,Aldo Gangemi</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -552,12 +716,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Robert Tolksdorf,Guus Schreiber,Alain Leger</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -573,9 +741,13 @@ Afternoon Coffee
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -601,9 +773,13 @@ ISWC2005 Introduction and Welcome
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -619,9 +795,13 @@ ISWC2005 Awards
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -638,12 +818,16 @@ Using the Semantic Web for e-Science - Inspiration, Incubation, Irritation
 </b>
 </span>
 
+<div class="details">
+
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Carole Goble</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -659,9 +843,13 @@ Morning Coffee
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -679,6 +867,8 @@ Paper Session Ia - SOCIAL NETWORKS
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Stefan Decker</span>
 </div>
@@ -694,6 +884,8 @@ Paper Session Ia - SOCIAL NETWORKS
 <div style="padding-left:20px;margin:1px;">3. Semantically Rich Recommendations in Social Networks for Sharing, Exchanging and Ranking Semantic Context,
 <span style="color:#666">Stefania Ghita,Wolfgang Nejdl and Raluca Paiu</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -711,6 +903,8 @@ Paper Session Ib - EDITING AND VISUALIZING ONTOLOGIES
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): John Domingue</span>
 </div>
@@ -726,6 +920,8 @@ Paper Session Ib - EDITING AND VISUALIZING ONTOLOGIES
 <div style="padding-left:20px;margin:1px;">3. Using Triples for Implementation: The Triple20 Ontology-Manipulation Tool,
 <span style="color:#666">Jan Wielemaker,Guus Schreiber and Bob J. Wielinga</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -743,6 +939,8 @@ Paper Session Ic - E-SCIENCE
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Terry Payne</span>
 </div>
@@ -759,6 +957,8 @@ Paper Session Ic - E-SCIENCE
 <span style="color:#666">Antoon Goderis,Ulrike Sattler,Phillip W. Lord and Carole A. Goble</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -773,9 +973,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -792,6 +996,8 @@ Paper Session IIa - EVALUATION AND BENCHMARKING
 </b>
 (Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Sean Bechhofer</span>
@@ -812,6 +1018,8 @@ Paper Session IIa - EVALUATION AND BENCHMARKING
 <span style="color:#666">Raul Garcia-Castro and Asunción Gómez-Pérez</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -827,6 +1035,8 @@ Paper Session IIb - ONTOLOGY EVOLUTION
 </b>
 (Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): York Sure</span>
@@ -844,6 +1054,8 @@ Paper Session IIb - ONTOLOGY EVOLUTION
 <span style="color:#666">Giorgos Flouris,Dimitris Plexousakis and Grigoris Antoniou</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -859,6 +1071,8 @@ Paper Session IIc - SEMANTIC WEB SERVICES
 </b>
 (Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Sheila McIlraith</span>
@@ -879,6 +1093,8 @@ Paper Session IIc - SEMANTIC WEB SERVICES
 <span style="color:#666">Anupriya Ankolekar,Massimo Paolucci and Katia P. Sycara</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -893,9 +1109,13 @@ Afternoon Coffee
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -913,6 +1133,8 @@ Paper Session IIIc - WEB SERVICES
 (Industrial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Alain Leger</span>
 </div>
@@ -928,6 +1150,8 @@ Paper Session IIIc - WEB SERVICES
 <div style="padding-left:20px;margin:1px;">3. An Application of Semantic Web Technologies to Situation Awareness,
 <span style="color:#666">Christopher J. Matheus,Mieczyslaw M. Kokar,Kenneth Baclawski and Jerzy Letkowski</span>
 <sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -945,6 +1169,8 @@ Paper Session IIIa - DEBUGGING AND INCONSISTENCY MANAGEMENT
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Guus Schreiber</span>
 </div>
@@ -960,6 +1186,8 @@ Paper Session IIIa - DEBUGGING AND INCONSISTENCY MANAGEMENT
 <div style="padding-left:20px;margin:1px;">3. A Framework for Handling Inconsistency in Changing Ontologies,
 <span style="color:#666">Peter Haase,Frank van Harmelen,Zhisheng Huang,Heiner Stuckenschmidt and York Sure</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -977,6 +1205,8 @@ Paper Session IIIb - LOGIC AND REASONING
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Fausto Giunchiglia</span>
 </div>
@@ -992,6 +1222,8 @@ Paper Session IIIb - LOGIC AND REASONING
 <div style="padding-left:20px;margin:1px;">3. On Logical Consequence for Collections of OWL Documents,
 <span style="color:#666">Yuanbo Guo and Jeff Heflin</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1018,12 +1250,16 @@ InvitedTalk:
 </b>
 </span>
 
+<div class="details">
+
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Alfred Spector</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -1039,9 +1275,13 @@ Morning Coffee
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1059,6 +1299,8 @@ Paper Session IVc - SECTOR APPLICATIONS I
 (Industrial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Nigel Shadbolt</span>
 </div>
@@ -1074,6 +1316,8 @@ Paper Session IVc - SECTOR APPLICATIONS I
 <div style="padding-left:20px;margin:1px;">3. Definitions Management: A Semantics-Based Approach for Clinical Documentation in Healthcare Delivery,
 <span style="color:#666">Vipul Kashyap,Alfredo Morales,Tonya Hongsermeier and Qi Li</span>
 <sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1091,6 +1335,8 @@ Paper Session IVa - SEMANTIC MARKUP AND BROWSING
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Frank van Harmelen</span>
 </div>
@@ -1106,6 +1352,8 @@ Paper Session IVa - SEMANTIC MARKUP AND BROWSING
 <div style="padding-left:20px;margin:1px;">3. Finding and Ranking Knowledge on the Semantic Web,
 <span style="color:#666">Li Ding,Rong Pan,Timothy W. Finin,Anupam Joshi,Yun Peng and Pranam Kolari</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1123,6 +1371,8 @@ Paper Session IVb - AGENTS AND DISTRIBUTED ARCHITECTURES
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Alun Preece</span>
 </div>
@@ -1139,6 +1389,8 @@ Paper Session IVb - AGENTS AND DISTRIBUTED ARCHITECTURES
 <span style="color:#666">Valentina A. M. Tamma,Chris van Aart,Thierry Moyaux,Shamimabi Paurobally,Ben Lithgow Smith and Michael Wooldridge</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1153,9 +1405,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1173,6 +1429,8 @@ Paper Session Vc - SECTOR APPLICATIONS II
 (Industrial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Hans-Peter Schnurr</span>
 </div>
@@ -1188,6 +1446,8 @@ Paper Session Vc - SECTOR APPLICATIONS II
 <div style="padding-left:20px;margin:1px;">3. MediaCaddy - Semantic Web Based On-Demand Content Navigation System for Entertainment,
 <span style="color:#666">Shishir Garg,Amit Goswami,Jérémy Huylebroeck,Senthil Jaganathan and Pramila Mullan</span>
 <sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1205,6 +1465,8 @@ Paper Session Va - RDF QUERYING AND STORAGE
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Bijan Parsia</span>
 </div>
@@ -1220,6 +1482,8 @@ Paper Session Va - RDF QUERYING AND STORAGE
 <div style="padding-left:20px;margin:1px;">3. BRAHMS: A WorkBench RDF Store and High Performance Memory System for Semantic Association Discovery,
 <span style="color:#666">Maciej Janik and Krys Kochut</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1237,6 +1501,8 @@ Paper Session Vb - ONTOLOGY MAPPING AND ALIGNMENT I
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Deborah McGuinness</span>
 </div>
@@ -1253,6 +1519,8 @@ Paper Session Vb - ONTOLOGY MAPPING AND ALIGNMENT I
 <span style="color:#666">Giorgos Stoilos,Giorgos B. Stamou and Stefanos D. Kollias</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1267,9 +1535,13 @@ Afternoon Coffee
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1287,6 +1559,8 @@ Paper Session VIc - METHODOLOGY
 (Industrial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Luca Gilardoni</span>
 </div>
@@ -1302,6 +1576,8 @@ Paper Session VIc - METHODOLOGY
 <div style="padding-left:20px;margin:1px;">3. Enterprise Architecture Reference Modeling in OWL/RDF,
 <span style="color:#666">Dean Allemang,Irene Polikoff and Ralph Hodgson</span>
 <sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1319,6 +1595,8 @@ Paper Session VIa - ONTOLOGY CREATION
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Marta Sabou</span>
 </div>
@@ -1334,6 +1612,8 @@ Paper Session VIa - ONTOLOGY CREATION
 <div style="padding-left:20px;margin:1px;">3. Ontology Design Patterns for Semantic Web Content,
 <span style="color:#666">Aldo Gangemi</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1351,6 +1631,8 @@ Paper Session VIb - ONTOLOGY MAPPING AND ALIGNMENT II
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Jerome Euzenat</span>
 </div>
@@ -1367,6 +1649,8 @@ Paper Session VIb - ONTOLOGY MAPPING AND ALIGNMENT II
 <span style="color:#666">Rong Pan,Zhongli Ding,Yang Yu and Yun Peng</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1381,9 +1665,13 @@ EU Future Funding Session - Back to the drawing board: Options and directions fo
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1410,12 +1698,16 @@ Semantic Web Public Policy Challenges: Privacy, Provenance, Property and Personh
 </b>
 </span>
 
+<div class="details">
+
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Daniel J Weitzner</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -1431,9 +1723,13 @@ Morning Coffee
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1451,6 +1747,8 @@ Paper Session VIIc - Applied Technology
 (Industrial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Chris Priest</span>
 </div>
@@ -1466,6 +1764,8 @@ Paper Session VIIc - Applied Technology
 <div style="padding-left:20px;margin:1px;">3. Supporting Rule System Interoperability on the Semantic Web with SWRL,
 <span style="color:#666">Martin J. O'Connor,Holger Knublauch,Samson W. Tu,Benjamin N. Grosof,Mike Dean,William E. Grosso and Mark A. Musen</span>
 <sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1483,6 +1783,8 @@ Paper Session VIIa - RULES
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Ian Horrocks</span>
 </div>
@@ -1498,6 +1800,8 @@ Paper Session VIIa - RULES
 <div style="padding-left:20px;margin:1px;">3. Resolution-Based Approximate Reasoning for OWL DL,
 <span style="color:#666">Pascal Hitzler and Denny Vrandecic</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1515,6 +1819,8 @@ Paper Session VIIb - TRUST AND POLICIES
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Norman Sadeh</span>
 </div>
@@ -1531,6 +1837,8 @@ Paper Session VIIb - TRUST AND POLICIES
 <span style="color:#666">Vladimir Kolovski,Bijan Parsia,Yarden Katz and James A. Hendler</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1545,9 +1853,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1565,6 +1877,8 @@ Paper Session VIIIc - SECTOR APPLICATIONS III
 (Industrial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Dean Allemang</span>
 </div>
@@ -1577,6 +1891,8 @@ Paper Session VIIIc - SECTOR APPLICATIONS III
 <div style="padding-left:20px;margin:1px;">2. Semantic Service Integration for Water Resource Management,
 <span style="color:#666">Ross G. Ackland,Kerry L. Taylor,Laurent Lefort,Mark A. Cameron and Joel Rahman</span>
 <sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1594,6 +1910,8 @@ Paper Session VIIIa - SEMANTIC SEARCH AND BROWSING
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Paul Buitelaar</span>
 </div>
@@ -1606,6 +1924,8 @@ Paper Session VIIIa - SEMANTIC SEARCH AND BROWSING
 <div style="padding-left:20px;margin:1px;">2. Semantic Browsing of Digital Collections,
 <span style="color:#666">Trevor D. Collins,Paul Mulholland and Zdenek Zdráhal</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1623,6 +1943,8 @@ Paper Session VIIIb - VERSIONING AND CONTEXT
 (Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Jeff Heflin</span>
 </div>
@@ -1635,6 +1957,8 @@ Paper Session VIIIb - VERSIONING AND CONTEXT
 <div style="padding-left:20px;margin:1px;">2. Decentralized Case-Based Reasoning for the Semantic Web,
 <span style="color:#666">Mathieu d'Aquin,Jean Lieber and Amedeo Napoli</span>
 <sup><span style="color:DarkRed">Research Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1650,9 +1974,13 @@ Afternoon Coffee
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1668,9 +1996,13 @@ Plenary Session: Semantic Web Challenge
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1686,9 +2018,13 @@ Plenary Session: RuleML Opening Remarks
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1705,12 +2041,16 @@ Plenary Session: Putting the Web back in Semantic Web
 </b>
 </span>
 
+<div class="details">
+
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Sir Tim Berners Lee</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -1726,9 +2066,13 @@ Plenary Session: ISWC Closing Remarks
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 

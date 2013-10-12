@@ -94,8 +94,92 @@ tr:last-child td:last-child {
     border-radius: 0 0 6px 0;
 }
 </style>
-</head>
-<body>
+<script type="text/javascript" >
+/*
+ * Dynamic Table of Contents script
+ * by Matt Whitlock <http://www.whitsoftdev.com/>
+ */
+
+function createLink(href, innerHTML) {
+	var a = document.createElement("a");
+	a.setAttribute("href", href);
+	a.innerHTML = innerHTML;
+	return a;
+}
+
+function generateTOC(toc) {
+	var i2 = 0, i3 = 0, i4 = 0;
+	toc = toc.appendChild(document.createElement("ul"));
+	for (var i = 0; i < document.body.childNodes.length; ++i) {
+		var node = document.body.childNodes[i];
+		var tagName = node.nodeName.toLowerCase();
+		if (tagName == "h4") {
+			++i4;
+			if (i4 == 1) toc.lastChild.lastChild.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3 + "." + i4;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h3") {
+			++i3, i4 = 0;
+			if (i3 == 1) toc.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h2") {
+			++i2, i3 = 0, i4 = 0;
+			var section = i2;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.appendChild(h2item = document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+	}
+}
+</script>
+<style type="text/css">
+.on {
+  background: green;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.off {
+  background: red;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 2px;
+  border-left-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+</style>
+<script type="text/javascript">
+<!--
+	function togglestyle(el){
+	    if(el.className == "on") {
+	    	el.className="off";
+	    } else {
+	    	el.className="on";
+	    }
+	}
+	function toggle_visibility(cl){
+	   var els = document.getElementsByClassName(cl);
+	   for(var i=0; i<els.length; ++i){
+	      var s = els[i].style;
+	      s.display = s.display==='none' ? 'block' : 'none';
+	   };
+	}
+//-->
+</script>
+<body onload="generateTOC(document.getElementById('toc'));">
+<input type="button" class="off" onclick="togglestyle(this); toggle_visibility('details');">show/hide details</input>
+<div id="toc"></div>
 
 <h1>Program</h1>
 
@@ -117,9 +201,13 @@ Registration
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -136,12 +224,19 @@ Registration
 (Tutorial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Donald Kossman,Daniela Florescu</span>
 </div>
 
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> XML is a versatile markup language, capable of labeling information contentfromof diverse information sources including structured and semi-structured documents, relational databases, and object repositories. XQuery is a declarative query language that uses the structure of XML intelligently. It can express queries across all these kinds of data, whether physically stored in XML or viewed as XML via middleware and it is designed to be broadly applicable across many types of XML data sources, independently of their original format or location. XQuery is currently under standardization as part of the World Wide Web Consortium and already adopted by industry, research and open source communities alike. Given that it is likely that large amounts of information will be represented in near future using XML, XQuery will play a fundamental role for data search, integration and aggregation; it will be the basic building block for such activities. XQuery is currently and will be in the future used in a variety of different environments. Examples to date include XML database systems, XML document repositories, XML data integration on the Web and within single economical structures, workflow systems, and publish and subscribe systems. In addition, XPath of which XQuery is a superset is used in various products such as Web browsers. Although the W3C XQuery specification has not yet attained recommendation status, and the definition of the language has not entirely stabilized, a number of alternative proposals to implement and optimize XQuery have appeared both in industry and in the research community. Given the wide range of applications for which XQuery is applicable, a wide spectrum of alternative techniques has been proposed for XQuery processing. Some of these techniques are only useful for certain applications, other techniques are general-purpose.</span>
+</div>
 
 
+
+</div>
 
 </td>
 
@@ -158,12 +253,19 @@ Registration
 (Tutorial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Natalya F. Noy,Mark A. Musen,Holger Knublauch,Guus Schreiber,Alan Rector</span>
 </div>
 
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> The Task Force on Ontology Engineering and Patterns of the W3C working group on Semantic Web Best Practices and Deployment will have completed most of its work by the time of the conference. The Task Force has already produced a series of first working draft notes on common ontology design patterns. These patterns analogous to the programming design patterns used by software engineers are directly influencing the development of the Protégé-OWL ontology development environment and its extensions by the CO-ODE project. This tutorial will introduce attendees to the concept of ontology patterns and discuss key patterns developed by the Task Force and others. Example patterns include quantities and units, value partitions, n-nary relations, problems of distinguishing classes and individuals, the choice between representing relationships as classes or properties, and qualified cardinality restrictions. (The final choice of issues will be driven by the results of the Task Force.) The tutorial will provide practical hands-on experience with the patterns using the Protégé-OWL tools and CO-ODE extensions. The style of the tutorial will be lecture demonstration. The software and examples will be made available in advance and attendees will be encouraged to gain hands on experience and explore the trade-offs between alternative patterns by working through the examples on their laptops. (See http://protege.stanford.edu and http://www.co-ode.org) The quality, availability and breadth of coverage of ontologies will be a major factor in determining the success of the Semantic Web. Patterns and tools to make it easier to develop high quality ontologies is therefore crucial to the Semantic Web Development. However, the idea of ontology patterns is relatively new. Many controversies remain. Ample time will be provided for feedback, questions and discussion. Three of the proposers are members of the Task Force, and one of them, Guus Schreiber, chairs the W3C Working Group.</span>
+</div>
 
 
+
+</div>
 
 </td>
 
@@ -180,12 +282,19 @@ Registration
 (Tutorial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Christoph Bussler,Katia Sycara,Liliana Cabral,Michael Zaremba,John Domingue,Michael Stollberg,Sinuhe Arroyo,Matthew Moran</span>
 </div>
 
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> Web Services combined with Semantic Web are being considered as the Next Big Wave of innovation in e-commerce and B2B integration. Web Services are also offered across Grid Computing in support of e-science. Recent industrial interest in Web Services, Semantic Web and the availability of tools and standards to enable automated invocation of business functionality through message exchange (e.g. SOAP, UDDI, WSDL, BEPL etc) holds the promise of fast progress in this area. An increasing number of Web Services using basic semantics are starting to appear. Today, services (e.g. travel services, book selling services, stock reporting services etc) are discovered and invoked manually by human users. In the near future, such service discovery and use will be mediated by computational entities, thus making the Web and Web Services computer understandable. Instead of being populated with human-readable documents, the Web will be populated with computer-mediated services. This tutorial will take an in-depth look at the current state of the art in the Semantic Web and Web Services and sort through the increasing and confusing array of relevant tools, languages and theories both from academia and industry. The tutorial will also present and discuss semantics for Web Services and their potential for business value added. Many examples to illustrate the described concepts, techniques, tools and their use will be presented. The tutorial brings together material and tools from the Semantic Web and Web Service standards technologies. In addition, the tutorial will present different approaches for enhancing Web Services with semantics. More importantly, the tutorial will discuss limitations of current technologies and present value added advanced concepts, such as distributed service composition, Semantic Web enabled Web Services, agent-mediated Web Services, as well as open issues that must be addressed. Alternative approaches will be presented and compared and a substantial list of references will be provided. The tutorial is self contained and accessible to practitioners, researchers and students. In particular this tutorial will focus on presenting semantics for Web Services with illustrations from two approaches, OWL-S and WSMO, that will be presented concurrently in order to emphasize their commonalities and differences. OWL-S (http://www.daml.org/services/owl-s/) is an effort supported by DARPA and is part of the DAML program. WSMO (http://www.wsmo.org) is an effort supported by European national and international projects.</span>
+</div>
 
 
+
+</div>
 
 </td>
 
@@ -202,12 +311,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Valentina Tamma,Terry Payne,Monique Calisti,Kaoru Hiramatsu,Chiara Ghidini</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -224,12 +337,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Wolfgang Nejdl,Piero Bonatti,Marianne Winslett,Jennifer Golbeck</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -245,9 +362,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -263,9 +384,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -282,12 +407,16 @@ Lunch
 (Tutorial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Steve Pepper,Lars Marius Garshol</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -304,12 +433,16 @@ Lunch
 (Tutorial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Richard Vdovjak,Jeen Broekstra,Heiner Stuckenschmidt,Geert-Jan Houben,Ad Aerts</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -326,12 +459,16 @@ Lunch
 (Tutorial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Mike Dean,Benjamin Grosof</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -347,9 +484,13 @@ Tea Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -375,9 +516,13 @@ Registration
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -394,12 +539,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Yukihiro Itoh,Riichiro Mizoguchi,Lora Aroyo,Darina Dicheva</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -416,12 +565,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): York Sure,Todd Hughes,Oscar Corcho,Jerome Euzenat</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -438,12 +591,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Harold Boley,Grigoris Antoniou</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -460,12 +617,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Takahira Yamaguchi,Rubén Lara Hernández,David Martin</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -482,12 +643,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Paolo Bouquet,Luciano Serafini</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -504,12 +669,16 @@ Workshop:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Thierry Declerck,Siegfried Handschuh</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -525,9 +694,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -543,9 +716,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -561,9 +738,13 @@ Tea Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -589,9 +770,13 @@ Opening Ceremony
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -608,15 +793,19 @@ The Semantic Web Story -- It's already 2004. Where are we?
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): F. Van Harmelen</span>
 </div>
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Edward Feigenbaum</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -632,9 +821,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -652,6 +845,8 @@ S1: Integration
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -664,6 +859,8 @@ S1: Integration
 <div style="padding-left:20px;margin:1px;">3. Working with Multiple Ontologies on the Semantic Web,
 <span style="color:#666">Bernardo Cuenca Grau,Bijan Parsia and Evren Sirin</span>
 <sup><span style="color:DarkRed">Integration and Interoperability</span></sup></div>
+
+</div>
 
 </td>
 
@@ -681,6 +878,8 @@ S2: Searching & Querying
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -693,6 +892,8 @@ S2: Searching & Querying
 <div style="padding-left:20px;margin:1px;">3. Information Retrieval Support for Ontology Construction and Use,
 <span style="color:#666">Willem Robert van Hage,Maarten de Rijke and Maarten Marx</span>
 <sup><span style="color:DarkRed">Searching and Querying</span></sup></div>
+
+</div>
 
 </td>
 
@@ -708,9 +909,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -728,6 +933,8 @@ S3: SW Services
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -740,6 +947,8 @@ S3: SW Services
 <div style="padding-left:20px;margin:1px;">3. Applying Semantic Web Services to Bioinformatics: Experiences Gained, Lessons Learnt,
 <span style="color:#666">Phillip W. Lord,Sean Bechhofer,Mark D. Wilkinson,Gary S. Schiltz,Damian Gessler,Duncan Hull,Carole A. Goble and Lincoln Stein</span>
 <sup><span style="color:DarkRed">Semantic Web Services</span></sup></div>
+
+</div>
 
 </td>
 
@@ -757,6 +966,8 @@ S4: User Interfaces & Visualization
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -769,6 +980,8 @@ S4: User Interfaces & Visualization
 <div style="padding-left:20px;margin:1px;">3. Tracking Changes During Ontology Evolution,
 <span style="color:#666">Natalya Fridman Noy,Sandhya Kunnatur,Michel C. A. Klein and Mark A. Musen</span>
 <sup><span style="color:DarkRed">User Interfaces and Visualization</span></sup></div>
+
+</div>
 
 </td>
 
@@ -784,9 +997,13 @@ Tea Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -804,6 +1021,8 @@ S5: SW Mining
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -813,6 +1032,8 @@ S5: SW Mining
 <div style="padding-left:20px;margin:1px;">2. Learning Meta-descriptions of the FOAF Network,
 <span style="color:#666">Gunnar Aastrand Grimnes,Peter Edwards and Alun D. Preece</span>
 <sup><span style="color:DarkRed">Semantic Web Mining</span></sup></div>
+
+</div>
 
 </td>
 
@@ -830,6 +1051,8 @@ S6: Large Scale Knowledge Mgmt
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -839,6 +1062,8 @@ S6: Large Scale Knowledge Mgmt
 <div style="padding-left:20px;margin:1px;">2. Structure-Based Partitioning of Large Concept Hierarchies,
 <span style="color:#666">Heiner Stuckenschmidt and Michel C. A. Klein</span>
 <sup><span style="color:DarkRed">Large Scale Knowledge Management</span></sup></div>
+
+</div>
 
 </td>
 
@@ -854,9 +1079,13 @@ Posters & 1st half of Demos with Drinks & Snacks
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -883,15 +1112,19 @@ How to Build Google2Google - An (Incomplete) Recipe
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): S. McIlraith</span>
 </div>
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Wolfgang Nejdl</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -907,9 +1140,13 @@ Exhibition
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -925,9 +1162,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -945,6 +1186,8 @@ S7: Ontologies
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -957,6 +1200,8 @@ S7: Ontologies
 <div style="padding-left:20px;margin:1px;">3. Towards a Symptom Ontology for Semantic Web Applications,
 <span style="color:#666">Kenneth Baclawski,Christopher J. Matheus,Mieczyslaw M. Kokar,Jerzy Letkowski and Paul A. Kogut</span>
 <sup><span style="color:DarkRed">Ontologies</span></sup></div>
+
+</div>
 
 </td>
 
@@ -974,6 +1219,8 @@ S8: Inference
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -986,6 +1233,8 @@ S8: Inference
 <div style="padding-left:20px;margin:1px;">3. Using Vampire to Reason with OWL,
 <span style="color:#666">Dmitry Tsarkov,Alexandre Riazanov,Sean Bechhofer and Ian Horrocks</span>
 <sup><span style="color:DarkRed">Inference</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1001,9 +1250,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1021,6 +1274,8 @@ S10: SW Services
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -1033,6 +1288,8 @@ S10: SW Services
 <div style="padding-left:20px;margin:1px;">3. Automating Scientific Experiments on the Semantic Grid,
 <span style="color:#666">Shalil Majithia,David W. Walker and W. A. Gray</span>
 <sup><span style="color:DarkRed">Semantic Web Services</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1050,6 +1307,8 @@ S9: Data Semantics
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -1062,6 +1321,8 @@ S9: Data Semantics
 <div style="padding-left:20px;margin:1px;">3. Bipartite Graphs as Intermediate Model for RDF,
 <span style="color:#666">Jonathan Hayes and Claudio Gutiérrez</span>
 <sup><span style="color:DarkRed">Data Semantics</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1077,9 +1338,13 @@ Tea Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1097,6 +1362,8 @@ S11: Searching & Querying
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -1106,6 +1373,8 @@ S11: Searching & Querying
 <div style="padding-left:20px;margin:1px;">2. Rules-By-Example - A Novel Approach to Semantic Indexing and Querying of Images,
 <span style="color:#666">Suzanne Little and Jane Hunter</span>
 <sup><span style="color:DarkRed">Searching and Querying</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1123,6 +1392,8 @@ S12: SW Middleware
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -1132,6 +1403,8 @@ S12: SW Middleware
 <div style="padding-left:20px;margin:1px;">2. Metadata-Driven Personal Knowledge Publishing,
 <span style="color:#666">Ikki Ohmukai,Hideaki Takeda,Masahiro Hamasaki,Kosuke Numa and Shin Adachi</span>
 <sup><span style="color:DarkRed">Semantic Web Middleware</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1147,9 +1420,13 @@ S12: SW Middleware
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1165,9 +1442,13 @@ Banquet
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1194,15 +1475,19 @@ Small Can Be Beautiful in the Semantic Web.
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): D. Plexousakis</span>
 </div>
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Marie-Christine Rousset</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -1218,9 +1503,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1238,6 +1527,8 @@ S15: Industrial 1
 (Industrial Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -1247,6 +1538,8 @@ S15: Industrial 1
 <div style="padding-left:20px;margin:1px;">2. ORIENT: Integrate Ontology Engineering into Industry Tooling Environment,
 <span style="color:#666">Lei Zhang,Yong Yu,Jing Lu,Chenxi Lin,Kewei Tu,MingChuan Guo,Zhuo Zhang,Guo Tong Xie,Zhong Su and Yue Pan</span>
 <sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1264,6 +1557,8 @@ S13: Ontologies
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -1276,6 +1571,8 @@ S13: Ontologies
 <div style="padding-left:20px;margin:1px;">3. Patching Syntax in OWL Ontologies,
 <span style="color:#666">Sean Bechhofer and Raphael Volz</span>
 <sup><span style="color:DarkRed">Ontologies</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1293,6 +1590,8 @@ S14: P2P Systems
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -1305,6 +1604,8 @@ S14: P2P Systems
 <div style="padding-left:20px;margin:1px;">3. Top-k Query Evaluation for Schema-Based Peer-to-Peer Networks,
 <span style="color:#666">Wolfgang Nejdl,Wolf Siberski,Uwe Thaden and Wolf-Tilo Balke</span>
 <sup><span style="color:DarkRed">P2P Systems</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1320,9 +1621,13 @@ Semantic Web Challenge Award
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1338,9 +1643,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1358,6 +1667,8 @@ S18: Industrial 2
 (Industrial Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -1370,6 +1681,8 @@ S18: Industrial 2
 <div style="padding-left:20px;margin:1px;">3. Public Deployment of Semantic Service Matchmaker with UDDI Business Registry,
 <span style="color:#666">Takahiro Kawamura,Jacques-Albert De Blasio,Tetsuo Hasegawa,Massimo Paolucci and Katia P. Sycara</span>
 <sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1387,6 +1700,8 @@ S16: Data Semantics
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -1399,6 +1714,8 @@ S16: Data Semantics
 <div style="padding-left:20px;margin:1px;">3. Using Semantic Web Technologies for Representing E-science Provenance,
 <span style="color:#666">Jun Zhao,Chris Wroe,Carole A. Goble,Robert Stevens,Dennis Quan and R. Mark Greenwood</span>
 <sup><span style="color:DarkRed">Data Semantics</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1416,6 +1733,8 @@ S17: SW Services
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -1428,6 +1747,8 @@ S17: SW Services
 <div style="padding-left:20px;margin:1px;">3. Semantic Web Service Interaction Protocols: An Ontological Approach,
 <span style="color:#666">Ronald Ashri,Grit Denker,Darren Marvin,Mike Surridge and Terry R. Payne</span>
 <sup><span style="color:DarkRed">Semantic Web Services</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1443,9 +1764,13 @@ Tea Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1463,6 +1788,8 @@ S21: Industrial 3
 (Industrial Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -1472,6 +1799,8 @@ S21: Industrial 3
 <div style="padding-left:20px;margin:1px;">2. SWS for Financial Overdrawn Alerting,
 <span style="color:#666">José Manuel López Cobo,Silvestre Losada,Óscar Corcho,V. Richard Benjamins,Marcos Niño and Jesús Contreras</span>
 <sup><span style="color:DarkRed">Industrial Track Paper</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1489,6 +1818,8 @@ S19: User Interfaces & Visualization
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -1498,6 +1829,8 @@ S19: User Interfaces & Visualization
 <div style="padding-left:20px;margin:1px;">2. What Would It Mean to Blog on the Semantic Web?,
 <span style="color:#666">David R. Karger and Dennis Quan</span>
 <sup><span style="color:DarkRed">User Interfaces and Visualization</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1515,6 +1848,8 @@ S20: Middleware and Agents
 (Research Track)
 </span>
 
+<div class="details">
+
 
 
 
@@ -1524,6 +1859,8 @@ S20: Middleware and Agents
 <div style="padding-left:20px;margin:1px;">2. On the Emergent Semantic Web and Overlooked Issues,
 <span style="color:#666">Yannis Kalfoglou,Harith Alani,W. Marco Schorlemmer and Chris Walton</span>
 <sup><span style="color:DarkRed">Semantic Web Middleware</span></sup></div>
+
+</div>
 
 </td>
 
@@ -1539,9 +1876,13 @@ Closing Ceremony
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 

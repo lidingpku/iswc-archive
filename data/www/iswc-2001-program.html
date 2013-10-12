@@ -94,8 +94,92 @@ tr:last-child td:last-child {
     border-radius: 0 0 6px 0;
 }
 </style>
-</head>
-<body>
+<script type="text/javascript" >
+/*
+ * Dynamic Table of Contents script
+ * by Matt Whitlock <http://www.whitsoftdev.com/>
+ */
+
+function createLink(href, innerHTML) {
+	var a = document.createElement("a");
+	a.setAttribute("href", href);
+	a.innerHTML = innerHTML;
+	return a;
+}
+
+function generateTOC(toc) {
+	var i2 = 0, i3 = 0, i4 = 0;
+	toc = toc.appendChild(document.createElement("ul"));
+	for (var i = 0; i < document.body.childNodes.length; ++i) {
+		var node = document.body.childNodes[i];
+		var tagName = node.nodeName.toLowerCase();
+		if (tagName == "h4") {
+			++i4;
+			if (i4 == 1) toc.lastChild.lastChild.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3 + "." + i4;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h3") {
+			++i3, i4 = 0;
+			if (i3 == 1) toc.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h2") {
+			++i2, i3 = 0, i4 = 0;
+			var section = i2;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.appendChild(h2item = document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+	}
+}
+</script>
+<style type="text/css">
+.on {
+  background: green;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.off {
+  background: red;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 2px;
+  border-left-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+</style>
+<script type="text/javascript">
+<!--
+	function togglestyle(el){
+	    if(el.className == "on") {
+	    	el.className="off";
+	    } else {
+	    	el.className="on";
+	    }
+	}
+	function toggle_visibility(cl){
+	   var els = document.getElementsByClassName(cl);
+	   for(var i=0; i<els.length; ++i){
+	      var s = els[i].style;
+	      s.display = s.display==='none' ? 'block' : 'none';
+	   };
+	}
+//-->
+</script>
+<body onload="generateTOC(document.getElementById('toc'));">
+<input type="button" class="off" onclick="togglestyle(this); toggle_visibility('details');">show/hide details</input>
+<div id="toc"></div>
 
 <h1>Program</h1>
 
@@ -117,9 +201,13 @@ SWWS Registration and Breakfast
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -135,9 +223,13 @@ Welcome (Organizers and Jim Hendler)
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -154,12 +246,16 @@ InvitedTalk:
 </b>
 </span>
 
+<div class="details">
+
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Eric Miller</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -175,9 +271,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -194,8 +294,14 @@ Coffee Break
 (Tutorial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Charles Petrie</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> In recent years the development of ontologies - explicit formal specifications of the terms in the domain and relations among them -has been moving from the realm of Artificial-Intelligence laboratories to the desktops of domain experts. Ontologies have also become common on the World-Wide Web. The ontologies on the Web range from large taxonomies categorizing Web sites (such as on Yahoo!) to categorizations of products for sale and their features (such as on Amazon.com). On the Web and in many large applications ontologies serve a variety of purposes: making the knowledge about a particular domain explicit, sharing and reusing this knowledge, analyzing domain knowledge. A number of languages for defining ontologies on the Web, such as RDF(S) and DAML+OIL, are under development. In this tutorial we will discuss why one would build an ontology and present a methodology for creating ontologies based on declarative knowledge representation systems. We will present ontology examples, discuss common problems and pitfalls in ontology development and approaches to solving the problems. We will also give a brief overview of the current research issues in ontology engineering and compare some Web-based ontology-representation languages.</span>
 </div>
 
 <div style="padding-left:10px;margin:2px;">
@@ -203,6 +309,7 @@ Coffee Break
 </div>
 
 
+</div>
 
 </td>
 
@@ -220,6 +327,8 @@ Session 1a
 (Working Track 1: Ontology and Ontology Maintenance)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Mark Tuttle,Deborah McGuinness</span>
 </div>
@@ -235,6 +344,8 @@ Session 1a
 <div style="padding-left:20px;margin:1px;">3. OntoMap - the Guide to the Upper-Level,
 <span style="color:#666">Atanas K. Kirakov and Marin Dimitrov</span>
 <sup><span style="color:DarkRed">Working Track 1: Ontology and Ontology Maintenance</span></sup></div>
+
+</div>
 
 </td>
 
@@ -252,6 +363,8 @@ Session 1b
 (Working Track 2: Interoperability, Integration, Composition)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Vipul Kashyap</span>
 </div>
@@ -267,6 +380,8 @@ Session 1b
 <div style="padding-left:20px;margin:1px;">3. Brokerage of Intellectual Property Rights in the Semantic Web,
 <span style="color:#666">Roberto García and Jaime Delgado</span>
 <sup><span style="color:DarkRed">Working Track 2: Interoperability, Integration, Composition</span></sup></div>
+
+</div>
 
 </td>
 
@@ -284,6 +399,8 @@ Session 1c
 (Working Track 3: (Web-) Services and Applications)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Sheila McIlraith,Jim Hendler</span>
 </div>
@@ -300,6 +417,8 @@ Session 1c
 <span style="color:#666">David Trastour,Claudio Bartolini and Javier Gonzalez-Castillo</span>
 <sup><span style="color:DarkRed">Working Track 3: (Web-) Services and Applications</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Bio T175</td>
@@ -314,9 +433,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -332,9 +455,16 @@ Demo Session
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> Demos by Verticalnet, Spirit-Soft, Mondeca, Empolis, SC4, Lastmileservices, UMBC, Stanford Medical Informatics, Griffith University, University of Bristol, University of Karlsruhe</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -351,8 +481,14 @@ Semantic B2B Integration - Concepts, Architecture, Implementation and Deployment
 (Tutorial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Charles Petrie</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> This tutorial will give an introduction to the field of business-to-business (B2B) integration from a technical viewpoint with the focus on semantic integration aspects. The set of B2B integration concepts is introduced as well as their implementation in form of a technical semantic B2B integration architecture. A mix of examples is taken illustrating the problems that need to be solved in semantic B2B integration projects. The tutorial enables the audience to identify semantic B2B integration problems as well as to determine the benefits and deficiencies of various technical integration architecture approaches or B2B integration technologies.</span>
 </div>
 
 <div style="padding-left:10px;margin:2px;">
@@ -360,6 +496,7 @@ Semantic B2B Integration - Concepts, Architecture, Implementation and Deployment
 </div>
 
 
+</div>
 
 </td>
 
@@ -377,6 +514,8 @@ Session 2a
 (Working Track 1: Ontology and Ontology Maintenance)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Mark Tuttle,Deborah McGuinness</span>
 </div>
@@ -392,6 +531,8 @@ Session 2a
 <div style="padding-left:20px;margin:1px;">3. Ontology Library Systems: The key to successful Ontology Reuse,
 <span style="color:#666">Ying Ding and Dieter Fensel</span>
 <sup><span style="color:DarkRed">Working Track 1: Ontology and Ontology Maintenance</span></sup></div>
+
+</div>
 
 </td>
 
@@ -409,6 +550,8 @@ Session 2b
 (Working Track 2: Interoperability, Integration, Composition)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Vipul Kashyap</span>
 </div>
@@ -421,6 +564,8 @@ Session 2b
 <div style="padding-left:20px;margin:1px;">2. Overcoming Ontology Mismatches in Transactions with Self-Describing Service Agents,
 <span style="color:#666">Drew V. McDermott,Mark H. Burstein and Douglas R. Smith</span>
 <sup><span style="color:DarkRed">Working Track 2: Interoperability, Integration, Composition</span></sup></div>
+
+</div>
 
 </td>
 
@@ -438,6 +583,8 @@ Session 2c
 (Working Track 3: (Web-) Services and Applications)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Sheila McIlraith,Jim Hendler</span>
 </div>
@@ -454,6 +601,8 @@ Session 2c
 <span style="color:#666">Hadhami Dhraief,Wolfgang Nejdl,Boris Wolf and Martin Wolpers</span>
 <sup><span style="color:DarkRed">Working Track 3: (Web-) Services and Applications</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Bio T175</td>
@@ -468,9 +617,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -487,6 +640,8 @@ Demos
 </b>
 (Tutorial Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Charles Petrie</span>
@@ -516,6 +671,8 @@ Demos
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td>Room TCSEQ 200</td>
@@ -531,6 +688,8 @@ Session 3a
 </b>
 (Working Track 1: Ontology and Ontology Maintenance)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Mark Tuttle,Deborah McGuinness</span>
@@ -551,6 +710,8 @@ Session 3a
 <span style="color:#666">Chutiporn Anutariya,Vilas Wuwongse,Kiyoshi Akama and Vichit Wattanapailin</span>
 <sup><span style="color:DarkRed">Working Track 1: Ontology and Ontology Maintenance</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Room CIS-X101</td>
@@ -566,6 +727,8 @@ Session 3b
 </b>
 (Working Track 2: Interoperability, Integration, Composition)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Vipul Kashyap</span>
@@ -586,6 +749,8 @@ Session 3b
 <span style="color:#666">Jérôme Euzenat</span>
 <sup><span style="color:DarkRed">Working Track 2: Interoperability, Integration, Composition</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Packard 101</td>
@@ -601,6 +766,8 @@ Session 3c
 </b>
 (Working Track 3: (Web-) Services and Applications)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Sheila McIlraith,Jim Hendler</span>
@@ -621,6 +788,8 @@ Session 3c
 <span style="color:#666">Sara Comai and Piero Fraternali</span>
 <sup><span style="color:DarkRed">Working Track 3: (Web-) Services and Applications</span></sup></div>
 
+</div>
+
 </td>
 
 <td>Bio T175</td>
@@ -635,9 +804,13 @@ Banquet
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -663,9 +836,13 @@ SWWS Registration and Breakfast
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -682,12 +859,16 @@ Making Semantics Addressable -- Topic Maps Unclothed
 </b>
 </span>
 
+<div class="details">
+
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Steven R. Newcomb,Michel Biezunski</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -703,9 +884,13 @@ Coffee break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -722,15 +907,19 @@ Panel:
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Vipul Kashyap</span>
 </div>
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Umeshwar Dayal,Ora Lassila,Jim Hendler,Dieter Fensel,Clifford A Behrens</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -746,9 +935,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -764,9 +957,16 @@ Demo Session
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> Demos by Verticalnet, Spirit-Soft, Mondeca, Empolis, SC4, Lastmileservices, UMBC, Stanford Medical Informatics, Griffith University, University of Bristol, University of Karlsruhe</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -783,8 +983,14 @@ Demo Session
 (Tutorial Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Charles Petrie</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> E-services are business functions made available via the Internet by service providers, and accessible by clients that could be human users or software applications. The main benefit of the e-services environment is that clients are able to dynamically discover the available e-service that best meets their needs, to examine its properties and capabilities, and to determine if and how to access it. However, in order to deliver e-services to clients, service providers are faced with several challenges. In particular, they need to describe e-services in a way that is accessible and understandable by the clients and to advertise them in web directories, so that they can be discovered by brokers as well as by end -users. In this tutorial we discuss the main requirements for models and languages for service description and discovery, and we present relevant approaches proposed by standardization consortia.</span>
 </div>
 
 <div style="padding-left:10px;margin:2px;">
@@ -792,6 +998,7 @@ Demo Session
 </div>
 
 
+</div>
 
 </td>
 
@@ -809,6 +1016,8 @@ Session 4a
 (Working Track 1: Ontology and Ontology Maintenance)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Mark Tuttle,Deborah McGuinness</span>
 </div>
@@ -824,6 +1033,8 @@ Session 4a
 <div style="padding-left:20px;margin:1px;">3. Development of a Simple Ontology Definition Language (SOntoDL) and Its Application to a Medical Information Service on the World Wide Web,
 <span style="color:#666">Rolf Grütter and Claus Eikemeier</span>
 <sup><span style="color:DarkRed">Working Track 1: Ontology and Ontology Maintenance</span></sup></div>
+
+</div>
 
 </td>
 
@@ -841,6 +1052,8 @@ Session 4b
 (Working Track 2: Interoperability, Integration, Composition)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Vipul Kashyap</span>
 </div>
@@ -856,6 +1069,8 @@ Session 4b
 <div style="padding-left:20px;margin:1px;">3. Enabling Semantic Web Programming by Integrating RDF and Common Lisp,
 <span style="color:#666">Ora Lassila</span>
 <sup><span style="color:DarkRed">Working Track 2: Interoperability, Integration, Composition</span></sup></div>
+
+</div>
 
 </td>
 
@@ -873,6 +1088,8 @@ Session 4c
 (Working Track 3: (Web-) Services and Applications)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Sheila McIlraith,Jim Hendler</span>
 </div>
@@ -882,6 +1099,8 @@ Session 4c
 <div style="padding-left:20px;margin:1px;">1. Web Services - Components of the "Trasnactional Web",
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -897,9 +1116,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -915,6 +1138,8 @@ Session:
 Facilitators Report and Announcement of BOF Sessions
 </b>
 </span>
+
+<div class="details">
 
 
 
@@ -932,6 +1157,8 @@ Facilitators Report and Announcement of BOF Sessions
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td>TCSEQ 200</td>
@@ -947,12 +1174,16 @@ The Semantic Web and the Bootstrap Institute
 </b>
 </span>
 
+<div class="details">
+
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Doug Engelbart</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -978,9 +1209,13 @@ SWWS Registration and Breakfast
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -996,9 +1231,13 @@ Birds of the Feather Session CIS 101
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1014,9 +1253,13 @@ Birds of the Feather Session Packard 101
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1032,9 +1275,13 @@ Birds of the Feather Session TCSEQ 200
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1050,9 +1297,13 @@ Birds of the Feather Session in Gates 104
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1068,9 +1319,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1086,9 +1341,13 @@ BOF Wrap Up, Follow-up actions and Farewell
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 

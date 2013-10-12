@@ -94,8 +94,92 @@ tr:last-child td:last-child {
     border-radius: 0 0 6px 0;
 }
 </style>
-</head>
-<body>
+<script type="text/javascript" >
+/*
+ * Dynamic Table of Contents script
+ * by Matt Whitlock <http://www.whitsoftdev.com/>
+ */
+
+function createLink(href, innerHTML) {
+	var a = document.createElement("a");
+	a.setAttribute("href", href);
+	a.innerHTML = innerHTML;
+	return a;
+}
+
+function generateTOC(toc) {
+	var i2 = 0, i3 = 0, i4 = 0;
+	toc = toc.appendChild(document.createElement("ul"));
+	for (var i = 0; i < document.body.childNodes.length; ++i) {
+		var node = document.body.childNodes[i];
+		var tagName = node.nodeName.toLowerCase();
+		if (tagName == "h4") {
+			++i4;
+			if (i4 == 1) toc.lastChild.lastChild.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3 + "." + i4;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h3") {
+			++i3, i4 = 0;
+			if (i3 == 1) toc.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h2") {
+			++i2, i3 = 0, i4 = 0;
+			var section = i2;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.appendChild(h2item = document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+	}
+}
+</script>
+<style type="text/css">
+.on {
+  background: green;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.off {
+  background: red;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 2px;
+  border-left-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+</style>
+<script type="text/javascript">
+<!--
+	function togglestyle(el){
+	    if(el.className == "on") {
+	    	el.className="off";
+	    } else {
+	    	el.className="on";
+	    }
+	}
+	function toggle_visibility(cl){
+	   var els = document.getElementsByClassName(cl);
+	   for(var i=0; i<els.length; ++i){
+	      var s = els[i].style;
+	      s.display = s.display==='none' ? 'block' : 'none';
+	   };
+	}
+//-->
+</script>
+<body onload="generateTOC(document.getElementById('toc'));">
+<input type="button" class="off" onclick="togglestyle(this); toggle_visibility('details');">show/hide details</input>
+<div id="toc"></div>
 
 <h1>Program</h1>
 
@@ -119,6 +203,8 @@ Management: Robust and scalable knowledge management and reasoning on the Web
 (ISWC2009 Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Umberto Straccia</span>
 </div>
@@ -138,6 +224,8 @@ Management: Robust and scalable knowledge management and reasoning on the Web
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -153,6 +241,8 @@ User and the Social Semantic Web (Collaboration, Policy, and Trust)
 </b>
 (ISWC2009 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Natalya Noy</span>
@@ -173,6 +263,8 @@ User and the Social Semantic Web (Collaboration, Policy, and Trust)
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -188,6 +280,8 @@ Semantics: Alignment
 </b>
 (ISWC2009 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Valentina Tamma</span>
@@ -205,6 +299,8 @@ Semantics: Alignment
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -220,6 +316,8 @@ Semantics: Ontology modeling, reuse, extraction, and evolution
 </b>
 (ISWC2009 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Thomas Lukasiewicz</span>
@@ -237,6 +335,8 @@ Semantics: Ontology modeling, reuse, extraction, and evolution
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -252,12 +352,16 @@ Lightning talks
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): David Karger,Abraham Bernstein</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -274,12 +378,16 @@ Does the Semantic Web Need Ontologies?
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Joel Sachs</span>
 </div>
 
 
 
+
+</div>
 
 </td>
 
@@ -307,6 +415,8 @@ Applications: Semantic Web technologies for Services
 (ISWC2009 Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): David Martin</span>
 </div>
@@ -326,6 +436,8 @@ Applications: Semantic Web technologies for Services
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -341,6 +453,8 @@ Semantics: Reasoning with Rules or Modules
 </b>
 (ISWC2009 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Frank van Harmelen</span>
@@ -361,6 +475,8 @@ Semantics: Reasoning with Rules or Modules
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -376,6 +492,8 @@ Applications: Semantic Web technologies for software and systems engineering - P
 </b>
 (ISWC2009 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Evren Sirin</span>
@@ -393,6 +511,8 @@ Applications: Semantic Web technologies for software and systems engineering - P
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -409,6 +529,8 @@ Management: Search and query 1
 (ISWC2009 Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Peter Mika</span>
 </div>
@@ -424,6 +546,8 @@ Management: Search and query 1
 <div style="padding-left:20px;margin:1px;">. Using Naming Authority to Rank Data and Ontologies for Web Search,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -451,6 +575,8 @@ Management: Search and Query 2
 (ISWC2009 Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Chris Bizer,Christian Bizer</span>
 </div>
@@ -470,6 +596,8 @@ Management: Search and Query 2
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -485,6 +613,8 @@ Semantics: Reasoning and Provenance
 </b>
 (ISWC2009 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Claudia d'Amato</span>
@@ -508,6 +638,8 @@ Semantics: Reasoning and Provenance
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -523,6 +655,8 @@ Discovering Semantics
 </b>
 (ISWC2009 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Fabio Ciravegna</span>
@@ -540,6 +674,8 @@ Discovering Semantics
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -556,6 +692,8 @@ Management: Database Technologies
 (ISWC2009 Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Steffen Staab</span>
 </div>
@@ -571,6 +709,8 @@ Management: Database Technologies
 <div style="padding-left:20px;margin:1px;">. Efficient Query Answering for OWL 2,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 

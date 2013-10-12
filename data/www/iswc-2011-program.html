@@ -94,8 +94,92 @@ tr:last-child td:last-child {
     border-radius: 0 0 6px 0;
 }
 </style>
-</head>
-<body>
+<script type="text/javascript" >
+/*
+ * Dynamic Table of Contents script
+ * by Matt Whitlock <http://www.whitsoftdev.com/>
+ */
+
+function createLink(href, innerHTML) {
+	var a = document.createElement("a");
+	a.setAttribute("href", href);
+	a.innerHTML = innerHTML;
+	return a;
+}
+
+function generateTOC(toc) {
+	var i2 = 0, i3 = 0, i4 = 0;
+	toc = toc.appendChild(document.createElement("ul"));
+	for (var i = 0; i < document.body.childNodes.length; ++i) {
+		var node = document.body.childNodes[i];
+		var tagName = node.nodeName.toLowerCase();
+		if (tagName == "h4") {
+			++i4;
+			if (i4 == 1) toc.lastChild.lastChild.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3 + "." + i4;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h3") {
+			++i3, i4 = 0;
+			if (i3 == 1) toc.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h2") {
+			++i2, i3 = 0, i4 = 0;
+			var section = i2;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.appendChild(h2item = document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+	}
+}
+</script>
+<style type="text/css">
+.on {
+  background: green;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.off {
+  background: red;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 2px;
+  border-left-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+</style>
+<script type="text/javascript">
+<!--
+	function togglestyle(el){
+	    if(el.className == "on") {
+	    	el.className="off";
+	    } else {
+	    	el.className="on";
+	    }
+	}
+	function toggle_visibility(cl){
+	   var els = document.getElementsByClassName(cl);
+	   for(var i=0; i<els.length; ++i){
+	      var s = els[i].style;
+	      s.display = s.display==='none' ? 'block' : 'none';
+	   };
+	}
+//-->
+</script>
+<body onload="generateTOC(document.getElementById('toc'));">
+<input type="button" class="off" onclick="togglestyle(this); toggle_visibility('details');">show/hide details</input>
+<div id="toc"></div>
 
 <h1>Program</h1>
 
@@ -117,9 +201,16 @@ The Web of Data for E-Commerce in Brief
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> The GoodRelations ontology (http://purl.org/goodrelations/) is one huge success story of applying Semantic Web technology to business challenges. In this tutorial, we will (1) give a comprehensive overview and hands-on training on the conceptual structures of the GoodRelations ontology including patterns for ownership and demand, (2) present the full tool chain for producing and consuming GoodRelations-related data, (3) explain the long-term vision of linked open commerce, (4) describe the main challenges for future research in the field, and (5) discuss advanced topics, like access control, identity and authentication (e.g. with WebID); micropayment services (like Payswarm), and data management issues from the publisher and consumer perspective. Tutorial webpage: http://wiki.goodrelations-vocabulary.org/Events/ISWC2011</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -135,9 +226,16 @@ Debugging ontologies and mappings in ontology networks
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> Developing ontologies is not an easy task and, as the ontologies grow in size, they are likely to show a number of defects.  Such ontologies, although often useful, also lead to problems when used in semantically-enabled applications. Wrong conclusions may be derived or valid conclusions may be missed.  Defects in ontologies can take different forms. Syntactic defects are usually easy to find and to resolve. Defects regarding style include such things as unintended redundancy. More interesting and severe defects are the modeling defects which require domain knowledge to detect and resolve such as defects in the structure, and semantic defects such as unsatisfiable concepts and inconsistent ontologies. Further, during the recent years more and more mappings between ontologies with overlapping information have been generated, e.g. using ontology alignment systems, thereby connecting the ontologies in ontology networks. This has led to a new opportunity to deal with defects as the mappings and other ontologies in the network may be used in the debugging of a particular ontology in the network. It also has introduced a new difficulty as the mappings may not always be correct and need to be debugged themselves. In this tutorial we give an overview of current approaches for debugging semantic and structure defects in ontologies (single or in an ontology network) as well as approaches for debugging mappings. Tutorial webpage: http://www.ida.liu.se/~patla/courses/ISWC11/</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -153,9 +251,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -171,9 +273,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -189,9 +295,16 @@ SPARQL 1.1: Theory and Practice
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> This tutorial will cover the code of the SPARQL query language then describe how the SPARQL algebra defines the semantics of query execution. It will give the participant a solid understanding of how to write and design SPARQL queries, from basic access through to use of the newest features as well as a grounding in the formal underpinnings of the language.</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -207,9 +320,16 @@ Semantic Web Technology in Watson
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> Watson (http://ibmwatson.com) is an open-domain natural language question answering system that answers questions with precision and confidence rivaling the best human experts at the task, and that emerged victorious in a widely viewed public challenge on the American TV Quiz Show, Jeopardy!.  Semantic Web Technology, enhanced by a massive use of open linked data, plays a crucial role in Watson. For example, linked data such as DBpedia and Geonames and triple stores such as Sesame have been used to generate candidate answers and to score them under multiple points of view such as type coercion and geographic proximity.  In addition, the connection between linked data and natural language text offered by Wikipedia has been very useful to generate open domain training data for relation detection and entity recognition systems, substantially improving the NLP capabilities of the system and therefore allowing the development of a truly open domain QA system. This tutorial is focus on the Semantic Web Technology adopted by Watson and on how it fits in the general Deep QA architecture. The tutorial is structured in two parts, the first focusing on the open-domain QA challenge and the Watson architecture, the second focused on the use of semantic web technology and linked open data in Watson.  Tutorial webpage: http://iswc2011.semanticweb.org/tutorials/semantic-web-technology-in-watson/</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -225,9 +345,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -244,9 +368,20 @@ Linked-Data-a-thon
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> In the past few years, the amount of data published on the Web following the Linked Data principles has increased dramatically. Everyday people are publishing datasets as Linked Data. However, application that make use of Linked Data are not mainstream yet. We invite researchers, developers and practitioner to participate and show the world what can be done with Linked Data, that could not be done before the Linked Data era.
+
+The main goal of the Linked Data-a-thon competition is to develop innovative applications that showcase the benefits of Linked Data ... in two weeks! The spirit of this competition is to demonstrate what is possible with Linked Data, even in a short amount of time. The competition starts on October 1, 2011, and it closes 14 days later, on October 15, 2011. During this time each participating team works locally or remotely to develop a Linked Data based application that satisfies the requirements listed below. To enforce the spontaneous, hackathon-like nature of this competition, the applications must satisfy additional requirements that will be announced on October 1, 2011. Anybody can participate in this event and the submitted applications will be presented at the Linked Data gathering during ISWC 2011.
+
+Mark these two weeks in your calendar, form a team, and get ready to start your favorite development environment when the Linked Data-a-thon starts on October 1. To express your impatience in the weeks before the start, share the fun and excitement during the Linked Data-a-thon, or to report your progress, we encourage the use of microblogging services or other means of social broadcasting, provided with the hashtag #ldthon2011.</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -272,9 +407,16 @@ Scalable Integration and Processing of Linked Data
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> Given the recent growth in openly-available, rich, structured information published on the Web as Linked Data, this tutorial series focuses on consuming large corpora of such data, with particular emphasis on techniques for performing scalable integration. Following a brief introduction to Linked Data principles and publishing, we cover techniques for crawling, indexing, querying and reasoning over such data. We also highlight pragmatic issues faced when performing such tasks. Along these lines, the Scalable Integration of Linked Data tutorial series targets practitioners who wish to leverage existing Linked Data for their applications, but is also directly relevant to a wider audience hoping to learn more about Linked Data and the related standards.  Tutorial webpage: http://sild.cs.vu.nl/</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -291,9 +433,18 @@ THESEUS Symposium
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> This symposium aims at proliferating the understanding of semantics, especially its usage within enterprises. On the one hand, speakers from industry show applications of semantics within various projects relevant within different application areas ranging from environmental information portals to automation and mechanical engineering. On the other hand, technologies developed within the Core technology Cluster of the THESEUS programme and now ready for usage in different applications are presented and demonstrated. These tools cover technologies like semantic search, reasoning, mapping of ontologies, disambiguation of entities and managing changes within knowledge bases. Within a panel discussion aspects like funding, strategies to bring semantics into real-world applications and future research with respect to future applications of semantics are discussed.
+
+Bringing together researchers and representatives from industry is a special focus of this workshop. Its co-location with the ISWC (International Semantic Web Conference) and the invitation of a keynote speaker like Mark Greaves as well as having speakers from industry serves as a basis to foster synergies between both groups, which can then culminate in cooperative European research projects in the field of Future Internet as shown by keynote speaker Bernard Barani.</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -309,9 +460,23 @@ But I did a user study! vs "What do you mean I need a user study?"
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> Hi there.
+Does the following sound like you?
+You are creating a tool that is supposedly for Real People to use, so you figure, do a user study of some kind and you'll submit it as a paper?
+You've tried the above and the paper didn't get accepted saying "this isn't research; it's just applied user centered design"
+You want to validate your tool work with users but you don't have the expertise either to test your idea or prove that it's a user interaction contribution?
+You've designed a tool that's a really cool technology whether users use it or not, you don't care about the user testing, you just want to get the contribution out there, but reviewers say "where's the evaluation"?
+If any of the above scenarios sound like you, we feel your pain. But don't worry: we can help. 
+Tutorial webpage: http://iswc2011.semanticweb.org/tutorials/but-i-did-a-user-study-vs-what-do-you-mean-i-need-a-user-study/</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -327,9 +492,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -345,9 +514,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -364,9 +537,16 @@ OASIS Symposium
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> The common vision of the Semantic Web is the achievement of seamless and transparent interoperability of services across diverse providers by making the meaningful content of those services openly accessible. For content to become �meaningful� it must be related to more general information schemes for which some semantics has already been provided. Such information schemes range from tag collections, which impose an indirect semantics by means of induced similarity across tagged entities to formal ontologies, which represent explicitly class-subclass relationships, the attributes of such classes as well as additional information that may be known about combinations of such classes and their instances. Whereas the semantic information that is explicitly maintained in ontologies might appear ideal for realizing the Semantic Web vision, substantial problems still render this goal difficult in practice. The symposium will address some of these problem areas.</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -382,9 +562,16 @@ Ten rules to make your semantic app addictive � revisited
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> In many application scenarios useful semantic content can hardly be created (fully) automatically, but motivating people to become an active part of this endeavor is still an art more than a science. In this tutorial we will look into fundamental design issues of semantic-content authoring technology and of the applications deploying such technology in order to find out which incentives speak to people to become engaged with the Semantic Web, and to determine the ways these incentives can be transferred into technology design. We will present how methods and techniques from areas as diverse as participation management, usability engineering, mechanism design, social computing, and game mechanics can be jointly applied to analyze semantically enabled applications, and subsequently design incentives-compatible variants thereof. The discussion will be framed by three case studies on the topics of enterprise knowledge management, media and entertainment, and IT ecosystems, in which combinations of these methods and techniques has led to increased user participation in creating useful semantic descriptions of various types of digital resources text documents, images, videos and Web services and APIs. Furthermore, we will revisit the best practices and guidelines that have been at the core of an earlier version of this tutorial at the previous edition of the ISWC in 2010, following the empirical findings and insights gained during the operation of the three case studies just mentioned. These guidelines provide IT developers with a baseline to create technology and end-user applications that are not just functional, but facilitate and encourage user participation that supports the further development of the Semantic Web. Tutorial webpage: http://www.insemtives.eu/iswc2011-tutorial/</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -400,9 +587,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -428,9 +619,13 @@ Opening Ceremony
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -446,9 +641,16 @@ Building A Nervous System for Society: The �New Deal on Data� and how to mak
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> Most of the functions of our society are based on networks designed during the late 1800s, and are modelled after centralized water systems. The rapid spread of ubiquitous networks, and connected sensors such as those contained in smartphones and cars, allow these networks to be reinvented as much more active and reactive control networks at the scale of the individual, the family, the enterprise, the city and the nation. This will fundamentally transform the economics of health, finance, logistics, and transportation. One key challenge is access to the personal data at scale to enable these systems to function more efficiently. In discussions with key CEOs, regulators, and NGOs at the World Economic Forum we have constructed a `new deal on data' that can allow personal data to emerge as accessible asset class that provides strong protection for individuals. The talk will also cover a range of prototype systems and experiments developed at MIT, outline some of the challenges and growth opportunities, focusing on how this new data ecosystem may end up strongly promoting but also shaping the semantic web.</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -464,9 +666,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -484,6 +690,8 @@ Policies and Trust
 (ISWC2011 Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Guus Schreiber</span>
 </div>
@@ -496,6 +704,8 @@ Policies and Trust
 <div style="padding-left:20px;margin:1px;">. ShareAlike Your Data: Self-Referential Usage Policies for the Semantic Web,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -513,6 +723,8 @@ In-Use: Architecture
 (ISWC2011 Semantic Web In Use Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Marta Sabou</span>
 </div>
@@ -529,6 +741,8 @@ In-Use: Architecture
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -544,9 +758,16 @@ Panel: "Meet the Editors"
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> There are now more than half a dozen journals that publish semantic-web related research, and it is often difficult for authors to navigate this landscape. In this panel discussion, the editors from these journals will help the authors understand the different focus of each journal, the rewards and perils of journal publishing, and the steps in preparing their research for journal publications. The editors will then answer the authors' questions.</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -563,6 +784,8 @@ KR - Reasoners
 </b>
 (ISWC2011 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Axel Polleres</span>
@@ -583,6 +806,8 @@ KR - Reasoners
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -598,6 +823,8 @@ RDF Query - Alternative Approaches
 </b>
 (ISWC2011 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Paul Groth</span>
@@ -615,6 +842,8 @@ RDF Query - Alternative Approaches
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -630,6 +859,8 @@ In-Use: Ontologies and Linked Data
 </b>
 (ISWC2011 Semantic Web In Use Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Mike Dean</span>
@@ -650,6 +881,8 @@ In-Use: Ontologies and Linked Data
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -664,9 +897,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -683,6 +920,8 @@ RDF Query - Performance Issues
 </b>
 (ISWC2011 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Philippe Cudré-Mauroux,Philippe Cudre-Mauroux</span>
@@ -703,6 +942,8 @@ RDF Query - Performance Issues
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -717,9 +958,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -736,9 +981,16 @@ Minute Madness
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> The Minute Madness session will be organized before the poster and demo track and will consist of 1-minute presentations about the exhibits of the track. The event's goal is twofold: on the one hand, it gives an opportunity to poster and demo presenters to advertise their exhibit to a large audience and therefore ensure that all interested participants will visit their booth during the main track. On the other hand, this one hour session will provide conference participants with a quick (and fun!) overview of the presented works so that they can make the best use of their time during the session and visit the exhibits which are most interesting for them.</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -754,9 +1006,13 @@ Semantic Information Management: Future funding by EU and beyond
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -772,9 +1028,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -791,9 +1051,13 @@ Poster Session
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -819,9 +1083,19 @@ Poster Session
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> At 10 years of age, there is little doubt that the Semantic Web is an engineering success, with substantial (and growing) take-up in business, government and media. However, as a scientific field, have we discovered any general principles? 
+Have we uncovered any universal patterns that give us insights into the structure of data, information and knowledge, patterns that are valid beyond the engineering of the Semantic Web in its current form?
+
+If we would build the Semantic Web again, surely some things would end up looking different, but are there things that would end up looking the same, simply because they have to be that way?</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -837,9 +1111,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -856,6 +1134,8 @@ Formal Ontology & Patterns
 </b>
 (ISWC2011 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Eva Blomqvist</span>
@@ -876,6 +1156,8 @@ Formal Ontology & Patterns
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -891,6 +1173,8 @@ RDF Data Analysis
 </b>
 (ISWC2011 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Aldo Gangemi</span>
@@ -911,6 +1195,8 @@ RDF Data Analysis
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -926,9 +1212,13 @@ Conference Dinner
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -945,6 +1235,8 @@ KR - Semantics
 </b>
 (ISWC2011 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Peter Patel-Schneider</span>
@@ -965,6 +1257,8 @@ KR - Semantics
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -980,6 +1274,8 @@ RDF Query - Multiple Sources
 </b>
 (ISWC2011 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Achille Fokoue</span>
@@ -1000,6 +1296,8 @@ RDF Query - Multiple Sources
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1015,6 +1313,8 @@ Web of Data
 </b>
 (ISWC2011 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Peter Mika</span>
@@ -1035,6 +1335,8 @@ Web of Data
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1049,9 +1351,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1068,9 +1374,19 @@ Mentoring Lunch
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> In its third year, the Mentoring Lunch at the International Semantic Web Conference brings together graduate students and early-career researchers with researchers and faculty for a lively discussion and question-answering session on a variety of topics. If you are a PhD student, a postdoc, or have just started an independent research career and would like to get advice on any of the round-table topics listed below, please join us at the specially designated tables during the lunch break on Wednesday, October 26, 2011 in room TBA. The mentors are all volunteers from the speakers, chairs, and other senior participants at the conference.
+
+If you would like to get advice from mentors on some of the topics below, please sign up for lunch and answer a few quick questions that would help us with the organization of the lunch. The first 50 people to sign up will be automatically added to the list of attendees, the rest will be put on the waiting list (we are limited by the room capacity and by the number of mentors).
+While we are organizing only the mentoring lunch, we expect that some of you might want to have a more sustained relationship with the mentors and we invite you to ask the mentors at lunch about such a possibility.</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -1088,6 +1404,8 @@ MANCHustifications and Provenance
 (ISWC2011 Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Aditya Kalyanpur</span>
 </div>
@@ -1103,6 +1421,8 @@ MANCHustifications and Provenance
 <div style="padding-left:20px;margin:1px;">. Watermarking for Ontologies,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -1120,6 +1440,8 @@ In-Use: Environmental Data
 (ISWC2011 Semantic Web In Use Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Oscar Corcho</span>
 </div>
@@ -1136,6 +1458,8 @@ In-Use: Environmental Data
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1150,9 +1474,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1170,9 +1498,18 @@ Session
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> This session will further familiarize participants to the SciVerse Applications platform, an OpenSocial based gadgets framework which extends the online search and discovery platform SciVerse. Using Elsevier Content and Framework APIs, developers can create apps to integrate data and tools into the scientific articles on ScienceDirect and Scopus, and complement the search workflows across all of SciVerse.
+
+SciVerse contains about a quarter of the worlds peer reviewed scientific full text articles (currently numbering at over 11 million) as well as the world's largest abstract and citation database containing 40 million abstracts, plus hundreds of millions of scientific web documents, author profiles and affiliation profiles. Combining search and retrieval API access to this unparalleled volume of content with a global user base of 15,000,000 researchers, SciVerse Applications offers developers a unique opportunity to create applications which can have a real impact the efficiency of researchers worldwide.</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -1189,9 +1526,16 @@ Town Hall
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> It has become a tradition at ISWC to come together in a town hall meeting to have conference participants share ideas on what they would like to see at the future ISWCs and to discuss what works and what does not work at the conference. Please join the members of the conference organizing committee in an informal discussion about all the new events that we added to the conference program this year and tell us what you would like to see in the future and what you liked and didn't like this year.</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -1217,9 +1561,16 @@ For a Few Triples More
 </b>
 </span>
 
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span><b>Abstract:</b> The Web of Linked Data contains about 25 billion RDF triples and almost half a billion links across data sources; it is becoming a great asset for semantic applications. Linked Data comprises large general-purpose knowledge bases like DBpedia, Yago, and Freebase, as well as many reference collections in a wide variety of areas, spanning sciences, culture, entertainment, and more. Notwithstanding the great potential of Linked Data, this talk argues that there are significant limitations that need to be overcome for further progress. These limitations regard data scope and, especially, data quality. The talk discuss these issues and approaches to extending and enriching Linked Data, in order to improve its scope, quality, interpretability, cross-linking, and usefulness.</span>
+</div>
 
 
 
+</div>
 
 </td>
 
@@ -1235,9 +1586,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1254,6 +1609,8 @@ Social Web
 </b>
 (ISWC2011 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Diana Maynard</span>
@@ -1274,6 +1631,8 @@ Social Web
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1289,6 +1648,8 @@ In-Use: Content Management
 </b>
 (ISWC2011 Semantic Web In Use Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Ivan Herman</span>
@@ -1309,6 +1670,8 @@ In-Use: Content Management
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1324,9 +1687,13 @@ Outrageous Ideas
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1343,6 +1710,8 @@ User Interaction
 </b>
 (ISWC2011 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Abraham Bernstein</span>
@@ -1363,6 +1732,8 @@ User Interaction
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1378,6 +1749,8 @@ In-Use: Applications
 </b>
 (ISWC2011 Semantic Web In Use Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Tudor Groza</span>
@@ -1395,6 +1768,8 @@ In-Use: Applications
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1411,6 +1786,8 @@ Ontology Evaluation
 (ISWC2011 Research Track)
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Valentina Presutti</span>
 </div>
@@ -1423,6 +1800,8 @@ Ontology Evaluation
 <div style="padding-left:20px;margin:1px;">. Inspecting regularities in ontology design using clustering,
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
+
+</div>
 
 </td>
 
@@ -1438,9 +1817,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1457,6 +1840,8 @@ Ontology Matching, Mapping
 </b>
 (ISWC2011 Research Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Ian Horrocks</span>
@@ -1477,6 +1862,8 @@ Ontology Matching, Mapping
 <span style="color:#666"></span>
 <sup><span style="color:DarkRed"></span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -1491,9 +1878,13 @@ Coffee Break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -1509,9 +1900,13 @@ Awards and Closing
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 

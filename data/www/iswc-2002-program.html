@@ -94,8 +94,92 @@ tr:last-child td:last-child {
     border-radius: 0 0 6px 0;
 }
 </style>
-</head>
-<body>
+<script type="text/javascript" >
+/*
+ * Dynamic Table of Contents script
+ * by Matt Whitlock <http://www.whitsoftdev.com/>
+ */
+
+function createLink(href, innerHTML) {
+	var a = document.createElement("a");
+	a.setAttribute("href", href);
+	a.innerHTML = innerHTML;
+	return a;
+}
+
+function generateTOC(toc) {
+	var i2 = 0, i3 = 0, i4 = 0;
+	toc = toc.appendChild(document.createElement("ul"));
+	for (var i = 0; i < document.body.childNodes.length; ++i) {
+		var node = document.body.childNodes[i];
+		var tagName = node.nodeName.toLowerCase();
+		if (tagName == "h4") {
+			++i4;
+			if (i4 == 1) toc.lastChild.lastChild.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3 + "." + i4;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h3") {
+			++i3, i4 = 0;
+			if (i3 == 1) toc.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h2") {
+			++i2, i3 = 0, i4 = 0;
+			var section = i2;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.appendChild(h2item = document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+	}
+}
+</script>
+<style type="text/css">
+.on {
+  background: green;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.off {
+  background: red;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 2px;
+  border-left-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+</style>
+<script type="text/javascript">
+<!--
+	function togglestyle(el){
+	    if(el.className == "on") {
+	    	el.className="off";
+	    } else {
+	    	el.className="on";
+	    }
+	}
+	function toggle_visibility(cl){
+	   var els = document.getElementsByClassName(cl);
+	   for(var i=0; i<els.length; ++i){
+	      var s = els[i].style;
+	      s.display = s.display==='none' ? 'block' : 'none';
+	   };
+	}
+//-->
+</script>
+<body onload="generateTOC(document.getElementById('toc'));">
+<input type="button" class="off" onclick="togglestyle(this); toggle_visibility('details');">show/hide details</input>
+<div id="toc"></div>
 
 <h1>Program</h1>
 
@@ -118,12 +202,16 @@ tr:last-child td:last-child {
 (Tutorial Track)
 </span>
 
+<div class="details">
+
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Terry Payne,Katia Sycara,Dieter Fensel,Christoph Bussler</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -140,12 +228,16 @@ tr:last-child td:last-child {
 (Tutorial Track)
 </span>
 
+<div class="details">
+
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Jeremy Carroll,Brian McBride,Andy Seaborne</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -162,12 +254,16 @@ tr:last-child td:last-child {
 (Tutorial Track)
 </span>
 
+<div class="details">
+
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Steffen Staab,Alexander Maedche</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -184,12 +280,16 @@ tr:last-child td:last-child {
 (Tutorial Track)
 </span>
 
+<div class="details">
+
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Enrico Franconi</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -215,9 +315,13 @@ Opening ceremony
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -234,15 +338,19 @@ The Grid, Grid Services and the Semantic Web: Technologies and Opportunities
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Carole Goble</span>
 </div>
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Carl Kesselman</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -258,9 +366,13 @@ Coffee break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -277,6 +389,8 @@ Infrastructure I
 </b>
 (Main Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Peter Patel-Schneider</span>
@@ -300,6 +414,8 @@ Infrastructure I
 <span style="color:#666">Brian McBride</span>
 <sup><span style="color:DarkRed">Position Paper</span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -314,9 +430,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -333,6 +453,8 @@ Services I
 </b>
 (Main Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Rudi Studer</span>
@@ -356,6 +478,8 @@ Services I
 <span style="color:#666">Terry R. Payne,Rahul Singh and Katia P. Sycara</span>
 <sup><span style="color:DarkRed">System Descriptions</span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -370,9 +494,13 @@ Coffee break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -389,6 +517,8 @@ Languages I
 </b>
 (Main Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Massimo Marchiori</span>
@@ -412,6 +542,8 @@ Languages I
 <span style="color:#666">Libby Miller,Andy Seaborne and Alberto Reggiori</span>
 <sup><span style="color:DarkRed">System Descriptions</span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -426,9 +558,13 @@ Welcome reception
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -455,15 +591,19 @@ Research Challenges for the Semantic Web (panel)
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Ian Horrocks</span>
 </div>
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Noboru Shimizu,Murray Burke,Hans-Georg Stork,Bhavani Thuraisingham</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -479,9 +619,13 @@ Coffee break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -498,6 +642,8 @@ Tools and applications
 </b>
 (Main Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Heiner Stuckenschmidt</span>
@@ -521,6 +667,8 @@ Tools and applications
 <span style="color:#666">Mark A. Whiting and Nick Cramer</span>
 <sup><span style="color:DarkRed">System Descriptions</span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -535,9 +683,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -555,9 +707,13 @@ Poster session
 (Poster Track)
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -573,9 +729,13 @@ Coffee break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -592,6 +752,8 @@ Infrastructure II
 </b>
 (Main Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Steffen Staab</span>
@@ -615,6 +777,8 @@ Infrastructure II
 <span style="color:#666">Kenneth Baclawski,Mieczyslaw M. Kokar,Richard J. Waldinger and Paul A. Kogut</span>
 <sup><span style="color:DarkRed">System Descriptions</span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -629,9 +793,13 @@ Conference diner
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -657,9 +825,13 @@ Best paper and best reviewer awards ceremony
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -676,15 +848,19 @@ Semantic Web Enabled Web Services
 </b>
 </span>
 
+<div class="details">
+
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Jim Hendler</span>
 </div>
+
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">presenter(s): Dieter Fensel</span>
 </div>
 
 
+</div>
 
 </td>
 
@@ -700,9 +876,13 @@ Coffee break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -719,6 +899,8 @@ Services II
 </b>
 (Main Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Yun Peng</span>
@@ -742,6 +924,8 @@ Services II
 <span style="color:#666">Michele Missikoff and Francesco Taglino</span>
 <sup><span style="color:DarkRed">System Descriptions</span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -756,9 +940,13 @@ Lunch
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -775,6 +963,8 @@ Languages II
 </b>
 (Main Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Jérôme Euzenat</span>
@@ -795,6 +985,8 @@ Languages II
 <span style="color:#666">Stefan Haustein and Jörg Pleumann</span>
 <sup><span style="color:DarkRed">System Descriptions</span></sup></div>
 
+</div>
+
 </td>
 
 <td></td>
@@ -809,9 +1001,13 @@ Coffee break
 </b>
 </span>
 
+<div class="details">
 
 
 
+
+
+</div>
 
 </td>
 
@@ -828,6 +1024,8 @@ Infrastructure III
 </b>
 (Main Track)
 </span>
+
+<div class="details">
 
 <div style="padding-left:10px;margin:2px;">
 <span style="color:#666">chair(s): Brian McBride</span>
@@ -850,6 +1048,8 @@ Infrastructure III
 <div style="padding-left:20px;margin:1px;">5. An RDF NetAPI,
 <span style="color:#666">Andy Seaborne</span>
 <sup><span style="color:DarkRed">Position Paper</span></sup></div>
+
+</div>
 
 </td>
 
