@@ -1,0 +1,554 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//program of The First Semantic Web Working Symposium//
+BEGIN:VEVENT
+SUMMARY:SWWS Registration and Breakfast
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T080000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T090000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T08:00:0057457ed0-80
+ 98-4335-821e-70e6d304aa4c
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:TCSEQ Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Welcome (Organizers and Jim Hendler)
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T090000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T093000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T09:00:0063640738-a3
+ 58-4eef-86e9-a946efd822b8
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Room TCSEQ 200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The W3C Semantic Web Activity
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T093000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T103000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T09:30:003d4951cf-df
+ b9-4aaf-b52d-1b145831a9ca
+CATEGORY:InvitedTalkEvent
+DESCRIPTION:presenter: Eric Miller
+LOCATION:Room TCSEQ 200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee Break
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T103000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T110000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T10:30:008507827a-44
+ f3-4cd3-8da6-a52297eb0653
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:The TCSEQ Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ontology Engineering
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T110000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T123000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T11:00:009dec9d02-ca
+ 22-411d-886b-927a9c50c8e9
+CATEGORY:TutorialEvent
+DESCRIPTION:chair: Charles Petrie\npresenter: Natasha F. Noy\nabstract: In
+  recent years the development of ontologies - explicit formal specificatio
+ ns of the terms in the domain and relations among them -has been moving fr
+ om the realm of Artificial-Intelligence laboratories to the desktops of do
+ main experts. Ontologies have also become common on the World-Wide Web. Th
+ e ontologies on the Web range from large taxonomies categorizing Web sites
+  (such as on Yahoo!) to categorizations of products for sale and their fea
+ tures (such as on Amazon.com). On the Web and in many large applications o
+ ntologies serve a variety of purposes: making the knowledge about a partic
+ ular domain explicit\, sharing and reusing this knowledge\, analyzing doma
+ in knowledge. A number of languages for defining ontologies on the Web\, s
+ uch as RDF(S) and DAML+OIL\, are under development. In this tutorial we wi
+ ll discuss why one would build an ontology and present a methodology for c
+ reating ontologies based on declarative knowledge representation systems. 
+ We will present ontology examples\, discuss common problems and pitfalls i
+ n ontology development and approaches to solving the problems. We will als
+ o give a brief overview of the current research issues in ontology enginee
+ ring and compare some Web-based ontology-representation languages.
+LOCATION:Room TCSEQ 200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 1a
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T110000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T123000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T11:00:001e77be44-3c
+ 63-48f3-b076-6ab820493260
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Mark Tuttle\,Deborah McGuinness\n -The Semantic Web As 
+ "Perfection Seeking": A View from Drug Terminology ( Working Track 1: Onto
+ logy and Ontology Maintenance)\n -Industrial Strength Ontology Management 
+ ( Working Track 1: Ontology and Ontology Maintenance)\n -OntoMap - the Gui
+ de to the Upper-Level ( Working Track 1: Ontology and Ontology Maintenance
+ )
+LOCATION:Room CIS-X101
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 1b
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T110000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T123000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T11:00:0094809194-b2
+ ed-404c-9f74-0f491a96ea36
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Vipul Kashyap\n -Towards Semantic Interoperability in A
+ gent-based Coalition Command Systems ( Working Track 2: Interoperability\,
+  Integration\, Composition)\n -Object Interoperability for Geospatial Appl
+ ications ( Working Track 2: Interoperability\, Integration\, Composition)\
+ n -Brokerage of Intellectual Property Rights in the Semantic Web ( Working
+  Track 2: Interoperability\, Integration\, Composition)
+LOCATION:Packard 101
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 1c
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T110000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T123000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T11:00:0047abc1da-e2
+ 69-4eb5-88b4-ca3051db3bca
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Sheila McIlraith\,Jim Hendler\n -DAML-S: Semantic Marku
+ p for Web Services ( Working Track 3: (Web-) Services and Applications)\n 
+ -Serching for services on the semantic web using process ontologies ( Work
+ ing Track 3: (Web-) Services and Applications)\n -A Semantic Web Approach 
+ to Service Description for Matchmaking of Services ( Working Track 3: (Web
+ -) Services and Applications)
+LOCATION:Bio T175
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T123000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T140000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T12:30:00031fe428-cf
+ 41-4503-9e13-910a2a7c3040
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:TCSEQ Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Demo Session
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T124500
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T134500
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T12:45:00b9f45170-52
+ 0c-4361-a629-8a9bda0c256a
+CATEGORY:SpecialEvent
+DESCRIPTION:abstract: Demos by Verticalnet\, Spirit-Soft\, Mondeca\, Empol
+ is\, SC4\, Lastmileservices\, UMBC\, Stanford Medical Informatics\, Griffi
+ th University\, University of Bristol\, University of Karlsruhe
+LOCATION:Gates 104
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Semantic B2B Integration - Concepts\, Architecture\, Implementatio
+ n and Deployment
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T140000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T14:00:008c083ec4-b8
+ 2c-4236-baed-d560965cc71d
+CATEGORY:TutorialEvent
+DESCRIPTION:chair: Charles Petrie\npresenter: Christoph Bussler\nabstract:
+  This tutorial will give an introduction to the field of business-to-busin
+ ess (B2B) integration from a technical viewpoint with the focus on semanti
+ c integration aspects. The set of B2B integration concepts is introduced a
+ s well as their implementation in form of a technical semantic B2B integra
+ tion architecture. A mix of examples is taken illustrating the problems th
+ at need to be solved in semantic B2B integration projects. The tutorial en
+ ables the audience to identify semantic B2B integration problems as well a
+ s to determine the benefits and deficiencies of various technical integrat
+ ion architecture approaches or B2B integration technologies.
+LOCATION:Room TCSEQ 200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 2a
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T140000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T14:00:0007fd81d9-6f
+ 78-4c2d-999a-20a0abc2bebd
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Mark Tuttle\,Deborah McGuinness\n -The "Emergent" Seman
+ tic Web: An approach for derivation of semantic agreements on the Web ( Wo
+ rking Track 1: Ontology and Ontology Maintenance)\n -Ontology versioning o
+ n the Semantic Web ( Working Track 1: Ontology and Ontology Maintenance)\n
+  -Ontology Library Systems: The key to successful Ontology Reuse ( Working
+  Track 1: Ontology and Ontology Maintenance)
+LOCATION:Room CIS-X101
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 2b
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T140000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T14:00:0085673d0e-e1
+ f3-4976-b301-08567507995a
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Vipul Kashyap\n -Adding Multimedia to the Semantic Web:
+  Building an MPEG-7 ontology ( Working Track 2: Interoperability\, Integra
+ tion\, Composition)\n -Overcoming Ontology Mismatches in Transactions with
+  Self-Describing Service Agents ( Working Track 2: Interoperability\, Inte
+ gration\, Composition)
+LOCATION:Packard 101
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 2c
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T140000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T14:00:0041724a93-f8
+ 07-4adc-aba2-2176e0a4b1d8
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Sheila McIlraith\,Jim Hendler\n -The Briefing Associate
+ : A Role for COTS applications in the Semantic Web ( Working Track 3: (Web
+ -) Services and Applications)\n -ITTALKS: A Case Study in the Semantic Web
+  and DAML ( Working Track 3: (Web-) Services and Applications)\n -Open Lea
+ rning Repositories and Metadata Modeling ( Working Track 3: (Web-) Service
+ s and Applications)
+LOCATION:Bio T175
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee Break
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T153000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T160000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T15:30:0078702c1e-d9
+ 91-4274-a55e-45c461f79164
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:TCSEQ Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Demos
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T160000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T16:00:006b6324f0-ff
+ ff-4a47-bb68-bc19b14a62a6
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Charles Petrie\n -Verticalnet \n -Spirit-Soft \n -Monde
+ ca \n -Empolis \n -LastMileServices \n -Stanford Medical Informatics \n -D
+ STC/Griffith University 
+LOCATION:Room TCSEQ 200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 3a
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T160000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T16:00:001b739e2e-ac
+ 95-4f5d-a758-05a53ceed641
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Mark Tuttle\,Deborah McGuinness\n -UML and the Semantic
+  Web ( Working Track 1: Ontology and Ontology Maintenance)\n -Metamodeling
+  Architecture of Web Ontology Languages ( Working Track 1: Ontology and On
+ tology Maintenance)\n -DAML+OIL is not Enough ( Working Track 1: Ontology 
+ and Ontology Maintenance)\n -Semantic Web Modeling and Programming with XD
+ D ( Working Track 1: Ontology and Ontology Maintenance)
+LOCATION:Room CIS-X101
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 3b
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T160000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T16:00:00ce2fea67-9f
+ b8-4b5f-9c31-2a486f1b430e
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Vipul Kashyap\n -A Framework for Ontology Integration (
+  Working Track 2: Interoperability\, Integration\, Composition)\n -A Scala
+ ble Framework for the Interoperation of Information Sources ( Working Trac
+ k 2: Interoperability\, Integration\, Composition)\n -On the Integration o
+ f Topic Maps and RDF data ( Working Track 2: Interoperability\, Integratio
+ n\, Composition)\n -An infrastructure for formally ensuring interoperabili
+ ty in a heterogeneous semantic web ( Working Track 2: Interoperability\, I
+ ntegration\, Composition)
+LOCATION:Packard 101
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 3c
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T160000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T16:00:003401994c-81
+ dc-41d6-b060-277992095aa9
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Sheila McIlraith\,Jim Hendler\n -CREAM: Creating relati
+ onal metadata with a component-based\, ontology-driven annotation framewor
+ k ( Working Track 3: (Web-) Services and Applications)\n -OntoWebber: Mode
+ l-Driven Ontology-Based Web Site Management ( Working Track 3: (Web-) Serv
+ ices and Applications)\n -Indexing a web site with a terminology oriented 
+ ontology ( Working Track 3: (Web-) Services and Applications)\n -A semanti
+ c model for specifying data-intensive Web applications using WebML ( Worki
+ ng Track 3: (Web-) Services and Applications)
+LOCATION:Bio T175
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Banquet
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T190000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010730T220000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-30T19:00:008ad2569e-22
+ 99-4205-b81b-5b9461227a5d
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Faculty Club
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SWWS Registration and Breakfast
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T080000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T090000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-31T08:00:00d4e304d1-da
+ 89-42a9-8d2d-56da752b50a4
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:TCSEQ Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Making Semantics Addressable -- Topic Maps Unclothed
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T090000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T100000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-31T09:00:00eb48e5b9-b8
+ cb-4c0c-a2b3-38b1add82a37
+CATEGORY:InvitedTalkEvent
+DESCRIPTION:presenter: Steven R. Newcomb\,Michel Biezunski
+LOCATION:Room TCSEQ 200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee break
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T100000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T103000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-31T10:00:00a35e6801-3c
+ b8-4b8f-b82e-40adeb8231aa
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:TCSEQ Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Panel: Emerging Semantics
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T103000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T120000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-31T10:30:00484e2396-1f
+ 27-4aa6-9785-4ccc4e2cd057
+CATEGORY:PanelEvent
+DESCRIPTION:chair: Vipul Kashyap\npresenter: Umeshwar Dayal\,Ora Lassila\,
+ Jim Hendler\,Dieter Fensel\,Clifford A Behrens
+LOCATION:TCSEQ 200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T120000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T133000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-31T12:00:002a33ad8b-31
+ f5-4a62-90f4-479da9f64d90
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:TCSEQ Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Demo Session
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T121500
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T131500
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-31T12:15:00e692c445-fd
+ ca-4c40-abed-1dea7d8721dd
+CATEGORY:SpecialEvent
+DESCRIPTION:abstract: Demos by Verticalnet\, Spirit-Soft\, Mondeca\, Empol
+ is\, SC4\, Lastmileservices\, UMBC\, Stanford Medical Informatics\, Griffi
+ th University\, University of Bristol\, University of Karlsruhe
+LOCATION:Gates 104
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Models and Languages for Describing and Discovering E-services
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T133000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-31T13:30:000e9765ee-5b
+ 5e-4b50-9240-55d2d19ef17f
+CATEGORY:TutorialEvent
+DESCRIPTION:chair: Charles Petrie\npresenter: Ming-Chien Shan\,Fabio Casat
+ i\nabstract: E-services are business functions made available via the Inte
+ rnet by service providers\, and accessible by clients that could be human 
+ users or software applications. The main benefit of the e-services environ
+ ment is that clients are able to dynamically discover the available e-serv
+ ice that best meets their needs\, to examine its properties and capabiliti
+ es\, and to determine if and how to access it. However\, in order to deliv
+ er e-services to clients\, service providers are faced with several challe
+ nges. In particular\, they need to describe e-services in a way that is ac
+ cessible and understandable by the clients and to advertise them in web di
+ rectories\, so that they can be discovered by brokers as well as by end -u
+ sers. In this tutorial we discuss the main requirements for models and lan
+ guages for service description and discovery\, and we present relevant app
+ roaches proposed by standardization consortia.
+LOCATION:Room TCSEQ 200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 4a
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T133000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-31T13:30:004b618aeb-e8
+ d5-4b96-9501-e2c121933a03
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Mark Tuttle\,Deborah McGuinness\n -Utilizing Host-Forma
+ lisms to Extend RDF-Semantics ( Working Track 1: Ontology and Ontology Mai
+ ntenance)\n -RDF M&S revisited: From Reification to Nesting\, from Contain
+ ers to Lists\, from Dialect to pure XML ( Working Track 1: Ontology and On
+ tology Maintenance)\n -Development of a Simple Ontology Definition Languag
+ e (SOntoDL) and Its Application to a Medical Information Service on the Wo
+ rld Wide Web ( Working Track 1: Ontology and Ontology Maintenance)
+LOCATION:Room CIS-X101
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 4b
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T133000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-31T13:30:005ff73c9c-e3
+ 02-44e9-ab40-2777ec343408
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Vipul Kashyap\n -Describing Computation within RDF ( Wo
+ rking Track 2: Interoperability\, Integration\, Composition)\n -Design Rat
+ ionale for RuleML: A Markup Language for Semantic Web Rules ( Working Trac
+ k 2: Interoperability\, Integration\, Composition)\n -Enabling Semantic We
+ b Programming by Integrating RDF and Common Lisp ( Working Track 2: Intero
+ perability\, Integration\, Composition)
+LOCATION:Packard 101
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 4c
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T133000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-31T13:30:000d71f9c7-c1
+ e3-44e2-a907-a572bc4f750c
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Sheila McIlraith\,Jim Hendler\n -Web Services - Compone
+ nts of the "Trasnactional Web" ( InvitedTalk)
+LOCATION:Braun Auditorium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee Break
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T153000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T160000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-31T15:30:0089044480-03
+ 2f-437d-8083-21d525f042e6
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:TCSEQ Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Facilitators Report and Announcement of BOF Sessions
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T160000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-31T16:00:009d184e2e-f3
+ bf-4359-86ba-156179059478
+CATEGORY:SessionEvent
+DESCRIPTION: -Working Track Report: Ontology and Ontology Maintenance \n -
+ Working Track Report: Interoperability\, Integration\, Composition \n -Wor
+ king Track Report: (Web-)Services and Applications \n -Working Track Repor
+ t: Tutorials 
+LOCATION:TCSEQ 200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Semantic Web and the Bootstrap Institute
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T203000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010731T213000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-07-31T20:30:009ceefb43-49
+ 27-4c42-a7e5-c247b1805786
+CATEGORY:InvitedTalkEvent
+DESCRIPTION:presenter: Doug Engelbart
+LOCATION:Faculty Club
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SWWS Registration and Breakfast
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010801T080000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010801T090000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-08-01T08:00:0006295c8d-8b
+ b7-4174-983d-a2e43eb51d6b
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:TCSEQ Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Birds of the Feather Session CIS 101
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010801T090000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010801T103000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-08-01T09:00:00d648f0b9-90
+ ce-409f-b4cc-4645133d64ee
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:CIS 101
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Birds of the Feather Session Packard 101
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010801T090000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010801T103000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-08-01T09:00:00358c9450-ff
+ 78-41f8-ba49-b96dcaca86e6
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Packard 101
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Birds of the Feather Session TCSEQ 200
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010801T090000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010801T103000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-08-01T09:00:00e9128e98-b3
+ a4-4556-a4b7-85c87664db64
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Room TCSEQ 200
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Birds of the Feather Session in Gates 104
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010801T090000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010801T103000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-08-01T09:00:0010a49de3-62
+ ca-4b3f-89c9-eeed1c26fa1e
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Gates 104
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee Break
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010801T103000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010801T110000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-08-01T10:30:00f5c75c6a-a0
+ 27-4706-b69b-3047878cc2a9
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:The TCSEQ Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BOF Wrap Up\, Follow-up actions and Farewell
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010801T110000
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20010801T120000
+DTSTAMP;VALUE=DATE-TIME:20131014T212702Z
+UID:The_First_Semantic_Web_Working_Symposium2001-08-01T11:00:0029e75dc6-31
+ ff-4b5f-ba57-26d5e845eabb
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:TCSEQ 200
+END:VEVENT
+END:VCALENDAR

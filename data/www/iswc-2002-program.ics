@@ -1,0 +1,370 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//program of The First International Semantic Web Conference//
+BEGIN:VEVENT
+SUMMARY:Semantic web services
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020609T090000
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020609T170000
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-09T09:00:00a0e9
+ 5e5a-f489-4d00-87e1-f75597d255c8
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Terry Payne\,Katia Sycara\,Dieter Fensel\,Christoph
+  Bussler
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jena Tutorial
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020609T090000
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020609T120000
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-09T09:00:006030
+ 45db-10d9-4e83-ba72-7ada7f5800b0
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Jeremy Carroll\,Brian McBride\,Andy Seaborne
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ontologies: Representation\, Engineering\, Learning and Applicatio
+ ns
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020609T090000
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020609T120000
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-09T09:00:002a39
+ 949e-2d8b-4390-b706-ac575920502d
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Steffen Staab\,Alexander Maedche
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Description Logics for Conceptual Design\, Information Access\, an
+ d Ontology Integration: Research Trends
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020609T140000
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020609T170000
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-09T14:00:00c650
+ 7e6e-a97f-48cc-ae6c-5640aeb0564c
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Enrico Franconi
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Opening ceremony
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T090000
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T091500
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-10T09:00:0027db
+ 67e3-eee6-4b0c-99d3-109f7e9e803c
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Grid\, Grid Services and the Semantic Web: Technologies and Op
+ portunities
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T091500
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T101500
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-10T09:15:000ae7
+ 2d33-81d2-483a-acaf-7f41b22c8a35
+CATEGORY:InvitedTalkEvent
+DESCRIPTION:chair: Carole Goble\npresenter: Carl Kesselman
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee break
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T101500
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T104500
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-10T10:15:009274
+ 86c9-535c-4108-95dc-de6d75b161cd
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Infrastructure I
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T104500
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T123000
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-10T10:45:000679
+ 5b66-cd90-4239-9826-30999b050ab0
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Peter Patel-Schneider\n -TRIPLE - A Query\, Inference\,
+  and Transformation Language for the Semantic Web ( Research Track Paper)\
+ n -Global vs. Community Metadata Standards: Empowering Users for Knowledge
+  Exchange ( Research Track Paper)\n -The Usable Ontology: An Environment f
+ or Building and Assessing a Domain Ontology ( Research Track Paper)\n -Ont
+ ology-Based Integration of XML Web Resources ( Research Track Paper)\n -Fo
+ ur Steps Towards the Widespread Adoption of a Semantic Web ( Position Pape
+ r)
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T123000
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T143000
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-10T12:30:008e20
+ 1f78-dab7-4f5a-b2a5-1a71b6332d16
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Services I
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T143000
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T161500
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-10T14:30:00e64a
+ 0873-2f0c-4511-b593-9e465769b3d0
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Rudi Studer\n -Towards High-Precision Service Retrieval
+  ( Research Track Paper)\n -Bringing Together Semantic Web and Web Service
+ s ( Research Track Paper)\n -Concurrent Execution Semantics of DAML-S with
+  Subtypes ( Research Track Paper)\n -Semantic Matching of Web Services Cap
+ abilities ( Research Track Paper)\n -Browsing Schedules - An Agent-Based A
+ pproach to Navigating the Semantic Web ( System Descriptions)
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee break
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T161500
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T164500
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-10T16:15:00056b
+ d14f-6a6a-4198-8cf7-8cc9699fcc0e
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Languages I
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T164500
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T183000
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-10T16:45:00c96d
+ a46f-3ee0-4529-b82d-4c68038d1724
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Massimo Marchiori\n -Layering the Semantic Web: Problem
+ s and Directions ( Research Track Paper)\n -Notions of Indistinguishabilit
+ y for Semantic Web Languages ( Research Track Paper)\n -Representing Disju
+ nction and Quantifiers in RDF ( Research Track Paper)\n -Nonmonotonic Rule
+  Systems on Top of Ontology Layers ( Position Paper)\n -Three Implementati
+ ons of SquishQL\, a Simple RDF Query Language ( System Descriptions)
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Welcome reception
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T193000
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020610T210000
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-10T19:30:004b04
+ 4522-5fe4-4e4e-a477-fee0cb77eb2c
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:CAMINO Terrace
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Research Challenges for the Semantic Web (panel)
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020611T090000
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020611T101500
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-11T09:00:009606
+ f832-1db4-4d5e-b97f-5768df36281e
+CATEGORY:PanelEvent
+DESCRIPTION:chair: Ian Horrocks\npresenter: Noboru Shimizu\,Murray Burke\,
+ Hans-Georg Stork\,Bhavani Thuraisingham
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee break
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020611T101500
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020611T104500
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-11T10:15:00c0ac
+ 13c6-93f7-43bb-a9c5-d794f5beff56
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tools and applications
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020611T104500
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020611T123000
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-11T10:45:007386
+ f449-425c-4dc3-a54a-8e5c1e4b1b6f
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Heiner Stuckenschmidt\n -OntoEdit: Collaborative Ontolo
+ gy Development for the Semantic Web ( Research Track Paper)\n -A Data Inte
+ gration Framework for e-Commerce Product Classification ( Research Track P
+ aper)\n -SWAD-Europe: Semantic Web Advanced Development in Europe ( Positi
+ on Paper)\n -ClaiMaker: Weaving a Semantic Web of Research Papers ( System
+  Descriptions)\n -WebTheme™: Understanding Web Information through Visua
+ l Analytics ( System Descriptions)
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020611T123000
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020611T143000
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-11T12:30:00b933
+ 3243-4ddf-4dbb-a88f-1fefc953d7b4
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Poster session
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020611T143000
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020611T161500
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-11T14:30:001b4c
+ 318f-2547-4629-a469-7247a518c19c
+CATEGORY:SessionEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee break
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020611T161500
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020611T164500
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-11T16:15:007c5c
+ 3b48-243d-426b-acdd-4c686f7f1ebb
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Infrastructure II
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020611T164500
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020611T183000
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-11T16:45:00957e
+ 9da6-af24-4b5c-8d8d-6ddce9e60b67
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Steffen Staab\n -Benchmarking RDF Schemas for the Seman
+ tic Web ( Research Track Paper)\n -Integrating Vocabularies: Discovering a
+ nd Representing Vocabulary Maps ( Research Track Paper)\n -Towards a Modif
+ ication Exchange Language for Distributed RDF Repositories ( Research Trac
+ k Paper)\n -Towards Semantic Web Mining ( Research Track Paper)\n -Consist
+ ency Checking of Semantic Web Ontologies ( System Descriptions)
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Conference diner
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020611T200000
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020611T223000
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-11T20:00:006f39
+ 3434-5676-4bae-9ea3-9a71288ad701
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Restaurant LE DUNE (on the Lagoon)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Best paper and best reviewer awards ceremony
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020612T090000
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020612T091500
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-12T09:00:00f250
+ b0be-30f5-4ebe-9616-b77f7755e8fc
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Semantic Web Enabled Web Services
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020612T091500
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020612T101500
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-12T09:15:00188e
+ 9dd1-bfc1-478d-8fc8-a853d02910be
+CATEGORY:InvitedTalkEvent
+DESCRIPTION:chair: Jim Hendler\npresenter: Dieter Fensel
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee break
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020612T101500
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020612T104500
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-12T10:15:00100c
+ c3c4-822d-45d4-a4fb-dd601eea20cb
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Services II
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020612T104500
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020612T122500
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-12T10:45:001627
+ a6fa-672f-453f-b661-116594fbbf8d
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Yun Peng\n -Semantic Configuration Web Services in the 
+ CAWICOMS Project ( Research Track Paper)\n -DAML-S: Web Service Descriptio
+ n for the Semantic Web ( Research Track Paper)\n -Sesame: A Generic Archit
+ ecture for Storing and Querying RDF and RDF Schema ( Research Track Paper)
+ \n -A Mini-experiment in Semantic Annotation ( Position Paper)\n -Business
+  and Enterprise Ontology Management with SymOntoX ( System Descriptions)
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020612T123000
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020612T143000
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-12T12:30:007c4a
+ 31e1-8fec-4684-bf7c-099b252dcf4a
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Languages II
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020612T143000
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020612T161500
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-12T14:30:00b45e
+ 69ce-1f6f-47b4-a69b-db108e8fc364
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Jérôme Euzenat\n -Building the Semantic Web on XML ( 
+ Research Track Paper)\n -Taking the RDF Model Theory Out for a Spin ( Rese
+ arch Track Paper)\n -A Formal Model for Topic Maps ( Research Track Paper)
+ \n -Is Participation in the Semantic Web Too Difficult? ( System Descripti
+ ons)
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee break
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020612T161500
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020612T164500
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-12T16:15:006b41
+ e6c6-1239-4bef-9915-3c6ed166f1f9
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Infrastructure III
+DTSTART;TZID=Europe/Rome;VALUE=DATE-TIME:20020612T164500
+DTEND;TZID=Europe/Rome;VALUE=DATE-TIME:20020612T183000
+DTSTAMP;VALUE=DATE-TIME:20131014T212708Z
+UID:The_First_International_Semantic_Web_Conference2002-06-12T16:45:001e9a
+ 684e-5057-4585-a10f-d30fa0d3ae3c
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Brian McBride\n -Automatic Generation of Java/SQL Based
+  Inference Engines from RDF Schema and RuleML ( Research Track Paper)\n -M
+ atching RDF Graphs ( Research Track Paper)\n -Trusting Information Sources
+  One Citizen at a Time ( Research Track Paper)\n -Querying the Semantic We
+ b: A Formal Approach ( Research Track Paper)\n -An RDF NetAPI ( Position P
+ aper)
+LOCATION:
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,820 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//program of The Third International Semantic Web Conference//
+BEGIN:VEVENT
+SUMMARY:T1: XQuery: the query language\, its applications and its implemen
+ tations
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T083000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T123000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-07T08:30:006420
+ 0f69-1a0e-4892-80c2-4179c791c187
+CATEGORY:TutorialEvent
+DESCRIPTION:chair: Donald Kossman\,Daniela Florescu\nabstract: XML is a ve
+ rsatile markup language\, capable of labeling information contentfromof di
+ verse information sources including structured and semi-structured documen
+ ts\, relational databases\, and object repositories. XQuery is a declarati
+ ve query language that uses the structure of XML intelligently. It can exp
+ ress queries across all these kinds of data\, whether physically stored in
+  XML or viewed as XML via middleware and it is designed to be broadly appl
+ icable across many types of XML data sources\, independently of their orig
+ inal format or location. XQuery is currently under standardization as part
+  of the World Wide Web Consortium and already adopted by industry\, resear
+ ch and open source communities alike. Given that it is likely that large a
+ mounts of information will be represented in near future using XML\, XQuer
+ y will play a fundamental role for data search\, integration and aggregati
+ on\; it will be the basic building block for such activities. XQuery is cu
+ rrently and will be in the future used in a variety of different environme
+ nts. Examples to date include XML database systems\, XML document reposito
+ ries\, XML data integration on the Web and within single economical struct
+ ures\, workflow systems\, and publish and subscribe systems. In addition\,
+  XPath of which XQuery is a superset is used in various products such as W
+ eb browsers. Although the W3C XQuery specification has not yet attained re
+ commendation status\, and the definition of the language has not entirely 
+ stabilized\, a number of alternative proposals to implement and optimize X
+ Query have appeared both in industry and in the research community. Given 
+ the wide range of applications for which XQuery is applicable\, a wide spe
+ ctrum of alternative techniques has been proposed for XQuery processing. S
+ ome of these techniques are only useful for certain applications\, other t
+ echniques are general-purpose.
+LOCATION:Room 8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:T2: Ontology Design Patterns and Problems: Practical Ontology Engi
+ neering using Protege-OWL
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T083000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T123000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-07T08:30:00040b
+ e4ca-4897-4752-99ab-5302223ebaa2
+CATEGORY:TutorialEvent
+DESCRIPTION:chair: Natalya F. Noy\,Mark A. Musen\,Holger Knublauch\,Guus S
+ chreiber\,Alan Rector\nabstract: The Task Force on Ontology Engineering an
+ d Patterns of the W3C working group on Semantic Web Best Practices and Dep
+ loyment will have completed most of its work by the time of the conference
+ . The Task Force has already produced a series of first working draft note
+ s on common ontology design patterns. These patterns analogous to the prog
+ ramming design patterns used by software engineers are directly influencin
+ g the development of the Protégé-OWL ontology development environment an
+ d its extensions by the CO-ODE project. This tutorial will introduce atten
+ dees to the concept of ontology patterns and discuss key patterns develope
+ d by the Task Force and others. Example patterns include quantities and un
+ its\, value partitions\, n-nary relations\, problems of distinguishing cla
+ sses and individuals\, the choice between representing relationships as cl
+ asses or properties\, and qualified cardinality restrictions. (The final c
+ hoice of issues will be driven by the results of the Task Force.) The tuto
+ rial will provide practical hands-on experience with the patterns using th
+ e Protégé-OWL tools and CO-ODE extensions. The style of the tutorial wil
+ l be lecture demonstration. The software and examples will be made availab
+ le in advance and attendees will be encouraged to gain hands on experience
+  and explore the trade-offs between alternative patterns by working throug
+ h the examples on their laptops. (See http://protege.stanford.edu and http
+ ://www.co-ode.org) The quality\, availability and breadth of coverage of o
+ ntologies will be a major factor in determining the success of the Semanti
+ c Web. Patterns and tools to make it easier to develop high quality ontolo
+ gies is therefore crucial to the Semantic Web Development. However\, the i
+ dea of ontology patterns is relatively new. Many controversies remain. Amp
+ le time will be provided for feedback\, questions and discussion. Three of
+  the proposers are members of the Task Force\, and one of them\, Guus Schr
+ eiber\, chairs the W3C Working Group.
+LOCATION:Room 10
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:T3: Tools and Technologies for Semantic Web Services
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T083000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T123000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-07T08:30:004d6a
+ eb83-5350-4e76-92c7-6e38362bcd91
+CATEGORY:TutorialEvent
+DESCRIPTION:chair: Christoph Bussler\,Katia Sycara\,Liliana Cabral\,Michae
+ l Zaremba\,John Domingue\,Michael Stollberg\,Sinuhe Arroyo\,Matthew Moran\
+ nabstract: Web Services combined with Semantic Web are being considered as
+  the Next Big Wave of innovation in e-commerce and B2B integration. Web Se
+ rvices are also offered across Grid Computing in support of e-science. Rec
+ ent industrial interest in Web Services\, Semantic Web and the availabilit
+ y of tools and standards to enable automated invocation of business functi
+ onality through message exchange (e.g. SOAP\, UDDI\, WSDL\, BEPL etc) hold
+ s the promise of fast progress in this area. An increasing number of Web S
+ ervices using basic semantics are starting to appear. Today\, services (e.
+ g. travel services\, book selling services\, stock reporting services etc)
+  are discovered and invoked manually by human users. In the near future\, 
+ such service discovery and use will be mediated by computational entities\
+ , thus making the Web and Web Services computer understandable. Instead of
+  being populated with human-readable documents\, the Web will be populated
+  with computer-mediated services. This tutorial will take an in-depth look
+  at the current state of the art in the Semantic Web and Web Services and 
+ sort through the increasing and confusing array of relevant tools\, langua
+ ges and theories both from academia and industry. The tutorial will also p
+ resent and discuss semantics for Web Services and their potential for busi
+ ness value added. Many examples to illustrate the described concepts\, tec
+ hniques\, tools and their use will be presented. The tutorial brings toget
+ her material and tools from the Semantic Web and Web Service standards tec
+ hnologies. In addition\, the tutorial will present different approaches fo
+ r enhancing Web Services with semantics. More importantly\, the tutorial w
+ ill discuss limitations of current technologies and present value added ad
+ vanced concepts\, such as distributed service composition\, Semantic Web e
+ nabled Web Services\, agent-mediated Web Services\, as well as open issues
+  that must be addressed. Alternative approaches will be presented and comp
+ ared and a substantial list of references will be provided. The tutorial i
+ s self contained and accessible to practitioners\, researchers and student
+ s. In particular this tutorial will focus on presenting semantics for Web 
+ Services with illustrations from two approaches\, OWL-S and WSMO\, that wi
+ ll be presented concurrently in order to emphasize their commonalities and
+  differences. OWL-S (http://www.daml.org/services/owl-s/) is an effort sup
+ ported by DARPA and is part of the DAML program. WSMO (http://www.wsmo.org
+ ) is an effort supported by European national and international projects.
+LOCATION:Room 4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:W1: Semantic Web technology for mobile and ubiquitous applications
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T090000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-07T09:00:00b5af
+ 8cd2-9f96-430e-b724-8316acbcd813
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Valentina Tamma\,Terry Payne\,Monique Calisti\,Kaoru Hi
+ ramatsu\,Chiara Ghidini
+LOCATION:Room 5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:W2: Trust\, Security\, and Reputation on the Semantic Web
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T090000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-07T09:00:00794c
+ 9e37-fc16-4503-93d3-64432ad365e2
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Wolfgang Nejdl\,Piero Bonatti\,Marianne Winslett\,Jenni
+ fer Golbeck
+LOCATION:Room 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee Break
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T103000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T113000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-07T10:30:007f92
+ 4b4a-169e-46d2-9420-dba625faf79e
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Top of Hiroshima\, Level 23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T120000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T140000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-07T12:00:00a8df
+ 58d7-965e-498b-9bba-c14a7b767d8e
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Top of Hiroshima\, Level 23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:T4: RDF and Topic Maps Interoperability in Practice
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T140000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-07T14:00:00da81
+ d25a-4a02-4cf1-8799-e235e1b06319
+CATEGORY:TutorialEvent
+DESCRIPTION:chair: Steve Pepper\,Lars Marius Garshol
+LOCATION:Room 8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:T5: Theory and Practice of RDF Query Processing
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T140000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-07T14:00:000d26
+ 37c3-24d1-49f1-adde-272b9c3c0703
+CATEGORY:TutorialEvent
+DESCRIPTION:chair: Richard Vdovjak\,Jeen Broekstra\,Heiner Stuckenschmidt\
+ ,Geert-Jan Houben\,Ad Aerts
+LOCATION:Room 10
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:T6: Semantic Web Rules with Ontologies\, and their E-Business Appl
+ ications
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T140000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-07T14:00:0087f2
+ 5bb9-3df4-466a-aa0f-15ccdb5c6ac3
+CATEGORY:TutorialEvent
+DESCRIPTION:chair: Mike Dean\,Benjamin Grosof
+LOCATION:Room 4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tea Break
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T150000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041107T160000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-07T15:00:00993d
+ f96d-b587-48fc-a85c-89425e108daf
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Top of Hiroshima\, Level 23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:W3: SW-EL'04: Applications of Semantic Web Technologies for E-Lear
+ ning
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T090000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-08T09:00:006beb
+ 2e6f-c1b0-44e8-bb4f-23eb8d3ddc9c
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Yukihiro Itoh\,Riichiro Mizoguchi\,Lora Aroyo\,Darina D
+ icheva
+LOCATION:Room 10
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:W4: Evaluation of Ontology-based Tools (EON2004)
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T090000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-08T09:00:008312
+ 7b3a-bd4e-4876-b15a-624f49e0147d
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: York Sure\,Todd Hughes\,Oscar Corcho\,Jerome Euzenat
+LOCATION:Room 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:W5: Rules and Rule Markup Languages for the Semantic Web
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T090000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-08T09:00:004e93
+ 62c4-9253-49b8-9c89-7664f4c643f7
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Harold Boley\,Grigoris Antoniou
+LOCATION:Room 5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:W6: Semantic Web Services: Preparing to Meet the World of Business
+  Applications
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T090000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-08T09:00:00317e
+ 2d99-7bbb-4b83-a57c-3e0e2c7b6c9b
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Takahira Yamaguchi\,Rubén Lara Hernández\,David Marti
+ n
+LOCATION:Room 4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:W7: Meaning coordination and negotiation
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T090000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-08T09:00:00dde9
+ 35aa-ddf1-4087-bf5e-a04ff500a51b
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Paolo Bouquet\,Luciano Serafini
+LOCATION:Room 8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:W8: Knowledge Markup and Semantic Annotation (Semannot2004)
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T090000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-08T09:00:00c523
+ e636-0fe6-4c84-a3c1-47f2158bb40e
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Thierry Declerck\,Siegfried Handschuh
+LOCATION:Room 9
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee Break
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T103000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T113000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-08T10:30:004315
+ 5ad5-485f-48c4-9e17-31df31521811
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Top of Hiroshima\, Level 23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T120000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T140000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-08T12:00:000b69
+ 1314-ef4b-436f-8e02-6b417acce679
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Top of Hiroshima\, Level 23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tea Break
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T150000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041108T160000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-08T15:00:005e5f
+ e812-e1cc-4bdc-b1d6-1a3e22039bf2
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Top of Hiroshima\, Level 23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Opening Ceremony
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T090000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T093000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-09T09:00:000783
+ b549-0a57-4677-a918-4294c6431f36
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Room 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Semantic Web Story -- It's already 2004. Where are we?
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T093000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T103000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-09T09:30:008238
+ 6d70-8a24-43da-b50e-df9e04cf79e4
+CATEGORY:InvitedTalkEvent
+DESCRIPTION:chair: F. Van Harmelen\npresenter: Edward Feigenbaum
+LOCATION:Room 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee Break
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T103000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T110000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-09T10:30:00a2dd
+ bd83-efff-4d3a-b146-42f6667c4083
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Room 4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S1: Integration
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T110000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T123000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-09T11:00:004c9e
+ 6a69-8709-4340-b8fe-c4eeaee41fda
+CATEGORY:SessionEvent
+DESCRIPTION: -An Extensible Directory Enabling Efficient Semantic Web Serv
+ ice Integration ( Integration and Interoperability)\n -Opening Up Magpie v
+ ia Semantic Services ( Integration and Interoperability)\n -Working with M
+ ultiple Ontologies on the Semantic Web ( Integration and Interoperability)
+LOCATION:Room 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S2: Searching & Querying
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T110000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T123000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-09T11:00:00e23c
+ 7a17-9b94-480a-ba46-9702e821f10f
+CATEGORY:SessionEvent
+DESCRIPTION: -A Comparison of RDF Query Languages ( Searching and Querying
+ )\n -Generating On the Fly Queries for the Semantic Web: The ICS-FORTH Gra
+ phical RQL Interface (GRQL) ( Searching and Querying)\n -Information Retri
+ eval Support for Ontology Construction and Use ( Searching and Querying)
+LOCATION:Room 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T123000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T140000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-09T12:30:001430
+ 7a44-f6d2-4f29-b5e9-dfc0fdfed9b7
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Top of Hiroshima\, Level 23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S3: SW Services
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T140000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-09T14:00:00eb92
+ 8589-e8f7-47ee-9735-059f40c860ca
+CATEGORY:SessionEvent
+DESCRIPTION: -A Conceptual Architecture for Semantic Web Services ( Semant
+ ic Web Services)\n -Applying KAoS Services to Ensure Policy Compliance for
+  Semantic Web Services Workflow Composition and Enactment ( Semantic Web S
+ ervices)\n -Applying Semantic Web Services to Bioinformatics: Experiences 
+ Gained\, Lessons Learnt ( Semantic Web Services)
+LOCATION:Room 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S4: User Interfaces & Visualization
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T140000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-09T14:00:009feb
+ a064-1899-4ad6-a55b-eb5368e11831
+CATEGORY:SessionEvent
+DESCRIPTION: -OntoTrack: Combining Browsing and Editing with Reasoning and
+  Explaining for OWL Lite Ontologies ( User Interfaces and Visualization)\n
+  -The Protégé OWL Plugin: An Open Development Environment for Semantic W
+ eb Applications ( User Interfaces and Visualization)\n -Tracking Changes D
+ uring Ontology Evolution ( User Interfaces and Visualization)
+LOCATION:Room 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tea Break
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T153000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T160000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-09T15:30:001f0b
+ f25e-6118-4c6f-85bb-fc2538c17a5a
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Room 4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S5: SW Mining
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T160000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T170000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-09T16:00:00251a
+ c20c-2ab1-4273-8fa8-ffede143338a
+CATEGORY:SessionEvent
+DESCRIPTION: -From Tables to Frames ( Semantic Web Mining)\n -Learning Met
+ a-descriptions of the FOAF Network ( Semantic Web Mining)
+LOCATION:Room 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S6: Large Scale Knowledge Mgmt
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T160000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T170000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-09T16:00:0040f2
+ a973-dad3-45c3-9b46-50ca8deb3f71
+CATEGORY:SessionEvent
+DESCRIPTION: -An Evaluation of Knowledge Base Systems for Large OWL Datase
+ ts ( Large Scale Knowledge Management)\n -Structure-Based Partitioning of 
+ Large Concept Hierarchies ( Large Scale Knowledge Management)
+LOCATION:Room 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Posters & 1st half of Demos with Drinks & Snacks
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T170000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041109T183000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-09T17:00:00ca9f
+ cb3a-38ea-41d7-9758-208b4df66824
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Room 5\, Room 6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to Build Google2Google - An (Incomplete) Recipe
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T090000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T103000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-10T09:00:005d4a
+ f4e0-5c4a-4867-b82e-04145964f78f
+CATEGORY:InvitedTalkEvent
+DESCRIPTION:chair: S. McIlraith\npresenter: Wolfgang Nejdl
+LOCATION:Room 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exhibition
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T103000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T190000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-10T10:30:00a8b9
+ cbe8-53b4-4da7-a82c-c928cc1550b7
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Room 5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee Break
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T103000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T110000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-10T10:30:001fb9
+ 6241-c23a-4c51-a856-cf25503b8ca2
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Room 5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S7: Ontologies
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T110000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T123000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-10T11:00:00ee0e
+ 5af8-567a-409a-ae62-be704a9c696d
+CATEGORY:SessionEvent
+DESCRIPTION: -QOM - Quick Ontology Mapping ( Ontologies)\n -Specifying Ont
+ ology Views by Traversal ( Ontologies)\n -Towards a Symptom Ontology for S
+ emantic Web Applications ( Ontologies)
+LOCATION:Room 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S8: Inference
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T110000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T123000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-10T11:00:00bc8e
+ b884-e2a8-40c5-994a-d527b2ba2db6
+CATEGORY:SessionEvent
+DESCRIPTION: -Inferring Data Transformation Rules to Integrate Semantic We
+ b Services ( Inference)\n -Knowledge-Intensive Induction of Terminologies 
+ from Metadata ( Inference)\n -Using Vampire to Reason with OWL ( Inference
+ )
+LOCATION:Room 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T123000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T140000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-10T12:30:000154
+ f288-842c-499d-bd73-a922637eb3bc
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Top of Hiroshima\, Level 23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S10: SW Services
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T140000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-10T14:00:00d247
+ 11ca-e174-4f35-b034-c29070d2fb20
+CATEGORY:SessionEvent
+DESCRIPTION: -ASSAM: A Tool for Semi-automatically Annotating Semantic Web
+  Services ( Semantic Web Services)\n -Automated Composition of Semantic We
+ b Services into Executable Processes ( Semantic Web Services)\n -Automatin
+ g Scientific Experiments on the Semantic Grid ( Semantic Web Services)
+LOCATION:Room 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S9: Data Semantics
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T140000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-10T14:00:0047a3
+ bff4-5509-47f3-8b9a-f6ae7435fbd3
+CATEGORY:SessionEvent
+DESCRIPTION: -A Method for Converting Thesauri to RDF/OWL ( Data Semantics
+ )\n -Contexts for the Semantic Web ( Data Semantics)\n -Bipartite Graphs a
+ s Intermediate Model for RDF ( Data Semantics)
+LOCATION:Room 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tea Break
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T153000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T160000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-10T15:30:005d88
+ c186-1ba5-46af-8910-eaac00e11d75
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Room 5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S11: Searching & Querying
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T160000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T170000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-10T16:00:00ed99
+ ddad-84d6-4285-bbb9-79b925179bf8
+CATEGORY:SessionEvent
+DESCRIPTION: -Query Answering for OWL-DL with Rules ( Searching and Queryi
+ ng)\n -Rules-By-Example - A Novel Approach to Semantic Indexing and Queryi
+ ng of Images ( Searching and Querying)
+LOCATION:Room 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S12: SW Middleware
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T160000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T170000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-10T16:00:00ca32
+ 5189-8f09-4b83-8d5d-c8b824aa3756
+CATEGORY:SessionEvent
+DESCRIPTION: -A Semantic Web Resource Protocol: XPointer and HTTP ( Semant
+ ic Web Middleware)\n -Metadata-Driven Personal Knowledge Publishing ( Sema
+ ntic Web Middleware)
+LOCATION:Room 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2nd half of Demos & Posters viewing
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T170000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T183000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-10T17:00:002037
+ f5a7-bd39-40c5-a470-a8c990939197
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Room 5\,Room 6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Banquet
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T190000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041110T230000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-10T19:00:008984
+ 531d-d962-4725-80e2-eeedc1b48277
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Room 3\, Room 4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Small Can Be Beautiful in the Semantic Web.
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T090000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T100000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-11T09:00:00b294
+ f521-9fd7-4f65-9ac3-3c9f5c625dd9
+CATEGORY:InvitedTalkEvent
+DESCRIPTION:chair: D. Plexousakis\npresenter: Marie-Christine Rousset
+LOCATION:Room 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee Break
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T100000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T103000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-11T10:00:007b2d
+ 0555-e94d-4541-a956-683271ca1636
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Room 4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S15: Industrial 1
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T103000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T120000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-11T10:30:007fcd
+ 13dc-f546-4f7f-9fc4-0867078374b4
+CATEGORY:SessionEvent
+DESCRIPTION: -Applying Semantic Web Technology to the Life Cycle Support o
+ f Complex Engineering Assets ( Industrial Track Paper)\n -ORIENT: Integrat
+ e Ontology Engineering into Industry Tooling Environment ( Industrial Trac
+ k Paper)
+LOCATION:Room 5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S13: Ontologies
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T103000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T120000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-11T10:30:009a02
+ 3ac1-e18c-4079-a7df-c927a3358596
+CATEGORY:SessionEvent
+DESCRIPTION: -An API for Ontology Alignment ( Ontologies)\n -Automatic Gen
+ eration of Ontology for Scholarly Semantic Web ( Ontologies)\n -Patching S
+ yntax in OWL Ontologies ( Ontologies)
+LOCATION:Room 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S14: P2P Systems
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T103000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T120000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-11T10:30:009f33
+ 53b3-7432-42ae-b028-7cd218a3f409
+CATEGORY:SessionEvent
+DESCRIPTION: -Bibster - A Semantics-Based Bibliographic Peer-to-Peer Syste
+ m ( P2P Systems)\n -GridVine: Building Internet-Scale Semantic Overlay Net
+ works ( P2P Systems)\n -Top-k Query Evaluation for Schema-Based Peer-to-Pe
+ er Networks ( P2P Systems)
+LOCATION:Room 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Semantic Web Challenge Award
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T120000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T123000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-11T12:00:00efdb
+ 3690-47b3-4c39-92ce-4821e88bac73
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Room 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T123000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T140000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-11T12:30:002029
+ 9587-db30-48ba-8b5b-34e4d812a01b
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Top of Hiroshima\, Level 23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S18: Industrial 2
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T140000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-11T14:00:00f8c3
+ 653a-456a-432e-8049-1bc0448a1577
+CATEGORY:SessionEvent
+DESCRIPTION: -OntoViews - A Tool for Creating Semantic Web Portals ( Indus
+ trial Track Paper)\n -SemanticOrganizer: A Customizable Semantic Repositor
+ y for Distributed NASA Project Teams ( Industrial Track Paper)\n -Public D
+ eployment of Semantic Service Matchmaker with UDDI Business Registry ( Ind
+ ustrial Track Paper)
+LOCATION:Room 5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S16: Data Semantics
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T140000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-11T14:00:00c36d
+ 5174-c5ef-4659-8a80-ccda370b473c
+CATEGORY:SessionEvent
+DESCRIPTION: -A Model Theoretic Semantics for Ontology Versioning ( Data S
+ emantics)\n -Extending the RDFS Entailment Lemma ( Data Semantics)\n -Usin
+ g Semantic Web Technologies for Representing E-science Provenance ( Data S
+ emantics)
+LOCATION:Room 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S17: SW Services
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T140000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-11T14:00:006e0c
+ 8738-380a-4659-ac57-0efb95efe753
+CATEGORY:SessionEvent
+DESCRIPTION: -From Software APIs to Web Service Ontologies: A Semi-automat
+ ic Extraction Method ( Semantic Web Services)\n -Information Gathering Dur
+ ing Planning for Web Service Composition ( Semantic Web Services)\n -Seman
+ tic Web Service Interaction Protocols: An Ontological Approach ( Semantic 
+ Web Services)
+LOCATION:Room 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tea Break
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T153000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T160000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-11T15:30:000187
+ 6eb7-1c77-4f22-849b-159ed8e4c252
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Room 4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S21: Industrial 3
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T160000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T170000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-11T16:00:00ef43
+ 5437-3142-40f5-94a9-b1d0872792cc
+CATEGORY:SessionEvent
+DESCRIPTION: -Querying Real World Services Through the Semantic Web ( Indu
+ strial Track Paper)\n -SWS for Financial Overdrawn Alerting ( Industrial T
+ rack Paper)
+LOCATION:Room 5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S19: User Interfaces & Visualization
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T160000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T170000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-11T16:00:009a33
+ b53e-6168-4efb-9e5c-ad59ec93ad47
+CATEGORY:SessionEvent
+DESCRIPTION: -Visual Modeling of OWL DL Ontologies Using UML ( User Interf
+ aces and Visualization)\n -What Would It Mean to Blog on the Semantic Web?
+  ( User Interfaces and Visualization)
+LOCATION:Room 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S20: Middleware and Agents
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T160000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T170000
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-11T16:00:008136
+ 1e82-81f2-49fc-9d72-0bd7d5c3eddd
+CATEGORY:SessionEvent
+DESCRIPTION: -The Specification of Agent Behavior by Ordinary People: A Ca
+ se Study ( Tools and Methodologies for Web Agents)\n -On the Emergent Sema
+ ntic Web and Overlooked Issues ( Semantic Web Middleware)
+LOCATION:Room 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Closing Ceremony
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T170000
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20041111T171500
+DTSTAMP;VALUE=DATE-TIME:20131014T212722Z
+UID:The_Third_International_Semantic_Web_Conference2004-11-11T17:00:00fb5a
+ 906d-b811-4335-9a57-f1390fdff1b8
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Room 1
+END:VEVENT
+END:VCALENDAR

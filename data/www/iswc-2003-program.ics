@@ -1,0 +1,761 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//program of The Second International Semantic Web Conference//
+BEGIN:VEVENT
+SUMMARY:Breakfast and registration
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031020T080000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031020T091500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-20T08:00:002ef
+ 1fca4-8f96-4c69-b443-23adb7dca267
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Evaluation of Ontology-based Tools
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031020T091500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031020T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-20T09:15:00938
+ 3a06b-0104-4afa-975c-03f344da2a20
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: York Sure\,Oscar Corcho\,Jürgen Angele
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Human Language Technology for the Semantic Web and Web Services
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031020T091500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031020T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-20T09:15:008e1
+ 34ebc-5b59-4119-b9d7-31a4635546e5
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Ying Ding\,Hamish Cunningham\,Atanas Kiryakov
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rules and Rule Mark Up Languages for the Semantic Web
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031020T091500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031020T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-20T09:15:0094b
+ bcd9e-585b-463f-9681-c928fce8f435
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Michael Schroeder\,Gerd Wagner
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Agent-mediated web/grid services
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031020T091500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031020T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-20T09:15:00f72
+ 0d6dc-c8f1-40ca-a1f4-6ededa3ed192
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Terry Payne\,Katia Sycara\nabstract: This tutorial 
+ brings together theories\, challenges\, issues\, languages and tools from 
+ the Semantic Web\, Web Services\, the Computational Grid and Agent Technol
+ ogy.  In addition\, it will present challenges and issues of how Agent Tec
+ hnology can best serve human users in the area of Web Services.  We will p
+ resent the current state of the art in Web-Based Services and sort through
+  the increasing array of relevant tools\, languages and theories both from
+  academia and industry.  The tutorial will contain many examples to illust
+ rate the described concepts\, tools and their use.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Practical and ScalableSemantic Systems
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031020T091500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031020T131500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-20T09:15:008e2
+ 22f1f-835d-4aa8-92cb-63cbf430f556
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Stefan Decker\,Raphael Volz\,Isabel Cruz
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Semantic Integration
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031020T091500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031020T131500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-20T09:15:00d7f
+ 83e38-8a0f-4952-bae8-dee47eb05da0
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Natasha Noy\,AnHai Doan\,Alon Halevy
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Semantic Web Technologies
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031020T091500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031020T131500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-20T09:15:0022b
+ 354d9-35e2-405e-b2b7-2690f800eb45
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Naveen Ashish\,Max Egenhofer\,Carole Goble
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Information Integration on the World Wide Web
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031020T091500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031020T131500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-20T09:15:008e5
+ fd92f-cda4-441b-a55e-fb37c67a6e85
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Ubbo Visser\,Holger Wache\,Heiner Stuckenschmidt\na
+ bstract: The overall goal of the tutorial is to discuss the relation betwe
+ en existing research in the area of intelligent information integration an
+ d new requirements and technologies that arise from the area of semantic w
+ eb research. We would like to emphasize the importance of information inte
+ gration on the World Wide Web in the context of providing intelligent acce
+ ss to heterogeneous and distributed information sources and intelligent se
+ rvices. We will provide an overview of existing solutions to the problem o
+ f information integration and extract common features in terms of architec
+ ture and technologies use in order to give potential attendees an impressi
+ on of how successful approaches look like. Furthermore\, we would like to 
+ stress how these common features relate to semantic web architecture and t
+ echnology\, revealing similarities and differences. Based on this comparis
+ on we discuss prospects and challenges for semantic web research in order 
+ to stimulate research in this area.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial on OWL
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031020T091500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031020T131500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-20T09:15:00644
+ a5857-5933-43c6-96eb-a98e4b2e3bd3
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Sean Bechhofer\,Peter F. Patel-Schneider\,Ian Horro
+ cks\nabstract: The goal of the tutorial will be to provide an introduction
+  and a working knowledge of OWL\, including the history and background of 
+ OWL\, the formal underpinnings of OWL\, and pragmatic issues related to OW
+ L. The tutorial will also address the building and use of OWL ontologies a
+ long with a demonstration of the use of a reasoner with an OWL ontology.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee Break
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031020T110000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031020T113000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-20T11:00:00013
+ 991da-78e1-455c-9ca7-acc21fdf684b
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031020T131500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031020T140000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-20T13:15:00f5d
+ 594b4-bd9c-43c3-a157-b347fdfbf5f4
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Pool Deck
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WonderWeb
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031020T140000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031020T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-20T14:00:005a6
+ 9383f-c6be-4089-ab7d-4d72ecbffc4e
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Creating Ontologies and Semantic Web Applications with Protégé
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031020T140000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031020T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-20T14:00:002cf
+ 2f3f5-c1d2-4954-b387-7728d17ca571
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Natasha F. Noy\,Holger Knublauch\nabstract: The maj
+ or goal of this tutorial is to provide the attendees with both the theoret
+ ical foundations of ontology design and hands-on experience in the constru
+ ction of ontologies and semantic web contents with Protégé.  In particul
+ ar\, the attendees will learn the basic principles and application domains
+  of ontologies based on declarative knowledge representation systems\, esp
+ ecially the semantic web language OWL.  They will get hands-on experience 
+ with ontology development using Protégé\, including its recent extension
+ s such as OWL expression editors and classifiers.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee Break
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031020T150000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031020T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-20T15:00:00109
+ 2b79f-24bc-4855-9d61-a832f19de1e2
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reception
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031020T190000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031020T210000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-20T19:00:008e1
+ 8b54e-106b-4994-b72f-69043baa39b1
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Pool Deck
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breakfast and registration
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T080000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T091500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T08:00:0099f
+ ece39-617d-4ea1-9b5b-5c0f7f0ef6f0
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Industrial track
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T091500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T104500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T09:15:00e80
+ d90fc-dcf9-468a-ae1a-7f5e4c5a1abc
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Brian McBride\n -ODESeW. Automatic Generation of Knowle
+ dge Portals for Intranets and Extranets ( Industrial Track Paper)\n -Makin
+ g Business Sense of the Semantic Web ( Industrial Track Paper)
+LOCATION:Captiva Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Foundations
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T091500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T104500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T09:15:0085c
+ 2ed6c-902b-439d-8ab1-60286cd06206
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Nicola Guarino\n -Semantic Coordination: A New Approach
+  and an Application ( Ontological Reasoning)\n -Reducing OWL Entailment to
+  Description Logic Satisfiability ( Foundations)\n -RDFS(FA) and RDF MT: T
+ wo Semantics for RDFS ( Foundations)
+LOCATION:Sundial Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Multi-Media
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T091500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T104500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T09:15:00e0c
+ c41c8-9d10-4284-8a37-97814a37fdd1
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Guus Schreiber\n -Semi-automatic Semantic Annotation of
+  Images Using Machine Learning Techniques ( Multi-media)\n -Integrating St
+ ructure and Semantics into Audio-visual Documents ( Multi-media)\n -SCULPT
+ EUR: Towards a New Paradigm for Multimedia Museum Information Handling ( M
+ ulti-media)
+LOCATION:Sanibel Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee break
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T104500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T111500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T10:45:00441
+ ed4ba-c65d-42b6-91d8-d9a9464f42f8
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Industrial track
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T111500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T124500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T11:15:00afc
+ 708f1-46a5-4be5-8999-9abe71332998
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Massimo Paolucci\n -KIM - Semantic Annotation Platform 
+ ( Industrial Track Paper)\n -Ontology-Oriented Programming: Static Typing 
+ for the Inconsistent Programmer ( Industrial Track Paper)\n -A Semantic In
+ fosphere ( Industrial Track Paper)
+LOCATION:Captiva Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Applications and Multi-Media
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T111500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T124500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T11:15:000d1
+ 5fd7b-0844-4ed1-b991-423d1a1b62da
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Tim Finin\n -Towards Ontology-Driven Discourse: From Se
+ mantic Graphs to Multimedia Presentations ( Multi-media)\n -FrameNet Meets
+  the Semantic Web: Lexical Semantics for the Web ( Applications)\n -A Q-Ba
+ sed Architecture for Semantic Information Interoperability on Semantic Web
+  ( Applications)
+LOCATION:Sanibel Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Foundations
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T111500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T124500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T11:15:00e87
+ 4b1af-bf2b-48f0-988d-a9bb9d7b5f86
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Peter F. Patel-Schneider\n -Web Ontology Reasoning with
+  Datatype Groups ( Foundations)\n -Merging Topics in Well-Formed XML Topic
+  Maps ( Foundations)\n -Semantic Processing of the Semantic Web ( Foundati
+ ons)
+LOCATION:Sundial Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T124500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T141500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T12:45:00ae7
+ 3388b-e0dd-4f78-a3be-3cf53786085a
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Pool Deck
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Remarks
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T141500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T143000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T14:15:00d81
+ 7d62f-c400-4bb9-ac9e-9bc25dd31a8a
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:On Beyond Ontology: Returning to AI from the Semantic Web
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T143000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T14:30:00942
+ acef9-8b56-47f8-9b0a-6cf7e04ed114
+CATEGORY:InvitedTalkEvent
+DESCRIPTION:chair: Katia Sycara\npresenter: Jim Hendler\nabstract: With th
+ e coming of OWL\, the Web will soon have a recommended ontology language\,
+  many ontology-based tools\, a large number of reference ontologies\, and 
+ a large user community interested in what ontologies are and how to use th
+ em. In fact\, it's beginning to look like we may be successful enough that
+  as researchers we must ask ourselves the question "Why are we doing this?
+ " As ontology on the Web becomes part of the "practice" of Web life\, and 
+ the logic toolkits are produced by software companies instead of AI labs\,
+  where do we in the research world go? Many are familiar with Tim Berners-
+ Lee's "layer cake" (or more recently the "Semantic Wave") which suggests m
+ oving to rules and proofs\, but that's just the "language" stack. Time for
+  us to think more about what we do with all this\, how we explore the new 
+ ideas emerging from the pursuit and\, perhaps most importantly of all\, wh
+ ether this Semantic Web stuff brings with it any insights into the most se
+ minal scientific problem of all -- our quest to understand human intellige
+ nce.
+LOCATION:Sundial Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee break
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T153000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T160000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T15:30:00b77
+ 344c1-a544-4b77-a641-3357ef7e3e93
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Industrial track
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T160000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T16:00:00c3a
+ 8e813-f5be-4cb2-bf4e-b3b382ad84f8
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Michael Uschold\n -Task Computing - The Semantic Web Me
+ ets Pervasive Computing ( Industrial Track Paper)\n -Ontology-Based Inform
+ ation Integration in the Automotive Industry ( Industrial Track Paper)\n -
+ Ontology-Based Query and Answering in Chemistry: OntoNova @ Project Halo (
+  Industrial Track Paper)\n -ScadaOnWeb - Web Based Supervisory Control and
+  Data Acquisition ( Industrial Track Paper)
+LOCATION:Captiva Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Information Retrieval
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T160000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T16:00:000c0
+ f19f9-ed8a-43f9-867f-6718b86d71a7
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Natasha Noy\n -Semantic Annotation\, Indexing\, and Ret
+ rieval ( Information Retrieval)\n -An Approach for the Ranking of Query Re
+ sults in the Semantic Web ( Information Retrieval)\n -Querying Semantic We
+ b Resources Using TRIPLE Views ( Information Retrieval)\n -Automatic Annot
+ ation of Content-Rich HTML Documents: Structural and Semantic Analysis ( I
+ nformation Retrieval)
+LOCATION:Sanibel Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Semantic Web Services/Challenge/Security\, Trust\, and Privacy/Too
+ ls and Methodologies
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T160000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T16:00:00e38
+ 364a8-9f9e-43d3-ba4b-2b37c429bd69
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Mark Burstein\n -The DAML-S Virtual Machine ( Semantic 
+ Web Services)\n -A Policy Based Approach to Security for the Semantic Web 
+ ( Security\, Trust\, and Privacy)\n -Prolog-Based Infrastructure for RDF: 
+ Scalability and Performance ( Tools and Metodologies)
+LOCATION:Sundial Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T180000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T193000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T18:00:00933
+ 1406e-005f-4dfb-8076-7b569f029d52
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Poster + Demos session
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031021T193000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031021T213000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-21T19:30:00062
+ 3540b-449c-4c3a-8b80-ec1a671de8e3
+CATEGORY:SessionEvent
+DESCRIPTION:
+LOCATION:Sundial Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breakfast
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031022T080000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031022T091500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-22T08:00:00417
+ 2d9dd-a926-42f0-be3f-1c670eca0903
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Applications
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031022T091500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031022T104500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-22T09:15:00fb2
+ 26258-d0dc-4e64-a3a9-58b660234b4e
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Vipul Kashyap\n -WebScripter: Grass-Roots Ontology Alig
+ nment via End-User Report Creation ( Applications)\n -Magpie - Towards a S
+ emantic Web Browser ( Applications)\n -Ontology-Based Resource Matching in
+  the Grid - The Grid Meets the Semantic Web ( Applications)
+LOCATION:Sundial Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ontological Reasoning
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031022T091500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031022T104500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-22T09:15:00ec2
+ aa548-7205-45c2-8939-90c04f59c65d
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Ian Horrocks\n -C-OWL: Contextualizing Ontologies ( Ont
+ ological Reasoning)\n -Web Ontology Language Requirements w.r.t Expressive
+ ness of Taxonomy and Axioms in Medicine ( Ontological Reasoning)\n -Intero
+ perability on XML Data ( Ontological Reasoning)
+LOCATION:Sanibel Room\, Captiva Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee break
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031022T104500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031022T111500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-22T10:45:004ae
+ 45f11-04bd-4e08-891e-ec95d244786d
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Foundations
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031022T111500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031022T124500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-22T11:15:0076e
+ fd693-f201-4d2d-9155-c0523eea61d5
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Bijan Parsia\n -Infrastructure for Web Explanations ( F
+ oundations)\n -Representing the UMLS Semantic Network Using OWL: (Or "What
+ 's in a Semantic Web Link?") ( Foundations)\n -Viewing the Semantic Web th
+ rough RVL Lenses ( Foundations)
+LOCATION:Sanibel Room\, Captiva Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Semantic Web Services
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031022T111500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031022T124500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-22T11:15:00782
+ 441d6-1cd9-42a3-bf22-1bb7d3f15d8a
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Enrico Motta\n -Surfing the Service Web ( Semantic Web 
+ Services)\n -Adapting BPEL4WS for the Semantic Web: The Bottom-Up Approach
+  to Web Service Interoperation ( Semantic Web Services)\n -Request Rewriti
+ ng-Based Web Service Discovery ( Semantic Web Services)
+LOCATION:Sundial Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031022T124500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031022T141500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-22T12:45:00da4
+ bb228-5188-40b5-b684-072ea83e8cf0
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Pool Deck
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Remarks
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031022T141500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031022T143000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-22T14:15:009c7
+ 9b541-af78-4b14-8670-8fbd8c71ba9f
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Long and Winding Road To Industrial Strength Semantic Web Serv
+ ices
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031022T143000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031022T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-22T14:30:0014b
+ 60e28-2559-40d4-a524-d5652783479d
+CATEGORY:InvitedTalkEvent
+DESCRIPTION:chair: John Mylopulos\npresenter: MIKE BRODIE\nabstract: Web S
+ ervices appear to be the basis fo
+LOCATION:Sundial Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee break
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031022T153000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031022T160000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-22T15:30:00b03
+ 2e34f-e555-424c-adc5-328feb2f8b77
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Agents and the Semantic Web
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031022T160000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031022T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-22T16:00:00f67
+ 54466-ef28-4309-b303-93aa876ef4fe
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Mike Dean\n -An Environment for Distributed Ontology De
+ velopment Based on Dependency Management ( Agents and the Semantic Web)\n 
+ -Beyond Ontology Construction\; Ontology Services as Online Knowledge Shar
+ ing Communities ( Agents and the Semantic Web)\n -Semantic Web Languages f
+ or Policy Representation and Reasoning: A Comparison of KAoS\, Rei\, and P
+ onder ( Agents and the Semantic Web)\n -An Agent Framework for Inter-perso
+ nal Information Sharing with an RDF-Based Repository ( Agents and the Sema
+ ntic Web)
+LOCATION:Sanibel Room\, Captiva Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Semantic web Services
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031022T160000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031022T180000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-22T16:00:00ec1
+ 30655-c590-4d04-bef3-9acc9876a0cc
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Terry Payne\n -Learning to Attach Semantic Metadata to 
+ Web Services ( Semantic Web Services)\n -Automating DAML-S Web Services Co
+ mposition Using SHOP2 ( Semantic Web Services)\n -Semantic Markup for Sema
+ ntic Web Tools: A DAML-S Description of an RDF-Store ( Semantic Web Servic
+ es)\n -IRS-II: A Framework and Infrastructure for Semantic Web Services ( 
+ Semantic Web Services)
+LOCATION:Sundial Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dinner
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031022T183000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031022T220000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-22T18:30:00c03
+ d2de4-d8d0-44f4-bdec-925785885e3e
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breakfast
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031023T080000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031023T091500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-23T08:00:00fc1
+ 6da68-08ea-4029-aca9-5ec751998094
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Applications and Tools
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031023T091500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031023T104500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-23T09:15:00381
+ 17017-c5f4-41cd-8bc8-49168156e984
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Atanas Kiryakov\n -Haystack: A Platform for Authoring E
+ nd User Semantic Web Applications ( Applications)\n -Mangrove: Enticing Or
+ dinary People onto the Semantic Web via Instant Gratification ( Applicatio
+ ns)\n -DAMLJessKB: A Tool for Reasoning with the Semantic Web ( Tools and 
+ Metodologies)
+LOCATION:Sundial Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Security and Semantic Web Services
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031023T091500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031023T104500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-23T09:15:00f7a
+ 2caa0-4810-48f0-9e22-e324939c58e1
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Ling Liu\n -Towards a Knowledge-Based Approach to Seman
+ tic Service Composition ( Semantic Web Services)\n -Security for DAML Web 
+ Services: Annotation and Matchmaking ( Security\, Trust\, and Privacy)\n -
+ Trust Management for the Semantic Web ( Security\, Trust\, and Privacy)
+LOCATION:Sanibel Room\, Captiva Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee break
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031023T104500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031023T111500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-23T10:45:00771
+ 9d228-3e57-4bde-83e6-82bdb26f74a7
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Security\, Trust and Privacy
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031023T111500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031023T124500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-23T11:15:00ff6
+ e854b-8b28-4acb-b59d-09c8b7d2b415
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Grit Denker\n -Signing RDF Graphs ( Security\, Trust\, 
+ and Privacy)\n -A Semantic E-Wallet to Reconcile Privacy and Context Aware
+ ness ( Security\, Trust\, and Privacy)
+LOCATION:Sanibel Room\, Captiva Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tools and Methodologies
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031023T111500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031023T124500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-23T11:15:0000a
+ 9c3f3-1183-4008-972b-bd4b70bf9cf8
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Harold Boley\n -Benchmarking DAML+OIL Repositories ( To
+ ols and Metodologies)\n -Cooking the Semantic Web with the OWL API ( Tools
+  and Metodologies)
+LOCATION:Sundial Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031023T121500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031023T141500
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-23T12:15:00327
+ 89083-29a6-428a-87f5-756b88e33a9e
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Remarks
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031023T141500
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031023T143000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-23T14:15:00574
+ dda9a-1f44-4409-9a4a-3758a1d81e09
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Semantic Web: Where to direct our energy? (Invited talk)
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031023T143000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031023T153000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-23T14:30:002f2
+ b6641-de5e-434d-b43b-6e8786ae3349
+CATEGORY:InvitedTalkEvent
+DESCRIPTION:chair: Dieter Fensel\npresenter: Tim Berners-Lee\nabstract: As
+  a powerful melding of WWW and KR and related technologies\, the semantic 
+ web is such a wide\, all-encompassing notion that it is not obvious to its
+  proponents where to direct their energy. Which parts of the roadmap will 
+ need encouragement\, which will be eagerly funded and developed anyway? Wh
+ ich need more research\, and which just need standards work to become ubiq
+ uitous? Are there areas which could come off the rails and derail the whol
+ e design if we get them wrong? In this talk\, I will present choices that 
+ face researchers and practitioners and discuss a conceptual roadmap of the
+  most exciting and useful prospects.
+LOCATION:Sundial Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee break
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031023T153000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031023T160000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-23T15:30:00521
+ 6eb9e-d880-4341-8878-eb113b4c2de4
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Panel Discussion on Knowledge Acquisition Projects in conjunction 
+ with K-CAP 2003
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20031023T160000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20031023T173000
+DTSTAMP;VALUE=DATE-TIME:20131014T212715Z
+UID:The_Second_International_Semantic_Web_Conference2003-10-23T16:00:001bd
+ 2ddd3-f92f-46f3-ae05-34e8a3b8199e
+CATEGORY:PanelEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+END:VCALENDAR

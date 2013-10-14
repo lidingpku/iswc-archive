@@ -8988,13 +8988,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "Tutorial Organizer",
-                            "end": "17:00",
+                            "end": "2002-06-09T17:00:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002/track/tutorial",
                             "label": "Semantic web services",
-                            "start": "09:00",
+                            "start": "2002-06-09T09:00:00",
                             "homepage": "http://www.daml.ri.cmu.edu/tutorial/iswc-t3.html",
                             "category": "",
+                            "end_x": "17:00",
                             "acronym": "",
                             "track": "Tutorial Track",
                             "chair_person": "",
@@ -9003,7 +9004,8 @@
                             "room": "",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent",
+                            "start_x": "09:00"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#TutorialEvent",
@@ -9014,13 +9016,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "Tutorial Organizer",
-                            "end": "12:00",
+                            "end": "2002-06-09T12:00:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002/track/tutorial",
                             "label": "Jena Tutorial",
-                            "start": "09:00",
+                            "start": "2002-06-09T09:00:00",
                             "homepage": "http://www.hpl.hp.com/semweb/iswc2002/cfp.html#more-info",
                             "category": "",
+                            "end_x": "12:00",
                             "acronym": "",
                             "track": "Tutorial Track",
                             "chair_person": "",
@@ -9029,7 +9032,8 @@
                             "room": "",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent",
+                            "start_x": "09:00"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#TutorialEvent",
@@ -9040,13 +9044,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "Tutorial Organizer",
-                            "end": "12:00",
+                            "end": "2002-06-09T12:00:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002/track/tutorial",
                             "label": "Ontologies: Representation, Engineering, Learning and Applications",
-                            "start": "09:00",
+                            "start": "2002-06-09T09:00:00",
                             "homepage": "http://events.aifb.uni-karlsruhe.de/ontologytutorial/iswc2002/",
                             "category": "",
+                            "end_x": "12:00",
                             "acronym": "",
                             "track": "Tutorial Track",
                             "chair_person": "",
@@ -9055,7 +9060,8 @@
                             "room": "",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent",
+                            "start_x": "09:00"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#TutorialEvent",
@@ -9066,13 +9072,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "Tutorial Organizer",
-                            "end": "17:00",
+                            "end": "2002-06-09T17:00:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002/track/tutorial",
                             "label": "Description Logics for Conceptual Design, Information Access, and Ontology Integration: Research Trends",
-                            "start": "14:00",
+                            "start": "2002-06-09T14:00:00",
                             "homepage": "http://www.cs.man.ac.uk/~franconi/dl/course/tutorial/",
                             "category": "",
+                            "end_x": "17:00",
                             "acronym": "",
                             "track": "Tutorial Track",
                             "chair_person": "",
@@ -9081,7 +9088,8 @@
                             "room": "",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent",
+                            "start_x": "14:00"
                         }
                     ],
                     "title": "2002-06-09 (Sunday)"
@@ -9097,13 +9105,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "09:15",
+                            "end": "2002-06-10T09:15:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002",
                             "label": "Opening ceremony",
-                            "start": "09:00",
+                            "start": "2002-06-10T09:00:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "09:15",
                             "acronym": "",
                             "track": "",
                             "chair_person": "",
@@ -9112,7 +9121,8 @@
                             "room": "",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent",
+                            "start_x": "09:00"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#InvitedTalkEvent",
@@ -9123,13 +9133,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "Speaker",
-                            "end": "10:15",
+                            "end": "2002-06-10T10:15:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002",
                             "label": "The Grid, Grid Services and the Semantic Web: Technologies and Opportunities",
-                            "start": "09:15",
+                            "start": "2002-06-10T09:15:00",
                             "homepage": "",
                             "category": "InvitedTalk",
+                            "end_x": "10:15",
                             "acronym": "",
                             "track": "",
                             "chair_person": "Carole Goble",
@@ -9139,7 +9150,8 @@
                             "room": "",
                             "chair_label": "Session Chair",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent",
+                            "start_x": "09:15"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#BreakEvent",
@@ -9150,13 +9162,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "10:45",
+                            "end": "2002-06-10T10:45:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002",
                             "label": "Coffee break",
-                            "start": "10:15",
+                            "start": "2002-06-10T10:15:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "10:45",
                             "acronym": "",
                             "track": "",
                             "chair_person": "",
@@ -9165,7 +9178,8 @@
                             "room": "",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent",
+                            "start_x": "10:15"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#SessionEvent",
@@ -9189,13 +9203,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -9213,13 +9229,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -9237,13 +9255,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -9261,13 +9281,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -9285,26 +9307,29 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Position Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 }
                             ],
                             "duration": "",
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "12:30",
+                            "end": "2002-06-10T12:30:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002/track/main",
                             "label": "Infrastructure I",
-                            "start": "10:45",
+                            "start": "2002-06-10T10:45:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "12:30",
                             "acronym": "",
                             "track": "Main Track",
                             "chair_person": "Peter Patel-Schneider",
@@ -9314,7 +9339,8 @@
                             "room": "",
                             "chair_label": "Session Chair",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent",
+                            "start_x": "10:45"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#BreakEvent",
@@ -9325,13 +9351,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "14:30",
+                            "end": "2002-06-10T14:30:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002",
                             "label": "Lunch",
-                            "start": "12:30",
+                            "start": "2002-06-10T12:30:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "14:30",
                             "acronym": "",
                             "track": "",
                             "chair_person": "",
@@ -9340,7 +9367,8 @@
                             "room": "",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent",
+                            "start_x": "12:30"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#SessionEvent",
@@ -9364,13 +9392,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -9388,13 +9418,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -9412,13 +9444,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -9436,13 +9470,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -9460,26 +9496,29 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "System Descriptions",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 }
                             ],
                             "duration": "",
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "16:15",
+                            "end": "2002-06-10T16:15:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002/track/main",
                             "label": "Services I",
-                            "start": "14:30",
+                            "start": "2002-06-10T14:30:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "16:15",
                             "acronym": "",
                             "track": "Main Track",
                             "chair_person": "Rudi Studer",
@@ -9489,7 +9528,8 @@
                             "room": "",
                             "chair_label": "Session Chair",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent",
+                            "start_x": "14:30"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#BreakEvent",
@@ -9500,13 +9540,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "16:45",
+                            "end": "2002-06-10T16:45:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002",
                             "label": "Coffee break",
-                            "start": "16:15",
+                            "start": "2002-06-10T16:15:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "16:45",
                             "acronym": "",
                             "track": "",
                             "chair_person": "",
@@ -9515,7 +9556,8 @@
                             "room": "",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent",
+                            "start_x": "16:15"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#SessionEvent",
@@ -9539,13 +9581,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -9563,13 +9607,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -9587,13 +9633,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -9611,13 +9659,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Position Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -9635,26 +9685,29 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "System Descriptions",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 }
                             ],
                             "duration": "",
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "18:30",
+                            "end": "2002-06-10T18:30:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002/track/main",
                             "label": "Languages I",
-                            "start": "16:45",
+                            "start": "2002-06-10T16:45:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "18:30",
                             "acronym": "",
                             "track": "Main Track",
                             "chair_person": "Massimo Marchiori",
@@ -9664,7 +9717,8 @@
                             "room": "",
                             "chair_label": "Session Chair",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent",
+                            "start_x": "16:45"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#SpecialEvent",
@@ -9675,13 +9729,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "21:00",
+                            "end": "2002-06-10T21:00:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002",
                             "label": "Welcome reception",
-                            "start": "19:30",
+                            "start": "2002-06-10T19:30:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "21:00",
                             "acronym": "",
                             "track": "",
                             "chair_person": "",
@@ -9690,7 +9745,8 @@
                             "room": "CAMINO Terrace",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent",
+                            "start_x": "19:30"
                         }
                     ],
                     "title": "2002-06-10 (Monday)"
@@ -9706,13 +9762,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "Panellist",
-                            "end": "10:15",
+                            "end": "2002-06-11T10:15:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002",
                             "label": "Research Challenges for the Semantic Web (panel)",
-                            "start": "09:00",
+                            "start": "2002-06-11T09:00:00",
                             "homepage": "",
                             "category": "Panel",
+                            "end_x": "10:15",
                             "acronym": "",
                             "track": "",
                             "chair_person": "Ian Horrocks",
@@ -9722,7 +9779,8 @@
                             "room": "",
                             "chair_label": "Chair",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent",
+                            "start_x": "09:00"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#BreakEvent",
@@ -9733,13 +9791,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "10:45",
+                            "end": "2002-06-11T10:45:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002",
                             "label": "Coffee break",
-                            "start": "10:15",
+                            "start": "2002-06-11T10:15:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "10:45",
                             "acronym": "",
                             "track": "",
                             "chair_person": "",
@@ -9748,7 +9807,8 @@
                             "room": "",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent",
+                            "start_x": "10:15"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#SessionEvent",
@@ -9772,13 +9832,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -9796,13 +9858,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -9820,13 +9884,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Position Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -9844,13 +9910,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "System Descriptions",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -9868,26 +9936,29 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "System Descriptions",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 }
                             ],
                             "duration": "",
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "12:30",
+                            "end": "2002-06-11T12:30:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002/track/main",
                             "label": "Tools and applications",
-                            "start": "10:45",
+                            "start": "2002-06-11T10:45:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "12:30",
                             "acronym": "",
                             "track": "Main Track",
                             "chair_person": "Heiner Stuckenschmidt",
@@ -9897,7 +9968,8 @@
                             "room": "",
                             "chair_label": "Session Chair",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent",
+                            "start_x": "10:45"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#BreakEvent",
@@ -9908,13 +9980,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "14:30",
+                            "end": "2002-06-11T14:30:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002",
                             "label": "Lunch",
-                            "start": "12:30",
+                            "start": "2002-06-11T12:30:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "14:30",
                             "acronym": "",
                             "track": "",
                             "chair_person": "",
@@ -9923,7 +9996,8 @@
                             "room": "",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent",
+                            "start_x": "12:30"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#SessionEvent",
@@ -9934,13 +10008,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "16:15",
+                            "end": "2002-06-11T16:15:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002/track/poster",
                             "label": "Poster session",
-                            "start": "14:30",
+                            "start": "2002-06-11T14:30:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "16:15",
                             "acronym": "",
                             "track": "Poster Track",
                             "chair_person": "",
@@ -9950,7 +10025,8 @@
                             "room": "",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent",
+                            "start_x": "14:30"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#BreakEvent",
@@ -9961,13 +10037,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "16:45",
+                            "end": "2002-06-11T16:45:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002",
                             "label": "Coffee break",
-                            "start": "16:15",
+                            "start": "2002-06-11T16:15:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "16:45",
                             "acronym": "",
                             "track": "",
                             "chair_person": "",
@@ -9976,7 +10053,8 @@
                             "room": "",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent",
+                            "start_x": "16:15"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#SessionEvent",
@@ -10000,13 +10078,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -10024,13 +10104,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -10048,13 +10130,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -10072,13 +10156,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -10096,26 +10182,29 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "System Descriptions",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 }
                             ],
                             "duration": "",
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "18:30",
+                            "end": "2002-06-11T18:30:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002/track/main",
                             "label": "Infrastructure II",
-                            "start": "16:45",
+                            "start": "2002-06-11T16:45:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "18:30",
                             "acronym": "",
                             "track": "Main Track",
                             "chair_person": "Steffen Staab",
@@ -10125,7 +10214,8 @@
                             "room": "",
                             "chair_label": "Session Chair",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent",
+                            "start_x": "16:45"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#SpecialEvent",
@@ -10136,13 +10226,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "22:30",
+                            "end": "2002-06-11T22:30:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002",
                             "label": "Conference diner",
-                            "start": "20:00",
+                            "start": "2002-06-11T20:00:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "22:30",
                             "acronym": "",
                             "track": "",
                             "chair_person": "",
@@ -10151,7 +10242,8 @@
                             "room": "Restaurant LE DUNE (on the Lagoon)",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent",
+                            "start_x": "20:00"
                         }
                     ],
                     "title": "2002-06-11 (Tuesday)"
@@ -10167,13 +10259,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "09:15",
+                            "end": "2002-06-12T09:15:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002",
                             "label": "Best paper and best reviewer awards ceremony",
-                            "start": "09:00",
+                            "start": "2002-06-12T09:00:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "09:15",
                             "acronym": "",
                             "track": "",
                             "chair_person": "",
@@ -10182,7 +10275,8 @@
                             "room": "",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent",
+                            "start_x": "09:00"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#InvitedTalkEvent",
@@ -10193,13 +10287,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "Speaker",
-                            "end": "10:15",
+                            "end": "2002-06-12T10:15:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002",
                             "label": "Semantic Web Enabled Web Services",
-                            "start": "09:15",
+                            "start": "2002-06-12T09:15:00",
                             "homepage": "",
                             "category": "InvitedTalk",
+                            "end_x": "10:15",
                             "acronym": "",
                             "track": "",
                             "chair_person": "Jim Hendler",
@@ -10209,7 +10304,8 @@
                             "room": "",
                             "chair_label": "Session Chair",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent",
+                            "start_x": "09:15"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#BreakEvent",
@@ -10220,13 +10316,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "10:45",
+                            "end": "2002-06-12T10:45:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002",
                             "label": "Coffee break",
-                            "start": "10:15",
+                            "start": "2002-06-12T10:15:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "10:45",
                             "acronym": "",
                             "track": "",
                             "chair_person": "",
@@ -10235,7 +10332,8 @@
                             "room": "",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent",
+                            "start_x": "10:15"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#SessionEvent",
@@ -10259,13 +10357,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -10283,13 +10383,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -10307,13 +10409,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -10331,13 +10435,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Position Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -10355,26 +10461,29 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "System Descriptions",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 }
                             ],
                             "duration": "",
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "12:25",
+                            "end": "2002-06-12T12:25:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002/track/main",
                             "label": "Services II",
-                            "start": "10:45",
+                            "start": "2002-06-12T10:45:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "12:25",
                             "acronym": "",
                             "track": "Main Track",
                             "chair_person": "Yun Peng",
@@ -10384,7 +10493,8 @@
                             "room": "",
                             "chair_label": "Session Chair",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent",
+                            "start_x": "10:45"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#BreakEvent",
@@ -10395,13 +10505,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "14:30",
+                            "end": "2002-06-12T14:30:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002",
                             "label": "Lunch",
-                            "start": "12:30",
+                            "start": "2002-06-12T12:30:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "14:30",
                             "acronym": "",
                             "track": "",
                             "chair_person": "",
@@ -10410,7 +10521,8 @@
                             "room": "",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent",
+                            "start_x": "12:30"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#SessionEvent",
@@ -10434,13 +10546,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -10458,13 +10572,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -10482,13 +10598,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -10506,26 +10624,29 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "System Descriptions",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 }
                             ],
                             "duration": "",
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "16:15",
+                            "end": "2002-06-12T16:15:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002/track/main",
                             "label": "Languages II",
-                            "start": "14:30",
+                            "start": "2002-06-12T14:30:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "16:15",
                             "acronym": "",
                             "track": "Main Track",
                             "chair_person": "J\u00e9r\u00f4me Euzenat",
@@ -10535,7 +10656,8 @@
                             "room": "",
                             "chair_label": "Session Chair",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent",
+                            "start_x": "14:30"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#BreakEvent",
@@ -10546,13 +10668,14 @@
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "16:45",
+                            "end": "2002-06-12T16:45:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002",
                             "label": "Coffee break",
-                            "start": "16:15",
+                            "start": "2002-06-12T16:15:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "16:45",
                             "acronym": "",
                             "track": "",
                             "chair_person": "",
@@ -10561,7 +10684,8 @@
                             "room": "",
                             "chair_label": "",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent",
+                            "start_x": "16:15"
                         },
                         {
                             "event_type": "http://data.semanticweb.org/ns/swc/ontology#SessionEvent",
@@ -10585,13 +10709,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -10609,13 +10735,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -10633,13 +10761,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -10657,13 +10787,15 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Research Track Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 },
                                 {
                                     "event_type": "http://data.semanticweb.org/ns/swc/ontology#TalkEvent",
@@ -10681,26 +10813,29 @@
                                     "start": "",
                                     "homepage": "",
                                     "category": "Position Paper",
+                                    "end_x": "",
                                     "acronym": "",
                                     "chair_person": "",
                                     "address": "",
                                     "link_document": "",
                                     "room": "",
                                     "chair_label": "",
-                                    "tzid": ""
+                                    "tzid": "",
+                                    "start_x": ""
                                 }
                             ],
                             "duration": "",
                             "logo": "",
                             "order_in_super_event": "",
                             "presenter_label": "",
-                            "end": "18:30",
+                            "end": "2002-06-12T18:30:00",
                             "author": "",
                             "super_event_uri": "http://data.semanticweb.org/conference/iswc/2002/track/main",
                             "label": "Infrastructure III",
-                            "start": "16:45",
+                            "start": "2002-06-12T16:45:00",
                             "homepage": "",
                             "category": "",
+                            "end_x": "18:30",
                             "acronym": "",
                             "track": "Main Track",
                             "chair_person": "Brian McBride",
@@ -10710,7 +10845,8 @@
                             "room": "",
                             "chair_label": "Session Chair",
                             "tzid": "Europe/Rome",
-                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent"
+                            "super_event_type": "http://data.semanticweb.org/ns/swc/ontology#TrackEvent",
+                            "start_x": "16:45"
                         }
                     ],
                     "title": "2002-06-12 (Wednesday)"
