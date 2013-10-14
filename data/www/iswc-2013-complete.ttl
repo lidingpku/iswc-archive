@@ -18,7 +18,7 @@
 <http://data.semanticweb.org/conference/iswc/2013/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2013 (2013-10-11)" ;
-    dcterms:modified "2013-10-12T09:28:56.905201"^^xsd:datetime ;
+    dcterms:modified "2013-10-14T13:19:05.978417"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2013/doctoral-consortium-proceedings/paper-01/author_list> a rdf:Seq ;
@@ -3322,15 +3322,6 @@
     swc:orderInSession 1 ;
     swc:order_in_super_event 1 .
 
-<http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2> a swc:SessionEvent ;
-    rdfs:label "DBpedia & NLP 2013 Session 2" ;
-    swc:hasLocation "Grand Lodge (1st Floor)" ;
-    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
-    swc:room "Grand Lodge (1st Floor)" ;
-    ical:dtend "2013-10-22T12:45:00"^^xsd:dateTime ;
-    ical:dtstart "2013-10-22T11:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
-
 <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session4/event-03> a swc:SpecialEvent ;
     rdfs:label "Discussion: How to standardize benchmarking of NER? Layers, Tasks and Adequacy of Semantic Web technology." ;
     swc:isSubEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session4> ;
@@ -3620,15 +3611,6 @@
     swc:isSubEventOf <http://data.semanticweb.org/workshop/ordring/2013/session1> ;
     swc:orderInSession 1 ;
     swc:order_in_super_event 1 .
-
-<http://data.semanticweb.org/workshop/ordring/2013/session2> a swc:SessionEvent ;
-    rdfs:label "OrdRing 2013 Session 2" ;
-    swc:hasLocation "Doric (Ground Floor)" ;
-    swc:isSubEventOf <http://data.semanticweb.org/workshop/ordring/2013> ;
-    swc:room "Doric (Ground Floor)" ;
-    ical:dtend "2013-10-22T17:55:00"^^xsd:dateTime ;
-    ical:dtstart "2013-10-22T16:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
 
 <http://data.semanticweb.org/workshop/provon/2013/proceedings/editor_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/stefan-decker> ;
@@ -3939,8 +3921,6 @@
 <http://data.semanticweb.org/workshop/ssws/2013/proceedings/paper-07/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/fausto-giunchiglia> ;
     rdf:_2 <http://data.semanticweb.org/person/alethia-hume> .
-
-<http://data.semanticweb.org/workshop/ssws/2013/session0> swc:isSuperEventOf <http://data.semanticweb.org/workshop/ssws/2013/session0/event-01> .
 
 <http://data.semanticweb.org/workshop/ursw/2013/proceedings/editor_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/fernando-bobillo> ;
@@ -6255,31 +6235,31 @@
     swc:heldBy <http://data.semanticweb.org/person/raphaeel-troncy> ;
     swc:isRoleAt <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-02> .
 
-<http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-03> a swc:TalkEvent ;
+<http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2/event-01> a swc:TalkEvent ;
     rdfs:label "From Strings to Things SAR-Graphs: A New Type of Resource for Connecting Knowledge and Language" ;
     swc:hasRelatedDocument <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings/paper-05> ;
-    swc:isSubEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1> ;
+    swc:isSubEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2> ;
     swc:orderInSession 1 ;
     swc:order_in_super_event 1 .
 
-<http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-04> a swc:TalkEvent ;
+<http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2/event-02> a swc:TalkEvent ;
     rdfs:label "Using BabelNet in Bridging the Gap Between Natural Language Queries and Linked Data Concepts" ;
     swc:hasRelatedDocument <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings/paper-07> ;
-    swc:isSubEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1> ;
+    swc:isSubEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2> ;
     swc:orderInSession 2 ;
     swc:order_in_super_event 2 .
 
-<http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-05> a swc:TalkEvent ;
+<http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2/event-03> a swc:TalkEvent ;
     rdfs:label "Statistical Analyses of Named Entity Disambiguation Benchmarks" ;
     swc:hasRelatedDocument <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings/paper-02> ;
-    swc:isSubEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1> ;
+    swc:isSubEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2> ;
     swc:orderInSession 3 ;
     swc:order_in_super_event 3 .
 
-<http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-06> a swc:TalkEvent ;
+<http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2/event-04> a swc:TalkEvent ;
     rdfs:label "Argumentation-based Inconsistencies Detection for Question-Answering over DBpedia" ;
     swc:hasRelatedDocument <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings/paper-06> ;
-    swc:isSubEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1> ;
+    swc:isSubEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2> ;
     swc:orderInSession 4 ;
     swc:order_in_super_event 4 .
 
@@ -6556,31 +6536,31 @@
     swc:orderInSession 6 ;
     swc:order_in_super_event 6 .
 
-<http://data.semanticweb.org/workshop/ordring/2013/session3/event-01> a swc:TalkEvent ;
+<http://data.semanticweb.org/workshop/ordring/2013/session2/event-01> a swc:TalkEvent ;
     rdfs:label "Event Object Boundaries in RDF Streams: A Position Paper" ;
     swc:hasRelatedDocument <http://data.semanticweb.org/workshop/ordring/2013/proceedings/paper-05> ;
-    swc:isSubEventOf <http://data.semanticweb.org/workshop/ordring/2013/session3> ;
+    swc:isSubEventOf <http://data.semanticweb.org/workshop/ordring/2013/session2> ;
     swc:orderInSession 1 ;
     swc:order_in_super_event 1 .
 
-<http://data.semanticweb.org/workshop/ordring/2013/session3/event-02> a swc:TalkEvent ;
+<http://data.semanticweb.org/workshop/ordring/2013/session2/event-02> a swc:TalkEvent ;
     rdfs:label "SLUBM: An extented LUBM Benchmark for Stream Reasoning" ;
     swc:hasRelatedDocument <http://data.semanticweb.org/workshop/ordring/2013/proceedings/paper-06> ;
-    swc:isSubEventOf <http://data.semanticweb.org/workshop/ordring/2013/session3> ;
+    swc:isSubEventOf <http://data.semanticweb.org/workshop/ordring/2013/session2> ;
     swc:orderInSession 2 ;
     swc:order_in_super_event 2 .
 
-<http://data.semanticweb.org/workshop/ordring/2013/session3/event-03> a swc:SpecialEvent ;
+<http://data.semanticweb.org/workshop/ordring/2013/session2/event-03> a swc:SpecialEvent ;
     rdfs:label "Open Door Meeting of the W3C RDF Stream Processing Community Group" ;
-    swc:hasRole <http://data.semanticweb.org/workshop/ordring/2013/session3/event-03/chair> ;
-    swc:isSubEventOf <http://data.semanticweb.org/workshop/ordring/2013/session3> ;
+    swc:hasRole <http://data.semanticweb.org/workshop/ordring/2013/session2/event-03/chair> ;
+    swc:isSubEventOf <http://data.semanticweb.org/workshop/ordring/2013/session2> ;
     swc:orderInSession 3 ;
     swc:order_in_super_event 3 .
 
-<http://data.semanticweb.org/workshop/ordring/2013/session3/event-03/chair> a swc:Chair ;
+<http://data.semanticweb.org/workshop/ordring/2013/session2/event-03/chair> a swc:Chair ;
     rdfs:label "Chair" ;
     swc:heldBy <http://data.semanticweb.org/person/jean-paul-calbimonte> ;
-    swc:isRoleAt <http://data.semanticweb.org/workshop/ordring/2013/session3/event-03> .
+    swc:isRoleAt <http://data.semanticweb.org/workshop/ordring/2013/session2/event-03> .
 
 <http://data.semanticweb.org/workshop/provon/2013/session1/event-01> a swc:InvitedTalkEvent ;
     rdfs:label "Semantic Web vs. Privacy: Menace or opportunity?" ;
@@ -6912,23 +6892,6 @@
     swc:orderInSession 4 ;
     swc:order_in_super_event 4 .
 
-<http://data.semanticweb.org/workshop/ssws/2013/session0/event-01> a swc:TalkEvent ;
-    rdfs:label "Count Aggregation in Semantic Queries" ;
-    swc:hasRelatedDocument <http://data.semanticweb.org/workshop/ssws/2013/proceedings/paper-01> ;
-    swc:isSubEventOf <http://data.semanticweb.org/workshop/ssws/2013/session0> ;
-    swc:orderInSession 2 ;
-    swc:order_in_super_event 2 .
-
-<http://data.semanticweb.org/workshop/ssws/2013/session1> a swc:SessionEvent ;
-    rdfs:label "SSWS 2013 Session 1" ;
-    swc:hasLocation "Corinthian (Ground Floor)" ;
-    swc:isSubEventOf <http://data.semanticweb.org/workshop/ssws/2013> ;
-    swc:isSuperEventOf <http://data.semanticweb.org/workshop/ssws/2013/session1/event-01> ;
-    swc:room "Corinthian (Ground Floor)" ;
-    ical:dtend "2013-10-21T10:30:00"^^xsd:dateTime ;
-    ical:dtstart "2013-10-21T10:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
-
 <http://data.semanticweb.org/workshop/ssws/2013/session1/event-01> a swc:InvitedTalkEvent ;
     rdfs:label "TBA" ;
     swc:hasRole <http://data.semanticweb.org/workshop/ssws/2013/session1/event-01/speaker> ;
@@ -6940,6 +6903,13 @@
     rdfs:label "Speaker" ;
     swc:heldBy <http://data.semanticweb.org/person/spyros-kotoulas> ;
     swc:isRoleAt <http://data.semanticweb.org/workshop/ssws/2013/session1/event-01> .
+
+<http://data.semanticweb.org/workshop/ssws/2013/session1/event-02> a swc:TalkEvent ;
+    rdfs:label "Count Aggregation in Semantic Queries" ;
+    swc:hasRelatedDocument <http://data.semanticweb.org/workshop/ssws/2013/proceedings/paper-01> ;
+    swc:isSubEventOf <http://data.semanticweb.org/workshop/ssws/2013/session1> ;
+    swc:orderInSession 2 ;
+    swc:order_in_super_event 2 .
 
 <http://data.semanticweb.org/workshop/ssws/2013/session2/event-01> a swc:TalkEvent ;
     rdfs:label "DistEL: A Distributed EL+ Ontology Classifier" ;
@@ -7716,7 +7686,7 @@
         <http://data.semanticweb.org/conference/iswc/2013/talk/invited-2/speaker> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
     swc:room "Parkside Ballroom B" ;
-    swrc:abstract "As collaborative, or network science spreads into more science, engineering and medical fields, both the participants and their funders have expressed a very strong desire for highly functional data and information capabilities that are a) easy to use, b) integrated in a variety of ways, c) leverage prior investments and keep pace with rapid technical change, and d) are not expensive or time-consuming to build or maintain. In response, and based on our accumulated experience over the last decade and a maturing of several key semantic web approaches, we have adapted, extended, and integrated several open source applications and frameworks that handle major portions of functionality for these platforms. At minimum, these functions include: an object-type repository, collaboration tools, an ability to identify and manage all key entities in the platform, and an integrated portal to manage diverse content and applications, with varied access levels and privacy options. At the same time, there is increasing attention to how researchers present and explain results based on interpretation of increasingly diverse and heterogeneous data and information sources. With the renewed emphasis on good data practices, informatics practitioners have responded to this challenge with maturing informatics-based approaches. These approaches include, but are not limited to, use case development; information modeling and architectures; elaborating vocabularies; mediating interfaces to data and related services on the Web; and traceable provenance. The current era of data-intensive research presents numerous challenges to both individuals and research teams. In environmental science especially, sub-fields that were data-poor are becoming data-rich (volume, type and mode), while some that were largely model/ simulation driven are now dramatically shifting to data-driven or least to data-model assimilation approaches. These paradigm shifts make it very hard for researchers used to one mode to shift to another, let alone produce products of their work that are usable or understandable by non-specialists. However, it is exactly at these frontiers where much of the exciting environmental science needs to be performed and appreciated. XVIII Research networks (even small ones) need to deal with people, and many intellectual artifacts produced or consumed in research, organizational and/our outreach activities, as well as the relations among them. Increasingly these networks are modeled as knowledge networks, i.e. graphs with named and typed relations among the 'nodes'. Some important nodes are: people, organizations, datasets, events, presentations, publications, videos, meetings, reports, groups, and more. In this heterogeneous ecosystem, it is important to use a set of common informatics approaches to co-design and co-evolve the needed science data platforms based on what real people want to use them for. We present our methods and results for information modeling, adapting, integrating and evolving a networked data science and information architecture based on several open source technologies (e.g. Drupal, VIVO, the Comprehensive Knowledge Archive Network; CKAN, and the Global Handle System; GHS) and many semantic technologies. We discuss the results in the context of the Deep Carbon Virtual Observatory and the Global Change Information System, and conclude with musings on how the smart mediation among the components is modeled and managed, and its general applicability and ecacy." ;
+    swrc:abstract "As collaborative, or network science spreads into more science, engineering and medical fields, both the participants and their funders have expressed a very strong desire for highly functional data and information capabilities that are a) easy to use, b) integrated in a variety of ways, c) leverage prior investments and keep pace with rapid technical change, and d) are not expensive or time-consuming to build or maintain. In response, and based on our accumulated experience over the last decade and a maturing of several key semantic web approaches, we have adapted, extended, and integrated several open source applications and frameworks that handle major portions of functionality for these platforms. At minimum, these functions include: an object-type repository, collaboration tools, an ability to identify and manage all key entities in the platform, and an integrated portal to manage diverse content and applications, with varied access levels and privacy options. At the same time, there is increasing attention to how researchers present and explain results based on interpretation of increasingly diverse and heterogeneous data and information sources. With the renewed emphasis on good data practices, informatics practitioners have responded to this challenge with maturing informatics-based approaches. These approaches include, but are not limited to, use case development; information modeling and architectures; elaborating vocabularies; mediating interfaces to data and related services on the Web; and traceable provenance. The current era of data-intensive research presents numerous challenges to both individuals and research teams. In environmental science especially, sub-fields that were data-poor are becoming data-rich (volume, type and mode), while some that were largely model/ simulation driven are now dramatically shifting to data-driven or least to data-model assimilation approaches. These paradigm shifts make it very hard for researchers used to one mode to shift to another, let alone produce products of their work that are usable or understandable by non-specialists. However, it is exactly at these frontiers where much of the exciting environmental science needs to be performed and appreciated. XVIII Research networks (even small ones) need to deal with people, and many intellectual artifacts produced or consumed in research, organizational and/our outreach activities, as well as the relations among them. Increasingly these networks are modeled as knowledge networks, i.e. graphs with named and typed relations among the 'nodes'. Some important nodes are: people, organizations, datasets, events, presentations, publications, videos, meetings, reports, groups, and more. In this heterogeneous ecosystem, it is important to use a set of common informatics approaches to co-design and co-evolve the needed science data platforms based on what real people want to use them for. We present our methods and results for information modeling, adapting, integrating and evolving a networked data science and information architecture based on several open source technologies (e.g. Drupal, VIVO, the Comprehensive Knowledge Archive Network; CKAN, and the Global Handle System; GHS) and many semantic technologies. We discuss the results in the context of the Deep Carbon Virtual Observatory and the Global Change Information System, and conclude with musings on how the smart mediation among the components is modeled and managed, and its general applicability and ecacy." ;
     ical:dtend "2013-10-24T10:15:00"^^xsd:dateTime ;
     ical:dtstart "2013-10-24T09:15:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" ;
@@ -9298,6 +9268,17 @@
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/kamel-nebhi> .
 
+<http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1> a swc:SessionEvent ;
+    rdfs:label "Dbpedia & NLP 2013 Session 1" ;
+    swc:hasLocation "Grand Lodge (1st Floor)" ;
+    swc:isSubEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013> ;
+    swc:isSuperEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-01>,
+        <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-02> ;
+    swc:room "Grand Lodge (1st Floor)" ;
+    ical:dtend "2013-10-22T10:30:00"^^xsd:dateTime ;
+    ical:dtstart "2013-10-22T09:00:00"^^xsd:dateTime ;
+    ical:tzid "Australia/Sydney" .
+
 <http://data.semanticweb.org/workshop/ld4ie/2013/panel> a swc:PanelEvent ;
     rdfs:label "Linked Data for Information Extraction: Opportunity or Babel?" ;
     swc:hasLocation "Composite (Ground Floor)" ;
@@ -9355,10 +9336,6 @@
     ical:dtstart "2013-10-21T11:45:00"^^xsd:dateTime ;
     ical:tzid "Australia/Sydney" .
 
-<http://data.semanticweb.org/workshop/ordring/2013/session3> swc:isSuperEventOf <http://data.semanticweb.org/workshop/ordring/2013/session3/event-01>,
-        <http://data.semanticweb.org/workshop/ordring/2013/session3/event-02>,
-        <http://data.semanticweb.org/workshop/ordring/2013/session3/event-03> .
-
 <http://data.semanticweb.org/workshop/provon/2013/proceedings/paper-02> a swrc:InProceedings ;
     rdfs:label "A case for transparency" ;
     swc:isPartOf <http://data.semanticweb.org/workshop/provon/2013/proceedings> ;
@@ -9408,6 +9385,17 @@
     swrc:listAuthor "Simon Cox" ;
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/simon-cox> .
+
+<http://data.semanticweb.org/workshop/ssws/2013/session1> a swc:SessionEvent ;
+    rdfs:label "SSWS 2013 Session 1" ;
+    swc:hasLocation "Corinthian (Ground Floor)" ;
+    swc:isSubEventOf <http://data.semanticweb.org/workshop/ssws/2013> ;
+    swc:isSuperEventOf <http://data.semanticweb.org/workshop/ssws/2013/session1/event-01>,
+        <http://data.semanticweb.org/workshop/ssws/2013/session1/event-02> ;
+    swc:room "Corinthian (Ground Floor)" ;
+    ical:dtend "2013-10-21T10:30:00"^^xsd:dateTime ;
+    ical:dtstart "2013-10-21T10:00:00"^^xsd:dateTime ;
+    ical:tzid "Australia/Sydney" .
 
 <http://data.semanticweb.org/workshop/ssws/2013/workshop-chair> a swc:Chair ;
     rdfs:label "Workshop Chair" ;
@@ -12590,7 +12578,7 @@
 <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings/paper-05> a swrc:InProceedings ;
     rdfs:label "From Strings to Things SAR-Graphs: A New Type of Resource for Connecting Knowledge and Language" ;
     swc:isPartOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings> ;
-    swc:relatedToEvent <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-03> ;
+    swc:relatedToEvent <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2/event-01> ;
     dc:title "From Strings to Things SAR-Graphs: A New Type of Resource for Connecting Knowledge and Language" ;
     dcterms:title "From Strings to Things SAR-Graphs: A New Type of Resource for Connecting Knowledge and Language" ;
     bibo:authorList <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings/paper-05/author_list> ;
@@ -12779,7 +12767,7 @@
 <http://data.semanticweb.org/workshop/ordring/2013/proceedings/paper-05> a swrc:InProceedings ;
     rdfs:label "Event Object Boundaries in RDF Streams: A Position Paper" ;
     swc:isPartOf <http://data.semanticweb.org/workshop/ordring/2013/proceedings> ;
-    swc:relatedToEvent <http://data.semanticweb.org/workshop/ordring/2013/session3/event-01> ;
+    swc:relatedToEvent <http://data.semanticweb.org/workshop/ordring/2013/session2/event-01> ;
     dc:title "Event Object Boundaries in RDF Streams: A Position Paper" ;
     dcterms:title "Event Object Boundaries in RDF Streams: A Position Paper" ;
     bibo:authorList <http://data.semanticweb.org/workshop/ordring/2013/proceedings/paper-05/author_list> ;
@@ -12794,7 +12782,7 @@
 <http://data.semanticweb.org/workshop/ordring/2013/proceedings/paper-06> a swrc:InProceedings ;
     rdfs:label "SLUBM: An extented LUBM Benchmark for Stream Reasoning" ;
     swc:isPartOf <http://data.semanticweb.org/workshop/ordring/2013/proceedings> ;
-    swc:relatedToEvent <http://data.semanticweb.org/workshop/ordring/2013/session3/event-02> ;
+    swc:relatedToEvent <http://data.semanticweb.org/workshop/ordring/2013/session2/event-02> ;
     dc:title "SLUBM: An extented LUBM Benchmark for Stream Reasoning" ;
     dcterms:title "SLUBM: An extented LUBM Benchmark for Stream Reasoning" ;
     bibo:authorList <http://data.semanticweb.org/workshop/ordring/2013/proceedings/paper-06/author_list> ;
@@ -12805,6 +12793,18 @@
     swrc:year "2013" ;
     foaf:maker <http://data.semanticweb.org/person/tu-ngoc-nguyen>,
         <http://data.semanticweb.org/person/wolf-siberski> .
+
+<http://data.semanticweb.org/workshop/ordring/2013/session2> a swc:SessionEvent ;
+    rdfs:label "OrdRing 2013 Session 2" ;
+    swc:hasLocation "Doric (Ground Floor)" ;
+    swc:isSubEventOf <http://data.semanticweb.org/workshop/ordring/2013> ;
+    swc:isSuperEventOf <http://data.semanticweb.org/workshop/ordring/2013/session2/event-01>,
+        <http://data.semanticweb.org/workshop/ordring/2013/session2/event-02>,
+        <http://data.semanticweb.org/workshop/ordring/2013/session2/event-03> ;
+    swc:room "Doric (Ground Floor)" ;
+    ical:dtend "2013-10-22T17:55:00"^^xsd:dateTime ;
+    ical:dtstart "2013-10-22T16:00:00"^^xsd:dateTime ;
+    ical:tzid "Australia/Sydney" .
 
 <http://data.semanticweb.org/workshop/provon/2013/proceedings/paper-01> a swrc:InProceedings ;
     rdfs:label "Legibility, Privacy and Creativity: Linked Data in a Surveillance Society" ;
@@ -13016,7 +13016,7 @@
 <http://data.semanticweb.org/workshop/ssws/2013/proceedings/paper-01> a swrc:InProceedings ;
     rdfs:label "Count Aggregation in Semantic Queries" ;
     swc:isPartOf <http://data.semanticweb.org/workshop/ssws/2013/proceedings> ;
-    swc:relatedToEvent <http://data.semanticweb.org/workshop/ssws/2013/session0/event-01> ;
+    swc:relatedToEvent <http://data.semanticweb.org/workshop/ssws/2013/session1/event-02> ;
     dc:title "Count Aggregation in Semantic Queries" ;
     dcterms:title "Count Aggregation in Semantic Queries" ;
     bibo:authorList <http://data.semanticweb.org/workshop/ssws/2013/proceedings/paper-01/author_list> ;
@@ -14861,7 +14861,7 @@
 <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings/paper-02> a swrc:InProceedings ;
     rdfs:label "Statistical Analyses of Named Entity Disambiguation Benchmarks" ;
     swc:isPartOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings> ;
-    swc:relatedToEvent <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-05> ;
+    swc:relatedToEvent <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2/event-03> ;
     dc:title "Statistical Analyses of Named Entity Disambiguation Benchmarks" ;
     dcterms:title "Statistical Analyses of Named Entity Disambiguation Benchmarks" ;
     bibo:authorList <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings/paper-02/author_list> ;
@@ -14878,7 +14878,7 @@
 <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings/paper-07> a swrc:InProceedings ;
     rdfs:label "Using BabelNet in Bridging the Gap Between Natural Language Queries and Linked Data Concepts" ;
     swc:isPartOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings> ;
-    swc:relatedToEvent <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-04> ;
+    swc:relatedToEvent <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2/event-02> ;
     dc:title "Using BabelNet in Bridging the Gap Between Natural Language Queries and Linked Data Concepts" ;
     dcterms:title "Using BabelNet in Bridging the Gap Between Natural Language Queries and Linked Data Concepts" ;
     bibo:authorList <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings/paper-07/author_list> ;
@@ -14908,6 +14908,19 @@
     foaf:maker <http://data.semanticweb.org/person/alberto-lavelli>,
         <http://data.semanticweb.org/person/alessio-palmero-aprosio>,
         <http://data.semanticweb.org/person/claudio-giuliano> .
+
+<http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2> a swc:SessionEvent ;
+    rdfs:label "DBpedia & NLP 2013 Session 2" ;
+    swc:hasLocation "Grand Lodge (1st Floor)" ;
+    swc:isSubEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013> ;
+    swc:isSuperEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2/event-01>,
+        <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2/event-02>,
+        <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2/event-03>,
+        <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2/event-04> ;
+    swc:room "Grand Lodge (1st Floor)" ;
+    ical:dtend "2013-10-22T12:45:00"^^xsd:dateTime ;
+    ical:dtstart "2013-10-22T11:00:00"^^xsd:dateTime ;
+    ical:tzid "Australia/Sydney" .
 
 <http://data.semanticweb.org/workshop/derive/2013> a swc:WorkshopEvent ;
     rdfs:label "3rd International Workshop on Detection, Representation, and Exploitation of Events in the Semantic Web" ;
@@ -16812,31 +16825,10 @@
         <http://data.semanticweb.org/person/lili-jiang>,
         <http://data.semanticweb.org/person/yafang-wang> .
 
-<http://data.semanticweb.org/workshop/dbpedia-nlp/2013> a swc:WorkshopEvent ;
-    rdfs:label "DBpedia & NLP 2013" ;
-    swc:address "SMC Conference & Function Centre, Sydney, Australia" ;
-    swc:hasAcronym "DBpedia & NLP 2013" ;
-    swc:hasLocation "Grand Lodge (1st Floor)",
-        "SMC Conference & Function Centre, Sydney, Australia" ;
-    swc:hasRole <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/workshop-chair> ;
-    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
-    swc:isSuperEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1>,
-        <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session3>,
-        <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session4> ;
-    swc:room "Grand Lodge (1st Floor)" ;
-    swrc:abstract "Recently, the DBpedia community has experienced an immense increase in activity and we believe, that the time has come to explore the connection between DBpedia & Natural Language Processing (NLP) in a yet unpreceded depth. The goal of this workshop can be summarized by this (pseudo-) formula: DBpedia & NLP ≡ DBpedia4NLP ⨅ NLP4DBpedia. DBpedia has a long-standing tradition to provide useful data as well as a commitment to reliable Semantic Web technologies and living best practices. With the rise of WikiData, DBpedia is step-by-step relieved from the tedious extraction of data from Wikipedia’s infoboxes and can shift its focus on new challenges such as extracting information from the unstructured article text as well as becoming a testing ground for multilingual NLP methods." ;
-    swrc:hasRelatedDocument <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings> ;
-    swrc:link_document <http://nlp-dbpedia2013.blogs.aksw.org/2013/04/25/nlp-dbpedia-workshop-in-oct-2013-iswc-2013-in-sydney/> ;
-    swrc:url <http://nlp-dbpedia2013.blogs.aksw.org/2013/04/25/nlp-dbpedia-workshop-in-oct-2013-iswc-2013-in-sydney/> ;
-    ical:dtend "2013-10-22T17:30:00"^^xsd:dateTime ;
-    ical:dtstart "2013-10-22T09:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" ;
-    foaf:homepage <http://iswc2013.semanticweb.org/content/dbpedia-nlp-2013> .
-
 <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings/paper-06> a swrc:InProceedings ;
     rdfs:label "Argumentation-based Inconsistencies Detection for Question-Answering over DBpedia" ;
     swc:isPartOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings> ;
-    swc:relatedToEvent <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-06> ;
+    swc:relatedToEvent <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2/event-04> ;
     dc:title "Argumentation-based Inconsistencies Detection for Question-Answering over DBpedia" ;
     dcterms:title "Argumentation-based Inconsistencies Detection for Question-Answering over DBpedia" ;
     bibo:authorList <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings/paper-06/author_list> ;
@@ -18789,6 +18781,28 @@
         <http://data.semanticweb.org/person/natasha-f-noy> ;
     swc:isRoleAt <http://data.semanticweb.org/workshop/crowdsem/2013> .
 
+<http://data.semanticweb.org/workshop/dbpedia-nlp/2013> a swc:WorkshopEvent ;
+    rdfs:label "DBpedia & NLP 2013" ;
+    swc:address "SMC Conference & Function Centre, Sydney, Australia" ;
+    swc:hasAcronym "DBpedia & NLP 2013" ;
+    swc:hasLocation "Grand Lodge (1st Floor)",
+        "SMC Conference & Function Centre, Sydney, Australia" ;
+    swc:hasRole <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/workshop-chair> ;
+    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2013> ;
+    swc:isSuperEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1>,
+        <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2>,
+        <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session3>,
+        <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session4> ;
+    swc:room "Grand Lodge (1st Floor)" ;
+    swrc:abstract "Recently, the DBpedia community has experienced an immense increase in activity and we believe, that the time has come to explore the connection between DBpedia & Natural Language Processing (NLP) in a yet unpreceded depth. The goal of this workshop can be summarized by this (pseudo-) formula: DBpedia & NLP ≡ DBpedia4NLP ⨅ NLP4DBpedia. DBpedia has a long-standing tradition to provide useful data as well as a commitment to reliable Semantic Web technologies and living best practices. With the rise of WikiData, DBpedia is step-by-step relieved from the tedious extraction of data from Wikipedia’s infoboxes and can shift its focus on new challenges such as extracting information from the unstructured article text as well as becoming a testing ground for multilingual NLP methods." ;
+    swrc:hasRelatedDocument <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings> ;
+    swrc:link_document <http://nlp-dbpedia2013.blogs.aksw.org/2013/04/25/nlp-dbpedia-workshop-in-oct-2013-iswc-2013-in-sydney/> ;
+    swrc:url <http://nlp-dbpedia2013.blogs.aksw.org/2013/04/25/nlp-dbpedia-workshop-in-oct-2013-iswc-2013-in-sydney/> ;
+    ical:dtend "2013-10-22T17:30:00"^^xsd:dateTime ;
+    ical:dtstart "2013-10-22T09:00:00"^^xsd:dateTime ;
+    ical:tzid "Australia/Sydney" ;
+    foaf:homepage <http://iswc2013.semanticweb.org/content/dbpedia-nlp-2013> .
+
 <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings/paper-03> a swrc:InProceedings ;
     rdfs:label "A lemon lexicon for DBpedia" ;
     swc:isPartOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/proceedings> ;
@@ -18809,21 +18823,6 @@
         <http://data.semanticweb.org/person/philipp-cimiano>,
         <http://data.semanticweb.org/person/sara-winter>,
         <http://data.semanticweb.org/person/sebastian-walter> .
-
-<http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1> a swc:SessionEvent ;
-    rdfs:label "Dbpedia & NLP 2013 Session 1" ;
-    swc:hasLocation "Grand Lodge (1st Floor)" ;
-    swc:isSubEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013> ;
-    swc:isSuperEventOf <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-01>,
-        <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-02>,
-        <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-03>,
-        <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-04>,
-        <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-05>,
-        <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session1/event-06> ;
-    swc:room "Grand Lodge (1st Floor)" ;
-    ical:dtend "2013-10-22T10:30:00"^^xsd:dateTime ;
-    ical:dtstart "2013-10-22T09:00:00"^^xsd:dateTime ;
-    ical:tzid "Australia/Sydney" .
 
 <http://data.semanticweb.org/workshop/ld4ie/2013> a swc:WorkshopEvent ;
     rdfs:label "LD4IE - Linked Data for Information Extraction" ;
@@ -20278,7 +20277,7 @@
 <http://data.semanticweb.org/person/jean-paul-calbimonte> a foaf:Person ;
     rdfs:label "Jean-Paul Calbimonte" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2013/tutorial-7/tutorial-organizer>,
-        <http://data.semanticweb.org/workshop/ordring/2013/session3/event-03/chair> ;
+        <http://data.semanticweb.org/workshop/ordring/2013/session2/event-03/chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/technical-university-of-madrid> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2013/proceedings-2/paper-21>,
         <http://data.semanticweb.org/workshop/ssn/2013/proceedings/paper-07> ;
@@ -23179,7 +23178,6 @@
         <http://data.semanticweb.org/workshop/cold/2013>,
         <http://data.semanticweb.org/workshop/crowdsem/2013>,
         <http://data.semanticweb.org/workshop/dbpedia-nlp/2013>,
-        <http://data.semanticweb.org/workshop/dbpedia-nlp/2013/session2>,
         <http://data.semanticweb.org/workshop/derive/2013>,
         <http://data.semanticweb.org/workshop/ld4ie/2013>,
         <http://data.semanticweb.org/workshop/lisc/2013>,
