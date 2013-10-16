@@ -18,7 +18,7 @@
 <http://data.semanticweb.org/conference/iswc/2013/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2013 (2013-10-11)" ;
-    dcterms:modified "2013-10-15T22:22:31.682759"^^xsd:datetime ;
+    dcterms:modified "2013-10-15T22:37:03.903136"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2013/doctoral-consortium-proceedings/paper-01/author_list> a rdf:Seq ;
@@ -15539,7 +15539,7 @@
         <http://data.semanticweb.org/person/panos-alexopoulos> .
 
 <http://data.semanticweb.org/workshop/wasabi/2013> a swc:WorkshopEvent ;
-    rdfs:label "Workshop on Semantic Web Enterprise Adoption and Best Practice" ;
+    rdfs:label "workshop on Semantic Web Enterprise Adoption and Best Practice" ;
     swc:address "SMC Conference & Function Centre, Sydney, Australia" ;
     swc:hasAcronym "WaSABi2013" ;
     swc:hasLocation "Doric (Ground Floor)",

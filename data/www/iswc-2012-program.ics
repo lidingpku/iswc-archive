@@ -96,352 +96,91 @@ RDATE;VALUE=DATE-TIME:19420209T020000
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T16:00:
- 000245520a-eb69-4dbb-a2cf-b8f76d94e97e
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Peter Mika
-SUMMARY:Applications
-LOCATION:Statler
-DTSTART;TZID=America/New_York:20121113T160000
-DTEND;TZID=America/New_York:20121113T170000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T09:00:
- 0018bf478e-1565-49ee-80c9-76e089634d18
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:presenter: Thomas Malone
-SUMMARY:Keynote 1: The Semantic Web and Collective Intelligence
-LOCATION:Imperial
-DTSTART;TZID=America/New_York:20121113T090000
-DTEND;TZID=America/New_York:20121113T103000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-14T14:00:
- 008887e8db-a619-4cc4-a5d3-24b1dd050629
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:presenter: Tim Berners-Lee\; John Gianandrea\; Frank van 
- Harmelen\; Mike Stonebreaker\; Bryan Thompson\nabstract: The Semantic Web 
- / Linked Data has grown immensely over the past years. When the Semantic 
- Web community started working over a decade ago the main question was 
- where to get the data from. By now the question of how to process ever 
- increasing amount of semantic/linked data has come to people's utmost 
- attention. The goal of this panel is to shed light on the various 
- approaches/options for Big Graph Data processing. Possible questions 
- include: (1)Does the Semantic Web need any central infrastructures? (It's 
- a Web\, after all?) (2)Or will a handful of large single-owner 
- infrastructures dominate the Semantic Web\, just as they now dominate the 
- current Web? (3)And if so\, will such infrastructures be based on the 
- standard relational model? (4)Or on MapReduce-centric key/value-pairs? 
- (5)Is Google's (centralised) Knowledge Graph anathema to the Semantic 
- *Web* ? (6)Are triplestore vendors just reinventing the old database 
- wheels? (7)What is the role of clustered MapReduce-like solutions and 
- where are their limits for processing semantic web data?
-SUMMARY:Big Graph Data Panel
-LOCATION:Georgian
-DTSTART;TZID=America/New_York:20121114T140000
-DTEND;TZID=America/New_York:20121114T153000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T11:00:
- 0055765c9e-5af4-48b7-ba1f-ae2bb3d07d0c
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Manfred Hauswirth
-SUMMARY:Search\, question answering and entity summarization
-LOCATION:Arlington
-DTSTART;TZID=America/New_York:20121113T110000
-DTEND;TZID=America/New_York:20121113T123000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
 UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
- 00cd41a7ce-14b4-436d-a269-1883e22bdb5d
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: The workshop aims to provide an inter-disciplinary 
- forum to explore and promote the technologies related to a combination of 
- semantic web and sensor networking. Specifically\, to develop an 
- understanding of the ways semantic web technologies can contribute to the 
- growth\, application and deployment of large-scale sensor networks on the 
- one hand\, and the ways that sensor networks can contribute to the 
- emerging semantic web\, on the other.
-SUMMARY:5th International Workshop on Semantic Sensor Networks
-LOCATION:Stuart
+ 008f96a903-6e08-48ab-9f66-c8f5500cc96a
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: EvoDyn 2012 continues the tradition of EvoDyn 2011 
+ and the IWOD workshop series in being the core annual event to discuss 
+ advances in the broad area of ontology dynamics\, and to track recent 
+ work directly or indirectly related to the problem of evolving knowledge. 
+ The workshop focuses on analysis of trends and change in formal 
+ descriptions\, but also in associated raw sources of knowledge 
+ (scientific publications\, unstructured or semi-structured Web content\, 
+ traditional data stores\, e-mail or on-line discussion threads\, etc.). 
+ We are especially interested in research targeted on various states of 
+ knowledge evolution\, such as (a) conflicts\, (b) consolidation\, (c) 
+ discovery\, (d) paradigm shifts\, and (e) breakthroughs. We would like to 
+ trigger a comprehensive and coherent approach to studying the process of 
+ knowledge evolution by bringing together researchers and practitioners 
+ from the following fields: (i) Data mining and knowledge discovery in 
+ dynamic resources\; (ii) Ontology dynamics and versioning\; (iii) Trend 
+ analysis (in multiple applications\, including internet search\, corpus 
+ evaluation\, etc.)\; (iv) Natural Language Processing (evolution of 
+ terminology\, language use\, semantics)\; (v) Knowledge Representation 
+ (temporal ontologies\, temporal logics\, belief revision\, etc.)\; (vi) 
+ Discourse Analysis and Philosophy of Science (the definition and 
+ understanding of what particular phases of the knowledge evolution are\, 
+ and how can we delimit\, identify or even trigger them).
+SUMMARY:2nd Joint Workshop on Knowledge Evolution and Ontology Dynamics
+LOCATION:Cambridge
 DTSTART;TZID=America/New_York:20121112T090000
 DTEND;TZID=America/New_York:20121112T173000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
- 00e8b1d279-ea1e-463f-971e-1d4eb9e539a1
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Timothy Lebo\,Paul Groth\,Luc Moreau\,Jun 
- Zhao\nabstract: Provenance (the origin or source) of information is 
- critical in deciding whether information is to be trusted\, how it should 
- be integrated with other diverse information sources\, and how to give 
- credit to its originators when reusing it. In order to promote the 
- widespread publication of provenance information on the Web\, the W3C is 
- producing the W3C PROV set of specifications. These specifications 
- provide a basis for the common exchange of provenance information on the 
- Web. This half- day tutorial provides you with an indepth dive into these 
- specifications including handson information on how to publish\, query 
- and access provenance information. You will learn how to model your 
- provenance data using the PROV data model and ontology\, how to produce 
- provenance information that enables integrity checking and inferences\, 
- as well as how to expose and acquire provenance information using PROV 
- access mechanisms and services.
-SUMMARY:Getting to know PROV - the W3C Provenance Specifications
-LOCATION:Alcott
-DTSTART;TZID=America/New_York:20121112T090000
-DTEND;TZID=America/New_York:20121112T123000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-15T12:30:
- 00a0f6d086-50af-4eb2-88c7-4a36a29a93db
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:Lunch
-DTSTART;TZID=America/New_York:20121115T123000
-DTEND;TZID=America/New_York:20121115T140000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-15T11:00:
- 00ef570087-6da3-4c60-9941-a5318286a5a6
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Amal Zouaq
-SUMMARY:Question Answering and NLP
-LOCATION:Statler
-DTSTART;TZID=America/New_York:20121115T110000
-DTEND;TZID=America/New_York:20121115T123000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-15T16:00:
- 00787ee2c2-9cd1-4f5c-97e0-b01114654728
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:Awards and Closing Ceremony
-LOCATION:Georgian
-DTSTART;TZID=America/New_York:20121115T160000
-DTEND;TZID=America/New_York:20121115T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-14T11:00:
- 005c2b7787-5fbf-4c7b-abfe-3ce19d5e60d5
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Ivan Herman
-SUMMARY:Industry Track I
-LOCATION:Arlington
-DTSTART;TZID=America/New_York:20121114T110000
-DTEND;TZID=America/New_York:20121114T123000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T16:00:
- 00369e5aa0-3f4a-4f31-a598-e2077bf8b862
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: In this session\, authors of a submission to the 
- posters and demonstration track as well as the Semantic Web Challenge 
- provide a 1 minute teaser for their poster or demo. This year\, we have 
- an exciting mix of submissions treating questions such as \"How can we 
- interact efficiently with Linked Data?\"\, \"How can we visualize data 
- in the Semantic Web?\" or \"How can we query and analyze Semantic Web 
- data?
-SUMMARY:Poster\, Demo\, and SWC Minute Mandess
-LOCATION:Georgian
-DTSTART;TZID=America/New_York:20121113T160000
-DTEND;TZID=America/New_York:20121113T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-14T16:00:
- 00ed089045-22ee-4434-8e2e-919955fc0964
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Freddy Lecue
-SUMMARY:Streaming and Geospatial DBMSs
-LOCATION:Statler
-DTSTART;TZID=America/New_York:20121114T160000
-DTEND;TZID=America/New_York:20121114T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-14T12:30:
- 00f77e5acd-1ce4-4870-92ee-763e9784fbb3
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:Mentor Lunch
-LOCATION:Whitier
-DTSTART;TZID=America/New_York:20121114T123000
-DTEND;TZID=America/New_York:20121114T140000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-11T14:00:
- 00708909ca-fbcd-4b1a-98c9-cd72b45d6212
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Volker Tresp\,Maximilian Nickel\nabstract: Machine 
- learning has become increasingly important in the context of Linked Data 
- as it is an enabling technology for many important tasks such as link 
- prediction\, information retrieval or group detection. The fundamental 
- data structure of Linked Data is a graph. Graphs are also ubiquitous in 
- many other fields of application\, such as social networks\, 
- bioinformatics or the World Wide Web. Recently\, tensor factorizations 
- have emerged as a highly promising approach to machine learning on 
- graph-structured data\, showing both scalability and excellent results on 
- benchmark data sets\, while matching perfectly to the triple structure of 
- RDF. This tutorial will provide an introduction to tensor factorizations 
- and their applications for machine learning on graphs. By the means of 
- concrete tasks such as link prediction we will discuss several 
- factorization methods in-depth and also provide necessary theoretical 
- background on tensors in general. Emphasis is put on tensor models that 
- are of interest to Linked Data\, which will include models that are able 
- to factorize large-scale graphs with millions of entities and known facts 
- or models that can handle the open-world assumption of Linked Data. 
- Furthermore\, we will discuss tensor models for temporal and sequential 
- graph data\, e.g. to analyze social networks over time.
-SUMMARY:Learning on Linked Data: Tensors and their Applications in 
- Graph-Structured Domains
-LOCATION:Alcott
-DTSTART;TZID=America/New_York:20121111T140000
-DTEND;TZID=America/New_York:20121111T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-11T14:00:
- 00d293b620-244f-47c3-9a9f-1a7e559cd5a4
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Mike Dean\,Michael Kifer\,Benjamin Grosof\nabstract: 
- The area of semantic rules is perhaps the most important frontier today 
- for the Semantic Webs core technology and standards. Recent progress 
- includes major initial industry standards from W3C and OMG\, and 
- fundamental advances in the underlying knowledge representation 
- techniques in declarative logic programs\, including most recently for 
- efficient higher-order defaults with sound integration of first order 
- logic ontologies (OWL). Recent progress also includes methods to use 
- rules for\, or with\, more expressive OWL ontologies\; increasing 
- integration of rules with query /search in SPARQL and relational 
- databases\; substantive translations between heterogeneous types of 
- commercial rule engines\; development of open-source tools for 
- inferencing and interoperability\; performance benchmarking of rule 
- systems\; a wide range of emerging applications including in business\, 
- science\, and trust\; and accelerating industry investments / 
- acquisitions in the technology including by integrated software companies 
- such as Oracle\, IBM\, and Microsoft. This tutorial will provide a 
- comprehensive and up-to-date introduction to these developments and to 
- the fundamentals of the key technologies and outstanding research issues 
- involved. It will explore example application scenarios\, overall 
- requirements and challenges\, and touch upon business /social value and 
- strategy considerations.
-SUMMARY:Semantic Web Rules: Fundamentals\, Applications\, and Standards
-LOCATION:Lexington
-DTSTART;TZID=America/New_York:20121111T140000
-DTEND;TZID=America/New_York:20121111T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-11T14:00:
- 00770800a0-bd5e-462a-b5b9-b38636235b43
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: Most of the knowledge available on the Web is 
- encoded in natural language texts or Web documents aimed primarily at 
- human consumption. A promising approach to have programmatic access to 
- such knowledge uses information extraction techniques that aim to extract 
- machine readable structures from free texts\, from which it is possible 
- to retrieve entities and categories. These entities can potentially be 
- linked to each other\, creating de facto a global knowledge graph of 
- linked entities. The WoLE2012 workshop envisions the Web as a Web of 
- Linked Entities (WoLE)\, which transparently connects the World Wide Web 
- (WWW) and the Giant Global Graph (GGG) using methods from Information 
- Retrieval (IR) and Natural Language Processing (NLP). The focus of this 
- workshop is to bring together the Information Retrieval\, Semantic Web 
- and NLP communities. The primary goal is to strengthen research 
- techniques that provide access to textual information published on the 
- Web to further improve the adoption of Semantic Web technology.
-SUMMARY:Web of Linked Entities
-LOCATION:Franklin
-DTSTART;TZID=America/New_York:20121111T140000
-DTEND;TZID=America/New_York:20121111T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
- 005ac86685-b478-483b-97b3-fe25f6ed1b49
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Walter Bender\,Victor de Boer\,Stefan 
- Schlobach\,Guéret Christophe\,Bernie Innocenti\nabstract: Linked Data 
- have by-and-large been designed around centralized\, powerful Web servers 
- and the (mobile) clients accessing them. As a direct consequence of these 
- design decisions\, the usage of data- sharing technologies depends on the 
- availability of a Web infrastructure comprised of data-centers\, 
- high-speed\, reliable Internet connections\, and modern client devices. 
- Four-billion people currently have no access to such an infrastructure 
- and are thus deprived of the benefits Linked (Open) Data provides. This 
- tutorial will show how the design principles and technologies of Linked 
- Data can be adapted to distributed networks\, and thus contribute to 
- closing this digital data divide. Join us to learn how not to forget 
- the majority of the world population when thinking of the potential users 
- of Linked Data and discuss the challenges this represents for the 
- research community.
-SUMMARY:LD4D: Linked Data for Development
-LOCATION:Beacon Hill
-DTSTART;TZID=America/New_York:20121112T090000
-DTEND;TZID=America/New_York:20121112T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T11:00:
- 00e5339a8c-6108-434b-94d6-f5bb79f59664
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Tom Heath
-SUMMARY:Linked Data
-LOCATION:Georgian
-DTSTART;TZID=America/New_York:20121113T110000
-DTEND;TZID=America/New_York:20121113T123000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
 UID:The_11th_International_Semantic_Web_Conference2012-11-11T09:00:
- 007e5c7913-adda-4758-ab31-c5d400070b0a
-LAST-MODIFIED:20131016T052419Z
+ 0022c4e507-f897-41e7-8ad2-e3857a982925
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: The 2012 Joint Workshop on Scalable and 
+ High-Performance Semantic Web Systems (SSWS+HPCSW 2012) focuses on 
+ addressing the scalability issue with respect to the development and 
+ deployment of systems on the Semantic Web. Typically\, such systems deal 
+ with information described in Semantic Web languages like OWL and 
+ RDF(S)\, and provide services such as storing\, reasoning\, querying\, 
+ analysis\, etc. There are two basic requirements for these systems. 
+ First\, they have to satisfy an applications semantic requirements. 
+ Second\, they must scale well in order to be of practical use. Given the 
+ sheer size and distributed nature of the Semantic Web\, these 
+ requirements impose new challenges beyond those addressed by previous 
+ systems. This joint workshop consists of two tracks regarding scalability:
+  one for knowledge base systems\, and another for high-performance 
+ computing. We expect that the issue of scalability is going to challenge 
+ the Semantic Web for a long period of time and significant effort is 
+ needed in order to tackle the problem. This joint workshop seeks to bring 
+ together researchers and practitioners to share their recent ideas and 
+ progress towards building scalable systems for the Semantic Web\; 
+ participants from related disciplines such as Supercomputing\, and 
+ High-Performance Computing\, Artificial Intelligence\, Databases\, 
+ Information Integration\, are welcome.
+SUMMARY:Joint Workshop on Scalable and High-Performance Semantic Web 
+ Systems
+LOCATION:Stuart
+DTSTART;TZID=America/New_York:20121111T090000
+DTEND;TZID=America/New_York:20121111T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-14T10:30:
+ 00f4c7bfd5-e1e8-48cc-9972-b14c97466334
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:Coffee Break
+LOCATION:Corridor-Foyer railings
+DTSTART;TZID=America/New_York:20121114T103000
+DTEND;TZID=America/New_York:20121114T110000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-11T09:00:
+ 001ab8e4bf-1578-4584-ae59-236f59ff49c3
+LAST-MODIFIED:20131016T053924Z
 DESCRIPTION:abstract: The Semantic Web\, as a field\, is undergoing a 
  major shift. After 10 years of mainly foundations-driven research\, we 
  now see strong indicators that Semantic Web methods are entering 
@@ -483,107 +222,171 @@ DTEND;TZID=America/New_York:20121111T173000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-14T11:00:
- 00ef0457b5-7d26-4a8c-9e72-e3bd846e1ece
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Paul Groth
-SUMMARY:Provenance and Verification
-LOCATION:Plaza
-DTSTART;TZID=America/New_York:20121114T110000
-DTEND;TZID=America/New_York:20121114T123000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-11T09:00:
- 009aca97ac-54d7-4785-b4e9-d875b97a1063
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Caroline Barrière\nabstract: In this tutorial\, we 
- will start with the basics of natural language processing (NLP) and will 
- explain different levels of analysis (segmentation\, morphology\, 
- lexicon\, syntax\, semantic). We will then look at the specific tasks 
- involved in mining sentences to extract resource description framework 
- (RDF) triples and show the importance that each level of language 
- analysis can play in such tasks. NLP researchers have been working on 
- such tasks for many years and have developed many algorithms to perform 
- part-of-speech tagging\, parsing\, semantic disambiguation\, named entity 
- recognition and relation extraction. We will present baseline algorithms 
- for these tasks to show expected results from state-of-the-art research. 
- As many algorithms use machine learning (ML) techniques\, we will provide 
- a simple introduction to the aims and general principles behind such 
- techniques and explain why they are so important to the NLP community. We 
- will also explore problems that arise when extracting knowledge from 
- multiple sentences and how that is closely related to concept mapping 
- problems\, which are familiar to the semantic web community. Since fully 
- automatic text mining is quite a difficult task\, we will emphasize that 
- semi-automatic approaches can be effective and viable solutions for 
- facilitating the RDFization of textual data.
-SUMMARY:LL-NLP Tutorial: What to do with long literals? Ask the NLP 
- community...
-LOCATION:Beacon Hill
-DTSTART;TZID=America/New_York:20121111T090000
-DTEND;TZID=America/New_York:20121111T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T18:30:
- 00e6b1be29-8cc8-4cb7-82c7-4108b056a35e
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:Poster/Demo Session\, Semantic Web Challenge and Reception
-LOCATION:Imperial\;Plaza
-DTSTART;TZID=America/New_York:20121113T183000
-DTEND;TZID=America/New_York:20121113T210000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
 UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
- 00953d4e27-9d5f-45a8-ab34-eeb487894347
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: Scientific communication has traditionally relied 
- upon publications and presentations\, with an estimate of millions of 
- publications worldwide per year\; the growth rate of PubMed alone is now 
- 1 paper per minute. The results described in these articles are often 
- backed by large amounts of diverse data produced by complex experiments\, 
- computer simulations\, and observations of physical phenomena. Because of 
- this avalanche of data\, it is increasingly hard to validate\, 
- reproduce\, reuse and leverage scientific data. In addition\, although 
- publications\, methods and datasets are very related\, they are not 
- easily accessible and interlinked. The notable exception is omics 
- research where journals require deposit of sequences in databanks as a 
- condition of publication. Even where data is discoverable and 
- accessible\, significant challenges remain in data reuse and sharing\, in 
- facilitating the necessary correlation\, integration and synthesis of 
- data across levels of theory\, techniques and disciplines. In the 2nd 
- International Workshop on Linked Science (LISC2012) we will discuss and 
- present results of new ways of publishing\, sharing and linking 
- scientific data together\, and reasoning over such data to discover 
- interesting new links to validate research. The theme of this years 
- workshop will focus on research addressing these issues with respect to 
- big data. Big Data is loosely characterized by the size and/or number of 
- individual files\, the number of represented variables\, a range of 
- physical scales\, a range of scientific disciplines\, heterogeneous 
- metadata and data formats\, in short data that cannot easily be accessed 
- and manipulated from a thumb-drive.
-SUMMARY:The 2nd International Workshop on Linked Science 2012Tackling 
- Big Data
-LOCATION:St. James
+ 00e465d300-64cd-44ed-84e6-f4fb58ad1167
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Walter Bender\,Victor de Boer\,Stefan 
+ Schlobach\,Guéret Christophe\,Bernie Innocenti\nabstract: Linked Data 
+ have by-and-large been designed around centralized\, powerful Web servers 
+ and the (mobile) clients accessing them. As a direct consequence of these 
+ design decisions\, the usage of data- sharing technologies depends on the 
+ availability of a Web infrastructure comprised of data-centers\, 
+ high-speed\, reliable Internet connections\, and modern client devices. 
+ Four-billion people currently have no access to such an infrastructure 
+ and are thus deprived of the benefits Linked (Open) Data provides. This 
+ tutorial will show how the design principles and technologies of Linked 
+ Data can be adapted to distributed networks\, and thus contribute to 
+ closing this digital data divide. Join us to learn how not to forget 
+ the majority of the world population when thinking of the potential users 
+ of Linked Data and discuss the challenges this represents for the 
+ research community.
+SUMMARY:LD4D: Linked Data for Development
+LOCATION:Beacon Hill
 DTSTART;TZID=America/New_York:20121112T090000
 DTEND;TZID=America/New_York:20121112T173000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T09:00:
+ 002c81c2d2-a085-44bd-b200-a6daf330f26f
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:presenter: Thomas Malone
+SUMMARY:Keynote 1: The Semantic Web and Collective Intelligence
+LOCATION:Imperial
+DTSTART;TZID=America/New_York:20121113T090000
+DTEND;TZID=America/New_York:20121113T103000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
 UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
- 0029937daf-40f7-4018-84eb-d30d3fa0df09
-LAST-MODIFIED:20131016T052419Z
+ 004b6e66c1-c7e1-4d43-b4b7-0a1369353edf
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: The ISWC 2012 Doctoral Consortium will take place 
+ as part of the 11th International Semantic Web Conference in Boston\, US. 
+ This forum will provide PhD students an opportunity to share and develop 
+ their research ideas in a critical but supportive environment\, get 
+ feedback from mentors who are senior members of the Semantic Web research 
+ community\, explore issues related to academic and research careers\, and 
+ build relationships with other Semantic Web PhD students from around the 
+ world. The Consortium aims to broaden the perspectives and improve the 
+ research and communication skills of these students as a way to 
+ contribute both to the individuals as well as to the broader research 
+ community.
+SUMMARY:Doctoral Consortium
+LOCATION:Whittier
+DTSTART;TZID=America/New_York:20121112T090000
+DTEND;TZID=America/New_York:20121112T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-15T16:00:
+ 0097817187-2a3d-4498-8c34-1ee868cc20ab
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:Awards and Closing Ceremony
+LOCATION:Georgian
+DTSTART;TZID=America/New_York:20121115T160000
+DTEND;TZID=America/New_York:20121115T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T11:00:
+ 0062a391b1-4aa8-4607-afc9-47578db047be
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Manfred Hauswirth
+SUMMARY:Search\, question answering and entity summarization
+LOCATION:Arlington
+DTSTART;TZID=America/New_York:20121113T110000
+DTEND;TZID=America/New_York:20121113T123000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-14T11:00:
+ 00a89f626c-7d2f-4089-9c50-7dfc3fee5650
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Tom Heath
+SUMMARY:Industry Track II
+LOCATION:Berkley
+DTSTART;TZID=America/New_York:20121114T110000
+DTEND;TZID=America/New_York:20121114T123000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T17:30:
+ 00bc6cb624-16ca-4c93-956e-ea697cf35624
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:Coffee Break
+LOCATION:Corridor-Foyer railings
+DTSTART;TZID=America/New_York:20121113T173000
+DTEND;TZID=America/New_York:20121113T183000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-11T09:00:
+ 0021b30062-f0b3-4a59-bfdc-e239b0bb84c6
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: This workshop will discuss different approach to 
+ deal with uncertainty (in a wide sense) in the Semantic Web. Uncertainty 
+ is an unavoidable factor in several processes\, such as knowledge 
+ interchange and application interoperability\, and Semantic Web data\, 
+ which are usually incomplete\, inconsistent\, and inaccurate. This 
+ suggests the need to apply different formalisms (probability\,  fuzzy 
+ logic\, decision theory\, etc.) to enrich Semantic Web technologies and 
+ applications.
+SUMMARY:8th International Workshop on Uncertainty Reasoning for the 
+ Semantic Web
+LOCATION:Cambridge
+DTSTART;TZID=America/New_York:20121111T090000
+DTEND;TZID=America/New_York:20121111T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-14T12:30:
+ 00c6cb6467-c22c-4bad-b2ec-40b1f55f9005
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:Mentor Lunch
+LOCATION:Whitier
+DTSTART;TZID=America/New_York:20121114T123000
+DTEND;TZID=America/New_York:20121114T140000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-14T09:00:
+ 00628e76f1-2fec-4926-9270-d367247d3b98
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:presenter: Jeanne Holm
+SUMMARY:Keynote 2: Driving Innovation with Open Data and 
+ Interoperability
+LOCATION:Imperial
+DTSTART;TZID=America/New_York:20121114T090000
+DTEND;TZID=America/New_York:20121114T103000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
+ 002aecb0d1-06a2-44cc-82f8-c0c6f7e9175d
+LAST-MODIFIED:20131016T053924Z
 DESCRIPTION:abstract: One part of this workshop (LHD) is designed to 
  bring together people from different fields working in the area of 
  dynamic matching\, interpretation\, and integration of heterogeneous 
@@ -621,11 +424,592 @@ DTEND;TZID=America/New_York:20121112T123000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T16:00:
+ 004177aaaf-8bf3-4add-a3ee-78b6ccc8882e
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Peter Mika
+SUMMARY:Applications
+LOCATION:Statler
+DTSTART;TZID=America/New_York:20121113T160000
+DTEND;TZID=America/New_York:20121113T170000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T11:00:
+ 0086df4ae0-d329-42fd-a58b-93be9aa412e0
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Pascal Hitzler
+SUMMARY:Description Logic
+LOCATION:Plaza
+DTSTART;TZID=America/New_York:20121113T110000
+DTEND;TZID=America/New_York:20121113T123000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
 UID:The_11th_International_Semantic_Web_Conference2012-11-14T16:00:
- 007b7f6894-ff13-422c-bda1-a7a9806ad9ba
-LAST-MODIFIED:20131016T052419Z
+ 0094b87947-6370-4673-8c7d-b999c93f7129
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Freddy Lecue
+SUMMARY:Streaming and Geospatial DBMSs
+LOCATION:Statler
+DTSTART;TZID=America/New_York:20121114T160000
+DTEND;TZID=America/New_York:20121114T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
+ 002dee6f72-03ac-4caf-bfbc-9c968d816216
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: The workshop aims to provide an inter-disciplinary 
+ forum to explore and promote the technologies related to a combination of 
+ semantic web and sensor networking. Specifically\, to develop an 
+ understanding of the ways semantic web technologies can contribute to the 
+ growth\, application and deployment of large-scale sensor networks on the 
+ one hand\, and the ways that sensor networks can contribute to the 
+ emerging semantic web\, on the other.
+SUMMARY:5th International Workshop on Semantic Sensor Networks
+LOCATION:Stuart
+DTSTART;TZID=America/New_York:20121112T090000
+DTEND;TZID=America/New_York:20121112T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-14T17:30:
+ 006290919c-a115-4814-9a93-4ff76fa831b7
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:Coffee Break
+LOCATION:Corridor-Foyer railings
+DTSTART;TZID=America/New_York:20121114T173000
+DTEND;TZID=America/New_York:20121114T193000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-15T14:00:
+ 003e8e4035-c821-4db4-9fc2-faca76aafcc4
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:SW Journal Lunch
+LOCATION:Whitier
+DTSTART;TZID=America/New_York:20121115T140000
+DTEND;TZID=America/New_York:20121115T153000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-15T11:00:
+ 00ea4b871a-43d6-45eb-9cc7-b4dd92050af8
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Natasha F. Noy
+SUMMARY:Semantic Web in Biomedicine
+LOCATION:Arlington
+DTSTART;TZID=America/New_York:20121115T110000
+DTEND;TZID=America/New_York:20121115T123000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-11T14:00:
+ 001ee03b1c-c8da-4ed1-b51e-3b359901bc1f
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: The vision of the Multilingual Semantic Web 
+ workshop series is the creation of a Semantic Web where semantically 
+ structured information can be aligned\, integrated and used across 
+ languages. The workshops are concerned with research questions on how 
+ current Semantic Web infrastructure can and should be extended to support 
+ this vision. Ontologies and linked data vocabularies are defined often in 
+ one language only (English)\, with a biased semantics and a corresponding 
+ world view. An infrastructure should be in place for defining ontologies 
+ and vocabularies in multiple languages with a transparent semantics 
+ across them. Current Semantic Web representation languages (RDF\, OWL\, 
+ SKOS) are limited in regard of the representation of natural language 
+ semantics\, leaving much of the semantics hidden in textual web content 
+ out of scope for the developing Web of Data. NLP and machine learning for 
+ Linked Data can benefit from exploiting linguistic resources such as 
+ annotated corpora\, Wordnets etc. if they are themselves formally 
+ represented and linked by use of Linked Data principles. In addressing 
+ such research questions\, the workshop aims at providing a forum for 
+ researchers at the intersection of NLP\, multilingual information 
+ access\, Linked Data and the Semantic Web to exchange ideas on realizing 
+ the Multilingual Semantic Web.
+SUMMARY:3rd Workshop on the Multilingual Semantic Web
+LOCATION:St. James
+DTSTART;TZID=America/New_York:20121111T140000
+DTEND;TZID=America/New_York:20121111T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T12:30:
+ 000e821a2f-a282-4a05-bab4-819d00a5c654
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:JWS Lunch
+LOCATION:Whitier
+DTSTART;TZID=America/New_York:20121113T123000
+DTEND;TZID=America/New_York:20121113T140000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-12T14:00:
+ 003a370ea5-a7cf-4917-be88-393fdfc74da7
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Leora Morgenstern\,David Newman\,Benjamin 
+ Grosof\nabstract: Recent financial crises have demonstrated the need for 
+ sophisticated modeling of and deep reasoning about financial events and 
+ associated financial information. These tasks present foundational and 
+ technical challenges which are best addressed using open standards 
+ developed by the Semantic Web community. The tutorial will explains 
+ foundational concepts in finance and semantic web technologies\, present 
+ relevant standards and languages\, and work through several use cases and 
+ motivating examples in detail.
+SUMMARY:Financial Information Management Using the Semantic Web
+LOCATION:Lexington
+DTSTART;TZID=America/New_York:20121112T140000
+DTEND;TZID=America/New_York:20121112T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T16:00:
+ 00ff87b7ad-23a2-4a94-9274-10d3208e7afa
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Jens Lehmann
+SUMMARY:Knowledge Discovery
+LOCATION:Plaza
+DTSTART;TZID=America/New_York:20121113T160000
+DTEND;TZID=America/New_York:20121113T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-14T15:30:
+ 00f2ef3a66-3554-463a-9b3f-fd6eec1433b1
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:Coffee Break
+LOCATION:Corridor-Foyer railings
+DTSTART;TZID=America/New_York:20121114T153000
+DTEND;TZID=America/New_York:20121114T160000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T14:00:
+ 001e915224-dc18-494e-a03f-8dc36c36d30b
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Maria-Esther Vidal
+SUMMARY:Queries
+LOCATION:Georgian
+DTSTART;TZID=America/New_York:20121113T140000
+DTEND;TZID=America/New_York:20121113T153000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-11T14:00:
+ 00a5e71fde-c910-46da-b815-13019fd06717
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Mike Dean\,Michael Kifer\,Benjamin Grosof\nabstract: 
+ The area of semantic rules is perhaps the most important frontier today 
+ for the Semantic Webs core technology and standards. Recent progress 
+ includes major initial industry standards from W3C and OMG\, and 
+ fundamental advances in the underlying knowledge representation 
+ techniques in declarative logic programs\, including most recently for 
+ efficient higher-order defaults with sound integration of first order 
+ logic ontologies (OWL). Recent progress also includes methods to use 
+ rules for\, or with\, more expressive OWL ontologies\; increasing 
+ integration of rules with query /search in SPARQL and relational 
+ databases\; substantive translations between heterogeneous types of 
+ commercial rule engines\; development of open-source tools for 
+ inferencing and interoperability\; performance benchmarking of rule 
+ systems\; a wide range of emerging applications including in business\, 
+ science\, and trust\; and accelerating industry investments / 
+ acquisitions in the technology including by integrated software companies 
+ such as Oracle\, IBM\, and Microsoft. This tutorial will provide a 
+ comprehensive and up-to-date introduction to these developments and to 
+ the fundamentals of the key technologies and outstanding research issues 
+ involved. It will explore example application scenarios\, overall 
+ requirements and challenges\, and touch upon business /social value and 
+ strategy considerations.
+SUMMARY:Semantic Web Rules: Fundamentals\, Applications\, and Standards
+LOCATION:Lexington
+DTSTART;TZID=America/New_York:20121111T140000
+DTEND;TZID=America/New_York:20121111T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-14T16:00:
+ 00fda5b7c6-d5ab-4178-ae86-ee545f27dbf1
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Ivan Herman
+SUMMARY:Industry Track III
+LOCATION:Arlington
+DTSTART;TZID=America/New_York:20121114T160000
+DTEND;TZID=America/New_York:20121114T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T14:00:
+ 0072fa9f28-80a3-4b51-8c7f-339dee7bdd94
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Jérôme Euzenat
+SUMMARY:Evaluation of reasoning with ontologies
+LOCATION:Arlington
+DTSTART;TZID=America/New_York:20121113T140000
+DTEND;TZID=America/New_York:20121113T153000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-11T09:00:
+ 00f99a8839-9b3c-4766-b317-9ae651908871
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: More and more semantic data are published following 
+ the Linked Data principles\, that enable to set up links between objects 
+ in different data sources\, by connecting information in a single global 
+ data space: the Web of Data. Today\, Web of Data includes different types 
+ of knowledge represented in a homogeneous form: sedimentary one 
+ (encyclopedic\, cultural\, linguistic\, common-sense) and real-time one 
+ (news\, data streams\, ...). This data might be useful to interlink 
+ diverse information about users\, items\, and their relations and 
+ implement reasoning mechanisms that can support and improve the 
+ recommendation process.  The challenge is to investigate whether and how 
+ this large amount of wide-coverage and linked semantic knowledge can be 
+ automatically introduced into systems that perform tasks requiring 
+ human-level intelligence. Examples of such tasks include understanding a 
+ health problem in order to make a medical decision\, or simply deciding 
+ which laptop to buy. Recommender systems support users exactly in those 
+ complex tasks.  The primary goal of the workshop is to showcase cutting 
+ edge research on the intersection of Semantic Technologies and 
+ Recommender Systems\, by taking the best of the two worlds. This 
+ combination may provide the Semantic Web community with important 
+ real-world scenarios where its potential can be effectively exploited 
+ into systems performing complex tasks.
+SUMMARY:International Workshop on Semantic Technologies meet Recommender 
+ Systems & Big Data
+LOCATION:St. James
+DTSTART;TZID=America/New_York:20121111T090000
+DTEND;TZID=America/New_York:20121111T123000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-15T12:30:
+ 00f3f7640a-0b63-4bf7-ab5a-08a145d5d067
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:Lunch
+DTSTART;TZID=America/New_York:20121115T123000
+DTEND;TZID=America/New_York:20121115T140000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-14T16:00:
+ 004a18c880-6888-45ae-b49a-7a7c82dbbac6
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: This session provides an open forum for 
+ participants to present a topic of their choosing. Each presenter is 
+ limited to one slide and two minutes time. Presenters must submit the 
+ title and one pdf slide to an email address announced in the conference's 
+ opening session. Limited presentation slots will be awarded on a 
+ first-come-first-serve basis.
+SUMMARY:Lightning Talks
+LOCATION:Georgian
+DTSTART;TZID=America/New_York:20121114T160000
+DTEND;TZID=America/New_York:20121114T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-15T14:00:
+ 0016ac0ca7-7321-4f3e-8687-17449f939cd5
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Pascal Hitzler
+SUMMARY:Applied Reasoning and Querying
+LOCATION:Statler
+DTSTART;TZID=America/New_York:20121115T140000
+DTEND;TZID=America/New_York:20121115T153000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T14:00:
+ 0082374ccd-6d71-47a1-b576-51913ea56bf2
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Tom Heath
+SUMMARY:eGov and Smart Cities
+LOCATION:Statler
+DTSTART;TZID=America/New_York:20121113T140000
+DTEND;TZID=America/New_York:20121113T153000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-14T11:00:
+ 00c2734169-5d01-4be8-a0df-de8868472a44
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Jeff Z. Pan
+SUMMARY:Alternative Knowledge Representation Approaches
+LOCATION:Georgian
+DTSTART;TZID=America/New_York:20121114T110000
+DTEND;TZID=America/New_York:20121114T123000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T14:00:
+ 004787dc42-fa82-485d-8d1a-4084ac42028e
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Natasha F. Noy
+SUMMARY:User Interfaces and Personalization
+LOCATION:Plaza
+DTSTART;TZID=America/New_York:20121113T140000
+DTEND;TZID=America/New_York:20121113T153000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
+ 00564f7e43-61fa-411e-9859-e5a37c388278
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: Scientific communication has traditionally relied 
+ upon publications and presentations\, with an estimate of millions of 
+ publications worldwide per year\; the growth rate of PubMed alone is now 
+ 1 paper per minute. The results described in these articles are often 
+ backed by large amounts of diverse data produced by complex experiments\, 
+ computer simulations\, and observations of physical phenomena. Because of 
+ this avalanche of data\, it is increasingly hard to validate\, 
+ reproduce\, reuse and leverage scientific data. In addition\, although 
+ publications\, methods and datasets are very related\, they are not 
+ easily accessible and interlinked. The notable exception is omics 
+ research where journals require deposit of sequences in databanks as a 
+ condition of publication. Even where data is discoverable and 
+ accessible\, significant challenges remain in data reuse and sharing\, in 
+ facilitating the necessary correlation\, integration and synthesis of 
+ data across levels of theory\, techniques and disciplines. In the 2nd 
+ International Workshop on Linked Science (LISC2012) we will discuss and 
+ present results of new ways of publishing\, sharing and linking 
+ scientific data together\, and reasoning over such data to discover 
+ interesting new links to validate research. The theme of this years 
+ workshop will focus on research addressing these issues with respect to 
+ big data. Big Data is loosely characterized by the size and/or number of 
+ individual files\, the number of represented variables\, a range of 
+ physical scales\, a range of scientific disciplines\, heterogeneous 
+ metadata and data formats\, in short data that cannot easily be accessed 
+ and manipulated from a thumb-drive.
+SUMMARY:The 2nd International Workshop on Linked Science 2012Tackling 
+ Big Data
+LOCATION:St. James
+DTSTART;TZID=America/New_York:20121112T090000
+DTEND;TZID=America/New_York:20121112T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T11:00:
+ 00ffdfb663-1fe1-48a2-9dcd-ef07d85f8773
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Tom Heath
+SUMMARY:Linked Data
+LOCATION:Georgian
+DTSTART;TZID=America/New_York:20121113T110000
+DTEND;TZID=America/New_York:20121113T123000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T18:30:
+ 00b9a57ce8-750a-4145-8c6b-64579ec1ce2d
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:Poster/Demo Session\, Semantic Web Challenge and Reception
+LOCATION:Imperial\;Plaza
+DTSTART;TZID=America/New_York:20121113T183000
+DTEND;TZID=America/New_York:20121113T210000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T17:00:
+ 0008890230-a924-4d9f-9e1b-76ee100207f6
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Peter Mika
+SUMMARY:schema.org update
+LOCATION:Statler
+DTSTART;TZID=America/New_York:20121113T170000
+DTEND;TZID=America/New_York:20121113T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
+ 008b2a85a9-1da8-4a90-9873-5111f80d44ec
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: The Workshop on Ontology Patterns is an arena for 
+ sharing ideas\, innovations\, and novel research results concerning 
+ patterns for semantic technologies. Patterns for ontology engineering is 
+ a large part\, but we also welcome reports on other kinds of knowledge 
+ and data patterns\, design patterns for Semantic Web applications\, as 
+ well as best practices in general. Patterns need to be shared by a 
+ community in order to provide a common language\, and to stimulate 
+ pattern usage and development - therefore we hope to see you at WOP to 
+ discuss your patterns!
+SUMMARY:3rd Workshop on Ontology Patterns
+LOCATION:Cabot
+DTSTART;TZID=America/New_York:20121112T090000
+DTEND;TZID=America/New_York:20121112T123000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-15T10:30:
+ 0063e921eb-539b-429d-ab85-edb4d521d21f
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:Coffee Break
+LOCATION:Corridor-Foyer railings
+DTSTART;TZID=America/New_York:20121115T103000
+DTEND;TZID=America/New_York:20121115T110000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-14T14:00:
+ 002332daae-bf69-44dd-a9c5-25507bbde74b
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:presenter: Tim Berners-Lee\; John Gianandrea\; Frank van 
+ Harmelen\; Mike Stonebreaker\; Bryan Thompson\nabstract: The Semantic Web 
+ / Linked Data has grown immensely over the past years. When the Semantic 
+ Web community started working over a decade ago the main question was 
+ where to get the data from. By now the question of how to process ever 
+ increasing amount of semantic/linked data has come to people's utmost 
+ attention. The goal of this panel is to shed light on the various 
+ approaches/options for Big Graph Data processing. Possible questions 
+ include: (1)Does the Semantic Web need any central infrastructures? (It's 
+ a Web\, after all?) (2)Or will a handful of large single-owner 
+ infrastructures dominate the Semantic Web\, just as they now dominate the 
+ current Web? (3)And if so\, will such infrastructures be based on the 
+ standard relational model? (4)Or on MapReduce-centric key/value-pairs? 
+ (5)Is Google's (centralised) Knowledge Graph anathema to the Semantic 
+ *Web* ? (6)Are triplestore vendors just reinventing the old database 
+ wheels? (7)What is the role of clustered MapReduce-like solutions and 
+ where are their limits for processing semantic web data?
+SUMMARY:Big Graph Data Panel
+LOCATION:Georgian
+DTSTART;TZID=America/New_York:20121114T140000
+DTEND;TZID=America/New_York:20121114T153000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-14T16:00:
+ 004b860c83-ed3f-4df9-bd8b-b0443a448203
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Mathieu d'Aquin
+SUMMARY:Instance matching
+LOCATION:Plaza
+DTSTART;TZID=America/New_York:20121114T160000
+DTEND;TZID=America/New_York:20121114T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T18:30:
+ 00addd9de0-427c-48f5-baff-95e57c73952a
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:Poster/Demo Session\, Semantic Web Challenge and Reception
+LOCATION:Imperial\;Plaza
+DTSTART;TZID=America/New_York:20121113T183000
+DTEND;TZID=America/New_York:20121113T210000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-11T09:00:
+ 005be2644d-7d90-4bed-a580-7c0820644108
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Caroline Barrière\nabstract: In this tutorial\, we 
+ will start with the basics of natural language processing (NLP) and will 
+ explain different levels of analysis (segmentation\, morphology\, 
+ lexicon\, syntax\, semantic). We will then look at the specific tasks 
+ involved in mining sentences to extract resource description framework 
+ (RDF) triples and show the importance that each level of language 
+ analysis can play in such tasks. NLP researchers have been working on 
+ such tasks for many years and have developed many algorithms to perform 
+ part-of-speech tagging\, parsing\, semantic disambiguation\, named entity 
+ recognition and relation extraction. We will present baseline algorithms 
+ for these tasks to show expected results from state-of-the-art research. 
+ As many algorithms use machine learning (ML) techniques\, we will provide 
+ a simple introduction to the aims and general principles behind such 
+ techniques and explain why they are so important to the NLP community. We 
+ will also explore problems that arise when extracting knowledge from 
+ multiple sentences and how that is closely related to concept mapping 
+ problems\, which are familiar to the semantic web community. Since fully 
+ automatic text mining is quite a difficult task\, we will emphasize that 
+ semi-automatic approaches can be effective and viable solutions for 
+ facilitating the RDFization of textual data.
+SUMMARY:LL-NLP Tutorial: What to do with long literals? Ask the NLP 
+ community...
+LOCATION:Beacon Hill
+DTSTART;TZID=America/New_York:20121111T090000
+DTEND;TZID=America/New_York:20121111T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-14T12:30:
+ 004b53ed69-8ad7-428a-9616-86178adc84e0
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:Lunch
+LOCATION:Imperial
+DTSTART;TZID=America/New_York:20121114T123000
+DTEND;TZID=America/New_York:20121114T140000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-14T16:00:
+ 00960d66b3-f357-4ff2-aeda-bbd43b0c99b1
+LAST-MODIFIED:20131016T053924Z
 DESCRIPTION:chair: Tom Heath
 SUMMARY:Industry Track IV
 LOCATION:Berkley
@@ -634,74 +1018,11 @@ DTEND;TZID=America/New_York:20121114T173000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T10:30:
- 00c79d8c08-9ba9-4cf0-b61b-3e9e95ba4b2e
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:Coffee Break
-LOCATION:Corridor-Foyer railings
-DTSTART;TZID=America/New_York:20121113T103000
-DTEND;TZID=America/New_York:20121113T110000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-12T14:00:
- 00f569bf64-c325-4e8d-9f16-297527166ca2
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: The goal of this workshop is to strengthen the 
- participation of the semantic web community in the recent surge of 
- research on the use of events as a key concept for representing knowledge 
- and organising and structuring media on the web. The workshop invites 
- contributions to three central themes: event detection\, event 
- representation\, and event exploitation. Its goal is to formulate answers 
- to questions in these themes that advance and reflect the current state 
- of understanding. Each submission will be expected to address at least 
- two themes explicitly\, if possible including a system demonstration. 
- This year\, we specifically invite contributions that address both event 
- and conversation semantics in multimedia and social media.
-SUMMARY:Detection\, Representation\, and Exploitation of Events in the 
- Semantic Web
-LOCATION:Cabot
-DTSTART;TZID=America/New_York:20121112T140000
-DTEND;TZID=America/New_York:20121112T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
 UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
- 00c2458f79-5913-4b2b-87fd-ab5c897a8f24
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: The quantity of published Linked Data is increasing 
- dramatically. However\, applications that consume Linked Data are not yet 
- widespread. Current approaches lack methods for seamless integration of 
- Linked Data from multiple sources\, dynamic discovery of available data 
- and data sources\, provenance and information quality assessment\, 
- application development environments\, and appropriate end user 
- interfaces. Addressing these issues requires well-founded research\, 
- including the development and investigation of concepts that can be 
- applied in systems which consume Linked Data from the Web. Following the 
- success of the 1st and the 2nd International Workshop on Consuming Linked 
- Data\, we organize the third edition of this workshop in order to provide 
- a platform for discussion and work on these open research problems. The 
- main objective is to provide a venue for scientific discourse  
- including systematic analysis and rigorous evaluation  of concepts\, 
- algorithms and approaches for consuming Linked Data.
-SUMMARY:Third International Workshop on Consuming Linked Data
-LOCATION:White Hill
-DTSTART;TZID=America/New_York:20121112T090000
-DTEND;TZID=America/New_York:20121112T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
- 0038d33576-7cf1-429f-b1ad-14049e5dde3d
-LAST-MODIFIED:20131016T052419Z
+ 009ec3028b-1cc5-47ff-9179-6e709e5afc63
+LAST-MODIFIED:20131016T053924Z
 DESCRIPTION:chair: Martin Hepp\,Laszlo Török\,Alex Stolz\nabstract: A 
  Hands-on Introduction to the GoodRelations Ontology\, Schema.org\, RDFa 
  and Microdata Authoring\, Google Rich Snippets for Products\, Yahoo\, 
@@ -724,241 +1045,61 @@ DTEND;TZID=America/New_York:20121112T123000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T15:30:
+ 00290ed429-cb71-4c33-b52a-234efde3e30d
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:Coffee Break
+LOCATION:Corridor-Foyer railings
+DTSTART;TZID=America/New_York:20121113T153000
+DTEND;TZID=America/New_York:20121113T160000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
 UID:The_11th_International_Semantic_Web_Conference2012-11-15T14:00:
- 001ee030b0-324e-4bad-ba66-2d2cdb4b3c48
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Peter Patel-Schneider
-SUMMARY:Ontology Engineering and Optimization
-LOCATION:Plaza
+ 0001ddd309-62fd-4c90-ac46-4459cf379e0e
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Diana Maynard
+SUMMARY:Information Extraction
+LOCATION:Georgian
 DTSTART;TZID=America/New_York:20121115T140000
 DTEND;TZID=America/New_York:20121115T153000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
 UID:The_11th_International_Semantic_Web_Conference2012-11-15T14:00:
- 00145b6b78-366d-415e-9124-dba73b8b7fb9
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:SW Journal Lunch
-LOCATION:Whitier
-DTSTART;TZID=America/New_York:20121115T140000
-DTEND;TZID=America/New_York:20121115T153000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
- 00ea139b48-70dc-456e-92ac-934b37e2abba
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: The Joint Workshop on Semantic Technologies Applied 
- to Biomedical Informatics and Individualized Medicine\, co-located with 
- the 11th International Semantic Web Conference\, will bring together 
- researchers\, developers and practitioners actively applying Semantic 
- technologies to Biological and Medical Informatics problems. The workshop 
- aims to attract researchers from Computer Science\, Information Science\, 
- Biomedicine\, Bioinformatics\, and related areas to share research 
- challenges\, results\, methods and advances in the appliance of Semantic 
- Web technologies to two domains within Clinical and Translational 
- research  bioinformatics and individualized medicine.
-SUMMARY:Joint Workshop on Semantic Technologies Applied to Biomedical 
- Informatics and Individualized Medicine (SATBI+SWIM 2012)
-LOCATION:Franklin
-DTSTART;TZID=America/New_York:20121112T090000
-DTEND;TZID=America/New_York:20121112T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-15T11:00:
- 005e53dad5-9966-420c-86e8-8f023e08bbdb
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Natasha F. Noy
-SUMMARY:Semantic Web in Biomedicine
+ 007696418a-fff5-4ab6-8a27-4389a9860662
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Gianluca Demartini
+SUMMARY:Social and Collaborative Semantics
 LOCATION:Arlington
-DTSTART;TZID=America/New_York:20121115T110000
-DTEND;TZID=America/New_York:20121115T123000
+DTSTART;TZID=America/New_York:20121115T140000
+DTEND;TZID=America/New_York:20121115T153000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
- 00ab06093c-d06b-4a6b-8064-7f9c04164e86
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: EvoDyn 2012 continues the tradition of EvoDyn 2011 
- and the IWOD workshop series in being the core annual event to discuss 
- advances in the broad area of ontology dynamics\, and to track recent 
- work directly or indirectly related to the problem of evolving knowledge. 
- The workshop focuses on analysis of trends and change in formal 
- descriptions\, but also in associated raw sources of knowledge 
- (scientific publications\, unstructured or semi-structured Web content\, 
- traditional data stores\, e-mail or on-line discussion threads\, etc.). 
- We are especially interested in research targeted on various states of 
- knowledge evolution\, such as (a) conflicts\, (b) consolidation\, (c) 
- discovery\, (d) paradigm shifts\, and (e) breakthroughs. We would like to 
- trigger a comprehensive and coherent approach to studying the process of 
- knowledge evolution by bringing together researchers and practitioners 
- from the following fields: (i) Data mining and knowledge discovery in 
- dynamic resources\; (ii) Ontology dynamics and versioning\; (iii) Trend 
- analysis (in multiple applications\, including internet search\, corpus 
- evaluation\, etc.)\; (iv) Natural Language Processing (evolution of 
- terminology\, language use\, semantics)\; (v) Knowledge Representation 
- (temporal ontologies\, temporal logics\, belief revision\, etc.)\; (vi) 
- Discourse Analysis and Philosophy of Science (the definition and 
- understanding of what particular phases of the knowledge evolution are\, 
- and how can we delimit\, identify or even trigger them).
-SUMMARY:2nd Joint Workshop on Knowledge Evolution and Ontology Dynamics
-LOCATION:Cambridge
-DTSTART;TZID=America/New_York:20121112T090000
-DTEND;TZID=America/New_York:20121112T173000
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T10:30:
+ 00d61f92bb-cd5f-4f30-bc2a-ad163b5809fe
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:Coffee Break
+LOCATION:Corridor-Foyer railings
+DTSTART;TZID=America/New_York:20121113T103000
+DTEND;TZID=America/New_York:20121113T110000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T14:00:
- 00b0798e05-c1e1-4ffa-9bf8-b47dfccd71b5
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Tom Heath
-SUMMARY:eGov and Smart Cities
-LOCATION:Statler
-DTSTART;TZID=America/New_York:20121113T140000
-DTEND;TZID=America/New_York:20121113T153000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-11T09:00:
- 0029929150-b7b0-457e-8fb5-f66dddb97f79
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: The Semantic Web is growing at an enormous pace. 
- However\, the development of semantic web software applications is not 
- yet mainstream. Reasons for that include one (or more) of the following 
- research issues: lack of integrated development environments (IDEs\, such 
- as Visual Studio and Eclipse)\, poor programming language support\, lack 
- of standard testbeds and/or benchmarks\, inadequate training\, and 
- perhaps the need for curricula revision. Properly addressing these issues 
- requires interdisciplinary skills\, and the collaboration between 
- academia and industry. The First Workshop on Programming the Semantic Web 
- invites submissions that explore the gap between todays semantic web 
- challenges\, particularly the ones related to dealing with large amounts 
- of data\, with the lack of adequate tools. We are looking for 
- contributions that discuss\, promote and further advance the programming 
- facet of the semantic web\, including the development of new languages\, 
- extension of existing ones\, and the inclusion of semantic enabled 
- capabilities into existing IDEs.
-SUMMARY:First Workshop on Programming the Semantic Web
-LOCATION:Cabot
-DTSTART;TZID=America/New_York:20121111T090000
-DTEND;TZID=America/New_York:20121111T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-14T11:00:
- 000fa5a059-0d00-4bf3-8ced-8a061a5f7052
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Tom Heath
-SUMMARY:Industry Track II
-LOCATION:Berkley
-DTSTART;TZID=America/New_York:20121114T110000
-DTEND;TZID=America/New_York:20121114T123000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T17:00:
- 005fea3945-dcba-434c-ac0e-c0c5cb9ebfbe
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Peter Mika
-SUMMARY:schema.org update
-LOCATION:Statler
-DTSTART;TZID=America/New_York:20121113T170000
-DTEND;TZID=America/New_York:20121113T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T08:30:
- 00ffc9a5b1-bc63-4e36-b098-5d8198f657f3
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:Opening Ceremony
-LOCATION:Imperial
-DTSTART;TZID=America/New_York:20121113T083000
-DTEND;TZID=America/New_York:20121113T090000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T16:00:
- 0056ed2e1d-13b6-4a54-a9c0-f6ad9bdec089
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Jens Lehmann
-SUMMARY:Knowledge Discovery
-LOCATION:Plaza
-DTSTART;TZID=America/New_York:20121113T160000
-DTEND;TZID=America/New_York:20121113T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T14:00:
- 00ed63edc9-1d46-43a5-961e-c1c32151b9c5
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Natasha F. Noy
-SUMMARY:User Interfaces and Personalization
-LOCATION:Plaza
-DTSTART;TZID=America/New_York:20121113T140000
-DTEND;TZID=America/New_York:20121113T153000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-15T09:00:
- 00370ce2fd-7c5b-4b5d-9019-a200833c7e2d
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:presenter: Mark A. Musen\nabstract: In the 1990s\, as the 
- World Wide Web became not only world wide but also dense and ubiquitous\, 
- workers in the artificial intelligence community were drawn to the 
- possibility that the Web could provide the foundation for a new kind of 
- AI.  Having survived the AI Winter of the 1980s\, the opportunities that 
- they saw in the largest\, most interconnected computing platform 
- imaginable were obviously compelling.  With the subsequent success of the 
- Semantic Web\, however\, our community seems to have stopped talking 
- about many of the issues that researchers believe led to the AI Winter in 
- the first place: the cognitive challenges in debugging and maintaining 
- complex systems\, the drift in the meanings ascribed to symbols\, the 
- situated nature of knowledge\, the fundamental difficulty of creating 
- robust models.  These challenges are still with us\; we cannot wish them 
- away with appeals to the open-world assumption or to the law of large 
- numbers.  Embracing these challenges will allow us to expand the scope of 
- our science and our practice\, and will help to bring us closer to the 
- ultimate vision of the Semantic Web.
-SUMMARY:Keynote 3: Tackling Climate Change:  Unfinished Business from the 
- Last “Winter”
-LOCATION:Imperial
-DTSTART;TZID=America/New_York:20121115T090000
-DTEND;TZID=America/New_York:20121115T103000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
 UID:The_11th_International_Semantic_Web_Conference2012-11-12T14:00:
- 004d3e1f82-029c-4acf-8468-35837d89cd35
-LAST-MODIFIED:20131016T052419Z
+ 00470319e8-c526-48eb-96f5-dfb8381129bd
+LAST-MODIFIED:20131016T053924Z
 DESCRIPTION:chair: Opher Etzion\,Nenad Stojanovic\,Ljiljana 
  Stojanovic\,Francoise Baude\nabstract: Processing of real-time data 
  streams has become a very important mechanism in many application areas: 
@@ -993,356 +1134,38 @@ DTEND;TZID=America/New_York:20121112T173000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-15T11:00:
- 00ca62a705-7fb8-40d5-83ae-f6733c465e0b
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Andreas Harth
-SUMMARY:Scalability and Parallel Processing
-LOCATION:Plaza
-DTSTART;TZID=America/New_York:20121115T110000
-DTEND;TZID=America/New_York:20121115T123000
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
+ 00cdb0a93d-681d-454a-95f4-f0818bc30d24
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Timothy Lebo\,Paul Groth\,Luc Moreau\,Jun 
+ Zhao\nabstract: Provenance (the origin or source) of information is 
+ critical in deciding whether information is to be trusted\, how it should 
+ be integrated with other diverse information sources\, and how to give 
+ credit to its originators when reusing it. In order to promote the 
+ widespread publication of provenance information on the Web\, the W3C is 
+ producing the W3C PROV set of specifications. These specifications 
+ provide a basis for the common exchange of provenance information on the 
+ Web. This half- day tutorial provides you with an indepth dive into these 
+ specifications including handson information on how to publish\, query 
+ and access provenance information. You will learn how to model your 
+ provenance data using the PROV data model and ontology\, how to produce 
+ provenance information that enables integrity checking and inferences\, 
+ as well as how to expose and acquire provenance information using PROV 
+ access mechanisms and services.
+SUMMARY:Getting to know PROV - the W3C Provenance Specifications
+LOCATION:Alcott
+DTSTART;TZID=America/New_York:20121112T090000
+DTEND;TZID=America/New_York:20121112T123000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-15T15:30:
- 00f751b2c3-17cc-40f3-9ce9-a21e64b994fd
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:Coffee Break
-LOCATION:Corridor-Foyer railings
-DTSTART;TZID=America/New_York:20121115T153000
-DTEND;TZID=America/New_York:20121115T160000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T12:30:
- 00bdb981a7-184d-4f08-9497-35aa77c0dac9
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:Lunch
-LOCATION:Imperial
-DTSTART;TZID=America/New_York:20121113T123000
-DTEND;TZID=America/New_York:20121113T140000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T15:30:
- 008c78742c-a1eb-4e04-b3f3-f949ce5f4e11
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:Coffee Break
-LOCATION:Corridor-Foyer railings
-DTSTART;TZID=America/New_York:20121113T153000
-DTEND;TZID=America/New_York:20121113T160000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T14:00:
- 00db884b2a-8cd6-4550-98d2-1e28482b8dbf
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Jérôme Euzenat
-SUMMARY:Evaluation of reasoning with ontologies
-LOCATION:Arlington
-DTSTART;TZID=America/New_York:20121113T140000
-DTEND;TZID=America/New_York:20121113T153000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
 UID:The_11th_International_Semantic_Web_Conference2012-11-11T09:00:
- 00ad1643c3-b961-4c91-943b-f9098cff0b44
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: The 2012 Joint Workshop on Scalable and 
- High-Performance Semantic Web Systems (SSWS+HPCSW 2012) focuses on 
- addressing the scalability issue with respect to the development and 
- deployment of systems on the Semantic Web. Typically\, such systems deal 
- with information described in Semantic Web languages like OWL and 
- RDF(S)\, and provide services such as storing\, reasoning\, querying\, 
- analysis\, etc. There are two basic requirements for these systems. 
- First\, they have to satisfy an applications semantic requirements. 
- Second\, they must scale well in order to be of practical use. Given the 
- sheer size and distributed nature of the Semantic Web\, these 
- requirements impose new challenges beyond those addressed by previous 
- systems. This joint workshop consists of two tracks regarding scalability:
-  one for knowledge base systems\, and another for high-performance 
- computing. We expect that the issue of scalability is going to challenge 
- the Semantic Web for a long period of time and significant effort is 
- needed in order to tackle the problem. This joint workshop seeks to bring 
- together researchers and practitioners to share their recent ideas and 
- progress towards building scalable systems for the Semantic Web\; 
- participants from related disciplines such as Supercomputing\, and 
- High-Performance Computing\, Artificial Intelligence\, Databases\, 
- Information Integration\, are welcome.
-SUMMARY:Joint Workshop on Scalable and High-Performance Semantic Web 
- Systems
-LOCATION:Stuart
-DTSTART;TZID=America/New_York:20121111T090000
-DTEND;TZID=America/New_York:20121111T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-12T14:00:
- 007b6aa8b3-e098-42c0-b275-e87870a759b6
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Leora Morgenstern\,David Newman\,Benjamin 
- Grosof\nabstract: Recent financial crises have demonstrated the need for 
- sophisticated modeling of and deep reasoning about financial events and 
- associated financial information. These tasks present foundational and 
- technical challenges which are best addressed using open standards 
- developed by the Semantic Web community. The tutorial will explains 
- foundational concepts in finance and semantic web technologies\, present 
- relevant standards and languages\, and work through several use cases and 
- motivating examples in detail.
-SUMMARY:Financial Information Management Using the Semantic Web
-LOCATION:Lexington
-DTSTART;TZID=America/New_York:20121112T140000
-DTEND;TZID=America/New_York:20121112T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-11T14:00:
- 00c5cca670-ef9a-4bdd-89ef-935fa0b9b496
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: The vision of the Multilingual Semantic Web 
- workshop series is the creation of a Semantic Web where semantically 
- structured information can be aligned\, integrated and used across 
- languages. The workshops are concerned with research questions on how 
- current Semantic Web infrastructure can and should be extended to support 
- this vision. Ontologies and linked data vocabularies are defined often in 
- one language only (English)\, with a biased semantics and a corresponding 
- world view. An infrastructure should be in place for defining ontologies 
- and vocabularies in multiple languages with a transparent semantics 
- across them. Current Semantic Web representation languages (RDF\, OWL\, 
- SKOS) are limited in regard of the representation of natural language 
- semantics\, leaving much of the semantics hidden in textual web content 
- out of scope for the developing Web of Data. NLP and machine learning for 
- Linked Data can benefit from exploiting linguistic resources such as 
- annotated corpora\, Wordnets etc. if they are themselves formally 
- represented and linked by use of Linked Data principles. In addressing 
- such research questions\, the workshop aims at providing a forum for 
- researchers at the intersection of NLP\, multilingual information 
- access\, Linked Data and the Semantic Web to exchange ideas on realizing 
- the Multilingual Semantic Web.
-SUMMARY:3rd Workshop on the Multilingual Semantic Web
-LOCATION:St. James
-DTSTART;TZID=America/New_York:20121111T140000
-DTEND;TZID=America/New_York:20121111T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T14:00:
- 00ab06dbc3-cd5e-42c0-bb07-0b308dead92e
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Maria-Esther Vidal
-SUMMARY:Queries
-LOCATION:Georgian
-DTSTART;TZID=America/New_York:20121113T140000
-DTEND;TZID=America/New_York:20121113T153000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-14T12:30:
- 000174142a-dbad-4877-8d90-e714ceffb108
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:Lunch
-LOCATION:Imperial
-DTSTART;TZID=America/New_York:20121114T123000
-DTEND;TZID=America/New_York:20121114T140000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-15T11:00:
- 000760beb5-f121-4d45-8b05-4c8121878671
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Raphaël Troncy
-SUMMARY:Ontology Mapping
-LOCATION:Georgian
-DTSTART;TZID=America/New_York:20121115T110000
-DTEND;TZID=America/New_York:20121115T123000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-15T14:00:
- 002c69d229-7f28-495c-8092-c89c745d6126
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Pascal Hitzler
-SUMMARY:Applied Reasoning and Querying
-LOCATION:Statler
-DTSTART;TZID=America/New_York:20121115T140000
-DTEND;TZID=America/New_York:20121115T153000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-11T09:00:
- 00b6dae27d-7306-4bdf-b021-480ca2b37b6b
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: Ontology matching is a key interoperability enabler 
- for the Semantic Web\, as well as a useful tactic in some classical data 
- integration tasks dealing with the semantic heterogeneity problem. It 
- takes the ontologies as input and determines as output an alignment\, 
- that is\, a set of correspondences between the semantically related 
- entities of those ontologies. These correspondences can be used for 
- various tasks\, such as ontology merging\, data translation\, query 
- answering or navigation on the web of data. Thus\, matching ontologies 
- enables the knowledge and data expressed in the matched ontologies to 
- interoperate.
-SUMMARY:The Seventh International Workshop on Ontology Matching
-LOCATION:Whittier
-DTSTART;TZID=America/New_York:20121111T090000
-DTEND;TZID=America/New_York:20121111T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-12T14:00:
- 00211034b1-3f1f-4e9f-a3ff-19cc76b4866f
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: This workshop aims to gather innovative approaches 
- for knowledge extraction and consolidation from unstructured social 
- media\, in particular from degraded user-generated content (text\, 
- images\, video) such as tweets\, blog posts\, forums and user-generated 
- visual media. KECSM will gather novel works from the fields of (a) data 
- analysis and knowledge extraction\, and (b) data enrichment\, 
- interlinking and consolidation. It will equally consider the application 
- perspective\, such as the innovative use of extracted knowledge to 
- navigate\, explore or visualise previously unstructured and disparate Web 
- content. The workshop will provide a highly interactive forum for 
- researchers in the fields of semantic and social Web\, text mining and 
- NLP\, multimedia data analysis\, clustering and integration\, and 
- ontology and data mapping.
-SUMMARY:Knowledge Extraction and Consolidation from Social media
-LOCATION:Back Bay
-DTSTART;TZID=America/New_York:20121112T140000
-DTEND;TZID=America/New_York:20121112T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-14T09:00:
- 00b43158be-5bd1-4b64-93be-c5f04a128fd6
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:presenter: Jeanne Holm
-SUMMARY:Keynote 2: Driving Innovation with Open Data and 
- Interoperability
-LOCATION:Imperial
-DTSTART;TZID=America/New_York:20121114T090000
-DTEND;TZID=America/New_York:20121114T103000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-14T17:45:
- 00aaafcbde-99fe-4f60-ba2c-e30779c3e648
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Abraham Bernstein\nabstract: Introduced at ISWC 2009 
- it has become a tradition at ISWC to come together in a town hall meeting 
- to have conference participants share ideas on what they would like to 
- see at the future ISWCs and to discuss what works and what does not work 
- at the conference. Please join the members of the conference organizing 
- committee in an informal discussion about all the new events that we 
- added to the conference program this year and tell us what you would like 
- to see in the future and what you liked and didn't like this year.
-SUMMARY:Town Hall Meeting
-LOCATION:Georgian
-DTSTART;TZID=America/New_York:20121114T174500
-DTEND;TZID=America/New_York:20121114T184500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T11:00:
- 0048560ae9-d7b4-4b38-8dcd-8386fd5639e6
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Tudor Groza
-SUMMARY:Infrastructure
-LOCATION:Statler
-DTSTART;TZID=America/New_York:20121113T110000
-DTEND;TZID=America/New_York:20121113T123000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-15T14:00:
- 00f4f11003-bed5-4888-af49-892964519320
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Gianluca Demartini
-SUMMARY:Social and Collaborative Semantics
-LOCATION:Arlington
-DTSTART;TZID=America/New_York:20121115T140000
-DTEND;TZID=America/New_York:20121115T153000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-14T16:00:
- 0094b75be2-f1fd-48e0-bc9c-237237b63a6d
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Ivan Herman
-SUMMARY:Industry Track III
-LOCATION:Arlington
-DTSTART;TZID=America/New_York:20121114T160000
-DTEND;TZID=America/New_York:20121114T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-15T10:30:
- 00fe1f6a2a-40e8-4958-a23a-f0f521b3f903
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:Coffee Break
-LOCATION:Corridor-Foyer railings
-DTSTART;TZID=America/New_York:20121115T103000
-DTEND;TZID=America/New_York:20121115T110000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-14T16:00:
- 00842d155e-ad14-4d44-b0f2-713808fde8ad
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Mathieu d'Aquin
-SUMMARY:Instance matching
-LOCATION:Plaza
-DTSTART;TZID=America/New_York:20121114T160000
-DTEND;TZID=America/New_York:20121114T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-11T09:00:
- 00124a5705-e5b3-42ab-9325-014687697e67
-LAST-MODIFIED:20131016T052419Z
+ 00500a9c01-e7ef-4648-812b-181ef176e35d
+LAST-MODIFIED:20131016T053924Z
 DESCRIPTION:chair: Padmashree Ravindra\,Kemafor Anyanwu\nabstract: Cloud 
  computing platforms such as Amazons EC2 and Hadoop have had significant 
  adoption as large scale data processing platforms. Their attraction is 
@@ -1371,62 +1194,24 @@ DTEND;TZID=America/New_York:20121111T173000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-14T16:00:
- 0093872606-667c-457e-8e8e-821a7b78c44c
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: This session provides an open forum for 
- participants to present a topic of their choosing. Each presenter is 
- limited to one slide and two minutes time. Presenters must submit the 
- title and one pdf slide to an email address announced in the conference's 
- opening session. Limited presentation slots will be awarded on a 
- first-come-first-serve basis.
-SUMMARY:Lightning Talks
-LOCATION:Georgian
-DTSTART;TZID=America/New_York:20121114T160000
-DTEND;TZID=America/New_York:20121114T173000
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-15T11:00:
+ 004c460c48-4285-47c2-8add-a20b906f8b1d
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Amal Zouaq
+SUMMARY:Question Answering and NLP
+LOCATION:Statler
+DTSTART;TZID=America/New_York:20121115T110000
+DTEND;TZID=America/New_York:20121115T123000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-14T10:30:
- 00f4a01dfc-cf3b-4025-9b1d-b1a85eb540a5
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:Coffee Break
-LOCATION:Corridor-Foyer railings
-DTSTART;TZID=America/New_York:20121114T103000
-DTEND;TZID=America/New_York:20121114T110000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
- 004810c129-79e7-4357-a58b-2cbd799f9425
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: The Workshop on Ontology Patterns is an arena for 
- sharing ideas\, innovations\, and novel research results concerning 
- patterns for semantic technologies. Patterns for ontology engineering is 
- a large part\, but we also welcome reports on other kinds of knowledge 
- and data patterns\, design patterns for Semantic Web applications\, as 
- well as best practices in general. Patterns need to be shared by a 
- community in order to provide a common language\, and to stimulate 
- pattern usage and development - therefore we hope to see you at WOP to 
- discuss your patterns!
-SUMMARY:3rd Workshop on Ontology Patterns
-LOCATION:Cabot
-DTSTART;TZID=America/New_York:20121112T090000
-DTEND;TZID=America/New_York:20121112T123000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
 UID:The_11th_International_Semantic_Web_Conference2012-11-14T11:00:
- 00a819efb6-3eb5-4a25-a684-89012568374a
-LAST-MODIFIED:20131016T052419Z
+ 009e3eadf8-09b2-464c-aec2-bbfc3517d8f7
+LAST-MODIFIED:20131016T053924Z
 DESCRIPTION:abstract: The Semantic Web Challenge\, now in its 10th year\, 
  aims to demonstrate practical progress towards achieving the vision of 
  the Semantic Web. The competition\, organised in 3 rounds\, enables 
@@ -1439,228 +1224,91 @@ DTEND;TZID=America/New_York:20121114T123000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T12:30:
- 00e04898f1-b2ec-4357-8d94-ede978480169
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:JWS Lunch
-LOCATION:Whitier
-DTSTART;TZID=America/New_York:20121113T123000
-DTEND;TZID=America/New_York:20121113T140000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T16:00:
- 00d7b30e30-b427-48c9-b147-ff7176c89d3f
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Josiane Xavier Parreira
-SUMMARY:Federated and Stream Query Processing
-LOCATION:Arlington
-DTSTART;TZID=America/New_York:20121113T160000
-DTEND;TZID=America/New_York:20121113T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-14T11:00:
- 00b64bf695-4764-49c1-9d45-5c549e49f2fd
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Jeff Z. Pan
-SUMMARY:Alternative Knowledge Representation Approaches
-LOCATION:Georgian
-DTSTART;TZID=America/New_York:20121114T110000
-DTEND;TZID=America/New_York:20121114T123000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T18:30:
- 00c3e85df5-9ee6-43f8-bef3-1f1d747e8bf8
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:Poster/Demo Session\, Semantic Web Challenge and Reception
-LOCATION:Imperial\;Plaza
-DTSTART;TZID=America/New_York:20121113T183000
-DTEND;TZID=America/New_York:20121113T210000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-14T17:30:
- 00d315c2a7-f83a-48a2-a91d-a63d3b5e9983
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:Coffee Break
-LOCATION:Corridor-Foyer railings
-DTSTART;TZID=America/New_York:20121114T173000
-DTEND;TZID=America/New_York:20121114T193000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T17:30:
- 006dbd50a2-e8f8-4168-9ab4-0563211617e1
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:Coffee Break
-LOCATION:Corridor-Foyer railings
-DTSTART;TZID=America/New_York:20121113T173000
-DTEND;TZID=America/New_York:20121113T183000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
 UID:The_11th_International_Semantic_Web_Conference2012-11-13T11:00:
- 00f1ce0f8b-72e6-4d57-b819-f6494cedc7eb
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Pascal Hitzler
-SUMMARY:Description Logic
-LOCATION:Plaza
+ 004348d2bd-7d21-46e7-a20d-b84675d04f05
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Tudor Groza
+SUMMARY:Infrastructure
+LOCATION:Statler
 DTSTART;TZID=America/New_York:20121113T110000
 DTEND;TZID=America/New_York:20121113T123000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-15T14:00:
- 002da5ba4a-d2a6-43f1-a7be-188e19de318b
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:chair: Diana Maynard
-SUMMARY:Information Extraction
-LOCATION:Georgian
-DTSTART;TZID=America/New_York:20121115T140000
-DTEND;TZID=America/New_York:20121115T153000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-14T15:30:
- 00e29373d2-2bc4-4b90-914e-5023616aee94
-LAST-MODIFIED:20131016T052419Z
-SUMMARY:Coffee Break
-LOCATION:Corridor-Foyer railings
-DTSTART;TZID=America/New_York:20121114T153000
-DTEND;TZID=America/New_York:20121114T160000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
 UID:The_11th_International_Semantic_Web_Conference2012-11-11T09:00:
- 00ad92cc3b-fc13-4c77-8666-766d79e4b591
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: More and more semantic data are published following 
- the Linked Data principles\, that enable to set up links between objects 
- in different data sources\, by connecting information in a single global 
- data space: the Web of Data. Today\, Web of Data includes different types 
- of knowledge represented in a homogeneous form: sedimentary one 
- (encyclopedic\, cultural\, linguistic\, common-sense) and real-time one 
- (news\, data streams\, ...). This data might be useful to interlink 
- diverse information about users\, items\, and their relations and 
- implement reasoning mechanisms that can support and improve the 
- recommendation process.  The challenge is to investigate whether and how 
- this large amount of wide-coverage and linked semantic knowledge can be 
- automatically introduced into systems that perform tasks requiring 
- human-level intelligence. Examples of such tasks include understanding a 
- health problem in order to make a medical decision\, or simply deciding 
- which laptop to buy. Recommender systems support users exactly in those 
- complex tasks.  The primary goal of the workshop is to showcase cutting 
- edge research on the intersection of Semantic Technologies and 
- Recommender Systems\, by taking the best of the two worlds. This 
- combination may provide the Semantic Web community with important 
- real-world scenarios where its potential can be effectively exploited 
- into systems performing complex tasks.
-SUMMARY:International Workshop on Semantic Technologies meet Recommender 
- Systems & Big Data
-LOCATION:St. James
-DTSTART;TZID=America/New_York:20121111T090000
-DTEND;TZID=America/New_York:20121111T123000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-11T09:00:
- 00d5f00e2c-2515-4018-9c99-8aee2f2adb1c
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: This workshop will discuss different approach to 
- deal with uncertainty (in a wide sense) in the Semantic Web. Uncertainty 
- is an unavoidable factor in several processes\, such as knowledge 
- interchange and application interoperability\, and Semantic Web data\, 
- which are usually incomplete\, inconsistent\, and inaccurate. This 
- suggests the need to apply different formalisms (probability\,  fuzzy 
- logic\, decision theory\, etc.) to enrich Semantic Web technologies and 
- applications.
-SUMMARY:8th International Workshop on Uncertainty Reasoning for the 
- Semantic Web
-LOCATION:Cambridge
+ 0053e81c82-0e64-4bc2-bfc4-7b4c7e27e30b
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: The Semantic Web is growing at an enormous pace. 
+ However\, the development of semantic web software applications is not 
+ yet mainstream. Reasons for that include one (or more) of the following 
+ research issues: lack of integrated development environments (IDEs\, such 
+ as Visual Studio and Eclipse)\, poor programming language support\, lack 
+ of standard testbeds and/or benchmarks\, inadequate training\, and 
+ perhaps the need for curricula revision. Properly addressing these issues 
+ requires interdisciplinary skills\, and the collaboration between 
+ academia and industry. The First Workshop on Programming the Semantic Web 
+ invites submissions that explore the gap between todays semantic web 
+ challenges\, particularly the ones related to dealing with large amounts 
+ of data\, with the lack of adequate tools. We are looking for 
+ contributions that discuss\, promote and further advance the programming 
+ facet of the semantic web\, including the development of new languages\, 
+ extension of existing ones\, and the inclusion of semantic enabled 
+ capabilities into existing IDEs.
+SUMMARY:First Workshop on Programming the Semantic Web
+LOCATION:Cabot
 DTSTART;TZID=America/New_York:20121111T090000
 DTEND;TZID=America/New_York:20121111T173000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
-UID:The_11th_International_Semantic_Web_Conference2012-11-13T16:00:
- 00ef1bb723-f3d1-417e-8be7-df56bb020f00
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: Workshop participants will discuss sketches of 
- their papers with editors and eidtorial board members of the top Semantic 
- Web jorunals as well as other workshop participants. The goal is to help 
- attendees to turn the sketches into successful submissions and avoid 
- common stumbling blocks. People who wish to participate will be asked to 
- submit a paper sketch (see cfp). The accepted sketeches will be read by 
- the editors and the other chosen participants prior the workshop. Prior 
- to the workshop\, participants whose sketches have been accepted to will 
- receive one to three other sketches to read and review. During the 
- workshop\, participants will meet in small groups which includes an 
- editorial board memeber. During this discussion\, participants will 
- receive specific feedback on on the possible issues to address in order 
- to turn the sketch into a possibly successful submission. Selection for 
- the Journal Workshop session is competitive. Papers currently under 
- review or revision are excluded.
-SUMMARY:Journal Workshop Session
-LOCATION:Berkeley\;Clarendon
-DTSTART;TZID=America/New_York:20121113T160000
-DTEND;TZID=America/New_York:20121113T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
 UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
- 00ef106dd9-879c-4a71-83e8-6e33f20aef86
-LAST-MODIFIED:20131016T052419Z
-DESCRIPTION:abstract: The ISWC 2012 Doctoral Consortium will take place 
- as part of the 11th International Semantic Web Conference in Boston\, US. 
- This forum will provide PhD students an opportunity to share and develop 
- their research ideas in a critical but supportive environment\, get 
- feedback from mentors who are senior members of the Semantic Web research 
- community\, explore issues related to academic and research careers\, and 
- build relationships with other Semantic Web PhD students from around the 
- world. The Consortium aims to broaden the perspectives and improve the 
- research and communication skills of these students as a way to 
- contribute both to the individuals as well as to the broader research 
- community.
-SUMMARY:Doctoral Consortium
-LOCATION:Whittier
+ 00a2de136c-6d6e-4e1e-86b9-331fa5d6e919
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: The quantity of published Linked Data is increasing 
+ dramatically. However\, applications that consume Linked Data are not yet 
+ widespread. Current approaches lack methods for seamless integration of 
+ Linked Data from multiple sources\, dynamic discovery of available data 
+ and data sources\, provenance and information quality assessment\, 
+ application development environments\, and appropriate end user 
+ interfaces. Addressing these issues requires well-founded research\, 
+ including the development and investigation of concepts that can be 
+ applied in systems which consume Linked Data from the Web. Following the 
+ success of the 1st and the 2nd International Workshop on Consuming Linked 
+ Data\, we organize the third edition of this workshop in order to provide 
+ a platform for discussion and work on these open research problems. The 
+ main objective is to provide a venue for scientific discourse  
+ including systematic analysis and rigorous evaluation  of concepts\, 
+ algorithms and approaches for consuming Linked Data.
+SUMMARY:Third International Workshop on Consuming Linked Data
+LOCATION:White Hill
 DTSTART;TZID=America/New_York:20121112T090000
 DTEND;TZID=America/New_York:20121112T173000
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T052419Z
-CREATED:20131016T052419Z
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-15T15:30:
+ 00864064a1-3a1f-4268-9597-a9eb8e43d6c1
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:Coffee Break
+LOCATION:Corridor-Foyer railings
+DTSTART;TZID=America/New_York:20121115T153000
+DTEND;TZID=America/New_York:20121115T160000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
 UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
- 00cac04889-4830-4ea2-81f4-e5be72295f18
-LAST-MODIFIED:20131016T052419Z
+ 005991d4d1-a5b3-4ea7-955d-c485895ccd90
+LAST-MODIFIED:20131016T053924Z
 DESCRIPTION:abstract: The wide availability of technologies such as GPS\, 
  map services and social networks has resulted in the proliferation of 
  geospatial data on the Web. In addition to material produced by 
@@ -1684,6 +1332,358 @@ SUMMARY:5th International Terra Cognita Workshop 2012
 LOCATION:Charles
 DTSTART;TZID=America/New_York:20121112T090000
 DTEND;TZID=America/New_York:20121112T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-12T14:00:
+ 00e48ff7fb-ef7c-4806-8ebe-c15371bb5154
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: This workshop aims to gather innovative approaches 
+ for knowledge extraction and consolidation from unstructured social 
+ media\, in particular from degraded user-generated content (text\, 
+ images\, video) such as tweets\, blog posts\, forums and user-generated 
+ visual media. KECSM will gather novel works from the fields of (a) data 
+ analysis and knowledge extraction\, and (b) data enrichment\, 
+ interlinking and consolidation. It will equally consider the application 
+ perspective\, such as the innovative use of extracted knowledge to 
+ navigate\, explore or visualise previously unstructured and disparate Web 
+ content. The workshop will provide a highly interactive forum for 
+ researchers in the fields of semantic and social Web\, text mining and 
+ NLP\, multimedia data analysis\, clustering and integration\, and 
+ ontology and data mapping.
+SUMMARY:Knowledge Extraction and Consolidation from Social media
+LOCATION:Back Bay
+DTSTART;TZID=America/New_York:20121112T140000
+DTEND;TZID=America/New_York:20121112T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T16:00:
+ 0062a7f45c-5bd3-403b-b82a-783509fe9073
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: In this session\, authors of a submission to the 
+ posters and demonstration track as well as the Semantic Web Challenge 
+ provide a 1 minute teaser for their poster or demo. This year\, we have 
+ an exciting mix of submissions treating questions such as \"How can we 
+ interact efficiently with Linked Data?\"\, \"How can we visualize data 
+ in the Semantic Web?\" or \"How can we query and analyze Semantic Web 
+ data?
+SUMMARY:Poster\, Demo\, and SWC Minute Mandess
+LOCATION:Georgian
+DTSTART;TZID=America/New_York:20121113T160000
+DTEND;TZID=America/New_York:20121113T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-14T11:00:
+ 00fbeebd32-b3f9-453d-9273-4141730473fa
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Ivan Herman
+SUMMARY:Industry Track I
+LOCATION:Arlington
+DTSTART;TZID=America/New_York:20121114T110000
+DTEND;TZID=America/New_York:20121114T123000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-12T09:00:
+ 0004af322c-4ea3-4d75-98e9-57a24d61c6d5
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: The Joint Workshop on Semantic Technologies Applied 
+ to Biomedical Informatics and Individualized Medicine\, co-located with 
+ the 11th International Semantic Web Conference\, will bring together 
+ researchers\, developers and practitioners actively applying Semantic 
+ technologies to Biological and Medical Informatics problems. The workshop 
+ aims to attract researchers from Computer Science\, Information Science\, 
+ Biomedicine\, Bioinformatics\, and related areas to share research 
+ challenges\, results\, methods and advances in the appliance of Semantic 
+ Web technologies to two domains within Clinical and Translational 
+ research  bioinformatics and individualized medicine.
+SUMMARY:Joint Workshop on Semantic Technologies Applied to Biomedical 
+ Informatics and Individualized Medicine (SATBI+SWIM 2012)
+LOCATION:Franklin
+DTSTART;TZID=America/New_York:20121112T090000
+DTEND;TZID=America/New_York:20121112T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-11T09:00:
+ 003feb6141-a0c5-4bca-8b31-79dcd3163256
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: Ontology matching is a key interoperability enabler 
+ for the Semantic Web\, as well as a useful tactic in some classical data 
+ integration tasks dealing with the semantic heterogeneity problem. It 
+ takes the ontologies as input and determines as output an alignment\, 
+ that is\, a set of correspondences between the semantically related 
+ entities of those ontologies. These correspondences can be used for 
+ various tasks\, such as ontology merging\, data translation\, query 
+ answering or navigation on the web of data. Thus\, matching ontologies 
+ enables the knowledge and data expressed in the matched ontologies to 
+ interoperate.
+SUMMARY:The Seventh International Workshop on Ontology Matching
+LOCATION:Whittier
+DTSTART;TZID=America/New_York:20121111T090000
+DTEND;TZID=America/New_York:20121111T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-14T17:45:
+ 00de21380f-35c8-47ca-b9f2-117fd37287fd
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Abraham Bernstein\nabstract: Introduced at ISWC 2009 
+ it has become a tradition at ISWC to come together in a town hall meeting 
+ to have conference participants share ideas on what they would like to 
+ see at the future ISWCs and to discuss what works and what does not work 
+ at the conference. Please join the members of the conference organizing 
+ committee in an informal discussion about all the new events that we 
+ added to the conference program this year and tell us what you would like 
+ to see in the future and what you liked and didn't like this year.
+SUMMARY:Town Hall Meeting
+LOCATION:Georgian
+DTSTART;TZID=America/New_York:20121114T174500
+DTEND;TZID=America/New_York:20121114T184500
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-15T11:00:
+ 00227e1d2a-8a04-4d4e-9d1d-f10b2a03173d
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Andreas Harth
+SUMMARY:Scalability and Parallel Processing
+LOCATION:Plaza
+DTSTART;TZID=America/New_York:20121115T110000
+DTEND;TZID=America/New_York:20121115T123000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-12T14:00:
+ 00f828e2ba-a956-42f6-8caf-a3c43c485a08
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: The goal of this workshop is to strengthen the 
+ participation of the semantic web community in the recent surge of 
+ research on the use of events as a key concept for representing knowledge 
+ and organising and structuring media on the web. The workshop invites 
+ contributions to three central themes: event detection\, event 
+ representation\, and event exploitation. Its goal is to formulate answers 
+ to questions in these themes that advance and reflect the current state 
+ of understanding. Each submission will be expected to address at least 
+ two themes explicitly\, if possible including a system demonstration. 
+ This year\, we specifically invite contributions that address both event 
+ and conversation semantics in multimedia and social media.
+SUMMARY:Detection\, Representation\, and Exploitation of Events in the 
+ Semantic Web
+LOCATION:Cabot
+DTSTART;TZID=America/New_York:20121112T140000
+DTEND;TZID=America/New_York:20121112T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-11T14:00:
+ 00f976f645-f5be-421a-b089-b29f0787ed82
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: Most of the knowledge available on the Web is 
+ encoded in natural language texts or Web documents aimed primarily at 
+ human consumption. A promising approach to have programmatic access to 
+ such knowledge uses information extraction techniques that aim to extract 
+ machine readable structures from free texts\, from which it is possible 
+ to retrieve entities and categories. These entities can potentially be 
+ linked to each other\, creating de facto a global knowledge graph of 
+ linked entities. The WoLE2012 workshop envisions the Web as a Web of 
+ Linked Entities (WoLE)\, which transparently connects the World Wide Web 
+ (WWW) and the Giant Global Graph (GGG) using methods from Information 
+ Retrieval (IR) and Natural Language Processing (NLP). The focus of this 
+ workshop is to bring together the Information Retrieval\, Semantic Web 
+ and NLP communities. The primary goal is to strengthen research 
+ techniques that provide access to textual information published on the 
+ Web to further improve the adoption of Semantic Web technology.
+SUMMARY:Web of Linked Entities
+LOCATION:Franklin
+DTSTART;TZID=America/New_York:20121111T140000
+DTEND;TZID=America/New_York:20121111T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-15T11:00:
+ 005f2a4d7d-91b2-4d75-891b-376b918536d9
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Raphaël Troncy
+SUMMARY:Ontology Mapping
+LOCATION:Georgian
+DTSTART;TZID=America/New_York:20121115T110000
+DTEND;TZID=America/New_York:20121115T123000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-14T11:00:
+ 00c32b92c6-d696-44dc-802f-d4c54f02b008
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Paul Groth
+SUMMARY:Provenance and Verification
+LOCATION:Plaza
+DTSTART;TZID=America/New_York:20121114T110000
+DTEND;TZID=America/New_York:20121114T123000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T16:00:
+ 009e5b5fdb-eb4a-4840-ba52-44d0c04b6296
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Josiane Xavier Parreira
+SUMMARY:Federated and Stream Query Processing
+LOCATION:Arlington
+DTSTART;TZID=America/New_York:20121113T160000
+DTEND;TZID=America/New_York:20121113T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T12:30:
+ 0031a312b1-6d57-4ed6-8483-2eb5c1bd154e
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:Lunch
+LOCATION:Imperial
+DTSTART;TZID=America/New_York:20121113T123000
+DTEND;TZID=America/New_York:20121113T140000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-15T14:00:
+ 00c3f6f70b-2c89-488c-a82e-182661c97538
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Peter Patel-Schneider
+SUMMARY:Ontology Engineering and Optimization
+LOCATION:Plaza
+DTSTART;TZID=America/New_York:20121115T140000
+DTEND;TZID=America/New_York:20121115T153000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-15T09:00:
+ 00ee30d6ac-57a6-43f9-9496-589d4761b8f5
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:presenter: Mark A. Musen\nabstract: In the 1990s\, as the 
+ World Wide Web became not only world wide but also dense and ubiquitous\, 
+ workers in the artificial intelligence community were drawn to the 
+ possibility that the Web could provide the foundation for a new kind of 
+ AI.  Having survived the AI Winter of the 1980s\, the opportunities that 
+ they saw in the largest\, most interconnected computing platform 
+ imaginable were obviously compelling.  With the subsequent success of the 
+ Semantic Web\, however\, our community seems to have stopped talking 
+ about many of the issues that researchers believe led to the AI Winter in 
+ the first place: the cognitive challenges in debugging and maintaining 
+ complex systems\, the drift in the meanings ascribed to symbols\, the 
+ situated nature of knowledge\, the fundamental difficulty of creating 
+ robust models.  These challenges are still with us\; we cannot wish them 
+ away with appeals to the open-world assumption or to the law of large 
+ numbers.  Embracing these challenges will allow us to expand the scope of 
+ our science and our practice\, and will help to bring us closer to the 
+ ultimate vision of the Semantic Web.
+SUMMARY:Keynote 3: Tackling Climate Change:  Unfinished Business from the 
+ Last “Winter”
+LOCATION:Imperial
+DTSTART;TZID=America/New_York:20121115T090000
+DTEND;TZID=America/New_York:20121115T103000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T08:30:
+ 00ad6f9794-2ec5-4cce-94a6-fe52fd1601f9
+LAST-MODIFIED:20131016T053924Z
+SUMMARY:Opening Ceremony
+LOCATION:Imperial
+DTSTART;TZID=America/New_York:20121113T083000
+DTEND;TZID=America/New_York:20121113T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-13T16:00:
+ 009f83cc12-068b-449b-9b09-96b99e28736a
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:abstract: Workshop participants will discuss sketches of 
+ their papers with editors and eidtorial board members of the top Semantic 
+ Web jorunals as well as other workshop participants. The goal is to help 
+ attendees to turn the sketches into successful submissions and avoid 
+ common stumbling blocks. People who wish to participate will be asked to 
+ submit a paper sketch (see cfp). The accepted sketeches will be read by 
+ the editors and the other chosen participants prior the workshop. Prior 
+ to the workshop\, participants whose sketches have been accepted to will 
+ receive one to three other sketches to read and review. During the 
+ workshop\, participants will meet in small groups which includes an 
+ editorial board memeber. During this discussion\, participants will 
+ receive specific feedback on on the possible issues to address in order 
+ to turn the sketch into a possibly successful submission. Selection for 
+ the Journal Workshop session is competitive. Papers currently under 
+ review or revision are excluded.
+SUMMARY:Journal Workshop Session
+LOCATION:Berkeley\;Clarendon
+DTSTART;TZID=America/New_York:20121113T160000
+DTEND;TZID=America/New_York:20121113T173000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131016T053924Z
+CREATED:20131016T053924Z
+UID:The_11th_International_Semantic_Web_Conference2012-11-11T14:00:
+ 00a06b1b2b-b132-45f6-bbeb-f05457ca6f9b
+LAST-MODIFIED:20131016T053924Z
+DESCRIPTION:chair: Volker Tresp\,Maximilian Nickel\nabstract: Machine 
+ learning has become increasingly important in the context of Linked Data 
+ as it is an enabling technology for many important tasks such as link 
+ prediction\, information retrieval or group detection. The fundamental 
+ data structure of Linked Data is a graph. Graphs are also ubiquitous in 
+ many other fields of application\, such as social networks\, 
+ bioinformatics or the World Wide Web. Recently\, tensor factorizations 
+ have emerged as a highly promising approach to machine learning on 
+ graph-structured data\, showing both scalability and excellent results on 
+ benchmark data sets\, while matching perfectly to the triple structure of 
+ RDF. This tutorial will provide an introduction to tensor factorizations 
+ and their applications for machine learning on graphs. By the means of 
+ concrete tasks such as link prediction we will discuss several 
+ factorization methods in-depth and also provide necessary theoretical 
+ background on tensors in general. Emphasis is put on tensor models that 
+ are of interest to Linked Data\, which will include models that are able 
+ to factorize large-scale graphs with millions of entities and known facts 
+ or models that can handle the open-world assumption of Linked Data. 
+ Furthermore\, we will discuss tensor models for temporal and sequential 
+ graph data\, e.g. to analyze social networks over time.
+SUMMARY:Learning on Linked Data: Tensors and their Applications in 
+ Graph-Structured Domains
+LOCATION:Alcott
+DTSTART;TZID=America/New_York:20121111T140000
+DTEND;TZID=America/New_York:20121111T173000
 TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
