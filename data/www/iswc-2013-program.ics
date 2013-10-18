@@ -1,1749 +1,1438 @@
 BEGIN:VCALENDAR
-PRODID:-//K Desktop Environment//NONSGML libkcal 4.3//EN
 VERSION:2.0
-X-KDE-ICAL-IMPLEMENTATION-VERSION:1.0
-BEGIN:VTIMEZONE
-TZID:Australia/Sydney
-BEGIN:DAYLIGHT
-TZNAME:EST
-TZOFFSETFROM:+1000
-TZOFFSETTO:+1100
-DTSTART:19711031T020000
-RRULE:FREQ=YEARLY;COUNT=10;BYDAY=-1SA;BYMONTH=10
-END:DAYLIGHT
-BEGIN:DAYLIGHT
-TZNAME:EST
-TZOFFSETFROM:+1000
-TZOFFSETTO:+1100
-DTSTART:20081005T020000
-RRULE:FREQ=YEARLY;COUNT=9;BYDAY=1SA;BYMONTH=10
-END:DAYLIGHT
-BEGIN:DAYLIGHT
-TZNAME:EST
-TZOFFSETFROM:+1000
-TZOFFSETTO:+1100
-DTSTART:19170101T000100
-RDATE;VALUE=DATE-TIME:19170101T000100
-RDATE;VALUE=DATE-TIME:19420101T020000
-RDATE;VALUE=DATE-TIME:19420927T020000
-RDATE;VALUE=DATE-TIME:19431003T020000
-RDATE;VALUE=DATE-TIME:19811025T020000
-RDATE;VALUE=DATE-TIME:19821031T020000
-RDATE;VALUE=DATE-TIME:19831030T020000
-RDATE;VALUE=DATE-TIME:19841028T020000
-RDATE;VALUE=DATE-TIME:19851027T020000
-RDATE;VALUE=DATE-TIME:19861019T020000
-RDATE;VALUE=DATE-TIME:19871025T020000
-RDATE;VALUE=DATE-TIME:19881030T020000
-RDATE;VALUE=DATE-TIME:19891029T020000
-RDATE;VALUE=DATE-TIME:19901028T020000
-RDATE;VALUE=DATE-TIME:19911027T020000
-RDATE;VALUE=DATE-TIME:19921025T020000
-RDATE;VALUE=DATE-TIME:19931031T020000
-RDATE;VALUE=DATE-TIME:19941030T020000
-RDATE;VALUE=DATE-TIME:19951029T020000
-RDATE;VALUE=DATE-TIME:19961027T020000
-RDATE;VALUE=DATE-TIME:19971026T020000
-RDATE;VALUE=DATE-TIME:19981025T020000
-RDATE;VALUE=DATE-TIME:19991031T020000
-RDATE;VALUE=DATE-TIME:20000827T020000
-RDATE;VALUE=DATE-TIME:20011028T020000
-RDATE;VALUE=DATE-TIME:20021027T020000
-RDATE;VALUE=DATE-TIME:20031026T020000
-RDATE;VALUE=DATE-TIME:20041031T020000
-RDATE;VALUE=DATE-TIME:20051030T020000
-RDATE;VALUE=DATE-TIME:20061029T020000
-RDATE;VALUE=DATE-TIME:20071028T020000
-RDATE;VALUE=DATE-TIME:20171001T020000
-RDATE;VALUE=DATE-TIME:20181007T020000
-RDATE;VALUE=DATE-TIME:20191006T020000
-RDATE;VALUE=DATE-TIME:20201004T020000
-RDATE;VALUE=DATE-TIME:20211003T020000
-RDATE;VALUE=DATE-TIME:20221002T020000
-RDATE;VALUE=DATE-TIME:20231001T020000
-RDATE;VALUE=DATE-TIME:20241006T020000
-RDATE;VALUE=DATE-TIME:20251005T020000
-RDATE;VALUE=DATE-TIME:20261004T020000
-RDATE;VALUE=DATE-TIME:20271003T020000
-RDATE;VALUE=DATE-TIME:20281001T020000
-RDATE;VALUE=DATE-TIME:20291007T020000
-RDATE;VALUE=DATE-TIME:20301006T020000
-RDATE;VALUE=DATE-TIME:20311005T020000
-RDATE;VALUE=DATE-TIME:20321003T020000
-RDATE;VALUE=DATE-TIME:20331002T020000
-RDATE;VALUE=DATE-TIME:20341001T020000
-RDATE;VALUE=DATE-TIME:20351007T020000
-RDATE;VALUE=DATE-TIME:20361005T020000
-RDATE;VALUE=DATE-TIME:20371004T020000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZNAME:EST
-TZOFFSETFROM:+1100
-TZOFFSETTO:+1000
-DTSTART:19730304T030000
-RRULE:FREQ=YEARLY;COUNT=8;BYDAY=1SA;BYMONTH=3
-END:STANDARD
-BEGIN:STANDARD
-TZNAME:EST
-TZOFFSETFROM:+1100
-TZOFFSETTO:+1000
-DTSTART:20190407T030000
-RRULE:FREQ=YEARLY;COUNT=10;BYDAY=1SA;BYMONTH=4
-END:STANDARD
-BEGIN:STANDARD
-TZNAME:EST
-TZOFFSETFROM:+1100
-TZOFFSETTO:+1000
-DTSTART:19170325T020000
-RDATE;VALUE=DATE-TIME:19170325T020000
-RDATE;VALUE=DATE-TIME:19420329T020000
-RDATE;VALUE=DATE-TIME:19430328T020000
-RDATE;VALUE=DATE-TIME:19440326T020000
-RDATE;VALUE=DATE-TIME:19720227T030000
-RDATE;VALUE=DATE-TIME:19810301T030000
-RDATE;VALUE=DATE-TIME:19820404T030000
-RDATE;VALUE=DATE-TIME:19830306T030000
-RDATE;VALUE=DATE-TIME:19840304T030000
-RDATE;VALUE=DATE-TIME:19850303T030000
-RDATE;VALUE=DATE-TIME:19860316T030000
-RDATE;VALUE=DATE-TIME:19870315T030000
-RDATE;VALUE=DATE-TIME:19880320T030000
-RDATE;VALUE=DATE-TIME:19890319T030000
-RDATE;VALUE=DATE-TIME:19900304T030000
-RDATE;VALUE=DATE-TIME:19910303T030000
-RDATE;VALUE=DATE-TIME:19920301T030000
-RDATE;VALUE=DATE-TIME:19930307T030000
-RDATE;VALUE=DATE-TIME:19940306T030000
-RDATE;VALUE=DATE-TIME:19950305T030000
-RDATE;VALUE=DATE-TIME:19960331T030000
-RDATE;VALUE=DATE-TIME:19970330T030000
-RDATE;VALUE=DATE-TIME:19980329T030000
-RDATE;VALUE=DATE-TIME:19990328T030000
-RDATE;VALUE=DATE-TIME:20000326T030000
-RDATE;VALUE=DATE-TIME:20010325T030000
-RDATE;VALUE=DATE-TIME:20020331T030000
-RDATE;VALUE=DATE-TIME:20030330T030000
-RDATE;VALUE=DATE-TIME:20040328T030000
-RDATE;VALUE=DATE-TIME:20050327T030000
-RDATE;VALUE=DATE-TIME:20060402T030000
-RDATE;VALUE=DATE-TIME:20070325T030000
-RDATE;VALUE=DATE-TIME:20080406T030000
-RDATE;VALUE=DATE-TIME:20090405T030000
-RDATE;VALUE=DATE-TIME:20100404T030000
-RDATE;VALUE=DATE-TIME:20110403T030000
-RDATE;VALUE=DATE-TIME:20120401T030000
-RDATE;VALUE=DATE-TIME:20130407T030000
-RDATE;VALUE=DATE-TIME:20140406T030000
-RDATE;VALUE=DATE-TIME:20150405T030000
-RDATE;VALUE=DATE-TIME:20160403T030000
-RDATE;VALUE=DATE-TIME:20170402T030000
-RDATE;VALUE=DATE-TIME:20180401T030000
-RDATE;VALUE=DATE-TIME:20290401T030000
-RDATE;VALUE=DATE-TIME:20300407T030000
-RDATE;VALUE=DATE-TIME:20310406T030000
-RDATE;VALUE=DATE-TIME:20320404T030000
-RDATE;VALUE=DATE-TIME:20330403T030000
-RDATE;VALUE=DATE-TIME:20340402T030000
-RDATE;VALUE=DATE-TIME:20350401T030000
-RDATE;VALUE=DATE-TIME:20360406T030000
-RDATE;VALUE=DATE-TIME:20370405T030000
-END:STANDARD
-END:VTIMEZONE
+PRODID:-//program of The 12th International Semantic Web Conference//
 BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T14:20:
- 0008a0c45b-e3c9-45ed-b04e-a27d11fab74a
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Lora Aroyo\n -Reasoning on crowd-sourced semantic 
- annotations to facilitate cataloguing of 3D artefacts in the cultural 
- heritage domain ( Semantic Web In Use Track Paper)\n -Crowdsourcing 
- Linked Data Quality Assessment ( Evaluation Track Paper)
-SUMMARY:Crowd-sourced semantics
-LOCATION:Bayside 204B
-DTSTART;TZID=Australia/Sydney:20131025T142000
-DTEND;TZID=Australia/Sydney:20131025T150000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T16:55:
- 0086b781e4-c03b-49c1-8736-d4bc0aaa9fd9
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Tudor Groza\,Eva Blomqvist
-SUMMARY:Minute Madness
-LOCATION:Parkside 110B
-DTSTART;TZID=Australia/Sydney:20131023T165500
-DTEND;TZID=Australia/Sydney:20131023T180500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-21T13:45:
- 0078a63a43-dcdc-49ac-9683-c56e100df796
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:presenter: Peter Chapman\,John Howse\,Jim Burton\,Gem 
- Stapleton\,Aidan Delaney\nabstract: Ontology engineering has acknowledged 
- benefits yet the notations with which one can create such models can 
- require considerable technical expertise. There has been interest in the 
- development of visual (i.e. diagrammatic) notations that are more readily 
- accessible to those without substantial mathematical training. This 
- tutorial will demonstrate a formal visual logic\, called concept 
- diagrams\, suitable for ontology engineering. The notation has been 
- designed with regard to cognitive theories combined with an emphasis on 
- being sufficiently expressive to model rich domains. The tutorial 
- introduces concept diagrams and attendees will gain knowledge of how to 
- apply concept diagrams for ontology engineering.\n -Modelling Ontologies 
- Visually Session 1 (13:45-15:30)\n -Modelling Ontologies Visually Session 
- 2 (16:00-17:30)
-SUMMARY:Tutorial 4: Modelling Ontologies Visually
-LOCATION:Carruthers (5th Floor)
-DTSTART;TZID=Australia/Sydney:20131021T134500
-DTEND;TZID=Australia/Sydney:20131021T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-21T13:45:
- 0052afdbdb-06c5-4c8f-9df4-c504f89c1013
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Trevor Martin\,Nicola Fanizzi\,Thomas 
- Lukasiewicz\,Claudia D'Amato\,Paulo Costa\,Fernando Bobillo\,Kathryn 
- Laskey\,Mike Pool\,Rommel Carvalho\,Ken Laskey\,Matthias 
- Nickles\nabstract: This Workshop is an exciting opportunity for 
- collaboration and cross-fertilization between the uncertainty reasoning 
- community and the Semantic Web community. Effective methods for reasoning 
- under uncertainty are vital for realizing many aspects of the Semantic 
- Web vision\, but the ability of current-generation web technology to 
- handle uncertainty remains extremely limited. Thus\, there is a 
- continuing demand for uncertainty reasoning technology among Semantic Web 
- researchers and developers\, and the URSW workshop creates a unique 
- opening to bring together two communities with a clear commonality of 
- interest but limited history of interaction. By capitalizing on this 
- opportunity\, URSW could spark dramatic progress toward realizing the 
- Semantic Web vision.\n -URSW 2013 Session 1 (13:45-15:30)\n -URSW 2013 
- Session 2 (16:00-17:40)
-SUMMARY:9th International Workshop on Uncertainty Reasoning for the 
- Semantic Web
-LOCATION:Tuscan (Ground Floor)
-DTSTART;TZID=Australia/Sydney:20131021T134500
-DTEND;TZID=Australia/Sydney:20131021T174000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T15:15:
- 00c1bfb176-c835-412e-b76d-fbc15b5c4b3a
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Ben Johnston
-SUMMARY:Workshop Summaries
-LOCATION:Bayside 204A
-DTSTART;TZID=Australia/Sydney:20131024T151500
-DTEND;TZID=Australia/Sydney:20131024T161500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T18:05:
- 008c1713d7-538f-4674-9816-7c89b6891ee5
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Posters & Demos Session
-LOCATION:Parkside Ballroom B/Parkside Ballroom Foyer
-DTSTART;TZID=Australia/Sydney:20131023T180500
-DTEND;TZID=Australia/Sydney:20131023T210000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T11:00:
- 0005e7b067-91d7-4308-8f91-d274252dac72
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Marko Grobelnik\n -TRM – Learning Dependencies 
- between Text and Structure with Topical Relational Models ( Research 
- Track Paper)\n -Pattern Based Knowledge Base Enrichment ( Research Track 
- Paper)\n -Discovering Missing Semantic Relations between Entities in 
- Wikipedia ( Research Track Paper)\n -Using the past to explain the 
- present: interlinking current affairs with archives via the Semantic Web 
- ( Semantic Web In Use Track Paper)\n -A Graph-Based Approach to Learn 
- Semantic Descriptions of Data Sources ( Research Track Paper)
-SUMMARY:Knowledge Discovery
-LOCATION:Bayside 204B
-DTSTART;TZID=Australia/Sydney:20131025T110000
-DTEND;TZID=Australia/Sydney:20131025T124000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T12:40:
- 0073064cb4-c7cf-459e-9fe9-7cbb8d292541
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Lunch
-LOCATION:Parkside Ballroom Foyer
-DTSTART;TZID=Australia/Sydney:20131023T124000
-DTEND;TZID=Australia/Sydney:20131023T142000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:
- 00c920b6d9-a40d-44ef-8b77-870afe3baead
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Pavel Shvaiko\,Ming Mao\,Kavitha Srinivas\,Jérôme 
- Euzenat\,Ernesto Jiménez-Ruiz\nabstract: Ontology matching is a key 
- interoperability enabler for the Semantic Web\, as well as a useful 
- tactic in some classical data integration tasks dealing with the semantic 
- heterogeneity problem. It takes the ontologies as input and determines as 
- output an alignment\, that is\, a set of correspondences between the 
- semantically related entities of those ontologies. These correspondences 
- can be used for various tasks\, such as ontology merging\, data 
- translation\, query answering or navigation on the web of data. Thus\, 
- matching ontologies enables the knowledge and data expressed in the 
- matched ontologies to interoperate.\n -OM-2013 Session 1 (09:00-10:45)\n 
- -OM-2013 Morning Tea / Poster session (10:45-11:45)\n -OM-2013 Paper 
- presentation session 2 (11:45-12:45)\n -OM-2013 Session 3 (OAEI-2013) (14:
- 00-15:30)\n -OM-2013 Afternoon Tea / Poster session (15:30-16:30)\n 
- -OM-2013 Discussion and wrap-up (16:30-17:30)
-SUMMARY:8th International Workshop on Ontology Matching
-LOCATION:Ionic (Ground Floor)
-DTSTART;TZID=Australia/Sydney:20131021T090000
-DTEND;TZID=Australia/Sydney:20131021T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:
- 00b8ef4f10-d806-465a-8e60-811e1202c353
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Sam Coppens\,Miel Vander Sande\,Marco Neumann\,Magnus 
- Knuth\,Karl Hammar\,Dominique Ritze\nabstract: Over the years\, Semantic 
- Web based systems\, applications\, and tools have shown significant 
- improvement. Their development and deployment shows the steady maturing 
- of semantic technologies and demonstrates their value in solving current 
- and emerging problems. Examples include enabling generic clients\, 
- facilitating autonomous agents and large scale distributed data 
- integration. Despite the encouraging figures\, the number of enterprises 
- working on and with these technologies is dwarfed by the large number who 
- have not yet adopted semantic technologies. Current adoption is mainly 
- restricted to methodologies provided by the research community. Although 
- Semantic Web acts as candidate technology to the industry\, it does not 
- win through in current enterprise challenges like data fusion\, data 
- integration or natural language processing (e.g. IBM Watson). To better 
- understand the market dynamics uptake needs to be addressed and if 
- possible quantified.\n -WaSABi session 1 (09:00-10:30)\n -WaSABi session 
- 2 (11:00-12:45)
-SUMMARY:workshop on Semantic Web Enterprise Adoption and Best Practice
-LOCATION:Doric (Ground Floor)
-DTSTART;TZID=Australia/Sydney:20131022T090000
-DTEND;TZID=Australia/Sydney:20131022T124500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T14:20:
- 00af377eb8-f12d-4a8a-bb88-aace640a369e
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Axel Polleres\n -One License to Compose Them All: a 
- deontic logic approach to data licensing on the Web of Data ( Research 
- Track Paper)\n -A Confidentiality Model for Ontologies ( Research Track 
- Paper)
-SUMMARY:Licensing and Confidentiality Models
-LOCATION:Bayside 204A
-DTSTART;TZID=Australia/Sydney:20131025T142000
-DTEND;TZID=Australia/Sydney:20131025T150000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T14:20:
- 0047b4c0ed-0739-44d0-90de-dbfe9f075c2c
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Semantic Web Challenge 1
-LOCATION:Bayside 202-203
-DTSTART;TZID=Australia/Sydney:20131024T142000
-DTEND;TZID=Australia/Sydney:20131024T150000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T15:15:
- 00291b0d89-b5e1-4943-949e-217ca0458dc4
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Jeff Z. Pan\n -A decision procedure for SHOIQ with 
- transitive closure of roles ( Research Track Paper)\n -Empirical Study of 
- Logic-Based Modules: Cheap Is Cheerful ( Research Track Paper)
-SUMMARY:Logic 2
-LOCATION:Bayside 204B
-DTSTART;TZID=Australia/Sydney:20131024T151500
-DTEND;TZID=Australia/Sydney:20131024T161500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:
- 0001a9d542-841d-472c-be38-6788656d2e1c
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Payam Barnaghi\,Oscar Corcho\,Manfred Hauswirth\,Kerry 
- Taylor\,Cory Henson\,Amit Sheth\nabstract: It is estimated that today 
- there are 4 billion mobile devices that can act as sensors\, including 
- active and passive RFID tags. This is complemented by an even larger 
- number of fixed sensors recording observations of a wide variety of 
- modalities. Geographically distributed sensor nodes are capable of 
- forming ad hoc networking topologies\, with nodes expected to be 
- dynamically inserted and removed from a network. The sensors are 
- increasingly being connected with Web infrastructure\, and the Sensor Web 
- Enablement (SWE) standard developed by the Open Geospatial Consortium is 
- widely being adopted in industry\, government and academia alike. While 
- such frameworks provide some interoperability\, semantics is increasingly 
- seen as key enabler for integration of sensor data and broader Web 
- information systems. Analytical and reasoning capabilities afforded by 
- Semantic Web standards and technologies are considered important for 
- developing advanced applications that go from capturing observations to 
- recognition of events and ultimately developing comprehensive situational 
- awareness. Defense\, transportation\, global enterprise\, and natural 
- resource management industries are leading the rapid emergence of 
- applications in commercial\, civic\, and scientific operations that 
- involve sensors\, web\, services and semantics. Semantic technologies are 
- often proposed as important components of complex\, 
- cross-jurisdictional\, heterogeneous\, dynamic information systems. The 
- needs and opportunities arising from the rapidly growing capabilities of 
- networked sensing devices are a challenging case.\n -SSN 2013 Session 1 
- (09:00-10:30)\n -SSN 2013 Session 2 (11:00-12:45)
-SUMMARY:6th International Workshop on Semantic Sensor Networks
-LOCATION:Northcott (5th Floor)
-DTSTART;TZID=Australia/Sydney:20131022T090000
-DTEND;TZID=Australia/Sydney:20131022T124500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:
- 00ad726ca7-7c17-4fc9-b6f8-b83b968bdc29
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Sebastian Hellmann\,Pablo Mendes\,Dimitris 
- Kontokostas\,Caroline Barrière\,Agata Filipowska\nabstract: Recently\, 
- the DBpedia community has experienced an immense increase in activity and 
- we believe\, that the time has come to explore the connection between 
- DBpedia & Natural Language Processing (NLP) in a yet unpreceded depth. 
- The goal of this workshop can be summarized by this (pseudo-) formula: 
- DBpedia & NLP ≡ DBpedia4NLP ⨅ NLP4DBpedia. DBpedia has a 
- long-standing tradition to provide useful data as well as a commitment to 
- reliable Semantic Web technologies and living best practices. With the 
- rise of WikiData\, DBpedia is step-by-step relieved from the tedious 
- extraction of data from Wikipedia’s infoboxes and can shift its focus 
- on new challenges such as extracting information from the unstructured 
- article text as well as becoming a testing ground for multilingual NLP 
- methods.\n -Dbpedia & NLP 2013 Session 1 (09:00-10:30)\n -DBpedia & NLP 
- 2013 Session 2 (11:00-12:45)\n -Dbpedia & NLP 2013 Session 3 (13:45-15:
- 30)\n -Dbpedia & NLP 2013 Session 4 (16:00-17:30)
-SUMMARY:DBpedia & NLP 2013
-LOCATION:Grand Lodge (1st Floor)
-DTSTART;TZID=Australia/Sydney:20131022T090000
-DTEND;TZID=Australia/Sydney:20131022T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:
- 00276e9e06-3725-48e2-ac00-77ddb80208d5
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Paul Groth\,Marieke Van Erp\,Line C. Pouchard\,Jun 
- Zhao\,Tomi Kauppinen\,Carole Goble\,Jacco van Ossenbruggen\,Carsten 
- Keßler\,Yolanda Gil\nabstract: This workshop aims to discuss and present 
- results of new ways of applying Semantic Web technologies to the 
- publishing\, sharing and interlinking of scientific data and methods\, 
- and to the reasoning over such resources to discover interesting new 
- links to validate\, reuse and reproduce scientific research. The theme of 
- this year’s workshop is “Supporting Reproducibility\, Scientific 
- Investigations and Experiments”. We will focus on scientific 
- investigations and experiments that use Linked Data and semantic 
- technologies to represent their data and methods and enable their 
- knowledge discovery\, reuse and validation.\n -LISC 2013 Session 1 (09:
- 00-10:30)\n -LISC 2013 Session 2 (11:00-12:45)\n -LISC 2013 Session 3 (13:
- 45-15:30)\n -LISC 2013 Session 4 (Co-writing) (16:00-17:30)
 SUMMARY:3rd International Workshop on Linked Science 2013
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T173000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:00b7298
+ a22-5cbf-4ac9-9a57-b68025469ff4
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Paul Groth\,Marieke Van Erp\,Line C. Pouchard\,Jun Zhao
+ \,Tomi Kauppinen\,Carole Goble\,Jacco van Ossenbruggen\,Carsten Keßler\,Y
+ olanda Gil\nabstract: This workshop aims to discuss and present results of
+  new ways of applying Semantic Web technologies to the publishing\, sharin
+ g and interlinking of scientific data and methods\, and to the reasoning o
+ ver such resources to discover interesting new links to validate\, reuse a
+ nd reproduce scientific research. The theme of this year’s workshop is 
+ “Supporting Reproducibility\, Scientific Investigations and Experiments
+ ”. We will focus on scientific investigations and experiments that use L
+ inked Data and semantic technologies to represent their data and methods a
+ nd enable their knowledge discovery\, reuse and validation.\n -LISC 2013 S
+ ession 1 (09:00-10:30)\n -LISC 2013 Session 2 (11:00-12:45)\n -LISC 2013 S
+ ession 3 (13:45-15:30)\n -LISC 2013 Session 4 (Co-writing) (16:00-17:30)
 LOCATION:Rawson (5th Floor)
-DTSTART;TZID=Australia/Sydney:20131021T090000
-DTEND;TZID=Australia/Sydney:20131021T173000
-TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T09:15:
- 0062e52a84-d47b-4b86-ac1e-32fb2f955bac
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Chris Welty\npresenter: Ramanathan V. Guha\nabstract: 
- A significant fraction of the pages on the web are generated from 
- structured databases. A longstanding goal of the semantic web initiative 
- is to get webmasters to make this structured data directly available on 
- the web. The path towards this objective has been rocky at best. While 
- there have been some notable wins (such as RSS and FOAF)\, many of the 
- other initiatives have seen little industry adoption. Learning from these 
- earlier attempts has guided the development of schema.org\, which appears 
- to have altered the trajectory. Two years after its launch over 4 million 
- Internet domains are are using schema.org markup. In this talk\, we 
- recount the history behind the early efforts and try to understand why 
- some of them succeeded while others failed. We will then give an update 
- on Schema.org\, its goals\, accomplishments and where it is headed. We 
- will also discuss some of the interesting research problems being 
- addressed in the context of this effort.
-SUMMARY:Light at the End of the Tunnel
-LOCATION:Parkside Ballroom B
-DTSTART;TZID=Australia/Sydney:20131023T091500
-DTEND;TZID=Australia/Sydney:20131023T101500
-TRANSP:OPAQUE
+SUMMARY:8th International Workshop on Ontology Matching
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T173000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:002dc34
+ 687-246c-4006-a91f-6a717cb6f5fb
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Pavel Shvaiko\,Ming Mao\,Kavitha Srinivas\,Jérôme Euz
+ enat\,Ernesto Jiménez-Ruiz\nabstract: Ontology matching is a key interope
+ rability enabler for the Semantic Web\, as well as a useful tactic in some
+  classical data integration tasks dealing with the semantic heterogeneity 
+ problem. It takes the ontologies as input and determines as output an alig
+ nment\, that is\, a set of correspondences between the semantically relate
+ d entities of those ontologies. These correspondences can be used for vari
+ ous tasks\, such as ontology merging\, data translation\, query answering 
+ or navigation on the web of data. Thus\, matching ontologies enables the k
+ nowledge and data expressed in the matched ontologies to interoperate.\n -
+ OM-2013 Session 1 (09:00-10:45)\n -OM-2013 Morning Tea / Poster session (1
+ 0:45-11:45)\n -OM-2013 Paper presentation session 2 (11:45-12:45)\n -OM-20
+ 13 Session 3 (OAEI-2013) (14:00-15:30)\n -OM-2013 Afternoon Tea / Poster s
+ ession (15:30-16:30)\n -OM-2013 Discussion and wrap-up (16:30-17:30)
+LOCATION:Ionic (Ground Floor)
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T11:00:
- 00537a23b2-02c3-4759-a621-f33ff8add80f
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Abraham Bernstein\n -Social listening of City Scale 
- Events using the Streaming Linked Data Framework ( Semantic Web In Use 
- Track Paper)\n -Elastic and scalable processing of Linked Stream Data in 
- the Cloud ( Research Track Paper)\n -Real-time Urban Monitoring in Dublin 
- using Semantic and Stream Technologies ( Semantic Web In Use Track 
- Paper)\n -On Correctness in RDF stream processor benchmarking ( 
- Evaluation Track Paper)\n -Real-time RDF extraction from unstructured 
- data streams ( Research Track Paper)
-SUMMARY:Streams
-LOCATION:Bayside 202-203
-DTSTART;TZID=Australia/Sydney:20131024T110000
-DTEND;TZID=Australia/Sydney:20131024T124000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T14:20:
- 00316dbb93-1244-4087-b66e-4b606535f416
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Asunción Gómez-Pérez\n -Towards an automatic 
- creation of localized versions of DBpedia ( Research Track Paper)\n 
- -Cross-language Semantic Retrieval and Linking of E-gov Services ( 
- Semantic Web In Use Track Paper)
-SUMMARY:Multilingual Semantics
-LOCATION:Bayside 204A
-DTSTART;TZID=Australia/Sydney:20131024T142000
-DTEND;TZID=Australia/Sydney:20131024T150000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T11:00:
- 00c02b1c80-0d45-4ab7-b5e9-fb11f1b60094
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Axel Polleres\n -Evaluating and benchmarking SPARQL 
- query containment solvers ( Evaluation Track Paper)\n -Introducing 
- Statistical Design of Experiments to SPARQL Endpoint Evaluation ( 
- Evaluation Track Paper)\n -FedSearch: efficiently combining structured 
- queries and full-text search in a SPARQL federation ( Research Track 
- Paper)\n -SPARQL Web-Querying Infrastructure: Ready for Action? ( 
- Evaluation Track Paper)\n -NoSQL Databases for RDF: An Empirical 
- Evaluation ( Evaluation Track Paper)
-SUMMARY:SPARQL
-LOCATION:Bayside 204A
-DTSTART;TZID=Australia/Sydney:20131024T110000
-DTEND;TZID=Australia/Sydney:20131024T124000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T12:40:
- 009aec56e7-cbbf-4f97-9a39-3e2f85e1fc08
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Lunch
-LOCATION:Parkside Ballroom Foyer
-DTSTART;TZID=Australia/Sydney:20131024T124000
-DTEND;TZID=Australia/Sydney:20131024T142000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T15:15:
- 0057ecd820-7ff1-4cac-afc9-a4346b7c98d6
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Fabien Gandon\n -Semantic Message Passing for 
- Generating Linked Data from Tables ( Research Track Paper)\n -A 
- Linked-Data-driven and Semantically-enabled Journal Portal for 
- Scientometrics ( Semantic Web In Use Track Paper)\n -TRank: Ranking 
- Entity Types Using the Web of Data ( Research Track Paper)
-SUMMARY:Linked Data 2
-LOCATION:Bayside 202-203
-DTSTART;TZID=Australia/Sydney:20131025T151500
-DTEND;TZID=Australia/Sydney:20131025T161500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:
- 00537fbd2e-d495-40ed-ab01-f41be9ae12c3
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:presenter: Maribel Acosta\,Gianluca Demartini\,Elena 
- Simperl\nabstract: Microtask crowdsourcing platforms\, as one of the most 
- popular instance of social computing technologies\, are increasingly used 
- to support massively collaborative projects on semantic content 
- management. In this tutorial we will introduce the most popular 
- approaches to microtask crowdsourcing for Semantic Web problems\, as a 
- mean to realize hybrid human-machine content management architectures. We 
- will explain the core notions and technologies\, including Amazon 
- Mechanical Turk\, CrowdFlower and specifically purposed tools building 
- upon the functionality of these platforms. We will address questions 
- related to quality assurance\, resource management\, and workflow 
- design\, and discuss a series of technical and socio-economical 
- challenges and open issues related to the application of microtask 
- crowdsourcing in given Semantic Web scenarios.\n -Microtask tutorial 
- session 1 (09:00-10:30)\n -Microtask tutorial session 2 (11:00-12:45)\n 
- -Microtask tutorial session 3 (13:45-15:30)\n -Microtask tutorial session 
- 4 (15:30-17:30)
-SUMMARY:Tutorial 5: Microtask crowdsourcing to solve Semantic Web 
- problems
-LOCATION:Rawson (5th Floor)
-DTSTART;TZID=Australia/Sydney:20131022T090000
-DTEND;TZID=Australia/Sydney:20131022T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T14:20:
- 009fe3cb76-2d41-4824-9512-b374ba2175e6
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Jeff Z. Pan\n -Simplifying Description Logic 
- Ontologies ( Research Track Paper)\n -The Logic of Extensional RDFS ( 
- Research Track Paper)
-SUMMARY:Logic 1
-LOCATION:Bayside 204B
-DTSTART;TZID=Australia/Sydney:20131024T142000
-DTEND;TZID=Australia/Sydney:20131024T150000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T12:40:
- 009d5abb53-697f-43c0-9657-901b674b190b
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Lunch
-LOCATION:Parkside Ballroom Foyer
-DTSTART;TZID=Australia/Sydney:20131025T124000
-DTEND;TZID=Australia/Sydney:20131025T142000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T11:00:
- 0046e72f6a-32cc-4771-a684-3492f9ee8cde
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Jérôme Euzenat\n -Indented Tree or Graph? A 
- Usability Study of Ontology Visualization Techniques in the Context of 
- Class Mapping Evaluation ( Research Track Paper)\n -String Similarity 
- Metrics for Ontology Alignment ( Evaluation Track Paper)\n -Evaluation 
- measures for ontology matchers in supervised matching scenarios ( 
- Evaluation Track Paper)\n -QODI: Query as Context in Automatic Data 
- Integration ( Research Track Paper)\n -What's in a 'nym'? Synonyms in 
- Biomedical Ontology Matching ( Research Track Paper)
-SUMMARY:Ontology Mapping
-LOCATION:Bayside 202-203
-DTSTART;TZID=Australia/Sydney:20131025T110000
-DTEND;TZID=Australia/Sydney:20131025T124000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T15:15:
- 009b5e9799-2bfb-4302-80c9-330cdb12eecd
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Axel-Cyrille Ngonga Ngomo\n -Knowledge Graph 
- Identification ( Research Track Paper)\n -Type Inference on Noisy RDF 
- Data ( Research Track Paper)\n -Statistical Knowledge Patterns: 
- Identifying Synonymous Relations in Large Linked Datasets ( Research 
- Track Paper)
-SUMMARY:Knowledge Extraction
-LOCATION:Bayside 204A
-DTSTART;TZID=Australia/Sydney:20131025T151500
-DTEND;TZID=Australia/Sydney:20131025T161500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-22T13:45:
- 005ee1f9fa-10d1-4379-a6b6-085abe2757da
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Stefan Schlobach\,Markus Krötzsch\,Irene 
- Celino\,Emanuele Della Valle\nabstract: More and more applications 
- require real-time processing of massive\, dynamically generated\, ordered 
- data\; where order is often an essential factor reflecting recency\, 
- proximity or relevance. Stream and rank-aware data management techniques 
- are progressively providing reactive and reliable query answering over 
- such massive datasets\, allowing integration of highly dynamic sources. 
- Key to their success is the use of streaming algorithms that harness the 
- natural or enforceable orders in the data. The expressive power of 
- Semantic technologies is needed in those applications\, but Semantic 
- Technologies risk being unable to address the needs of those 
- applications\, because they do not consider ordering as an essential 
- property. Ranking results is often seen as an “added task”\, 
- performed after inference\, without affecting the inference process\, 
- which is order-agnostic. However\, we perceive a trend towards 
- order-aware semantic technologies: both researchers and practitioners 
- understand that order matters in reasoning over massive and highly 
- dynamic data. The idea of Stream Reasoning is gaining considerable 
- momentum. Some top-k query answering techniques for Linked Data appeared. 
- Several works are considering SPARQL query answering on RDF annotated 
- with labels partially ordered. The Description Logic community is 
- investigating top-k ontological query answering. This workshop aims at 
- bringing together this growing and very active community interested in 
- integrating ordering with reasoning by using methods inspired by stream 
- and rank-aware data management. We see this workshop as a first step to 
- stimulate and guide a paradigm shift in semantic technologies.\n -OrdRing 
- 2013 Session 1 (13:45-15:30)\n -OrdRing 2013 Session 2 (16:00-17:55)
-SUMMARY:2nd International Workshop on Ordering and Reasoning
-LOCATION:Doric (Ground Floor)
-DTSTART;TZID=Australia/Sydney:20131022T134500
-DTEND;TZID=Australia/Sydney:20131022T175500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T09:00:
- 0017b9be83-b9a2-49a3-853d-fc304abe810a
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Opening Ceremony
-LOCATION:Parkside Ballroom B
-DTSTART;TZID=Australia/Sydney:20131023T090000
-DTEND;TZID=Australia/Sydney:20131023T091500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T16:15:
- 00d3f7a4ab-0e7c-41fe-bcab-c70a82505dc2
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Afternoon Tea
-LOCATION:Parkside Ballroom Foyer
-DTSTART;TZID=Australia/Sydney:20131023T161500
-DTEND;TZID=Australia/Sydney:20131023T165500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T16:55:
- 00a6599da0-2434-4c7a-8fc6-1eaea66e1c38
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Closing Ceremony
-LOCATION:Bayside 201-203
-DTSTART;TZID=Australia/Sydney:20131025T165500
-DTEND;TZID=Australia/Sydney:20131025T180500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:
- 00499a0e17-551e-4d75-a089-652a175238b4
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Natasha F. Noy\,Maribel Acosta\,Lora Aroyo\,Jens 
- Lehmann\,Elena Simperl\,Abraham Bernstein\nabstract: This interactive 
- workshop takes stock of the emergent work and chart the research agenda 
- with interactive sessions to brainstorm ideas and potential applications 
- of collective intelligence to solving AI hard semantic web problems. The 
- Global Brain Semantic Web—a Semantic Web interleaving a large number of 
- human and machine computation—has great potential to overcome some of 
- the issues of the current Semantic Web. In particular\, semantic 
- technologies have been deployed in the context of a wide range of 
- information management tasks in scenarios that are increasingly 
- significant in both technical (data size\, variety and complexity of data 
- sources) and economical terms (industries addressed and their market 
- volume). For many of these tasks\, machine-driven algorithmic techniques 
- aiming at full automation do not reach a level of accuracy that many 
- production environments require. Enhancing automatic techniques with 
- human computation capabilities is becoming a viable solution in many 
- cases. We believe that there is huge potential at the intersection of 
- these disciplines - large scale\, knowledge-driven\, information 
- management and crowdsourcing - to solve technically challenging problems 
- purposefully and in a cost effective manner.\n -CrowdSem Session 1 (09:
- 00-10:30)\n -CrowdSem Session 2 (11:00-12:45)\n -CrowdSem Session 3 (13:
- 45-15:30)\n -CrowdSen Session 4 (16:00-17:30)
 SUMMARY:Crowdsourcing the Semantic Web
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T173000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:00acd92
+ cec-3dbc-4d23-95d3-ba5dd62c977f
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Natasha F. Noy\,Maribel Acosta\,Lora Aroyo\,Jens Lehman
+ n\,Elena Simperl\,Abraham Bernstein\nabstract: This interactive workshop t
+ akes stock of the emergent work and chart the research agenda with interac
+ tive sessions to brainstorm ideas and potential applications of collective
+  intelligence to solving AI hard semantic web problems. The Global Brain S
+ emantic Web—a Semantic Web interleaving a large number of human and mach
+ ine computation—has great potential to overcome some of the issues of th
+ e current Semantic Web. In particular\, semantic technologies have been de
+ ployed in the context of a wide range of information management tasks in s
+ cenarios that are increasingly significant in both technical (data size\, 
+ variety and complexity of data sources) and economical terms (industries a
+ ddressed and their market volume). For many of these tasks\, machine-drive
+ n algorithmic techniques aiming at full automation do not reach a level of
+  accuracy that many production environments require. Enhancing automatic t
+ echniques with human computation capabilities is becoming a viable solutio
+ n in many cases. We believe that there is huge potential at the intersecti
+ on of these disciplines - large scale\, knowledge-driven\, information man
+ agement and crowdsourcing - to solve technically challenging problems purp
+ osefully and in a cost effective manner.\n -CrowdSem Session 1 (09:00-10:3
+ 0)\n -CrowdSem Session 2 (11:00-12:45)\n -CrowdSem Session 3 (13:45-15:30)
+ \n -CrowdSen Session 4 (16:00-17:30)
 LOCATION:Northcott (5th Floor)
-DTSTART;TZID=Australia/Sydney:20131021T090000
-DTEND;TZID=Australia/Sydney:20131021T173000
-TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T10:15:
- 00e9f8962a-d7a8-4930-8c49-6475d7dd0981
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Morning Tea
-LOCATION:Parkside Ballroom Foyer
-DTSTART;TZID=Australia/Sydney:20131025T101500
-DTEND;TZID=Australia/Sydney:20131025T110000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T14:20:
- 00737a8dda-8283-4594-88f5-41a60a1d86d3
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Patrice Seyed\n -Semantic Data and Models Sharing in 
- systems Biology: The Just Enough Results Model and the SEEK Platform ( 
- Semantic Web In Use Track Paper)\n -Using Semantic Web in ICD-11: Three 
- Years Down the Road ( Semantic Web In Use Track Paper)
-SUMMARY:Life Science
-LOCATION:Parkside Ballroom B
-DTSTART;TZID=Australia/Sydney:20131023T142000
-DTEND;TZID=Australia/Sydney:20131023T150000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T12:40:
- 00a1977a53-9739-4089-8d63-882179f81d1e
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:ISWC2014 Lunch
-LOCATION:Invitation only
-DTSTART;TZID=Australia/Sydney:20131025T124000
-DTEND;TZID=Australia/Sydney:20131025T142000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:
- 007b39f873-4c85-45b3-a4d6-672a6b6dcf54
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Yves Raimond\,Mark Sandler\,David De Roure\nabstract: 
- This workshop provides a forum to explore and promote the applications of 
- Semantic Web Technologies in the domain of music and time-based media. 
- Emerging activities in research\, development and production\, driven by 
- projects in both academia and industry\, are already spanning many 
- aspects of the creation\, management\, discovery\, delivery and analysis 
- of musical and media content. This workshop brings together this 
- community to share information and practice\, and especially to 
- articulate the research agenda in Semantic Music and Media\, e.g. 
- \"end-to-end semantics\" through the lifecycle of digital media. This 
- workshop aims at facilitating innovation and helping to achieve the full 
- potential of Semantic Web in this domain\, as well as informing Semantic 
- Web research and its application to this area.\n -SMAM 2013 Session 1 (09:
- 00-10:30)\n -SMAM 2013 Session 2 (11:00-12:45)
-SUMMARY:1st International Workshop on Semantic Music and Media
-LOCATION:Tuscan (Ground Floor)
-DTSTART;TZID=Australia/Sydney:20131021T090000
-DTEND;TZID=Australia/Sydney:20131021T124500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:
- 00d1e010f8-23d1-4b6b-931a-0d8674fde246
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Stefan Decker\,Sabrina Kirrane\,Jim Hendler\nabstract: 
- We (the Semantic Web community) are responsible for the conception of 
- technologies that enable large scale integration and mining of personal 
- and public information in all domains of society. This brings 
- unprecedented advantages\, assists humans\, organisations and systems 
- with problem solving\, enables innovation and increases productivity. It 
- makes everything more transparent. However this transparency comes at a 
- price: the loss of our privacy. There has been growing awareness within 
- the community of the need to address privacy and security concerns. To 
- date the focus has been on researching specific privacy and security 
- models and frameworks\, for example for access control\, obfuscation\, 
- anonymization\, aggregation\, licensing\, etc. However we are “putting 
- the cart before the horse”\, we need to identify clear privacy and 
- security requirements before proposing technical solutions. With this 
- workshop we aim at the following goals: First\, raise awareness that the 
- technologies the community are working on have global societal 
- consequences. Vice versa\, our research can be guided by determining a 
- road map for desirable privacy goals. We aim to determine first steps 
- towards identifying desirable goals. Second\, raise awareness of 
- interconnections between the different communities that are involved in 
- Web privacy and security ­ e.g.\, policy makers\, users\, social 
- sciences and computer scientists and provide a platform for 
- interconnection and communication. Third\, determine the next steps that 
- need to be conducted in order to broaden the level of engagement between 
- the relevant parties.\n -PRIVON 2013 Session 1 (09:00-10:30)\n -PRIVON 
- 2013 Session 2 (11:00-12:45)\n -PRIVON 2013 Session 3 - Parallel Open 
- Space Discussions (13:45-15:30)\n -PRIVON 2013 Session 4 - Parallel Open 
- Space Discussions Report back from Open Space and Follow Up actions (16:
- 00-17:30)
-SUMMARY:Society\, Privacy and the Semantic Web - Policy and Technology
-LOCATION:Lodge Room 3 (3rd Floor)
-DTSTART;TZID=Australia/Sydney:20131022T090000
-DTEND;TZID=Australia/Sydney:20131022T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T11:00:
- 00d1eb3cc3-bfc8-4a95-93ca-c9afd3d0efb4
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:-Invited Talk -- Andrew Woolf (11:00-12:00 InvitedTalk)\n -A 
- Semantic Approach to Data Center Management (12:00-12:20 Industry Track 
- Paper)\n -How Semantic Technologies supercharge a platform for 
- context-aware applications (12:20-12:40 Industry Track Paper)
-SUMMARY:Industry 1
-LOCATION:Parkside 110A
-DTSTART;TZID=Australia/Sydney:20131023T110000
-DTEND;TZID=Australia/Sydney:20131023T124000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-22T13:45:
- 00f2425799-9286-4155-88bf-73e8057ba4ae
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:presenter: Marko Grobelnik\,Dunja Mladenic\,Blaž 
- Fortuna\nabstract: The tutorial on Big Data Management will cover the 
- current state of the Big Data area of research and applications. The 
- emphasis will be on the research aspects of the Big Data presenting the 
- characteristic algorithms running under the hood of the Big Data 
- platforms and applications. The key contribution will be the systematic 
- overview of the key building blocks which make Big Data management 
- different from the traditional data management approaches (including 
- relational data bases\, semantic technologies and data analytics). In the 
- last part of the tutorial we will present several working systems 
- explaining the architecture and design decisions.\n -Big Data Management 
- Session 1 (13:45-15:30)\n -Big Data Management Session 2 (16:00-17:30)
-SUMMARY:Tutorial 8: Big Data Management
-LOCATION:Carruthers (5th Floor)
-DTSTART;TZID=Australia/Sydney:20131022T134500
-DTEND;TZID=Australia/Sydney:20131022T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T09:15:
- 00b402661e-f64f-4b0f-8a85-5891e23d1db5
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Kerry Taylor\npresenter: Jane Hunter\nabstract: This 
- keynote will describe a number of projects being undertaken at the 
- University of Queensland eResearch Lab that are pushing Semantic Web 
- technologies to their limit to help solve grand challenges in the 
- environmental\, cultural and medical domains. In each of these use 
- cases\, we are integrating multi-modal data streams across space\, time\, 
- disciplines\, formats and agencies to infer and expose new knowledge 
- through rich multi-layered and interactive visualizations. We are 
- developing hypothesis-based query interfaces that provide evidence to 
- validate or refute hypotheses and decision support services that 
- recommend the optimum actions given current or predicted scenarios. We 
- are using ontologies to influence and adapt government policies by 
- linking policy-driven implementations\, investments and management 
- actions to real world indicators. Through evaluation of the methods and 
- assessment of the achievements associated with the OzTrack\, eReef\, 
- Skeletome and Twentieth Century in Paint projects\, I will highlight 
- those Semantic Web technologies that have worked for us and our user 
- communities\, those that haven't and those that need improvement. 
- Finally\, I will discuss what I believe will be the major outstanding 
- research challenges facing Semantic Big Data in the next 5 years and 
- those research areas with the greatest potential for impact.
-SUMMARY:Semantic Big Data in Australia - from Dingoes to Drysdale
-LOCATION:Parkside  Ballroom B
-DTSTART;TZID=Australia/Sydney:20131025T091500
-DTEND;TZID=Australia/Sydney:20131025T101500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T14:20:
- 0083db1bc0-225f-4f93-b44e-c6f1271daba8
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:-DISQOVER Links For Lives: Building a Linked Data UX (User 
- eXperience) for Federated Query and Faceted Search Linking HealthCare and 
- Life sciences Data for All Users (14:20-14:40 Industry Track Paper)\n 
- -Semantic Business Architecture Modelling in Financial Industry 
- Regulation (14:40-15:00 Industry Track Paper)
-SUMMARY:Industry 2
-LOCATION:Parkside 110A
-DTSTART;TZID=Australia/Sydney:20131023T142000
-DTEND;TZID=Australia/Sydney:20131023T150000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T18:45:
- 00f41d17ba-e094-4a1f-9d23-a756fd94df06
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Dinner Cruise
-LOCATION:King Street Wharf
-DTSTART;TZID=Australia/Sydney:20131024T184500
-DTEND;TZID=Australia/Sydney:20131024T230000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:
- 00f7233653-5d58-410f-96bf-5487e1dfdf0e
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:-Doctoral Consortium Welcome (09:00-09:10)\n -Introduction 
- Talk: Research Questions and Scientific Hypotheses (09:10-10:00)\n 
- -Coffee break (10:00-11:00)\n -Paper presentations I (11:00-12:15)\n 
- -Follow-up Poster Session I (12:15-12:45)\n -Lunch (12:45-13:45)\n -Paper 
- Presentations II (13:45-15:00)\n -Follow-up Poster Session II (15:00-15:
- 30)\n -Coffee break (15:30-16:00)\n -Paper Presentations III (16:00-17:
- 00)\n -Follow-up Poster Session III (17:00-17:30)\n -Wrap-up (17:30-17:
- 45)
-SUMMARY:ISWC 2013 Doctoral Consortium
-LOCATION:Boardroom (4th Floor)
-DTSTART;TZID=Australia/Sydney:20131022T090000
-DTEND;TZID=Australia/Sydney:20131022T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:
- 0087ca6243-3724-44f9-8091-c4d67b9c9b41
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:presenter: Juan Sequeda\,Daniel Miranker\,Barry 
- Norton\nabstract: In one study it was reported that there is 500 times as 
- much data in the hidden or deep web\, then there is in crawlable\, 
- indexable web pages. Most of this data is stored in relational databases. 
- Hence\, the Semantic Web’s promise of Web-scale data integration will 
- only live up to its true promise with the inclusion of legacy relational 
- database management systems (RDBMS). Two new\, interrelated and 
- complementary W3C standards\, “Direct Mapping of Relational Data to 
- RDF” and “R2RML: RDB to RDF Mapping Language”\, are poised to 
- enable this data into the web of Linked Data. This tutorial will 
- introduce\, contrast and explain the preferred solution organizations 
- embodies by these two standards. The tutorial will also include a 
- hands-on session.\n -Relational Database to RDF Session 1 (09:00-10:30)\n 
- -Relational Database to RDF Session 2 (11:00-12:45)\n -Relational 
- Database to RDF Session 3 (13:45-15:30)\n -Relational Database to RDF 
- Session 4 (16:00-17:30)
-SUMMARY:Tutorial 1: Relational Database to RDF (RDB2RDF)
-LOCATION:Boardroom (4th Floor)
-DTSTART;TZID=Australia/Sydney:20131021T090000
-DTEND;TZID=Australia/Sydney:20131021T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T11:00:
- 00c2c8b5b3-e29d-454d-8ca2-21c1d1db1403
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Sofia Pinto\n -Exploring Scholarly Data with Rexplore 
- ( Research Track Paper)\n -Publishing the Norwegian Petroleum 
- Directorate’s FactPages as Semantic Web Data ( Semantic Web In Use 
- Track Paper)\n -Using Linked Data to evaluate the impact of Research and 
- Development in Europe: a Structural Equation Model ( Semantic Web In Use 
- Track Paper)\n -Infrastructure for Efficient Exploration of Large Scale 
- Linked Data via Contextual Tag Clouds ( Research Track Paper)\n -The 
- Energy Management Adviser at EDF ( Semantic Web In Use Track Paper)
-SUMMARY:Data Management & Exploration
-LOCATION:Bayside 204B
-DTSTART;TZID=Australia/Sydney:20131024T110000
-DTEND;TZID=Australia/Sydney:20131024T124000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T16:30:
- 005bb27fe1-12e5-4322-8af7-496aa4649f25
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Town Hall
-LOCATION:Bayside 202-203
-DTSTART;TZID=Australia/Sydney:20131024T163000
-DTEND;TZID=Australia/Sydney:20131024T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T14:20:
- 00c6125aad-f8fe-4d81-b816-5a33391de77b
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Krzysztof Janowicz\n -ORCHID – 
- Reduction-Ratio-Optimal Computation of Geo-Spatial Distances for Link 
- Discovery ( Research Track Paper)\n -Geographica: A Benchmark for 
- Geospatial RDF Stores ( Evaluation Track Paper)
-SUMMARY:Geo-Spatial Semantics
-LOCATION:Parkside 110B
-DTSTART;TZID=Australia/Sydney:20131023T142000
-DTEND;TZID=Australia/Sydney:20131023T150000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:
- 00b0051b77-df43-44b8-b2b5-d837ae0553e8
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Thorsten Liebig\,Achille Fokoue\nabstract: This 
- workshop provides a forum for discussing scalability issues for the 
- Semantic Web\, with the focus on the development and deployment of 
- knowledge base systems for processing Semantic Web data. We expect that 
- scalability issues are going to challenge the Semantic Web for a long 
- time and significant effort is needed in order to tackle them. This 
- workshop brings together researchers and practitioners to share their 
- recent ideas and advances towards building scalable knowledge base 
- systems for the Semantic Web.\n -SSWS 2013 Session 1 (09:00-10:30)\n 
- -SSWS 2013 Session 2 (11:00-12:45)\n -SSWS 2013 Session 3 (13:45-15:30)
-SUMMARY:9th International Workshop on Scalable Semantic Web Knowledge 
- Base Systems
-LOCATION:Corinthian (Ground Floor)
-DTSTART;TZID=Australia/Sydney:20131021T090000
-DTEND;TZID=Australia/Sydney:20131021T153000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T15:15:
- 0010fcffd5-09fb-4d39-b232-27e613790d1a
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Jeff Heflin\n -Federated Entity Search using 
- On-The-Fly Consolidation ( Research Track Paper)\n -Getting Lucky in 
- Ontology Search: A Data-Driven Evaluation Framework for Ontology Ranking 
- ( Research Track Paper)\n -Entity recommendations in Web Search ( 
- Semantic Web In Use Track Paper)
-SUMMARY:Search
-LOCATION:Parkside Ballroom B
-DTSTART;TZID=Australia/Sydney:20131023T151500
-DTEND;TZID=Australia/Sydney:20131023T161500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-21T13:45:
- 00b31e7f0a-f9cd-4c25-bf19-260e5fc54ad4
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Australasian Semantic Web BOF
-LOCATION:Boardroom (4th Floor)
-DTSTART;TZID=Australia/Sydney:20131021T134500
-DTEND;TZID=Australia/Sydney:20131021T153000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T09:15:
- 0019786eb3-043f-4e21-86ae-8dea4a8deb1c
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Pascal Hitzler\npresenter: Peter Fox\nabstract: As 
- collaborative\, or network science spreads into more science\, 
- engineering and medical fields\, both the participants and their funders 
- have expressed a very strong desire for highly functional data and 
- information capabilities that are a) easy to use\, b) integrated in a 
- variety of ways\, c) leverage prior investments and keep pace with rapid 
- technical change\, and d) are not expensive or time-consuming to build or 
- maintain. In response\, and based on our accumulated experience over the 
- last decade and a maturing of several key semantic web approaches\, we 
- have adapted\, extended\, and integrated several open source applications 
- and frameworks that handle major portions of functionality for these 
- platforms. At minimum\, these functions include: an object-type 
- repository\, collaboration tools\, an ability to identify and manage all 
- key entities in the platform\, and an integrated portal to manage diverse 
- content and applications\, with varied access levels and privacy options. 
- At the same time\, there is increasing attention to how researchers 
- present and explain results based on interpretation of increasingly 
- diverse and heterogeneous data and information sources. With the renewed 
- emphasis on good data practices\, informatics practitioners have 
- responded to this challenge with maturing informatics-based approaches. 
- These approaches include\, but are not limited to\, use case development\;
-  information modeling and architectures\; elaborating vocabularies\; 
- mediating interfaces to data and related services on the Web\; and 
- traceable provenance. The current era of data-intensive research presents 
- numerous challenges to both individuals and research teams. In 
- environmental science especially\, sub-fields that were data-poor are 
- becoming data-rich (volume\, type and mode)\, while some that were 
- largely model/ simulation driven are now dramatically shifting to 
- data-driven or least to data-model assimilation approaches. These 
- paradigm shifts make it very hard for researchers used to one mode to 
- shift to another\, let alone produce products of their work that are 
- usable or understandable by non-specialists. However\, it is exactly at 
- these frontiers where much of the exciting environmental science needs to 
- be performed and appreciated. XVIII Research networks (even small ones) 
- need to deal with people\, and many intellectual artifacts produced or 
- consumed in research\, organizational and/our outreach activities\, as 
- well as the relations among them. Increasingly these networks are modeled 
- as knowledge networks\, i.e. graphs with named and typed relations among 
- the 'nodes'. Some important nodes are: people\, organizations\, 
- datasets\, events\, presentations\, publications\, videos\, meetings\, 
- reports\, groups\, and more. In this heterogeneous ecosystem\, it is 
- important to use a set of common informatics approaches to co-design and 
- co-evolve the needed science data platforms based on what real people 
- want to use them for. We present our methods and results for information 
- modeling\, adapting\, integrating and evolving a networked data science 
- and information architecture based on several open source technologies 
- (e.g. Drupal\, VIVO\, the Comprehensive Knowledge Archive Network\; 
- CKAN\, and the Global Handle System\; GHS) and many semantic 
- technologies. We discuss the results in the context of the Deep Carbon 
- Virtual Observatory and the Global Change Information System\, and 
- conclude with musings on how the smart mediation among the components is 
- modeled and managed\, and its general applicability and ecacy.
-SUMMARY:Progress in Open-World\, Integrative\, Transparent\, 
- Collaborative Science Data Platforms
-LOCATION:Parkside Ballroom B
-DTSTART;TZID=Australia/Sydney:20131024T091500
-DTEND;TZID=Australia/Sydney:20131024T101500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T15:00:
- 00302f9f58-fbd3-4fae-a2ee-fbed8a469997
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Break
-DTSTART;TZID=Australia/Sydney:20131023T150000
-DTEND;TZID=Australia/Sydney:20131023T151500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:
- 003c88f5b4-8bac-47ca-ab8b-85d8da05c0e0
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Richard Cyganiak\,Raphaël Troncy\,Franck 
- Cotton\,Armin Haller\,Alistair Hamilton\nabstract: The goal of this 
- workshop is to explore and strengthen the relationship between the 
- Semantic Web and statistical communities\, to provide better access to 
- the data held by statistical offices. It will focus on ways in which 
- statisticians can use Semantic Web technologies and standards in order to 
- formalize\, publish\, document and link their data and metadata. The 
- workshop will also cover the question of how to apply statistical methods 
- or treatments to linked data\, and how to develop new methods and tools 
- for this purpose. Except for visualisation techniques and tools\, this 
- question is relatively unexplored\, but the subject will obviously grow 
- in importance in the near future.\n -SemStats 2013 Session 1 (09:00-10:
- 30)\n -SemStats 2013 Session 2 (11:00-12:45)\n -SemStats 2013 Session 3 
- (13:45-15:30)\n -SemStats 2013 Session 4 (16:00-17:30)
-SUMMARY:1st International Workshop on Semantic Statistics
-LOCATION:Corinthian (Ground Floor)
-DTSTART;TZID=Australia/Sydney:20131022T090000
-DTEND;TZID=Australia/Sydney:20131022T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T20:00:
- 00219f7894-c559-40e8-988c-b57abf597274
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:SWJ Dinner
-LOCATION:Invitation only
-DTSTART;TZID=Australia/Sydney:20131023T200000
-DTEND;TZID=Australia/Sydney:20131023T213000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T15:15:
- 00a1c9bcb8-21ca-49bf-ad1d-e1f2b9d49993
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Raphaël Troncy\n -Bringing Math to LOD: A Semantic 
- Publishing Platform Prototype for Scientific Collections in Mathematics ( 
- Research Track Paper)\n -Semantic Rule Filtering for Web-Scale Relation 
- Extraction ( Research Track Paper)\n -Integrating NLP using Linked Data ( 
- Semantic Web In Use Track Paper)
-SUMMARY:Natural Language Processing
-LOCATION:Parkside 110B
-DTSTART;TZID=Australia/Sydney:20131023T151500
-DTEND;TZID=Australia/Sydney:20131023T161500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T15:15:
- 001ea16224-1387-4122-a46c-d9b3b0c26aec
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:-Integrating Relational Databases with the Semantic Web: Four 
- Scenarios (15:15-15:35 Industry Track Paper)\n -OData and the Semantic 
- Web (15:35-15:55 Industry Track Paper)\n -Speaker Panel (15:55-16:15)
-SUMMARY:Industry 3
-LOCATION:Parkside 110A
-DTSTART;TZID=Australia/Sydney:20131023T151500
-DTEND;TZID=Australia/Sydney:20131023T161500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:
- 0045b4789e-3f18-4859-b4d5-f01fcd90ff21
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:presenter: Yuan-Fang Li\,Shonali Krishnaswamy\nabstract: The 
- combination of the versatility of smart devices and the capabilities of 
- semantic technologies forms a great foundation for a mobile Semantic Web 
- that will contribute to further realizing the true potential of both 
- disciplines. Motivated by a service discovery and matchmaking example\, 
- this tutorial provides an overview of background knowledge in ontology 
- languages and basic reasoning problems\, and how they are applicable in 
- the mobile environment. It then presents challenges and state-of-the-art 
- development on mobile ontology reasoning\, focusing on the reasoning and 
- optimization techniques developed in the mTableaux framework. Finally\, 
- the tutorial closes with an outlook of important research problems.\n 
- -The Mobile Semantic Web Session 1 (09:00-10:30)\n -The Mobile Semantic 
- Web Session 2 (11:00-12:45)
-SUMMARY:Tutorial 6: The Mobile Semantic Web
-LOCATION:Carruthers (5th Floor)
-DTSTART;TZID=Australia/Sydney:20131022T090000
-DTEND;TZID=Australia/Sydney:20131022T124500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T09:00:
- 007455ae84-d03d-44f6-bdce-65f41639fb0b
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Announcements
-LOCATION:Parkside Ballroom B
-DTSTART;TZID=Australia/Sydney:20131024T090000
-DTEND;TZID=Australia/Sydney:20131024T091500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T16:15:
- 00068176a8-175b-4b02-90fb-b595e682526b
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Afternoon Tea
-LOCATION:Basyside 2 Foyer
-DTSTART;TZID=Australia/Sydney:20131025T161500
-DTEND;TZID=Australia/Sydney:20131025T165500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T15:15:
- 00ff7e0a3c-a9c3-471f-a836-b1196ae3a3cc
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Semantic Web Challenge 2
-LOCATION:Bayside 202-203
-DTSTART;TZID=Australia/Sydney:20131024T151500
-DTEND;TZID=Australia/Sydney:20131024T161500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-21T16:00:
- 00cac1e554-8b63-459a-bc33-1e12ba4e4cea
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Semantic Web meetup & Unconference
-LOCATION:Boardroom (4th Floor)
-DTSTART;TZID=Australia/Sydney:20131021T160000
-DTEND;TZID=Australia/Sydney:20131021T174500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T14:20:
- 00ff664484-d7b6-41a2-a0bc-c9e3cfd3f3ab
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Mathieu D'Aquin\n -Secure Manipulation of Linked Data 
- ( Research Track Paper)\n -Incorporating Commercial and Private Data into 
- an Open Linked Data Platform for Drug Discovery ( Semantic Web In Use 
- Track Paper)
-SUMMARY:Linked Data 1
-LOCATION:Bayside 202-203
-DTSTART;TZID=Australia/Sydney:20131025T142000
-DTEND;TZID=Australia/Sydney:20131025T150000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T09:00:
- 0080f388e7-ad1a-45d8-bc69-4c077830733c
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Announcements
-LOCATION:Parkside  Ballroom B
-DTSTART;TZID=Australia/Sydney:20131025T090000
-DTEND;TZID=Australia/Sydney:20131025T091500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T15:00:
- 00c2ec2fcf-72b4-49b0-a96b-8717e253eb30
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Break
-DTSTART;TZID=Australia/Sydney:20131024T150000
-DTEND;TZID=Australia/Sydney:20131024T151500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T15:15:
- 00c50647bc-30e7-4010-bf8e-793c5086335f
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Oscar Corcho\n -ProSWIP: Property-based Data Access 
- for Semantic Web Interactive Programming ( Research Track Paper)\n 
- -Ontology-Based Data Access: Ontop of Databases ( Research Track Paper)\n 
- -The Combined Approach to OBDA: Taming Role Hierarchies using Filters ( 
- Research Track Paper)
-SUMMARY:Data Access
-LOCATION:Bayside 204B
-DTSTART;TZID=Australia/Sydney:20131025T151500
-DTEND;TZID=Australia/Sydney:20131025T161500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T10:15:
- 00ee1b2325-925b-4e0f-9338-87191f894e18
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Morning Tea
-LOCATION:Parkside Ballroom Foyer
-DTSTART;TZID=Australia/Sydney:20131024T101500
-DTEND;TZID=Australia/Sydney:20131024T110000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T11:00:
- 002afaa3ef-d98c-4466-996d-878f5c8ab39d
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Philippe Cudré-Mauroux\n -Complete Query Answering 
- Over Horn Ontologies Using a Triple Store ( Research Track Paper)\n -DAW: 
- Duplicate-AWare Federated Query Processing over the Web of Data ( 
- Research Track Paper)\n -Towards a systematic benchmarking of 
- ontology-based query rewriting systems ( Evaluation Track Paper)\n 
- -Personalized Best Answer Computation in Graph Databases ( Research Track 
- Paper)\n -Controlled Query Evaluation over OWL 2 RL Ontologies ( Research 
- Track Paper)
-SUMMARY:Query
-LOCATION:Bayside 204A
-DTSTART;TZID=Australia/Sydney:20131025T110000
-DTEND;TZID=Australia/Sydney:20131025T124000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:
- 00bb49cbf1-382f-4b1e-b076-df9a34451ca4
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Ziqi Zhang\,Heiko Paulheim\,Claudia D'Amato\,Anna Lisa 
- Gentile\nabstract: This workshop focuses on the exploitation of Linked 
- Data for Web Scale Information Extraction (IE)\, which concerns 
- extracting structured knowledge from unstructured/semi-structured 
- documents on the Web. One of the major bottlenecks for the current state 
- of the art in IE is the availability of learning materials (e.g.\, seed 
- data\, training corpora)\, which\, typically are manually created and are 
- expensive to build and maintain. Linked Data (LD) defines best practices 
- for exposing\, sharing\, and connecting data\, information\, and 
- knowledge on the Semantic Web using uniform means such as URIs and RDF. 
- It has so far been created a gigantic knowledge source of Linked Open 
- Data (LOD)\, which constitutes a mine of learning materials for IE. 
- However\, the massive quantity requires efficient learning algorithms and 
- the unguaranteed quality of data requires robust methods to handle 
- redundancy and noise.LD4IE intends to gather researchers and 
- practitioners to address multiple challenges arising from the usage of LD 
- as learning material for IE tasks\, focusing on (i) modelling user 
- defined extraction tasks using LD\; (ii) gathering learning materials 
- from LD assuring quality (training data selection\, cleaning\, feature 
- selection etc.)\; (iii) robust learning algorithms for handling LD\; (iv) 
- publishing IE results to the LOD cloud.\n -LD4IE Session 1 (09:00-10:
- 30)\n -LD4ID session 2 (11:00-12:45)\n -LD4IE Session 3 (13:45-15:30)\n 
- -Linked Data for Information Extraction: Opportunity or Babel? (16:00-17:
- 30 Panel)
 SUMMARY:Linked Data for Information Extraction
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T173000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:009fb6e
+ ad0-df50-42b9-8cb5-8cb80f8077f8
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Ziqi Zhang\,Heiko Paulheim\,Claudia D'Amato\,Anna Lisa 
+ Gentile\nabstract: This workshop focuses on the exploitation of Linked Dat
+ a for Web Scale Information Extraction (IE)\, which concerns extracting st
+ ructured knowledge from unstructured/semi-structured documents on the Web.
+  One of the major bottlenecks for the current state of the art in IE is th
+ e availability of learning materials (e.g.\, seed data\, training corpora)
+ \, which\, typically are manually created and are expensive to build and m
+ aintain. Linked Data (LD) defines best practices for exposing\, sharing\, 
+ and connecting data\, information\, and knowledge on the Semantic Web usin
+ g uniform means such as URIs and RDF. It has so far been created a giganti
+ c knowledge source of Linked Open Data (LOD)\, which constitutes a mine of
+  learning materials for IE. However\, the massive quantity requires effici
+ ent learning algorithms and the unguaranteed quality of data requires robu
+ st methods to handle redundancy and noise.LD4IE intends to gather research
+ ers and practitioners to address multiple challenges arising from the usag
+ e of LD as learning material for IE tasks\, focusing on (i) modelling user
+  defined extraction tasks using LD\; (ii) gathering learning materials fro
+ m LD assuring quality (training data selection\, cleaning\, feature select
+ ion etc.)\; (iii) robust learning algorithms for handling LD\; (iv) publis
+ hing IE results to the LOD cloud.\n -LD4IE Session 1 (09:00-10:30)\n -LD4I
+ D session 2 (11:00-12:45)\n -LD4IE Session 3 (13:45-15:30)\n -Linked Data 
+ for Information Extraction: Opportunity or Babel? (16:00-17:30 Panel)
 LOCATION:Composite (Ground Floor)
-DTSTART;TZID=Australia/Sydney:20131021T090000
-DTEND;TZID=Australia/Sydney:20131021T173000
-TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T11:00:
- 0075b7c42e-8c4b-4a5c-a35e-c58f2abcad06
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Philippe Cudré-Mauroux\n -On the Status of 
- Experimental Research on the Semantic Web ( Research Track Paper)\n -A 
- snapshot of the OWL Web ( Research Track Paper)\n -Deployment of RDFa\, 
- Microdata\, and Microformats on the Web – A Quantitative Analysis ( 
- Semantic Web In Use Track Paper)\n -When History Matters - Assessing 
- Reliability for the Reuse of Scientific Workflows ( Semantic Web In Use 
- Track Paper)\n -Simplified OWL Ontology Editing for the Web: Is 
- WebProtégé Enough? ( Research Track Paper)
-SUMMARY:Semantic Web Landscape
-LOCATION:Parkside 110B
-DTSTART;TZID=Australia/Sydney:20131023T110000
-DTEND;TZID=Australia/Sydney:20131023T124000
-TRANSP:OPAQUE
+SUMMARY:Tutorial 1: Relational Database to RDF (RDB2RDF)
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T173000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:0009795
+ 8ab-314c-430e-8a36-66c5e3c124d9
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Juan Sequeda\,Daniel Miranker\,Barry Norton\nabstra
+ ct: In one study it was reported that there is 500 times as much data in t
+ he hidden or deep web\, then there is in crawlable\, indexable web pages. 
+ Most of this data is stored in relational databases. Hence\, the Semantic 
+ Web’s promise of Web-scale data integration will only live up to its tru
+ e promise with the inclusion of legacy relational database management syst
+ ems (RDBMS). Two new\, interrelated and complementary W3C standards\, “D
+ irect Mapping of Relational Data to RDF” and “R2RML: RDB to RDF Mappin
+ g Language”\, are poised to enable this data into the web of Linked Data
+ . This tutorial will introduce\, contrast and explain the preferred soluti
+ on organizations embodies by these two standards. The tutorial will also i
+ nclude a hands-on session.\n -Relational Database to RDF Session 1 (09:00-
+ 10:30)\n -Relational Database to RDF Session 2 (11:00-12:45)\n -Relational
+  Database to RDF Session 3 (13:45-15:30)\n -Relational Database to RDF Ses
+ sion 4 (16:00-17:30)
+LOCATION:Boardroom (4th Floor)
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:
- 0091794bf1-417e-48dc-b948-cfda7cc5f8cd
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:presenter: Oscar Corcho\,Jeff Z. Pan\,Jean-Paul 
- Calbimonte\,Emanuele Della Valle\nabstract: The tutorial provides a 
- comprehensive view of the Stream Reasoning research area. It consists of 
- two parts. The first one is focused on RDF and SPARQL extensions for 
- stream processing. It will begin with an introduction to RDF Stream 
- processing models\, and two concrete approaches that implement these 
- models\, namely C-SPARQL Engine and SPARQLStream\, including hands on 
- sessions. The second part of the tutorial explores Stream Reasoning 
- approaches: approximate stream reasoning techniques for OWL2-DL\, 
- incremental materialization for RDF Streams (IMaRS)\, and an overview of 
- EP-SPARQL and Sparkwave. Also the second part includes hands-on 
- sessions.\n -Stream Reasoning for Linked Data Session 1 (09:00-10:30)\n 
- -Stream Reasoning for Linked Data Session 2 (11:00-12:45)\n -Stream 
+SUMMARY:Tutorial 2: Stream Reasoning for Linked Data
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T173000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:00f477d
+ fec-e8ce-43dc-aaaa-ce9bef44e7c3
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Oscar Corcho\,Jeff Z. Pan\,Jean-Paul Calbimonte\,Em
+ anuele Della Valle\nabstract: The tutorial provides a comprehensive view o
+ f the Stream Reasoning research area. It consists of two parts. The first 
+ one is focused on RDF and SPARQL extensions for stream processing. It will
+  begin with an introduction to RDF Stream processing models\, and two conc
+ rete approaches that implement these models\, namely C-SPARQL Engine and S
+ PARQLStream\, including hands on sessions. The second part of the tutorial
+  explores Stream Reasoning approaches: approximate stream reasoning techni
+ ques for OWL2-DL\, incremental materialization for RDF Streams (IMaRS)\, a
+ nd an overview of EP-SPARQL and Sparkwave. Also the second part includes h
+ ands-on sessions.\n -Stream Reasoning for Linked Data Session 1 (09:00-10:
+ 30)\n -Stream Reasoning for Linked Data Session 2 (11:00-12:45)\n -Stream 
  Reasoning for Linked Data Session 3 (13:45-15:30)\n -Stream Reasoning for 
  Linked Data Session 4 (16:00-17:30)
-SUMMARY:Tutorial 2: Stream Reasoning for Linked Data
 LOCATION:Carrington (3rd Floor)
-DTSTART;TZID=Australia/Sydney:20131021T090000
-DTEND;TZID=Australia/Sydney:20131021T173000
-TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T11:00:
- 00d4620dd8-63b5-4ca3-86f4-95b3ee285cb6
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Pascal Hitzler\n -Incremental Reasoning in OWL EL 
- without Bookkeeping ( Research Track Paper)\n -Completeness Statements 
- about RDF Data Sources and Their Use for Query Answering ( Research Track 
- Paper)\n -DynamiTE: Parallel Materialization of Dynamic RDF Data ( 
- Research Track Paper)\n -A Query Tool for EL with Non-monotonic rules ( 
- Research Track Paper)\n -Towards Constructive Evidence of Data 
- Flow-oriented Web Service Composition ( Research Track Paper)
-SUMMARY:Reasoning
-LOCATION:Parkside Ballroom B
-DTSTART;TZID=Australia/Sydney:20131023T110000
-DTEND;TZID=Australia/Sydney:20131023T124000
-TRANSP:OPAQUE
+SUMMARY:9th International Workshop on Scalable Semantic Web Knowledge Base
+  Systems
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T153000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:000e54e
+ ecb-1f09-4a27-a442-ddcbb45d11c6
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Thorsten Liebig\,Achille Fokoue\nabstract: This worksho
+ p provides a forum for discussing scalability issues for the Semantic Web\
+ , with the focus on the development and deployment of knowledge base syste
+ ms for processing Semantic Web data. We expect that scalability issues are
+  going to challenge the Semantic Web for a long time and significant effor
+ t is needed in order to tackle them. This workshop brings together researc
+ hers and practitioners to share their recent ideas and advances towards bu
+ ilding scalable knowledge base systems for the Semantic Web.\n -SSWS 2013 
+ Session 1 (09:00-10:30)\n -SSWS 2013 Session 2 (11:00-12:45)\n -SSWS 2013 
+ Session 3 (13:45-15:30)
+LOCATION:Corinthian (Ground Floor)
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-22T13:45:
- 009d47de06-294f-477b-b3f3-c090550f93e0
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Ritaban Dutta\,Greg Timms\,Ahsan Morshed\nabstract: 
- Historical and spatial big data from the environmental and agricultural 
- domains already exist in the modern technology-driven world. Government 
- agencies\, utilities and research bodies already have large amounts of 
- data\, but their value is not being fully realised because they are not 
- integrated and consequently big knowledge is difficult to access. 
- Semantic web\, semantic machine learning and linked open data technology 
- may help to build an \"outer knowledge layer\" so that this information 
- could be accessed by domain people and the broader community. It can also 
- be used to answer complex dynamic queries at run time from the system 
- point of view.\n -SML2OD 2013 Session 1 (13:45-15:30)\n -SML2OD 2013 
- Session 2 (16:00-17:30)
-SUMMARY:Semantic Machine Learning and Linked Open Data Application
-LOCATION:Composite (Ground Floor)
-DTSTART;TZID=Australia/Sydney:20131022T134500
-DTEND;TZID=Australia/Sydney:20131022T173000
-TRANSP:OPAQUE
+SUMMARY:1st International Workshop on Semantic Music and Media
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T124500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:00ea6e7
+ f8f-86f0-4ab0-94b7-3589707a07c0
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Yves Raimond\,Mark Sandler\,David De Roure\nabstract: T
+ his workshop provides a forum to explore and promote the applications of S
+ emantic Web Technologies in the domain of music and time-based media. Emer
+ ging activities in research\, development and production\, driven by proje
+ cts in both academia and industry\, are already spanning many aspects of t
+ he creation\, management\, discovery\, delivery and analysis of musical an
+ d media content. This workshop brings together this community to share inf
+ ormation and practice\, and especially to articulate the research agenda i
+ n Semantic Music and Media\, e.g. "end-to-end semantics" through the lifec
+ ycle of digital media. This workshop aims at facilitating innovation and h
+ elping to achieve the full potential of Semantic Web in this domain\, as w
+ ell as informing Semantic Web research and its application to this area.\n
+  -SMAM 2013 Session 1 (09:00-10:30)\n -SMAM 2013 Session 2 (11:00-12:45)
+LOCATION:Tuscan (Ground Floor)
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T12:40:
- 00028871e7-ff4b-4662-9c90-380b8678c28b
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:JWS Lunch
-LOCATION:Invitation only
-DTSTART;TZID=Australia/Sydney:20131023T124000
-DTEND;TZID=Australia/Sydney:20131023T142000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:
- 00f825288d-4d56-41da-85a2-0cb08cf81819
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:chair: Takahide Matsutsuka\,Olaf Hartig\,Juan Sequeda\,Aidan 
- Hogan\nabstract: The quantity of published Linked Data continues to 
- increase. However\, applications that exploit Linked Data are not yet 
- widespread. Reasons may include a lack of suitable solutions for a number 
- of open problems. The diversity and dynamics of LOD sources have brought 
- new challenges in seamless data integration\, dynamic discovery\, 
- provenance tracking\, and quality assessment at the Web scale. Addressing 
- these issues requires joint community efforts from both LOD provision and 
- consumption perspectives\, including the development and investigation of 
- concepts that can lead towards the realisation of a sustainable Linked 
- Data ecosystem. The objective of this workshop is to provide a focused 
- venue for academic and industrial discussions on concepts\, algorithms\, 
- infrastructure and tools (including systematic analysis and rigorous 
- evaluation) that help to exploit Linked Data (and not just to produce 
- it).\n -COLD 2013 Session 1 (09:00-10:30)\n -COLD 2013 Session 2 (11:
- 00-12:45)\n -COLD 2013 Session 3 (13:45-15:30)\n -COLD 2013 Session 4 (16:
- 00-17:45)
-SUMMARY:4th International Workshop on Consuming Linked Data
-LOCATION:Ionic (Ground Floor)
-DTSTART;TZID=Australia/Sydney:20131022T090000
-DTEND;TZID=Australia/Sydney:20131022T174500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:
- 00ed8d29cf-2c40-44d4-890a-98b94978d1ed
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:presenter: Liliana Cabral\,Heiko Mueller\,Ahsan 
- Morshed\nabstract: The concept of Linked Open Data (LOD) shows great 
- potential to overcome existing problems in discovery\, integration\, and 
- reuse of data. More and more applications are emerging that make use of 
- LOD. Building such applications is supported by a large number of tools 
- that have been developed in the Semantic Web community. The goal of this 
- tutorial is to provide novices with a practical introduction into 
- building LOD applications. Participants will learn how to build a simple 
- LOD application by following hands-on instructions. Using publicly 
- available tools and practical use cases\, we show how to go from 
- structured data.\n -Hands-on Guide to Linked Data Applications Session 1 
- (09:00-10:30)\n -Hands-on Guide to Linked Data Applications Session 2 (11:
- 00-12:45)
-SUMMARY:Tutorial 7: Hands-on Guide to Linked Data Applications
-LOCATION:Carrington (3rd Floor)
-DTSTART;TZID=Australia/Sydney:20131022T090000
-DTEND;TZID=Australia/Sydney:20131022T124500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-25T15:00:
- 0015c783d8-bd2c-46e2-bf46-73289473b1d9
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Break
-DTSTART;TZID=Australia/Sydney:20131025T150000
-DTEND;TZID=Australia/Sydney:20131025T151500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T16:15:
- 0090a320b3-9509-4678-9040-69715098ec2c
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Afternoon Tea
-LOCATION:Bayside 2 foyer
-DTSTART;TZID=Australia/Sydney:20131024T161500
-DTEND;TZID=Australia/Sydney:20131024T165500
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-22T13:45:
- 00b9bb3f72-e5e0-4b7e-8d48-be18a13d9824
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:presenter: Ziqi Zhang\,Anna Lisa Gentile\nabstract: This 
- tutorial analyses open challenges for Web-scale Information Extraction 
- (IE) and introduces the usage of Linked Data (LD) for the task. Linked 
- Data has grown to a gigantic knowledge base\, which\, as of 2013\, 
- comprised 31 billion triples in 295 datasets (http:
- //lod-cloud.net/state/). Such resources can become invaluable resources 
- to train Web-scale IE and natural language tasks because they are very 
- large scale and covering multiple domains. This tutorial will show how to 
- exploit LD for IE and will explore IE techniques able to scale at web 
- level. We will particularly focus on the tasks of Wrapper Induction and 
- Table Interpretation.\n -Linked Data for Web Scale Information Extraction 
- Session 1 (13:45-15:30)\n -Linked Data for Web Scale Information 
- Extraction Session 2 (16:00-17:30)
-SUMMARY:Tutorial 9: Linked Data for Web Scale Information Extraction
-LOCATION:Carrington (3rd Floor)
-DTSTART;TZID=Australia/Sydney:20131022T134500
-DTEND;TZID=Australia/Sydney:20131022T173000
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:
- 0097bd0110-59e2-43fb-9df1-cce4edfc3376
-LAST-MODIFIED:20131016T053935Z
-DESCRIPTION:presenter: Marko Grobelnik\,Carolina Fortuna\nabstract: The 
- aim of this tutorial is to present the Web of Things (WoT)\, its 
- components\, and how they interconnect through a series of semantic 
- approaches into an operable stack of technologies. The goal is (1) to 
- explain WoT and related concepts\, (2) to give an overview and explain 
- the functionality of the components of the WoT\, (3) explain how these 
- components (sensor networks\, semantic web\, data analytics) can be used 
- to connect the “things” various levels of abstraction and (4) show 
- relevant projects and demos.\n -The Web of Things Session 1 (09:00-10:
- 30)\n -The Web of Things Session 2 (11:00-12:45)
 SUMMARY:Tutorial 3: The Web of Things
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T124500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-21T09:00:00a338c
+ 9f7-a6c9-4be9-b49a-5acfa80a0df5
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Marko Grobelnik\,Carolina Fortuna\nabstract: The ai
+ m of this tutorial is to present the Web of Things (WoT)\, its components\
+ , and how they interconnect through a series of semantic approaches into a
+ n operable stack of technologies. The goal is (1) to explain WoT and relat
+ ed concepts\, (2) to give an overview and explain the functionality of the
+  components of the WoT\, (3) explain how these components (sensor networks
+ \, semantic web\, data analytics) can be used to connect the “things” 
+ various levels of abstraction and (4) show relevant projects and demos.\n 
+ -The Web of Things Session 1 (09:00-10:30)\n -The Web of Things Session 2 
+ (11:00-12:45)
 LOCATION:Carruthers (5th Floor)
-DTSTART;TZID=Australia/Sydney:20131021T090000
-DTEND;TZID=Australia/Sydney:20131021T124500
-TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-23T10:15:
- 00154d6487-2881-446d-89a8-6515fe6c0009
-LAST-MODIFIED:20131016T053935Z
+SUMMARY:9th International Workshop on Uncertainty Reasoning for the Semant
+ ic Web
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T134500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T174000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-21T13:45:006b242
+ 12e-cb03-4706-b234-d8b5b5ab351b
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Trevor Martin\,Nicola Fanizzi\,Thomas Lukasiewicz\,Clau
+ dia D'Amato\,Paulo Costa\,Fernando Bobillo\,Kathryn Laskey\,Mike Pool\,Rom
+ mel Carvalho\,Ken Laskey\,Matthias Nickles\nabstract: This Workshop is an 
+ exciting opportunity for collaboration and cross-fertilization between the
+  uncertainty reasoning community and the Semantic Web community. Effective
+  methods for reasoning under uncertainty are vital for realizing many aspe
+ cts of the Semantic Web vision\, but the ability of current-generation web
+  technology to handle uncertainty remains extremely limited. Thus\, there 
+ is a continuing demand for uncertainty reasoning technology among Semantic
+  Web researchers and developers\, and the URSW workshop creates a unique o
+ pening to bring together two communities with a clear commonality of inter
+ est but limited history of interaction. By capitalizing on this opportunit
+ y\, URSW could spark dramatic progress toward realizing the Semantic Web v
+ ision.\n -URSW 2013 Session 1 (13:45-15:30)\n -URSW 2013 Session 2 (16:00-
+ 17:40)
+LOCATION:Tuscan (Ground Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial 4: Modelling Ontologies Visually
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T134500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T173000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-21T13:45:0077c73
+ 3ce-7a1b-4390-acb0-9b20b0f5d073
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Peter Chapman\,John Howse\,Jim Burton\,Gem Stapleto
+ n\,Aidan Delaney\nabstract: Ontology engineering has acknowledged benefits
+  yet the notations with which one can create such models can require consi
+ derable technical expertise. There has been interest in the development of
+  visual (i.e. diagrammatic) notations that are more readily accessible to 
+ those without substantial mathematical training. This tutorial will demons
+ trate a formal visual logic\, called concept diagrams\, suitable for ontol
+ ogy engineering. The notation has been designed with regard to cognitive t
+ heories combined with an emphasis on being sufficiently expressive to mode
+ l rich domains. The tutorial introduces concept diagrams and attendees wil
+ l gain knowledge of how to apply concept diagrams for ontology engineering
+ .\n -Modelling Ontologies Visually Session 1 (13:45-15:30)\n -Modelling On
+ tologies Visually Session 2 (16:00-17:30)
+LOCATION:Carruthers (5th Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Australasian Semantic Web BOF
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T134500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T153000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-21T13:45:00f8329
+ 89f-946a-4c5f-96ad-79210be56fe7
+CATEGORY:WorkshopEvent
+DESCRIPTION:
+LOCATION:Boardroom (4th Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Semantic Web meetup & Unconference
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T160000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131021T174500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-21T16:00:00cd9f3
+ 86f-e5bf-4cf7-a226-4f430beb2916
+CATEGORY:WorkshopEvent
+DESCRIPTION:
+LOCATION:Boardroom (4th Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:4th International Workshop on Consuming Linked Data
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T174500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:002f909
+ 4fc-3e00-4f0a-b6f8-e274e70e4aaf
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Takahide Matsutsuka\,Olaf Hartig\,Juan Sequeda\,Aidan H
+ ogan\nabstract: The quantity of published Linked Data continues to increas
+ e. However\, applications that exploit Linked Data are not yet widespread.
+  Reasons may include a lack of suitable solutions for a number of open pro
+ blems. The diversity and dynamics of LOD sources have brought new challeng
+ es in seamless data integration\, dynamic discovery\, provenance tracking\
+ , and quality assessment at the Web scale. Addressing these issues require
+ s joint community efforts from both LOD provision and consumption perspect
+ ives\, including the development and investigation of concepts that can le
+ ad towards the realisation of a sustainable Linked Data ecosystem. The obj
+ ective of this workshop is to provide a focused venue for academic and ind
+ ustrial discussions on concepts\, algorithms\, infrastructure and tools (i
+ ncluding systematic analysis and rigorous evaluation) that help to exploit
+  Linked Data (and not just to produce it).\n -COLD 2013 Session 1 (09:00-1
+ 0:30)\n -COLD 2013 Session 2 (11:00-12:45)\n -COLD 2013 Session 3 (13:45-1
+ 5:30)\n -COLD 2013 Session 4 (16:00-17:45)
+LOCATION:Ionic (Ground Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1st International Workshop on Semantic Statistics
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T173000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:0063830
+ 8e4-fadb-4493-9e21-5bd0f6666dbb
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Richard Cyganiak\,Raphaël Troncy\,Franck Cotton\,Armin
+  Haller\,Alistair Hamilton\nabstract: The goal of this workshop is to expl
+ ore and strengthen the relationship between the Semantic Web and statistic
+ al communities\, to provide better access to the data held by statistical 
+ offices. It will focus on ways in which statisticians can use Semantic Web
+  technologies and standards in order to formalize\, publish\, document and
+  link their data and metadata. The workshop will also cover the question o
+ f how to apply statistical methods or treatments to linked data\, and how 
+ to develop new methods and tools for this purpose. Except for visualisatio
+ n techniques and tools\, this question is relatively unexplored\, but the 
+ subject will obviously grow in importance in the near future.\n -SemStats 
+ 2013 Session 1 (09:00-10:30)\n -SemStats 2013 Session 2 (11:00-12:45)\n -S
+ emStats 2013 Session 3 (13:45-15:30)\n -SemStats 2013 Session 4 (16:00-17:
+ 30)
+LOCATION:Corinthian (Ground Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DBpedia & NLP 2013
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T173000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:00d2aa2
+ acf-207a-470f-a257-92ff809073f6
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Sebastian Hellmann\,Pablo Mendes\,Dimitris Kontokostas\
+ ,Caroline Barrière\,Agata Filipowska\nabstract: Recently\, the DBpedia co
+ mmunity has experienced an immense increase in activity and we believe\, t
+ hat the time has come to explore the connection between DBpedia & Natural 
+ Language Processing (NLP) in a yet unpreceded depth. The goal of this work
+ shop can be summarized by this (pseudo-) formula: DBpedia & NLP ≡ DBpedi
+ a4NLP ⨅ NLP4DBpedia. DBpedia has a long-standing tradition to provide us
+ eful data as well as a commitment to reliable Semantic Web technologies an
+ d living best practices. With the rise of WikiData\, DBpedia is step-by-st
+ ep relieved from the tedious extraction of data from Wikipedia’s infobox
+ es and can shift its focus on new challenges such as extracting informatio
+ n from the unstructured article text as well as becoming a testing ground 
+ for multilingual NLP methods.\n -Dbpedia & NLP 2013 Session 1 (09:00-10:30
+ )\n -DBpedia & NLP 2013 Session 2 (11:00-12:45)\n -Dbpedia & NLP 2013 Sess
+ ion 3 (13:45-15:30)\n -Dbpedia & NLP 2013 Session 4 (16:00-17:30)
+LOCATION:Grand Lodge (1st Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ISWC 2013 Doctoral Consortium
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T173000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:0034417
+ 0e2-9653-4f81-979c-4f33976ac096
+CATEGORY:WorkshopEvent
+DESCRIPTION: -Doctoral Consortium Welcome (09:00-09:10)\n -Introduction Ta
+ lk: Research Questions and Scientific Hypotheses (09:10-10:00)\n -Coffee b
+ reak (10:00-11:00)\n -Paper presentations I (11:00-12:15)\n -Follow-up Pos
+ ter Session I (12:15-12:45)\n -Lunch (12:45-13:45)\n -Paper Presentations 
+ II (13:45-15:00)\n -Follow-up Poster Session II (15:00-15:30)\n -Coffee br
+ eak (15:30-16:00)\n -Paper Presentations III (16:00-17:00)\n -Follow-up Po
+ ster Session III (17:00-17:30)\n -Wrap-up (17:30-17:45)
+LOCATION:Boardroom (4th Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Society\, Privacy and the Semantic Web - Policy and Technology
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T173000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:00dd26b
+ cbc-e1fc-4261-82d0-6083a0778966
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Stefan Decker\,Sabrina Kirrane\,Jim Hendler\nabstract: 
+ We (the Semantic Web community) are responsible for the conception of tech
+ nologies that enable large scale integration and mining of personal and pu
+ blic information in all domains of society. This brings unprecedented adva
+ ntages\, assists humans\, organisations and systems with problem solving\,
+  enables innovation and increases productivity. It makes everything more t
+ ransparent. However this transparency comes at a price: the loss of our pr
+ ivacy. There has been growing awareness within the community of the need t
+ o address privacy and security concerns. To date the focus has been on res
+ earching specific privacy and security models and frameworks\, for example
+  for access control\, obfuscation\, anonymization\, aggregation\, licensin
+ g\, etc. However we are “putting the cart before the horse”\, we need 
+ to identify clear privacy and security requirements before proposing techn
+ ical solutions. With this workshop we aim at the following goals: First\, 
+ raise awareness that the technologies the community are working on have gl
+ obal societal consequences. Vice versa\, our research can be guided by det
+ ermining a road map for desirable privacy goals. We aim to determine first
+  steps towards identifying desirable goals. Second\, raise awareness of in
+ terconnections between the different communities that are involved in Web 
+ privacy and security ­ e.g.\, policy makers\, users\, social sciences and
+  computer scientists and provide a platform for interconnection and commun
+ ication. Third\, determine the next steps that need to be conducted in ord
+ er to broaden the level of engagement between the relevant parties.\n -PRI
+ VON 2013 Session 1 (09:00-10:30)\n -PRIVON 2013 Session 2 (11:00-12:45)\n 
+ -PRIVON 2013 Session 3 - Parallel Open Space Discussions (13:45-15:30)\n -
+ PRIVON 2013 Session 4 - Parallel Open Space Discussions Report back from O
+ pen Space and Follow Up actions (16:00-17:30)
+LOCATION:Lodge Room 3 (3rd Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial 5: Microtask crowdsourcing to solve Semantic Web problems
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T173000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:00000db
+ 4ea-84b0-40fe-b12c-bfe00c48acf8
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Maribel Acosta\,Gianluca Demartini\,Elena Simperl\n
+ abstract: Microtask crowdsourcing platforms\, as one of the most popular i
+ nstance of social computing technologies\, are increasingly used to suppor
+ t massively collaborative projects on semantic content management. In this
+  tutorial we will introduce the most popular approaches to microtask crowd
+ sourcing for Semantic Web problems\, as a mean to realize hybrid human-mac
+ hine content management architectures. We will explain the core notions an
+ d technologies\, including Amazon Mechanical Turk\, CrowdFlower and specif
+ ically purposed tools building upon the functionality of these platforms. 
+ We will address questions related to quality assurance\, resource manageme
+ nt\, and workflow design\, and discuss a series of technical and socio-eco
+ nomical challenges and open issues related to the application of microtask
+  crowdsourcing in given Semantic Web scenarios.\n -Microtask tutorial sess
+ ion 1 (09:00-10:30)\n -Microtask tutorial session 2 (11:00-12:45)\n -Micro
+ task tutorial session 3 (13:45-15:30)\n -Microtask tutorial session 4 (15:
+ 30-17:30)
+LOCATION:Rawson (5th Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6th International Workshop on Semantic Sensor Networks
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T124500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:0097c8e
+ 084-8487-457a-91a3-92f494fc7519
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Payam Barnaghi\,Oscar Corcho\,Manfred Hauswirth\,Kerry 
+ Taylor\,Cory Henson\,Amit Sheth\nabstract: It is estimated that today ther
+ e are 4 billion mobile devices that can act as sensors\, including active 
+ and passive RFID tags. This is complemented by an even larger number of fi
+ xed sensors recording observations of a wide variety of modalities. Geogra
+ phically distributed sensor nodes are capable of forming ad hoc networking
+  topologies\, with nodes expected to be dynamically inserted and removed f
+ rom a network. The sensors are increasingly being connected with Web infra
+ structure\, and the Sensor Web Enablement (SWE) standard developed by the 
+ Open Geospatial Consortium is widely being adopted in industry\, governmen
+ t and academia alike. While such frameworks provide some interoperability\
+ , semantics is increasingly seen as key enabler for integration of sensor 
+ data and broader Web information systems. Analytical and reasoning capabil
+ ities afforded by Semantic Web standards and technologies are considered i
+ mportant for developing advanced applications that go from capturing obser
+ vations to recognition of events and ultimately developing comprehensive s
+ ituational awareness. Defense\, transportation\, global enterprise\, and n
+ atural resource management industries are leading the rapid emergence of a
+ pplications in commercial\, civic\, and scientific operations that involve
+  sensors\, web\, services and semantics. Semantic technologies are often p
+ roposed as important components of complex\, cross-jurisdictional\, hetero
+ geneous\, dynamic information systems. The needs and opportunities arising
+  from the rapidly growing capabilities of networked sensing devices are a 
+ challenging case.\n -SSN 2013 Session 1 (09:00-10:30)\n -SSN 2013 Session 
+ 2 (11:00-12:45)
+LOCATION:Northcott (5th Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:workshop on Semantic Web Enterprise Adoption and Best Practice
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T124500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:003f7bb
+ dab-7594-4341-8bb1-ccf120e3f2ed
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Sam Coppens\,Miel Vander Sande\,Marco Neumann\,Magnus K
+ nuth\,Karl Hammar\,Dominique Ritze\nabstract: Over the years\, Semantic We
+ b based systems\, applications\, and tools have shown significant improvem
+ ent. Their development and deployment shows the steady maturing of semanti
+ c technologies and demonstrates their value in solving current and emergin
+ g problems. Examples include enabling generic clients\, facilitating auton
+ omous agents and large scale distributed data integration. Despite the enc
+ ouraging figures\, the number of enterprises working on and with these tec
+ hnologies is dwarfed by the large number who have not yet adopted semantic
+  technologies. Current adoption is mainly restricted to methodologies prov
+ ided by the research community. Although Semantic Web acts as candidate te
+ chnology to the industry\, it does not win through in current enterprise c
+ hallenges like data fusion\, data integration or natural language processi
+ ng (e.g. IBM Watson). To better understand the market dynamics uptake need
+ s to be addressed and if possible quantified.\n -WaSABi session 1 (09:00-1
+ 0:30)\n -WaSABi session 2 (11:00-12:45)
+LOCATION:Doric (Ground Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial 6: The Mobile Semantic Web
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T124500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:0070ebf
+ 6c7-800f-4d18-8485-0e2bcfb7f5d5
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Yuan-Fang Li\,Shonali Krishnaswamy\nabstract: The c
+ ombination of the versatility of smart devices and the capabilities of sem
+ antic technologies forms a great foundation for a mobile Semantic Web that
+  will contribute to further realizing the true potential of both disciplin
+ es. Motivated by a service discovery and matchmaking example\, this tutori
+ al provides an overview of background knowledge in ontology languages and 
+ basic reasoning problems\, and how they are applicable in the mobile envir
+ onment. It then presents challenges and state-of-the-art development on mo
+ bile ontology reasoning\, focusing on the reasoning and optimization techn
+ iques developed in the mTableaux framework. Finally\, the tutorial closes 
+ with an outlook of important research problems.\n -The Mobile Semantic Web
+  Session 1 (09:00-10:30)\n -The Mobile Semantic Web Session 2 (11:00-12:45
+ )
+LOCATION:Carruthers (5th Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial 7: Hands-on Guide to Linked Data Applications
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T124500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-22T09:00:0060f44
+ 822-7dd9-42f3-a393-3add75a57c0e
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Liliana Cabral\,Heiko Mueller\,Ahsan Morshed\nabstr
+ act: The concept of Linked Open Data (LOD) shows great potential to overco
+ me existing problems in discovery\, integration\, and reuse of data. More 
+ and more applications are emerging that make use of LOD. Building such app
+ lications is supported by a large number of tools that have been developed
+  in the Semantic Web community. The goal of this tutorial is to provide no
+ vices with a practical introduction into building LOD applications. Partic
+ ipants will learn how to build a simple LOD application by following hands
+ -on instructions. Using publicly available tools and practical use cases\,
+  we show how to go from structured data.\n -Hands-on Guide to Linked Data 
+ Applications Session 1 (09:00-10:30)\n -Hands-on Guide to Linked Data Appl
+ ications Session 2 (11:00-12:45)
+LOCATION:Carrington (3rd Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2nd International Workshop on Ordering and Reasoning
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T134500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T175500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-22T13:45:009e8c8
+ 413-2294-43d0-adbc-d6aeedf924f6
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Stefan Schlobach\,Markus Krötzsch\,Irene Celino\,Emanu
+ ele Della Valle\nabstract: More and more applications require real-time pr
+ ocessing of massive\, dynamically generated\, ordered data\; where order i
+ s often an essential factor reflecting recency\, proximity or relevance. S
+ tream and rank-aware data management techniques are progressively providin
+ g reactive and reliable query answering over such massive datasets\, allow
+ ing integration of highly dynamic sources. Key to their success is the use
+  of streaming algorithms that harness the natural or enforceable orders in
+  the data. The expressive power of Semantic technologies is needed in thos
+ e applications\, but Semantic Technologies risk being unable to address th
+ e needs of those applications\, because they do not consider ordering as a
+ n essential property. Ranking results is often seen as an “added task”
+ \, performed after inference\, without affecting the inference process\, w
+ hich is order-agnostic. However\, we perceive a trend towards order-aware 
+ semantic technologies: both researchers and practitioners understand that 
+ order matters in reasoning over massive and highly dynamic data. The idea 
+ of Stream Reasoning is gaining considerable momentum. Some top-k query ans
+ wering techniques for Linked Data appeared. Several works are considering 
+ SPARQL query answering on RDF annotated with labels partially ordered. The
+  Description Logic community is investigating top-k ontological query answ
+ ering. This workshop aims at bringing together this growing and very activ
+ e community interested in integrating ordering with reasoning by using met
+ hods inspired by stream and rank-aware data management. We see this worksh
+ op as a first step to stimulate and guide a paradigm shift in semantic tec
+ hnologies.\n -OrdRing 2013 Session 1 (13:45-15:30)\n -OrdRing 2013 Session
+  2 (16:00-17:55)
+LOCATION:Doric (Ground Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Semantic Machine Learning and Linked Open Data Application
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T134500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T173000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-22T13:45:003b41b
+ 761-a237-4b46-b139-275d221faf82
+CATEGORY:WorkshopEvent
+DESCRIPTION:chair: Ritaban Dutta\,Greg Timms\,Ahsan Morshed\nabstract: His
+ torical and spatial big data from the environmental and agricultural domai
+ ns already exist in the modern technology-driven world. Government agencie
+ s\, utilities and research bodies already have large amounts of data\, but
+  their value is not being fully realised because they are not integrated a
+ nd consequently big knowledge is difficult to access. Semantic web\, seman
+ tic machine learning and linked open data technology may help to build an 
+ "outer knowledge layer" so that this information could be accessed by doma
+ in people and the broader community. It can also be used to answer complex
+  dynamic queries at run time from the system point of view.\n -SML2OD 2013
+  Session 1 (13:45-15:30)\n -SML2OD 2013 Session 2 (16:00-17:30)
+LOCATION:Composite (Ground Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial 8: Big Data Management
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T134500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T173000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-22T13:45:008006b
+ 746-f71e-4adb-98ae-8eda651e0148
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Marko Grobelnik\,Dunja Mladenic\,Blaž Fortuna\nabs
+ tract: The tutorial on Big Data Management will cover the current state of
+  the Big Data area of research and applications. The emphasis will be on t
+ he research aspects of the Big Data presenting the characteristic algorith
+ ms running under the hood of the Big Data platforms and applications. The 
+ key contribution will be the systematic overview of the key building block
+ s which make Big Data management different from the traditional data manag
+ ement approaches (including relational data bases\, semantic technologies 
+ and data analytics). In the last part of the tutorial we will present seve
+ ral working systems explaining the architecture and design decisions.\n -B
+ ig Data Management Session 1 (13:45-15:30)\n -Big Data Management Session 
+ 2 (16:00-17:30)
+LOCATION:Carruthers (5th Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial 9: Linked Data for Web Scale Information Extraction
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T134500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131022T173000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-22T13:45:00ef865
+ 540-d2fb-4bc3-b7ec-e309fa59408f
+CATEGORY:TutorialEvent
+DESCRIPTION:presenter: Ziqi Zhang\,Anna Lisa Gentile\nabstract: This tutor
+ ial analyses open challenges for Web-scale Information Extraction (IE) and
+  introduces the usage of Linked Data (LD) for the task. Linked Data has gr
+ own to a gigantic knowledge base\, which\, as of 2013\, comprised 31 billi
+ on triples in 295 datasets (http://lod-cloud.net/state/). Such resources c
+ an become invaluable resources to train Web-scale IE and natural language 
+ tasks because they are very large scale and covering multiple domains. Thi
+ s tutorial will show how to exploit LD for IE and will explore IE techniqu
+ es able to scale at web level. We will particularly focus on the tasks of 
+ Wrapper Induction and Table Interpretation.\n -Linked Data for Web Scale I
+ nformation Extraction Session 1 (13:45-15:30)\n -Linked Data for Web Scale
+  Information Extraction Session 2 (16:00-17:30)
+LOCATION:Carrington (3rd Floor)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Opening Ceremony
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T091500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T09:00:001e28a
+ 877-0ed3-4077-8bff-72ecb2c502d5
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Parkside Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Light at the End of the Tunnel
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T091500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T101500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T09:15:0051725
+ 68c-ea8b-4b2b-9632-748be8054112
+CATEGORY:InvitedTalkEvent
+DESCRIPTION:chair: Chris Welty\npresenter: Ramanathan V. Guha\nabstract: A
+  significant fraction of the pages on the web are generated from structure
+ d databases. A longstanding goal of the semantic web initiative is to get 
+ webmasters to make this structured data directly available on the web. The
+  path towards this objective has been rocky at best. While there have been
+  some notable wins (such as RSS and FOAF)\, many of the other initiatives 
+ have seen little industry adoption. Learning from these earlier attempts h
+ as guided the development of schema.org\, which appears to have altered th
+ e trajectory. Two years after its launch over 4 million Internet domains a
+ re are using schema.org markup. In this talk\, we recount the history behi
+ nd the early efforts and try to understand why some of them succeeded whil
+ e others failed. We will then give an update on Schema.org\, its goals\, a
+ ccomplishments and where it is headed. We will also discuss some of the in
+ teresting research problems being addressed in the context of this effort.
+LOCATION:Parkside Ballroom B
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Morning Tea
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T101500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T110000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T10:15:00b409c
+ 4fe-2c60-4ec7-92d6-86f31d3ef4be
+CATEGORY:BreakEvent
+DESCRIPTION:
 LOCATION:Parkside Ballroom Foyer
-DTSTART;TZID=Australia/Sydney:20131023T101500
-DTEND;TZID=Australia/Sydney:20131023T110000
-TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20131016T053935Z
-CREATED:20131016T053935Z
-UID:The_12th_International_Semantic_Web_Conference2013-10-24T12:40:
- 001f134376-8449-4a52-9969-4a1992e5c7b9
-LAST-MODIFIED:20131016T053935Z
-SUMMARY:Mentoring Lunch
+SUMMARY:Semantic Web Landscape
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T110000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T124000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T11:00:0070864
+ 9e2-5f87-4a69-b4ca-0c51ebe56fd0
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Philippe Cudré-Mauroux\n -On the Status of Experimenta
+ l Research on the Semantic Web ( Research Track Paper)\n -A snapshot of th
+ e OWL Web ( Research Track Paper)\n -Deployment of RDFa\, Microdata\, and 
+ Microformats on the Web – A Quantitative Analysis ( Semantic Web In Use 
+ Track Paper)\n -When History Matters - Assessing Reliability for the Reuse
+  of Scientific Workflows ( Semantic Web In Use Track Paper)\n -Simplified 
+ OWL Ontology Editing for the Web: Is WebProtégé Enough? ( Research Track
+  Paper)
+LOCATION:Parkside 110B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reasoning
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T110000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T124000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T11:00:000292d
+ 5a2-664b-4d39-89d3-efc1c09f945e
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Pascal Hitzler\n -Incremental Reasoning in OWL EL witho
+ ut Bookkeeping ( Research Track Paper)\n -Completeness Statements about RD
+ F Data Sources and Their Use for Query Answering ( Research Track Paper)\n
+  -DynamiTE: Parallel Materialization of Dynamic RDF Data ( Research Track 
+ Paper)\n -A Query Tool for EL with Non-monotonic rules ( Research Track Pa
+ per)\n -Towards Constructive Evidence of Data Flow-oriented Web Service Co
+ mposition ( Research Track Paper)
+LOCATION:Parkside Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Industry 1
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T110000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T124000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T11:00:00a342e
+ 665-2bbb-4258-b15d-68fb486c76b2
+CATEGORY:SessionEvent
+DESCRIPTION: -Invited Talk -- Andrew Woolf (11:00-12:00 InvitedTalk)\n -A 
+ Semantic Approach to Data Center Management (12:00-12:20 Industry Track Pa
+ per)\n -How Semantic Technologies supercharge a platform for context-aware
+  applications (12:20-12:40 Industry Track Paper)
+LOCATION:Parkside 110A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:JWS Lunch
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T124000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T142000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T12:40:0058402
+ 4dd-81cb-491b-a527-2a038117b363
+CATEGORY:SpecialEvent
+DESCRIPTION:
 LOCATION:Invitation only
-DTSTART;TZID=Australia/Sydney:20131024T124000
-DTEND;TZID=Australia/Sydney:20131024T142000
-TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T124000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T142000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T12:40:004798f
+ 9b1-e59c-4733-ba56-a1a667f3751e
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Parkside Ballroom Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Geo-Spatial Semantics
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T142000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T150000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T14:20:008007c
+ c92-5d14-4fc7-b779-615a36f099aa
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Krzysztof Janowicz\n -ORCHID – Reduction-Ratio-Optima
+ l Computation of Geo-Spatial Distances for Link Discovery ( Research Track
+  Paper)\n -Geographica: A Benchmark for Geospatial RDF Stores ( Evaluation
+  Track Paper)
+LOCATION:Parkside 110B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Life Science
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T142000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T150000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T14:20:00b7b25
+ 092-9802-4460-8451-530138ee7498
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Patrice Seyed\n -Semantic Data and Models Sharing in sy
+ stems Biology: The Just Enough Results Model and the SEEK Platform ( Seman
+ tic Web In Use Track Paper)\n -Using Semantic Web in ICD-11: Three Years D
+ own the Road ( Semantic Web In Use Track Paper)
+LOCATION:Parkside Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Industry 2
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T142000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T150000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T14:20:00b6301
+ 940-d758-4380-aa98-4e456b2d3922
+CATEGORY:SessionEvent
+DESCRIPTION: -DISQOVER Links For Lives: Building a Linked Data UX (User eX
+ perience) for Federated Query and Faceted Search Linking HealthCare and Li
+ fe sciences Data for All Users (14:20-14:40 Industry Track Paper)\n -Seman
+ tic Business Architecture Modelling in Financial Industry Regulation (14:4
+ 0-15:00 Industry Track Paper)
+LOCATION:Parkside 110A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T150000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T151500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T15:00:00b0496
+ 6ff-6548-4e88-a79f-7055cba65ec3
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Natural Language Processing
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T151500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T161500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T15:15:008eb2d
+ 6cb-615d-44c5-a572-3399d8e7d50a
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Raphaël Troncy\n -Bringing Math to LOD: A Semantic Pub
+ lishing Platform Prototype for Scientific Collections in Mathematics ( Res
+ earch Track Paper)\n -Semantic Rule Filtering for Web-Scale Relation Extra
+ ction ( Research Track Paper)\n -Integrating NLP using Linked Data ( Seman
+ tic Web In Use Track Paper)
+LOCATION:Parkside 110B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Search
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T151500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T161500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T15:15:00f4991
+ 0a6-3c57-4491-9895-d49102fd58ac
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Jeff Heflin\n -Federated Entity Search using On-The-Fly
+  Consolidation ( Research Track Paper)\n -Getting Lucky in Ontology Search
+ : A Data-Driven Evaluation Framework for Ontology Ranking ( Research Track
+  Paper)\n -Entity recommendations in Web Search ( Semantic Web In Use Trac
+ k Paper)
+LOCATION:Parkside Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Industry 3
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T151500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T161500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T15:15:00c8be9
+ c30-1a70-4a61-8eb6-2bd3113d4416
+CATEGORY:SessionEvent
+DESCRIPTION: -Integrating Relational Databases with the Semantic Web: Four
+  Scenarios (15:15-15:35 Industry Track Paper)\n -OData and the Semantic We
+ b (15:35-15:55 Industry Track Paper)\n -Speaker Panel (15:55-16:15)
+LOCATION:Parkside 110A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Afternoon Tea
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T161500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T165500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T16:15:008ab38
+ cd5-eab0-4a7b-8322-c8b544ee7d6d
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Parkside Ballroom Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Minute Madness
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T165500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T180500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T16:55:005dd0f
+ 582-82e8-4dde-9c1f-3f1e23c20cd9
+CATEGORY:SpecialEvent
+DESCRIPTION:chair: Tudor Groza\,Eva Blomqvist
+LOCATION:Parkside 110B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Posters & Demos Session
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T180500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T210000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T18:05:009abd6
+ 361-5b88-4730-b08d-14d1a8d7b772
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Parkside Ballroom B/Parkside Ballroom Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SWJ Dinner
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T200000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131023T213000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-23T20:00:0065c07
+ e6e-0ef2-42eb-a941-aa8361ca9bd7
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Invitation only
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Announcements
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T091500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T09:00:00bf32b
+ 8b3-44ed-46be-b3e7-48bbc432bb90
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Parkside Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Progress in Open-World\, Integrative\, Transparent\, Collaborative
+  Science Data Platforms
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T091500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T101500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T09:15:00eb5f5
+ dfa-54b5-4d95-a127-8ef2f53e3090
+CATEGORY:InvitedTalkEvent
+DESCRIPTION:chair: Pascal Hitzler\npresenter: Peter Fox\nabstract: As coll
+ aborative\, or network science spreads into more science\, engineering and
+  medical fields\, both the participants and their funders have expressed a
+  very strong desire for highly functional data and information capabilitie
+ s that are a) easy to use\, b) integrated in a variety of ways\, c) levera
+ ge prior investments and keep pace with rapid technical change\, and d) ar
+ e not expensive or time-consuming to build or maintain. In response\, and 
+ based on our accumulated experience over the last decade and a maturing of
+  several key semantic web approaches\, we have adapted\, extended\, and in
+ tegrated several open source applications and frameworks that handle major
+  portions of functionality for these platforms. At minimum\, these functio
+ ns include: an object-type repository\, collaboration tools\, an ability t
+ o identify and manage all key entities in the platform\, and an integrated
+  portal to manage diverse content and applications\, with varied access le
+ vels and privacy options. At the same time\, there is increasing attention
+  to how researchers present and explain results based on interpretation of
+  increasingly diverse and heterogeneous data and information sources. With
+  the renewed emphasis on good data practices\, informatics practitioners h
+ ave responded to this challenge with maturing informatics-based approaches
+ . These approaches include\, but are not limited to\, use case development
+ \; information modeling and architectures\; elaborating vocabularies\; med
+ iating interfaces to data and related services on the Web\; and traceable 
+ provenance. The current era of data-intensive research presents numerous c
+ hallenges to both individuals and research teams. In environmental science
+  especially\, sub-fields that were data-poor are becoming data-rich (volum
+ e\, type and mode)\, while some that were largely model/ simulation driven
+  are now dramatically shifting to data-driven or least to data-model assim
+ ilation approaches. These paradigm shifts make it very hard for researcher
+ s used to one mode to shift to another\, let alone produce products of the
+ ir work that are usable or understandable by non-specialists. However\, it
+  is exactly at these frontiers where much of the exciting environmental sc
+ ience needs to be performed and appreciated. XVIII Research networks (even
+  small ones) need to deal with people\, and many intellectual artifacts pr
+ oduced or consumed in research\, organizational and/our outreach activitie
+ s\, as well as the relations among them. Increasingly these networks are m
+ odeled as knowledge networks\, i.e. graphs with named and typed relations 
+ among the 'nodes'. Some important nodes are: people\, organizations\, data
+ sets\, events\, presentations\, publications\, videos\, meetings\, reports
+ \, groups\, and more. In this heterogeneous ecosystem\, it is important to
+  use a set of common informatics approaches to co-design and co-evolve the
+  needed science data platforms based on what real people want to use them 
+ for. We present our methods and results for information modeling\, adaptin
+ g\, integrating and evolving a networked data science and information arch
+ itecture based on several open source technologies (e.g. Drupal\, VIVO\, t
+ he Comprehensive Knowledge Archive Network\; CKAN\, and the Global Handle 
+ System\; GHS) and many semantic technologies. We discuss the results in th
+ e context of the Deep Carbon Virtual Observatory and the Global Change Inf
+ ormation System\, and conclude with musings on how the smart mediation amo
+ ng the components is modeled and managed\, and its general applicability a
+ nd ecacy.
+LOCATION:Parkside Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Tea
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T101500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T110000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T10:15:006bf03
+ 46a-1bc1-4b7d-bc1c-552f3789177f
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Parkside Ballroom Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Streams
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T110000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T124000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T11:00:00680c5
+ 789-b608-40de-88bf-948e55079946
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Abraham Bernstein\n -Social listening of City Scale Eve
+ nts using the Streaming Linked Data Framework ( Semantic Web In Use Track 
+ Paper)\n -Elastic and scalable processing of Linked Stream Data in the Clo
+ ud ( Research Track Paper)\n -Real-time Urban Monitoring in Dublin using S
+ emantic and Stream Technologies ( Semantic Web In Use Track Paper)\n -On C
+ orrectness in RDF stream processor benchmarking ( Evaluation Track Paper)\
+ n -Real-time RDF extraction from unstructured data streams ( Research Trac
+ k Paper)
+LOCATION:Bayside 202-203
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SPARQL
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T110000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T124000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T11:00:00d1728
+ 291-55b8-4146-b87b-a27a88ab8d32
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Axel Polleres\n -Evaluating and benchmarking SPARQL que
+ ry containment solvers ( Evaluation Track Paper)\n -Introducing Statistica
+ l Design of Experiments to SPARQL Endpoint Evaluation ( Evaluation Track P
+ aper)\n -FedSearch: efficiently combining structured queries and full-text
+  search in a SPARQL federation ( Research Track Paper)\n -SPARQL Web-Query
+ ing Infrastructure: Ready for Action? ( Evaluation Track Paper)\n -NoSQL D
+ atabases for RDF: An Empirical Evaluation ( Evaluation Track Paper)
+LOCATION:Bayside 204A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Management & Exploration
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T110000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T124000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T11:00:009a61b
+ 6df-7579-45c7-b8e8-28fca8ad3f4e
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Sofia Pinto\n -Exploring Scholarly Data with Rexplore (
+  Research Track Paper)\n -Publishing the Norwegian Petroleum Directorate
+ ’s FactPages as Semantic Web Data ( Semantic Web In Use Track Paper)\n -
+ Using Linked Data to evaluate the impact of Research and Development in Eu
+ rope: a Structural Equation Model ( Semantic Web In Use Track Paper)\n -In
+ frastructure for Efficient Exploration of Large Scale Linked Data via Cont
+ extual Tag Clouds ( Research Track Paper)\n -The Energy Management Adviser
+  at EDF ( Semantic Web In Use Track Paper)
+LOCATION:Bayside 204B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T124000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T142000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T12:40:00fd57d
+ 931-4977-4609-a725-0bfa730f410e
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Parkside Ballroom Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mentoring Lunch
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T124000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T142000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T12:40:00a5ddf
+ 14d-b0f3-4bde-960f-7a3630557a7f
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Invitation only
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Semantic Web Challenge 1
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T142000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T150000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T14:20:00bb6d6
+ 58b-1735-442b-8158-f05c41d35319
+CATEGORY:SessionEvent
+DESCRIPTION:
+LOCATION:Bayside 202-203
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Multilingual Semantics
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T142000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T150000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T14:20:009b4ce
+ 8d6-5695-4306-826e-ad58f4cba841
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Asunción Gómez-Pérez\n -Towards an automatic creatio
+ n of localized versions of DBpedia ( Research Track Paper)\n -Cross-langua
+ ge Semantic Retrieval and Linking of E-gov Services ( Semantic Web In Use 
+ Track Paper)
+LOCATION:Bayside 204A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Logic 1
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T142000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T150000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T14:20:00201f9
+ 7ff-a174-4bb0-bb14-010f669766db
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Jeff Z. Pan\n -Simplifying Description Logic Ontologies
+  ( Research Track Paper)\n -The Logic of Extensional RDFS ( Research Track
+  Paper)
+LOCATION:Bayside 204B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T150000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T151500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T15:00:0028532
+ 32e-ddec-4ba6-bb29-ee03e2185bfc
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Semantic Web Challenge 2
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T151500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T161500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T15:15:00df696
+ c3d-e153-4663-9bbf-dc7729f9eff2
+CATEGORY:SessionEvent
+DESCRIPTION:
+LOCATION:Bayside 202-203
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Workshop Summaries
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T151500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T161500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T15:15:00b6408
+ 143-2d17-41d6-9c08-2aea4aeb0906
+CATEGORY:SpecialEvent
+DESCRIPTION:chair: Ben Johnston
+LOCATION:Bayside 204A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Logic 2
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T151500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T161500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T15:15:00e107b
+ 711-0e03-4816-9234-071ce1f0d770
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Jeff Z. Pan\n -A decision procedure for SHOIQ with tran
+ sitive closure of roles ( Research Track Paper)\n -Empirical Study of Logi
+ c-Based Modules: Cheap Is Cheerful ( Research Track Paper)
+LOCATION:Bayside 204B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Afternoon Tea
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T161500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T165500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T16:15:0039a57
+ 501-6876-4425-bc02-441d50c0a9c7
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Bayside 2 foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Town Hall
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T163000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T173000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T16:30:004781b
+ 450-84a1-4612-bbbc-8bb7b8dec519
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Bayside 202-203
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dinner Cruise
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T184500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131024T230000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-24T18:45:0064da3
+ 7bc-cb22-47e3-8497-78bf2739a53e
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:King Street Wharf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Announcements
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T090000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T091500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T09:00:00c731a
+ 173-884c-479c-85bd-dbaf86151b15
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Parkside  Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Semantic Big Data in Australia - from Dingoes to Drysdale
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T091500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T101500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T09:15:0099bbb
+ c7a-366b-493f-9dc7-81c05641b5da
+CATEGORY:InvitedTalkEvent
+DESCRIPTION:chair: Kerry Taylor\npresenter: Jane Hunter\nabstract: This ke
+ ynote will describe a number of projects being undertaken at the Universit
+ y of Queensland eResearch Lab that are pushing Semantic Web technologies t
+ o their limit to help solve grand challenges in the environmental\, cultur
+ al and medical domains. In each of these use cases\, we are integrating mu
+ lti-modal data streams across space\, time\, disciplines\, formats and age
+ ncies to infer and expose new knowledge through rich multi-layered and int
+ eractive visualizations. We are developing hypothesis-based query interfac
+ es that provide evidence to validate or refute hypotheses and decision sup
+ port services that recommend the optimum actions given current or predicte
+ d scenarios. We are using ontologies to influence and adapt government pol
+ icies by linking policy-driven implementations\, investments and managemen
+ t actions to real world indicators. Through evaluation of the methods and 
+ assessment of the achievements associated with the OzTrack\, eReef\, Skele
+ tome and Twentieth Century in Paint projects\, I will highlight those Sema
+ ntic Web technologies that have worked for us and our user communities\, t
+ hose that haven't and those that need improvement. Finally\, I will discus
+ s what I believe will be the major outstanding research challenges facing 
+ Semantic Big Data in the next 5 years and those research areas with the gr
+ eatest potential for impact.
+LOCATION:Parkside  Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Tea
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T101500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T110000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T10:15:0008568
+ dd8-6fc0-46d2-8983-3e60a82af10f
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Parkside Ballroom Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ontology Mapping
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T110000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T124000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T11:00:0015a95
+ b40-4768-49a6-89e8-49201442fa9f
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Jérôme Euzenat\n -Indented Tree or Graph? A Usability
+  Study of Ontology Visualization Techniques in the Context of Class Mappin
+ g Evaluation ( Research Track Paper)\n -String Similarity Metrics for Onto
+ logy Alignment ( Evaluation Track Paper)\n -Evaluation measures for ontolo
+ gy matchers in supervised matching scenarios ( Evaluation Track Paper)\n -
+ QODI: Query as Context in Automatic Data Integration ( Research Track Pape
+ r)\n -What's in a 'nym'? Synonyms in Biomedical Ontology Matching ( Resear
+ ch Track Paper)
+LOCATION:Bayside 202-203
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Query
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T110000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T124000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T11:00:000a9f3
+ b08-0a17-463d-86d4-015884591403
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Philippe Cudré-Mauroux\n -Complete Query Answering Ove
+ r Horn Ontologies Using a Triple Store ( Research Track Paper)\n -DAW: Dup
+ licate-AWare Federated Query Processing over the Web of Data ( Research Tr
+ ack Paper)\n -Towards a systematic benchmarking of ontology-based query re
+ writing systems ( Evaluation Track Paper)\n -Personalized Best Answer Comp
+ utation in Graph Databases ( Research Track Paper)\n -Controlled Query Eva
+ luation over OWL 2 RL Ontologies ( Research Track Paper)
+LOCATION:Bayside 204A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Knowledge Discovery
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T110000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T124000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T11:00:005db43
+ f40-9d5e-4340-81e9-f2a95d5b1cc7
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Marko Grobelnik\n -TRM – Learning Dependencies betwee
+ n Text and Structure with Topical Relational Models ( Research Track Paper
+ )\n -Pattern Based Knowledge Base Enrichment ( Research Track Paper)\n -Di
+ scovering Missing Semantic Relations between Entities in Wikipedia ( Resea
+ rch Track Paper)\n -Using the past to explain the present: interlinking cu
+ rrent affairs with archives via the Semantic Web ( Semantic Web In Use Tra
+ ck Paper)\n -A Graph-Based Approach to Learn Semantic Descriptions of Data
+  Sources ( Research Track Paper)
+LOCATION:Bayside 204B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ISWC2014 Lunch
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T124000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T142000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T12:40:00bfb42
+ 3bc-c905-4f47-b6af-52dbb5aff2b7
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Invitation only
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T124000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T142000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T12:40:00ef9a6
+ c3c-a43e-41fc-a69c-5cf1a6eaf43a
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Parkside Ballroom Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Linked Data 1
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T142000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T150000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T14:20:00c32aa
+ 409-a414-4dd7-9a5e-1c6f635ac241
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Mathieu D'Aquin\n -Secure Manipulation of Linked Data (
+  Research Track Paper)\n -Incorporating Commercial and Private Data into a
+ n Open Linked Data Platform for Drug Discovery ( Semantic Web In Use Track
+  Paper)
+LOCATION:Bayside 202-203
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Licensing and Confidentiality Models
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T142000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T150000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T14:20:00c3083
+ acb-72d4-4cec-b9b1-c1875752dbaa
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Axel Polleres\n -One License to Compose Them All: a deo
+ ntic logic approach to data licensing on the Web of Data ( Research Track 
+ Paper)\n -A Confidentiality Model for Ontologies ( Research Track Paper)
+LOCATION:Bayside 204A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crowd-sourced semantics
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T142000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T150000
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T14:20:00a4905
+ 563-063d-4785-b8fa-329470b2e873
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Lora Aroyo\n -Reasoning on crowd-sourced semantic annot
+ ations to facilitate cataloguing of 3D artefacts in the cultural heritage 
+ domain ( Semantic Web In Use Track Paper)\n -Crowdsourcing Linked Data Qua
+ lity Assessment ( Evaluation Track Paper)
+LOCATION:Bayside 204B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T150000
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T151500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T15:00:00119c3
+ 4c6-a678-4594-995d-228970047050
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Linked Data 2
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T151500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T161500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T15:15:00289a5
+ cb0-121e-4c17-83b0-36fbb4858dc8
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Fabien Gandon\n -Semantic Message Passing for Generatin
+ g Linked Data from Tables ( Research Track Paper)\n -A Linked-Data-driven 
+ and Semantically-enabled Journal Portal for Scientometrics ( Semantic Web 
+ In Use Track Paper)\n -TRank: Ranking Entity Types Using the Web of Data (
+  Research Track Paper)
+LOCATION:Bayside 202-203
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Knowledge Extraction
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T151500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T161500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T15:15:003577b
+ b94-6bda-44f9-a746-19c3d208af12
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Axel-Cyrille Ngonga Ngomo\n -Knowledge Graph Identifica
+ tion ( Research Track Paper)\n -Type Inference on Noisy RDF Data ( Researc
+ h Track Paper)\n -Statistical Knowledge Patterns: Identifying Synonymous R
+ elations in Large Linked Datasets ( Research Track Paper)
+LOCATION:Bayside 204A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Access
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T151500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T161500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T15:15:00beff5
+ b0e-ceb5-4dc4-8f73-94195f4447a8
+CATEGORY:SessionEvent
+DESCRIPTION:chair: Oscar Corcho\n -ProSWIP: Property-based Data Access for
+  Semantic Web Interactive Programming ( Research Track Paper)\n -Ontology-
+ Based Data Access: Ontop of Databases ( Research Track Paper)\n -The Combi
+ ned Approach to OBDA: Taming Role Hierarchies using Filters ( Research Tra
+ ck Paper)
+LOCATION:Bayside 204B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Afternoon Tea
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T161500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T165500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T16:15:00b24e4
+ 02c-e5e6-4eb7-a0f3-d8937c116fd6
+CATEGORY:BreakEvent
+DESCRIPTION:
+LOCATION:Basyside 2 Foyer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Closing Ceremony
+DTSTART;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T165500
+DTEND;TZID=Australia/Sydney;VALUE=DATE-TIME:20131025T180500
+DTSTAMP;VALUE=DATE-TIME:20131018T162240Z
+UID:The_12th_International_Semantic_Web_Conference2013-10-25T16:55:00105ca
+ 0f2-7f75-4684-932d-bfd80223b011
+CATEGORY:SpecialEvent
+DESCRIPTION:
+LOCATION:Bayside 201-203
 END:VEVENT
 END:VCALENDAR
