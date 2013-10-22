@@ -1,0 +1,136 @@
+<html>
+  <head>
+    <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+    <script type='text/javascript'>
+     google.load('visualization', '1', {'packages': ['geomap','corechart']});
+     google.setOnLoadCallback(draw);
+
+      function draw() {
+        var data = google.visualization.arrayToDataTable([
+			['Country', 'Popularity'],
+			["US",68],
+			["Germany",38],
+			["UK",28],
+			["Italy",22],
+			["France",18],
+			["Australia",16],
+			["The Netherlands",9],
+			["Austria",8],
+			["Canada",8],
+			["China",8],
+			["Japan",7],
+			["South Korea",7],
+			["Spain",7],
+			["Switzerland",7],
+			["Belgium",5],
+			["Ireland",5],
+			["Greece",4],
+			["India",4],
+			["Brazil",3],
+			["Chile",3],
+			["Finland",3],
+			["Portugal",3],
+			["Slovenia",3],
+			["Sweden",3],
+			["Bulgaria",2],
+			["Czech Republic",2],
+			["New Zealand",2],
+			["Norway",2],
+			["Russia",2],
+			["Thailand",2],
+			["Dominican Republic",1],
+			["Egypt",1],
+			["Hungary",1],
+			["Iran",1],
+			["Israel",1],
+			["Jordan",1],
+			["Lebanon",1],
+			["Palestine",1],
+			["Philippines",1],
+			["Poland",1],
+			["Qatar",1],
+			["Serbia",1],
+			["Singapore",1],
+			["Venezuela",1],
+			["Vietnam",1]
+        ]);
+
+        var options = {
+        };
+
+        var chart = new google.visualization.GeoChart(document.getElementById('chart_div_geo'));
+        chart.draw(data, options);
+
+		var options = {
+          legend: {position: 'labeled'},
+          pieSliceText: 'label',
+          pieHole: 0.3,
+        }
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div_pie'));
+        chart.draw(data, options);
+
+    };
+    </script>
+  </head>
+  <body style="text-align:center">
+<table><tr><td>
+    <div id="chart_div_pie" style="width: 800px; height: 500px;"></div>
+</td><td>
+    <table style="width: 600px"><tr><td>
+United States (21.7%)<br />
+Germany (12.1%)<br />
+United Kingdom (8.9%)<br />
+Italy (7.0%)<br />
+France (5.7%)<br />
+Australia (5.1%)<br />
+The Netherlands (2.9%)<br />
+Austria (2.5%)<br />
+Canada (2.5%)<br />
+China (2.5%)<br />
+Japan (2.2%)<br />
+South Korea (2.2%)<br />
+Spain (2.2%)<br />
+Switzerland (2.2%)<br />
+Belgium (1.6%)<br />
+</td><td>
+
+Ireland (1.6%)<br />
+Greece (1.3%)<br />
+India (1.3%)<br />
+Brazil (1.0%)<br />
+Chile (1.0%)<br />
+Finland (1.0%)<br />
+Portugal (1.0%)<br />
+Slovenia (1.0%)<br />
+Sweden (1.0%)<br />
+Bulgaria (0.6%)<br />
+Czech Republic (0.6%)<br />
+New Zealand (0.6%)<br />
+Norway (0.6%)<br />
+Russia (0.6%)<br />
+Thailand (0.6%)<br />
+
+</td><td>
+
+Dominican Republic (0.3%)<br />
+Egypt (0.3%)<br />
+Hungary (0.3%)<br />
+Iran (0.3%)<br />
+Israel (0.3%)<br />
+Jordan (0.3%)<br />
+Lebanon (0.3%)<br />
+Palestine (0.3%)<br />
+Philippines (0.3%)<br />
+Poland (0.3%)<br />
+Qatar (0.3%)<br />
+Serbia (0.3%)<br />
+Singapore (0.3%)<br />
+Venezuela (0.3%)<br />
+Vietnam (0.3%)
+</td></tr></table>
+
+</td></tr></table>
+
+    <div id="chart_div_geo" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
