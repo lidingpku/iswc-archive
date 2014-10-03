@@ -187,7 +187,7 @@ CSIRO Computational Informatics,CSIRO,,http://dbpedia.org/resource/Commonwealth_
 Commonwealth Scientific and Industrial Research Organisation,CSIRO,,http://dbpedia.org/resource/Commonwealth_Scientific_and_Industrial_Research_Organisation,,man-short,,,TRUE,,2013/09/04
 CSIRO,CSIRO,,http://dbpedia.org/resource/Commonwealth_Scientific_and_Industrial_Research_Organisation,,man-short,,,TRUE,,2013/08/01
 "CSIRO, Australia",CSIRO,,http://dbpedia.org/resource/Commonwealth_Scientific_and_Industrial_Research_Organisation,,man-short,,,TRUE,,2013/09/04
-CSIRO ICT Centre,CSIRO Australia,,,,ok,,,,,2013/08/01
+CSIRO ICT Centre,CSIRO,,,,ok,,,,,2013/08/01
 Curtin University,Curtin University,,http://dbpedia.org/resource/Curtin_University,,auto,,,True,,2014/10/02
 Centrum Wiskunde & Informatica,CWI Amsterdam,,http://dbpedia.org/resource/Centrum_Wiskunde_&_Informatica,,ok,,,TRUE,,2013/09/09
 Centrum voor Wiskunde en Informatica,CWI Amsterdam,,http://dbpedia.org/resource/Centrum_Wiskunde_&_Informatica,,ok,,,True,,2014/10/02
@@ -208,7 +208,6 @@ DARPA/IXO,DARPA/IXO,,,,ok,,,,,2013/08/01
 Data Archiving and Networked Services (DANS),Data Archiving and Networked Services (DANS),,,,man,,,,,2013/09/04
 "Data.gov, U.S. General Services Administration","Data.gov, U.S. General Services Administration",,,,man,,,,,2013/09/03
 DataPop,"DataPop, Inc.",,,,ok,,,,,2013/08/01
-DCC,DCC,,,,man,,,,,2014/10/02
 Delft University of Technology,Delft University of Technology,,http://dbpedia.org/resource/Delft_University_of_Technology,,ok,,,TRUE,,2013/09/03
 TU Delft,Delft University of Technology,,http://dbpedia.org/resource/Delft_University_of_Technology,,ok,,,TRUE,,2013/08/01
 DERI NUIG,"DERI, Galway",,http://dbpedia.org/resource/Celtrak,,auto,,,True,,2014/10/02
@@ -554,7 +553,7 @@ Institute of Cognitive Sciences and Technologies - CNR,ISTC-CNR,,,,man,,,,,2014/
 Université Paris 13 & CNR-ISTC,ISTC-CNR,,,,man,,,,,2014/10/02
 ISTI-CNR,ISTI-CNR,,,,ok,,,,,2013/08/01
 ISTI-C.N.R.,ISTI-CNR,,,,man,,,,,2013/10/12
-ISTI CNR,Istituto di Scienza e Tecnologie dell'Informazione,,http://dbpedia.org/resource/Istituto_di_Scienza_e_Tecnologie_dell'Informazione,,auto,,,True,,2014/10/02
+ISTI CNR,ISTI-CNR,,http://dbpedia.org/resource/Istituto_di_Scienza_e_Tecnologie_dell'Informazione,,auto,,,True,,2014/10/02
 "Istituto Italiano di Tecnologia, Genova",Istituto Italiano di Tecnologia,,http://dbpedia.org/resource/Ludwig_Maximilian_University_of_Munich,,ok,,,,,2014/10/03
 ISX,ISX Corporation,,,,man,,,,,2013/08/01
 National Research Council of Italy,Italian National Research Council,,http://dbpedia.org/resource/Consiglio_Nazionale_delle_Ricerche,,auto,,,,,2014/10/02
@@ -622,12 +621,12 @@ Kwansei Gakuin University,Kwansei Gakuin University,,http://dbpedia.org/resource
 Kyoto Univeristy,Kyoto University,,http://dbpedia.org/resource/Kyoto_University,,ok,,,,,2013/08/01
 Kyoto University,Kyoto University,,http://dbpedia.org/resource/Kyoto_University,,ok,,,,,2013/08/01
 L and C,L and C,,,,man,,,,,2013/08/01
-L3S and University of Hannover,L3S Research Center,,,,ok,,,,,2013/08/01
-L3S Research Center,L3S Research Center,,,,ok,,,,,2013/08/01
-"Learning Lab, Univ. Hannover",L3S Research Center,,,,ok,,,,,2013/08/01
-"L3S Research Center, Leibniz University",L3S Research Center,,,,man,,,,,2014/10/02
-L3S,L3S Research Center,,,,man,,,,,2014/10/02
-L3S Research Center & Leibniz Universität Hannover,L3S Research Center,,,,auto-fail-outside-wikipedia,,,,,2014/10/02
+L3S and University of Hannover,"L3S, University of Hannover",,,,ok,,,,,2013/08/01
+L3S Research Center,"L3S, University of Hannover",,,,ok,,,,,2013/08/01
+"Learning Lab, Univ. Hannover","L3S, University of Hannover",,,,ok,,,,,2013/08/01
+"L3S Research Center, Leibniz University","L3S, University of Hannover",,,,man,,,,,2014/10/02
+L3S,"L3S, University of Hannover",,,,man,,,,,2014/10/02
+L3S Research Center & Leibniz Universität Hannover,"L3S, University of Hannover",,,,auto-fail-outside-wikipedia,,,,,2014/10/02
 LabSEB/CNR,LABSEB-CNR,,,,man,,,,,2013/08/01
 LADSEB/CNR,LABSEB-CNR,,,,man,,,,,2013/08/01
 "LADSEB-CNR, Padova",LABSEB-CNR,,,,ok,,,,,2013/08/01
@@ -886,6 +885,7 @@ QinetiQ Ltd,QinetiQ Ltd,,http://dbpedia.org/resource/Qinetiq,,ok,,,TRUE,,2013/09
 Qualcomm,Qualcomm,,http://dbpedia.org/resource/Qualcomm,,ok,,,TRUE,,2013/08/01
 "Qualcomm Technologies, Inc.",Qualcomm,,http://dbpedia.org/resource/Qualcomm,,ok,,,TRUE,,2013/08/01
 "Centre for Digital Music, Queen Mary University of London",Queen Mary University of London,,http://dbpedia.org/resource/Queen_Mary_University_of_London,,auto,,,True,,2014/10/02
+"Queen Mary, University of London",Queen Mary University of London,,http://dbpedia.org/resource/Queen_Mary_University_of_London,,auto,,,True,,2014/10/03
 Queen Mary University of London,Queen Mary University of London,,http://dbpedia.org/resource/Queen_Mary_University_of_London,,ok,,,TRUE,,2013/08/01
 Queensland University of Technology,Queensland University of Technology,,http://dbpedia.org/resource/Queensland_University_of_Technology,,ok,,,TRUE,,2013/08/01
 R-Objects Inc.,R-Objects Inc.,,,,man,,,,,2013/09/05
@@ -1011,7 +1011,7 @@ SRI Consulting Business Intelligence,SRI Consulting Business Intelligence,,,,man
 SRI,SRI International,,http://dbpedia.org/resource/SRI_International,,man,,,,,2013/08/01
 SRI International,SRI International,,http://dbpedia.org/resource/SRI_International,,ok,,,,,2013/08/01
 SRM - Reti e Mobilita,SRM - Reti e Mobilita,,,,man,,,,,2014/10/03
-Stanford Center for Biomedical Informatics Research,Stanford Center for Biomedical Informatics Research,,,,man,,,,,2014/10/02
+Stanford Center for Biomedical Informatics Research,Stanford University,,,,man,,,,,2014/10/02
 "CS, Stanford University",Stanford University,,http://dbpedia.org/resource/Stanford_University,,man,,,,,2013/08/01
 "DB, Stanford University",Stanford University,,http://dbpedia.org/resource/Stanford_University,,man,,,,,2013/08/01
 Stanford,Stanford University,,http://dbpedia.org/resource/Stanford_University,,ok,,,,,2013/08/01
@@ -1083,6 +1083,7 @@ Open University,The Open University,,http://dbpedia.org/resource/Open_University
 The Open University,The Open University,,http://dbpedia.org/resource/Open_University,,ok,,,,,2013/08/01
 "Communications, Open University",The Open University,,http://dbpedia.org/resource/Open_University,,man,,,,,2014/10/02
 "Communications, The Open University",The Open University,,,,man,,,,,2013/09/03
+Thomas J. Watson Research Center,Thomas J. Watson Research Center,,http://dbpedia.org/resource/Thomas_J._Watson_Research_Center,,auto,,,True,,2013/10/03
 "TNO, Netherlands","TNO, Netherlands",,,http://www.tno.nl/,ok,,,,,2013/08/01
 Tokyo Institute of Technology,Tokyo Institute of Technology,,http://dbpedia.org/resource/Tokyo_Institute_of_Technology,,ok,,,,,2013/08/01
 TopQuadrant Inc,TopQuadrant Inc,,,,auto,,,,,2014/10/02
@@ -1294,6 +1295,7 @@ University of New South Wales,University of New South Wales,,http://dbpedia.org/
 UNSW,University of New South Wales,,http://dbpedia.org/resource/University_of_New_South_Wales,,ok,,,TRUE,,2013/09/04
 University New South Wales,University of New South Wales,,http://dbpedia.org/resource/University_of_New_South_Wales,,ok,,,,,2013/08/01
 Univ. Nice Sophia Antipolis,University of Nice Sophia Antipolis,,http://dbpedia.org/resource/University_of_Nice_Sophia_Antipolis,,auto,,,True,,2014/10/02
+Université Nice Sophia Antipolis,University of Nice Sophia Antipolis,,http://dbpedia.org/resource/University_of_Nice_Sophia_Antipolis,,auto,,,True,,2014/10/03
 University of North Carolina,University of North Carolina,,http://dbpedia.org/resource/University_of_North_Carolina,,ok,,,,,2013/08/01
 University of Nottingham,University of Nottingham,,http://dbpedia.org/resource/University_of_Nottingham,,ok,,,TRUE,,2013/10/12
 University of Orsay,University of Orsay,,,,ok,,,,,2013/08/01
@@ -1414,23 +1416,23 @@ Bell Laboratories and Temple University,Villanova University,,,,man,,,TRUE,,2013
 Visa,Visa Inc.,,http://dbpedia.org/resource/Visa_Inc.,,ok,,,TRUE,,2013/09/05
 Visual Interaction and Communications Centre,Visual Interaction and Communications Centre,,,,ok,,,,,2013/08/01
 VNU University of Engineering and Technology,VNU University of Engineering and Technology,,,,man,,,TRUE,,2013/09/04
-Free University of Amsterdam,Vrije Universiteit Amsterdam,,http://dbpedia.org/resource/Vrije_Universiteit,,man,,,,,2013/08/01
-Vrije U Amsterdam,Vrije Universiteit Amsterdam,,http://dbpedia.org/resource/Vrije_Universiteit,,man,,,,,2013/08/01
-Vrije University Amsterdam,Vrije Universiteit Amsterdam,,http://dbpedia.org/resource/Vrije_Universiteit,,man,,,,,2013/08/01
-University of Amsterdam/Vrije Universiteit Amsterdam,Vrije Universiteit Amsterdam,,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,TRUE,,2013/08/01
-VU Amsterdam,Vrije Universiteit Amsterdam,,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,TRUE,,2013/08/01
-VU University Amsterdam,Vrije Universiteit Amsterdam,,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,TRUE,,2013/08/01
-VU UNiversity Amsterdam,Vrije Universiteit Amsterdam,,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,TRUE,,2013/09/04
-Frije University Amsterdam,Vrije Universiteit Amsterdam,,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,,,2013/08/01
-Vrije Universiteit Amsterdam,Vrije Universiteit Amsterdam,,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,,,2013/08/01
-"Vrije Universiteit, Amsterdam",Vrije Universiteit Amsterdam,,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,,,2013/08/01
-Vrije University,Vrije Universiteit Amsterdam,,http://dbpedia.org/resource/Vrije_Universiteit,,ok,,,,,2013/08/01
-VU University,Vrije Universiteit Amsterdam,,http://dbpedia.org/resource/Vrije_Universiteit,,man,,,TRUE,,2013/10/12
-Vrije Universiteit,Vrije Universiteit Amsterdam,,http://dbpedia.org/resource/Vrije_Universiteit,,man,,,TRUE,,2013/10/12
-Vrije Universiteit Amsterdam & Europeana,Vrije Universiteit Amsterdam; Europeana,,,,man,,,,map2,2013/10/12
 "Vrije Universiteit, Brussels",Vrije Universiteit Brussel,,http://dbpedia.org/resource/Vrije_Universiteit_Brussel,,ok,,,,,2013/08/01
 VTT Technical Research Centre of Finland,VTT Technical Research Centre of Finland,,http://dbpedia.org/resource/VTT_Technical_Research_Centre_of_Finland,,ok,,,,,2013/08/01
+Free University of Amsterdam,VU University Amsterdam,,,,man,,,,,2013/08/01
+Vrije U Amsterdam,VU University Amsterdam,,,,man,,,,,2013/08/01
+Vrije University Amsterdam,VU University Amsterdam,,,,man,,,,,2013/08/01
+University of Amsterdam/Vrije Universiteit Amsterdam,VU University Amsterdam,,,,ok,,,TRUE,,2013/08/01
+VU Amsterdam,VU University Amsterdam,,,,ok,,,TRUE,,2013/08/01
+VU University Amsterdam,VU University Amsterdam,,,,ok,,,TRUE,,2013/08/01
+VU UNiversity Amsterdam,VU University Amsterdam,,,,ok,,,TRUE,,2013/09/04
+Frije University Amsterdam,VU University Amsterdam,,,,ok,,,,,2013/08/01
+Vrije Universiteit Amsterdam,VU University Amsterdam,,,,ok,,,,,2013/08/01
+"Vrije Universiteit, Amsterdam",VU University Amsterdam,,,,ok,,,,,2013/08/01
+Vrije University,VU University Amsterdam,,,,ok,,,,,2013/08/01
+VU University,VU University Amsterdam,,,,man,,,TRUE,,2013/10/12
+Vrije Universiteit,VU University Amsterdam,,,,man,,,TRUE,,2013/10/12
 VU University of Amsterdam,VU University Amsterdam,,http://dbpedia.org/resource/VU_University_Amsterdam,,ok,,,,,2014/10/03
+Vrije Universiteit Amsterdam & Europeana,VU University Amsterdam; Europeana,,,,man,,,,map2,2013/10/12
 Vulcan Inc,Vulcan Inc.,,http://dbpedia.org/resource/Vulcan_Inc.,,ok,,,TRUE,,2013/09/03
 Vulcan Inc.,Vulcan Inc.,,http://dbpedia.org/resource/Vulcan_Inc.,,ok,,,TRUE,,2013/08/01
 W3C,W3C,,http://dbpedia.org/resource/World_Wide_Web_Consortium,,man,,,,,2013/08/01
