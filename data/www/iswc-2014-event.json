@@ -1,0 +1,1770 @@
+{
+    "events": [
+        {
+            "day": "18", 
+            "end": "18:00", 
+            "id": 1, 
+            "location": "Foyer", 
+            "name": "Registration", 
+            "start": "16:00", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "17:00", 
+            "id": 2, 
+            "location": "Foyer", 
+            "name": "Registration", 
+            "start": "08:00", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "17:30", 
+            "id": 3, 
+            "location": "Sala 300B", 
+            "name": "5th Workshop on Semantics for Smarter Cities", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "12:40", 
+            "id": 4, 
+            "location": "Sala Stampa B", 
+            "name": "Surfacing the Deep and the Social Web", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "17:30", 
+            "id": 5, 
+            "location": "Sala 1000A", 
+            "name": "5th Workshop on Ontology and Semantic Web Patterns ", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "17:30", 
+            "id": 6, 
+            "location": "Sala Meeting", 
+            "name": "4th Workshop on Linked Science 2014— Making Sense Out of Data", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "12:40", 
+            "id": 7, 
+            "location": "Sala Stampa A", 
+            "name": "Natural Language Interfaces for Web of Data", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "12:40", 
+            "id": 8, 
+            "location": "Sala 300A", 
+            "name": "Second International Workshop on Semantic Statistics", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "17:30", 
+            "id": 9, 
+            "location": "Sala Presidenza", 
+            "name": "10th International Workshop on Uncertainty Reasoning for the Semantic Web", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "17:30", 
+            "id": 10, 
+            "location": "Sala Presidenza", 
+            "name": "3rd International Workshop on Methods for Establishing Trust of (Open) Data", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "17:30", 
+            "id": 11, 
+            "location": "Sala Stampa A", 
+            "name": "Workshop on Context, Interpretation and Meaning", 
+            "start": "14:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "17:30", 
+            "id": 12, 
+            "location": "Sala Stampa B", 
+            "name": "Terra Cognita: 6th International Workshop on the Foundations, Technologies and Applications of the Geospatial Web", 
+            "start": "14:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "17:30", 
+            "id": 13, 
+            "location": "Sala 300A", 
+            "name": "3rd Workshop on Semantic Web Collaborative Spaces", 
+            "start": "14:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "17:30", 
+            "id": 14, 
+            "location": "Sala 1000B", 
+            "name": "Developers Workshop", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "17:30", 
+            "id": 15, 
+            "location": "Sala Belvedere", 
+            "name": "Large Scale Reasoning Over Semantic Data", 
+            "start": "09:00", 
+            "type": "TutorialEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "17:30", 
+            "id": 16, 
+            "location": "Sala 100A", 
+            "name": "Stream Reasoning for Linked Data", 
+            "start": "09:00", 
+            "type": "TutorialEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "12:40", 
+            "id": 17, 
+            "location": "Sala 100B", 
+            "name": "Ontology matching: from mature technology to open horizons", 
+            "start": "09:00", 
+            "type": "TutorialEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "17:30", 
+            "id": 18, 
+            "location": "Sala 100B", 
+            "name": "Instance Matching Benchmarks for Linked Data", 
+            "start": "14:00", 
+            "type": "TutorialEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "11:00", 
+            "id": 19, 
+            "location": "Palameeting", 
+            "name": "Coffee break", 
+            "start": "10:30", 
+            "type": "BreakEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "14:00", 
+            "id": 20, 
+            "location": "Palameeting", 
+            "name": "Lunch", 
+            "start": "12:40", 
+            "type": "BreakEvent"
+        }, 
+        {
+            "day": "19", 
+            "end": "16:00", 
+            "id": 21, 
+            "location": "Palameeting", 
+            "name": "Coffee break", 
+            "start": "15:30", 
+            "type": "BreakEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "17:00", 
+            "id": 22, 
+            "location": "Foyer", 
+            "name": "Registration", 
+            "start": "08:00", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "17:30", 
+            "id": 23, 
+            "location": "Sala 1000B", 
+            "name": "Linked Learning meets LinkedUp: Learning and Education with the Web of Data", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "17:30", 
+            "id": 24, 
+            "location": "Sala 300B", 
+            "name": "Fifth International Workshop on Consuming Linked Data", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "17:30", 
+            "id": 25, 
+            "location": "Sala Meeting", 
+            "name": "Intelligent Exploration of Semantic Data", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "17:30", 
+            "id": 26, 
+            "location": "Sala 1000A", 
+            "name": "Ninth International Workshop on Ontology Matching", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "12:40", 
+            "id": 27, 
+            "location": "Sala 100A", 
+            "name": "10th International Workshop on Scalable Semantic Web Knowledge Base Systems", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "12:40", 
+            "id": 28, 
+            "location": "Sala Stampa A", 
+            "name": "second international workshop on Linked Data for Information Extraction", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "12:40", 
+            "id": 29, 
+            "location": "Sala Stampa B", 
+            "name": "3rd International Workshop on Ordering and Reasoning", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "17:30", 
+            "id": 30, 
+            "location": "Sala 100A", 
+            "name": "NLP & DBpedia 2014 Workshop", 
+            "start": "14:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "17:30", 
+            "id": 31, 
+            "location": "Sala Stampa A", 
+            "name": "Society, Privacy and the Semantic Web - Policy and Technology", 
+            "start": "14:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "17:30", 
+            "id": 32, 
+            "location": "Sala Stampa B", 
+            "name": "7th International Workshop on Semantic Sensor Networks", 
+            "start": "14:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "17:30", 
+            "id": 33, 
+            "location": "Sala 100B", 
+            "name": "Semantic Annotation of Social Media", 
+            "start": "09:00", 
+            "type": "TutorialEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "17:30", 
+            "id": 34, 
+            "location": "Sala Belvedere", 
+            "name": "Building the Multilingual Web of Data", 
+            "start": "09:00", 
+            "type": "TutorialEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "12:40", 
+            "id": 35, 
+            "location": "Sala Presidenza", 
+            "name": "Apache Marmotta", 
+            "start": "09:00", 
+            "type": "TutorialEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "17:30", 
+            "id": 36, 
+            "location": "Sala Presidenza", 
+            "name": "Re-using Media on The Semantic Web", 
+            "start": "14:00", 
+            "type": "TutorialEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "17:30", 
+            "id": 37, 
+            "location": "Sala 300A", 
+            "name": "ISWC 2014 Doctoral Consortium", 
+            "start": "09:00", 
+            "type": "WorkshopEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "11:00", 
+            "id": 38, 
+            "location": "Palameeting", 
+            "name": "Coffee break", 
+            "start": "10:30", 
+            "type": "BreakEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "14:00", 
+            "id": 39, 
+            "location": "Palameeting", 
+            "name": "Lunch", 
+            "start": "12:40", 
+            "type": "BreakEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "16:00", 
+            "id": 40, 
+            "location": "Palameeting", 
+            "name": "Coffee break", 
+            "start": "15:30", 
+            "type": "BreakEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "20:00", 
+            "id": 41, 
+            "location": "Rocca (Town Centre)", 
+            "name": "Welcome Aperitif", 
+            "start": "18:30", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "20", 
+            "end": "23:00", 
+            "id": 42, 
+            "location": "Sala 100 ", 
+            "name": "SWSA Meeting (Invitation only)", 
+            "start": "19:30", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "17:00", 
+            "id": 43, 
+            "location": "Foyer", 
+            "name": "Registration", 
+            "start": "08:00", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "21:30", 
+            "id": 44, 
+            "location": "Palameeting", 
+            "name": "Exhibitions", 
+            "start": "09:00", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "09:30", 
+            "id": 45, 
+            "location": "Sala 1000A", 
+            "name": "Opening & 10 years awards", 
+            "start": "09:00", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "10:30", 
+            "id": 46, 
+            "location": "Sala 1000A", 
+            "name": "Web Search - From The Noun to The Verb", 
+            "start": "09:30", 
+            "type": "InvitedTalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "11:00", 
+            "id": 47, 
+            "location": "Palameeting", 
+            "name": "Coffee break", 
+            "start": "10:30", 
+            "type": "BreakEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "12:20", 
+            "id": 48, 
+            "location": "Sala 1000B", 
+            "name": "Session: NLP & IE", 
+            "start": "11:00", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "12:20", 
+            "id": 49, 
+            "location": "Sala 300", 
+            "name": "Session: Querying", 
+            "start": "11:00", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "12:20", 
+            "id": 50, 
+            "location": "Sala 1000A", 
+            "name": "Session: Data Integration & Link Discovery in Life Sciences", 
+            "start": "11:00", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "13:30", 
+            "id": 51, 
+            "location": "Palameeting", 
+            "name": "Lunch", 
+            "start": "12:20", 
+            "type": "BreakEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "13:30", 
+            "id": 52, 
+            "location": "Sala 100", 
+            "name": "JWS lunch (Invitation only)", 
+            "start": "12:20", 
+            "type": "BreakEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "14:30", 
+            "id": 53, 
+            "location": "Sala 1000A", 
+            "name": "Semantic Challenges in Getting Work Done", 
+            "start": "13:30", 
+            "type": "InvitedTalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "16:00", 
+            "id": 54, 
+            "location": "Sala 1000B", 
+            "name": "Session: Reasoning", 
+            "start": "14:40", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "16:00", 
+            "id": 55, 
+            "location": "Sala 300", 
+            "name": "Session: Sensors", 
+            "start": "14:40", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "16:00", 
+            "id": 56, 
+            "location": "Sala 1000A", 
+            "name": "Session: Data Integration & Link Discovery", 
+            "start": "14:40", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "16:20", 
+            "id": 57, 
+            "location": "Palameeting", 
+            "name": "Coffee break", 
+            "start": "16:00", 
+            "type": "BreakEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "17:50", 
+            "id": 58, 
+            "location": "Sala 1000A", 
+            "name": "Minute Madness", 
+            "start": "16:20", 
+            "type": " "
+        }, 
+        {
+            "day": "21", 
+            "end": "18:00", 
+            "id": 59, 
+            "location": "Sala 1000A", 
+            "name": "Linkedup Madness", 
+            "start": "17:50", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "21:30", 
+            "id": 60, 
+            "location": "Palameeting", 
+            "name": "Poster & Demo session", 
+            "start": "18:30", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "21:30", 
+            "id": 61, 
+            "location": "Sala 1000B", 
+            "name": "EUON Town Hall", 
+            "start": "18:30", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "17:00", 
+            "id": 62, 
+            "location": "Foyer", 
+            "name": "Registration", 
+            "start": "08:00", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "18:00", 
+            "id": 63, 
+            "location": "Palameeting", 
+            "name": "Exhibitions", 
+            "start": "09:00", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "09:15", 
+            "id": 64, 
+            "location": "Sala 1000A", 
+            "name": "Announcements & LinkedUp Competition Prize", 
+            "start": "09:00", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "10:15", 
+            "id": 65, 
+            "location": "Sala 1000A", 
+            "name": "The Semantic Web in an Age of Open Data", 
+            "start": "09:15", 
+            "type": "InvitedTalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "11:00", 
+            "id": 66, 
+            "location": "Palameeting", 
+            "name": "Coffee break", 
+            "start": "10:15", 
+            "type": "BreakEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "12:40", 
+            "id": 67, 
+            "location": "Sala 1000B", 
+            "name": "Industry Track: Regular Talks", 
+            "start": "11:00", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "12:40", 
+            "id": 68, 
+            "location": "Sala 300", 
+            "name": "Session: Linked Data & Data Quality", 
+            "start": "11:00", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "12:40", 
+            "id": 69, 
+            "location": "Sala 1000A", 
+            "name": "Session: User Interaction & Personalization", 
+            "start": "11:00", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "14:20", 
+            "id": 70, 
+            "location": "Palameeting", 
+            "name": "Lunch", 
+            "start": "12:40", 
+            "type": "BreakEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "14:20", 
+            "id": 71, 
+            "location": "Sala Stampa", 
+            "name": "Student Mentoring lunch", 
+            "start": "12:40", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "15:20", 
+            "id": 72, 
+            "location": "Sala 1000B", 
+            "name": "Industry Track: First Pechakucha Session", 
+            "start": "14:20", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "15:20", 
+            "id": 73, 
+            "location": "Sala 300", 
+            "name": "Session: SPARQL Extensions", 
+            "start": "14:20", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "15:20", 
+            "id": 74, 
+            "location": "Sala 1000A", 
+            "name": "SW challenge", 
+            "start": "14:20", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "15:40", 
+            "id": 75, 
+            "location": "Palameeting", 
+            "name": "Coffee break", 
+            "start": "15:20", 
+            "type": "BreakEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "17:00", 
+            "id": 76, 
+            "location": "Sala 1000B", 
+            "name": "Industry Track: Second Pechakucha Session", 
+            "start": "15:40", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "17:00", 
+            "id": 77, 
+            "location": "Sala 300", 
+            "name": "Session: Large-scale RDF Processing and Dataset Availability", 
+            "start": "15:40", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "17:00", 
+            "id": 78, 
+            "location": "Sala 1000A", 
+            "name": "SW challenge", 
+            "start": "15:40", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "18:00", 
+            "id": 79, 
+            "location": "Sala 300", 
+            "name": "town hall", 
+            "start": "17:00", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "18:30", 
+            "id": 80, 
+            "location": "Sala 1000B", 
+            "name": "Industry Track: Third Pechakucha Session", 
+            "start": "17:00", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "23:30", 
+            "id": 81, 
+            "location": "Palameeting", 
+            "name": "Banquet", 
+            "start": "20:30", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "12:00", 
+            "id": 82, 
+            "location": "Foyer", 
+            "name": "Registration", 
+            "start": "08:00", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "14:00", 
+            "id": 83, 
+            "location": "Palameeting", 
+            "name": "Exhibitions", 
+            "start": "09:00", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "09:15", 
+            "id": 84, 
+            "location": "Sala 1000A", 
+            "name": "Announcements", 
+            "start": "09:00", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "10:15", 
+            "id": 85, 
+            "location": "Sala 1000A", 
+            "name": "To be or to do?: The Semantics for Smart Cities and Communities", 
+            "start": "09:15", 
+            "type": "InvitedTalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "10:45", 
+            "id": 86, 
+            "location": "Palameeting", 
+            "name": "Coffee break", 
+            "start": "10:15", 
+            "type": "BreakEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "12:25", 
+            "id": 87, 
+            "location": "Sala 1000B", 
+            "name": "Lightning talk", 
+            "start": "10:45", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "12:25", 
+            "id": 88, 
+            "location": "Sala 300", 
+            "name": "Session: OBDA & Query Rewriting", 
+            "start": "10:45", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "12:25", 
+            "id": 89, 
+            "location": "Sala 1000A", 
+            "name": "Session: Ontology Alignment & Modularization", 
+            "start": "10:45", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "14:00", 
+            "id": 90, 
+            "location": "Palameeting", 
+            "name": "Lunch", 
+            "start": "12:25", 
+            "type": "BreakEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "14:00", 
+            "id": 91, 
+            "location": "Sala Presidenza", 
+            "name": "ISWC 2015 lunch (Invitation only)", 
+            "start": "12:25", 
+            "type": "SpecialEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "15:20", 
+            "id": 92, 
+            "location": "Sala 300", 
+            "name": "Session: Mobile Reasoning & SPARQL Updates", 
+            "start": "14:00", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "15:20", 
+            "id": 93, 
+            "location": "Sala 1000A", 
+            "name": "Session: Linked Data", 
+            "start": "14:00", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "15:40", 
+            "id": 94, 
+            "location": "Palameeting", 
+            "name": "Coffee break", 
+            "start": "15:20", 
+            "type": "BreakEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "16:40", 
+            "id": 95, 
+            "location": "Sala 300", 
+            "name": "Session: Semantic Infrastructures & Streams", 
+            "start": "15:40", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "16:40", 
+            "id": 96, 
+            "location": "Sala 1000A", 
+            "name": "Session: Social media", 
+            "start": "15:40", 
+            "type": "SessionEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "17:10", 
+            "id": 97, 
+            "location": "Sala 1000A", 
+            "name": "Closing and prizes", 
+            "start": "16:40", 
+            "type": "SpecialEvent"
+        }
+    ], 
+    "talks": [
+        {
+            "day": "21", 
+            "end": "11:20", 
+            "id": 1, 
+            "location": "Sala 1000B", 
+            "name": "AGDISTIS - Graph-Based Disambiguation of Named Entities using Linked Data", 
+            "start": "11:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "11:40", 
+            "id": 2, 
+            "location": "Sala 1000B", 
+            "name": "M-ATOLL: A Framework for the lexicalization of ontologies in multiple languages", 
+            "start": "11:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "12:00", 
+            "id": 3, 
+            "location": "Sala 1000B", 
+            "name": "Towards Efficient and Effective Semantic Table Interpretation", 
+            "start": "11:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "12:10", 
+            "id": 4, 
+            "location": "Sala 1000B", 
+            "name": "Semano: Semantic Annotation Framework for Natural Language Resources", 
+            "start": "12:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "12:20", 
+            "id": 5, 
+            "location": "Sala 1000B", 
+            "name": "Ensemble Learning for Named Entity Recognition", 
+            "start": "12:10", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "11:20", 
+            "id": 6, 
+            "location": "Sala 300", 
+            "name": "Structural Properties as Proxy for Semantic Relevance in RDF Graph Sampling", 
+            "start": "11:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "11:40", 
+            "id": 7, 
+            "location": "Sala 300", 
+            "name": "Holistic and Compact Selectivity Estimation for Hybrid Queries over RDF Graphs", 
+            "start": "11:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "12:00", 
+            "id": 8, 
+            "location": "Sala 300", 
+            "name": "Querying Factorized Probabilistic Triple Databases", 
+            "start": "11:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "12:20", 
+            "id": 9, 
+            "location": "Sala 300", 
+            "name": "Ontology Search: An Empirical Evaluation", 
+            "start": "12:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "11:20", 
+            "id": 10, 
+            "location": "Sala 1000A", 
+            "name": "EPCIS event based traceability in pharmaceutical supply chains via automated generation of linked pedigrees", 
+            "start": "11:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "11:40", 
+            "id": 11, 
+            "location": "Sala 1000A", 
+            "name": "Scientific lenses to support multiple views over linked chemistry data", 
+            "start": "11:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "12:00", 
+            "id": 12, 
+            "location": "Sala 1000A", 
+            "name": "Linked Biomedical Dataspace: Lessons Learned integrating Data for Drug Discovery", 
+            "start": "11:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "12:20", 
+            "id": 13, 
+            "location": "Sala 1000A", 
+            "name": "Drug-Target Interaction Prediction Using Semantic Similarity and Edge Partition", 
+            "start": "12:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "15:00", 
+            "id": 14, 
+            "location": "Sala 1000B", 
+            "name": "Pushing the Boundaries of Tractable Ontology Reasoning", 
+            "start": "14:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "15:20", 
+            "id": 15, 
+            "location": "Sala 1000B", 
+            "name": "Effective computation of maximal sound approximations of Description Logic ontologies", 
+            "start": "15:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "15:40", 
+            "id": 16, 
+            "location": "Sala 1000B", 
+            "name": "Abstraction Refinement for Ontology Materialization", 
+            "start": "15:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "16:00", 
+            "id": 17, 
+            "location": "Sala 1000B", 
+            "name": "Goal-Directed Tracing of Inferences in EL Ontologies", 
+            "start": "15:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "15:00", 
+            "id": 18, 
+            "location": "Sala 300", 
+            "name": "Knowledge-driven Activity Recognition and Segmentation Using Context Connections", 
+            "start": "14:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "15:20", 
+            "id": 19, 
+            "location": "Sala 300", 
+            "name": "A Use Case in Semantic Modelling and Ranking for the Sensor Web", 
+            "start": "15:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "15:40", 
+            "id": 20, 
+            "location": "Sala 300", 
+            "name": "Semantic Traffic Diagnosis with STAR-CITY: Architecture and Lessons Learned from Deployment in Dublin, Bologna, Miami and Rio", 
+            "start": "15:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "16:00", 
+            "id": 21, 
+            "location": "Sala 300", 
+            "name": "Adapting Semantic Sensor Networks for Smart Building Diagnosis", 
+            "start": "15:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "15:00", 
+            "id": 22, 
+            "location": "Sala 1000A", 
+            "name": "CAMO: Integration of Linked Open Data for Multimedia Metadata Enrichment", 
+            "start": "14:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "15:20", 
+            "id": 23, 
+            "location": "Sala 1000A", 
+            "name": "HELIOS -- Execution Optimization for Link Discovery", 
+            "start": "15:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "15:40", 
+            "id": 24, 
+            "location": "Sala 1000A", 
+            "name": "SAKey: Scalable Almost Key discovery in RDF data", 
+            "start": "15:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "15:50", 
+            "id": 25, 
+            "location": "Sala 1000A", 
+            "name": "Introducing Wikidata to the Linked Data Web", 
+            "start": "15:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "21", 
+            "end": "16:00", 
+            "id": 26, 
+            "location": "Sala 1000A", 
+            "name": "Web-Scale Extension of RDF Knowledge Bases from Templated Websites", 
+            "start": "15:50", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "11:15", 
+            "id": 27, 
+            "location": "Sala 1000B", 
+            "name": "Deployment of Semantic Analysis to Call Center", 
+            "start": "11:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "11:30", 
+            "id": 28, 
+            "location": "Sala 1000B", 
+            "name": "The Logic of Insurance: an Ontology-Centric Pricing Application", 
+            "start": "11:15", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "11:45", 
+            "id": 29, 
+            "location": "Sala 1000B", 
+            "name": "Applying Semantic Web technologies in Product Information Management at NXP Semiconductors", 
+            "start": "11:30", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "12:00", 
+            "id": 30, 
+            "location": "Sala 1000B", 
+            "name": "Linked data experience at Macmillan: Building discovery services for scientific and scholarly content on top of a semantic data model", 
+            "start": "11:45", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "12:15", 
+            "id": 31, 
+            "location": "Sala 1000B", 
+            "name": "HAVAS 18 Labs: A Knowledge Graph for Innovation in the Media Industry", 
+            "start": "12:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "12:30", 
+            "id": 32, 
+            "location": "Sala 1000B", 
+            "name": "Deploying National Ontology Services: From ONKI to Finto", 
+            "start": "12:15", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "12:45", 
+            "id": 33, 
+            "location": "Sala 1000B", 
+            "name": "ePlanning: an Ontology-based System for Building Individualized Education Plans for Students with Special Educational Needs", 
+            "start": "12:30", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "11:20", 
+            "id": 34, 
+            "location": "Sala 300", 
+            "name": "Discovery and Visual Analysis of Linked Data for Humans", 
+            "start": "11:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "11:40", 
+            "id": 35, 
+            "location": "Sala 300", 
+            "name": "Col-Graph: Towards Writable and Scalable Linked Open Data", 
+            "start": "11:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "12:00", 
+            "id": 36, 
+            "location": "Sala 300", 
+            "name": "Transferring Semantic Categories with Vertex Kernels: Recommendations with SemanticSVD++", 
+            "start": "11:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "12:20", 
+            "id": 37, 
+            "location": "Sala 300", 
+            "name": "Detecting Errors in Numerical Linked Data using Cross-Checked Outlier Detection", 
+            "start": "12:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "12:40", 
+            "id": 38, 
+            "location": "Sala 300", 
+            "name": "Noisy Type Assertion Detection in Semantic Datasets", 
+            "start": "12:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "11:20", 
+            "id": 39, 
+            "location": "Sala 1000A", 
+            "name": "Explass: Exploring Associations between Entities via Top-K Ontological Patterns and Facets", 
+            "start": "11:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "11:40", 
+            "id": 40, 
+            "location": "Sala 1000A", 
+            "name": "Expressive and Scalable Query-based Faceted Search over SPARQL Endpoints", 
+            "start": "11:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "12:00", 
+            "id": 41, 
+            "location": "Sala 1000A", 
+            "name": "Querying Heterogeneous Personal Information On The Go", 
+            "start": "11:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "12:20", 
+            "id": 42, 
+            "location": "Sala 1000A", 
+            "name": "The Web Browser Personalization with the Client Side Triplestore", 
+            "start": "12:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "12:30", 
+            "id": 43, 
+            "location": "Sala 1000A", 
+            "name": "Crowd Truth: Machine-Human Computation Framework for Harnessing Disagreement in Gathering Annotated Data", 
+            "start": "12:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "14:30", 
+            "id": 44, 
+            "location": "Sala 1000B", 
+            "name": "Ontology-Based Linking of Social, Open, and Enterprise Data for Business Intelligence", 
+            "start": "14:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "14:40", 
+            "id": 45, 
+            "location": "Sala 1000B", 
+            "name": "The W3C Social Web Initiative", 
+            "start": "14:30", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "14:50", 
+            "id": 46, 
+            "location": "Sala 1000B", 
+            "name": "Smart Media Navigator: Visualizing Recommendations based on Linked Data", 
+            "start": "14:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "15:00", 
+            "id": 47, 
+            "location": "Sala 1000B", 
+            "name": "Smart Data Access: Semantic Web Technologies for Energy Diagnostics", 
+            "start": "14:50", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "15:10", 
+            "id": 48, 
+            "location": "Sala 1000B", 
+            "name": "Semantic Technology for Oil & Gas Business", 
+            "start": "15:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "15:20", 
+            "id": 49, 
+            "location": "Sala 1000B", 
+            "name": "Semantic Web based Container Monitoring System for the Transportation Industry", 
+            "start": "15:10", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "14:40", 
+            "id": 50, 
+            "location": "Sala 300", 
+            "name": "On the Semantics of SPARQL Queries with Optional Matching under Entailment Regimes", 
+            "start": "14:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "15:00", 
+            "id": 51, 
+            "location": "Sala 300", 
+            "name": "Strategies for executing federated queries in SPARQL1.1", 
+            "start": "14:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "15:20", 
+            "id": 52, 
+            "location": "Sala 300", 
+            "name": "Toward the Web of Functions: Interoperable Higher-Order Functions in SPARQL", 
+            "start": "15:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "15:50", 
+            "id": 53, 
+            "location": "Sala 1000B", 
+            "name": "Clinical Trial Data and Semantic Web standards", 
+            "start": "15:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "16:00", 
+            "id": 54, 
+            "location": "Sala 1000B", 
+            "name": "keyCRF: Using Semantic Metadata Registries to Populate an eCRF with EHR Data", 
+            "start": "15:50", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "16:10", 
+            "id": 55, 
+            "location": "Sala 1000B", 
+            "name": "RDF Implementation of Clinical Trial Data Standards", 
+            "start": "16:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "16:20", 
+            "id": 56, 
+            "location": "Sala 1000B", 
+            "name": "Health and Environment Monitoring Service for Solitary Seniors", 
+            "start": "16:10", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "16:30", 
+            "id": 57, 
+            "location": "Sala 1000B", 
+            "name": "Using Semantic Technologies to Mine Customer Insights in Telecom Industry", 
+            "start": "16:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "16:40", 
+            "id": 58, 
+            "location": "Sala 1000B", 
+            "name": "The voice of the customer for Digital Telcos", 
+            "start": "16:30", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "16:50", 
+            "id": 59, 
+            "location": "Sala 1000B", 
+            "name": "SKOS as a Key Element in Enterprise Linked Data Strategies", 
+            "start": "16:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "17:00", 
+            "id": 60, 
+            "location": "Sala 1000B", 
+            "name": "iNowit, linked data as key element for innovation in emergency response", 
+            "start": "16:50", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "16:00", 
+            "id": 61, 
+            "location": "Sala 300", 
+            "name": "SYRql: A Dataflow Language for Large Scale Processing of RDF Data", 
+            "start": "15:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "16:20", 
+            "id": 62, 
+            "location": "Sala 300", 
+            "name": "Sempala: Interactive SPARQL Query Processing on Hadoop", 
+            "start": "16:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "16:40", 
+            "id": 63, 
+            "location": "Sala 300", 
+            "name": "Querying Datasets on the Web with High Availability", 
+            "start": "16:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "17:00", 
+            "id": 64, 
+            "location": "Sala 300", 
+            "name": "Diversified Stress Testing of RDF Data Management Systems", 
+            "start": "16:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "17:10", 
+            "id": 65, 
+            "location": "Sala 1000B", 
+            "name": "ReApp Store – a semantic AppStore for applications in the robotics domain", 
+            "start": "17:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "17:20", 
+            "id": 66, 
+            "location": "Sala 1000B", 
+            "name": "Traffic Management using RTEC in OWL 2 RL", 
+            "start": "17:10", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "17:30", 
+            "id": 67, 
+            "location": "Sala 1000B", 
+            "name": "Efficient Application of Complex Graph Analytics on Very Large Real World RDF Datasets", 
+            "start": "17:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "17:40", 
+            "id": 68, 
+            "location": "Sala 1000B", 
+            "name": "Integrating Semantic Web Technologies in the Architecture of BBC Knowledge & Learning Beta Online Pages", 
+            "start": "17:30", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "17:50", 
+            "id": 69, 
+            "location": "Sala 1000B", 
+            "name": "SICRaS: a semantic big data platform for fighting tax evasion and supporting social policy making", 
+            "start": "17:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "18:00", 
+            "id": 70, 
+            "location": "Sala 1000B", 
+            "name": "Semantic WISE: An Applying of Semantic IoT Platform for Weather Information Service Engine", 
+            "start": "17:50", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "18:10", 
+            "id": 71, 
+            "location": "Sala 1000B", 
+            "name": "Building and Exploring Marine Oriented Knowledge Graph for ZhouShan Library", 
+            "start": "18:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "18:20", 
+            "id": 72, 
+            "location": "Sala 1000B", 
+            "name": "Fast In-Memory Reasoner for Oracle NoSQL Database EE: Uncover hidden relationships that exist in your enterprise data", 
+            "start": "18:10", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "22", 
+            "end": "18:30", 
+            "id": 73, 
+            "location": "Sala 1000B", 
+            "name": "Semantic Web Technologies for User Generated Content and Digital Distribution Copyright Management", 
+            "start": "18:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "11:05", 
+            "id": 74, 
+            "location": "Sala 300", 
+            "name": "OBDA: Query Rewriting or Materialization? In Practice, Both!", 
+            "start": "10:45", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "11:25", 
+            "id": 75, 
+            "location": "Sala 300", 
+            "name": "Answering SPARQL Queries over Databases under OWL 2 QL Entailment Regim", 
+            "start": "11:05", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "11:45", 
+            "id": 76, 
+            "location": "Sala 300", 
+            "name": "kyrie2: Query Rewriting under Extensional Constraints in ELHIO", 
+            "start": "11:25", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "12:05", 
+            "id": 77, 
+            "location": "Sala 300", 
+            "name": "Schema-Agnostic Query Rewriting in SPARQL 1.1", 
+            "start": "11:45", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "12:25", 
+            "id": 78, 
+            "location": "Sala 300", 
+            "name": "How Semantic Technologies can Enhance Data Access at Siemens Energy", 
+            "start": "12:05", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "11:05", 
+            "id": 79, 
+            "location": "Sala 1000A", 
+            "name": "Detecting and Correcting Conservativity Principle Violations in Ontology-to-Ontology Mappings", 
+            "start": "10:45", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "11:25", 
+            "id": 80, 
+            "location": "Sala 1000A", 
+            "name": "Towards annotating potential incoherences in BioPortal mappings", 
+            "start": "11:05", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "11:45", 
+            "id": 81, 
+            "location": "Sala 1000A", 
+            "name": "Conference v2.0: An uncertain version of the OAEI Conference benchmark", 
+            "start": "11:25", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "12:05", 
+            "id": 82, 
+            "location": "Sala 1000A", 
+            "name": "Fast Modularisation and Atomic Decomposition of Ontologies using Axiom Dependency Hypergraphs", 
+            "start": "11:45", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "12:25", 
+            "id": 83, 
+            "location": "Sala 1000A", 
+            "name": "A Study on the Atomic Decomposition of Ontologies", 
+            "start": "12:05", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "14:20", 
+            "id": 84, 
+            "location": "Sala 300", 
+            "name": "A Cross-Platform Benchmarking Framework for Mobile Semantic Web Reasoning Engines", 
+            "start": "14:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "14:40", 
+            "id": 85, 
+            "location": "Sala 300", 
+            "name": "A Power Consumption Benchmark for Reasoners on Mobile Devices", 
+            "start": "14:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "15:00", 
+            "id": 86, 
+            "location": "Sala 300", 
+            "name": "Dynamic Provenance for SPARQL Updates", 
+            "start": "14:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "15:20", 
+            "id": 87, 
+            "location": "Sala 300", 
+            "name": "Updating RDFS ABoxes and TBoxes in SPARQL", 
+            "start": "15:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "14:10", 
+            "id": 88, 
+            "location": "Sala 1000A", 
+            "name": "LOD Laundromat: A Uniform Way of Publishing Other People's Dirty Data", 
+            "start": "14:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "14:20", 
+            "id": 89, 
+            "location": "Sala 1000A", 
+            "name": "Dutch Ships and Sailors Linked Data", 
+            "start": "14:10", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "14:40", 
+            "id": 90, 
+            "location": "Sala 1000A", 
+            "name": "Adoption of Linked Data Best Practices in Different Topical Domains", 
+            "start": "14:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "15:00", 
+            "id": 91, 
+            "location": "Sala 1000A", 
+            "name": "Analyzing Schema.org", 
+            "start": "14:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "15:10", 
+            "id": 92, 
+            "location": "Sala 1000A", 
+            "name": "The WebDataCommons Microdata, RDFa and Microformat Dataset Series", 
+            "start": "15:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "15:20", 
+            "id": 93, 
+            "location": "Sala 1000A", 
+            "name": "On Publishing Chinese Linked Open Schema", 
+            "start": "15:10", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "16:00", 
+            "id": 94, 
+            "location": "Sala 300", 
+            "name": "Semantic Web Application development with LITEQ", 
+            "start": "15:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "16:20", 
+            "id": 95, 
+            "location": "Sala 300", 
+            "name": "Semantic-based Process Analysis", 
+            "start": "16:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "16:40", 
+            "id": 96, 
+            "location": "Sala 300", 
+            "name": "Efficient RDF Interchange (ERI) Format for RDF Data Streams", 
+            "start": "16:20", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "16:00", 
+            "id": 97, 
+            "location": "Sala 1000A", 
+            "name": "Semantic Patterns for Sentiment Analysis of Twitter", 
+            "start": "15:40", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "16:20", 
+            "id": 98, 
+            "location": "Sala 1000A", 
+            "name": "Stretching the Life of Twitter Classifiers with Time-Stamped Semantic Graphs", 
+            "start": "16:00", 
+            "type": "TalkEvent"
+        }, 
+        {
+            "day": "23", 
+            "end": "16:40", 
+            "id": 99, 
+            "location": "Sala 1000A", 
+            "name": "Linked Open Data Driven Game Generation", 
+            "start": "16:20", 
+            "type": "TalkEvent"
+        }
+    ]
+}
