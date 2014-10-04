@@ -338,10 +338,10 @@
     rdf:_11 <http://data.semanticweb.org/person/guus-schreiber> ;
     rdf:_12 <http://data.semanticweb.org/person/philippe-cudre-mauroux> ;
     rdf:_2 <http://data.semanticweb.org/person/key-sun-choi> ;
-    rdf:_3 <http://data.semanticweb.org/person/natasha-noy> ;
+    rdf:_3 <http://data.semanticweb.org/person/natalya-noy> ;
     rdf:_4 <http://data.semanticweb.org/person/dean-allemang> ;
     rdf:_5 <http://data.semanticweb.org/person/kyung-il-lee> ;
-    rdf:_6 <http://data.semanticweb.org/person/lyndon-nixon> ;
+    rdf:_6 <http://data.semanticweb.org/person/lyndon-j-b-nixon> ;
     rdf:_7 <http://data.semanticweb.org/person/jennifer-golbeck> ;
     rdf:_8 <http://data.semanticweb.org/person/peter-mika> ;
     rdf:_9 <http://data.semanticweb.org/person/diana-maynard> .
@@ -443,7 +443,7 @@
 
 <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-18/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/richard-arndt> ;
-    rdf:_2 <http://data.semanticweb.org/person/raphaeel-troncy> ;
+    rdf:_2 <http://data.semanticweb.org/person/raphael-troncy> ;
     rdf:_3 <http://data.semanticweb.org/person/steffen-staab> ;
     rdf:_4 <http://data.semanticweb.org/person/lynda-hardman> ;
     rdf:_5 <http://data.semanticweb.org/person/miroslav-vacura> .
@@ -478,7 +478,7 @@
     rdf:_2 <http://data.semanticweb.org/person/yuzhong-qu> .
 
 <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-25/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/guo-tong-xie> ;
+    rdf:_1 <http://data.semanticweb.org/person/guoton-xie> ;
     rdf:_2 <http://data.semanticweb.org/person/yang-yang> ;
     rdf:_3 <http://data.semanticweb.org/person/shengping-liu> ;
     rdf:_4 <http://data.semanticweb.org/person/zhaoming-qiu> ;
@@ -602,7 +602,7 @@
 <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-47/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/ching-man-au-yeung> ;
     rdf:_2 <http://data.semanticweb.org/person/nicholas-gibbins> ;
-    rdf:_3 <http://data.semanticweb.org/person/nigel-shadbolt> .
+    rdf:_3 <http://data.semanticweb.org/person/nigel-r-shadbolt> .
 
 <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-48/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/christine-golbreich> ;
@@ -653,12 +653,12 @@
 <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-58/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/david-f-huynh> ;
     rdf:_2 <http://data.semanticweb.org/person/robert-c-miller> ;
-    rdf:_3 <http://data.semanticweb.org/person/david-r-karger> .
+    rdf:_3 <http://data.semanticweb.org/person/david-karger> .
 
 <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-59/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/david-f-huynh> ;
     rdf:_2 <http://data.semanticweb.org/person/robert-c-miller> ;
-    rdf:_3 <http://data.semanticweb.org/person/david-r-karger> .
+    rdf:_3 <http://data.semanticweb.org/person/david-karger> .
 
 <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-60/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/livia-predoiu> .
@@ -759,7 +759,7 @@
     rdf:_3 <http://data.semanticweb.org/person/john-sheridan> ;
     rdf:_4 <http://data.semanticweb.org/person/kieron-ohara> ;
     rdf:_5 <http://data.semanticweb.org/person/john-darlington> ;
-    rdf:_6 <http://data.semanticweb.org/person/nigel-shadbolt> ;
+    rdf:_6 <http://data.semanticweb.org/person/nigel-r-shadbolt> ;
     rdf:_7 <http://data.semanticweb.org/person/carol-tullo> .
 
 <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-77/author_list> a rdf:Seq ;
@@ -837,7 +837,7 @@
     dc:title "Cultural Adaptivity for the Semantic Web" ;
     dcterms:title "Cultural Adaptivity for the Semantic Web" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-22/author_list> ;
-    swrc:abstract "Our research explores the possibilities for factoring culture into user models, working towards cultural adaptivity in the Semantic Web. The aim is to automate the localization process by acquiring details about an individualâs cultural background. The paper shows how we have based our approach on research findings from related fields, outlining the connection between the cultural user and domain model ontologies, and a test environment. Furthermore, we describe a preliminary plan of how to validate our cultural user model by comparison to our previous experience in the manual adaptation of imbuto." ;
+    swrc:abstract "Our research explores the possibilities for factoring culture into user models, working towards cultural adaptivity in the Semantic Web. The aim is to automate the localization process by acquiring details about an individual's cultural background. The paper shows how we have based our approach on research findings from related fields, outlining the connection between the cultural user and domain model ontologies, and a test environment. Furthermore, we describe a preliminary plan of how to validate our cultural user model by comparison to our previous experience in the manual adaptation of imbuto." ;
     swrc:author <http://data.semanticweb.org/person/katharina-reinecke> ;
     swrc:category "Doctoral Consortium Paper" ;
     swrc:link_open_access <http://iswc2007.semanticweb.org/papers/940.pdf> ;
@@ -963,7 +963,7 @@
     dc:title "Ontology Mapping: An Information Retrieval and Interactive Activation Network Based Approach" ;
     dcterms:title "Ontology Mapping: An Information Retrieval and Interactive Activation Network Based Approach" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-54/author_list> ;
-    swrc:abstract "The World Wide Web (WWW) now is widely used as a universal medium for information exchange. Semantic interoperability among different information systems in the WWW is limited due to information heterogeneity problem. Ontologies have been suggested as a way to solve this problem. Given that no universal ontology exists for the WWW, work has focused on finding semantic correspondences between similar elements of different ontologies, i.e., ontology mapping. Ontology mapping can be done either by hand or using automated tools. Manual mapping becomes impractical as the size and complexity of ontologies increases. Fully or semi-automated mapping approaches have been examined by different research studies, e.g., analyzing linguistic information of elements in ontologies, treating ontologies as structural graphs, applying heuristic rules to look for specific mapping patterns and machine learning techniques. This paper proposes a new generic and scalable ontology mapping approach, which takes advantage of propagation theory, information retrieval technique and artificial intelligence model to solve ontology mapping problem. The major procedures of the proposed approach are profile enrichment, profile propagation, IR-based profile mapping and the interactive activation network based constraints satisfaction. The profile enrichment builds a profile for each element in the ontologies, and thus enriches its information. The profile propagation exploits the neighboring information of each element by passing the profile of the ancestors, descendants or siblings of the element to the profile of itself, with different weights. The IR-based profile mapping process compares the cosine similarity of elementsâ profiles in a vector space model. Finally the interactive activation network is integrated to deal with the constraints satisfaction problems in the context of ontology mapping." ;
+    swrc:abstract "The World Wide Web (WWW) now is widely used as a universal medium for information exchange. Semantic interoperability among different information systems in the WWW is limited due to information heterogeneity problem. Ontologies have been suggested as a way to solve this problem. Given that no universal ontology exists for the WWW, work has focused on finding semantic correspondences between similar elements of different ontologies, i.e., ontology mapping. Ontology mapping can be done either by hand or using automated tools. Manual mapping becomes impractical as the size and complexity of ontologies increases. Fully or semi-automated mapping approaches have been examined by different research studies, e.g., analyzing linguistic information of elements in ontologies, treating ontologies as structural graphs, applying heuristic rules to look for specific mapping patterns and machine learning techniques. This paper proposes a new generic and scalable ontology mapping approach, which takes advantage of propagation theory, information retrieval technique and artificial intelligence model to solve ontology mapping problem. The major procedures of the proposed approach are profile enrichment, profile propagation, IR-based profile mapping and the interactive activation network based constraints satisfaction. The profile enrichment builds a profile for each element in the ontologies, and thus enriches its information. The profile propagation exploits the neighboring information of each element by passing the profile of the ancestors, descendants or siblings of the element to the profile of itself, with different weights. The IR-based profile mapping process compares the cosine similarity of elements' profiles in a vector space model. Finally the interactive activation network is integrated to deal with the constraints satisfaction problems in the context of ontology mapping." ;
     swrc:author <http://data.semanticweb.org/person/ming-mao> ;
     swrc:category "Doctoral Consortium Paper" ;
     swrc:link_open_access <http://iswc2007.semanticweb.org/papers/925.pdf> ;
@@ -1035,7 +1035,7 @@
     dc:title "The Semantic Web and Human Inference: A Lesson from Cognitive Science" ;
     dcterms:title "The Semantic Web and Human Inference: A Lesson from Cognitive Science" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-75/author_list> ;
-    swrc:abstract "For the development of Semantic Web technology, researchers and developers in the Semantic Web community need to focus on the areas in which human reasoning is particularly difficult. Two studies in this paper demonstrate that people are predisposed to use class-inclusion labels for inductive judgments. This tendency appears to stem from a general characteristic of human reasoning â using heuristics to solve problems. The inference engines and interface designs that incorporate human reasoning need to integrate this general characteristic underlying human induction." ;
+    swrc:abstract "For the development of Semantic Web technology, researchers and developers in the Semantic Web community need to focus on the areas in which human reasoning is particularly difficult. Two studies in this paper demonstrate that people are predisposed to use class-inclusion labels for inductive judgments. This tendency appears to stem from a general characteristic of human reasoning - using heuristics to solve problems. The inference engines and interface designs that incorporate human reasoning need to integrate this general characteristic underlying human induction." ;
     swrc:author <http://data.semanticweb.org/person/takashi-yamauchi> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2007.semanticweb.org/papers/603.pdf> ;
@@ -1288,7 +1288,7 @@
     dc:title "An Event-Based Approach for Semantic Metadata Interoperability" ;
     dcterms:title "An Event-Based Approach for Semantic Metadata Interoperability" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-08/author_list> ;
-    swrc:abstract "This paper presents a method for making metadata conforming to heterogeneous schemas semantically interoperable. The idea is to make the knowledge embedded in the schema structures interoperable and explicit by transforming the schemas into a shared, event-based representation of knowledge about the real world. This enables and simpliï¬es accurate reasoning services such as cross-domain semantic search, browsing, and recommending. A case study of transforming three different schemas and datasets is presented. An implemented knowledge-based recommender system utilizing the results in the semantic portal CULTURESAMPO was found useful in a preliminary user study." ;
+    swrc:abstract "This paper presents a method for making metadata conforming to heterogeneous schemas semantically interoperable. The idea is to make the knowledge embedded in the schema structures interoperable and explicit by transforming the schemas into a shared, event-based representation of knowledge about the real world. This enables and simplifies accurate reasoning services such as cross-domain semantic search, browsing, and recommending. A case study of transforming three different schemas and datasets is presented. An implemented knowledge-based recommender system utilizing the results in the semantic portal CULTURESAMPO was found useful in a preliminary user study." ;
     swrc:author <http://data.semanticweb.org/person/eero-hyvoenen>,
         <http://data.semanticweb.org/person/tuukka-ruotsalo> ;
     swrc:category "Research Track Paper" ;
@@ -1508,7 +1508,7 @@
     dc:title "Ontology-Based Controlled Natural Language Editor Using CFG with Lexical Dependency" ;
     dcterms:title "Ontology-Based Controlled Natural Language Editor Using CFG with Lexical Dependency" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-50/author_list> ;
-    swrc:abstract "In recent years, CNL (Controlled Natural Language) has received much attention with regard to ontology-based knowledge acquisition systems. CNLs, as subsets of natural languages, can be useful for both humans and computers by eliminating ambiguity of natural languages. Our previous work, OntoPath, proposed to edit natural language-like narratives that are structured in RDF (Resource Description Framework) triples, using a domain-specific ontology as their language constituents. However, our previous work and other systems employing CFG for grammar definition have difficulties in enlarging the expression capacity. A newly developed editor, which we propose in this paper, permits grammar definitions through CFG-LD (Context-Free Grammar with Lexical Dependency) that includes sequential and semantic structures of the grammars. With CFG describing the sequential structure of grammar, lexical dependencies between sentence elements can be designated in the definition system. Through the defined grammars, the implemented editor guides usersâ narratives in more familiar expressions with a domain-specific ontology and translates the content into RDF triples." ;
+    swrc:abstract "In recent years, CNL (Controlled Natural Language) has received much attention with regard to ontology-based knowledge acquisition systems. CNLs, as subsets of natural languages, can be useful for both humans and computers by eliminating ambiguity of natural languages. Our previous work, OntoPath, proposed to edit natural language-like narratives that are structured in RDF (Resource Description Framework) triples, using a domain-specific ontology as their language constituents. However, our previous work and other systems employing CFG for grammar definition have difficulties in enlarging the expression capacity. A newly developed editor, which we propose in this paper, permits grammar definitions through CFG-LD (Context-Free Grammar with Lexical Dependency) that includes sequential and semantic structures of the grammars. With CFG describing the sequential structure of grammar, lexical dependencies between sentence elements can be designated in the definition system. Through the defined grammars, the implemented editor guides users' narratives in more familiar expressions with a domain-specific ontology and translates the content into RDF triples." ;
     swrc:author <http://data.semanticweb.org/person/hong-gee-kim>,
         <http://data.semanticweb.org/person/hyun-namgoong> ;
     swrc:category "Research Track Paper" ;
@@ -1567,7 +1567,7 @@
     dc:title "Spatially-Augmented Knowledgebase" ;
     dcterms:title "Spatially-Augmented Knowledgebase" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-73/author_list> ;
-    swrc:abstract "As an increasing number of applications on the web contain some elements of spatial data, there is a need to efficiently integrate Semantic Web technologies and spatial data processing. This paper describes a prototype system for storing spatial data and Semantic Web data together in a SPatially-AUgmented Knowledgebase (SPAUK) without sacrificing query efficiency. The goals are motivated through use several use cases. The prototypeâs design and architec-ture are described, and resulting performance improvements are discussed." ;
+    swrc:abstract "As an increasing number of applications on the web contain some elements of spatial data, there is a need to efficiently integrate Semantic Web technologies and spatial data processing. This paper describes a prototype system for storing spatial data and Semantic Web data together in a SPatially-AUgmented Knowledgebase (SPAUK) without sacrificing query efficiency. The goals are motivated through use several use cases. The prototype's design and architec-ture are described, and resulting performance improvements are discussed." ;
     swrc:author <http://data.semanticweb.org/person/dave-kolas>,
         <http://data.semanticweb.org/person/troy-self> ;
     swrc:category "Semantic Web In Use Track Paper" ;
@@ -2026,10 +2026,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-46> ;
     foaf:name "Guilin Qi" .
 
-<http://data.semanticweb.org/person/guo-tong-xie> a foaf:Person ;
-    rdfs:label "Guo Tong Xie" ;
+<http://data.semanticweb.org/person/guoton-xie> a foaf:Person ;
+    rdfs:label "Guoton Xie" ;
     foaf:made <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-25> ;
-    foaf:name "Guo Tong Xie" .
+    foaf:name "Guoton Xie" .
 
 <http://data.semanticweb.org/person/guus-schreiber> a foaf:Person ;
     rdfs:label "Guus Schreiber" ;
@@ -2396,10 +2396,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-18> ;
     foaf:name "Lynda Hardman" .
 
-<http://data.semanticweb.org/person/lyndon-nixon> a foaf:Person ;
-    rdfs:label "Lyndon Nixon" ;
+<http://data.semanticweb.org/person/lyndon-j-b-nixon> a foaf:Person ;
+    rdfs:label "Lyndon J. B. Nixon" ;
     foaf:made <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings> ;
-    foaf:name "Lyndon Nixon" .
+    foaf:name "Lyndon J. B. Nixon" .
 
 <http://data.semanticweb.org/person/manolis-koubarakis> a foaf:Person ;
     rdfs:label "Manolis Koubarakis" ;
@@ -2531,10 +2531,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-15> ;
     foaf:name "Natalia Stash" .
 
-<http://data.semanticweb.org/person/natasha-noy> a foaf:Person ;
-    rdfs:label "Natasha Noy" ;
+<http://data.semanticweb.org/person/natalya-noy> a foaf:Person ;
+    rdfs:label "Natalya Noy" ;
     foaf:made <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings> ;
-    foaf:name "Natasha Noy" .
+    foaf:name "Natalya Noy" .
 
 <http://data.semanticweb.org/person/nicholas-gibbins> a foaf:Person ;
     rdfs:label "Nicholas Gibbins" ;
@@ -2671,10 +2671,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-17> ;
     foaf:name "Rachanee Ungrangsi" .
 
-<http://data.semanticweb.org/person/raphaeel-troncy> a foaf:Person ;
-    rdfs:label "Raphaël Troncy" ;
+<http://data.semanticweb.org/person/raphael-troncy> a foaf:Person ;
+    rdfs:label "Raphael Troncy" ;
     foaf:made <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-18> ;
-    foaf:name "Raphaël Troncy" .
+    foaf:name "Raphael Troncy" .
 
 <http://data.semanticweb.org/person/raphael-volz> a foaf:Person ;
     rdfs:label "Raphael Volz" ;
@@ -3457,7 +3457,7 @@
     dc:title "An Ontology Design Pattern for Representing Relevance in OWL" ;
     dcterms:title "An Ontology Design Pattern for Representing Relevance in OWL" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-09/author_list> ;
-    swrc:abstract "Design patterns are widely-used software engineering abstractions which define guidelines for modeling common application scenarios. Ontology design patterns are the extension of software patterns for knowledge acquisition in the Semantic Web. In this work we present a design pattern for representing relevance depending on context in OWL ontologies, i.e. to assert which knowledge from the domain ought to be considered in a given scenario. Besides the formal semantics and the features of the pattern, we describe a reasoning procedure to extract relevant knowledge in the resulting ontology and a plug-in for ProtÃ©gÃ© which assists pattern use." ;
+    swrc:abstract "Design patterns are widely-used software engineering abstractions which define guidelines for modeling common application scenarios. Ontology design patterns are the extension of software patterns for knowledge acquisition in the Semantic Web. In this work we present a design pattern for representing relevance depending on context in OWL ontologies, i.e. to assert which knowledge from the domain ought to be considered in a given scenario. Besides the formal semantics and the features of the pattern, we describe a reasoning procedure to extract relevant knowledge in the resulting ontology and a plug-in for Protege which assists pattern use." ;
     swrc:author <http://data.semanticweb.org/person/fernando-bobillo>,
         <http://data.semanticweb.org/person/juan-gomez-romero>,
         <http://data.semanticweb.org/person/miguel-delgado> ;
@@ -3479,7 +3479,7 @@
     dc:title "Bringing Semantic Annotations to Web Services: OWL-S from the SAWSDL Perspective" ;
     dcterms:title "Bringing Semantic Annotations to Web Services: OWL-S from the SAWSDL Perspective" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-14/author_list> ;
-    swrc:abstract "Recently, the World Wide Web Consortium (W3C) produced a standard set of âSemantic Annotations for WSDL and XML Schemaâ (SAWSDL). SAWSDL provides a standard means by which WSDL documents can be related to semantic descriptions, such as those provided by OWL-S (OWL for Services) and other Semantic Web services frameworks. We argue that the value of SAWSDL cannot be realized until its use is specified, and its benefits explained, in connection with a particular framework. This paper is an important first step toward meeting that need, with respect to OWL-S. We explain what OWL-S constructs are appropriate for use with the various SAWSDL annotations, and provide a rationale and guidelines for their use. In addition, we discuss some weaknesses of SAWSDL, and identify some ways in which OWL-S could evolve so as to integrate more smoothly with SAWSDL." ;
+    swrc:abstract "Recently, the World Wide Web Consortium (W3C) produced a standard set of \"Semantic Annotations for WSDL and XML Schema\" (SAWSDL). SAWSDL provides a standard means by which WSDL documents can be related to semantic descriptions, such as those provided by OWL-S (OWL for Services) and other Semantic Web services frameworks. We argue that the value of SAWSDL cannot be realized until its use is specified, and its benefits explained, in connection with a particular framework. This paper is an important first step toward meeting that need, with respect to OWL-S. We explain what OWL-S constructs are appropriate for use with the various SAWSDL annotations, and provide a rationale and guidelines for their use. In addition, we discuss some weaknesses of SAWSDL, and identify some ways in which OWL-S could evolve so as to integrate more smoothly with SAWSDL." ;
     swrc:author <http://data.semanticweb.org/person/david-martin>,
         <http://data.semanticweb.org/person/massimo-paolucci>,
         <http://data.semanticweb.org/person/matthias-wagner> ;
@@ -3523,7 +3523,7 @@
     dc:title "Conjunctive Queries for a Tractable Fragment of OWL 1.1" ;
     dcterms:title "Conjunctive Queries for a Tractable Fragment of OWL 1.1" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-19/author_list> ;
-    swrc:abstract "Despite the success of the Web Ontology Language OWL, the development of expressive means for querying OWL knowledge bases is still an open issue. In this paper, we investigate how a very natural and desirable form of queries â namely conjunctive ones â can be used in conjunction with OWL such that one of the major design criteria of the latter â namely decidability â can be retained. More precisely, we show that querying the tractable fragment EL++ of OWL 1.1 is decidable. We also provide a complexity analysis and show that querying unrestricted EL++ is undecidable." ;
+    swrc:abstract "Despite the success of the Web Ontology Language OWL, the development of expressive means for querying OWL knowledge bases is still an open issue. In this paper, we investigate how a very natural and desirable form of queries - namely conjunctive ones - can be used in conjunction with OWL such that one of the major design criteria of the latter - namely decidability - can be retained. More precisely, we show that querying the tractable fragment EL++ of OWL 1.1 is decidable. We also provide a complexity analysis and show that querying unrestricted EL++ is undecidable." ;
     swrc:author <http://data.semanticweb.org/person/markus-kroetzsch>,
         <http://data.semanticweb.org/person/pascal-hitzler>,
         <http://data.semanticweb.org/person/sebastian-rudolph> ;
@@ -3567,7 +3567,7 @@
     dc:title "HealthFinland - Finnish Health Information on the Semantic Web" ;
     dcterms:title "HealthFinland - Finnish Health Information on the Semantic Web" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-33/author_list> ;
-    swrc:abstract "This paper shows how semantic web techniques can be applied to solving problems of distributed content creation, discovery, linking, aggregation, and reuse in health information portals, both from end-userâs and content publishersâs viewpoints. As a case study, the national semantic health portal HEALTHFINLAND is presented. It provides citizens with intelligent searching and browsing services to reliable and up-to-date health information created by various health organizations in Finland. The system is based on a shared semantic metadata schema, ontologies, and mash-up ontology services. The content includes metadata of thousands of web documents such as web pages, articles, reports, campaign information, news, services, and other information related to health." ;
+    swrc:abstract "This paper shows how semantic web techniques can be applied to solving problems of distributed content creation, discovery, linking, aggregation, and reuse in health information portals, both from end-user's and content publishers's viewpoints. As a case study, the national semantic health portal HEALTHFINLAND is presented. It provides citizens with intelligent searching and browsing services to reliable and up-to-date health information created by various health organizations in Finland. The system is based on a shared semantic metadata schema, ontologies, and mash-up ontology services. The content includes metadata of thousands of web documents such as web pages, articles, reports, campaign information, news, services, and other information related to health." ;
     swrc:author <http://data.semanticweb.org/person/eero-hyvoenen>,
         <http://data.semanticweb.org/person/kim-viljanen>,
         <http://data.semanticweb.org/person/osma-suominen> ;
@@ -3614,7 +3614,7 @@
     swrc:abstract "The use of tags to describe Web resources in a collaborative manner has experienced rising popularity among Web users in recent years. The product of such activity is given the name folksonomy, which can be considered as a scheme of organizing information in the users' own way. This research work attempts to analyze tripartite graphs - graphs involving users, tags and resources - of folksonomies and discuss how these elements acquire their semantics through their associations with other elements, a process we call mutual contextualization. By studying such process, we try to identify solutions to problems such as tag disambiguation, retrieving documents of similar topics and discovering communities of users. This paper describes the basis of the research work, mentions work done so far and outlines future plans." ;
     swrc:author <http://data.semanticweb.org/person/ching-man-au-yeung>,
         <http://data.semanticweb.org/person/nicholas-gibbins>,
-        <http://data.semanticweb.org/person/nigel-shadbolt> ;
+        <http://data.semanticweb.org/person/nigel-r-shadbolt> ;
     swrc:category "Doctoral Consortium Paper" ;
     swrc:link_open_access <http://eprints.soton.ac.uk/264696/1/iswc2007_doctoral.pdf> ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-76298-0_79> ;
@@ -3625,7 +3625,7 @@
     swrc:year "2007" ;
     foaf:maker <http://data.semanticweb.org/person/ching-man-au-yeung>,
         <http://data.semanticweb.org/person/nicholas-gibbins>,
-        <http://data.semanticweb.org/person/nigel-shadbolt> .
+        <http://data.semanticweb.org/person/nigel-r-shadbolt> .
 
 <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-49> a swrc:InProceedings ;
     rdfs:label "On the Foundations of Computing Deltas Between RDF Models" ;
@@ -3679,7 +3679,7 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-58/author_list> ;
     swrc:abstract "As more and more reusable structured data appears on the Web, casual users will want to take into their own hands the task of mashing up data rather than wait for mash-up sites to be built that address exactly their individually unique needs. In this paper, we present Potluck, a Web user interface that lets casual users –those without programming skills and data modeling expertise–mash up data themselves. Potluck is novel in its use of drag and drop for merging fields, its integration and extension of the faceted browsing paradigm for focusing on subsets of data to align, and its application of simultaneous editing for cleaning up data syntactically.Potluck also lets the user construct rich visualizations of data in-place as the user aligns and cleans up the data. This iterative process of integrating the data while constructing useful visualizations is desirable when the user is unfamiliar with the data at the beginning–a common case–and wishes to get immediate value out of the data without having to spend the overhead of completely and perfectly integrating the data first. A user study on Potluck indicated that it was usable and learnable, and elicited excitement from programmers who, even with their programming skills, previously had great difficulties performing data integration." ;
     swrc:author <http://data.semanticweb.org/person/david-f-huynh>,
-        <http://data.semanticweb.org/person/david-r-karger>,
+        <http://data.semanticweb.org/person/david-karger>,
         <http://data.semanticweb.org/person/robert-c-miller> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2007.semanticweb.org/papers/239.pdf> ;
@@ -3690,7 +3690,7 @@
         <http://iswc2007.semanticweb.org/papers/239.pdf> ;
     swrc:year "2007" ;
     foaf:maker <http://data.semanticweb.org/person/david-f-huynh>,
-        <http://data.semanticweb.org/person/david-r-karger>,
+        <http://data.semanticweb.org/person/david-karger>,
         <http://data.semanticweb.org/person/robert-c-miller> .
 
 <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-59> a swrc:InProceedings ;
@@ -3700,7 +3700,7 @@
     dcterms:title "Potluck: Semi-ontology Alignment for Casual Users" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-59/author_list> ;
     swrc:author <http://data.semanticweb.org/person/david-f-huynh>,
-        <http://data.semanticweb.org/person/david-r-karger>,
+        <http://data.semanticweb.org/person/david-karger>,
         <http://data.semanticweb.org/person/robert-c-miller> ;
     swrc:category "Semantic Web Challenge Paper" ;
     swrc:link_open_access <https://www.cs.vu.nl/~pmika/swc-2007/Potluck.pdf> ;
@@ -3711,7 +3711,7 @@
         <https://www.cs.vu.nl/~pmika/swc-2007/Potluck.pdf> ;
     swrc:year "2007" ;
     foaf:maker <http://data.semanticweb.org/person/david-f-huynh>,
-        <http://data.semanticweb.org/person/david-r-karger>,
+        <http://data.semanticweb.org/person/david-karger>,
         <http://data.semanticweb.org/person/robert-c-miller> .
 
 <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-71> a swrc:InProceedings ;
@@ -3720,7 +3720,7 @@
     dc:title "Sindice.com: Weaving the Open Linked Data" ;
     dcterms:title "Sindice.com: Weaving the Open Linked Data" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-71/author_list> ;
-    swrc:abstract "Developers of SemanticWeb applications face a challenge with respect to the decentralised publication model: where to find statements about encountered resources. The âlinked dataâ approach, which mandates that resource URIs should be de-referenced and yield metadata about the resource, helps but is only a partial solution and not followed widely. We present a lookup index over resources crawled on the Semantic Web. Our index allows applications to automatically retrieve sources with information about a certain resource. In contrast to more feature-rich Semantic Web search engines, our index is purposely limited in scope and functionality to achieve highly scalability and maintainability." ;
+    swrc:abstract "Developers of SemanticWeb applications face a challenge with respect to the decentralised publication model: where to find statements about encountered resources. The \"linked data\" approach, which mandates that resource URIs should be de-referenced and yield metadata about the resource, helps but is only a partial solution and not followed widely. We present a lookup index over resources crawled on the Semantic Web. Our index allows applications to automatically retrieve sources with information about a certain resource. In contrast to more feature-rich Semantic Web search engines, our index is purposely limited in scope and functionality to achieve highly scalability and maintainability." ;
     swrc:author <http://data.semanticweb.org/person/eyal-oren>,
         <http://data.semanticweb.org/person/giovanni-tummarello>,
         <http://data.semanticweb.org/person/renaud-delbru> ;
@@ -4429,7 +4429,7 @@
     swrc:abstract "Semantic descriptions of non-textual media available on the web can be used to facilitate retrieval and presentation of media assets and documents containing them. While technologies for multimedia semantic descriptions already exist, there is as yet no formal description of a high quality multimedia ontology that is compatible with existing (semantic) web technologies. We explain the complexity of the problem using an annotation scenario. We then derive a number of requirements for specifying a formal multimedia ontology before we present the developed ontology, COMM, and evaluate it with respect to our requirements. We provide an API for generating multimedia annotations that conform to COMM." ;
     swrc:author <http://data.semanticweb.org/person/lynda-hardman>,
         <http://data.semanticweb.org/person/miroslav-vacura>,
-        <http://data.semanticweb.org/person/raphaeel-troncy>,
+        <http://data.semanticweb.org/person/raphael-troncy>,
         <http://data.semanticweb.org/person/richard-arndt>,
         <http://data.semanticweb.org/person/steffen-staab> ;
     swrc:category "Research Track Paper" ;
@@ -4442,7 +4442,7 @@
     swrc:year "2007" ;
     foaf:maker <http://data.semanticweb.org/person/lynda-hardman>,
         <http://data.semanticweb.org/person/miroslav-vacura>,
-        <http://data.semanticweb.org/person/raphaeel-troncy>,
+        <http://data.semanticweb.org/person/raphael-troncy>,
         <http://data.semanticweb.org/person/richard-arndt>,
         <http://data.semanticweb.org/person/steffen-staab> .
 
@@ -4504,7 +4504,7 @@
     dc:title "Purpose-Aware Reasoning about Interoperability of Heterogeneous Training Systems" ;
     dcterms:title "Purpose-Aware Reasoning about Interoperability of Heterogeneous Training Systems" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-61/author_list> ;
-    swrc:abstract "We describe a novel approach by which software can assess the ability of a confederation of heterogeneous systems to interoperate to achieve a given purpose. The approach uses ontologies and knowledge bases (KBs) to capture the salient characteristics of systems, on the one hand, and of tasks for which these systems will be employed, on the other. Rules are used to represent the conditions under whichthe capabilities provided by systems can fulï¬ll the capabilities needed to support the roles and interactions that make up each task. An Analyzer component employs these KBs and rules to determine if a given confederation will be adequate, to generate suitable confederations from a collection of available systems, to pre-diagnose potential interoperability problems that might arise, and to suggest system conï¬guration options that will help to make interoperability possible. We have demonstrated the feasibility of this approach using a prototype Analyzer and KBs." ;
+    swrc:abstract "We describe a novel approach by which software can assess the ability of a confederation of heterogeneous systems to interoperate to achieve a given purpose. The approach uses ontologies and knowledge bases (KBs) to capture the salient characteristics of systems, on the one hand, and of tasks for which these systems will be employed, on the other. Rules are used to represent the conditions under whichthe capabilities provided by systems can fulfill the capabilities needed to support the roles and interactions that make up each task. An Analyzer component employs these KBs and rules to determine if a given confederation will be adequate, to generate suitable confederations from a collection of available systems, to pre-diagnose potential interoperability problems that might arise, and to suggest system configuration options that will help to make interoperability possible. We have demonstrated the feasibility of this approach using a prototype Analyzer and KBs." ;
     swrc:author <http://data.semanticweb.org/person/daniel-elenius>,
         <http://data.semanticweb.org/person/david-martin>,
         <http://data.semanticweb.org/person/grit-denker>,
@@ -4607,7 +4607,7 @@
     dc:title "SPARK: Adapting Keyword Query to Semantic Search" ;
     dcterms:title "SPARK: Adapting Keyword Query to Semantic Search" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-72/author_list> ;
-    swrc:abstract "Semantic search promises to provide more accurate result than present-day keyword search. However, progress with semantic search has been delayed due to the complexity of its query languages. In this paper, we explore a novel approach of adapting keywords to querying the semantic web: the approach automatically translates keyword queries into formal logic queries so that end users can use familiar keywords to perform semantic search. A prototype system named âSPARKâ has been implemented in light of this approach. Given a keyword query, SPARK outputs a ranked list of SPARQL queries as the translation result. The translation in SPARK consists of three major steps: term mapping, query graph construction and query ranking. Specifically, a probabilistic query ranking model is proposed to select the most likely SPARQL query. In the experiment, SPARK achieved an encouraging translation result." ;
+    swrc:abstract "Semantic search promises to provide more accurate result than present-day keyword search. However, progress with semantic search has been delayed due to the complexity of its query languages. In this paper, we explore a novel approach of adapting keywords to querying the semantic web: the approach automatically translates keyword queries into formal logic queries so that end users can use familiar keywords to perform semantic search. A prototype system named 'SPARK' has been implemented in light of this approach. Given a keyword query, SPARK outputs a ranked list of SPARQL queries as the translation result. The translation in SPARK consists of three major steps: term mapping, query graph construction and query ranking. Specifically, a probabilistic query ranking model is proposed to select the most likely SPARQL query. In the experiment, SPARK achieved an encouraging translation result." ;
     swrc:author <http://data.semanticweb.org/person/chong-wang>,
         <http://data.semanticweb.org/person/haofen-wang>,
         <http://data.semanticweb.org/person/miao-xiong>,
@@ -4699,17 +4699,17 @@
         <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-59> ;
     foaf:name "David F. Huynh" .
 
+<http://data.semanticweb.org/person/david-karger> a foaf:Person ;
+    rdfs:label "David Karger" ;
+    foaf:made <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-58>,
+        <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-59> ;
+    foaf:name "David Karger" .
+
 <http://data.semanticweb.org/person/david-martin> a foaf:Person ;
     rdfs:label "David Martin" ;
     foaf:made <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-14>,
         <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-61> ;
     foaf:name "David Martin" .
-
-<http://data.semanticweb.org/person/david-r-karger> a foaf:Person ;
-    rdfs:label "David R. Karger" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-58>,
-        <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-59> ;
-    foaf:name "David R. Karger" .
 
 <http://data.semanticweb.org/person/diana-maynard> a foaf:Person ;
     rdfs:label "Diana Maynard" ;
@@ -4843,11 +4843,11 @@
         <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-32> ;
     foaf:name "Nicola Henze" .
 
-<http://data.semanticweb.org/person/nigel-shadbolt> a foaf:Person ;
-    rdfs:label "Nigel Shadbolt" ;
+<http://data.semanticweb.org/person/nigel-r-shadbolt> a foaf:Person ;
+    rdfs:label "Nigel R Shadbolt" ;
     foaf:made <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-47>,
         <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-76> ;
-    foaf:name "Nigel Shadbolt" .
+    foaf:name "Nigel R Shadbolt" .
 
 <http://data.semanticweb.org/person/riichiro-mizoguchi> a foaf:Person ;
     rdfs:label "Riichiro Mizoguchi" ;
@@ -4950,7 +4950,7 @@
     dc:title "CLOnE: Controlled Language for Ontology Editing" ;
     dcterms:title "CLOnE: Controlled Language for Ontology Editing" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-16/author_list> ;
-    swrc:abstract "This paper presents a controlled language for ontology editing and a software implementation, based partly on standard NLP tools, for processing that language and manipulating an ontology. The input sentences are analysed deterministically and compositionally with respect to a given ontology, which the software consults in order to interpret the inputâs semantics; this allows the user to learn fewer syntactic structures since some of them can be used to refer to either classes or instances, for example. A repeated-measures, task-based evaluation has been carried out in comparison with a well-known ontology editor; our software received favourable results for basic tasks. The paper also discusses work in progress and future plans for developing this language and tool." ;
+    swrc:abstract "This paper presents a controlled language for ontology editing and a software implementation, based partly on standard NLP tools, for processing that language and manipulating an ontology. The input sentences are analysed deterministically and compositionally with respect to a given ontology, which the software consults in order to interpret the input's semantics; this allows the user to learn fewer syntactic structures since some of them can be used to refer to either classes or instances, for example. A repeated-measures, task-based evaluation has been carried out in comparison with a well-known ontology editor; our software received favourable results for basic tasks. The paper also discusses work in progress and future plans for developing this language and tool." ;
     swrc:author <http://data.semanticweb.org/person/adam-funk>,
         <http://data.semanticweb.org/person/brian-davis>,
         <http://data.semanticweb.org/person/hamish-cunningham>,
@@ -5007,7 +5007,7 @@
     dcterms:title "EIAW: Towards a Business-Friendly Data Warehouse Using Semantic Web Technologies" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-25/author_list> ;
     swrc:abstract "Data warehouse is now widely used in business analysis and decision making processes. To adapt the rapidly changing business environment, we develop a tool to make data warehouses more business-friendly by using Semantic Web technologies. The main idea is to make business semantics explicit by uniformly representing the business metadata (i.e. conceptual enterprise data model and multidimensional model) with an extended OWL language. Then a mapping from the business metadata to the schema of the data warehouse is built. When an analysis request is raised, a customized data mart with data populated from the data warehouse can be automatically generated with the help of this built-in knowledge. This tool, called Enterprise Information Asset Workbench (EIAW), is deployed at the Taikang Life Insurance Company, one of the top five insurance companies of China. User feedback shows that OWL provides an excellent basis for the representation of business semantics in data warehouse, but many necessary extensions are also needed in the real application. The user also deemed this tool very helpful because of its flexibility and speeding up data mart deployment in face of business changes." ;
-    swrc:author <http://data.semanticweb.org/person/guo-tong-xie>,
+    swrc:author <http://data.semanticweb.org/person/guoton-xie>,
         <http://data.semanticweb.org/person/shengping-liu>,
         <http://data.semanticweb.org/person/xiongzhi-zhou>,
         <http://data.semanticweb.org/person/yang-yang>,
@@ -5021,7 +5021,7 @@
     swrc:url <http://dx.doi.org/10.1007/978-3-540-76298-0_62>,
         <http://iswc2007.semanticweb.org/papers/851.pdf> ;
     swrc:year "2007" ;
-    foaf:maker <http://data.semanticweb.org/person/guo-tong-xie>,
+    foaf:maker <http://data.semanticweb.org/person/guoton-xie>,
         <http://data.semanticweb.org/person/shengping-liu>,
         <http://data.semanticweb.org/person/xiongzhi-zhou>,
         <http://data.semanticweb.org/person/yang-yang>,
@@ -5089,7 +5089,7 @@
     dc:title "Lifecycle-Support in Architectures for Ontology-Based Information Systems" ;
     dcterms:title "Lifecycle-Support in Architectures for Ontology-Based Information Systems" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc-aswc/2007/proceedings/paper-41/author_list> ;
-    swrc:abstract "Ontology-based applications play an increasingly important role in the public and corporate Semantic Web. While today there exist a range of tools and technologies to support specific ontology engineering and management activities, architectural design guidelines for building ontology-based applications are missing. In this paper, we present an architecture for ontology-based application â covering the complete ontology-lifecycle - that is intended to support software engineers in designing and developing ontology-based applications. We illustrate the use of the architecture in a concrete case study using the NeOn toolkit as one implementation of the architecture." ;
+    swrc:abstract "Ontology-based applications play an increasingly important role in the public and corporate Semantic Web. While today there exist a range of tools and technologies to support specific ontology engineering and management activities, architectural design guidelines for building ontology-based applications are missing. In this paper, we present an architecture for ontology-based application - covering the complete ontology-lifecycle - that is intended to support software engineers in designing and developing ontology-based applications. We illustrate the use of the architecture in a concrete case study using the NeOn toolkit as one implementation of the architecture." ;
     swrc:author <http://data.semanticweb.org/person/asuncion-gomez-perez>,
         <http://data.semanticweb.org/person/holger-lewen>,
         <http://data.semanticweb.org/person/oscar-munoz-garcia>,
@@ -5265,7 +5265,7 @@
         <http://data.semanticweb.org/person/john-darlington>,
         <http://data.semanticweb.org/person/john-sheridan>,
         <http://data.semanticweb.org/person/kieron-ohara>,
-        <http://data.semanticweb.org/person/nigel-shadbolt> ;
+        <http://data.semanticweb.org/person/nigel-r-shadbolt> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <http://iswc2007.semanticweb.org/papers/701.pdf> ;
     swrc:link_publisher <http://dx.doi.org/10.1007/978-3-540-76298-0_51> ;
@@ -5280,7 +5280,7 @@
         <http://data.semanticweb.org/person/john-darlington>,
         <http://data.semanticweb.org/person/john-sheridan>,
         <http://data.semanticweb.org/person/kieron-ohara>,
-        <http://data.semanticweb.org/person/nigel-shadbolt> .
+        <http://data.semanticweb.org/person/nigel-r-shadbolt> .
 
 <http://data.semanticweb.org/conference/iswc-aswc/2007/poster-demo-proceedings/paper-06> a swrc:InProceedings ;
     rdfs:label "A Semantic Portal for Researchers Using OntoFrame" ;
@@ -5744,8 +5744,8 @@
         <http://data.semanticweb.org/person/karl-aberer>,
         <http://data.semanticweb.org/person/key-sun-choi>,
         <http://data.semanticweb.org/person/kyung-il-lee>,
-        <http://data.semanticweb.org/person/lyndon-nixon>,
-        <http://data.semanticweb.org/person/natasha-noy>,
+        <http://data.semanticweb.org/person/lyndon-j-b-nixon>,
+        <http://data.semanticweb.org/person/natalya-noy>,
         <http://data.semanticweb.org/person/peter-mika>,
         <http://data.semanticweb.org/person/philippe-cudre-mauroux>,
         <http://data.semanticweb.org/person/riichiro-mizoguchi> ;
@@ -5765,8 +5765,8 @@
         <http://data.semanticweb.org/person/karl-aberer>,
         <http://data.semanticweb.org/person/key-sun-choi>,
         <http://data.semanticweb.org/person/kyung-il-lee>,
-        <http://data.semanticweb.org/person/lyndon-nixon>,
-        <http://data.semanticweb.org/person/natasha-noy>,
+        <http://data.semanticweb.org/person/lyndon-j-b-nixon>,
+        <http://data.semanticweb.org/person/natalya-noy>,
         <http://data.semanticweb.org/person/peter-mika>,
         <http://data.semanticweb.org/person/philippe-cudre-mauroux>,
         <http://data.semanticweb.org/person/riichiro-mizoguchi> .
