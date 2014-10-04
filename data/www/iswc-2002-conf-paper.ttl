@@ -50,7 +50,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-08/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/sean-bechhofer> ;
-    rdf:_2 <http://data.semanticweb.org/person/carole-goble> ;
+    rdf:_2 <http://data.semanticweb.org/person/carole-a-goble> ;
     rdf:_3 <http://data.semanticweb.org/person/les-carr> ;
     rdf:_4 <http://data.semanticweb.org/person/simon-kampa> .
 
@@ -98,7 +98,7 @@
     rdf:_1 <http://data.semanticweb.org/person/oren-etzioni> ;
     rdf:_2 <http://data.semanticweb.org/person/steve-gribble> ;
     rdf:_3 <http://data.semanticweb.org/person/alon-halevy> ;
-    rdf:_4 <http://data.semanticweb.org/person/henry-levy> ;
+    rdf:_4 <http://data.semanticweb.org/person/henry-m-levy> ;
     rdf:_5 <http://data.semanticweb.org/person/luke-mcdowell> .
 
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-17/author_list> a rdf:Seq ;
@@ -123,7 +123,7 @@
     rdf:_2 <http://data.semanticweb.org/person/ron-alford> ;
     rdf:_3 <http://data.semanticweb.org/person/ross-baker> ;
     rdf:_4 <http://data.semanticweb.org/person/mike-grove> ;
-    rdf:_5 <http://data.semanticweb.org/person/jim-hendler> ;
+    rdf:_5 <http://data.semanticweb.org/person/james-hendler> ;
     rdf:_6 <http://data.semanticweb.org/person/aditya-kalyanpur> ;
     rdf:_7 <http://data.semanticweb.org/person/amy-loomis> ;
     rdf:_8 <http://data.semanticweb.org/person/ron-reck> .
@@ -141,7 +141,7 @@
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-23/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/simon-harper> ;
     rdf:_2 <http://data.semanticweb.org/person/stephen-pettitt> ;
-    rdf:_3 <http://data.semanticweb.org/person/carole-goble> .
+    rdf:_3 <http://data.semanticweb.org/person/carole-a-goble> .
 
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-24/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/wolfgang-hesse> .
@@ -152,19 +152,19 @@
     rdf:_3 <http://data.semanticweb.org/person/fabio-ciravegna> .
 
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-26/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/eero-hyvonen> ;
+    rdf:_1 <http://data.semanticweb.org/person/eero-hyvoenen> ;
     rdf:_2 <http://data.semanticweb.org/person/suvi-kettula> ;
     rdf:_3 <http://data.semanticweb.org/person/vilho-raatikka> ;
     rdf:_4 <http://data.semanticweb.org/person/kim-viljanen> .
 
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-27/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/antoine-isaac> ;
-    rdf:_2 <http://data.semanticweb.org/person/raphael-troncy> .
+    rdf:_2 <http://data.semanticweb.org/person/raphaeel-troncy> .
 
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-28/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/elisa-f-kendall> ;
     rdf:_2 <http://data.semanticweb.org/person/mark-e-dutra> ;
-    rdf:_3 <http://data.semanticweb.org/person/deborah-l-mcguinness> .
+    rdf:_3 <http://data.semanticweb.org/person/deborah-mcguinness> .
 
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-29/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/barbara-kieslinger> ;
@@ -195,7 +195,7 @@
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-32/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/t-kunze> ;
     rdf:_2 <http://data.semanticweb.org/person/j-brase> ;
-    rdf:_3 <http://data.semanticweb.org/person/w-nejdl> .
+    rdf:_3 <http://data.semanticweb.org/person/wolfgang-nejdl> .
 
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-33/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/d-leal> ;
@@ -311,7 +311,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/editor_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/ian-horrocks> ;
-    rdf:_2 <http://data.semanticweb.org/person/james-a-hendler> .
+    rdf:_2 <http://data.semanticweb.org/person/james-hendler> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-01/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/sonia-bergamaschi> ;
@@ -348,9 +348,9 @@
     rdf:_1 <http://data.semanticweb.org/person/joachim-peer> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-08/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/terry-r-payne> ;
+    rdf:_1 <http://data.semanticweb.org/person/terry-payne> ;
     rdf:_2 <http://data.semanticweb.org/person/rahul-singh> ;
-    rdf:_3 <http://data.semanticweb.org/person/katia-p-sycara> .
+    rdf:_3 <http://data.semanticweb.org/person/katia-sycara> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-09/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/peter-f-patel-schneider> ;
@@ -370,25 +370,25 @@
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-12/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/anupriya-ankolekar> ;
     rdf:_2 <http://data.semanticweb.org/person/frank-huch> ;
-    rdf:_3 <http://data.semanticweb.org/person/katia-p-sycara> .
+    rdf:_3 <http://data.semanticweb.org/person/katia-sycara> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-13/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/kenneth-baclawski> ;
-    rdf:_2 <http://data.semanticweb.org/person/mieczyslaw-m-kokar> ;
+    rdf:_2 <http://data.semanticweb.org/person/mieczyslaw-kokar> ;
     rdf:_3 <http://data.semanticweb.org/person/richard-j-waldinger> ;
     rdf:_4 <http://data.semanticweb.org/person/paul-a-kogut> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-14/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/mark-h-burstein> ;
-    rdf:_10 <http://data.semanticweb.org/person/katia-p-sycara> ;
+    rdf:_10 <http://data.semanticweb.org/person/katia-sycara> ;
     rdf:_2 <http://data.semanticweb.org/person/jerry-r-hobbs> ;
     rdf:_3 <http://data.semanticweb.org/person/ora-lassila> ;
-    rdf:_4 <http://data.semanticweb.org/person/david-l-martin> ;
-    rdf:_5 <http://data.semanticweb.org/person/drew-v-mcdermott> ;
+    rdf:_4 <http://data.semanticweb.org/person/david-martin> ;
+    rdf:_5 <http://data.semanticweb.org/person/drew-mcdermott> ;
     rdf:_6 <http://data.semanticweb.org/person/sheila-a-mcilraith> ;
     rdf:_7 <http://data.semanticweb.org/person/srini-narayanan> ;
     rdf:_8 <http://data.semanticweb.org/person/massimo-paolucci> ;
-    rdf:_9 <http://data.semanticweb.org/person/terry-r-payne> .
+    rdf:_9 <http://data.semanticweb.org/person/terry-payne> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-15/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/brian-mcbride> .
@@ -409,7 +409,7 @@
     rdf:_2 <http://data.semanticweb.org/person/dieter-fensel> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-20/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/jeremy-j-carroll> .
+    rdf:_1 <http://data.semanticweb.org/person/jeremy-carroll> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-21/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/grigoris-antoniou> .
@@ -440,7 +440,7 @@
     rdf:_2 <http://data.semanticweb.org/person/sergio-tessaris> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-27/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/drew-v-mcdermott> ;
+    rdf:_1 <http://data.semanticweb.org/person/drew-mcdermott> ;
     rdf:_2 <http://data.semanticweb.org/person/dejing-dou> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-28/author_list> a rdf:Seq ;
@@ -452,8 +452,8 @@
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-29/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/massimo-paolucci> ;
     rdf:_2 <http://data.semanticweb.org/person/takahiro-kawamura> ;
-    rdf:_3 <http://data.semanticweb.org/person/terry-r-payne> ;
-    rdf:_4 <http://data.semanticweb.org/person/katia-p-sycara> .
+    rdf:_3 <http://data.semanticweb.org/person/terry-payne> ;
+    rdf:_4 <http://data.semanticweb.org/person/katia-sycara> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-30/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/dieter-fensel> ;
@@ -469,9 +469,9 @@
     rdf:_1 <http://data.semanticweb.org/person/dan-brickley> ;
     rdf:_2 <http://data.semanticweb.org/person/s-buswell> ;
     rdf:_3 <http://data.semanticweb.org/person/b-m-matthews> ;
-    rdf:_4 <http://data.semanticweb.org/person/l-miller> ;
+    rdf:_4 <http://data.semanticweb.org/person/libby-miller> ;
     rdf:_5 <http://data.semanticweb.org/person/d-reynolds> ;
-    rdf:_6 <http://data.semanticweb.org/person/michael-d-wilson> .
+    rdf:_6 <http://data.semanticweb.org/person/michael-wilson> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-33/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/ora-lassila> .
@@ -698,14 +698,14 @@
     dc:title "Matching RDF Graphs" ;
     dcterms:title "Matching RDF Graphs" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-20/author_list> ;
-    swrc:author <http://data.semanticweb.org/person/jeremy-j-carroll> ;
+    swrc:author <http://data.semanticweb.org/person/jeremy-carroll> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_3> ;
     swrc:listAuthor "Jeremy J. Carroll" ;
     swrc:pages "5-15" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_3> ;
     swrc:year "2002" ;
-    foaf:maker <http://data.semanticweb.org/person/jeremy-j-carroll> .
+    foaf:maker <http://data.semanticweb.org/person/jeremy-carroll> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-21> a swrc:InProceedings ;
     rdfs:label "Nonmonotonic Rule Systems on Top of Ontology Layers" ;
@@ -822,14 +822,14 @@
     dcterms:title "Semantic Commitment for Designing Ontologies: A Tool Proposal" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-27/author_list> ;
     swrc:author <http://data.semanticweb.org/person/antoine-isaac>,
-        <http://data.semanticweb.org/person/raphael-troncy> ;
+        <http://data.semanticweb.org/person/raphaeel-troncy> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/troncy-iswc02-poster.pdf> ;
     swrc:listAuthor "Antoine Isaac and Raphael Troncy" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/troncy-iswc02-poster.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/antoine-isaac>,
-        <http://data.semanticweb.org/person/raphael-troncy> .
+        <http://data.semanticweb.org/person/raphaeel-troncy> .
 
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-34> a swrc:InProceedings ;
     rdfs:label "Lowering the entry level: Lessons from the Web and the Semantic Web for the World-Wide-Mind" ;
@@ -1053,7 +1053,7 @@
     dcterms:title "Representing Disjunction and Quantifiers in RDF" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-27/author_list> ;
     swrc:author <http://data.semanticweb.org/person/dejing-dou>,
-        <http://data.semanticweb.org/person/drew-v-mcdermott> ;
+        <http://data.semanticweb.org/person/drew-mcdermott> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_20> ;
     swrc:listAuthor "Drew V. McDermott and Dejing Dou" ;
@@ -1061,7 +1061,7 @@
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_20> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/dejing-dou>,
-        <http://data.semanticweb.org/person/drew-v-mcdermott> .
+        <http://data.semanticweb.org/person/drew-mcdermott> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-38> a swrc:InProceedings ;
     rdfs:label "Towards High-Precision Service Retrieval" ;
@@ -1401,15 +1401,15 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-12> ;
     foaf:name "Daniela Petrelli" .
 
-<http://data.semanticweb.org/person/david-l-martin> a foaf:Person ;
-    rdfs:label "David L. Martin" ;
+<http://data.semanticweb.org/person/david-martin> a foaf:Person ;
+    rdfs:label "David Martin" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-14> ;
-    foaf:name "David L. Martin" .
+    foaf:name "David Martin" .
 
-<http://data.semanticweb.org/person/deborah-l-mcguinness> a foaf:Person ;
-    rdfs:label "Deborah L. McGuinness" ;
+<http://data.semanticweb.org/person/deborah-mcguinness> a foaf:Person ;
+    rdfs:label "Deborah McGuinness" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-28> ;
-    foaf:name "Deborah L. McGuinness" .
+    foaf:name "Deborah McGuinness" .
 
 <http://data.semanticweb.org/person/dejing-dou> a foaf:Person ;
     rdfs:label "Dejing Dou" ;
@@ -1451,10 +1451,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-54> ;
     foaf:name "Eddie Moench" .
 
-<http://data.semanticweb.org/person/eero-hyvonen> a foaf:Person ;
-    rdfs:label "Eero Hyvonen" ;
+<http://data.semanticweb.org/person/eero-hyvoenen> a foaf:Person ;
+    rdfs:label "Eero Hyvönen" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-26> ;
-    foaf:name "Eero Hyvonen" .
+    foaf:name "Eero Hyvönen" .
 
 <http://data.semanticweb.org/person/elisa-f-kendall> a foaf:Person ;
     rdfs:label "Elisa F. Kendall" ;
@@ -1581,10 +1581,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-53> ;
     foaf:name "Heiner Stuckenschmidt" .
 
-<http://data.semanticweb.org/person/henry-levy> a foaf:Person ;
-    rdfs:label "Henry Levy" ;
+<http://data.semanticweb.org/person/henry-m-levy> a foaf:Person ;
+    rdfs:label "Henry M. Levy" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-16> ;
-    foaf:name "Henry Levy" .
+    foaf:name "Henry M. Levy" .
 
 <http://data.semanticweb.org/person/hiroya-inakoshi> a foaf:Person ;
     rdfs:label "Hiroya Inakoshi" ;
@@ -1636,11 +1636,6 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-03> ;
     foaf:name "Jair Hokstam" .
 
-<http://data.semanticweb.org/person/james-a-hendler> a foaf:Person ;
-    rdfs:label "James A. Hendler" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings> ;
-    foaf:name "James A. Hendler" .
-
 <http://data.semanticweb.org/person/james-mayfield> a foaf:Person ;
     rdfs:label "James Mayfield" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-50> ;
@@ -1676,10 +1671,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-20> ;
     foaf:name "Jennifer Golbeck" .
 
-<http://data.semanticweb.org/person/jeremy-j-carroll> a foaf:Person ;
-    rdfs:label "Jeremy J. Carroll" ;
+<http://data.semanticweb.org/person/jeremy-carroll> a foaf:Person ;
+    rdfs:label "Jeremy Carroll" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-20> ;
-    foaf:name "Jeremy J. Carroll" .
+    foaf:name "Jeremy Carroll" .
 
 <http://data.semanticweb.org/person/jerome-simeon> a foaf:Person ;
     rdfs:label "Jérôme Siméon" ;
@@ -1695,11 +1690,6 @@
     rdfs:label "Jesus Contreras" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-13> ;
     foaf:name "Jesus Contreras" .
-
-<http://data.semanticweb.org/person/jim-hendler> a foaf:Person ;
-    rdfs:label "Jim Hendler" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-20> ;
-    foaf:name "Jim Hendler" .
 
 <http://data.semanticweb.org/person/jiri-klemperer> a foaf:Person ;
     rdfs:label "Jiri Klemperer" ;
@@ -1776,11 +1766,6 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-05> ;
     foaf:name "L. Ardissono" .
 
-<http://data.semanticweb.org/person/l-miller> a foaf:Person ;
-    rdfs:label "L. Miller" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-32> ;
-    foaf:name "L. Miller" .
-
 <http://data.semanticweb.org/person/leon-sterling> a foaf:Person ;
     rdfs:label "Leon Sterling" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-04> ;
@@ -1790,11 +1775,6 @@
     rdfs:label "Les Carr" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-08> ;
     foaf:name "Les Carr" .
-
-<http://data.semanticweb.org/person/libby-miller> a foaf:Person ;
-    rdfs:label "Libby Miller" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-36> ;
-    foaf:name "Libby Miller" .
 
 <http://data.semanticweb.org/person/linh-van> a foaf:Person ;
     rdfs:label "Linh Van" ;
@@ -1896,15 +1876,15 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-01> ;
     foaf:name "Maurizio Vincini" .
 
-<http://data.semanticweb.org/person/michael-d-wilson> a foaf:Person ;
-    rdfs:label "Michael D. Wilson" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-32> ;
-    foaf:name "Michael D. Wilson" .
-
 <http://data.semanticweb.org/person/michael-erdmann> a foaf:Person ;
     rdfs:label "Michael Erdmann" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-23> ;
     foaf:name "Michael Erdmann" .
+
+<http://data.semanticweb.org/person/michael-wilson> a foaf:Person ;
+    rdfs:label "Michael Wilson" ;
+    foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-32> ;
+    foaf:name "Michael Wilson" .
 
 <http://data.semanticweb.org/person/michel-klein> a foaf:Person ;
     rdfs:label "Michel Klein" ;
@@ -1916,10 +1896,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-24> ;
     foaf:name "Michel Scholl" .
 
-<http://data.semanticweb.org/person/mieczyslaw-m-kokar> a foaf:Person ;
-    rdfs:label "Mieczyslaw M. Kokar" ;
+<http://data.semanticweb.org/person/mieczyslaw-kokar> a foaf:Person ;
+    rdfs:label "Mieczyslaw Kokar" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-13> ;
-    foaf:name "Mieczyslaw M. Kokar" .
+    foaf:name "Mieczyslaw Kokar" .
 
 <http://data.semanticweb.org/person/mike-grove> a foaf:Person ;
     rdfs:label "Mike Grove" ;
@@ -2041,10 +2021,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-08> ;
     foaf:name "Rahul Singh" .
 
-<http://data.semanticweb.org/person/raphael-troncy> a foaf:Person ;
-    rdfs:label "Raphael Troncy" ;
+<http://data.semanticweb.org/person/raphaeel-troncy> a foaf:Person ;
+    rdfs:label "Raphaël Troncy" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-27> ;
-    foaf:name "Raphael Troncy" .
+    foaf:name "Raphaël Troncy" .
 
 <http://data.semanticweb.org/person/raphael-volz> a foaf:Person ;
     rdfs:label "Raphael Volz" ;
@@ -2281,11 +2261,6 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-26> ;
     foaf:name "Vilho Raatikka" .
 
-<http://data.semanticweb.org/person/w-nejdl> a foaf:Person ;
-    rdfs:label "W. Nejdl" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-32> ;
-    foaf:name "W. Nejdl" .
-
 <http://data.semanticweb.org/person/wilson-lau> a foaf:Person ;
     rdfs:label "Wilson Lau" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-45> ;
@@ -2471,7 +2446,7 @@
     dc:title "X-pmi : An eXtensible Personal Mobility Interface (Semantic Web of Mobility Devices)" ;
     dcterms:title "X-pmi : An eXtensible Personal Mobility Interface (Semantic Web of Mobility Devices)" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-23/author_list> ;
-    swrc:author <http://data.semanticweb.org/person/carole-goble>,
+    swrc:author <http://data.semanticweb.org/person/carole-a-goble>,
         <http://data.semanticweb.org/person/simon-harper>,
         <http://data.semanticweb.org/person/stephen-pettitt> ;
     swrc:category "Poster Paper" ;
@@ -2479,7 +2454,7 @@
     swrc:listAuthor "Simon Harper,Stephen Pettitt and Carole Goble" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/harper.pdf> ;
     swrc:year "2002" ;
-    foaf:maker <http://data.semanticweb.org/person/carole-goble>,
+    foaf:maker <http://data.semanticweb.org/person/carole-a-goble>,
         <http://data.semanticweb.org/person/simon-harper>,
         <http://data.semanticweb.org/person/stephen-pettitt> .
 
@@ -2507,7 +2482,7 @@
     dc:title "Towards A Commercial Ontology Development Environment" ;
     dcterms:title "Towards A Commercial Ontology Development Environment" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-28/author_list> ;
-    swrc:author <http://data.semanticweb.org/person/deborah-l-mcguinness>,
+    swrc:author <http://data.semanticweb.org/person/deborah-mcguinness>,
         <http://data.semanticweb.org/person/elisa-f-kendall>,
         <http://data.semanticweb.org/person/mark-e-dutra> ;
     swrc:category "Poster Paper" ;
@@ -2515,7 +2490,7 @@
     swrc:listAuthor "Elisa F. Kendall,Mark E. Dutra and Deborah L. McGuinness" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/mcguiness_a4.pdf> ;
     swrc:year "2002" ;
-    foaf:maker <http://data.semanticweb.org/person/deborah-l-mcguinness>,
+    foaf:maker <http://data.semanticweb.org/person/deborah-mcguinness>,
         <http://data.semanticweb.org/person/elisa-f-kendall>,
         <http://data.semanticweb.org/person/mark-e-dutra> .
 
@@ -2527,7 +2502,7 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-32/author_list> ;
     swrc:author <http://data.semanticweb.org/person/j-brase>,
         <http://data.semanticweb.org/person/t-kunze>,
-        <http://data.semanticweb.org/person/w-nejdl> ;
+        <http://data.semanticweb.org/person/wolfgang-nejdl> ;
     swrc:category "Poster Paper" ;
     swrc:link_open_access <http://iswc2002.semanticweb.org/posters/brase2.pdf> ;
     swrc:listAuthor "T. Kunze,J. Brase and W. Nejdl" ;
@@ -2535,7 +2510,7 @@
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/j-brase>,
         <http://data.semanticweb.org/person/t-kunze>,
-        <http://data.semanticweb.org/person/w-nejdl> .
+        <http://data.semanticweb.org/person/wolfgang-nejdl> .
 
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-33> a swrc:InProceedings ;
     rdfs:label "ScadaOnWeb: Modelling and Web-Exchange of Process and Engineering Information" ;
@@ -2688,18 +2663,18 @@
     dc:title "Browsing Schedules - An Agent-Based Approach to Navigating the Semantic Web" ;
     dcterms:title "Browsing Schedules - An Agent-Based Approach to Navigating the Semantic Web" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-08/author_list> ;
-    swrc:author <http://data.semanticweb.org/person/katia-p-sycara>,
+    swrc:author <http://data.semanticweb.org/person/katia-sycara>,
         <http://data.semanticweb.org/person/rahul-singh>,
-        <http://data.semanticweb.org/person/terry-r-payne> ;
+        <http://data.semanticweb.org/person/terry-payne> ;
     swrc:category "System Descriptions" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_42> ;
     swrc:listAuthor "Terry R. Payne,Rahul Singh and Katia P. Sycara" ;
     swrc:pages "469-474" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_42> ;
     swrc:year "2002" ;
-    foaf:maker <http://data.semanticweb.org/person/katia-p-sycara>,
+    foaf:maker <http://data.semanticweb.org/person/katia-sycara>,
         <http://data.semanticweb.org/person/rahul-singh>,
-        <http://data.semanticweb.org/person/terry-r-payne> .
+        <http://data.semanticweb.org/person/terry-payne> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-12> a swrc:InProceedings ;
     rdfs:label "Concurrent Execution Semantics of DAML-S with Subtypes" ;
@@ -2709,7 +2684,7 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-12/author_list> ;
     swrc:author <http://data.semanticweb.org/person/anupriya-ankolekar>,
         <http://data.semanticweb.org/person/frank-huch>,
-        <http://data.semanticweb.org/person/katia-p-sycara> ;
+        <http://data.semanticweb.org/person/katia-sycara> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_25> ;
     swrc:listAuthor "Anupriya Ankolekar,Frank Huch and Katia P. Sycara" ;
@@ -2718,7 +2693,7 @@
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/anupriya-ankolekar>,
         <http://data.semanticweb.org/person/frank-huch>,
-        <http://data.semanticweb.org/person/katia-p-sycara> .
+        <http://data.semanticweb.org/person/katia-sycara> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-30> a swrc:InProceedings ;
     rdfs:label "Semantic Web Enabled Web Services" ;
@@ -2861,7 +2836,7 @@
     dc:title "COHSE: Semantic Web Gives a Better Deal for the Whole Web?" ;
     dcterms:title "COHSE: Semantic Web Gives a Better Deal for the Whole Web?" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-08/author_list> ;
-    swrc:author <http://data.semanticweb.org/person/carole-goble>,
+    swrc:author <http://data.semanticweb.org/person/carole-a-goble>,
         <http://data.semanticweb.org/person/les-carr>,
         <http://data.semanticweb.org/person/sean-bechhofer>,
         <http://data.semanticweb.org/person/simon-kampa> ;
@@ -2870,7 +2845,7 @@
     swrc:listAuthor "Sean Bechhofer,Carole Goble,Les Carr and Simon Kampa" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/bechhofer.pdf> ;
     swrc:year "2002" ;
-    foaf:maker <http://data.semanticweb.org/person/carole-goble>,
+    foaf:maker <http://data.semanticweb.org/person/carole-a-goble>,
         <http://data.semanticweb.org/person/les-carr>,
         <http://data.semanticweb.org/person/sean-bechhofer>,
         <http://data.semanticweb.org/person/simon-kampa> .
@@ -2921,7 +2896,7 @@
     dc:title "Cultural Semantic Interoperability on the Web: Case Finnish Museums Online" ;
     dcterms:title "Cultural Semantic Interoperability on the Web: Case Finnish Museums Online" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-26/author_list> ;
-    swrc:author <http://data.semanticweb.org/person/eero-hyvonen>,
+    swrc:author <http://data.semanticweb.org/person/eero-hyvoenen>,
         <http://data.semanticweb.org/person/kim-viljanen>,
         <http://data.semanticweb.org/person/suvi-kettula>,
         <http://data.semanticweb.org/person/vilho-raatikka> ;
@@ -2930,7 +2905,7 @@
     swrc:listAuthor "Eero Hyvonen,Suvi Kettula,Vilho Raatikka and Kim Viljanen" ;
     swrc:url <http://iswc2002.semanticweb.org/posters/hyvonen_a4.pdf> ;
     swrc:year "2002" ;
-    foaf:maker <http://data.semanticweb.org/person/eero-hyvonen>,
+    foaf:maker <http://data.semanticweb.org/person/eero-hyvoenen>,
         <http://data.semanticweb.org/person/kim-viljanen>,
         <http://data.semanticweb.org/person/suvi-kettula>,
         <http://data.semanticweb.org/person/vilho-raatikka> .
@@ -3084,7 +3059,7 @@
     dcterms:title "Consistency Checking of Semantic Web Ontologies" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-13/author_list> ;
     swrc:author <http://data.semanticweb.org/person/kenneth-baclawski>,
-        <http://data.semanticweb.org/person/mieczyslaw-m-kokar>,
+        <http://data.semanticweb.org/person/mieczyslaw-kokar>,
         <http://data.semanticweb.org/person/paul-a-kogut>,
         <http://data.semanticweb.org/person/richard-j-waldinger> ;
     swrc:category "System Descriptions" ;
@@ -3094,7 +3069,7 @@
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_40> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/kenneth-baclawski>,
-        <http://data.semanticweb.org/person/mieczyslaw-m-kokar>,
+        <http://data.semanticweb.org/person/mieczyslaw-kokar>,
         <http://data.semanticweb.org/person/paul-a-kogut>,
         <http://data.semanticweb.org/person/richard-j-waldinger> .
 
@@ -3146,20 +3121,20 @@
     dc:title "Semantic Matching of Web Services Capabilities" ;
     dcterms:title "Semantic Matching of Web Services Capabilities" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-29/author_list> ;
-    swrc:author <http://data.semanticweb.org/person/katia-p-sycara>,
+    swrc:author <http://data.semanticweb.org/person/katia-sycara>,
         <http://data.semanticweb.org/person/massimo-paolucci>,
         <http://data.semanticweb.org/person/takahiro-kawamura>,
-        <http://data.semanticweb.org/person/terry-r-payne> ;
+        <http://data.semanticweb.org/person/terry-payne> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_26> ;
     swrc:listAuthor "Massimo Paolucci,Takahiro Kawamura,Terry R. Payne and Katia P. Sycara" ;
     swrc:pages "333-347" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_26> ;
     swrc:year "2002" ;
-    foaf:maker <http://data.semanticweb.org/person/katia-p-sycara>,
+    foaf:maker <http://data.semanticweb.org/person/katia-sycara>,
         <http://data.semanticweb.org/person/massimo-paolucci>,
         <http://data.semanticweb.org/person/takahiro-kawamura>,
-        <http://data.semanticweb.org/person/terry-r-payne> .
+        <http://data.semanticweb.org/person/terry-payne> .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-37> a swrc:InProceedings ;
     rdfs:label "Towards a Modification Exchange Language for Distributed RDF Repositories" ;
@@ -3211,7 +3186,7 @@
     dcterms:title "An Evolutionary Approach to the Semantic Web" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-16/author_list> ;
     swrc:author <http://data.semanticweb.org/person/alon-halevy>,
-        <http://data.semanticweb.org/person/henry-levy>,
+        <http://data.semanticweb.org/person/henry-m-levy>,
         <http://data.semanticweb.org/person/luke-mcdowell>,
         <http://data.semanticweb.org/person/oren-etzioni>,
         <http://data.semanticweb.org/person/steve-gribble> ;
@@ -3221,7 +3196,7 @@
     swrc:url <http://iswc2002.semanticweb.org/posters/etzioni_a4.pdf> ;
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/alon-halevy>,
-        <http://data.semanticweb.org/person/henry-levy>,
+        <http://data.semanticweb.org/person/henry-m-levy>,
         <http://data.semanticweb.org/person/luke-mcdowell>,
         <http://data.semanticweb.org/person/oren-etzioni>,
         <http://data.semanticweb.org/person/steve-gribble> .
@@ -3339,17 +3314,17 @@
         <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-37> ;
     foaf:name "Bernd Simon" .
 
-<http://data.semanticweb.org/person/carole-goble> a foaf:Person ;
-    rdfs:label "Carole Goble" ;
+<http://data.semanticweb.org/person/carole-a-goble> a foaf:Person ;
+    rdfs:label "Carole A. Goble" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-08>,
         <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-23> ;
-    foaf:name "Carole Goble" .
+    foaf:name "Carole A. Goble" .
 
-<http://data.semanticweb.org/person/drew-v-mcdermott> a foaf:Person ;
-    rdfs:label "Drew V. McDermott" ;
+<http://data.semanticweb.org/person/drew-mcdermott> a foaf:Person ;
+    rdfs:label "Drew McDermott" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-14>,
         <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-27> ;
-    foaf:name "Drew V. McDermott" .
+    foaf:name "Drew McDermott" .
 
 <http://data.semanticweb.org/person/fabio-ciravegna> a foaf:Person ;
     rdfs:label "Fabio Ciravegna" ;
@@ -3362,6 +3337,12 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-53>,
         <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-31> ;
     foaf:name "Frank van Harmelen" .
+
+<http://data.semanticweb.org/person/james-hendler> a foaf:Person ;
+    rdfs:label "James Hendler" ;
+    foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-20>,
+        <http://data.semanticweb.org/conference/iswc/2002/proceedings> ;
+    foaf:name "James Hendler" .
 
 <http://data.semanticweb.org/person/joachim-peer> a foaf:Person ;
     rdfs:label "Joachim Peer" ;
@@ -3386,6 +3367,12 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-30>,
         <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-51> ;
     foaf:name "Kiril Simov" .
+
+<http://data.semanticweb.org/person/libby-miller> a foaf:Person ;
+    rdfs:label "Libby Miller" ;
+    foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-32>,
+        <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-36> ;
+    foaf:name "Libby Miller" .
 
 <http://data.semanticweb.org/person/massimo-paolucci> a foaf:Person ;
     rdfs:label "Massimo Paolucci" ;
@@ -3572,8 +3559,8 @@
     swrc:author <http://data.semanticweb.org/person/b-m-matthews>,
         <http://data.semanticweb.org/person/d-reynolds>,
         <http://data.semanticweb.org/person/dan-brickley>,
-        <http://data.semanticweb.org/person/l-miller>,
-        <http://data.semanticweb.org/person/michael-d-wilson>,
+        <http://data.semanticweb.org/person/libby-miller>,
+        <http://data.semanticweb.org/person/michael-wilson>,
         <http://data.semanticweb.org/person/s-buswell> ;
     swrc:category "Position Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_33> ;
@@ -3584,8 +3571,8 @@
     foaf:maker <http://data.semanticweb.org/person/b-m-matthews>,
         <http://data.semanticweb.org/person/d-reynolds>,
         <http://data.semanticweb.org/person/dan-brickley>,
-        <http://data.semanticweb.org/person/l-miller>,
-        <http://data.semanticweb.org/person/michael-d-wilson>,
+        <http://data.semanticweb.org/person/libby-miller>,
+        <http://data.semanticweb.org/person/michael-wilson>,
         <http://data.semanticweb.org/person/s-buswell> .
 
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-20> a swrc:InProceedings ;
@@ -3596,8 +3583,8 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-20/author_list> ;
     swrc:author <http://data.semanticweb.org/person/aditya-kalyanpur>,
         <http://data.semanticweb.org/person/amy-loomis>,
+        <http://data.semanticweb.org/person/james-hendler>,
         <http://data.semanticweb.org/person/jennifer-golbeck>,
-        <http://data.semanticweb.org/person/jim-hendler>,
         <http://data.semanticweb.org/person/mike-grove>,
         <http://data.semanticweb.org/person/ron-alford>,
         <http://data.semanticweb.org/person/ron-reck>,
@@ -3609,8 +3596,8 @@
     swrc:year "2002" ;
     foaf:maker <http://data.semanticweb.org/person/aditya-kalyanpur>,
         <http://data.semanticweb.org/person/amy-loomis>,
+        <http://data.semanticweb.org/person/james-hendler>,
         <http://data.semanticweb.org/person/jennifer-golbeck>,
-        <http://data.semanticweb.org/person/jim-hendler>,
         <http://data.semanticweb.org/person/mike-grove>,
         <http://data.semanticweb.org/person/ron-alford>,
         <http://data.semanticweb.org/person/ron-reck>,
@@ -3623,19 +3610,12 @@
         <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-26> ;
     foaf:name "Ian Horrocks" .
 
-<http://data.semanticweb.org/person/terry-r-payne> a foaf:Person ;
-    rdfs:label "Terry R. Payne" ;
+<http://data.semanticweb.org/person/terry-payne> a foaf:Person ;
+    rdfs:label "Terry Payne" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-08>,
         <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-14>,
         <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-29> ;
-    foaf:name "Terry R. Payne" .
-
-<http://data.semanticweb.org/person/wolfgang-nejdl> a foaf:Person ;
-    rdfs:label "Wolfgang Nejdl" ;
-    foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-29>,
-        <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-48>,
-        <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-37> ;
-    foaf:name "Wolfgang Nejdl" .
+    foaf:name "Terry Payne" .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-14> a swrc:InProceedings ;
     rdfs:label "DAML-S: Web Service Description for the Semantic Web" ;
@@ -3643,32 +3623,32 @@
     dc:title "DAML-S: Web Service Description for the Semantic Web" ;
     dcterms:title "DAML-S: Web Service Description for the Semantic Web" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-14/author_list> ;
-    swrc:author <http://data.semanticweb.org/person/david-l-martin>,
-        <http://data.semanticweb.org/person/drew-v-mcdermott>,
+    swrc:author <http://data.semanticweb.org/person/david-martin>,
+        <http://data.semanticweb.org/person/drew-mcdermott>,
         <http://data.semanticweb.org/person/jerry-r-hobbs>,
-        <http://data.semanticweb.org/person/katia-p-sycara>,
+        <http://data.semanticweb.org/person/katia-sycara>,
         <http://data.semanticweb.org/person/mark-h-burstein>,
         <http://data.semanticweb.org/person/massimo-paolucci>,
         <http://data.semanticweb.org/person/ora-lassila>,
         <http://data.semanticweb.org/person/sheila-a-mcilraith>,
         <http://data.semanticweb.org/person/srini-narayanan>,
-        <http://data.semanticweb.org/person/terry-r-payne> ;
+        <http://data.semanticweb.org/person/terry-payne> ;
     swrc:category "Research Track Paper" ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6_27> ;
     swrc:listAuthor "Mark H. Burstein,Jerry R. Hobbs,Ora Lassila,David L. Martin,Drew V. McDermott,Sheila A. McIlraith,Srini Narayanan,Massimo Paolucci,Terry R. Payne and Katia P. Sycara" ;
     swrc:pages "348-363" ;
     swrc:url <http://dx.doi.org/10.1007/3-540-48005-6_27> ;
     swrc:year "2002" ;
-    foaf:maker <http://data.semanticweb.org/person/david-l-martin>,
-        <http://data.semanticweb.org/person/drew-v-mcdermott>,
+    foaf:maker <http://data.semanticweb.org/person/david-martin>,
+        <http://data.semanticweb.org/person/drew-mcdermott>,
         <http://data.semanticweb.org/person/jerry-r-hobbs>,
-        <http://data.semanticweb.org/person/katia-p-sycara>,
+        <http://data.semanticweb.org/person/katia-sycara>,
         <http://data.semanticweb.org/person/mark-h-burstein>,
         <http://data.semanticweb.org/person/massimo-paolucci>,
         <http://data.semanticweb.org/person/ora-lassila>,
         <http://data.semanticweb.org/person/sheila-a-mcilraith>,
         <http://data.semanticweb.org/person/srini-narayanan>,
-        <http://data.semanticweb.org/person/terry-r-payne> .
+        <http://data.semanticweb.org/person/terry-payne> .
 
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-29> a swrc:InProceedings ;
     rdfs:label "ELENA - Creating a Smart Space for Learning" ;
@@ -3712,13 +3692,21 @@
         <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-30> ;
     foaf:name "Dieter Fensel" .
 
-<http://data.semanticweb.org/person/katia-p-sycara> a foaf:Person ;
-    rdfs:label "Katia P. Sycara" ;
+<http://data.semanticweb.org/person/katia-sycara> a foaf:Person ;
+    rdfs:label "Katia Sycara" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-08>,
         <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-12>,
         <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-14>,
         <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-29> ;
-    foaf:name "Katia P. Sycara" .
+    foaf:name "Katia Sycara" .
+
+<http://data.semanticweb.org/person/wolfgang-nejdl> a foaf:Person ;
+    rdfs:label "Wolfgang Nejdl" ;
+    foaf:made <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-29>,
+        <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-32>,
+        <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-48>,
+        <http://data.semanticweb.org/conference/iswc/2002/proceedings/paper-37> ;
+    foaf:name "Wolfgang Nejdl" .
 
 <http://data.semanticweb.org/conference/iswc/2002/proceedings> a swrc:Proceedings ;
     rdfs:label "The Semantic Web - ISWC 2002" ;
@@ -3769,7 +3757,7 @@
     dc:title "The Semantic Web - ISWC 2002" ;
     dcterms:title "The Semantic Web - ISWC 2002" ;
     swrc:editor <http://data.semanticweb.org/person/ian-horrocks>,
-        <http://data.semanticweb.org/person/james-a-hendler> ;
+        <http://data.semanticweb.org/person/james-hendler> ;
     swrc:link_publisher <http://dx.doi.org/10.1007/3-540-48005-6> ;
     swrc:listEditor "Ian Horrocks, James A. Hendler" ;
     swrc:publisher "Springer" ;
@@ -3780,7 +3768,7 @@
     swrc:year "2002" ;
     foaf:depiction <http://link.springer.com/static-content/covers/books/42/9783540480051.jpg> ;
     foaf:maker <http://data.semanticweb.org/person/ian-horrocks>,
-        <http://data.semanticweb.org/person/james-a-hendler> .
+        <http://data.semanticweb.org/person/james-hendler> .
 
 <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings> a swrc:Proceedings ;
     rdfs:label "Proceedings of ISWC 2002 Poster Track" ;

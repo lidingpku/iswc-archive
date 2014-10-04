@@ -1,0 +1,3479 @@
+﻿<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML+RDFa 1.0//EN' 
+	'http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd'>
+<html 
+	about='' 
+	property='dcterms:language' 
+	content='en' 
+	xmlns='http://www.w3.org/1999/xhtml' 
+	xmlns:dcterms='http://purl.org/dc/terms/' 
+	xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' 
+	xmlns:foaf='http://xmlns.com/foaf/0.1/' 
+	xmlns:swrc='http://swrc.ontoware.org/ontology#' 
+	xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	version='XHTML+RDFa 1.0' typeof='foaf:Document'>
+<head>
+    <title></title>
+<style>
+
+table {
+    *border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    width: 100%;
+
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+}
+
+tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+td, th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+td:first-child, th:first-child {
+    border-left: none;
+}
+
+th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+</style>
+<script type="text/javascript" >
+/*
+ * Dynamic Table of Contents script
+ * by Matt Whitlock <http://www.whitsoftdev.com/>
+ */
+
+function createLink(href, innerHTML) {
+	var a = document.createElement("a");
+	a.setAttribute("href", href);
+	a.innerHTML = innerHTML;
+	return a;
+}
+
+function generateTOC(toc) {
+	var i2 = 0, i3 = 0, i4 = 0;
+	toc = toc.appendChild(document.createElement("ul"));
+	for (var i = 0; i < document.body.childNodes.length; ++i) {
+		var node = document.body.childNodes[i];
+		var tagName = node.nodeName.toLowerCase();
+		if (tagName == "h4") {
+			++i4;
+			if (i4 == 1) toc.lastChild.lastChild.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3 + "." + i4;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h3") {
+			++i3, i4 = 0;
+			if (i3 == 1) toc.lastChild.appendChild(document.createElement("ul"));
+			var section = i2 + "." + i3;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.lastChild.lastChild.appendChild(document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+		else if (tagName == "h2") {
+			++i2, i3 = 0, i4 = 0;
+			var section = i2;
+			node.insertBefore(document.createTextNode(section + ". "), node.firstChild);
+			node.id = "section" + section;
+			toc.appendChild(h2item = document.createElement("li")).appendChild(createLink("#section" + section, node.innerHTML));
+		}
+	}
+}
+</script>
+<style type="text/css">
+.on {
+  background: green;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.off {
+  background: red;
+  cursor: pointer;
+  border: 2px solid black;
+  border-right-width: 2px;
+  border-left-width: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+</style>
+<script type="text/javascript">
+<!--
+	function togglestyle(el){
+	    if(el.className == "on") {
+	    	el.className="off";
+	    } else {
+	    	el.className="on";
+	    }
+	}
+	function toggle_visibility(cl){
+	   var els = document.getElementsByClassName(cl);
+	   for(var i=0; i<els.length; ++i){
+	      var s = els[i].style;
+	      s.display = s.display==='none' ? 'block' : 'none';
+	   };
+	}
+//-->
+</script>
+<body onload="generateTOC(document.getElementById('toc'));">
+<input type="button" class="off" onclick="togglestyle(this); toggle_visibility('details');">show/hide details</input>
+<div id="toc"></div>
+
+Program
+
+<h2>The 13th International Semantic Web Conference</h2>
+
+<h3>2014-10-18 (Saturday)</h3>
+
+<table border="1">
+<tr>
+<th>time</th>
+<th>event</th>
+<th>room</th>
+</tr>
+
+<tr>
+<td>16:00 - 18:00</td>
+<td><span><b style="font-size:110%">
+
+
+Registration
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Foyer</td>
+
+</tr>
+</table>
+<h3>2014-10-19 (Sunday)</h3>
+
+<table border="1">
+<tr>
+<th>time</th>
+<th>event</th>
+<th>room</th>
+</tr>
+
+<tr>
+<td>08:00 - 17:00</td>
+<td><span><b style="font-size:110%">
+
+
+Registration
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Foyer</td>
+
+</tr>
+<tr>
+<td>09:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://c4i.gmu.edu/ursw/2014/home/index.html">10th International Workshop on Uncertainty Reasoning for the Semantic Web</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Michael Pool,Davide Ceolin,Fernando Bobillo,Claudia D'Amato,Matthias Nickles,Trevor Martin,Kathryn B. Laskey,Paulo C. G. Costa,Thomas Lukasiewicz,Rommel Carvalho,Nicola Fanizzi</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The Uncertainty Reasoning Workshop is an exciting opportunity for collaboration and cross-fertilization between the uncertainty reasoning community and the Semantic Web community. Effective methods for reasoning under uncertainty are vital for realizing many aspects of the Semantic Web vision, but the ability of current-generation web technology to handle uncertainty remains extremely limited. Thus, there is a continuing demand for uncertainty reasoning technology among Semantic Web researchers and developers, and the URSW workshop creates a unique opening to bring together two communities with a clear commonality of interest but limited history of interaction. By capitalizing on this opportunity, URSW could spark dramatic progress toward realizing the Semantic Web vision.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala Presidenza</td>
+
+</tr>
+<tr>
+<td>09:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://trustingwebdata.org/method2014">3rd International Workshop on Methods for Establishing Trust of (Open) Data</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Tom De Nies,Stephen Marsh,Paul Groth,Olaf Hartig,Davide Ceolin</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The METHOD workshop aims to bring together researchers working on the problem of trust and quality assessment of (open) data, and all components that contribute to this goal. Trust assessment of content on the Web is a highly complex concept that depends on objective as well as subjective criteria, including the content's provenance, but also the consumer's background, personality, and context. However, the exact criteria and tolerances will differ for each domain, requiring detailed knowledge about the data and its users. This also makes it very challenging to find generic solutions that are applicable everywhere. Therefore, stakeholders in this field are continuously investigating new techniques to handle and prepare data in such a way that it becomes easier for machines to process it with the goal of trust and/or quality assessment. The METHOD workshop will be a venue for presenting and discussing novel research ideas in this field, as well as technical applications. There are many places where activists and political stakeholders discuss the topics of Trust and Open Data, but we found that our research community lacks a platform for researchers and engineers to exchange views using a more technical perspective. The METHOD workshops provide a forum for researchers from both the Semantic Web and the Trust Management community to discuss approaches, theories, and concrete technical means required to establish trust in information on the Web.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala Presidenza</td>
+
+</tr>
+<tr>
+<td>09:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://linkedscience.org/events/lisc2014/">4th Workshop on Linked Science 2014— Making Sense Out of Data</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Willem Robert van Hage,Tomi Kauppinen,Marieke van Erp,Jun Zhao,Jacco van Ossenbruggen,Carsten Keßler</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> Traditionally scientific dissemination has been relying heavily on publications and presentations. The findings reported in these articles are often backed by large amounts of diverse data produced by complex experiments, computer simulations, and observations of physical phenomena. Although publications, methods and datasets are often related, due to this avalanche of data it remains extremely hard to correlate, reuse and leverage scientific data. Semantic Web technologies provide a promising means for publishing, sharing, and interlinking data to facilitate data reuse and the necessary correlation, integration, and synthesis of data across levels of theory, techniques and disciplines. However, even when these data become discoverable and accessible, significant challenges remain in making intelligent understandings of these data and scientific discoveries that we anticipated. Our past three series (LISC2011, LISC2012 and LISC2013) have seen many novel ideas of using Semantic Web technologies for integrating scientific data (for example about real experiments or from simulations), or enabling reproducibility of research via online tools and Linked Data. The theme for LISC2014 is “Making Sense out of Data Through Linked Science”. Here we focus on new ways of discovering interesting patterns from scientific data, which could lead to research validation or identification of new hypotheses and acceleration of the scientific research cycle. We encourage both new results through making use of semantic reasoning or making innovative combination of existing technologies (such as visualization, data mining, machine learning, and natural language processing) with SW technologies to enable better understanding of data. One goal is to create both an incentive for scientists to consider the Linked Science approach for their scientific data management and an incentive for technologists from different disciplines to work together towards the vision of powering science with technologies.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala Meeting</td>
+
+</tr>
+<tr>
+<td>09:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://ontologydesignpatterns.org/wiki/WOP:2014">5th Workshop on Ontology and Semantic Web Patterns </a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Victor de Boer,Krzysztof Janowicz,Aldo Gangemi,Agnieszka Lawrynowicz</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> This is the fifth edition in a series of workshops addressing the topic of ontology and semantic web patterns as best practices, related to the ontologydesignpatterns.org initiative. This edition of WOP will be the very first in Europe, in which traditionally the design pattern community for semantic web and linked data has been very strong. As interest in the Semantic Web increases and technologies for realizing the Semantic Web become more mature, the need for high-quality and reusable Semantic Web ontologies increases as well. To address the quality and reusability issues, different types of Ontology Design Patterns (ODPs) have emerged, and methods for devising or discovering new ones from heterogeneous knowledge sources are needed.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>09:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://blog.soton.ac.uk/s4sc/">5th Workshop on Semantics for Smarter Cities</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Tope Omitola,Payam Barnaghi,John Davies,John Breslin,Jan Holler,Biplav Srivastava</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> This workshop will explore the interfaces between the Web, the Web of Data, and the City Smart environment. It will further explore how the Web, and the intelligences built on top of, and around the Web, can make the notion of the Smart Connected City possible and realizable. The workshop aims to gather researchers, city departments, service providers, application developers, entrepreneurs, and citizens to present and debate Semantic Web technologies, Linked Data and data analytics and evaluations for smart city applications as well as impact of user engagements and social networks. The workshop will also focus on related standardization activities in W3C, IEEE and ETSI.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala 300B</td>
+
+</tr>
+<tr>
+<td>09:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://iswc2014.semdev.org/">Developers Workshop</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Ruben Verborgh,Erik Mannens</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> Like any technology, the Semantic Web crucially depends on its developers. We know that many of you have created SemWeb software, but only few have gotten the opportunity to talk about what is so special about the code they wrote. ISWC2014 finally changes this :-) We unite SemWeb developers on October 19th, 2014 to discuss about topics we passionately care about: How to develop applications on top of Linked Data? How can browser applications influence the Semantic Web? How to create libraries for technologies such as RDF (JSON-LD / Turtle / …), SPARQL, PROV? What about mobile and native applications? How to do semantic development for a specific domain? In other words, this workshop is about how you made things work. It is about implementations, methods, techniques, about how you solved practical problems for Linked Data.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000B</td>
+
+</tr>
+<tr>
+<td>09:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+
+<a href="http://homepages.abdn.ac.uk/jeff.z.pan/pages/research-ttl-iswc2014.shtml">Large Scale Reasoning Over Semantic Data</a>
+</b>
+(Tutorial Track)
+</span>
+
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The tutorial aims to provide an overview of the approaches used for large scale reasoning over semantic data, the systems developed as well as the lessons learned while developing them. We will discuss some applications which require scalable reasoning solutions. Questions such as what makes distributed/parallel reasoning hard would also be covered during the tutorial. Directions for future research work would be discussed.</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Raghava Mutharaju,Jeff Z. Pan,Ilias Tachmazidis,Guilin Qi</span>
+</div>
+
+
+</div>
+
+</td>
+
+<td>Sala Belvedere</td>
+
+</tr>
+<tr>
+<td>09:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+
+<a href="http://streamreasoning.org/events/sr4ld2014">Stream Reasoning for Linked Data</a>
+</b>
+(Tutorial Track)
+</span>
+
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The goal of the Stream Reasoning for Linked Data tutorial is twofold: to (1) introduce scalable reasoning and querying techniques to SW researchers as powerful tool to make use of linked data and large-scale ontologies, and to (2) present interesting research problems for SW that arise in reasoning with highly dynamic data streams [DCvF09,RPZ10a]. The tutorial consists of five parts. It will begin with an introduction of linked data streams, as well as reasoning using the Semantic Web standard ontology language OWL 2. The second part will introduce semantic processing of data streams explained using C-SPARQL, a continuous extension of SPARQL for querying RDF streams and RDF graphs. The third part will provide an overview of ontology-based access to data streams through query rewriting to Stream Processing Engines and using stream-to-ontology mappings. The fourth part of the tutorial is a hands-on session on tools and systems related to the previous parts. The fith part of the tutorial will present other stream reasoning techniques for RDFS and OWL2-RL. The last part will wrap up the tutorial and present an overview of the open challenges.</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Oscar Corcho,Marco Balduini,Jean-Paul Calbimonte,Emanuele Della Valle,Daniele Dell'Aglio</span>
+</div>
+
+
+</div>
+
+</td>
+
+<td>Sala 100A</td>
+
+</tr>
+<tr>
+<td>09:00 - 12:40</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://www.nliwod.org/home">Natural Language Interfaces for Web of Data</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Jin-Dong Kim,Axel-Cyrille Ngonga Ngomo</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> While the amount of Linked Open Data (LOD) increases rapidly, it is still used mostly by Semantic Web experts. There are two main obstacles to making the billions of RDF triples already available accessible for common Web users: (1) the need to learn the query language SPARQL, and (2) the need to know the schemas underlying the datasets. Approaches to ease the access to the Web of Data include graphical query interfaces, agent-based systems, and natural language interfaces. Amongst them, natural language interfaces are receiving an increasing interest due to its high expressive power and low cost for educational purposes. Recent progresses in speech recognition technologies (e.g., Siri and Google Voice) also demonstrate the usefulness of a natural language interface. The goal of this workshop is to bring together experts on the use of natural-language interfaces (NLI) for accessing the Web of Data.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala Stampa A</td>
+
+</tr>
+<tr>
+<td>09:00 - 12:40</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://semstats2014.wordpress.com/">Second International Workshop on Semantic Statistics</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sarven Capadisli,Raphael Troncy,Monica Scannapieco,Franck Cotton,Armin Haller,Alistair Hamilton</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The SemStats Challenge is back with more action! It is organized in the context of the SemStats 2014 workshop. Participants are invited to apply statistical techniques and semantic web technologies within one of two possible tracks, namely the Census Data Track and Open Track. Following up on the success of last year’s Challenge, this year, the Census Data Track will have data from France, Italy, and Ireland. We would also like to introduce the new Open Track, where any type of statistical data of your choice may be used in the challenge. The challenge will consist in the realization of mashups or visualizations, but also on comparisons, analytics, alignment and enrichment of the data and concepts involved in statistical data (see below for the data made available and additional requirements).</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala 300A</td>
+
+</tr>
+<tr>
+<td>09:00 - 12:40</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://sdsw-at-iswc2014.ipn.pt/">Surfacing the Deep and the Social Web</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Yannis Velegrakis,Paulo Rupino da Cunha,Omar Boucelma,Ngoc Thanh Nguyen,Bogdan Cautis</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The simplicity with which users can publish content nowadays has made the Web the world’s largest database. Keyword-based search has become the de-facto standard for information discovery in this ocean of data, mainly due to its simplicity that makes it attractive to technically novice users. To answer keyword queries, existing search engines rely on effective indexes of the content that allow them to return the documents that best match the user’s search criteria. This generally leaves out the structure of the data, its semantic dimension, as well as the social aspects to which it may relate. We believe that, in order to exploit the full potential of the Web, structured and rich data will have to receive the same search and retrieve capabilities as the text data from Web documents. However, due to their highly structured nature, the rich semantics, and the data structures by which they are typically managed, a great deal of issues needs to be studied. As the problem is in general of a multifaceted nature, it requires synergies from many different disciplines. This workshop is jointly organized by the Working Groups 3 and 4 of the COST Action KEYSTONE, which is dedicated to launching and establishing a cooperative network of researchers, practitioners, and application domain specialists working in fields related to semantic data management, the Semantic Web, information retrieval, artificial intelligence, machine learning and natural language processing that coordinates collaboration among them to enable research activity and technology transfer in the area of keyword-based search over structured data sources.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala Stampa B</td>
+
+</tr>
+<tr>
+<td>09:00 - 12:40</td>
+<td><span><b style="font-size:110%">
+
+
+<a href="http://tutorial.ontologymatching.org/">Ontology matching: from mature technology to open horizons</a>
+</b>
+(Tutorial Track)
+</span>
+
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> Ontology matching is the task of finding relationships between different ontologies. In semantic web practice it is very important for mediating queries across data sources expressed in different ontologies or for interlinking open data, for instance. Ontology matching has benefited from years of very active research. The goal of this tutorial is to present ontology matching in an inclusive framework and to show by example how this is instantiated in tools for matching and manipulating alignments between ontologies. It also aims at presenting extensions of this framework towards more intricate questions (scalability, reasoning, involving other resources and people): these will also be discussed in a general way and illustrated on practical examples. This tutorial is targeted at people needing to involve ontology matching in their works, at practitioners who want to concretely learn how to starts with ontology matching, and at students who are starting research involving ontology matching.</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Pavel Shvaiko,Jérôme Euzenat</span>
+</div>
+
+
+</div>
+
+</td>
+
+<td>Sala 100B</td>
+
+</tr>
+<tr>
+<td>10:30 - 11:00</td>
+<td><span><b style="font-size:110%">
+
+
+Coffee break
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+<tr>
+<td>12:40 - 14:00</td>
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+<tr>
+<td>14:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://www.swcs-workshop.org/">3rd Workshop on Semantic Web Collaborative Spaces</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Pascal Molli,Maria-Esther Vidal,John Breslin</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> Collaboration between data producers and consumers is a key challenge for facilitating the evolution of the LOD cloud into a participative and updatable LOD cloud. Semantic Web Collaborative Spaces aim to make open data producers and consumers working together to enhance and maintain linked data and contents, and improve linked data quality. These collaborative spaces include social semantic frameworks such as crowdsourcing tools, semantic wikis, semantic social networks, semantic microblogs; they have the mission to bring together human and software agents in order to foster knowledge ­intensive collaboration, content creation and management, annotated multimedia collection management, social knowledge diffusion and formalizing, and more generally speaking ontology­ oriented content management life­cycle.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala 300A</td>
+
+</tr>
+<tr>
+<td>14:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://event.cwi.nl/terracognita2014/">Terra Cognita: 6th International Workshop on the Foundations, Technologies and Applications of the Geospatial Web</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Rolf Gruetter,Matthew Perry,Kostis Kyzirakos,Dave Kolas</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The wide availability of technologies such as GPS, map services and social networks, has resulted in the proliferation of geospatial data on the Web. Similarly, the amount of geospatial data extracted from the Web and published as Linked Data is increasing. Together with the dissemination of Web-enabled mobile devices these continually growing data have given rise to a number of innovative services and applications. With the location of users being made available widely, new issues such as those pertaining to security and privacy arise. Emergency response, context sensitive user applications, and complex GIS tasks all lend themselves toward solutions that combine both the Geospatial Web and the Semantic Web. The workshop will bring together researchers and practitioners from various disciplines, as well as interested parties from industry and government, to advance the frontiers of this emerging research area. Bringing together Semantic Web and geospatial researchers helps encourage the use of semantics in geospatial applications and the use of spatial elements in semantic research and applications. The field continues to gain popularity, resulting in a need for a forum to discuss relevant issues.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala Stampa B</td>
+
+</tr>
+<tr>
+<td>14:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://www.macs.hw.ac.uk/~fm206/cim14/">Workshop on Context, Interpretation and Meaning</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Harry Halpin,Fiona McNeill,Alasdair J. G. Gray</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> Data linkage and ontology matching have traditionally focused on creating a single link between items in a dataset, terminology or ontology. This one size mapping does not fit the myriad of use cases to which the data will be put. In order to make intelligent use of these mappings, users of the matches want to understand the justification of the mapping to interpret the meaning of the linking. This issue arises in many areas including healthcare, life sciences and disaster management. This workshop will focus on the creation of mappings, modelling of justifications, and developing explanations. It will also address developing intuitive displays to present the consequences of these mappings to the user. We are seeking theoretical techniques, use cases, software tools and applications to foster debate in this area.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala Stampa A</td>
+
+</tr>
+<tr>
+<td>14:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+
+<a href="http://www.ics.forth.gr/isl/BenchmarksTutorial/">Instance Matching Benchmarks for Linked Data</a>
+</b>
+(Tutorial Track)
+</span>
+
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> With the continuously increasing number of datasets published in the Web of Data and form part of the Linked Open Data Cloud, it becomes more and more essential to identify resources that correspond to the same real world object in order to interlink web resources and set the basis for large-scale data integration. This requirement becomes apparent in a multitude of domains ranging from science (marine research, biology, astronomy, pharmacology) to semantic publishing and cultural domains. In this context, instance matching (also referred to as record linkage [16], duplicate detection [3] entity resolution [2], and object identification in the context of databases [18]) is of crucial importance. It is though essential at this point to develop, along with instance and entity matching systems, benchmarks to determine the weak and strong points of those systems, as well as their overall quality in order to support users in deciding the system to use for their needs. Hence, well defined, and good quality benchmarks are important for comparing the performance of the developed instance matching systems.</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Melanie Herschel,Janina Saveta,Irini Fundulaki,Evangelia Daskalaki</span>
+</div>
+
+
+</div>
+
+</td>
+
+<td>Sala 100B</td>
+
+</tr>
+<tr>
+<td>15:30 - 16:00</td>
+<td><span><b style="font-size:110%">
+
+
+Coffee break
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+</table>
+<h3>2014-10-20 (Monday)</h3>
+
+<table border="1">
+<tr>
+<th>time</th>
+<th>event</th>
+<th>room</th>
+</tr>
+
+<tr>
+<td>08:00 - 17:00</td>
+<td><span><b style="font-size:110%">
+
+
+Registration
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Foyer</td>
+
+</tr>
+<tr>
+<td>09:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://ribs.csres.utexas.edu/cold2014/">Fifth International Workshop on Consuming Linked Data</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Olaf Hartig,Juan F. Sequeda,Aidan Hogan</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The quantity of published Linked Data continues to increase. However, applications that consume Linked Data are not yet widespread. Reasons may include a lack of suitable methods for a number of open problems, including the seamless integration of Linked Data from multiple sources, dynamic discovery of available data and data sources, provenance and information quality assessment, application development environments, and appropriate end user interfaces. Addressing these issues requires well- founded research, including the development and investigation of concepts that can be applied in systems which consume Linked Data from the Web. Our main objective is to provide a venue for scientific discourse (including systematic analysis and rigorous evaluation) of concepts, algorithms and approaches for consuming Linked Data.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala 300B</td>
+
+</tr>
+<tr>
+<td>09:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+ISWC 2014 Doctoral Consortium
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 300A</td>
+
+</tr>
+<tr>
+<td>09:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://iesd14.wordpress.com/">Intelligent Exploration of Semantic Data</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Roberto Garcia,Riichiro Mizoguchi,Kouji Kozaki,Dhaval Thakker,Daniel Schwabe,Chris Dijkshoorn</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> IESD’14 will continue to provide a forum to discuss approaches for exploring semantic data following two stimulating workshops in this series (2012 and 2013). Semantic data is available widely and semantic data exploration is becoming a key activity in a range of application domains, such as government organisations, education, life science, cultural heritage, and media. Several novel interfaces and interaction means for exploration of semantic data are being proposed, for example exploratory search systems, semantic data browsers, ontology/content visualisation environments and semantic wikis. Although on the rise, the current solutions are still maturing and need to take into account human factors to make exploration intuitive or employ necessary computational models to aid the intuitiveness and improve the effectiveness of exploration tasks. Lessons also can be learned from the commonalities and differences in exploration requirements between different domains. Hence, greater benefits can be achieved by bringing together expertise from different communities, including HCI, Semantic Web, and personalisation with the potential application domain demands.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala Meeting</td>
+
+</tr>
+<tr>
+<td>09:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://linkededucation.org/events/lile2014/">Linked Learning meets LinkedUp: Learning and Education with the Web of Data</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Stefan Dietze,Mathieu D'Aquin,Eelco Herder,Dragan Gasevic</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The workshop aims to be a highly interactive research forum for exploring the promises of the Web of Linked Data in the broad area of learning by gathering researchers from the areas of the Semantic Web, Social Web, Technology Enhanced Learning (TEL), and Education. We will welcome high-quality papers about actual trends in (a) how education takes advantage of the Web of Data, especially through Linked Data technologies and (b) how Linked Data principles are being applied in educational contexts.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000B</td>
+
+</tr>
+<tr>
+<td>09:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://om2014.ontologymatching.org/">Ninth International Workshop on Ontology Matching</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Pavel Shvaiko,Ming Mao,Juanzi Li,Jérôme Euzenat,Ernesto Jimenez-Ruiz,Axel-Cyrille Ngonga Ngomo</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> Ontology matching is a key interoperability enabler for the Semantic Web, as well as a useful tactic in some classical data integration tasks dealing with the semantic heterogeneity problem. It takes the ontologies as input and determines as output an alignment, that is, a set of correspondences between the semantically related entities of those ontologies. These correspondences can be used for various tasks, such as ontology merging, data translation, query answering or navigation on the web of data. Thus, matching ontologies enables the knowledge and data expressed in the matched ontologies to interoperate. The workshop has three goals: To bring together leaders from academia, industry and user institutions to assess how academic advances are addressing real-world requirements. The workshop will strive to improve academic awareness of industrial and final user needs, and therefore direct research towards those needs. Simultaneously, the workshop will serve to inform industry and user representatives about existing research efforts that may meet their requirements. The workshop will also investigate how the ontology matching technology is going to evolve. To conduct an extensive and rigorous evaluation of ontology matching and instance matching (link discovery) approaches through the OAEI (Ontology Alignment Evaluation Initiative) 2014 campaign. Besides real-world specific matching tasks, involving e.g., large biomedical ontologies, OAEI-14 will include evaluation of interactive matchers and matchers for query answering. Therefore, the ontology matching evaluation initiative itself will provide a solid ground for discussion of how well the current approaches are meeting business needs. To examine new uses, similarities and differences from database schema matching, which has received decades of attention but is just beginning to transition to mainstream tools.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>09:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+
+<a href="http://www.lider-project.eu/iswc14_MLWDTutorial">Building the Multilingual Web of Data</a>
+</b>
+(Tutorial Track)
+</span>
+
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The multilingual Web of Data can be realized as a layer of services and resources on top of the current Linked Data cloud which adds: linguistic information in different languages, mappings between data with labels in different languages, and services to dynamically access and traverse Linked Data across different languages. Contributing towards this vision, in this tutorial we provide an overview of ingredients that are crucial to bring the vision of a multilingual web of data into reality.  In particular, the tutorial will tackle the following questions: How to represent rich multilingual lexical information (beyond rdfs:label) and associate it to ontologies and linked data? How to represent and publish multilingual texts, annotations and corpora as linked data? How to generate multilingual linked data from data silos? How to perform word sense disambiguation and entity linking of multilingual linked data? How to apply these techniques to a real use case? We will try to answer them in a practical way, by means of examples and hands-on exercises. The tutorial will be organised in five sections, each one covering one of such topics. Each section will be divided in a theoretical introduction and a practical session. The practical work will consist in completing some short guided examples proposed by the speakers. All the instructional material, data and software required to follow the session will be available online beforehand in the tutorial webpage. The attendees have to be familiar with the basic notions of RDF and OWL. No previous experience on linked data publication is required. No prior knowledge on NLP techniques or computational linguistics is required.</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Sebastian Hellmann,Roberto Navigli,Tiziano Flati,Paul Buitelaar,Jorge Gracia,Sebastian Walter,John McCrae,Daniel Vila-Suero</span>
+</div>
+
+
+</div>
+
+</td>
+
+<td>Sala Belvedere</td>
+
+</tr>
+<tr>
+<td>09:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+
+<a href="https://gate.ac.uk/tutorials/iswc2014-social-media-tutorial.html">Semantic Annotation of Social Media</a>
+</b>
+(Tutorial Track)
+</span>
+
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> This tutorial takes a detailed view of key semantic annotation tasks (corpus annotation, linguistic pre-processing, entity and relation recognition, LOD-based entity linking and disambiguation, and opinion mining) of social media content. It will cover both the latest state-of-the-art research and selected established methods and tools for natural language processing (NLP), which have been adapted to social media. Topics covered include the comparison of traditional news-based text with social media in terms of processing techniques, an introduction to semantic annotation, description of algorithms tailored to social media, crowdsourcing approaches to collecting data for annotation and evaluation, and a look at real applications, including summarisation of social media content, user modelling, media monitoring and semantics-based information visualisation. The tutorial will be interspersed with practical exercises for the participants to carry out, using the GATE toolkit.</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Marta Sabou,Kalina Bontcheva,Diana Maynard</span>
+</div>
+
+
+</div>
+
+</td>
+
+<td>Sala 100B</td>
+
+</tr>
+<tr>
+<td>09:00 - 12:40</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://www.ssws-ws.org/SSWS2014/">10th International Workshop on Scalable Semantic Web Knowledge Base Systems</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Thorsten Liebig,Achille Fokoue</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> SSWS 2014 is the tenth edition of the successful Scalable Semantic Web Knowledge Base Systems workshop series. This workshop provides a forum for discussing scalability issues for the Semantic Web, with the focus on the development and deployment of knowledge base systems for processing Semantic Web data. We expect that scalability issues are going to challenge the Semantic Web for a long time and significant effort is needed in order to tackle them. This workshop brings together researchers and practitioners to share their recent ideas and advances towards building scalable knowledge base systems for the Semantic Web.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala 100A</td>
+
+</tr>
+<tr>
+<td>09:00 - 12:40</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://streamreasoning.org/events/ordring2014">3rd International Workshop on Ordering and Reasoning</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Stefan Schlobach,Oscar Corcho,Markus Krötzsch,Irene Celino,Emanuele Della Valle,Daniele Dell'Aglio</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> More and more applications require real-time processing of massive, dynamically generated, ordered data; where order is often an essential factor reflecting recency, proximity or relevance. Stream and rank-aware data management techniques are progressively providing reactive and reliable query answering over such massive datasets. Key to their success is the use of streaming algorithms that harness the natural or enforceable orders in the data. Semantic technologies can play a relevant role in this setting, exploiting their expressive power to integrate those highly dynamic sources. In the recent years, different work started to push order-related concepts in semantic technologies, such as Stream Reasoning and top-k ontological query answering. This workshop (as its predecessors in 2011, and 2013) aims at bringing together this growing and very active community interested in integrating ordering with reasoning by using methods inspired by stream and rank-aware data management.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala Stampa B</td>
+
+</tr>
+<tr>
+<td>09:00 - 12:40</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://oak.dcs.shef.ac.uk/ld4ie2014">second international workshop on Linked Data for Information Extraction</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Ziqi Zhang,Heiko Paulheim,Claudia D'Amato,Anna Lisa Gentile</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The World Wide Web provides access to tens of billions of pages, mostly containing information that is largely unstructured and only intended for human readability. On the other hand,  Linked Data provide billions of pieces of information linked together and made available for automated processing. However, there is the lack of interconnection between the information in the Web pages and Linked Data. A number of initiatives, like RDFa (supported by W3C) or Microformats (used by schema.org and supported by major search engines) are trying to enable machines to make sense of the information contained in human readable pages by providing the ability to annotate webpage content with Linked Data. This creates a large knowledge base of entities and concepts, connected by semantic relations. Such resources can be valuable seed data for IE tasks. Furthermore, the annotated web pages can be considered as training data in the traditional machine learning paradigm.  However, powering Web-scale IE using Linked Data faces major challenges, including  discovering relevant learning materials, which is non-trivial due to the heterogeneity of vocabularies, the imbalanced coverage of different domains and the presence of noise, errors, imprecision and spam.  Addressing these challenges requires multi-field collaborative research effort covering various topics such as modelling IE tasks with respect to LD; efficient, large scale, and robust learning algorithms able to scale and cope with noise; measures for assessing learning material quality, and methods for selecting and optimizing training seeds.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala Stampa A</td>
+
+</tr>
+<tr>
+<td>09:00 - 12:40</td>
+<td><span><b style="font-size:110%">
+
+
+<a href="http://marmotta.apache.org/events/iswc2014.html">Apache Marmotta</a>
+</b>
+(Tutorial Track)
+</span>
+
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The Linked Data Platform working group at W3C is currently finalising the first version of the Linked Data Platform (LDP) recommendation. The goal of the Linked Data Platform is to provide a specification on how to use HTTP to interact with servers that expose their resources as Linked Data. Beyond the established Linked Data principles, it provides additional functionalities like create, read, update, and delete resources, manage collections of resources in different containers, and combining RDF and non-RDF resources (e.g. media resources). It is expected that many Linked Data servers will in the coming months add support for some of the LDP functionalities. Apache Marmotta, an Open Source implementation of a Linked Data server with many modules and extensions, is one of the first frameworks to offer a feature-complete reference implementation of this recommendation. As Open Source Software hosted by the Apache Software Foundation, it is a framework that can be used and extended freely in both academic and commercial contexts, and is therefore well suited as foundation for the Linked Data Platform. As the Linked Data Platform is an emerging standard, it has – to the best of our knowledge – so far not been presented in similar tutorials.</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Thomas Kurz,Sergio Fernández,Sebastian Schaffert,Jakob Frank</span>
+</div>
+
+
+</div>
+
+</td>
+
+<td>Sala Presidenza</td>
+
+</tr>
+<tr>
+<td>10:30 - 11:00</td>
+<td><span><b style="font-size:110%">
+
+
+Coffee break
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+<tr>
+<td>14:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://knoesis.org/ssn2014/">7th International Workshop on Semantic Sensor Networks</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Michael Compton,Krzysztof Janowicz,Kerry Taylor</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The number of IP connected devices will be nearly three times the global population by 2016 and a growing amount of Internet traffic is originating with non-PC devices. Many of these devices can act as sensors and there may be trillions of fixed sensors by 2020. Such sensors are geographically distributed and are capable of forming ad hoc networks, with nodes expected to be dynamically inserted and removed. This diverse, changing environment provides many interesting challenges. While frameworks such as the Sensor Web Enablement (SWE) standards, developed by the Open Geospatial Consortium, provide some interoperability, semantics is increasingly seen as a key enabler for integration of sensor data and broader Web information systems. Analytical and reasoning capabilities afforded by Semantic Web standards and technologies are considered important for developing advanced applications that go from capturing observations to recognition of events and ultimately developing comprehensive situational awareness. Defence, transportation, global enterprise, and natural resource management industries are leading the rapid emergence of applications in commercial, civic, and scientific operations that involve sensors, web services and semantics. Semantic technologies are often proposed as important components of complex, cross-jurisdictional, heterogeneous, dynamic information systems. The needs and opportunities arising from the rapidly growing capabilities of networked sensing devices are a challenging case. SSN 2014 aims to provide an inter-disciplinary forum to explore and promote the technologies related to a combination of the semantic web, sensor networking and sensors in the Internet of Things. Specifically, to develop an understanding of the ways semantic web technologies can contribute to the growth, application and deployment of large-scale sensor networks on the one hand, and the ways that sensor networks can contribute to the emerging semantic web, on the other.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala Stampa B</td>
+
+</tr>
+<tr>
+<td>14:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="https://nlpdbpedia2014.wordpress.com/">NLP & DBpedia 2014 Workshop</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Pablo Mendes,Marieke van Erp,Heiko Paulheim,Agata Filipowska</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The DBpedia community has recently experienced an immense increase in activity. We believe that the time has come to explore the connection between DBpedia & Natural Language Processing (NLP) in a yet unprecedented depth.   DBpedia has a long-standing tradition to provide useful data as well as a commitment to reliable Semantic Web technologies and living best practices. With the rise of WikiData, DBpedia is step-by-step relieved from the tedious extraction of data from Wikipedia’s infoboxes and can shift its focus on new challenges such as extracting information from the unstructured article text as well as becoming a testing ground for multilingual NLP methods.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala 100A</td>
+
+</tr>
+<tr>
+<td>14:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+Workshop:
+
+<a href="http://privon.semanticweb.org/">Society, Privacy and the Semantic Web - Policy and Technology</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Stefan Decker,Sabrina Kirrane,Mathieu D'Aquin,Christopher Brewster</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> Last year Bruce Schneier’s article “The Internet is a surveillance state” summarised the state of Internet privacy as “Welcome to an Internet without privacy, and we've ended up here with hardly a fight”. A couple of months later, Snowden shocked the world when he revealed that the US National Security Agency (NSA) were tracking online communication in a large scale surveillance programme known as PRISM. This was quickly followed by revelations that other countries were running similar covert operations. One year on and the story is still making headline news. Just this month, Tim Berners-Lee called on the world to take a stand against surveillance on the web. His suggestion is a global digital "bill of rights" similar to the Magna Carta.  The stage is set for a thrilling debate on the right to privacy and what actions should be taken to protect this right online. Technical Co-Sponsored by IEEE UK and Ireland SSIT Chapter and the CityPulse Project, this year’s workshop aims to build on last years event by growing the community of individuals actively working on the topic and by promoting discussion beyond the technical aspects, building on aforementioned current events. It aims to capture the intersection between society, policy and technology, for example by debating the need and foundation for a global digital "bill of rights" similar to the Magna Carta as suggested by Tim Berners-Lee.</span>
+</div>
+
+
+
+</div>
+
+</td>
+
+<td>Sala Stampa A</td>
+
+</tr>
+<tr>
+<td>14:00 - 17:30</td>
+<td><span><b style="font-size:110%">
+
+
+<a href="http://www.linkedtv.eu/event/tutorial/">Re-using Media on The Semantic Web</a>
+</b>
+(Tutorial Track)
+</span>
+
+<div class="details">
+
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The Web is developing not just into a more Semantic Web but also into a much richer Multimedia Web. While a layer of semantics is being developed on top of web pages and textual documents via structured data markup and more and more linked data datasets are published, the rapidly growing mass of online media – audio, image, video – is nowhere nearly as integrated into this body of web-wide knowledge. Media annotation does take place within archives and repositories, but even the “semantic” annotation is typically disconnected from the web and its semantics layer. Linked Data-based annotation of media resources published on the Web could drive new applications for media retrieval and re-use, to the benefit of both media owners and consumers. This tutorial will look at tools and services to semantically annotate online media and use those annotations for online retrieval and re-use based on a number of emerging web specifications and technologies. We will focus on means to annotate spatial and temporal fragments of media assets with Linked Data concepts, how to use those annotations to discover types of relevancy between distinct media assets and development of applications using discovered links between annotated media to provide enhanced user services.</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Raphael Troncy,Michiel Hildebrand,Lyndon J. B. Nixon</span>
+</div>
+
+
+</div>
+
+</td>
+
+<td>Sala Presidenza</td>
+
+</tr>
+<tr>
+<td>15:30 - 16:00</td>
+<td><span><b style="font-size:110%">
+
+
+Coffee break
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+<tr>
+<td>18:30 - 20:00</td>
+<td><span><b style="font-size:110%">
+
+
+Welcome Aperitif
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Rocca (Town Centre)</td>
+
+</tr>
+<tr>
+<td>19:30 - 23:00</td>
+<td><span><b style="font-size:110%">
+
+
+SWSA Meeting (Invitation only)
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 100 </td>
+
+</tr>
+</table>
+<h3>2014-10-21 (Tuesday)</h3>
+
+<table border="1">
+<tr>
+<th>time</th>
+<th>event</th>
+<th>room</th>
+</tr>
+
+<tr>
+<td>08:00 - 17:00</td>
+<td><span><b style="font-size:110%">
+
+
+Registration
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Foyer</td>
+
+</tr>
+<tr>
+<td>09:00 - 21:30</td>
+<td><span><b style="font-size:110%">
+
+
+Exhibitions
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+<tr>
+<td>09:00 - 09:30</td>
+<td><span><b style="font-size:110%">
+
+
+Opening & 10 years awards
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Carole A. Goble,Abraham Bernstein</span>
+</div>
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>09:30 - 10:30</td>
+<td><span><b style="font-size:110%">
+
+InvitedTalk:
+
+<a href="http://iswc2014.semanticweb.org/keynote_prabhakar_raghavan">Web Search - From The Noun to The Verb</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Peter Mika</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> This talk examines the evolution of web search experiences over 20 years, and their impact on the underlying architecture. Early web search represented the adaptation of methods from classic Information Retrieval to the Web. Around the turn of this century, the focus shifted to triaging the need behind a query - whether it was Navigational, Informational or Transactional; engines began to customize their experiences depending on the need. The next change arose from the recognition that most queries embodied noun phrases, leading to the construction of knowledge representations from which queries could extract and deliver information regarding the noun in the query. Most recently, three trends represent the next step beyond these "noun engines": (1) "Queryless engines" have begun surfacing information meeting a user's need based on the user's context, without explicit querying; (2) Search engines have actively begun assisting the user's task at hand - the verb underlying the noun query; (3) increasing use of speech recognition is changing the distribution of queries.</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Prabhakar Raghavan</span>
+</div>
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>10:30 - 11:00</td>
+<td><span><b style="font-size:110%">
+
+
+Coffee break
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+<tr>
+<td>11:00 - 12:20</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: Data Integration & Link Discovery in Life Sciences
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Paul Groth</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. EPCIS event based traceability in pharmaceutical supply chains via automated generation of linked pedigrees,
+<span style="color:#666">Monika Solanki and Christopher Brewster</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. Scientific lenses to support multiple views over linked chemistry data,
+<span style="color:#666">Colin Batchelor,Christian Y. A. Brenninkmeijer,Christine Chichester,Mark Davies,Daniela Digles,Ian Dunlop,Chris T Evelo,Anna Gaulton,Carole Goble,Alasdair J. G. Gray,Paul Groth,Lee Harland,Karen Karapetyan,Antonis Loizou,John P Overington,Steve Pettifer,Jon Steele,Robert Stevens,Valery Tkachenko,Andra Waagmeester,Antony Williams and Egon L Willighagen</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. Linked Biomedical Dataspace: Lessons Learned integrating Data for Drug Discovery,
+<span style="color:#666">Ali Hasnain,Maulik R. Kamdar,Panagiotis Hasapis,Dimitris Zeginis,Claude N. Warren Jr,Helena F Deus,Dimitrios Ntalaperas,Konstantinos Tarabanis,Muntazir Mehdi and Stefan Decker</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">4. Drug-Target Interaction Prediction Using Semantic Similarity and Edge Partition,
+<span style="color:#666">Guillermo Palma,Maria-Esther Vidal and Louiqa Raschid</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>11:00 - 12:20</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: NLP & IE
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Marco Rospocher</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. AGDISTIS - Graph-Based Disambiguation of Named Entities using Linked Data,
+<span style="color:#666">Ricardo Usbeck,Axel-Cyrille Ngonga Ngomo,Michael Röder,Daniel Gerber,Sandro Athaide Coelho,Sören Auer and Andreas Both</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. M-ATOLL: A Framework for the lexicalization of ontologies in multiple languages,
+<span style="color:#666">Sebastian Walter,Christina Unger and Philipp Cimiano</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. Towards Efficient and Effective Semantic Table Interpretation,
+<span style="color:#666">Ziqi Zhang</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">4. Semano: Semantic Annotation Framework for Natural Language Resources,
+<span style="color:#666">David Robert Berry and Nadeschda Nikitina</span>
+<sup><span style="color:DarkRed">Replication, Benchmark, Data and Software Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">5. Ensemble Learning for Named Entity Recognition,
+<span style="color:#666">René Speck and Axel-Cyrille Ngonga Ngomo</span>
+<sup><span style="color:DarkRed">Replication, Benchmark, Data and Software Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 1000B</td>
+
+</tr>
+<tr>
+<td>11:00 - 12:20</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: Querying
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Johanna Völker</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. Structural Properties as Proxy for Semantic Relevance in RDF Graph Sampling,
+<span style="color:#666">Laurens Rietveld,Rinke Hoekstra,Stefan Schlobach and Christophe Guéret</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. Holistic and Compact Selectivity Estimation for Hybrid Queries over RDF Graphs,
+<span style="color:#666">Andreas Wagner,Veli Bicer,Thanh Tran and Rudi Studer</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. Querying Factorized Probabilistic Triple Databases,
+<span style="color:#666">Denis Krompaß,Maximilian Nickel and Volker Tresp</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">4. Ontology Search: An Empirical Evaluation,
+<span style="color:#666">Anila Sahar Butt,Armin Haller and Lexing Xie</span>
+<sup><span style="color:DarkRed">Replication, Benchmark, Data and Software Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 300</td>
+
+</tr>
+<tr>
+<td>12:20 - 13:30</td>
+<td><span><b style="font-size:110%">
+
+
+JWS lunch (Invitation only)
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 100</td>
+
+</tr>
+<tr>
+<td>12:20 - 13:30</td>
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+<tr>
+<td>13:30 - 14:30</td>
+<td><span><b style="font-size:110%">
+
+InvitedTalk:
+
+<a href="http://iswc2014.semanticweb.org/keynote_yolanda_gil">Semantic Challenges in Getting Work Done</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Carole A. Goble</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> In the new millennium, work involves an increasing amount of tasks that are knowledge-rich and collaborative. We are investigating how semantics can help on both fronts. Our focus is scientific work, in particular data analysis, where tremendous potential resides in combining the knowledge and resources of a highly fragmented science community. We capture task knowledge in semantic workflows, and use skeletal plan refinement algorithms to assist users when they specify high-level tasks. But the formulation of workflows is in itself a collaborative activity, a kind of meta-workflow composed of tasks such as finding the data needed or designing a new algorithm to handle the data available. We are investigating "organic data science", a new approach to collaboration that allows scientists to formulate and resolve scientific tasks through an open framework that facilitates ad-hoc participation. With a design based on social computing principles, our approach makes scientific processes transparent and incorporates semantic representations of tasks and their properties. The semantic challenges involved in this work are numerous and have great potential to transform the Web to help us do work in more productive and unanticipated ways.</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Yolanda Gil</span>
+</div>
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>14:40 - 16:00</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: Data Integration & Link Discovery
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Enrico Motta</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. CAMO: Integration of Linked Open Data for Multimedia Metadata Enrichment,
+<span style="color:#666">Wei Hu,Cunxin Jia,Lei Wan,Liang He,Lixia Zhou and Yuzhong Qu</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. HELIOS -- Execution Optimization for Link Discovery,
+<span style="color:#666">Axel-Cyrille Ngonga Ngomo</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. SAKey: Scalable Almost Key discovery in RDF data,
+<span style="color:#666">Danai Symeonidou,Vincent Armant,Nathalie Pernelle and Fatiha Saïs</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">4. Introducing Wikidata to the Linked Data Web,
+<span style="color:#666">Fredo Erxleben,Michael Günther,Markus Krötzsch,Julian Mendez and Denny Vrandečić</span>
+<sup><span style="color:DarkRed">Replication, Benchmark, Data and Software Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">5. Web-Scale Extension of RDF Knowledge Bases from Templated Websites,
+<span style="color:#666">Lorenz Bühmann,Ricardo Usbeck,Axel-Cyrille Ngonga Ngomo,Muhammad Saleem,Andreas Both,Valter Crescenzi,Paolo Merialdo and Disheng Qiu</span>
+<sup><span style="color:DarkRed">Replication, Benchmark, Data and Software Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>14:40 - 16:00</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: Reasoning
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Luciano Serafini</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. Pushing the Boundaries of Tractable Ontology Reasoning,
+<span style="color:#666">David Carral,Cristina Feier,Bernardo Cuenca Grau,Pascal Hitzler and Ian Horrocks</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. Effective computation of maximal sound approximations of Description Logic ontologies,
+<span style="color:#666">Marco Console,Jose Mora,Riccardo Rosati,Valerio Santarelli and Domenico Fabio Savo</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. Abstraction Refinement for Ontology Materialization,
+<span style="color:#666">Birte Glimm,Yevgeny Kazakov,Thorsten Liebig,Trung-Kien Tran and Vincent Vialard</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">4. Goal-Directed Tracing of Inferences in EL Ontologies,
+<span style="color:#666">Yevgeny Kazakov and Pavel Klinov</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 1000B</td>
+
+</tr>
+<tr>
+<td>14:40 - 16:00</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: Sensors
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Oscar Corcho</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. Knowledge-driven Activity Recognition and Segmentation Using Context Connections,
+<span style="color:#666">Georgios Meditskos,Efstratios Kontopoulos and Ioannis Kompatsiaris</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. A Use Case in Semantic Modelling and Ranking for the Sensor Web,
+<span style="color:#666">Liliana Cabral,Michael Compton and Heiko Mueller</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. Semantic Traffic Diagnosis with STAR-CITY: Architecture and Lessons Learned from Deployment in Dublin, Bologna, Miami and Rio,
+<span style="color:#666">Freddy Lecue,Robert Tucker,Simone Tallevi-Diotallevi,Rahul Nair,Yiannis Gkoufas,Giuseppe Liguori,Mauro Borioni,Alexandre Rademaker and Luciano Barbosa</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">4. Adapting Semantic Sensor Networks for Smart Building Diagnosis,
+<span style="color:#666">Joern Ploennigs,Anika Schumann and Freddy Lecue</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 300</td>
+
+</tr>
+<tr>
+<td>16:00 - 16:20</td>
+<td><span><b style="font-size:110%">
+
+
+Coffee break
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+<tr>
+<td>17:50 - 18:00</td>
+<td><span><b style="font-size:110%">
+
+
+Linkedup Madness
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>18:30 - 21:30</td>
+<td><span><b style="font-size:110%">
+
+
+EUON Town Hall
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000B</td>
+
+</tr>
+<tr>
+<td>18:30 - 21:30</td>
+<td><span><b style="font-size:110%">
+
+
+Poster & Demo session
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+</table>
+<h3>2014-10-22 (Wednesday)</h3>
+
+<table border="1">
+<tr>
+<th>time</th>
+<th>event</th>
+<th>room</th>
+</tr>
+
+<tr>
+<td>08:00 - 17:00</td>
+<td><span><b style="font-size:110%">
+
+
+Registration
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Foyer</td>
+
+</tr>
+<tr>
+<td>09:00 - 09:15</td>
+<td><span><b style="font-size:110%">
+
+
+Announcements & LinkedUp Competition Prize
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>09:15 - 10:15</td>
+<td><span><b style="font-size:110%">
+
+InvitedTalk:
+
+<a href="http://iswc2014.semanticweb.org/keynote_nigel_shadbolt">The Semantic Web in an Age of Open Data</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Axel Polleres</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The last five years have seen increasing amounts of open data being published on the Web. In particular, governments have made data available across a wide range of sectors: spending, crime and justice, education, health, transport, geospatial, environmental and much more. The data has been published in a variety of formats and has been reused with varying degrees of success. Commercial organisations have begun to exploit this resource and in some cases elected to release their own open data. Only a relatively small amount of the data published has been linked data.  However, the methods and techniques of the semantic web could significantly enhance the value and utility of open data. What are the obstacles and challenges that prevent the routine publication of these resources as semantically enriched open data? What can be done to improve the situation? Where are the examples of the successful publication and exploitation of semantically enriched content? What lessons should we draw for the future?</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Nigel R Shadbolt</span>
+</div>
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>10:15 - 11:00</td>
+<td><span><b style="font-size:110%">
+
+
+Coffee break
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+<tr>
+<td>11:00 - 15:20</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+SW challenge
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sean Bechhofer,Natalya Noy,Andreas Harth</span>
+</div>
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>11:00 - 15:20</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: User Interaction & Personalization
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sean Bechhofer,Natalya Noy,Andreas Harth</span>
+</div>
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>11:00 - 12:40</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Industry Track: Regular Talks
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): John Davies</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. Deployment of Semantic Analysis to Call Center,
+<span style="color:#666">Takahiro Kawamura</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. The Logic of Insurance: an Ontology-Centric Pricing Application,
+<span style="color:#666">Ludovic Langevine and Paul Bone</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. Applying Semantic Web technologies in Product Information Management at NXP Semiconductors,
+<span style="color:#666">Parvathy Meenakshy and John Walker</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">4. Linked data experience at Macmillan: Building discovery services for scientific and scholarly content on top of a semantic data model,
+<span style="color:#666">Tony Hammond and Michele Pasin</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">5. HAVAS 18 Labs: A Knowledge Graph for Innovation in the Media Industry,
+<span style="color:#666">José Gutiérrez-Cuellar and Jose Manuel Gomez-Perez</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">6. Deploying National Ontology Services: From ONKI to Finto,
+<span style="color:#666">Osma Suominen,Sini Pessala,Jouni Tuominen,Mikko Lappalainen,Susanna Nykyri,Henri Ylikotila,Matias Frosterus and Eero Hyvönen</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">7. ePlanning: an Ontology-based System for Building Individualized Education Plans for Students with Special Educational Needs,
+<span style="color:#666">Sofia Cramerotti,Marco Buccio,Giampiero Vaschetto,Luciano Serafini and Marco Rospocher</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 1000B</td>
+
+</tr>
+<tr>
+<td>11:00 - 12:40</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+SW challenge
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sean Bechhofer,Natalya Noy,Andreas Harth</span>
+</div>
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>11:00 - 12:40</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: Linked Data & Data Quality
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Guus Schreiber</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. Discovery and Visual Analysis of Linked Data for Humans,
+<span style="color:#666">Vedran Sabol,Gerwald Tschinkel,Eduardo Veas,Patrick Hoefler,Belgin Mutlu and Michael Granitzer</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. Col-Graph: Towards Writable and Scalable Linked Open Data,
+<span style="color:#666">Luis-Daniel Ibáñez,Hala Skaf-Molli,Pascal Molli and Olivier Corby</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. Transferring Semantic Categories with Vertex Kernels: Recommendations with SemanticSVD++,
+<span style="color:#666">Matthew Rowe</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">4. Detecting Errors in Numerical Linked Data using Cross-Checked Outlier Detection,
+<span style="color:#666">Daniel Fleischhacker,Heiko Paulheim,Volha Bryl,Johanna Völker and Christian Bizer</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">5. Noisy Type Assertion Detection in Semantic Datasets,
+<span style="color:#666">Man Zhu,Zhiqiang Gao and Zhibin Quan</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 300</td>
+
+</tr>
+<tr>
+<td>11:00 - 12:40</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: User Interaction & Personalization
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sean Bechhofer,Natalya Noy,Andreas Harth</span>
+</div>
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>12:40 - 14:20</td>
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+<tr>
+<td>12:40 - 14:20</td>
+<td><span><b style="font-size:110%">
+
+
+Student Mentoring lunch
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala Stampa</td>
+
+</tr>
+<tr>
+<td>14:20 - 15:20</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Industry Track: First Pechakucha Session
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Chris Welty</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. Ontology-Based Linking of Social, Open, and Enterprise Data for Business Intelligence,
+<span style="color:#666">Tope Omitola,John Davies,Alistair Duke,Hugh Glaser and Nigel Shadbolt</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. The W3C Social Web Initiative,
+<span style="color:#666">Harry Halpin</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. Smart Media Navigator: Visualizing Recommendations based on Linked Data,
+<span style="color:#666">Tabea Tietz,Jörg Waitelonis,Joscha Jäger and Harald Sack</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">4. Smart Data Access: Semantic Web Technologies for Energy Diagnostics,
+<span style="color:#666">Ulli Waltinger</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">5. Semantic Technology for Oil & Gas Business,
+<span style="color:#666">Nico Lavarini and Silvia Melegari</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">6. Semantic Web based Container Monitoring System for the Transportation Industry,
+<span style="color:#666">Pinar Gocebe,Oguz Dikenelli,Umut Kose and Juan F. Sequeda</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 1000B</td>
+
+</tr>
+<tr>
+<td>14:20 - 15:20</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+SW challenge
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sean Bechhofer,Natalya Noy,Andreas Harth</span>
+</div>
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>14:20 - 15:20</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: SPARQL Extensions
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Chiara Ghidini</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. On the Semantics of SPARQL Queries with Optional Matching under Entailment Regimes,
+<span style="color:#666">Egor V. Kostylev and Bernardo Cuenca Grau</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. Strategies for executing federated queries in SPARQL1.1,
+<span style="color:#666">Carlos Buil-Aranda,Axel Polleres and Jürgen Umbrich</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. Toward the Web of Functions: Interoperable Higher-Order Functions in SPARQL,
+<span style="color:#666">Maurizio Atzori</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 300</td>
+
+</tr>
+<tr>
+<td>14:20 - 15:20</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: User Interaction & Personalization
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sean Bechhofer,Natalya Noy,Andreas Harth</span>
+</div>
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>14:20 - 12:40</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+SW challenge
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sean Bechhofer,Natalya Noy,Andreas Harth</span>
+</div>
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>14:20 - 12:40</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: User Interaction & Personalization
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sean Bechhofer,Natalya Noy,Andreas Harth</span>
+</div>
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>15:20 - 15:40</td>
+<td><span><b style="font-size:110%">
+
+
+Coffee break
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+<tr>
+<td>15:40 - 17:00</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Industry Track: Second Pechakucha Session
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Jose Manuel Gomez-Perez</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. Clinical Trial Data and Semantic Web standards,
+<span style="color:#666">Kerstin Forsberg</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. keyCRF: Using Semantic Metadata Registries to Populate an eCRF with EHR Data,
+<span style="color:#666">Gokce Banu Laleci Erturkmen,Landen Bain and Ali Anil Sinaci</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. RDF Implementation of Clinical Trial Data Standards,
+<span style="color:#666">Frederik Malfait and Josephine Gough</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">4. Health and Environment Monitoring Service for Solitary Seniors,
+<span style="color:#666">Kwangsoo Kim,Eunju Lee,Soonhyun Kwon,Dong-Hwan Park and Seong-Il Jin</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">5. Using Semantic Technologies to Mine Customer Insights in Telecom Industry,
+<span style="color:#666">Rajaraman Kanagasabai,Anitha Veeramani,Duy Ngan Le,Ghim-Eng Yap,James Decraene and Amy Shi-Nash</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">6. The voice of the customer for Digital Telcos,
+<span style="color:#666">V. Richard Benjamins,David Cadenas,Pedro Alonso,Antonio Valderrabanos and Josu Gomez</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">7. SKOS as a Key Element in Enterprise Linked Data Strategies,
+<span style="color:#666">Andreas Blumauer</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">8. iNowit, linked data as key element for innovation in emergency response,
+<span style="color:#666">Bart van Leeuwen</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 1000B</td>
+
+</tr>
+<tr>
+<td>15:40 - 17:00</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+SW challenge
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Sean Bechhofer,Andreas Harth</span>
+</div>
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>15:40 - 17:00</td>
+<td><span><b style="font-size:110%">
+
+
+Session: Large-scale RDF Processing and Dataset Availability
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Jeff Heflin</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. SYRql: A Dataflow Language for Large Scale Processing of RDF Data,
+<span style="color:#666">Fadi Maali,Padmashree Ravindra,Kemafor Anyanwu and Stefan Decker</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. Sempala: Interactive SPARQL Query Processing on Hadoop,
+<span style="color:#666">Alexander Schätzle,Martin Przyjaciel-Zablocki,Antony Neu and Georg Lausen</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. Querying Datasets on the Web with High Availability,
+<span style="color:#666">Ruben Verborgh,Olaf Hartig,Ben De Meester,Gerald Haesendonck,Laurens De Vocht,Miel Vander Sande,Richard Cyganiak,Pieter Colpaert,Erik Mannens and Rik Van de Walle</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">4. Diversified Stress Testing of RDF Data Management Systems,
+<span style="color:#666">Gunes Aluc,Olaf Hartig,Tamer Ozsu and Khuzaima Daudjee</span>
+<sup><span style="color:DarkRed">Replication, Benchmark, Data and Software Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 300</td>
+
+</tr>
+<tr>
+<td>17:00 - 18:30</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Industry Track: Third Pechakucha Session
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Roberta Cuel,Axel Polleres</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. ReApp Store – a semantic AppStore for applications in the robotics domain,
+<span style="color:#666">Ana Sasa Bastinos,Peter Haase,Georg Heppner,Stefan Zander and Nadia Ahmed</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. Traffic Management using RTEC in OWL 2 RL,
+<span style="color:#666">Bernard Gorman,Jakub Marecek and Jia Yuan Yu</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. Efficient Application of Complex Graph Analytics on Very Large Real World RDF Datasets,
+<span style="color:#666">Zhe Wu and Jay Banerjee</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">4. Integrating Semantic Web Technologies in the Architecture of BBC Knowledge & Learning Beta Online Pages,
+<span style="color:#666">Dong Liu,Eleni Mikroyannidi and Robert Lee</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">5. SICRaS: a semantic big data platform for fighting tax evasion and supporting social policy making,
+<span style="color:#666">Paolo Bouquet,Giovanni Adinolfi,Lorenzo Zeni and Stefano Bortoli</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">6. Semantic WISE: An Applying of Semantic IoT Platform for Weather Information Service Engine,
+<span style="color:#666">Jun Wook Lee,Yong Woo Kim and Soonhyun Kwon</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">7. Building and Exploring Marine Oriented Knowledge Graph for ZhouShan Library,
+<span style="color:#666">Tong Ruan,Haofen Wang,Fanghuai Hu,Jun Ding and Kai Lu</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">8. Fast In-Memory Reasoner for Oracle NoSQL Database EE: Uncover hidden relationships that exist in your enterprise data,
+<span style="color:#666">Jeff Pan,Yuan Ren,Gabriela Montiel and Zhe Wu</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">9. Semantic Web Technologies for User Generated Content and Digital Distribution Copyright Management,
+<span style="color:#666">Roberto Garcia and Nick Sincaglia</span>
+<sup><span style="color:DarkRed">Industry Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 1000B</td>
+
+</tr>
+<tr>
+<td>17:00 - 18:00</td>
+<td><span><b style="font-size:110%">
+
+
+town hall
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Natalya Noy</span>
+</div>
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 300</td>
+
+</tr>
+<tr>
+<td>20:30 - 23:30</td>
+<td><span><b style="font-size:110%">
+
+
+Banquet
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+</table>
+<h3>2014-10-23 (Thursday)</h3>
+
+<table border="1">
+<tr>
+<th>time</th>
+<th>event</th>
+<th>room</th>
+</tr>
+
+<tr>
+<td>08:00 - 12:00</td>
+<td><span><b style="font-size:110%">
+
+
+Registration
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Foyer</td>
+
+</tr>
+<tr>
+<td>09:00 - 14:00</td>
+<td><span><b style="font-size:110%">
+
+
+Exhibitions
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+<tr>
+<td>09:00 - 09:15</td>
+<td><span><b style="font-size:110%">
+
+
+Announcements
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>09:15 - 10:15</td>
+<td><span><b style="font-size:110%">
+
+InvitedTalk:
+
+<a href="http://iswc2014.semanticweb.org/keynote_paolo_traverso">To be or to do?: The Semantics for Smart Cities and Communities</a>
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Craig Knoblock</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666"><b>Abstract:</b> The major challenge for so-called smart cities and communities is to provide people with value added services that improve their quality of life. Massive individual and territorial data sets – (open) public and private data, as well as their semantics which allows us to transform data into knowledge about the city and the community, are key enablers to the development of such solutions. Something more however is needed. A “smart” community needs “to do things” in a city, and the people need to act within their own community. For instance, not only do we need to know where we can find a parking spot, which cultural event is happening tonight, or when the next bus will arrive, but we also need to actually pay for parking our car, buy a bus ticket, or reserve a seat in the theater. All these activities (paying, booking, buying, etc.) need semantics in the same way as data does, and such a semantics should describe all the steps needed to perform such activities. Moreover, such a semantics should allow us to define and deploy solutions that are general and abstract enough to be “portable” across the details of the different ways in which activities can be implemented, e.g., by different providers, or for different customers, or for different cities. At the same time, in order to actually “do things”, we need a semantics that links general and abstract activities to the possibly different and specific ICT systems that implement them. In my talk, I will present some of the main problems for realizing the concept of smart city and community, and the need for semantics for both understanding data and “doing things”. I will discuss some alternative approaches, some lessons learned from applications we have been working with in this field, and the still many related open research challenges.</span>
+</div>
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">presenter(s): Paolo Traverso</span>
+</div>
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>10:15 - 10:45</td>
+<td><span><b style="font-size:110%">
+
+
+Coffee break
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+<tr>
+<td>10:45 - 12:25</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Lightning talk
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Alasdair J. G. Gray</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. OBDA: Query Rewriting or Materialization? In Practice, Both!,
+<span style="color:#666">Juan F. Sequeda,Marcelo Arenas and Daniel P. Miranker</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. Answering SPARQL Queries over Databases under OWL 2 QL Entailment Regim,
+<span style="color:#666">Roman Kontchakov,Martin Rezk,Mariano Rodriguez-Muro,Guohui Xiao and Michael Zakharyaschev</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. kyrie2: Query Rewriting under Extensional Constraints in ELHIO,
+<span style="color:#666">Jose Mora,Riccardo Rosati and Oscar Corcho</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">4. Schema-Agnostic Query Rewriting in SPARQL 1.1,
+<span style="color:#666">Stefan Bischof,Markus Krötzsch,Axel Polleres and Sebastian Rudolph</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">5. How Semantic Technologies can Enhance Data Access at Siemens Energy,
+<span style="color:#666">Evgeny Kharlamov,Nina Solomakhina,Özgür Lütfü Özcep,Dmitriy Zheleznyakov,Thomas Hubauer,Steffen Lamparter,Mikhail Roshchin and Ahmet Soylu</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 1000B</td>
+
+</tr>
+<tr>
+<td>10:45 - 12:25</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: OBDA & Query Rewriting
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Mauro Dragoni</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. Detecting and Correcting Conservativity Principle Violations in Ontology-to-Ontology Mappings,
+<span style="color:#666">Alessandro Solimando,Ernesto Jimenez-Ruiz and Giovanna Guerrini</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. Towards annotating potential incoherences in BioPortal mappings,
+<span style="color:#666">Daniel Faria,Ernesto Jimenez-Ruiz,Catia Pesquita,Emanuel Santos and Francisco Couto</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. Conference v2.0: An uncertain version of the OAEI Conference benchmark,
+<span style="color:#666">Michelle Cheatham and Pascal Hitzler</span>
+<sup><span style="color:DarkRed">Replication, Benchmark, Data and Software Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">4. Fast Modularisation and Atomic Decomposition of Ontologies using Axiom Dependency Hypergraphs,
+<span style="color:#666">Francisco Martin-Recuerda and Dirk Walther</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">5. A Study on the Atomic Decomposition of Ontologies,
+<span style="color:#666">Matthew Horridge,Jonathan Mortensen,Bijan Parsia,Uli Sattler and Mark Musen</span>
+<sup><span style="color:DarkRed">Replication, Benchmark, Data and Software Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 300</td>
+
+</tr>
+<tr>
+<td>10:45 - 12:25</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: Ontology Alignment & Modularization
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Jacco van Ossenbruggen</span>
+</div>
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>12:25 - 14:00</td>
+<td><span><b style="font-size:110%">
+
+
+ISWC 2015 lunch (Invitation only)
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala Presidenza</td>
+
+</tr>
+<tr>
+<td>12:25 - 14:00</td>
+<td><span><b style="font-size:110%">
+
+
+Lunch
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+<tr>
+<td>14:00 - 15:20</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: Linked Data
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Miriam Fernandez</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. LOD Laundromat: A Uniform Way of Publishing Other People's Dirty Data,
+<span style="color:#666">Wouter Beek,Laurens Rietveld,Hamidreza Bazoubandi,Jan Wielemaker and Stefan Schlobach</span>
+<sup><span style="color:DarkRed">Replication, Benchmark, Data and Software Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. Dutch Ships and Sailors Linked Data,
+<span style="color:#666">Victor de Boer,Jur Leinenga,Matthias van Rossum and Rik Hoekstra</span>
+<sup><span style="color:DarkRed">Replication, Benchmark, Data and Software Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. Adoption of Linked Data Best Practices in Different Topical Domains,
+<span style="color:#666">Max Schmachtenberg,Christian Bizer and Heiko Paulheim</span>
+<sup><span style="color:DarkRed">Replication, Benchmark, Data and Software Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">4. Analyzing Schema.org,
+<span style="color:#666">Peter F. Patel-Schneider</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">5. The WebDataCommons Microdata, RDFa and Microformat Dataset Series,
+<span style="color:#666">Robert Meusel,Petar Petrovski and Christian Bizer</span>
+<sup><span style="color:DarkRed">Replication, Benchmark, Data and Software Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">6. On Publishing Chinese Linked Open Schema,
+<span style="color:#666">Haofen Wang,Tianxing Wu,Guilin Qi and Tong Ruan</span>
+<sup><span style="color:DarkRed">Replication, Benchmark, Data and Software Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>14:00 - 15:20</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: Mobile Reasoning & SPARQL Updates
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Abraham Bernstein</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. A Cross-Platform Benchmarking Framework for Mobile Semantic Web Reasoning Engines,
+<span style="color:#666">William Van Woensel,Newres Al Haider,Ahmad Ahmad and Syed Sr Abidi</span>
+<sup><span style="color:DarkRed">Replication, Benchmark, Data and Software Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. A Power Consumption Benchmark for Reasoners on Mobile Devices,
+<span style="color:#666">Evan Patton and Deborah McGuinness</span>
+<sup><span style="color:DarkRed">Replication, Benchmark, Data and Software Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. Dynamic Provenance for SPARQL Updates,
+<span style="color:#666">Harry Halpin and James Cheney</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">4. Updating RDFS ABoxes and TBoxes in SPARQL,
+<span style="color:#666">Albin Ahmeti,Diego Calvanese and Axel Polleres</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 300</td>
+
+</tr>
+<tr>
+<td>15:20 - 15:40</td>
+<td><span><b style="font-size:110%">
+
+
+Coffee break
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Palameeting</td>
+
+</tr>
+<tr>
+<td>15:40 - 16:40</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: Semantic Infrastructures & Streams
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Tania Tudorache</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. Semantic Web Application development with LITEQ,
+<span style="color:#666">Martin Leinberger,Stefan Scheglmann,Ralf Laemmel,Steffen Staab,Matthias Thimm and Evelyne Viegas</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. Semantic-based Process Analysis,
+<span style="color:#666">Chiara Di Francescomarino,Francesco Corcoglioniti,Mauro Dragoni,Piergiorgio Bertoli,Roberto Tiella,Chiara Ghidini,Michele Nori and Marco Pistore</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. Efficient RDF Interchange (ERI) Format for RDF Data Streams,
+<span style="color:#666">Javier D. Fernández,Alejandro Llaves and Oscar Corcho</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 300</td>
+
+</tr>
+<tr>
+<td>15:40 - 16:40</td>
+<td><span><b style="font-size:110%">
+
+Session:
+
+Session: Social media
+</b>
+</span>
+
+<div class="details">
+
+<div style="padding-left:10px;margin:2px;">
+<span style="color:#666">chair(s): Lora Aroyo</span>
+</div>
+
+
+
+<div style="padding-left:20px;margin:1px;">1. Semantic Patterns for Sentiment Analysis of Twitter,
+<span style="color:#666">Hassan Saif,Yulan He,Miriam Fernandez and Harith Alani</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">2. Stretching the Life of Twitter Classifiers with Time-Stamped Semantic Graphs,
+<span style="color:#666">A. Elizabeth Cano,Yulan He and Harith Alani</span>
+<sup><span style="color:DarkRed">Research Track Paper</span></sup>
+
+
+
+</div>
+<div style="padding-left:20px;margin:1px;">3. Linked Open Data Driven Game Generation,
+<span style="color:#666">Rob Warren and Erik Champion</span>
+<sup><span style="color:DarkRed">Semantic Web In Use Track Paper</span></sup>
+
+
+
+</div>
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+<tr>
+<td>16:40 - 17:10</td>
+<td><span><b style="font-size:110%">
+
+
+Closing and prizes
+</b>
+</span>
+
+<div class="details">
+
+
+
+
+
+</div>
+
+</td>
+
+<td>Sala 1000A</td>
+
+</tr>
+</table>
+
+</body></html>

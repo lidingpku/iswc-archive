@@ -5,9 +5,9 @@ BEGIN:VEVENT
 SUMMARY:Pre-Registration
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051105T170000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051105T210000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-05T17:00:00d99e
- aedd-ee58-445d-893b-ee161388fe4c
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-05T17:00:0085e2
+ a0a3-3454-4977-9e79-c8a4d6bf1c2b
 CATEGORY:SpecialEvent
 DESCRIPTION:
 LOCATION:
@@ -17,12 +17,12 @@ SUMMARY:Full-Day Workshop: Semantic Web Enabled Software Engineering (SWES
  E)
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T090000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T173000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-06T09:00:0037e4
- 9b57-c113-440a-b876-f5ec6b89bf4d
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-06T09:00:00be26
+ 65c4-9816-4a2d-9560-c665f1791045
 CATEGORY:WorkshopEvent
-DESCRIPTION:chair: Phil Tetlow\,Jeff Z. Pan\,Evan Wallace\,Elisa F. Kendal
- l
+DESCRIPTION:chair: Phil Tetlow\,Jeff Z. Pan\,Evan K. Wallace\,Elisa F. Ken
+ dall
 LOCATION:The Quinn Suite
 END:VEVENT
 BEGIN:VEVENT
@@ -30,9 +30,9 @@ SUMMARY:Full-Day Workshop: The Semantic Desktop - Next Generation Personal
   Information Management and Collaboration Infrastructure
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T090000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T173000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-06T09:00:00f494
- 70d6-63b0-472f-8ede-f8f95d01f7da
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-06T09:00:003d58
+ 1821-fb03-4836-83c1-a1cb082640e9
 CATEGORY:WorkshopEvent
 DESCRIPTION:chair: Stefan Decker\,Leo Sauermann\,Jack Park\,Dennis Quan
 LOCATION:Inis Mór Ballroom 1
@@ -41,9 +41,9 @@ BEGIN:VEVENT
 SUMMARY:Morning Tutorial: MDA Standards for Ontology Development
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T090000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T123000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-06T09:00:009171
- 4b22-d46c-4326-912c-306005a6a261
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-06T09:00:000bc3
+ c2a1-98c4-41aa-9314-03fe0a193982
 CATEGORY:TutorialEvent
 DESCRIPTION:chair: Vladan Devedzic\,Dragan Gasevic\,Dragan Djuric
 LOCATION:Inis Mór Ballroom 2
@@ -53,9 +53,9 @@ SUMMARY:Morning Tutorial: Semantic Web Rules with Ontologies\, and Their E
  -Service Applications
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T090000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T123000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-06T09:00:00a79b
- 2b41-539f-4e69-8a79-014fba864ad6
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-06T09:00:00f41f
+ c282-06ca-4333-8e7b-2d85e9bc29c2
 CATEGORY:TutorialEvent
 DESCRIPTION:chair: Mike Dean\,Micheal Kifer\,Benjamin Grosof
 LOCATION:Inis Mór Ballroom 3
@@ -64,9 +64,9 @@ BEGIN:VEVENT
 SUMMARY:Morning Coffee
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T103000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T110000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-06T10:30:007068
- db96-ae07-41f6-a8b7-aea4822f21c4
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-06T10:30:00495a
+ 4910-b045-45b7-9be2-44221f56304c
 CATEGORY:BreakEvent
 DESCRIPTION:
 LOCATION:
@@ -75,9 +75,9 @@ BEGIN:VEVENT
 SUMMARY:Lunch
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T123000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T140000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-06T12:30:003f47
- ac8d-6388-46a8-9bce-401def2a4f26
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-06T12:30:00f7a3
+ 0734-c8da-474a-a124-f59313cdab00
 CATEGORY:BreakEvent
 DESCRIPTION:
 LOCATION:
@@ -87,21 +87,21 @@ SUMMARY:Afternoon Tutorial: Ontology Design Patterns and Problems: Practic
  al Ontology Engineering using Protégé-OWL
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T140000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T173000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-06T14:00:00b4c8
- d266-27c0-43b7-b402-fdd003e0b04b
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-06T14:00:001f80
+ 6f8f-e3e6-4b29-93f0-1d3c45a065e6
 CATEGORY:TutorialEvent
-DESCRIPTION:chair: Robert Stevens\,Nick Drummond\,Natalya F. Noy\,Matthew 
- Horridge\,Mark A. Musen\,Alan Rector
+DESCRIPTION:chair: Robert Stevens\,Nick Drummond\,Natalya Noy\,Matthew Hor
+ ridge\,Mark A. Musen\,Alan Rector
 LOCATION:Inis Mór Ballroom 3
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Afternoon Tutorial: Semantic Web Service Systems and Tools
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T140000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T173000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-06T14:00:00b295
- 0c1d-5a80-4de5-a561-3099db2c3dcb
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-06T14:00:00805e
+ 6ac3-3d3a-4bcb-8122-20cb32343085
 CATEGORY:TutorialEvent
 DESCRIPTION:chair: Michal Zaremba\,Michael Stollberg\,Matthew Moran\,Lilia
  na Cabral\,John Domingue\,Christoph Bussler
@@ -111,9 +111,9 @@ BEGIN:VEVENT
 SUMMARY:Afternoon Coffee
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T153000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051106T160000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-06T15:30:00dca2
- 754a-b1d3-44bf-b61a-683309faedc9
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-06T15:30:002931
+ 8e5b-74a9-4928-937d-dc2bdd3c8213
 CATEGORY:BreakEvent
 DESCRIPTION:
 LOCATION:
@@ -122,9 +122,9 @@ BEGIN:VEVENT
 SUMMARY:Full-Day Workshop: End User Semantic Web Interaction
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T090000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T173000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-07T09:00:00c34a
- dfa0-1e75-4b24-8d62-8b79cafe1412
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-07T09:00:008990
+ ad0e-b714-4778-8298-f77861a940dd
 CATEGORY:WorkshopEvent
 DESCRIPTION:chair: Ion Androutsopoulos\,Duane Degler\,Brian McBride\,Abrah
  am Bernstein
@@ -135,9 +135,9 @@ SUMMARY:Full-Day Workshop: Knowledge Markup and Semantic Annotation (Seman
  not2005)
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T090000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T173000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-07T09:00:00f7b4
- cf05-e084-490c-81e5-82d14fbea8bc
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-07T09:00:007870
+ bc45-9008-4187-8e43-1439e0c56425
 CATEGORY:WorkshopEvent
 DESCRIPTION:chair: Thierry Declerck\,Siegfried Handschuh\,Marja-Riitta Koi
  vunen
@@ -147,9 +147,9 @@ BEGIN:VEVENT
 SUMMARY:Full-Day Workshop: Semantic Network Analysis
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T090000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T173000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-07T09:00:000539
- b382-0f48-4d86-9137-f67c8accc187
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-07T09:00:00e1eb
+ fcbc-d7db-43fe-a0e3-16ec7a4bf521
 CATEGORY:WorkshopEvent
 DESCRIPTION:chair: Harith Alani\,Gerd Stumme\,Christoph Schmitz\,Bettina H
  oser
@@ -159,20 +159,20 @@ BEGIN:VEVENT
 SUMMARY:Full-Day Workshop: The Semantic Web and Policy Workshop (SWPW)
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T090000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T173000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-07T09:00:0000ba
- edc9-4936-4a9f-8e45-69790acb5f8a
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-07T09:00:001b35
+ 5f3d-5cf0-4498-98ae-6d72ea949ab3
 CATEGORY:WorkshopEvent
-DESCRIPTION:chair: Tim Finin\,Lalana Kagal\,Jim Hendler
+DESCRIPTION:chair: Tim Finin\,Lalana Kagal\,James Hendler
 LOCATION:Marinas Restaurant
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ISWC2005 Doctoral Symposium
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T090000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T170000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-07T09:00:007bb4
- 8d18-8d14-4984-bb98-24baf100cd25
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-07T09:00:00f92c
+ 897b-83b3-4bc1-a8fe-71cf9fdc5873
 CATEGORY:SpecialEvent
 DESCRIPTION:chair: Enda Ridge\,Edward Curry
 LOCATION:Joyce Suite\, Radisson Hotel
@@ -181,9 +181,9 @@ BEGIN:VEVENT
 SUMMARY:Morning Workshop: Uncertainty Reasoning For the Semantic Web
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T090000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T123000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-07T09:00:005e4e
- 77c9-810d-4b37-8331-d99e3bb39dc3
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-07T09:00:0041d0
+ 08e5-f962-4401-95b7-d4f080fb449f
 CATEGORY:WorkshopEvent
 DESCRIPTION:chair: Paulo C. G. Costa\,Michael Pool\,Kenneth J. Laskey\,Kat
  hryn B. Laskey
@@ -193,9 +193,9 @@ BEGIN:VEVENT
 SUMMARY:Morning Coffee
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T103000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T110000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-07T10:30:00282b
- f2ee-1454-4c19-8044-6252cb1ac4e6
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-07T10:30:000f3f
+ 7923-6b6d-487e-aa49-175e6a02f38b
 CATEGORY:BreakEvent
 DESCRIPTION:
 LOCATION:
@@ -204,9 +204,9 @@ BEGIN:VEVENT
 SUMMARY:Lunch
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T123000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T140000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-07T12:30:00812d
- 2dcf-8622-46b0-bac9-60ad44174efe
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-07T12:30:00d503
+ b7c0-94b9-4db7-a329-e4aa2fc6af0f
 CATEGORY:BreakEvent
 DESCRIPTION:
 LOCATION:
@@ -215,9 +215,9 @@ BEGIN:VEVENT
 SUMMARY:Industry Day – Information Juggernaut
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T134500
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T170000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-07T13:45:007047
- 4c27-d797-4d5d-a24b-d84beea4751b
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-07T13:45:0029c0
+ 157d-8c71-4aaa-8800-77e8116650e4
 CATEGORY:SpecialEvent
 DESCRIPTION:chair: Brian Cummins
 LOCATION:Aula Maxima\, NUI Galway
@@ -226,9 +226,9 @@ BEGIN:VEVENT
 SUMMARY:Afternoon Workshop: Ontology Patterns for the Semantic Web
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T140000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T173000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-07T14:00:00ae5a
- 0fe3-cc5c-4f9d-9d83-12dd147bb121
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-07T14:00:00a3d3
+ f2b3-1a15-4e55-8132-7c112cd9391c
 CATEGORY:WorkshopEvent
 DESCRIPTION:chair: Chris Welty\,Aldo Gangemi
 LOCATION:Inis Mór Ballroom 1
@@ -238,9 +238,9 @@ SUMMARY:Afternoon Workshop: Semantic Web Case Studies and Best Practices f
  or eBusiness (SWCASE)
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T140000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T173000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-07T14:00:00213e
- e834-a13c-4a26-8317-e072fa08b4d8
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-07T14:00:00dd9c
+ 474e-90ce-4e17-9a52-400ecae610b0
 CATEGORY:WorkshopEvent
 DESCRIPTION:chair: Robert Tolksdorf\,Guus Schreiber\,Alain Leger
 LOCATION:Inis Mór Ballroom 3
@@ -249,9 +249,9 @@ BEGIN:VEVENT
 SUMMARY:Afternoon Coffee
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T153000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051107T160000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-07T15:30:00c5fd
- 5afc-2a07-46c2-af12-e873835c531f
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-07T15:30:00889e
+ 23b7-54aa-478b-b92e-393d1867441f
 CATEGORY:BreakEvent
 DESCRIPTION:
 LOCATION:
@@ -260,9 +260,9 @@ BEGIN:VEVENT
 SUMMARY:ISWC2005 Introduction and Welcome
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T090000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T091500
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-08T09:00:001f1b
- 19df-b33a-4a15-b4cf-dc9e00735d60
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-08T09:00:00a9c7
+ 3a77-68fd-4cba-bba4-0f11e9f69207
 CATEGORY:SpecialEvent
 DESCRIPTION:
 LOCATION:
@@ -271,9 +271,9 @@ BEGIN:VEVENT
 SUMMARY:ISWC2005 Awards
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T091500
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T093000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-08T09:15:00fea3
- 5834-bdfd-41fc-b067-6eea05de282e
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-08T09:15:00978b
+ e2ca-1c29-431a-bbd2-666700594351
 CATEGORY:SpecialEvent
 DESCRIPTION:
 LOCATION:
@@ -283,20 +283,20 @@ SUMMARY:Using the Semantic Web for e-Science - Inspiration\, Incubation\,
  Irritation
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T093000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T103000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-08T09:30:006653
- 9b93-2031-41fe-90cb-b8950dc4bc9f
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-08T09:30:008658
+ a97d-1eca-45eb-9958-af88f7a3b365
 CATEGORY:InvitedTalkEvent
-DESCRIPTION:presenter: Carole Goble
+DESCRIPTION:presenter: Carole A. Goble
 LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Morning Coffee
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T103000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T110000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-08T10:30:00f0ab
- 866a-b5f8-49bb-a37d-bafac6d568ac
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-08T10:30:00bcde
+ fc8f-32a3-4002-8a3e-bac6cbbfde32
 CATEGORY:BreakEvent
 DESCRIPTION:
 LOCATION:
@@ -305,9 +305,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session Ia - SOCIAL NETWORKS
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T110000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T123000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-08T11:00:00da39
- 5208-0666-4027-9bc0-77e145b3123c
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-08T11:00:000382
+ e1bf-49b6-4114-af74-e5068aadb64a
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Stefan Decker\n -Ontologies Are Us: A Unified Model of 
  Social Networks and Semantics ( Research Track Paper)\n -Searching Dynamic
@@ -320,9 +320,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session Ib - EDITING AND VISUALIZING ONTOLOGIES
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T110000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T123000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-08T11:00:004a46
- ffe3-d017-4329-810d-59dea3084076
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-08T11:00:000e5d
+ f256-fd1e-4a75-ab87-f75403fa99dd
 CATEGORY:SessionEvent
 DESCRIPTION:chair: John Domingue\n -Towards Imaging Large-Scale Ontologies
   for Quick Understanding and Analysis ( Research Track Paper)\n -Querying 
@@ -335,9 +335,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session Ic - E-SCIENCE
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T110000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T123000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-08T11:00:00b7af
- 93b2-2012-4cee-b37b-7a448819f44c
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-08T11:00:00f522
+ 90e2-8646-4352-b7cb-c006b3fb31de
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Terry Payne\n -A Little Semantic Web Goes a Long Way in
   Biology ( Research Track Paper)\n -Provenance-Based Validation of E-Scien
@@ -349,9 +349,9 @@ BEGIN:VEVENT
 SUMMARY:Lunch
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T123000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T133000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-08T12:30:007fd7
- c999-0857-48c5-9e24-2ffaddc63d8d
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-08T12:30:007b9e
+ e92a-85a1-4392-9ece-567650fbd682
 CATEGORY:BreakEvent
 DESCRIPTION:
 LOCATION:
@@ -360,9 +360,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session IIa - EVALUATION AND BENCHMARKING
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T133000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T150000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-08T13:30:0006cb
- e011-b1f3-41de-818a-dedb4aa1b3cf
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-08T13:30:0047d1
+ 65e4-e1e6-4bac-b554-7e9508a72ecd
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Sean Bechhofer\n -A Large Scale Taxonomy Mapping Evalua
  tion ( Research Track Paper)\n -Rapid Benchmarking for Semantic Web Knowle
@@ -375,9 +375,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session IIb - ONTOLOGY EVOLUTION
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T133000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T150000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-08T13:30:000415
- 7450-fb70-44db-90c5-b9109fa98878
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-08T13:30:00d1eb
+ 4a44-b0dc-4099-b124-8c35d9d4d710
 CATEGORY:SessionEvent
 DESCRIPTION:chair: York Sure\n -Ontology Change Detection Using a Version 
  Log ( Research Track Paper)\n -RUL: A Declarative Update Language for RDF 
@@ -389,9 +389,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session IIc - SEMANTIC WEB SERVICES
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T133000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T150000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-08T13:30:006b40
- ee14-84cc-4a4b-b049-bc0f563539e5
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-08T13:30:00be4a
+ 71ae-63dd-40c1-b203-3b4a1af00142
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Sheila McIlraith\n -Information Modeling for End to End
   Composition of Semantic Web Services ( Research Track Paper)\n -Choreogra
@@ -405,9 +405,9 @@ BEGIN:VEVENT
 SUMMARY:Afternoon Coffee
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T150000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T153000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-08T15:00:00acff
- b7a1-32de-4ab6-ab96-db1b4d739afe
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-08T15:00:00dc6d
+ eb83-79aa-4015-8992-b2df40f3489d
 CATEGORY:BreakEvent
 DESCRIPTION:
 LOCATION:
@@ -416,9 +416,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session IIIc - WEB SERVICES
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T153000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T170000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-08T15:30:003ae2
- 0415-6956-4e37-b9f6-179c744841d2
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-08T15:30:001dad
+ 1a35-772b-4e46-b64b-e2c0b63407da
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Alain Leger\n -Automated Business-to-Business Integrati
  on of a Logistics Supply Chain Using Semantic Web Services Technology ( In
@@ -432,9 +432,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session IIIa - DEBUGGING AND INCONSISTENCY MANAGEMENT
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T153000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T170000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-08T15:30:00d973
- daf9-cf1b-490e-8f76-a034b8122520
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-08T15:30:004ebb
+ c8e3-9ee0-463e-8f00-f6d9abad234b
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Guus Schreiber\n -Debugging OWL-DL Ontologies: A Heuris
  tic Approach ( Research Track Paper)\n -A General Diagnosis Method for Ont
@@ -446,9 +446,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session IIIb - LOGIC AND REASONING
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T153000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051108T170000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-08T15:30:00443c
- c5a2-e4cf-4534-95cc-44ecb0e516a9
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-08T15:30:001aa9
+ 1d57-aaa8-4da0-9590-782aec8c25fc
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Fausto Giunchiglia\n -On the Properties of Metamodeling
   in OWL ( Research Track Paper)\n -RDF Entailment as a Graph Homomorphism 
@@ -461,9 +461,9 @@ SUMMARY:"The Practical Web" - Semantic Acceleration Helping Realize the Se
  mantic Web Vision
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T090000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T100000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-09T09:00:003b1d
- ca97-b6de-4423-977b-f152fe467178
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-09T09:00:006579
+ b0f2-81e5-4c15-978a-5e87082af753
 CATEGORY:InvitedTalkEvent
 DESCRIPTION:presenter: Alfred Spector
 LOCATION:
@@ -472,9 +472,9 @@ BEGIN:VEVENT
 SUMMARY:Morning Coffee
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T100000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T103000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-09T10:00:0028e9
- 0ca5-b787-4f9a-93c6-0f90584154df
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-09T10:00:002fe1
+ 6a14-1f12-43fd-a147-20bdf76c515c
 CATEGORY:BreakEvent
 DESCRIPTION:
 LOCATION:
@@ -483,25 +483,25 @@ BEGIN:VEVENT
 SUMMARY:Paper Session IVc - SECTOR APPLICATIONS I
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T103000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T120000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-09T10:30:00e876
- 5cde-442d-456c-b961-a170612a1364
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-09T10:30:00a3e4
+ 9de5-46fa-4fe0-8fe8-e4abd08fd0c3
 CATEGORY:SessionEvent
-DESCRIPTION:chair: Nigel Shadbolt\n -LKMS - A Legal Knowledge Management S
- ystem Exploiting Semantic Web Technologies ( Industrial Track Paper)\n -Do
-  Not Use This Gear with a Switching Lever! Automotive Industry Experience 
- with Semantic Guides ( Industrial Track Paper)\n -Definitions Management: 
- A Semantics-Based Approach for Clinical Documentation in Healthcare Delive
- ry ( Industrial Track Paper)
+DESCRIPTION:chair: Nigel R Shadbolt\n -LKMS - A Legal Knowledge Management
+  System Exploiting Semantic Web Technologies ( Industrial Track Paper)\n -
+ Do Not Use This Gear with a Switching Lever! Automotive Industry Experienc
+ e with Semantic Guides ( Industrial Track Paper)\n -Definitions Management
+ : A Semantics-Based Approach for Clinical Documentation in Healthcare Deli
+ very ( Industrial Track Paper)
 LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Paper Session IVa - SEMANTIC MARKUP AND BROWSING
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T103000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T120000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-09T10:30:00a9d9
- 799f-a8b2-4d30-857b-31848ab670be
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-09T10:30:008447
+ ec66-bff8-4a3b-911a-cfe288b5472a
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Frank van Harmelen\n -Piggy Bank: Experience the Semant
  ic Web Inside Your Web Browser ( Research Track Paper)\n -A Template-Based
@@ -513,9 +513,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session IVb - AGENTS AND DISTRIBUTED ARCHITECTURES
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T103000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T120000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-09T10:30:000cfb
- cc80-0cdc-4847-8c9e-ec656acb36e2
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-09T10:30:002462
+ 5ae1-5dc1-47c1-95f4-f4f1cbb6768d
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Alun Preece\n -A Strategy for Automated Meaning Negotia
  tion in Distributed Information Retrieval ( Research Track Paper)\n -Intro
@@ -528,9 +528,9 @@ BEGIN:VEVENT
 SUMMARY:Lunch
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T120000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T130000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-09T12:00:008fd9
- fa76-312b-4570-ab0f-b5e319644dfe
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-09T12:00:00d41d
+ 6802-9058-448d-9f41-4ec220d9f86c
 CATEGORY:BreakEvent
 DESCRIPTION:
 LOCATION:
@@ -539,9 +539,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session Vc - SECTOR APPLICATIONS II
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T130000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T143000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-09T13:00:001000
- a775-cfb2-4625-b368-71d3360ed3de
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-09T13:00:004eec
+ f2d0-1882-4a1c-b50a-efff177b13f3
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Hans-Peter Schnurr\n -Ubiquitous Service Finder Discove
  ry of Services Semantically Derived from Metadata in Ubiquitous Computing 
@@ -555,9 +555,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session Va - RDF QUERYING AND STORAGE
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T130000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T143000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-09T13:00:00d315
- 13b6-0c3f-4480-8745-fcb741cb1844
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-09T13:00:00aa38
+ aa91-5a77-46ab-8228-436ebe8e0f45
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Bijan Parsia\n -Benchmarking Database Representations o
  f RDF/S Stores ( Research Track Paper)\n -Containment and Minimization of 
@@ -570,9 +570,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session Vb - ONTOLOGY MAPPING AND ALIGNMENT I
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T130000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T143000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-09T13:00:0048ca
- 2844-cee8-421c-9928-fa00b12ee576
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-09T13:00:007388
+ b783-6dae-4d19-acd3-9d25512019d4
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Deborah McGuinness\n -Bootstrapping Ontology Alignment 
  Methods with APFEL ( Research Track Paper)\n -A Method to Combine Linguist
@@ -584,9 +584,9 @@ BEGIN:VEVENT
 SUMMARY:Afternoon Coffee
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T143000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T150000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-09T14:30:009b75
- 0935-b8bc-4f3f-a167-088494d0e962
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-09T14:30:00be98
+ e03a-f5d4-4e6d-9f04-978519e24d4c
 CATEGORY:BreakEvent
 DESCRIPTION:
 LOCATION:
@@ -595,9 +595,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session VIc - METHODOLOGY
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T150000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T163000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-09T15:00:007d71
- 60f1-0c08-4e89-a4e0-9edb45f59b18
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-09T15:00:00ffef
+ 0740-c9b4-4a27-a33f-2a9ade566a91
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Luca Gilardoni\n -On Identifying Knowledge Processing R
  equirements ( Industrial Track Paper)\n -Towards a Killer App for the Sema
@@ -609,9 +609,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session VIa - ONTOLOGY CREATION
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T150000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T163000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-09T15:00:00d3c8
- 897b-b5d4-44f7-83ae-1459760ae065
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-09T15:00:00dd90
+ a4d6-9d75-45e1-a04a-aa852000b96a
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Marta Sabou\n -RelExt: A Tool for Relation Extraction f
  rom Text in Ontology Extension ( Research Track Paper)\n -Graph-Based Infe
@@ -624,9 +624,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session VIb - ONTOLOGY MAPPING AND ALIGNMENT II
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T150000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T163000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-09T15:00:00fb72
- a16e-5393-4648-81f2-352d5a43b71f
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-09T15:00:00f3a9
+ 35f7-7d8e-40b0-973d-cafd9a13429d
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Jerome Euzenat\n -Constructing Complex Semantic Mapping
  s Between XML Data and Ontologies ( Research Track Paper)\n -OMEN: A Proba
@@ -639,9 +639,9 @@ SUMMARY:EU Future Funding Session - Back to the drawing board: Options and
   directions for FP7 research
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T163000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051109T180000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-09T16:30:003381
- 2359-b71e-4b77-9976-c22c80475fb2
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-09T16:30:0031eb
+ f1b5-7604-4e22-baa0-added5b808c0
 CATEGORY:SpecialEvent
 DESCRIPTION:
 LOCATION:
@@ -651,9 +651,9 @@ SUMMARY:Semantic Web Public Policy Challenges: Privacy\, Provenance\, Prop
  erty and Personhood
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T090000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T100000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-10T09:00:007d15
- 822e-204b-4330-a57c-14916c55bbf5
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-10T09:00:007413
+ b93e-1a31-46f9-8444-be0c46daeb44
 CATEGORY:InvitedTalkEvent
 DESCRIPTION:presenter: Daniel J Weitzner
 LOCATION:
@@ -662,9 +662,9 @@ BEGIN:VEVENT
 SUMMARY:Morning Coffee
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T100000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T103000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-10T10:00:006721
- 30f3-c872-4d2b-9781-d9f3a9085657
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-10T10:00:003098
+ 37dc-0338-46e7-a204-ff569ee2eeec
 CATEGORY:BreakEvent
 DESCRIPTION:
 LOCATION:
@@ -673,9 +673,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session VIIc - Applied Technology
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T103000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T120000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-10T10:30:0021ab
- 5d25-594a-450d-8afc-addad161f56f
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-10T10:30:007190
+ fdf8-c462-4d70-9833-32cba9dc1394
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Chris Priest\n -Gnowsis Adapter Framework: Treating Str
  uctured Data Sources as Virtual RDF Graphs ( Industrial Track Paper)\n -Th
@@ -688,9 +688,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session VIIa - RULES
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T103000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T120000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-10T10:30:003545
- 9899-ba69-4b38-b4eb-7cc074bc39fa
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-10T10:30:00c852
+ 02f0-dc1b-4068-a6c1-28776cb5a28e
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Ian Horrocks\n -Combining RDF and Part of OWL with Rule
  s: Semantics\, Decidability\, Complexity ( Research Track Paper)\n -Stable
@@ -702,9 +702,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session VIIb - TRUST AND POLICIES
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T103000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T120000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-10T10:30:0052e8
- a5fa-48ba-4dc5-bdb4-7c819a002b6b
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-10T10:30:00ad66
+ 691d-3508-4633-b20a-3f5ea2b82489
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Norman Sadeh\n -Preferential Reasoning on a Web of Trus
  t ( Research Track Paper)\n -On Partial Encryption of RDF-Graphs ( Researc
@@ -716,9 +716,9 @@ BEGIN:VEVENT
 SUMMARY:Lunch
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T120000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T130000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-10T12:00:005c97
- 2358-16c4-4236-bebe-fddde4fb1f52
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-10T12:00:00c860
+ e07e-f307-4eab-befb-178fd4c06e55
 CATEGORY:BreakEvent
 DESCRIPTION:
 LOCATION:
@@ -727,9 +727,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session VIIIc - SECTOR APPLICATIONS III
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T130000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T140000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-10T13:00:0049ae
- d41a-6e6f-4858-a368-41a26af46843
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-10T13:00:00495a
+ 164d-f199-4b2b-8a02-ee2b02f8c524
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Dean Allemang\n -A Semantic Search Engine for the Inter
  national Relation Sector ( Industrial Track Paper)\n -Semantic Service Int
@@ -740,9 +740,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session VIIIa - SEMANTIC SEARCH AND BROWSING
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T130000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T140000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-10T13:00:003e25
- cd15-97f1-455d-b65e-64e0af28f275
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-10T13:00:001ff2
+ 3e44-da00-4fd5-852f-e7f9cc277342
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Paul Buitelaar\n -RitroveRAI: A Web Application for Sem
  antic Indexing and Hyperlinking of Multimedia News ( Research Track Paper)
@@ -753,9 +753,9 @@ BEGIN:VEVENT
 SUMMARY:Paper Session VIIIb - VERSIONING AND CONTEXT
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T130000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T140000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-10T13:00:00119f
- cd46-ecbb-4d18-b673-129cdd47cda1
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-10T13:00:007554
+ a08c-fb62-43fb-9336-300da86d2b00
 CATEGORY:SessionEvent
 DESCRIPTION:chair: Jeff Heflin\n -Reasoning with Multi-version Ontologies:
   A Temporal Logic Approach ( Research Track Paper)\n -Decentralized Case-B
@@ -766,9 +766,9 @@ BEGIN:VEVENT
 SUMMARY:Afternoon Coffee
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T140000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T143000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-10T14:00:00b2bf
- b91e-f80f-49ce-bd87-54bed686ccce
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-10T14:00:00001d
+ 0231-9f37-4214-a044-88835fd83a82
 CATEGORY:BreakEvent
 DESCRIPTION:
 LOCATION:
@@ -777,9 +777,9 @@ BEGIN:VEVENT
 SUMMARY:Plenary Session: Semantic Web Challenge
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T143000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T150000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-10T14:30:00c640
- 2712-6eb3-4f92-8c2d-6393ceeb5ce3
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-10T14:30:003a4b
+ 867d-d0cf-4819-bf57-b0f20c00087c
 CATEGORY:SpecialEvent
 DESCRIPTION:
 LOCATION:
@@ -788,9 +788,9 @@ BEGIN:VEVENT
 SUMMARY:Plenary Session: RuleML Opening Remarks
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T150000
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T151500
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-10T15:00:008ce5
- 36a8-c9c8-4449-a13f-aeadfbc4fd26
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-10T15:00:003c47
+ badf-cc4c-464f-825e-7eff0679a64c
 CATEGORY:SpecialEvent
 DESCRIPTION:
 LOCATION:
@@ -799,20 +799,20 @@ BEGIN:VEVENT
 SUMMARY:Plenary Session: Putting the Web back in Semantic Web
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T151500
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T161500
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-10T15:15:00c67f
- 2a29-2c72-4028-bd80-0e5a4a19b7bb
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-10T15:15:0004fb
+ ef9d-88fc-49fa-8eaa-77065f9ba130
 CATEGORY:InvitedTalkEvent
-DESCRIPTION:presenter: Sir Tim Berners Lee
+DESCRIPTION:presenter: Tim Berners-Lee
 LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Plenary Session: ISWC Closing Remarks
 DTSTART;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T161500
 DTEND;TZID=Europe/Dublin;VALUE=DATE-TIME:20051110T163000
-DTSTAMP;VALUE=DATE-TIME:20131022T180904Z
-UID:The_Forth_International_Semantic_Web_Conference2005-11-10T16:15:007969
- c8ef-04e1-43f6-a667-9f6bd374f581
+DTSTAMP;VALUE=DATE-TIME:20141004T002607Z
+UID:The_Forth_International_Semantic_Web_Conference2005-11-10T16:15:003d92
+ 0337-bf12-474c-a93a-0c0d90c79e27
 CATEGORY:SpecialEvent
 DESCRIPTION:
 LOCATION:

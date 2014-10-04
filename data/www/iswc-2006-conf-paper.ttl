@@ -16,7 +16,7 @@
 <http://data.semanticweb.org/conference/iswc/2006> swrc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2006/proceedings> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/editor_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/isabel-cruz> ;
+    rdf:_1 <http://data.semanticweb.org/person/isabel-f-cruz> ;
     rdf:_2 <http://data.semanticweb.org/person/stefan-decker> ;
     rdf:_3 <http://data.semanticweb.org/person/dean-allemang> ;
     rdf:_4 <http://data.semanticweb.org/person/chris-preist> ;
@@ -31,7 +31,7 @@
     rdf:_3 <http://data.semanticweb.org/person/toru-ishida> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-02/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/amit-p-sheth> ;
+    rdf:_1 <http://data.semanticweb.org/person/amit-sheth> ;
     rdf:_2 <http://data.semanticweb.org/person/s-agrawal> ;
     rdf:_3 <http://data.semanticweb.org/person/jon-lathem> ;
     rdf:_4 <http://data.semanticweb.org/person/nicole-oldham> ;
@@ -44,7 +44,7 @@
     rdf:_2 <http://data.semanticweb.org/person/alain-leger> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-04/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/natalya-fridman-noy> ;
+    rdf:_1 <http://data.semanticweb.org/person/natalya-noy> ;
     rdf:_2 <http://data.semanticweb.org/person/abhita-chugh> ;
     rdf:_3 <http://data.semanticweb.org/person/william-liu> ;
     rdf:_4 <http://data.semanticweb.org/person/mark-a-musen> .
@@ -52,7 +52,7 @@
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-05/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/cartic-ramakrishnan> ;
     rdf:_2 <http://data.semanticweb.org/person/krys-kochut> ;
-    rdf:_3 <http://data.semanticweb.org/person/amit-p-sheth> .
+    rdf:_3 <http://data.semanticweb.org/person/amit-sheth> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-06/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/willem-robert-van-hage> ;
@@ -63,7 +63,7 @@
     rdf:_1 <http://data.semanticweb.org/person/jinghai-rao> ;
     rdf:_2 <http://data.semanticweb.org/person/dimitar-dimitrov> ;
     rdf:_3 <http://data.semanticweb.org/person/paul-hofmann> ;
-    rdf:_4 <http://data.semanticweb.org/person/norman-m-sadeh> .
+    rdf:_4 <http://data.semanticweb.org/person/norman-sadeh> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-08/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/saartje-brockmans> ;
@@ -72,7 +72,7 @@
     rdf:_4 <http://data.semanticweb.org/person/elisa-f-kendall> ;
     rdf:_5 <http://data.semanticweb.org/person/evan-k-wallace> ;
     rdf:_6 <http://data.semanticweb.org/person/christopher-a-welty> ;
-    rdf:_7 <http://data.semanticweb.org/person/guo-tong-xie> .
+    rdf:_7 <http://data.semanticweb.org/person/guoton-xie> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-09/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/carlos-a-hurtado> ;
@@ -106,7 +106,7 @@
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-13/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/taowei-david-wang> ;
     rdf:_2 <http://data.semanticweb.org/person/bijan-parsia> ;
-    rdf:_3 <http://data.semanticweb.org/person/james-a-hendler> .
+    rdf:_3 <http://data.semanticweb.org/person/james-hendler> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-14/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/melanie-aurnhammer> ;
@@ -133,7 +133,7 @@
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-18/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/yaozhong-liang> ;
     rdf:_2 <http://data.semanticweb.org/person/harith-alani> ;
-    rdf:_3 <http://data.semanticweb.org/person/nigel-shadbolt> .
+    rdf:_3 <http://data.semanticweb.org/person/nigel-r-shadbolt> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-19/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/li-ding> ;
@@ -183,7 +183,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-29/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/j-william-murdock> ;
-    rdf:_2 <http://data.semanticweb.org/person/deborah-l-mcguinness> ;
+    rdf:_2 <http://data.semanticweb.org/person/deborah-mcguinness> ;
     rdf:_3 <http://data.semanticweb.org/person/paulo-pinheiro-da-silva> ;
     rdf:_4 <http://data.semanticweb.org/person/christopher-a-welty> ;
     rdf:_5 <http://data.semanticweb.org/person/david-a-ferrucci> .
@@ -220,7 +220,7 @@
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-36/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/emmanuel-pietriga> ;
     rdf:_2 <http://data.semanticweb.org/person/christian-bizer> ;
-    rdf:_3 <http://data.semanticweb.org/person/david-r-karger> ;
+    rdf:_3 <http://data.semanticweb.org/person/david-karger> ;
     rdf:_4 <http://data.semanticweb.org/person/ryan-lee> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-37/author_list> a rdf:Seq ;
@@ -356,14 +356,14 @@
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-60/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/harith-alani> ;
     rdf:_2 <http://data.semanticweb.org/person/christopher-brewster> ;
-    rdf:_3 <http://data.semanticweb.org/person/nigel-shadbolt> .
+    rdf:_3 <http://data.semanticweb.org/person/nigel-r-shadbolt> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-61/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/loredana-laera> ;
-    rdf:_2 <http://data.semanticweb.org/person/valentina-a-m-tamma> ;
+    rdf:_2 <http://data.semanticweb.org/person/valentina-tamma> ;
     rdf:_3 <http://data.semanticweb.org/person/jerome-euzenat> ;
     rdf:_4 <http://data.semanticweb.org/person/trevor-j-m-bench-capon> ;
-    rdf:_5 <http://data.semanticweb.org/person/terry-r-payne> .
+    rdf:_5 <http://data.semanticweb.org/person/terry-payne> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-62/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/oevuenc-oeztuerk> ;
@@ -384,7 +384,7 @@
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-66/author_list> a rdf:Seq ;
     rdf:_1 <http://data.semanticweb.org/person/peter-fox> ;
-    rdf:_2 <http://data.semanticweb.org/person/deborah-l-mcguinness> ;
+    rdf:_2 <http://data.semanticweb.org/person/deborah-mcguinness> ;
     rdf:_3 <http://data.semanticweb.org/person/don-middleton> ;
     rdf:_4 <http://data.semanticweb.org/person/luca-cinquini> ;
     rdf:_5 <http://data.semanticweb.org/person/j-anthony-darnell> ;
@@ -415,7 +415,7 @@
     rdf:_3 <http://data.semanticweb.org/person/varun-ratnakar> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-70/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/jorge-perez> ;
+    rdf:_1 <http://data.semanticweb.org/person/jorge-a-perez> ;
     rdf:_2 <http://data.semanticweb.org/person/marcelo-arenas> ;
     rdf:_3 <http://data.semanticweb.org/person/claudio-gutierrez> .
 
@@ -1227,10 +1227,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-81> ;
     foaf:name "David B. Parrish" .
 
-<http://data.semanticweb.org/person/david-r-karger> a foaf:Person ;
-    rdfs:label "David R. Karger" ;
+<http://data.semanticweb.org/person/david-karger> a foaf:Person ;
+    rdfs:label "David Karger" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-36> ;
-    foaf:name "David R. Karger" .
+    foaf:name "David Karger" .
 
 <http://data.semanticweb.org/person/dean-allemang> a foaf:Person ;
     rdfs:label "Dean Allemang" ;
@@ -1362,10 +1362,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-67> ;
     foaf:name "Gunnar Aastrand Grimnes" .
 
-<http://data.semanticweb.org/person/guo-tong-xie> a foaf:Person ;
-    rdfs:label "Guo Tong Xie" ;
+<http://data.semanticweb.org/person/guoton-xie> a foaf:Person ;
+    rdfs:label "Guoton Xie" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-08> ;
-    foaf:name "Guo Tong Xie" .
+    foaf:name "Guoton Xie" .
 
 <http://data.semanticweb.org/person/h-wingate> a foaf:Person ;
     rdfs:label "H. Wingate" ;
@@ -1407,10 +1407,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-12> ;
     foaf:name "Irene Celino" .
 
-<http://data.semanticweb.org/person/isabel-cruz> a foaf:Person ;
-    rdfs:label "Isabel Cruz" ;
+<http://data.semanticweb.org/person/isabel-f-cruz> a foaf:Person ;
+    rdfs:label "Isabel F. Cruz" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings> ;
-    foaf:name "Isabel Cruz" .
+    foaf:name "Isabel F. Cruz" .
 
 <http://data.semanticweb.org/person/ismailcem-budak-arpinar> a foaf:Person ;
     rdfs:label "Ismailcem Budak Arpinar" ;
@@ -1422,10 +1422,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-66> ;
     foaf:name "J. Anthony Darnell" .
 
-<http://data.semanticweb.org/person/james-a-hendler> a foaf:Person ;
-    rdfs:label "James A. Hendler" ;
+<http://data.semanticweb.org/person/james-hendler> a foaf:Person ;
+    rdfs:label "James Hendler" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-13> ;
-    foaf:name "James A. Hendler" .
+    foaf:name "James Hendler" .
 
 <http://data.semanticweb.org/person/james-l-benedict> a foaf:Person ;
     rdfs:label "James L. Benedict" ;
@@ -1502,10 +1502,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-02> ;
     foaf:name "Jon Lathem" .
 
-<http://data.semanticweb.org/person/jorge-perez> a foaf:Person ;
-    rdfs:label "Jorge Pérez" ;
+<http://data.semanticweb.org/person/jorge-a-perez> a foaf:Person ;
+    rdfs:label "Jorge A. Perez" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-70> ;
-    foaf:name "Jorge Pérez" .
+    foaf:name "Jorge A. Perez" .
 
 <http://data.semanticweb.org/person/jos-taekema> a foaf:Person ;
     rdfs:label "Jos Taekema" ;
@@ -1792,10 +1792,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-85> ;
     foaf:name "Nataliya Prokoshyna" .
 
-<http://data.semanticweb.org/person/natalya-fridman-noy> a foaf:Person ;
-    rdfs:label "Natalya Fridman Noy" ;
+<http://data.semanticweb.org/person/natalya-noy> a foaf:Person ;
+    rdfs:label "Natalya Noy" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-04> ;
-    foaf:name "Natalya Fridman Noy" .
+    foaf:name "Natalya Noy" .
 
 <http://data.semanticweb.org/person/nicole-oldham> a foaf:Person ;
     rdfs:label "Nicole Oldham" ;
@@ -1812,10 +1812,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-47> ;
     foaf:name "Norberto Fernández García" .
 
-<http://data.semanticweb.org/person/norman-m-sadeh> a foaf:Person ;
-    rdfs:label "Norman M. Sadeh" ;
+<http://data.semanticweb.org/person/norman-sadeh> a foaf:Person ;
+    rdfs:label "Norman Sadeh" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-07> ;
-    foaf:name "Norman M. Sadeh" .
+    foaf:name "Norman Sadeh" .
 
 <http://data.semanticweb.org/person/norman-w-paton> a foaf:Person ;
     rdfs:label "Norman W. Paton" ;
@@ -2057,10 +2057,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-31> ;
     foaf:name "Takumi Tsujishita" .
 
-<http://data.semanticweb.org/person/terry-r-payne> a foaf:Person ;
-    rdfs:label "Terry R. Payne" ;
+<http://data.semanticweb.org/person/terry-payne> a foaf:Person ;
+    rdfs:label "Terry Payne" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-61> ;
-    foaf:name "Terry R. Payne" .
+    foaf:name "Terry Payne" .
 
 <http://data.semanticweb.org/person/thomas-riechert> a foaf:Person ;
     rdfs:label "Thomas Riechert" ;
@@ -2112,10 +2112,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-59> ;
     foaf:name "Uwe Thaden" .
 
-<http://data.semanticweb.org/person/valentina-a-m-tamma> a foaf:Person ;
-    rdfs:label "Valentina A. M. Tamma" ;
+<http://data.semanticweb.org/person/valentina-tamma> a foaf:Person ;
+    rdfs:label "Valentina Tamma" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-61> ;
-    foaf:name "Valentina A. M. Tamma" .
+    foaf:name "Valentina Tamma" .
 
 <http://data.semanticweb.org/person/vanessa-lopez> a foaf:Person ;
     rdfs:label "Vanessa Lopez" ;
@@ -2271,7 +2271,7 @@
     dcterms:title "A Framework for Schema-Driven Relationship Discovery from Unstructured Text" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-05/author_list> ;
     swrc:abstract "We address the issue of extracting implicit and explicit relationships between entities in biomedical text. We argue that entities seldom occur in text in their simple form and that relationships in text relate the modified, complex forms of entities with each other. We present a rule-based method for (1) extraction of such complex entities and (2) relationships between them and (3) the conversion of such relationships into RDF. Furthermore, we present results that clearly demonstrate the utility of the generated RDF in discovering knowledge from text corpora, by means of locating paths composed of the extracted relationships." ;
-    swrc:author <http://data.semanticweb.org/person/amit-p-sheth>,
+    swrc:author <http://data.semanticweb.org/person/amit-sheth>,
         <http://data.semanticweb.org/person/cartic-ramakrishnan>,
         <http://data.semanticweb.org/person/krys-kochut> ;
     swrc:category "Research Track Paper" ;
@@ -2282,7 +2282,7 @@
     swrc:url <http://dx.doi.org/10.1007/11926078_42>,
         <http://iswc2006.semanticweb.org/items/Ramakrishnan2006kx.pdf> ;
     swrc:year "2006" ;
-    foaf:maker <http://data.semanticweb.org/person/amit-p-sheth>,
+    foaf:maker <http://data.semanticweb.org/person/amit-sheth>,
         <http://data.semanticweb.org/person/cartic-ramakrishnan>,
         <http://data.semanticweb.org/person/krys-kochut> .
 
@@ -2338,7 +2338,7 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-13/author_list> ;
     swrc:abstract "We survey nearly 1300 OWL ontologies and RDFS schemas. The collection of statistical data allows us to perform analysis and report some trends. Though most of the documents are syntactically OWL Full, very few stay in OWL Full when they are syntactically patched by adding type triples. We also report the frequency of occurrences of OWL language constructs and the shape of class hierarchies in the ontologies. Finally, we note that of the largest ontologies surveyed here, most do not exceed the description logic expressivity of \\mathcalALC" ;
     swrc:author <http://data.semanticweb.org/person/bijan-parsia>,
-        <http://data.semanticweb.org/person/james-a-hendler>,
+        <http://data.semanticweb.org/person/james-hendler>,
         <http://data.semanticweb.org/person/taowei-david-wang> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2006.semanticweb.org/items/Wang2006ly.pdf> ;
@@ -2349,7 +2349,7 @@
         <http://iswc2006.semanticweb.org/items/Wang2006ly.pdf> ;
     swrc:year "2006" ;
     foaf:maker <http://data.semanticweb.org/person/bijan-parsia>,
-        <http://data.semanticweb.org/person/james-a-hendler>,
+        <http://data.semanticweb.org/person/james-hendler>,
         <http://data.semanticweb.org/person/taowei-david-wang> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-14> a swrc:InProceedings ;
@@ -2381,7 +2381,7 @@
     dcterms:title "Changing Ontology Breaks Queries" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-18/author_list> ;
     swrc:author <http://data.semanticweb.org/person/harith-alani>,
-        <http://data.semanticweb.org/person/nigel-shadbolt>,
+        <http://data.semanticweb.org/person/nigel-r-shadbolt>,
         <http://data.semanticweb.org/person/yaozhong-liang> ;
     swrc:category "Doctoral Consortium Paper" ;
     swrc:link_open_access <http://iswc2006.semanticweb.org/items/doctoral_consortium_liang.pdf> ;
@@ -2392,7 +2392,7 @@
         <http://iswc2006.semanticweb.org/items/doctoral_consortium_liang.pdf> ;
     swrc:year "2006" ;
     foaf:maker <http://data.semanticweb.org/person/harith-alani>,
-        <http://data.semanticweb.org/person/nigel-shadbolt>,
+        <http://data.semanticweb.org/person/nigel-r-shadbolt>,
         <http://data.semanticweb.org/person/yaozhong-liang> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-26> a swrc:InProceedings ;
@@ -2798,7 +2798,7 @@
     swrc:abstract "Ontology search and reuse is becoming increasingly important as the quest for methods to reduce the cost of constructing such knowledge structures continues. To this end, a number of ontology libraries and search engines are coming to existence to facilitate locating and retrieving potentially relevant ontologies. The number of ontologies available for reuse is steadily growing, and so is the need for methods to evaluate and rank existing ontologies in terms of their relevance to the needs of the knowledge engineer. This paper presents AKTiveRank, a prototype system for ranking ontologies based on a number of structural metrics. The paper describes those metrics, a ranking experiment and an evaluation of results." ;
     swrc:author <http://data.semanticweb.org/person/christopher-brewster>,
         <http://data.semanticweb.org/person/harith-alani>,
-        <http://data.semanticweb.org/person/nigel-shadbolt> ;
+        <http://data.semanticweb.org/person/nigel-r-shadbolt> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2006.semanticweb.org/items/Alani2006qa.pdf> ;
     swrc:link_publisher <http://dx.doi.org/10.1007/11926078_1> ;
@@ -2809,7 +2809,7 @@
     swrc:year "2006" ;
     foaf:maker <http://data.semanticweb.org/person/christopher-brewster>,
         <http://data.semanticweb.org/person/harith-alani>,
-        <http://data.semanticweb.org/person/nigel-shadbolt> .
+        <http://data.semanticweb.org/person/nigel-r-shadbolt> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-62> a swrc:InProceedings ;
     rdfs:label "Reducing the Inferred Type Statements with Individual Grouping Constructs" ;
@@ -2904,7 +2904,7 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-70/author_list> ;
     swrc:abstract "SPARQL is the W3C candidate recommendation query language for RDF. In this paper we address systematically the formal study of SPARQL, concentrating in its graph pattern facility. We consider for this study a fragment without literals and a simple version of filters which encompasses all the main issues yet is simple to formalize. We provide a compositional semantics, prove there are normal forms, prove complexity bounds, among others that the evaluation of SPARQL patterns is PSPACE-complete, compare our semantics to an alternative operational semantics, give simple and natural conditions when both semantics coincide and discuss optimizations procedures." ;
     swrc:author <http://data.semanticweb.org/person/claudio-gutierrez>,
-        <http://data.semanticweb.org/person/jorge-perez>,
+        <http://data.semanticweb.org/person/jorge-a-perez>,
         <http://data.semanticweb.org/person/marcelo-arenas> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2006.semanticweb.org/items/Arenas2006bv.pdf> ;
@@ -2915,7 +2915,7 @@
         <http://iswc2006.semanticweb.org/items/Arenas2006bv.pdf> ;
     swrc:year "2006" ;
     foaf:maker <http://data.semanticweb.org/person/claudio-gutierrez>,
-        <http://data.semanticweb.org/person/jorge-perez>,
+        <http://data.semanticweb.org/person/jorge-a-perez>,
         <http://data.semanticweb.org/person/marcelo-arenas> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-84> a swrc:InProceedings ;
@@ -2971,7 +2971,7 @@
     swrc:abstract "With the wider use of ontologies in the Semantic Web and as part of production systems, multiple scenarios for ontology maintenance and evolution are emerging. For example, successive ontology versions can be posted on the (Semantic) Web, with users discovering the new versions serendipitously; ontology-development in a collaborative environment can be synchronous or asynchronous; managers of projects may exercise quality control, examining the changes from previous baseline versions and accepting or rejecting them before a new baseline is published, and so on. In this paper, we present the different scenarios for ontology maintenance and evolution that we have encountered in our own projects and in those of our collaborators. We define several dimensions that categorize different scenarios. For each scenario, we discuss the high-level tasks that an editing environment must support. We then present a unified comprehensive set of tools to support the different scenarios in a single framework, allowing users to switch between different modes easily." ;
     swrc:author <http://data.semanticweb.org/person/abhita-chugh>,
         <http://data.semanticweb.org/person/mark-a-musen>,
-        <http://data.semanticweb.org/person/natalya-fridman-noy>,
+        <http://data.semanticweb.org/person/natalya-noy>,
         <http://data.semanticweb.org/person/william-liu> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2006.semanticweb.org/items/Noy2006fj.pdf> ;
@@ -2983,7 +2983,7 @@
     swrc:year "2006" ;
     foaf:maker <http://data.semanticweb.org/person/abhita-chugh>,
         <http://data.semanticweb.org/person/mark-a-musen>,
-        <http://data.semanticweb.org/person/natalya-fridman-noy>,
+        <http://data.semanticweb.org/person/natalya-noy>,
         <http://data.semanticweb.org/person/william-liu> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-07> a swrc:InProceedings ;
@@ -2995,7 +2995,7 @@
     swrc:abstract "Semantic Web technologies offer the prospect of significantly reducing the amount of effort required to integrate existing enterprise functionality in support of new composite processes.-- whether within a given organization or across multiple ones. A significant body of work in this area has aimed to fully automate this process, while assuming that all functionality has already been encapsulated in the form of semantic web services with rich and accurate annotations. In this article, we argue that this assumption is often unrealistic. Instead, we describe a mixed initiative framework for semantic web service discovery and composition that aims at flexibly interleaving human decision making and automated functionality in environments where annotations may be incomplete and even inconsistent. An initial version of this framework has been implemented in SAP's Guided Procedures, a key element of SAP's Enterperise Service Architecture (ESA)." ;
     swrc:author <http://data.semanticweb.org/person/dimitar-dimitrov>,
         <http://data.semanticweb.org/person/jinghai-rao>,
-        <http://data.semanticweb.org/person/norman-m-sadeh>,
+        <http://data.semanticweb.org/person/norman-sadeh>,
         <http://data.semanticweb.org/person/paul-hofmann> ;
     swrc:category "Semantic Web In Use Track Paper" ;
     swrc:link_open_access <http://iswc2006.semanticweb.org/items/Rao2006lr.pdf> ;
@@ -3007,7 +3007,7 @@
     swrc:year "2006" ;
     foaf:maker <http://data.semanticweb.org/person/dimitar-dimitrov>,
         <http://data.semanticweb.org/person/jinghai-rao>,
-        <http://data.semanticweb.org/person/norman-m-sadeh>,
+        <http://data.semanticweb.org/person/norman-sadeh>,
         <http://data.semanticweb.org/person/paul-hofmann> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-10> a swrc:InProceedings ;
@@ -3162,7 +3162,7 @@
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-36/author_list> ;
     swrc:abstract "Semantic Web browsers and other tools aimed at displaying RDF data to end users are all concerned with the same problem: presenting content primarily intended for machine consumption in a human-readable way. Their solutions differ but in the end address the same two high-level issues, no matter the underlying representation paradigm: specifying (i) what information contained in RDF models should be presented (content selection) and (ii) how this information should be presented (content formatting and styling). However, each tool currently relies on its own ad hoc mechanisms and vocabulary for specifying RDF presentation knowledge, making it difficult to share and reuse such knowledge across applications. Recognizing the general need for presenting RDF content to users and wanting to promote the exchange of presentation knowledge, we designed Fresnel as a browser-independent vocabulary of core RDF display concepts. In this paper we describe Fresnel's main concepts and present several RDF browsers and visualization tools that have adopted the vocabulary so far." ;
     swrc:author <http://data.semanticweb.org/person/christian-bizer>,
-        <http://data.semanticweb.org/person/david-r-karger>,
+        <http://data.semanticweb.org/person/david-karger>,
         <http://data.semanticweb.org/person/emmanuel-pietriga>,
         <http://data.semanticweb.org/person/ryan-lee> ;
     swrc:category "Research Track Paper" ;
@@ -3174,7 +3174,7 @@
         <http://iswc2006.semanticweb.org/items/Bizer2006kl.pdf> ;
     swrc:year "2006" ;
     foaf:maker <http://data.semanticweb.org/person/christian-bizer>,
-        <http://data.semanticweb.org/person/david-r-karger>,
+        <http://data.semanticweb.org/person/david-karger>,
         <http://data.semanticweb.org/person/emmanuel-pietriga>,
         <http://data.semanticweb.org/person/ryan-lee> .
 
@@ -3261,7 +3261,7 @@
     swrc:abstract "The ubiquitous non-semantic web includes a vast array of unstructured information such as HTML documents. The semantic web provides more structured knowledge such as hand-built ontologies and semantically aware databases. To leverage the full power of both the semantic and non-semantic portions of the web, software systems need to be able to reason over both kinds of information. Systems that use both structured and unstructured information face a significant challenge when trying to convince a user to believe their results: the sources and the kinds of reasoning that are applied to the sources are radically different in their nature and their reliability. Our work aims at explaining conclusions derived from a combination of structured and unstructured sources. We present our solution that provides an infrastructure capable of encoding justifications for conclusions in a single format. This integration provides an end-to-end description of the knowledge derivation process including access to text or HTML documents, descriptions of the analytic processes used for extraction, as well as descriptions of the ontologies and many kinds of information manipulation processes, including standard deduction. We produce unified traces of extraction and deduction processes in the Proof Markup Language (PML), an OWL-based formalism for encoding provenance for inferred information. We provide a browser for exploring PML and thus enabling a user to understand how some conclusion was reached." ;
     swrc:author <http://data.semanticweb.org/person/christopher-a-welty>,
         <http://data.semanticweb.org/person/david-a-ferrucci>,
-        <http://data.semanticweb.org/person/deborah-l-mcguinness>,
+        <http://data.semanticweb.org/person/deborah-mcguinness>,
         <http://data.semanticweb.org/person/j-william-murdock>,
         <http://data.semanticweb.org/person/paulo-pinheiro-da-silva> ;
     swrc:category "Semantic Web In Use Track Paper" ;
@@ -3274,7 +3274,7 @@
     swrc:year "2006" ;
     foaf:maker <http://data.semanticweb.org/person/christopher-a-welty>,
         <http://data.semanticweb.org/person/david-a-ferrucci>,
-        <http://data.semanticweb.org/person/deborah-l-mcguinness>,
+        <http://data.semanticweb.org/person/deborah-mcguinness>,
         <http://data.semanticweb.org/person/j-william-murdock>,
         <http://data.semanticweb.org/person/paulo-pinheiro-da-silva> .
 
@@ -3287,9 +3287,9 @@
     swrc:abstract "When agents communicate, they do not necessarily use the same vocabulary or ontology. For them to interact successfully, they must find correspondences (mappings) between the terms used in their respective ontologies. While many proposals for matching two agent ontologies have been presented in the literature, the resulting alignment may not be satisfactory to both agents, and thus may necessitate additional negotiation to identify a mutually agreeable set of alignments. We propose an approach for supporting the creation and exchange of different arguments, that support or reject possible correspondences. Each agent can decide, according to its preferences, whether to accept or refuse a candidate correspondence. The proposed framework considers arguments and propositions that are specific to the matching task and are based on the ontology semantics. This argumentation framework relies on a formal argument manipulation schema and on an encoding of the agents' preferences between particular kinds of arguments. Whilst the former does not vary between agents, the latter depends on the interests of each agent. Thus, this approach distinguishes clearly between alignment rationales which are valid for all agents and those specific to a particular agent." ;
     swrc:author <http://data.semanticweb.org/person/jerome-euzenat>,
         <http://data.semanticweb.org/person/loredana-laera>,
-        <http://data.semanticweb.org/person/terry-r-payne>,
+        <http://data.semanticweb.org/person/terry-payne>,
         <http://data.semanticweb.org/person/trevor-j-m-bench-capon>,
-        <http://data.semanticweb.org/person/valentina-a-m-tamma> ;
+        <http://data.semanticweb.org/person/valentina-tamma> ;
     swrc:category "Research Track Paper" ;
     swrc:link_open_access <http://iswc2006.semanticweb.org/items/Laera2006oz.pdf> ;
     swrc:link_publisher <http://dx.doi.org/10.1007/11926078_27> ;
@@ -3300,9 +3300,9 @@
     swrc:year "2006" ;
     foaf:maker <http://data.semanticweb.org/person/jerome-euzenat>,
         <http://data.semanticweb.org/person/loredana-laera>,
-        <http://data.semanticweb.org/person/terry-r-payne>,
+        <http://data.semanticweb.org/person/terry-payne>,
         <http://data.semanticweb.org/person/trevor-j-m-bench-capon>,
-        <http://data.semanticweb.org/person/valentina-a-m-tamma> .
+        <http://data.semanticweb.org/person/valentina-tamma> .
 
 <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-74> a swrc:InProceedings ;
     rdfs:label "The Summary Abox: Cutting Ontologies Down to Size" ;
@@ -3362,11 +3362,11 @@
         <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-42> ;
     foaf:name "Alessio Gugliotta" .
 
-<http://data.semanticweb.org/person/amit-p-sheth> a foaf:Person ;
-    rdfs:label "Amit P. Sheth" ;
+<http://data.semanticweb.org/person/amit-sheth> a foaf:Person ;
+    rdfs:label "Amit Sheth" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-02>,
         <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-05> ;
-    foaf:name "Amit P. Sheth" .
+    foaf:name "Amit Sheth" .
 
 <http://data.semanticweb.org/person/bijan-parsia> a foaf:Person ;
     rdfs:label "Bijan Parsia" ;
@@ -3374,11 +3374,11 @@
         <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-21> ;
     foaf:name "Bijan Parsia" .
 
-<http://data.semanticweb.org/person/deborah-l-mcguinness> a foaf:Person ;
-    rdfs:label "Deborah L. McGuinness" ;
+<http://data.semanticweb.org/person/deborah-mcguinness> a foaf:Person ;
+    rdfs:label "Deborah McGuinness" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-29>,
         <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-66> ;
-    foaf:name "Deborah L. McGuinness" .
+    foaf:name "Deborah McGuinness" .
 
 <http://data.semanticweb.org/person/doina-caragea> a foaf:Person ;
     rdfs:label "Doina Caragea" ;
@@ -3470,11 +3470,11 @@
         <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-62> ;
     foaf:name "Murat Osman Ünalir" .
 
-<http://data.semanticweb.org/person/nigel-shadbolt> a foaf:Person ;
-    rdfs:label "Nigel Shadbolt" ;
+<http://data.semanticweb.org/person/nigel-r-shadbolt> a foaf:Person ;
+    rdfs:label "Nigel R Shadbolt" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-18>,
         <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-60> ;
-    foaf:name "Nigel Shadbolt" .
+    foaf:name "Nigel R Shadbolt" .
 
 <http://data.semanticweb.org/person/taowei-david-wang> a foaf:Person ;
     rdfs:label "Taowei David Wang" ;
@@ -3529,7 +3529,7 @@
     dcterms:title "Active Semantic Electronic Medical Record" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-02/author_list> ;
     swrc:abstract "The healthcare industry is rapidly advancing towards the widespread use of electronic medical records systems to manage the increasingly large amount of patient data and reduce medical errors. In addition to patient data there is a large amount of data describing procedures, treatments, diagnoses, drugs, insurance plans, coverage, formularies and the relationships between these data sets. While practices have benefited from the use of EMRs, infusing these essential programs with rich domain knowledge and rules can greatly enhance their performance and ability to support clinical decisions. Active Semantic Electronic Medical Record (ASEMR) application discussed here uses Semantic Web technologies to reduce medical errors, improve physician efficiency with accurate completion of patient charts, improve patient safety and satisfaction in medical practice, and improve billing due to more accurate coding. This results in practice efficiency and growth by enabling physicians to see more patients with improved care. ASEMR has been deployed and in daily use for managing all patient records at the Athens Heart Center since December 2005. This showcases an application of Semantic Web in health care, especially small clinics." ;
-    swrc:author <http://data.semanticweb.org/person/amit-p-sheth>,
+    swrc:author <http://data.semanticweb.org/person/amit-sheth>,
         <http://data.semanticweb.org/person/h-wingate>,
         <http://data.semanticweb.org/person/jon-lathem>,
         <http://data.semanticweb.org/person/k-gallagher>,
@@ -3544,7 +3544,7 @@
     swrc:url <http://dx.doi.org/10.1007/11926078_66>,
         <http://iswc2006.semanticweb.org/items/Oldham2006fk.pdf> ;
     swrc:year "2006" ;
-    foaf:maker <http://data.semanticweb.org/person/amit-p-sheth>,
+    foaf:maker <http://data.semanticweb.org/person/amit-sheth>,
         <http://data.semanticweb.org/person/h-wingate>,
         <http://data.semanticweb.org/person/jon-lathem>,
         <http://data.semanticweb.org/person/k-gallagher>,
@@ -3562,7 +3562,7 @@
     swrc:author <http://data.semanticweb.org/person/christopher-a-welty>,
         <http://data.semanticweb.org/person/elisa-f-kendall>,
         <http://data.semanticweb.org/person/evan-k-wallace>,
-        <http://data.semanticweb.org/person/guo-tong-xie>,
+        <http://data.semanticweb.org/person/guoton-xie>,
         <http://data.semanticweb.org/person/peter-haase>,
         <http://data.semanticweb.org/person/robert-m-colomb>,
         <http://data.semanticweb.org/person/saartje-brockmans> ;
@@ -3577,7 +3577,7 @@
     foaf:maker <http://data.semanticweb.org/person/christopher-a-welty>,
         <http://data.semanticweb.org/person/elisa-f-kendall>,
         <http://data.semanticweb.org/person/evan-k-wallace>,
-        <http://data.semanticweb.org/person/guo-tong-xie>,
+        <http://data.semanticweb.org/person/guoton-xie>,
         <http://data.semanticweb.org/person/peter-haase>,
         <http://data.semanticweb.org/person/robert-m-colomb>,
         <http://data.semanticweb.org/person/saartje-brockmans> .
@@ -3730,7 +3730,7 @@
     dcterms:title "Semantically-Enabled Large-Scale Science Data Repositories" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2006/proceedings/paper-66/author_list> ;
     swrc:abstract "Large heterogeneous online repositories of scientific information have the potential to change the way science is done today. In order for this potential to be realized, numerous challenges must be addressed concerning access to and interoperability of the online scientific data. In our work, we are using semantic web technologies to improve access and interoperability by providing a framework for collaboration and a basis for building and distributing advanced data simulation tools. Our initial scientific focus area is the solar terrestrial physics community. In this paper, we will present our work on the Virtual Solar Terrestrial Observatory (VSTO). We will present the emerging trend of the virtual observatory - a virtual integrated evolving scientific data repository - and describe the general use case and our semantically-enabled architecture. We will also present our specific implementation and describe the benefits of the semantic web in this setting. Further, we speculate on the future of the growing adoption of semantic technologies in this important application area of scientific cyberinfrastructure and semantically enabled scientific data repositories." ;
-    swrc:author <http://data.semanticweb.org/person/deborah-l-mcguinness>,
+    swrc:author <http://data.semanticweb.org/person/deborah-mcguinness>,
         <http://data.semanticweb.org/person/don-middleton>,
         <http://data.semanticweb.org/person/j-anthony-darnell>,
         <http://data.semanticweb.org/person/james-l-benedict>,
@@ -3747,7 +3747,7 @@
     swrc:url <http://dx.doi.org/10.1007/11926078_57>,
         <http://iswc2006.semanticweb.org/items/Fox2006mz.pdf> ;
     swrc:year "2006" ;
-    foaf:maker <http://data.semanticweb.org/person/deborah-l-mcguinness>,
+    foaf:maker <http://data.semanticweb.org/person/deborah-mcguinness>,
         <http://data.semanticweb.org/person/don-middleton>,
         <http://data.semanticweb.org/person/j-anthony-darnell>,
         <http://data.semanticweb.org/person/james-l-benedict>,
@@ -3933,7 +3933,7 @@
     swrc:editor <http://data.semanticweb.org/person/chris-preist>,
         <http://data.semanticweb.org/person/daniel-schwabe>,
         <http://data.semanticweb.org/person/dean-allemang>,
-        <http://data.semanticweb.org/person/isabel-cruz>,
+        <http://data.semanticweb.org/person/isabel-f-cruz>,
         <http://data.semanticweb.org/person/lora-m-aroyo>,
         <http://data.semanticweb.org/person/mike-uschold>,
         <http://data.semanticweb.org/person/peter-mika>,
@@ -3952,7 +3952,7 @@
     foaf:maker <http://data.semanticweb.org/person/chris-preist>,
         <http://data.semanticweb.org/person/daniel-schwabe>,
         <http://data.semanticweb.org/person/dean-allemang>,
-        <http://data.semanticweb.org/person/isabel-cruz>,
+        <http://data.semanticweb.org/person/isabel-f-cruz>,
         <http://data.semanticweb.org/person/lora-m-aroyo>,
         <http://data.semanticweb.org/person/mike-uschold>,
         <http://data.semanticweb.org/person/peter-mika>,
