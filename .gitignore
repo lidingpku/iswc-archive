@@ -1,5 +1,10 @@
 *.py[cod]
 
+.idea
+
+temp/
+*.DS_Store
+
 # C extensions
 *.so
 
