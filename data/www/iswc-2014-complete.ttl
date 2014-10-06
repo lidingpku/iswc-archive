@@ -18,7 +18,7 @@
 <http://data.semanticweb.org/conference/iswc/2014/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2014 (2013-10-02)" ;
-    dcterms:modified "2014-10-06T00:35:48.645202"^^xsd:datetime ;
+    dcterms:modified "2014-10-06T01:10:22.691726"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2014/event-01> a swc:SpecialEvent ;
@@ -4602,64 +4602,14 @@
     ical:dtstart "2014-10-22T18:20:00"^^xsd:dateTime ;
     ical:tzid "Europe/Rome" .
 
-<http://data.semanticweb.org/conference/iswc/2014/session-7a/event-01> a swc:TalkEvent ;
-    rdfs:label "OBDA: Query Rewriting or Materialization? In Practice, Both!" ;
-    swc:hasLocation "Sala 300" ;
-    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-34> ;
-    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7a> ;
-    swc:orderInSession 1 ;
-    swc:order_in_super_event 1 ;
-    swc:room "Sala 300" ;
-    ical:dtend "2014-10-23T11:05:00"^^xsd:dateTime ;
-    ical:dtstart "2014-10-23T10:45:00"^^xsd:dateTime ;
-    ical:tzid "Europe/Rome" .
-
-<http://data.semanticweb.org/conference/iswc/2014/session-7a/event-02> a swc:TalkEvent ;
-    rdfs:label "Answering SPARQL Queries over Databases under OWL 2 QL Entailment Regim" ;
-    swc:hasLocation "Sala 300" ;
-    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-35> ;
-    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7a> ;
-    swc:orderInSession 2 ;
-    swc:order_in_super_event 2 ;
-    swc:room "Sala 300" ;
-    ical:dtend "2014-10-23T11:25:00"^^xsd:dateTime ;
-    ical:dtstart "2014-10-23T11:05:00"^^xsd:dateTime ;
-    ical:tzid "Europe/Rome" .
-
-<http://data.semanticweb.org/conference/iswc/2014/session-7a/event-03> a swc:TalkEvent ;
-    rdfs:label "kyrie2: Query Rewriting under Extensional Constraints in ELHIO" ;
-    swc:hasLocation "Sala 300" ;
-    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-36> ;
-    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7a> ;
-    swc:orderInSession 3 ;
-    swc:order_in_super_event 3 ;
-    swc:room "Sala 300" ;
-    ical:dtend "2014-10-23T11:45:00"^^xsd:dateTime ;
-    ical:dtstart "2014-10-23T11:25:00"^^xsd:dateTime ;
-    ical:tzid "Europe/Rome" .
-
-<http://data.semanticweb.org/conference/iswc/2014/session-7a/event-04> a swc:TalkEvent ;
-    rdfs:label "Schema-Agnostic Query Rewriting in SPARQL 1.1" ;
-    swc:hasLocation "Sala 300" ;
-    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-37> ;
-    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7a> ;
-    swc:orderInSession 4 ;
-    swc:order_in_super_event 4 ;
-    swc:room "Sala 300" ;
-    ical:dtend "2014-10-23T12:05:00"^^xsd:dateTime ;
-    ical:dtstart "2014-10-23T11:45:00"^^xsd:dateTime ;
-    ical:tzid "Europe/Rome" .
-
-<http://data.semanticweb.org/conference/iswc/2014/session-7a/event-05> a swc:TalkEvent ;
-    rdfs:label "How Semantic Technologies can Enhance Data Access at Siemens Energy" ;
-    swc:hasLocation "Sala 300" ;
-    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-38> ;
-    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7a> ;
-    swc:orderInSession 5 ;
-    swc:order_in_super_event 5 ;
-    swc:room "Sala 300" ;
+<http://data.semanticweb.org/conference/iswc/2014/session-7a> a swc:SessionEvent ;
+    rdfs:label "Lightning talk" ;
+    swc:hasLocation "Sala 1000B" ;
+    swc:hasRole <http://data.semanticweb.org/conference/iswc/2014/session-7a/session-chair> ;
+    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014> ;
+    swc:room "Sala 1000B" ;
     ical:dtend "2014-10-23T12:25:00"^^xsd:dateTime ;
-    ical:dtstart "2014-10-23T12:05:00"^^xsd:dateTime ;
+    ical:dtstart "2014-10-23T10:45:00"^^xsd:dateTime ;
     ical:tzid "Europe/Rome" .
 
 <http://data.semanticweb.org/conference/iswc/2014/session-7a/session-chair> a swc:Chair ;
@@ -4668,61 +4618,61 @@
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2014/session-7a> .
 
 <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-01> a swc:TalkEvent ;
-    rdfs:label "Detecting and Correcting Conservativity Principle Violations in Ontology-to-Ontology Mappings" ;
-    swc:hasLocation "Sala 1000A" ;
-    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-01> ;
+    rdfs:label "OBDA: Query Rewriting or Materialization? In Practice, Both!" ;
+    swc:hasLocation "Sala 300" ;
+    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-34> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7b> ;
     swc:orderInSession 1 ;
     swc:order_in_super_event 1 ;
-    swc:room "Sala 1000A" ;
+    swc:room "Sala 300" ;
     ical:dtend "2014-10-23T11:05:00"^^xsd:dateTime ;
     ical:dtstart "2014-10-23T10:45:00"^^xsd:dateTime ;
     ical:tzid "Europe/Rome" .
 
 <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-02> a swc:TalkEvent ;
-    rdfs:label "Towards annotating potential incoherences in BioPortal mappings" ;
-    swc:hasLocation "Sala 1000A" ;
-    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-02> ;
+    rdfs:label "Answering SPARQL Queries over Databases under OWL 2 QL Entailment Regim" ;
+    swc:hasLocation "Sala 300" ;
+    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-35> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7b> ;
     swc:orderInSession 2 ;
     swc:order_in_super_event 2 ;
-    swc:room "Sala 1000A" ;
+    swc:room "Sala 300" ;
     ical:dtend "2014-10-23T11:25:00"^^xsd:dateTime ;
     ical:dtstart "2014-10-23T11:05:00"^^xsd:dateTime ;
     ical:tzid "Europe/Rome" .
 
 <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-03> a swc:TalkEvent ;
-    rdfs:label "Conference v2.0: An uncertain version of the OAEI Conference benchmark" ;
-    swc:hasLocation "Sala 1000A" ;
-    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-03> ;
+    rdfs:label "kyrie2: Query Rewriting under Extensional Constraints in ELHIO" ;
+    swc:hasLocation "Sala 300" ;
+    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-36> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7b> ;
     swc:orderInSession 3 ;
     swc:order_in_super_event 3 ;
-    swc:room "Sala 1000A" ;
+    swc:room "Sala 300" ;
     ical:dtend "2014-10-23T11:45:00"^^xsd:dateTime ;
     ical:dtstart "2014-10-23T11:25:00"^^xsd:dateTime ;
     ical:tzid "Europe/Rome" .
 
 <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-04> a swc:TalkEvent ;
-    rdfs:label "Fast Modularisation and Atomic Decomposition of Ontologies using Axiom Dependency Hypergraphs" ;
-    swc:hasLocation "Sala 1000A" ;
-    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-04> ;
+    rdfs:label "Schema-Agnostic Query Rewriting in SPARQL 1.1" ;
+    swc:hasLocation "Sala 300" ;
+    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-37> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7b> ;
     swc:orderInSession 4 ;
     swc:order_in_super_event 4 ;
-    swc:room "Sala 1000A" ;
+    swc:room "Sala 300" ;
     ical:dtend "2014-10-23T12:05:00"^^xsd:dateTime ;
     ical:dtstart "2014-10-23T11:45:00"^^xsd:dateTime ;
     ical:tzid "Europe/Rome" .
 
 <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-05> a swc:TalkEvent ;
-    rdfs:label "A Study on the Atomic Decomposition of Ontologies" ;
-    swc:hasLocation "Sala 1000A" ;
-    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-05> ;
+    rdfs:label "How Semantic Technologies can Enhance Data Access at Siemens Energy" ;
+    swc:hasLocation "Sala 300" ;
+    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-38> ;
     swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7b> ;
     swc:orderInSession 5 ;
     swc:order_in_super_event 5 ;
-    swc:room "Sala 1000A" ;
+    swc:room "Sala 300" ;
     ical:dtend "2014-10-23T12:25:00"^^xsd:dateTime ;
     ical:dtstart "2014-10-23T12:05:00"^^xsd:dateTime ;
     ical:tzid "Europe/Rome" .
@@ -4732,14 +4682,64 @@
     swc:heldBy <http://data.semanticweb.org/person/mauro-dragoni> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2014/session-7b> .
 
-<http://data.semanticweb.org/conference/iswc/2014/session-7c> a swc:SessionEvent ;
-    rdfs:label "Session: Ontology Alignment & Modularization" ;
+<http://data.semanticweb.org/conference/iswc/2014/session-7c/event-01> a swc:TalkEvent ;
+    rdfs:label "Detecting and Correcting Conservativity Principle Violations in Ontology-to-Ontology Mappings" ;
     swc:hasLocation "Sala 1000A" ;
-    swc:hasRole <http://data.semanticweb.org/conference/iswc/2014/session-7c/session-chair> ;
-    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014> ;
+    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-01> ;
+    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7c> ;
+    swc:orderInSession 1 ;
+    swc:order_in_super_event 1 ;
+    swc:room "Sala 1000A" ;
+    ical:dtend "2014-10-23T11:05:00"^^xsd:dateTime ;
+    ical:dtstart "2014-10-23T10:45:00"^^xsd:dateTime ;
+    ical:tzid "Europe/Rome" .
+
+<http://data.semanticweb.org/conference/iswc/2014/session-7c/event-02> a swc:TalkEvent ;
+    rdfs:label "Towards annotating potential incoherences in BioPortal mappings" ;
+    swc:hasLocation "Sala 1000A" ;
+    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-02> ;
+    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7c> ;
+    swc:orderInSession 2 ;
+    swc:order_in_super_event 2 ;
+    swc:room "Sala 1000A" ;
+    ical:dtend "2014-10-23T11:25:00"^^xsd:dateTime ;
+    ical:dtstart "2014-10-23T11:05:00"^^xsd:dateTime ;
+    ical:tzid "Europe/Rome" .
+
+<http://data.semanticweb.org/conference/iswc/2014/session-7c/event-03> a swc:TalkEvent ;
+    rdfs:label "Conference v2.0: An uncertain version of the OAEI Conference benchmark" ;
+    swc:hasLocation "Sala 1000A" ;
+    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-03> ;
+    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7c> ;
+    swc:orderInSession 3 ;
+    swc:order_in_super_event 3 ;
+    swc:room "Sala 1000A" ;
+    ical:dtend "2014-10-23T11:45:00"^^xsd:dateTime ;
+    ical:dtstart "2014-10-23T11:25:00"^^xsd:dateTime ;
+    ical:tzid "Europe/Rome" .
+
+<http://data.semanticweb.org/conference/iswc/2014/session-7c/event-04> a swc:TalkEvent ;
+    rdfs:label "Fast Modularisation and Atomic Decomposition of Ontologies using Axiom Dependency Hypergraphs" ;
+    swc:hasLocation "Sala 1000A" ;
+    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-04> ;
+    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7c> ;
+    swc:orderInSession 4 ;
+    swc:order_in_super_event 4 ;
+    swc:room "Sala 1000A" ;
+    ical:dtend "2014-10-23T12:05:00"^^xsd:dateTime ;
+    ical:dtstart "2014-10-23T11:45:00"^^xsd:dateTime ;
+    ical:tzid "Europe/Rome" .
+
+<http://data.semanticweb.org/conference/iswc/2014/session-7c/event-05> a swc:TalkEvent ;
+    rdfs:label "A Study on the Atomic Decomposition of Ontologies" ;
+    swc:hasLocation "Sala 1000A" ;
+    swc:hasRelatedDocument <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-05> ;
+    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7c> ;
+    swc:orderInSession 5 ;
+    swc:order_in_super_event 5 ;
     swc:room "Sala 1000A" ;
     ical:dtend "2014-10-23T12:25:00"^^xsd:dateTime ;
-    ical:dtstart "2014-10-23T10:45:00"^^xsd:dateTime ;
+    ical:dtstart "2014-10-23T12:05:00"^^xsd:dateTime ;
     ical:tzid "Europe/Rome" .
 
 <http://data.semanticweb.org/conference/iswc/2014/session-7c/session-chair> a swc:Chair ;
@@ -9022,7 +9022,7 @@
 <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-03> a swrc:InProceedings ;
     rdfs:label "Conference v2.0: An uncertain version of the OAEI Conference benchmark" ;
     swc:isPartOf <http://data.semanticweb.org/conference/iswc/2014/proceedings-2> ;
-    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-03> ;
+    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7c/event-03> ;
     dc:title "Conference v2.0: An uncertain version of the OAEI Conference benchmark" ;
     dcterms:title "Conference v2.0: An uncertain version of the OAEI Conference benchmark" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-03/author_list> ;
@@ -9041,7 +9041,7 @@
 <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-04> a swrc:InProceedings ;
     rdfs:label "Fast Modularisation and Atomic Decomposition of Ontologies using Axiom Dependency Hypergraphs" ;
     swc:isPartOf <http://data.semanticweb.org/conference/iswc/2014/proceedings-2> ;
-    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-04> ;
+    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7c/event-04> ;
     dc:title "Fast Modularisation and Atomic Decomposition of Ontologies using Axiom Dependency Hypergraphs" ;
     dcterms:title "Fast Modularisation and Atomic Decomposition of Ontologies using Axiom Dependency Hypergraphs" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-04/author_list> ;
@@ -12498,7 +12498,7 @@
 <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-34> a swrc:InProceedings ;
     rdfs:label "OBDA: Query Rewriting or Materialization? In Practice, Both!" ;
     swc:isPartOf <http://data.semanticweb.org/conference/iswc/2014/proceedings-1> ;
-    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7a/event-01> ;
+    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-01> ;
     dc:title "OBDA: Query Rewriting or Materialization? In Practice, Both!" ;
     dcterms:title "OBDA: Query Rewriting or Materialization? In Practice, Both!" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-34/author_list> ;
@@ -12519,7 +12519,7 @@
 <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-36> a swrc:InProceedings ;
     rdfs:label "kyrie2: Query Rewriting under Extensional Constraints in ELHIO" ;
     swc:isPartOf <http://data.semanticweb.org/conference/iswc/2014/proceedings-1> ;
-    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7a/event-03> ;
+    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-03> ;
     dc:title "kyrie2: Query Rewriting under Extensional Constraints in ELHIO" ;
     dcterms:title "kyrie2: Query Rewriting under Extensional Constraints in ELHIO" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-36/author_list> ;
@@ -12540,7 +12540,7 @@
 <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-01> a swrc:InProceedings ;
     rdfs:label "Detecting and Correcting Conservativity Principle Violations in Ontology-to-Ontology Mappings" ;
     swc:isPartOf <http://data.semanticweb.org/conference/iswc/2014/proceedings-2> ;
-    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-01> ;
+    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7c/event-01> ;
     dc:title "Detecting and Correcting Conservativity Principle Violations in Ontology-to-Ontology Mappings" ;
     dcterms:title "Detecting and Correcting Conservativity Principle Violations in Ontology-to-Ontology Mappings" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-01/author_list> ;
@@ -13983,7 +13983,7 @@
 <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-37> a swrc:InProceedings ;
     rdfs:label "Schema-Agnostic Query Rewriting in SPARQL 1.1" ;
     swc:isPartOf <http://data.semanticweb.org/conference/iswc/2014/proceedings-1> ;
-    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7a/event-04> ;
+    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-04> ;
     dc:title "Schema-Agnostic Query Rewriting in SPARQL 1.1" ;
     dcterms:title "Schema-Agnostic Query Rewriting in SPARQL 1.1" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-37/author_list> ;
@@ -14856,7 +14856,7 @@
 <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-35> a swrc:InProceedings ;
     rdfs:label "Answering SPARQL Queries over Databases under OWL 2 QL Entailment Regim" ;
     swc:isPartOf <http://data.semanticweb.org/conference/iswc/2014/proceedings-1> ;
-    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7a/event-02> ;
+    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-02> ;
     dc:title "Answering SPARQL Queries over Databases under OWL 2 QL Entailment Regim" ;
     dcterms:title "Answering SPARQL Queries over Databases under OWL 2 QL Entailment Regim" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-35/author_list> ;
@@ -14881,7 +14881,7 @@
 <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-02> a swrc:InProceedings ;
     rdfs:label "Towards annotating potential incoherences in BioPortal mappings" ;
     swc:isPartOf <http://data.semanticweb.org/conference/iswc/2014/proceedings-2> ;
-    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-02> ;
+    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7c/event-02> ;
     dc:title "Towards annotating potential incoherences in BioPortal mappings" ;
     dcterms:title "Towards annotating potential incoherences in BioPortal mappings" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-02/author_list> ;
@@ -14906,7 +14906,7 @@
 <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-05> a swrc:InProceedings ;
     rdfs:label "A Study on the Atomic Decomposition of Ontologies" ;
     swc:isPartOf <http://data.semanticweb.org/conference/iswc/2014/proceedings-2> ;
-    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-05> ;
+    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7c/event-05> ;
     dc:title "A Study on the Atomic Decomposition of Ontologies" ;
     dcterms:title "A Study on the Atomic Decomposition of Ontologies" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2014/proceedings-2/paper-05/author_list> ;
@@ -15063,21 +15063,6 @@
     ical:dtstart "2014-10-22T11:00:00"^^xsd:dateTime ;
     ical:tzid "Europe/Rome" .
 
-<http://data.semanticweb.org/conference/iswc/2014/session-7a> a swc:SessionEvent ;
-    rdfs:label "Lightning talk" ;
-    swc:hasLocation "Sala 1000B" ;
-    swc:hasRole <http://data.semanticweb.org/conference/iswc/2014/session-7a/session-chair> ;
-    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014> ;
-    swc:isSuperEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7a/event-01>,
-        <http://data.semanticweb.org/conference/iswc/2014/session-7a/event-02>,
-        <http://data.semanticweb.org/conference/iswc/2014/session-7a/event-03>,
-        <http://data.semanticweb.org/conference/iswc/2014/session-7a/event-04>,
-        <http://data.semanticweb.org/conference/iswc/2014/session-7a/event-05> ;
-    swc:room "Sala 1000B" ;
-    ical:dtend "2014-10-23T12:25:00"^^xsd:dateTime ;
-    ical:dtstart "2014-10-23T10:45:00"^^xsd:dateTime ;
-    ical:tzid "Europe/Rome" .
-
 <http://data.semanticweb.org/conference/iswc/2014/session-7b> a swc:SessionEvent ;
     rdfs:label "Session: OBDA & Query Rewriting" ;
     swc:hasLocation "Sala 300" ;
@@ -15089,6 +15074,21 @@
         <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-04>,
         <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-05> ;
     swc:room "Sala 300" ;
+    ical:dtend "2014-10-23T12:25:00"^^xsd:dateTime ;
+    ical:dtstart "2014-10-23T10:45:00"^^xsd:dateTime ;
+    ical:tzid "Europe/Rome" .
+
+<http://data.semanticweb.org/conference/iswc/2014/session-7c> a swc:SessionEvent ;
+    rdfs:label "Session: Ontology Alignment & Modularization" ;
+    swc:hasLocation "Sala 1000A" ;
+    swc:hasRole <http://data.semanticweb.org/conference/iswc/2014/session-7c/session-chair> ;
+    swc:isSubEventOf <http://data.semanticweb.org/conference/iswc/2014> ;
+    swc:isSuperEventOf <http://data.semanticweb.org/conference/iswc/2014/session-7c/event-01>,
+        <http://data.semanticweb.org/conference/iswc/2014/session-7c/event-02>,
+        <http://data.semanticweb.org/conference/iswc/2014/session-7c/event-03>,
+        <http://data.semanticweb.org/conference/iswc/2014/session-7c/event-04>,
+        <http://data.semanticweb.org/conference/iswc/2014/session-7c/event-05> ;
+    swc:room "Sala 1000A" ;
     ical:dtend "2014-10-23T12:25:00"^^xsd:dateTime ;
     ical:dtstart "2014-10-23T10:45:00"^^xsd:dateTime ;
     ical:tzid "Europe/Rome" .
@@ -16600,7 +16600,7 @@
 <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-38> a swrc:InProceedings ;
     rdfs:label "How Semantic Technologies can Enhance Data Access at Siemens Energy" ;
     swc:isPartOf <http://data.semanticweb.org/conference/iswc/2014/proceedings-1> ;
-    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7a/event-05> ;
+    swc:relatedToEvent <http://data.semanticweb.org/conference/iswc/2014/session-7b/event-05> ;
     dc:title "How Semantic Technologies can Enhance Data Access at Siemens Energy" ;
     dcterms:title "How Semantic Technologies can Enhance Data Access at Siemens Energy" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2014/proceedings-1/paper-38/author_list> ;
