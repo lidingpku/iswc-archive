@@ -882,6 +882,7 @@
             "id": 1, 
             "location": "Sala 1000B", 
             "name": "AGDISTIS - Graph-Based Disambiguation of Named Entities using Linked Data", 
+            "paper": 29, 
             "start": "11:00", 
             "type": "TalkEvent"
         }, 
@@ -892,6 +893,7 @@
             "id": 2, 
             "location": "Sala 1000B", 
             "name": "M-ATOLL: A Framework for the lexicalization of ontologies in multiple languages", 
+            "paper": 30, 
             "start": "11:20", 
             "type": "TalkEvent"
         }, 
@@ -902,6 +904,7 @@
             "id": 3, 
             "location": "Sala 1000B", 
             "name": "Towards Efficient and Effective Semantic Table Interpretation", 
+            "paper": 31, 
             "start": "11:40", 
             "type": "TalkEvent"
         }, 
@@ -912,6 +915,7 @@
             "id": 4, 
             "location": "Sala 1000B", 
             "name": "Semano: Semantic Annotation Framework for Natural Language Resources", 
+            "paper": 32, 
             "start": "12:00", 
             "type": "TalkEvent"
         }, 
@@ -922,6 +926,7 @@
             "id": 5, 
             "location": "Sala 1000B", 
             "name": "Ensemble Learning for Named Entity Recognition", 
+            "paper": 33, 
             "start": "12:10", 
             "type": "TalkEvent"
         }, 
@@ -932,6 +937,7 @@
             "id": 6, 
             "location": "Sala 300", 
             "name": "Structural Properties as Proxy for Semantic Relevance in RDF Graph Sampling", 
+            "paper": 44, 
             "start": "11:00", 
             "type": "TalkEvent"
         }, 
@@ -942,6 +948,7 @@
             "id": 7, 
             "location": "Sala 300", 
             "name": "Holistic and Compact Selectivity Estimation for Hybrid Queries over RDF Graphs", 
+            "paper": 45, 
             "start": "11:20", 
             "type": "TalkEvent"
         }, 
@@ -952,6 +959,7 @@
             "id": 8, 
             "location": "Sala 300", 
             "name": "Querying Factorized Probabilistic Triple Databases", 
+            "paper": 46, 
             "start": "11:40", 
             "type": "TalkEvent"
         }, 
@@ -962,6 +970,7 @@
             "id": 9, 
             "location": "Sala 300", 
             "name": "Ontology Search: An Empirical Evaluation", 
+            "paper": 47, 
             "start": "12:00", 
             "type": "TalkEvent"
         }, 
@@ -972,6 +981,7 @@
             "id": 10, 
             "location": "Sala 1000A", 
             "name": "EPCIS event based traceability in pharmaceutical supply chains via automated generation of linked pedigrees", 
+            "paper": 6, 
             "start": "11:00", 
             "type": "TalkEvent"
         }, 
@@ -982,6 +992,7 @@
             "id": 11, 
             "location": "Sala 1000A", 
             "name": "Scientific lenses to support multiple views over linked chemistry data", 
+            "paper": 7, 
             "start": "11:20", 
             "type": "TalkEvent"
         }, 
@@ -992,6 +1003,7 @@
             "id": 12, 
             "location": "Sala 1000A", 
             "name": "Linked Biomedical Dataspace: Lessons Learned integrating Data for Drug Discovery", 
+            "paper": 8, 
             "start": "11:40", 
             "type": "TalkEvent"
         }, 
@@ -1002,6 +1014,7 @@
             "id": 13, 
             "location": "Sala 1000A", 
             "name": "Drug-Target Interaction Prediction Using Semantic Similarity and Edge Partition", 
+            "paper": 9, 
             "start": "12:00", 
             "type": "TalkEvent"
         }, 
@@ -1012,6 +1025,7 @@
             "id": 14, 
             "location": "Sala 1000B", 
             "name": "Pushing the Boundaries of Tractable Ontology Reasoning", 
+            "paper": 48, 
             "start": "14:40", 
             "type": "TalkEvent"
         }, 
@@ -1022,6 +1036,7 @@
             "id": 15, 
             "location": "Sala 1000B", 
             "name": "Effective computation of maximal sound approximations of Description Logic ontologies", 
+            "paper": 49, 
             "start": "15:00", 
             "type": "TalkEvent"
         }, 
@@ -1032,6 +1047,7 @@
             "id": 16, 
             "location": "Sala 1000B", 
             "name": "Abstraction Refinement for Ontology Materialization", 
+            "paper": 50, 
             "start": "15:20", 
             "type": "TalkEvent"
         }, 
@@ -1042,6 +1058,7 @@
             "id": 17, 
             "location": "Sala 1000B", 
             "name": "Goal-Directed Tracing of Inferences in EL Ontologies", 
+            "paper": 51, 
             "start": "15:40", 
             "type": "TalkEvent"
         }, 
@@ -1052,6 +1069,7 @@
             "id": 18, 
             "location": "Sala 300", 
             "name": "Knowledge-driven Activity Recognition and Segmentation Using Context Connections", 
+            "paper": 55, 
             "start": "14:40", 
             "type": "TalkEvent"
         }, 
@@ -1062,6 +1080,7 @@
             "id": 19, 
             "location": "Sala 300", 
             "name": "A Use Case in Semantic Modelling and Ranking for the Sensor Web", 
+            "paper": 56, 
             "start": "15:00", 
             "type": "TalkEvent"
         }, 
@@ -1072,6 +1091,7 @@
             "id": 20, 
             "location": "Sala 300", 
             "name": "Semantic Traffic Diagnosis with STAR-CITY: Architecture and Lessons Learned from Deployment in Dublin, Bologna, Miami and Rio", 
+            "paper": 57, 
             "start": "15:20", 
             "type": "TalkEvent"
         }, 
@@ -1082,6 +1102,7 @@
             "id": 21, 
             "location": "Sala 300", 
             "name": "Adapting Semantic Sensor Networks for Smart Building Diagnosis", 
+            "paper": 58, 
             "start": "15:40", 
             "type": "TalkEvent"
         }, 
@@ -1092,6 +1113,7 @@
             "id": 22, 
             "location": "Sala 1000A", 
             "name": "CAMO: Integration of Linked Open Data for Multimedia Metadata Enrichment", 
+            "paper": 1, 
             "start": "14:40", 
             "type": "TalkEvent"
         }, 
@@ -1102,6 +1124,7 @@
             "id": 23, 
             "location": "Sala 1000A", 
             "name": "HELIOS -- Execution Optimization for Link Discovery", 
+            "paper": 2, 
             "start": "15:00", 
             "type": "TalkEvent"
         }, 
@@ -1112,6 +1135,7 @@
             "id": 24, 
             "location": "Sala 1000A", 
             "name": "SAKey: Scalable Almost Key discovery in RDF data", 
+            "paper": 3, 
             "start": "15:20", 
             "type": "TalkEvent"
         }, 
@@ -1122,6 +1146,7 @@
             "id": 25, 
             "location": "Sala 1000A", 
             "name": "Introducing Wikidata to the Linked Data Web", 
+            "paper": 4, 
             "start": "15:40", 
             "type": "TalkEvent"
         }, 
@@ -1132,6 +1157,7 @@
             "id": 26, 
             "location": "Sala 1000A", 
             "name": "Web-Scale Extension of RDF Knowledge Bases from Templated Websites", 
+            "paper": 5, 
             "start": "15:50", 
             "type": "TalkEvent"
         }, 
@@ -1142,6 +1168,7 @@
             "id": 27, 
             "location": "Sala 1000B", 
             "name": "Deployment of Semantic Analysis to Call Center", 
+            "paper": 197, 
             "start": "11:00", 
             "type": "TalkEvent"
         }, 
@@ -1152,6 +1179,7 @@
             "id": 28, 
             "location": "Sala 1000B", 
             "name": "The Logic of Insurance: an Ontology-Centric Pricing Application", 
+            "paper": 198, 
             "start": "11:15", 
             "type": "TalkEvent"
         }, 
@@ -1162,6 +1190,7 @@
             "id": 29, 
             "location": "Sala 1000B", 
             "name": "Applying Semantic Web technologies in Product Information Management at NXP Semiconductors", 
+            "paper": 199, 
             "start": "11:30", 
             "type": "TalkEvent"
         }, 
@@ -1172,6 +1201,7 @@
             "id": 30, 
             "location": "Sala 1000B", 
             "name": "Linked data experience at Macmillan: Building discovery services for scientific and scholarly content on top of a semantic data model", 
+            "paper": 200, 
             "start": "11:45", 
             "type": "TalkEvent"
         }, 
@@ -1182,6 +1212,7 @@
             "id": 31, 
             "location": "Sala 1000B", 
             "name": "HAVAS 18 Labs: A Knowledge Graph for Innovation in the Media Industry", 
+            "paper": 201, 
             "start": "12:00", 
             "type": "TalkEvent"
         }, 
@@ -1192,6 +1223,7 @@
             "id": 32, 
             "location": "Sala 1000B", 
             "name": "Deploying National Ontology Services: From ONKI to Finto", 
+            "paper": 202, 
             "start": "12:15", 
             "type": "TalkEvent"
         }, 
@@ -1202,6 +1234,7 @@
             "id": 33, 
             "location": "Sala 1000B", 
             "name": "ePlanning: an Ontology-based System for Building Individualized Education Plans for Students with Special Educational Needs", 
+            "paper": 203, 
             "start": "12:30", 
             "type": "TalkEvent"
         }, 
@@ -1212,6 +1245,7 @@
             "id": 34, 
             "location": "Sala 300", 
             "name": "Discovery and Visual Analysis of Linked Data for Humans", 
+            "paper": 20, 
             "start": "11:00", 
             "type": "TalkEvent"
         }, 
@@ -1222,6 +1256,7 @@
             "id": 35, 
             "location": "Sala 300", 
             "name": "Col-Graph: Towards Writable and Scalable Linked Open Data", 
+            "paper": 21, 
             "start": "11:20", 
             "type": "TalkEvent"
         }, 
@@ -1232,6 +1267,7 @@
             "id": 36, 
             "location": "Sala 300", 
             "name": "Transferring Semantic Categories with Vertex Kernels: Recommendations with SemanticSVD++", 
+            "paper": 22, 
             "start": "11:40", 
             "type": "TalkEvent"
         }, 
@@ -1242,6 +1278,7 @@
             "id": 37, 
             "location": "Sala 300", 
             "name": "Detecting Errors in Numerical Linked Data using Cross-Checked Outlier Detection", 
+            "paper": 23, 
             "start": "12:00", 
             "type": "TalkEvent"
         }, 
@@ -1252,6 +1289,7 @@
             "id": 38, 
             "location": "Sala 300", 
             "name": "Noisy Type Assertion Detection in Semantic Datasets", 
+            "paper": 24, 
             "start": "12:20", 
             "type": "TalkEvent"
         }, 
@@ -1262,6 +1300,7 @@
             "id": 39, 
             "location": "Sala 1000A", 
             "name": "Explass: Exploring Associations between Entities via Top-K Ontological Patterns and Facets", 
+            "paper": 65, 
             "start": "11:00", 
             "type": "TalkEvent"
         }, 
@@ -1272,6 +1311,7 @@
             "id": 40, 
             "location": "Sala 1000A", 
             "name": "Expressive and Scalable Query-based Faceted Search over SPARQL Endpoints", 
+            "paper": 66, 
             "start": "11:20", 
             "type": "TalkEvent"
         }, 
@@ -1282,6 +1322,7 @@
             "id": 41, 
             "location": "Sala 1000A", 
             "name": "Querying Heterogeneous Personal Information On The Go", 
+            "paper": 67, 
             "start": "11:40", 
             "type": "TalkEvent"
         }, 
@@ -1292,6 +1333,7 @@
             "id": 42, 
             "location": "Sala 1000A", 
             "name": "The Web Browser Personalization with the Client Side Triplestore", 
+            "paper": 68, 
             "start": "12:00", 
             "type": "TalkEvent"
         }, 
@@ -1302,6 +1344,7 @@
             "id": 43, 
             "location": "Sala 1000A", 
             "name": "Crowd Truth: Machine-Human Computation Framework for Harnessing Disagreement in Gathering Annotated Data", 
+            "paper": 69, 
             "start": "12:20", 
             "type": "TalkEvent"
         }, 
@@ -1312,6 +1355,7 @@
             "id": 44, 
             "location": "Sala 1000B", 
             "name": "Ontology-Based Linking of Social, Open, and Enterprise Data for Business Intelligence", 
+            "paper": 204, 
             "start": "14:20", 
             "type": "TalkEvent"
         }, 
@@ -1322,6 +1366,7 @@
             "id": 45, 
             "location": "Sala 1000B", 
             "name": "The W3C Social Web Initiative", 
+            "paper": 205, 
             "start": "14:30", 
             "type": "TalkEvent"
         }, 
@@ -1332,6 +1377,7 @@
             "id": 46, 
             "location": "Sala 1000B", 
             "name": "Smart Media Navigator: Visualizing Recommendations based on Linked Data", 
+            "paper": 206, 
             "start": "14:40", 
             "type": "TalkEvent"
         }, 
@@ -1342,6 +1388,7 @@
             "id": 47, 
             "location": "Sala 1000B", 
             "name": "Smart Data Access: Semantic Web Technologies for Energy Diagnostics", 
+            "paper": 207, 
             "start": "14:50", 
             "type": "TalkEvent"
         }, 
@@ -1352,6 +1399,7 @@
             "id": 48, 
             "location": "Sala 1000B", 
             "name": "Semantic Technology for Oil & Gas Business", 
+            "paper": 208, 
             "start": "15:00", 
             "type": "TalkEvent"
         }, 
@@ -1362,6 +1410,7 @@
             "id": 49, 
             "location": "Sala 1000B", 
             "name": "Semantic Web based Container Monitoring System for the Transportation Industry", 
+            "paper": 209, 
             "start": "15:10", 
             "type": "TalkEvent"
         }, 
@@ -1372,6 +1421,7 @@
             "id": 50, 
             "location": "Sala 300", 
             "name": "On the Semantics of SPARQL Queries with Optional Matching under Entailment Regimes", 
+            "paper": 62, 
             "start": "14:20", 
             "type": "TalkEvent"
         }, 
@@ -1382,6 +1432,7 @@
             "id": 51, 
             "location": "Sala 300", 
             "name": "Strategies for executing federated queries in SPARQL1.1", 
+            "paper": 63, 
             "start": "14:40", 
             "type": "TalkEvent"
         }, 
@@ -1392,6 +1443,7 @@
             "id": 52, 
             "location": "Sala 300", 
             "name": "Toward the Web of Functions: Interoperable Higher-Order Functions in SPARQL", 
+            "paper": 64, 
             "start": "15:00", 
             "type": "TalkEvent"
         }, 
@@ -1402,6 +1454,7 @@
             "id": 53, 
             "location": "Sala 1000B", 
             "name": "Clinical Trial Data and Semantic Web standards", 
+            "paper": 210, 
             "start": "15:40", 
             "type": "TalkEvent"
         }, 
@@ -1412,6 +1465,7 @@
             "id": 54, 
             "location": "Sala 1000B", 
             "name": "keyCRF: Using Semantic Metadata Registries to Populate an eCRF with EHR Data", 
+            "paper": 211, 
             "start": "15:50", 
             "type": "TalkEvent"
         }, 
@@ -1422,6 +1476,7 @@
             "id": 55, 
             "location": "Sala 1000B", 
             "name": "RDF Implementation of Clinical Trial Data Standards", 
+            "paper": 212, 
             "start": "16:00", 
             "type": "TalkEvent"
         }, 
@@ -1432,6 +1487,7 @@
             "id": 56, 
             "location": "Sala 1000B", 
             "name": "Health and Environment Monitoring Service for Solitary Seniors", 
+            "paper": 213, 
             "start": "16:10", 
             "type": "TalkEvent"
         }, 
@@ -1442,6 +1498,7 @@
             "id": 57, 
             "location": "Sala 1000B", 
             "name": "Using Semantic Technologies to Mine Customer Insights in Telecom Industry", 
+            "paper": 214, 
             "start": "16:20", 
             "type": "TalkEvent"
         }, 
@@ -1452,6 +1509,7 @@
             "id": 58, 
             "location": "Sala 1000B", 
             "name": "The voice of the customer for Digital Telcos", 
+            "paper": 215, 
             "start": "16:30", 
             "type": "TalkEvent"
         }, 
@@ -1462,6 +1520,7 @@
             "id": 59, 
             "location": "Sala 1000B", 
             "name": "SKOS as a Key Element in Enterprise Linked Data Strategies", 
+            "paper": 216, 
             "start": "16:40", 
             "type": "TalkEvent"
         }, 
@@ -1472,6 +1531,7 @@
             "id": 60, 
             "location": "Sala 1000B", 
             "name": "iNowit, linked data as key element for innovation in emergency response", 
+            "paper": 217, 
             "start": "16:50", 
             "type": "TalkEvent"
         }, 
@@ -1482,6 +1542,7 @@
             "id": 61, 
             "location": "Sala 300", 
             "name": "SYRql: A Dataflow Language for Large Scale Processing of RDF Data", 
+            "paper": 10, 
             "start": "15:40", 
             "type": "TalkEvent"
         }, 
@@ -1492,6 +1553,7 @@
             "id": 62, 
             "location": "Sala 300", 
             "name": "Sempala: Interactive SPARQL Query Processing on Hadoop", 
+            "paper": 11, 
             "start": "16:00", 
             "type": "TalkEvent"
         }, 
@@ -1502,6 +1564,7 @@
             "id": 63, 
             "location": "Sala 300", 
             "name": "Querying Datasets on the Web with High Availability", 
+            "paper": 12, 
             "start": "16:20", 
             "type": "TalkEvent"
         }, 
@@ -1512,6 +1575,7 @@
             "id": 64, 
             "location": "Sala 300", 
             "name": "Diversified Stress Testing of RDF Data Management Systems", 
+            "paper": 13, 
             "start": "16:40", 
             "type": "TalkEvent"
         }, 
@@ -1522,6 +1586,7 @@
             "id": 65, 
             "location": "Sala 1000B", 
             "name": "ReApp Store – a semantic AppStore for applications in the robotics domain", 
+            "paper": 218, 
             "start": "17:00", 
             "type": "TalkEvent"
         }, 
@@ -1532,6 +1597,7 @@
             "id": 66, 
             "location": "Sala 1000B", 
             "name": "Traffic Management using RTEC in OWL 2 RL", 
+            "paper": 219, 
             "start": "17:10", 
             "type": "TalkEvent"
         }, 
@@ -1542,6 +1608,7 @@
             "id": 67, 
             "location": "Sala 1000B", 
             "name": "Efficient Application of Complex Graph Analytics on Very Large Real World RDF Datasets", 
+            "paper": 220, 
             "start": "17:20", 
             "type": "TalkEvent"
         }, 
@@ -1552,6 +1619,7 @@
             "id": 68, 
             "location": "Sala 1000B", 
             "name": "Integrating Semantic Web Technologies in the Architecture of BBC Knowledge & Learning Beta Online Pages", 
+            "paper": 221, 
             "start": "17:30", 
             "type": "TalkEvent"
         }, 
@@ -1562,6 +1630,7 @@
             "id": 69, 
             "location": "Sala 1000B", 
             "name": "SICRaS: a semantic big data platform for fighting tax evasion and supporting social policy making", 
+            "paper": 222, 
             "start": "17:40", 
             "type": "TalkEvent"
         }, 
@@ -1572,6 +1641,7 @@
             "id": 70, 
             "location": "Sala 1000B", 
             "name": "Semantic WISE: An Applying of Semantic IoT Platform for Weather Information Service Engine", 
+            "paper": 223, 
             "start": "17:50", 
             "type": "TalkEvent"
         }, 
@@ -1582,6 +1652,7 @@
             "id": 71, 
             "location": "Sala 1000B", 
             "name": "Building and Exploring Marine Oriented Knowledge Graph for ZhouShan Library", 
+            "paper": 224, 
             "start": "18:00", 
             "type": "TalkEvent"
         }, 
@@ -1592,6 +1663,7 @@
             "id": 72, 
             "location": "Sala 1000B", 
             "name": "Fast In-Memory Reasoner for Oracle NoSQL Database EE: Uncover hidden relationships that exist in your enterprise data", 
+            "paper": 225, 
             "start": "18:10", 
             "type": "TalkEvent"
         }, 
@@ -1602,106 +1674,117 @@
             "id": 73, 
             "location": "Sala 1000B", 
             "name": "Semantic Web Technologies for User Generated Content and Digital Distribution Copyright Management", 
+            "paper": 226, 
             "start": "18:20", 
             "type": "TalkEvent"
         }, 
         {
             "day": "23", 
             "end": "11:05", 
-            "event": 87, 
+            "event": 88, 
             "id": 74, 
             "location": "Sala 300", 
             "name": "OBDA: Query Rewriting or Materialization? In Practice, Both!", 
+            "paper": 34, 
             "start": "10:45", 
             "type": "TalkEvent"
         }, 
         {
             "day": "23", 
             "end": "11:25", 
-            "event": 87, 
+            "event": 88, 
             "id": 75, 
             "location": "Sala 300", 
             "name": "Answering SPARQL Queries over Databases under OWL 2 QL Entailment Regim", 
+            "paper": 35, 
             "start": "11:05", 
             "type": "TalkEvent"
         }, 
         {
             "day": "23", 
             "end": "11:45", 
-            "event": 87, 
+            "event": 88, 
             "id": 76, 
             "location": "Sala 300", 
             "name": "kyrie2: Query Rewriting under Extensional Constraints in ELHIO", 
+            "paper": 36, 
             "start": "11:25", 
             "type": "TalkEvent"
         }, 
         {
             "day": "23", 
             "end": "12:05", 
-            "event": 87, 
+            "event": 88, 
             "id": 77, 
             "location": "Sala 300", 
             "name": "Schema-Agnostic Query Rewriting in SPARQL 1.1", 
+            "paper": 37, 
             "start": "11:45", 
             "type": "TalkEvent"
         }, 
         {
             "day": "23", 
             "end": "12:25", 
-            "event": 87, 
+            "event": 88, 
             "id": 78, 
             "location": "Sala 300", 
             "name": "How Semantic Technologies can Enhance Data Access at Siemens Energy", 
+            "paper": 38, 
             "start": "12:05", 
             "type": "TalkEvent"
         }, 
         {
             "day": "23", 
             "end": "11:05", 
-            "event": 88, 
+            "event": 89, 
             "id": 79, 
             "location": "Sala 1000A", 
             "name": "Detecting and Correcting Conservativity Principle Violations in Ontology-to-Ontology Mappings", 
+            "paper": 39, 
             "start": "10:45", 
             "type": "TalkEvent"
         }, 
         {
             "day": "23", 
             "end": "11:25", 
-            "event": 88, 
+            "event": 89, 
             "id": 80, 
             "location": "Sala 1000A", 
             "name": "Towards annotating potential incoherences in BioPortal mappings", 
+            "paper": 40, 
             "start": "11:05", 
             "type": "TalkEvent"
         }, 
         {
             "day": "23", 
             "end": "11:45", 
-            "event": 88, 
+            "event": 89, 
             "id": 81, 
             "location": "Sala 1000A", 
             "name": "Conference v2.0: An uncertain version of the OAEI Conference benchmark", 
+            "paper": 41, 
             "start": "11:25", 
             "type": "TalkEvent"
         }, 
         {
             "day": "23", 
             "end": "12:05", 
-            "event": 88, 
+            "event": 89, 
             "id": 82, 
             "location": "Sala 1000A", 
             "name": "Fast Modularisation and Atomic Decomposition of Ontologies using Axiom Dependency Hypergraphs", 
+            "paper": 42, 
             "start": "11:45", 
             "type": "TalkEvent"
         }, 
         {
             "day": "23", 
             "end": "12:25", 
-            "event": 88, 
+            "event": 89, 
             "id": 83, 
             "location": "Sala 1000A", 
             "name": "A Study on the Atomic Decomposition of Ontologies", 
+            "paper": 43, 
             "start": "12:05", 
             "type": "TalkEvent"
         }, 
@@ -1712,6 +1795,7 @@
             "id": 84, 
             "location": "Sala 300", 
             "name": "A Cross-Platform Benchmarking Framework for Mobile Semantic Web Reasoning Engines", 
+            "paper": 25, 
             "start": "14:00", 
             "type": "TalkEvent"
         }, 
@@ -1722,6 +1806,7 @@
             "id": 85, 
             "location": "Sala 300", 
             "name": "A Power Consumption Benchmark for Reasoners on Mobile Devices", 
+            "paper": 26, 
             "start": "14:20", 
             "type": "TalkEvent"
         }, 
@@ -1732,6 +1817,7 @@
             "id": 86, 
             "location": "Sala 300", 
             "name": "Dynamic Provenance for SPARQL Updates", 
+            "paper": 27, 
             "start": "14:40", 
             "type": "TalkEvent"
         }, 
@@ -1742,6 +1828,7 @@
             "id": 87, 
             "location": "Sala 300", 
             "name": "Updating RDFS ABoxes and TBoxes in SPARQL", 
+            "paper": 28, 
             "start": "15:00", 
             "type": "TalkEvent"
         }, 
@@ -1752,6 +1839,7 @@
             "id": 88, 
             "location": "Sala 1000A", 
             "name": "LOD Laundromat: A Uniform Way of Publishing Other People's Dirty Data", 
+            "paper": 14, 
             "start": "14:00", 
             "type": "TalkEvent"
         }, 
@@ -1762,6 +1850,7 @@
             "id": 89, 
             "location": "Sala 1000A", 
             "name": "Dutch Ships and Sailors Linked Data", 
+            "paper": 15, 
             "start": "14:10", 
             "type": "TalkEvent"
         }, 
@@ -1772,6 +1861,7 @@
             "id": 90, 
             "location": "Sala 1000A", 
             "name": "Adoption of Linked Data Best Practices in Different Topical Domains", 
+            "paper": 16, 
             "start": "14:20", 
             "type": "TalkEvent"
         }, 
@@ -1782,6 +1872,7 @@
             "id": 91, 
             "location": "Sala 1000A", 
             "name": "Analyzing Schema.org", 
+            "paper": 17, 
             "start": "14:40", 
             "type": "TalkEvent"
         }, 
@@ -1792,6 +1883,7 @@
             "id": 92, 
             "location": "Sala 1000A", 
             "name": "The WebDataCommons Microdata, RDFa and Microformat Dataset Series", 
+            "paper": 18, 
             "start": "15:00", 
             "type": "TalkEvent"
         }, 
@@ -1802,6 +1894,7 @@
             "id": 93, 
             "location": "Sala 1000A", 
             "name": "On Publishing Chinese Linked Open Schema", 
+            "paper": 19, 
             "start": "15:10", 
             "type": "TalkEvent"
         }, 
@@ -1812,6 +1905,7 @@
             "id": 94, 
             "location": "Sala 300", 
             "name": "Semantic Web Application development with LITEQ", 
+            "paper": 52, 
             "start": "15:40", 
             "type": "TalkEvent"
         }, 
@@ -1822,6 +1916,7 @@
             "id": 95, 
             "location": "Sala 300", 
             "name": "Semantic-based Process Analysis", 
+            "paper": 53, 
             "start": "16:00", 
             "type": "TalkEvent"
         }, 
@@ -1832,6 +1927,7 @@
             "id": 96, 
             "location": "Sala 300", 
             "name": "Efficient RDF Interchange (ERI) Format for RDF Data Streams", 
+            "paper": 54, 
             "start": "16:20", 
             "type": "TalkEvent"
         }, 
@@ -1842,6 +1938,7 @@
             "id": 97, 
             "location": "Sala 1000A", 
             "name": "Semantic Patterns for Sentiment Analysis of Twitter", 
+            "paper": 59, 
             "start": "15:40", 
             "type": "TalkEvent"
         }, 
@@ -1852,6 +1949,7 @@
             "id": 98, 
             "location": "Sala 1000A", 
             "name": "Stretching the Life of Twitter Classifiers with Time-Stamped Semantic Graphs", 
+            "paper": 60, 
             "start": "16:00", 
             "type": "TalkEvent"
         }, 
@@ -1862,6 +1960,7 @@
             "id": 99, 
             "location": "Sala 1000A", 
             "name": "Linked Open Data Driven Game Generation", 
+            "paper": 61, 
             "start": "16:20", 
             "type": "TalkEvent"
         }
