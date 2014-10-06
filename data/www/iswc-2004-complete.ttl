@@ -18,7 +18,7 @@
 <http://data.semanticweb.org/conference/iswc/2004/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2014 (2013-10-02)" ;
-    dcterms:modified "2014-10-03T17:23:20.694258"^^xsd:datetime ;
+    dcterms:modified "2014-10-06T00:35:22.498952"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-01/author_list> a rdf:Seq ;
@@ -2487,12 +2487,12 @@
     foaf:name "CNR" .
 
 <http://data.semanticweb.org/organization/deri-nui-galway> a foaf:Organization ;
-    rdfs:label "DERI, NUI, Galway" ;
+    rdfs:label "DERI, NUI Galway" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2004/sliver-sponsor> ;
     foaf:homepage <http://www.deri.ie/> ;
     foaf:logo <http://iswc2004.semanticweb.org/logo/deri.jpg> ;
     foaf:member <http://data.semanticweb.org/person/stefan-decker> ;
-    foaf:name "DERI, NUI, Galway" .
+    foaf:name "DERI, NUI Galway" .
 
 <http://data.semanticweb.org/organization/epfl> a foaf:Organization ;
     rdfs:label "EPFL" ;

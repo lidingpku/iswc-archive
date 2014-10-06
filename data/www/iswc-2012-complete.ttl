@@ -18,7 +18,7 @@
 <http://data.semanticweb.org/conference/iswc/2012/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2014 (2013-10-02)" ;
-    dcterms:modified "2014-10-03T17:23:36.049628"^^xsd:datetime ;
+    dcterms:modified "2014-10-06T00:35:36.833533"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2012/event-01> a swc:BreakEvent ;
@@ -3588,7 +3588,7 @@
 
 <http://data.semanticweb.org/organization/nanjing-university> a foaf:Organization ;
     rdfs:label "Nanjing University" ;
-    owl:sameAs <http://dbpedia.org/resource/Nanjing_University> ;
+    owl:sameAs <http://dbpedia.org/resource/Nanjing_University_of_Chinese_Medicine> ;
     foaf:member <http://data.semanticweb.org/person/wei-hu>,
         <http://data.semanticweb.org/person/yuzhong-qu> ;
     foaf:name "Nanjing University" .
@@ -4577,12 +4577,12 @@
     swrc:affiliation <http://data.semanticweb.org/organization/bbc> ;
     foaf:name "Patrick Sinclair" .
 
-<http://data.semanticweb.org/person/paulo-c-g-costa> a foaf:Person ;
-    rdfs:label "Paulo C. G. Costa" ;
+<http://data.semanticweb.org/person/paulo-costa> a foaf:Person ;
+    rdfs:label "Paulo Costa" ;
     swc:holdsRole <http://data.semanticweb.org/workshop/ursw/2012/chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/george-mason-university> ;
     foaf:homepage <http://c4i.gmu.edu/~pcosta> ;
-    foaf:name "Paulo C. G. Costa" .
+    foaf:name "Paulo Costa" .
 
 <http://data.semanticweb.org/person/paulo-pinheiro-da-silva> a foaf:Person ;
     rdfs:label "Paulo Pinheiro Da Silva" ;
@@ -5303,7 +5303,7 @@
     rdfs:label "George Mason University" ;
     owl:sameAs <http://dbpedia.org/resource/George_Mason_University> ;
     foaf:member <http://data.semanticweb.org/person/kathryn-laskey>,
-        <http://data.semanticweb.org/person/paulo-c-g-costa>,
+        <http://data.semanticweb.org/person/paulo-costa>,
         <http://data.semanticweb.org/person/rommel-n-carvalho> ;
     foaf:name "George Mason University" .
 
@@ -10788,14 +10788,14 @@
         <http://data.semanticweb.org/person/kathryn-laskey>,
         <http://data.semanticweb.org/person/matthias-nickles>,
         <http://data.semanticweb.org/person/nicola-fanizzi>,
-        <http://data.semanticweb.org/person/paulo-c-g-costa>,
+        <http://data.semanticweb.org/person/paulo-costa>,
         <http://data.semanticweb.org/person/rommel-n-carvalho>,
         <http://data.semanticweb.org/person/thomas-lukasiewicz> ;
     swc:isRoleAt <http://data.semanticweb.org/workshop/ursw/2012> .
 
 <http://data.semanticweb.org/organization/inria> a foaf:Organization ;
     rdfs:label "INRIA" ;
-    owl:sameAs <http://dbpedia.org/resource/National_Institute_for_Research_in_Computer_Science_and_Control> ;
+    owl:sameAs <http://dbpedia.org/resource/French_Institute_for_Research_in_Computer_Science_and_Automation> ;
     foaf:member <http://data.semanticweb.org/person/amel-bennaceur>,
         <http://data.semanticweb.org/person/elena-cabrio>,
         <http://data.semanticweb.org/person/fabien-gandon>,
@@ -11685,7 +11685,7 @@
     foaf:name "IBM Research" .
 
 <http://data.semanticweb.org/organization/deri-nui-galway> a foaf:Organization ;
-    rdfs:label "DERI, NUI, Galway" ;
+    rdfs:label "DERI, NUI Galway" ;
     foaf:member <http://data.semanticweb.org/person/aidan-hogan>,
         <http://data.semanticweb.org/person/alexandre-passant>,
         <http://data.semanticweb.org/person/armin-haller>,
@@ -11711,7 +11711,7 @@
         <http://data.semanticweb.org/person/siegfried-handschuh>,
         <http://data.semanticweb.org/person/stefan-decker>,
         <http://data.semanticweb.org/person/vit-novacek> ;
-    foaf:name "DERI, NUI, Galway" .
+    foaf:name "DERI, NUI Galway" .
 
 <http://data.semanticweb.org/conference/iswc/2012/pc-member-at-iswc2012-posters-and-demos> a swc:ProgrammeCommitteeMember ;
     rdfs:label "PC Member at ISWC2012 (Posters and Demos)" ;

@@ -22,7 +22,7 @@
 <http://data.semanticweb.org/conference/iswc/2003/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2014 (2013-10-02)" ;
-    dcterms:modified "2014-10-03T17:23:17.615369"^^xsd:datetime ;
+    dcterms:modified "2014-10-06T00:35:19.602940"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2003/event-01> a swc:SpecialEvent ;
@@ -849,11 +849,11 @@
     foaf:name "Convera Corporation" .
 
 <http://data.semanticweb.org/organization/deri-nui-galway> a foaf:Organization ;
-    rdfs:label "DERI, NUI, Galway" ;
+    rdfs:label "DERI, NUI Galway" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2003/platinum-sponsor> ;
     foaf:homepage <http://www.deri.ie/> ;
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ab/2003/iswc2003.semanticweb.org/deri.jpg> ;
-    foaf:name "DERI, NUI, Galway" .
+    foaf:name "DERI, NUI Galway" .
 
 <http://data.semanticweb.org/organization/elsevier> a foaf:Organization ;
     rdfs:label "Elsevier" ;
@@ -2119,7 +2119,7 @@
 
 <http://data.semanticweb.org/organization/inria> a foaf:Organization ;
     rdfs:label "INRIA" ;
-    owl:sameAs <http://dbpedia.org/resource/National_Institute_for_Research_in_Computer_Science_and_Control> ;
+    owl:sameAs <http://dbpedia.org/resource/French_Institute_for_Research_in_Computer_Science_and_Automation> ;
     foaf:member <http://data.semanticweb.org/person/ioana-manolescu>,
         <http://data.semanticweb.org/person/jerome-euzenat> ;
     foaf:name "INRIA" .

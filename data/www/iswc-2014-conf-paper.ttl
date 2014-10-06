@@ -327,7 +327,7 @@
     rdf:_1 <http://data.semanticweb.org/person/daniel-faria> ;
     rdf:_2 <http://data.semanticweb.org/person/catia-pesquita> ;
     rdf:_3 <http://data.semanticweb.org/person/emanuel-santos> ;
-    rdf:_4 <http://data.semanticweb.org/person/isabel-cruz> ;
+    rdf:_4 <http://data.semanticweb.org/person/isabel-f-cruz> ;
     rdf:_5 <http://data.semanticweb.org/person/francisco-m-couto> .
 
 <http://data.semanticweb.org/conference/iswc/2014/poster-demo-proceedings/paper-117/author_list> a rdf:Seq ;
@@ -3371,10 +3371,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2014/poster-demo-proceedings/paper-100> ;
     foaf:name "Ioannis Vlachopoulos" .
 
-<http://data.semanticweb.org/person/isabel-cruz> a foaf:Person ;
-    rdfs:label "Isabel Cruz" ;
+<http://data.semanticweb.org/person/isabel-f-cruz> a foaf:Person ;
+    rdfs:label "Isabel F. Cruz" ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2014/poster-demo-proceedings/paper-116> ;
-    foaf:name "Isabel Cruz" .
+    foaf:name "Isabel F. Cruz" .
 
 <http://data.semanticweb.org/person/isabelle-augenstein> a foaf:Person ;
     rdfs:label "Isabelle Augenstein" ;
@@ -7068,7 +7068,7 @@
         <http://data.semanticweb.org/person/daniel-faria>,
         <http://data.semanticweb.org/person/emanuel-santos>,
         <http://data.semanticweb.org/person/francisco-m-couto>,
-        <http://data.semanticweb.org/person/isabel-cruz> ;
+        <http://data.semanticweb.org/person/isabel-f-cruz> ;
     swrc:category "Poster Paper" ;
     swrc:listAuthor "Daniel Faria,Catia Pesquita,Emanuel Santos,Isabel F. Cruz and Francisco Couto" ;
     swrc:year "2014" ;
@@ -7076,7 +7076,7 @@
         <http://data.semanticweb.org/person/daniel-faria>,
         <http://data.semanticweb.org/person/emanuel-santos>,
         <http://data.semanticweb.org/person/francisco-m-couto>,
-        <http://data.semanticweb.org/person/isabel-cruz> .
+        <http://data.semanticweb.org/person/isabel-f-cruz> .
 
 <http://data.semanticweb.org/conference/iswc/2014/poster-demo-proceedings/paper-16> a swrc:InProceedings ;
     rdfs:label " CIMBA - Client-Integrated MicroBlogging Architecture" ;

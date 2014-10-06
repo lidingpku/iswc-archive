@@ -18,7 +18,7 @@
 <http://data.semanticweb.org/conference/iswc/2013/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2014 (2013-10-02)" ;
-    dcterms:modified "2014-10-03T17:23:41.834438"^^xsd:datetime ;
+    dcterms:modified "2014-10-06T00:35:42.318656"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2013/doctoral-consortium-proceedings/paper-01/author_list> a rdf:Seq ;
@@ -3903,7 +3903,7 @@
     rdf:_10 <http://data.semanticweb.org/person/matthias-nickles> ;
     rdf:_11 <http://data.semanticweb.org/person/mike-pool> ;
     rdf:_2 <http://data.semanticweb.org/person/rommel-carvalho> ;
-    rdf:_3 <http://data.semanticweb.org/person/paulo-c-g-costa> ;
+    rdf:_3 <http://data.semanticweb.org/person/paulo-costa> ;
     rdf:_4 <http://data.semanticweb.org/person/claudia-damato> ;
     rdf:_5 <http://data.semanticweb.org/person/nicola-fanizzi> ;
     rdf:_6 <http://data.semanticweb.org/person/kathryn-laskey> ;
@@ -7822,7 +7822,7 @@
     rdfs:label "George Mason University" ;
     owl:sameAs <http://dbpedia.org/resource/George_Mason_University> ;
     foaf:member <http://data.semanticweb.org/person/kathryn-laskey>,
-        <http://data.semanticweb.org/person/paulo-c-g-costa>,
+        <http://data.semanticweb.org/person/paulo-costa>,
         <http://data.semanticweb.org/person/rommel-carvalho> ;
     foaf:name "George Mason University" .
 
@@ -10205,7 +10205,7 @@
 
 <http://data.semanticweb.org/organization/nanjing-university> a foaf:Organization ;
     rdfs:label "Nanjing University" ;
-    owl:sameAs <http://dbpedia.org/resource/Nanjing_University> ;
+    owl:sameAs <http://dbpedia.org/resource/Nanjing_University_of_Chinese_Medicine> ;
     foaf:member <http://data.semanticweb.org/person/gong-cheng>,
         <http://data.semanticweb.org/person/wei-hu>,
         <http://data.semanticweb.org/person/yanan-zhang>,
@@ -14480,12 +14480,12 @@
     foaf:mbox_sha1sum "a93cde0d56e3834d06f16047565e1149ea578659" ;
     foaf:name "Patrice Seyed" .
 
-<http://data.semanticweb.org/person/paulo-c-g-costa> a foaf:Person ;
-    rdfs:label "Paulo C. G. Costa" ;
+<http://data.semanticweb.org/person/paulo-costa> a foaf:Person ;
+    rdfs:label "Paulo Costa" ;
     swc:holdsRole <http://data.semanticweb.org/workshop/ursw/2013/workshop-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/george-mason-university> ;
     foaf:made <http://data.semanticweb.org/workshop/ursw/2013/proceedings> ;
-    foaf:name "Paulo C. G. Costa" .
+    foaf:name "Paulo Costa" .
 
 <http://data.semanticweb.org/person/pavel-shvaiko> a foaf:Person ;
     rdfs:label "Pavel Shvaiko" ;
@@ -20080,7 +20080,7 @@
 
 <http://data.semanticweb.org/organization/inria> a foaf:Organization ;
     rdfs:label "INRIA" ;
-    owl:sameAs <http://dbpedia.org/resource/National_Institute_for_Research_in_Computer_Science_and_Control> ;
+    owl:sameAs <http://dbpedia.org/resource/French_Institute_for_Research_in_Computer_Science_and_Automation> ;
     foaf:member <http://data.semanticweb.org/person/amedeo-napoli>,
         <http://data.semanticweb.org/person/elena-cabrio>,
         <http://data.semanticweb.org/person/fabien-gandon>,
@@ -21213,7 +21213,7 @@
         <http://data.semanticweb.org/person/matthias-nickles>,
         <http://data.semanticweb.org/person/mike-pool>,
         <http://data.semanticweb.org/person/nicola-fanizzi>,
-        <http://data.semanticweb.org/person/paulo-c-g-costa>,
+        <http://data.semanticweb.org/person/paulo-costa>,
         <http://data.semanticweb.org/person/rommel-carvalho>,
         <http://data.semanticweb.org/person/thomas-lukasiewicz>,
         <http://data.semanticweb.org/person/trevor-martin> ;
@@ -22217,7 +22217,7 @@
         <http://data.semanticweb.org/person/matthias-nickles>,
         <http://data.semanticweb.org/person/mike-pool>,
         <http://data.semanticweb.org/person/nicola-fanizzi>,
-        <http://data.semanticweb.org/person/paulo-c-g-costa>,
+        <http://data.semanticweb.org/person/paulo-costa>,
         <http://data.semanticweb.org/person/rommel-carvalho>,
         <http://data.semanticweb.org/person/thomas-lukasiewicz>,
         <http://data.semanticweb.org/person/trevor-martin> ;
@@ -22230,7 +22230,7 @@
         <http://data.semanticweb.org/person/matthias-nickles>,
         <http://data.semanticweb.org/person/mike-pool>,
         <http://data.semanticweb.org/person/nicola-fanizzi>,
-        <http://data.semanticweb.org/person/paulo-c-g-costa>,
+        <http://data.semanticweb.org/person/paulo-costa>,
         <http://data.semanticweb.org/person/rommel-carvalho>,
         <http://data.semanticweb.org/person/thomas-lukasiewicz>,
         <http://data.semanticweb.org/person/trevor-martin> .
@@ -22414,7 +22414,7 @@
     foaf:name "Juan F. Sequeda" .
 
 <http://data.semanticweb.org/organization/deri-nui-galway> a foaf:Organization ;
-    rdfs:label "DERI, NUI, Galway" ;
+    rdfs:label "DERI, NUI Galway" ;
     foaf:member <http://data.semanticweb.org/person/ahmed-abdelrahman>,
         <http://data.semanticweb.org/person/aidan-hogan>,
         <http://data.semanticweb.org/person/alessandra-mileo>,
@@ -22436,7 +22436,7 @@
         <http://data.semanticweb.org/person/sabrina-kirrane>,
         <http://data.semanticweb.org/person/siegfried-handschuh>,
         <http://data.semanticweb.org/person/stefan-decker> ;
-    foaf:name "DERI, NUI, Galway" .
+    foaf:name "DERI, NUI Galway" .
 
 <http://data.semanticweb.org/person/heiko-paulheim> a foaf:Person ;
     rdfs:label "Heiko Paulheim" ;

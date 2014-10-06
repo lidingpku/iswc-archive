@@ -18,7 +18,7 @@
 <http://data.semanticweb.org/conference/iswc/2001/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2014 (2013-10-02)" ;
-    dcterms:modified "2014-10-03T17:23:12.801128"^^xsd:datetime ;
+    dcterms:modified "2014-10-06T00:35:15.138685"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2001/event-01> a swc:SpecialEvent ;
@@ -475,7 +475,7 @@
     rdf:_2 <http://data.semanticweb.org/person/ian-horrocks> .
 
 <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-19/author_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/isabel-cruz> ;
+    rdf:_1 <http://data.semanticweb.org/person/isabel-f-cruz> ;
     rdf:_2 <http://data.semanticweb.org/person/paul-calnan> .
 
 <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-20/author_list> a rdf:Seq ;
@@ -567,7 +567,7 @@
     swrc:year "2001" .
 
 <http://data.semanticweb.org/conference/swws/2001/proceedings/editor_list> a rdf:Seq ;
-    rdf:_1 <http://data.semanticweb.org/person/isabel-cruz> ;
+    rdf:_1 <http://data.semanticweb.org/person/isabel-f-cruz> ;
     rdf:_2 <http://data.semanticweb.org/person/stefan-decker> ;
     rdf:_3 <http://data.semanticweb.org/person/jerome-euzenat> ;
     rdf:_4 <http://data.semanticweb.org/person/deborah-mcguinness> .
@@ -992,7 +992,7 @@
 <http://data.semanticweb.org/organization/university-of-illinois-at-chicago> a foaf:Organization ;
     rdfs:label "University of Illinois at Chicago" ;
     owl:sameAs <http://dbpedia.org/resource/University_of_Illinois_at_Chicago> ;
-    foaf:member <http://data.semanticweb.org/person/isabel-cruz> ;
+    foaf:member <http://data.semanticweb.org/person/isabel-f-cruz> ;
     foaf:name "University of Illinois at Chicago" .
 
 <http://data.semanticweb.org/organization/university-of-maine> a foaf:Organization ;
@@ -3956,7 +3956,7 @@
     dc:title "Object Interoperability for Geospatial Applications" ;
     dcterms:title "Object Interoperability for Geospatial Applications" ;
     bibo:authorList <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-19/author_list> ;
-    swrc:author <http://data.semanticweb.org/person/isabel-cruz>,
+    swrc:author <http://data.semanticweb.org/person/isabel-f-cruz>,
         <http://data.semanticweb.org/person/paul-calnan> ;
     swrc:category "Working Track 2: Interoperability, Integration, Composition" ;
     swrc:link_open_access <http://www.semanticweb.org/SWWS/program/full/paper48a.pdf> ;
@@ -3964,7 +3964,7 @@
     swrc:pages "229-243" ;
     swrc:url <http://www.semanticweb.org/SWWS/program/full/paper48a.pdf> ;
     swrc:year "2001" ;
-    foaf:maker <http://data.semanticweb.org/person/isabel-cruz>,
+    foaf:maker <http://data.semanticweb.org/person/isabel-f-cruz>,
         <http://data.semanticweb.org/person/paul-calnan> .
 
 <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-20> a swrc:InProceedings ;
@@ -4753,7 +4753,7 @@
 <http://data.semanticweb.org/conference/iswc/2001/organizer> a swc:Chair ;
     rdfs:label "Organizer" ;
     swc:heldBy <http://data.semanticweb.org/person/deborah-mcguinness>,
-        <http://data.semanticweb.org/person/isabel-cruz>,
+        <http://data.semanticweb.org/person/isabel-f-cruz>,
         <http://data.semanticweb.org/person/jerome-euzenat>,
         <http://data.semanticweb.org/person/stefan-decker> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2001> .
@@ -5221,7 +5221,7 @@
     dc:title "Proceedings of SWWS’ 01" ;
     dcterms:title "Proceedings of SWWS’ 01" ;
     swrc:editor <http://data.semanticweb.org/person/deborah-mcguinness>,
-        <http://data.semanticweb.org/person/isabel-cruz>,
+        <http://data.semanticweb.org/person/isabel-f-cruz>,
         <http://data.semanticweb.org/person/jerome-euzenat>,
         <http://data.semanticweb.org/person/stefan-decker> ;
     swrc:link_open_access <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/full/SWWSProceedings.pdf> ;
@@ -5230,7 +5230,7 @@
     swrc:url <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/program/full/SWWSProceedings.pdf> ;
     swrc:year "2001" ;
     foaf:maker <http://data.semanticweb.org/person/deborah-mcguinness>,
-        <http://data.semanticweb.org/person/isabel-cruz>,
+        <http://data.semanticweb.org/person/isabel-f-cruz>,
         <http://data.semanticweb.org/person/jerome-euzenat>,
         <http://data.semanticweb.org/person/stefan-decker> .
 
@@ -5267,7 +5267,7 @@
 <http://data.semanticweb.org/organization/inria> a foaf:Organization ;
     rdfs:label "INRIA" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/silver-sponsor> ;
-    owl:sameAs <http://dbpedia.org/resource/National_Institute_for_Research_in_Computer_Science_and_Control> ;
+    owl:sameAs <http://dbpedia.org/resource/French_Institute_for_Research_in_Computer_Science_and_Automation> ;
     foaf:homepage <http://www.inria.fr/> ;
     foaf:logo <https://files.ifi.uzh.ch/ddis/iswc_archive/iswc/ih/SWWS-2001/logos/inria1a.gif> ;
     foaf:member <http://data.semanticweb.org/person/alexandre-delteil>,
@@ -6201,15 +6201,15 @@
     foaf:mbox_sha1sum "0dfde0275a9cae0de57c25d97ee14fbca31359dd" ;
     foaf:name "Ian Horrocks" .
 
-<http://data.semanticweb.org/person/isabel-cruz> a foaf:Person ;
-    rdfs:label "Isabel Cruz" ;
+<http://data.semanticweb.org/person/isabel-f-cruz> a foaf:Person ;
+    rdfs:label "Isabel F. Cruz" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2001/organizer>,
         <http://data.semanticweb.org/conference/iswc/2001/participant> ;
     swrc:affiliation <http://data.semanticweb.org/organization/university-of-illinois-at-chicago> ;
     foaf:made <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-19>,
         <http://data.semanticweb.org/conference/swws/2001/proceedings> ;
     foaf:mbox_sha1sum "450162ac52a51c1ed888fa843c004bbc77d8e757" ;
-    foaf:name "Isabel Cruz" .
+    foaf:name "Isabel F. Cruz" .
 
 <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-32> a swrc:InProceedings ;
     rdfs:label "The Semantic Web As \"Perfection Seeking\": A View from Drug Terminology" ;
@@ -6814,7 +6814,7 @@
         <http://data.semanticweb.org/person/ian-horrocks>,
         <http://data.semanticweb.org/person/indushekhar-khaitan>,
         <http://data.semanticweb.org/person/irene-sklyar>,
-        <http://data.semanticweb.org/person/isabel-cruz>,
+        <http://data.semanticweb.org/person/isabel-f-cruz>,
         <http://data.semanticweb.org/person/james-hendler>,
         <http://data.semanticweb.org/person/james-pustejovsky>,
         <http://data.semanticweb.org/person/james-snell>,

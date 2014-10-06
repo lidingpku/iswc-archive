@@ -18,7 +18,7 @@
 <http://data.semanticweb.org/conference/iswc/2005/complete> a dctype:Dataset ;
     dcterms:creator "Li Ding" ;
     dcterms:hasVersion "iswc metadata 2001-2014 (2013-10-02)" ;
-    dcterms:modified "2014-10-03T17:23:24.208570"^^xsd:datetime ;
+    dcterms:modified "2014-10-06T00:35:25.829572"^^xsd:datetime ;
     rdfs:comment "This dataset is created by Li Ding http://liding.org. To learn more about this dataset, go to https://github.com/lidingpku/open-conference-data/tree/master/data/iswc " .
 
 <http://data.semanticweb.org/conference/iswc/2005/doctoral-symposium-proceedings/paper-01/author_list> a rdf:Seq ;
@@ -3089,7 +3089,7 @@
     rdfs:label "George Mason University" ;
     owl:sameAs <http://dbpedia.org/resource/George_Mason_University> ;
     foaf:member <http://data.semanticweb.org/person/kathryn-b-laskey>,
-        <http://data.semanticweb.org/person/paulo-c-g-costa> ;
+        <http://data.semanticweb.org/person/paulo-costa> ;
     foaf:name "George Mason University" .
 
 <http://data.semanticweb.org/organization/google-inc> a foaf:Organization ;
@@ -4148,12 +4148,12 @@
     swrc:affiliation <http://data.semanticweb.org/organization/florida-institute-for-human-and-machine-cognition> ;
     foaf:name "Pat Hayes" .
 
-<http://data.semanticweb.org/person/paulo-c-g-costa> a foaf:Person ;
-    rdfs:label "Paulo C. G. Costa" ;
+<http://data.semanticweb.org/person/paulo-costa> a foaf:Person ;
+    rdfs:label "Paulo Costa" ;
     swc:holdsRole <http://data.semanticweb.org/conference/iswc/2005/event-07/workshop-chair> ;
     swrc:affiliation <http://data.semanticweb.org/organization/george-mason-university> ;
     foaf:mbox_sha1sum "9ee90784167a09162a38823d4627a53700513d3f" ;
-    foaf:name "Paulo C. G. Costa" .
+    foaf:name "Paulo Costa" .
 
 <http://data.semanticweb.org/person/pavlos-moraitis> a foaf:Person ;
     rdfs:label "Pavlos Moraitis" ;
@@ -7363,7 +7363,7 @@
     swc:heldBy <http://data.semanticweb.org/person/kathryn-b-laskey>,
         <http://data.semanticweb.org/person/kenneth-j-laskey>,
         <http://data.semanticweb.org/person/michael-pool>,
-        <http://data.semanticweb.org/person/paulo-c-g-costa> ;
+        <http://data.semanticweb.org/person/paulo-costa> ;
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2005/event-07> .
 
 <http://data.semanticweb.org/conference/iswc/2005/event-08/workshop-chair> a swc:Chair ;
@@ -10676,7 +10676,7 @@
     swc:isRoleAt <http://data.semanticweb.org/conference/iswc/2005> .
 
 <http://data.semanticweb.org/organization/deri-nui-galway> a foaf:Organization ;
-    rdfs:label "DERI, NUI, Galway" ;
+    rdfs:label "DERI, NUI Galway" ;
     foaf:member <http://data.semanticweb.org/person/alice-carpentier>,
         <http://data.semanticweb.org/person/andreas-harth>,
         <http://data.semanticweb.org/person/brahmananda-sapkota>,
@@ -10704,7 +10704,7 @@
         <http://data.semanticweb.org/person/peter-capsey>,
         <http://data.semanticweb.org/person/seaghan-moriarty>,
         <http://data.semanticweb.org/person/sylvia-mcdonagh> ;
-    foaf:name "DERI, NUI, Galway" .
+    foaf:name "DERI, NUI Galway" .
 
 <http://data.semanticweb.org/conference/iswc/2005/pc-member-at-iswc2005-industrial-track> a swc:ProgrammeCommitteeMember ;
     rdfs:label "PC Member at ISWC2005 (Industrial Track)" ;

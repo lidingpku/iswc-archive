@@ -1683,7 +1683,7 @@
     rdf:_10 <http://data.semanticweb.org/person/matthias-nickles> ;
     rdf:_11 <http://data.semanticweb.org/person/mike-pool> ;
     rdf:_2 <http://data.semanticweb.org/person/rommel-carvalho> ;
-    rdf:_3 <http://data.semanticweb.org/person/paulo-c-g-costa> ;
+    rdf:_3 <http://data.semanticweb.org/person/paulo-costa> ;
     rdf:_4 <http://data.semanticweb.org/person/claudia-damato> ;
     rdf:_5 <http://data.semanticweb.org/person/nicola-fanizzi> ;
     rdf:_6 <http://data.semanticweb.org/person/kathryn-laskey> ;
@@ -4646,10 +4646,10 @@
     foaf:made <http://data.semanticweb.org/conference/iswc/2013/proceedings-1/paper-29> ;
     foaf:name "Paul Mulholland" .
 
-<http://data.semanticweb.org/person/paulo-c-g-costa> a foaf:Person ;
-    rdfs:label "Paulo C. G. Costa" ;
+<http://data.semanticweb.org/person/paulo-costa> a foaf:Person ;
+    rdfs:label "Paulo Costa" ;
     foaf:made <http://data.semanticweb.org/workshop/ursw/2013/proceedings> ;
-    foaf:name "Paulo C. G. Costa" .
+    foaf:name "Paulo Costa" .
 
 <http://data.semanticweb.org/person/pavel-shvaiko> a foaf:Person ;
     rdfs:label "Pavel Shvaiko" ;
@@ -12027,7 +12027,7 @@
         <http://data.semanticweb.org/person/matthias-nickles>,
         <http://data.semanticweb.org/person/mike-pool>,
         <http://data.semanticweb.org/person/nicola-fanizzi>,
-        <http://data.semanticweb.org/person/paulo-c-g-costa>,
+        <http://data.semanticweb.org/person/paulo-costa>,
         <http://data.semanticweb.org/person/rommel-carvalho>,
         <http://data.semanticweb.org/person/thomas-lukasiewicz>,
         <http://data.semanticweb.org/person/trevor-martin> ;
@@ -12040,7 +12040,7 @@
         <http://data.semanticweb.org/person/matthias-nickles>,
         <http://data.semanticweb.org/person/mike-pool>,
         <http://data.semanticweb.org/person/nicola-fanizzi>,
-        <http://data.semanticweb.org/person/paulo-c-g-costa>,
+        <http://data.semanticweb.org/person/paulo-costa>,
         <http://data.semanticweb.org/person/rommel-carvalho>,
         <http://data.semanticweb.org/person/thomas-lukasiewicz>,
         <http://data.semanticweb.org/person/trevor-martin> .
